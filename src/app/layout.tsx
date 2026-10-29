@@ -4,8 +4,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "CĐHA-Cập-Nhật - Thư Viện Ebook Y Khoa & Chẩn Đoán Hình Ảnh",
-  description: "Thư viện ebook y khoa lớn nhất Việt Nam. Tải sách y học, giáo trình y khoa, tài liệu y tế tiếng Việt và tiếng Anh miễn phí & VIP. Dành cho sinh viên y khoa và chuyên gia y tế.",
+  title: "CĐHA | CHẨN ĐOÁN HÌNH ẢNH – Học CĐHA qua các ca bệnh",
+  description: "Cổng thông tin & Thư viện Chẩn đoán hình ảnh: Học CĐHA qua các ca bệnh lâm sàng, bài giảng X-quang, Siêu âm, CT, MRI và tài liệu y khoa chuyên sâu.",
   keywords: [
     "ebook y khoa",
     "sách y học",
