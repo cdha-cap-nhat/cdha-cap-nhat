@@ -1,6 +1,6 @@
 # CĐHA-Cập-Nhật - Thư Viện Ebook Y Khoa & Chẩn Đoán Hình Ảnh
 
-Website Thư Viện Tài Liệu & Ebook Y Khoa Trực Tuyến - Lấy cảm hứng và tái tạo toàn diện tính năng của [gmhs.vn](https://gmhs.vn/).
+Website Thư Viện Tài Liệu & Ebook Y Khoa Trực Tuyến
 
 ## 🚀 Giới thiệu & Tính Năng Nổi Bật
 
