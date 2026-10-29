@@ -138,7 +138,7 @@ function CatalogContent() {
               <button
                 onClick={() => setSelectedFormat("all")}
                 className={`px-3 py-1.5 rounded-lg font-medium transition-all ${
-                  selectedFormat === "all" ? "bg-indigo-600 text-white" : "text-slate-400 hover:text-white"
+                  selectedFormat === "all" ? "bg-indigo-600 text-white shadow-sm" : "text-slate-600 hover:text-slate-900"
                 }`}
               >
                 Tất cả định dạng
@@ -146,7 +146,7 @@ function CatalogContent() {
               <button
                 onClick={() => setSelectedFormat("PDF")}
                 className={`px-3 py-1.5 rounded-lg font-medium transition-all ${
-                  selectedFormat === "PDF" ? "bg-indigo-600 text-white" : "text-slate-400 hover:text-white"
+                  selectedFormat === "PDF" ? "bg-indigo-600 text-white shadow-sm" : "text-slate-600 hover:text-slate-900"
                 }`}
               >
                 Ebook PDF
@@ -154,7 +154,7 @@ function CatalogContent() {
               <button
                 onClick={() => setSelectedFormat("VIDEO")}
                 className={`px-3 py-1.5 rounded-lg font-medium transition-all ${
-                  selectedFormat === "VIDEO" ? "bg-indigo-600 text-white" : "text-slate-400 hover:text-white"
+                  selectedFormat === "VIDEO" ? "bg-indigo-600 text-white shadow-sm" : "text-slate-600 hover:text-slate-900"
                 }`}
               >
                 Video bài giảng
@@ -166,7 +166,7 @@ function CatalogContent() {
               <button
                 onClick={() => setVipFilter("all")}
                 className={`px-3 py-1.5 rounded-lg font-medium transition-all ${
-                  vipFilter === "all" ? "bg-indigo-600 text-white" : "text-slate-400 hover:text-white"
+                  vipFilter === "all" ? "bg-indigo-600 text-white shadow-sm" : "text-slate-600 hover:text-slate-900"
                 }`}
               >
                 Tất cả
@@ -174,7 +174,7 @@ function CatalogContent() {
               <button
                 onClick={() => setVipFilter("free")}
                 className={`px-3 py-1.5 rounded-lg font-medium transition-all ${
-                  vipFilter === "free" ? "bg-emerald-600 text-white" : "text-slate-400 hover:text-white"
+                  vipFilter === "free" ? "bg-emerald-600 text-white shadow-sm" : "text-slate-600 hover:text-slate-900"
                 }`}
               >
                 Miễn phí
@@ -182,7 +182,7 @@ function CatalogContent() {
               <button
                 onClick={() => setVipFilter("vip")}
                 className={`px-3 py-1.5 rounded-lg font-medium transition-all ${
-                  vipFilter === "vip" ? "bg-amber-600 text-white" : "text-slate-400 hover:text-white"
+                  vipFilter === "vip" ? "bg-amber-600 text-white shadow-sm" : "text-slate-600 hover:text-slate-900"
                 }`}
               >
                 VIP
@@ -193,11 +193,11 @@ function CatalogContent() {
             <select
               value={sortBy}
               onChange={(e) => setSortBy(e.target.value as any)}
-              className="bg-white/5 border border-white/10 rounded-xl px-3 py-2 text-xs font-medium text-slate-200 focus:outline-none focus:border-indigo-500"
+              className="bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-xs font-medium text-slate-700 focus:outline-none focus:border-indigo-500 shadow-sm"
             >
-              <option value="popular" className="bg-slate-900">Xem nhiều nhất</option>
-              <option value="downloads" className="bg-slate-900">Tải nhiều nhất</option>
-              <option value="year" className="bg-slate-900">Mới xuất bản</option>
+              <option value="popular">Xem nhiều nhất</option>
+              <option value="downloads">Tải nhiều nhất</option>
+              <option value="year">Mới xuất bản</option>
             </select>
           </div>
         </div>
@@ -227,12 +227,12 @@ function CatalogContent() {
                           }}
                           className={`w-full group flex items-center justify-between py-2.5 px-3 rounded-xl transition-all text-xs font-semibold ${
                             isSelected
-                              ? "bg-indigo-600/20 text-indigo-400 border border-indigo-500/30"
-                              : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
+                              ? "bg-indigo-50 text-indigo-700 font-bold border border-indigo-200 shadow-sm"
+                              : "text-slate-600 hover:bg-slate-50 hover:text-slate-900"
                           }`}
                         >
                           <span className="truncate">{cat.name}</span>
-                          {isSelected && <Check className="w-3.5 h-3.5 shrink-0" />}
+                          {isSelected && <Check className="w-3.5 h-3.5 shrink-0 text-indigo-600" />}
                         </button>
 
                         {/* Subcategories list if selected */}
@@ -244,8 +244,8 @@ function CatalogContent() {
                                 onClick={() => setSelectedSubCategory(selectedSubCategory === sub.name ? "" : sub.name)}
                                 className={`w-full text-left py-1.5 px-2.5 rounded-lg text-[11px] transition-colors truncate block ${
                                   selectedSubCategory === sub.name
-                                    ? "text-white font-bold bg-white/10"
-                                    : "text-slate-400 hover:text-white"
+                                    ? "text-indigo-700 font-bold bg-indigo-50"
+                                    : "text-slate-500 hover:text-slate-800"
                                 }`}
                               >
                                 • {sub.name}
@@ -260,12 +260,12 @@ function CatalogContent() {
               </div>
 
               {/* VIP Upgrade Promo card in Sidebar */}
-              <div className="rounded-2xl bg-gradient-to-br from-amber-500/10 via-orange-500/10 to-transparent border border-amber-500/20 p-5 text-center space-y-3">
-                <div className="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center mx-auto">
+              <div className="rounded-2xl bg-gradient-to-br from-amber-50 via-orange-50/50 to-white border border-amber-200/80 p-5 text-center space-y-3 shadow-sm">
+                <div className="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-600 flex items-center justify-center mx-auto">
                   <Crown className="w-5 h-5" />
                 </div>
-                <h4 className="text-sm font-bold text-white">Gói Hội Viên VIP CĐHA-Cập-Nhật</h4>
-                <p className="text-xs text-slate-300 leading-relaxed">
+                <h4 className="text-sm font-bold text-slate-900">Gói Hội Viên VIP CĐHA-Cập-Nhật</h4>
+                <p className="text-xs text-slate-600 leading-relaxed">
                   Tải không giới hạn hơn 15.000 đầu sách Y Dược tốc độ cao nhất.
                 </p>
                 <a
@@ -325,7 +325,7 @@ function CatalogContent() {
 
 export default function CatalogPage() {
   return (
-    <Suspense fallback={<div className="min-h-screen bg-[#0f172a] pt-32 text-center text-slate-400">Đang tải kho tài liệu...</div>}>
+    <Suspense fallback={<div className="min-h-screen bg-slate-50 pt-32 text-center text-slate-500">Đang tải kho tài liệu...</div>}>
       <CatalogContent />
     </Suspense>
   );
