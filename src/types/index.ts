@@ -60,6 +60,7 @@ export interface Post {
   coverImage: string;
   excerpt: string;
   content: string[];
+  htmlContent?: string;
   clinicalCase?: {
     history?: string;
     findings?: string[];

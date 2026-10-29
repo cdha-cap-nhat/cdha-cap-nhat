@@ -131,12 +131,19 @@ export default function ArticleDetailPage({ params }: { params: { slug: string }
                 {post.excerpt}
               </div>
 
-              {/* Article Content Paragraphs */}
-              <div className="space-y-4 text-sm sm:text-base text-slate-700 leading-relaxed">
-                {post.content.map((p, idx) => (
-                  <p key={idx}>{p}</p>
-                ))}
-              </div>
+              {/* Article Content */}
+              {post.htmlContent ? (
+                <div
+                  className="article-body text-sm sm:text-base text-slate-700 leading-relaxed"
+                  dangerouslySetInnerHTML={{ __html: post.htmlContent }}
+                />
+              ) : (
+                <div className="space-y-4 text-sm sm:text-base text-slate-700 leading-relaxed">
+                  {post.content.map((p, idx) => (
+                    <p key={idx}>{p}</p>
+                  ))}
+                </div>
+              )}
 
               {/* Clinical Case Section (if applicable) */}
               {post.clinicalCase && (

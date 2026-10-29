@@ -70,3 +70,102 @@ body {
 .animate-book-bounce {
   animation: bookBounce 3s ease-in-out infinite;
 }
+
+/* Medical Article & Lecture Styling */
+.article-body h2 {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-top: 2rem;
+  margin-bottom: 0.85rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+.article-body h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-top: 1.5rem;
+  margin-bottom: 0.65rem;
+}
+.article-body p {
+  margin-bottom: 1rem;
+  line-height: 1.75;
+  color: #334155;
+}
+.article-body ul, .article-body ol {
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+  line-height: 1.7;
+}
+.article-body ul {
+  list-style-type: disc;
+}
+.article-body ol {
+  list-style-type: decimal;
+}
+.article-body li {
+  margin-bottom: 0.35rem;
+}
+.article-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.875rem;
+}
+.article-body th {
+  background-color: #f1f5f9;
+  font-weight: 700;
+  color: #0f172a;
+  padding: 0.75rem 1rem;
+  border: 1px solid #cbd5e1;
+  text-align: left;
+}
+.article-body td {
+  padding: 0.75rem 1rem;
+  border: 1px solid #e2e8f0;
+  color: #334155;
+}
+.article-body tr:nth-child(even) td {
+  background-color: #f8fafc;
+}
+.article-body figure {
+  margin: 1.75rem 0;
+  text-align: center;
+}
+.article-body figure img {
+  border-radius: 0.75rem;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+.article-body figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: #64748b;
+  font-style: italic;
+}
+.article-body .key-points {
+  background-color: #eff6ff;
+  border-left: 4px solid #2563eb;
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
+  margin: 1.5rem 0;
+}
+.article-body .pitfalls {
+  background-color: #fff1f2;
+  border-left: 4px solid #e11d48;
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
+  margin: 1.5rem 0;
+}
+.article-body .toc-box {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 1rem 1.25rem;
+  border-radius: 0.75rem;
+  margin: 1.25rem 0 2rem 0;
+}
+
