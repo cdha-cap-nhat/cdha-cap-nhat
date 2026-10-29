@@ -10,13 +10,10 @@ import {
   ArrowLeft,
   Share2,
   Bookmark,
-  CheckCircle2,
-  AlertCircle,
   FileText,
   Download,
   FolderOpen,
   ChevronRight,
-  Sparkles,
   BookOpen,
 } from "lucide-react";
 import { POSTS } from "@/data/posts";
@@ -145,84 +142,13 @@ export default function ArticleDetailPage({ params }: { params: { slug: string }
                 </div>
               )}
 
-              {/* Clinical Case Section (if applicable) */}
-              {post.clinicalCase && (
-                <div className="mt-8 pt-6 border-t border-slate-200 space-y-5">
-                  <h3 className="text-lg font-bold text-slate-900 flex items-center gap-2">
-                    <span className="w-2 h-5 bg-blue-600 rounded-full" />
-                    Chi Tiết Ca Bệnh Lâm Sàng
-                  </h3>
-
-                  {/* History */}
-                  {post.clinicalCase.history && (
-                    <div className="rounded-xl bg-slate-50 border border-slate-200 p-4.5 space-y-1.5">
-                      <h4 className="font-bold text-xs uppercase tracking-wider text-slate-700 flex items-center gap-1.5">
-                        <AlertCircle className="w-4 h-4 text-amber-500" />
-                        1. Bệnh cảnh & Tiền sử
-                      </h4>
-                      <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                        {post.clinicalCase.history}
-                      </p>
-                    </div>
-                  )}
-
-                  {/* Findings */}
-                  {post.clinicalCase.findings && (
-                    <div className="rounded-xl bg-slate-50 border border-slate-200 p-4.5 space-y-2">
-                      <h4 className="font-bold text-xs uppercase tracking-wider text-slate-700 flex items-center gap-1.5">
-                        <CheckCircle2 className="w-4 h-4 text-blue-600" />
-                        2. Dấu hiệu hình ảnh học
-                      </h4>
-                      <ul className="space-y-1.5 pl-2 text-xs sm:text-sm text-slate-600">
-                        {post.clinicalCase.findings.map((f, fIdx) => (
-                          <li key={fIdx} className="flex items-start gap-2">
-                            <span className="text-blue-600 font-bold shrink-0">•</span>
-                            <span>{f}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
-
-                  {/* Diagnosis */}
-                  {post.clinicalCase.diagnosis && (
-                    <div className="rounded-xl bg-emerald-50/70 border border-emerald-200 p-4.5 space-y-1">
-                      <h4 className="font-bold text-xs uppercase tracking-wider text-emerald-800">
-                        3. Chẩn đoán xác định
-                      </h4>
-                      <p className="text-sm sm:text-base font-bold text-emerald-900">
-                        {post.clinicalCase.diagnosis}
-                      </p>
-                    </div>
-                  )}
-
-                  {/* Takeaways */}
-                  {post.clinicalCase.takeaways && (
-                    <div className="rounded-xl bg-amber-50/60 border border-amber-200 p-4.5 space-y-2">
-                      <h4 className="font-bold text-xs uppercase tracking-wider text-amber-900 flex items-center gap-1.5">
-                        <Sparkles className="w-4 h-4 text-amber-600" />
-                        4. Bài học kinh nghiệm & Cạm bẫy chẩn đoán
-                      </h4>
-                      <ul className="space-y-1.5 pl-2 text-xs sm:text-sm text-slate-700">
-                        {post.clinicalCase.takeaways.map((t, tIdx) => (
-                          <li key={tIdx} className="flex items-start gap-2">
-                            <span className="text-amber-600 font-bold shrink-0">✓</span>
-                            <span>{t}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
-                </div>
-              )}
-
               {/* Download attachment if available */}
               {post.downloadUrl && (
                 <div className="p-4 rounded-xl bg-slate-100 border border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-4">
                   <div className="flex items-center gap-3">
                     <FileText className="w-8 h-8 text-blue-600 shrink-0" />
                     <div>
-                      <strong className="text-sm text-slate-900 block">Tài liệu đính kèm ca bệnh</strong>
+                      <strong className="text-sm text-slate-900 block">Tài liệu đính kèm bài giảng</strong>
                       <span className="text-xs text-slate-500">Tải toàn văn bài giảng hoặc chuyên khảo PDF</span>
                     </div>
                   </div>

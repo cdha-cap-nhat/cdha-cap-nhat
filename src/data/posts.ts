@@ -241,20 +241,6 @@ export const POSTS: Post[] = [
         </ul>
       </div>
     `,
-    clinicalCase: {
-      history: "Tầm soát định kỳ trên bệnh nhân nữ và phân tích các dạng bất thường cấu trúc trên nhũ ảnh kỹ thuật số (DM), nhũ ảnh tổng hợp (SM) và nhũ ảnh 3D cắt lớp (DBT) theo ACR BI-RADS® v2025.",
-      findings: [
-        "Xáo trộn cấu trúc (Architectural distortion): Co kéo nan hoa tỏa từ một tâm, có thể quan sát kín đáo trên DBT ngay cả trong nền mô vú rất đặc (Hình 1 - Hình 7).",
-        "Bất đối xứng toàn thể (Global asymmetry): Mô tuyến rộng ≥ 1 góc phần tư, không kèm khối hay vôi hóa, cần cảnh giác khi có dày da hoặc khối sờ thấy (Hình 8, 9).",
-        "Bất đối xứng một bình diện (Asymmetry): Chỉ thấy trên một hướng chụp, phần lớn do xảo ảnh chồng hình (summation artifact), cần DBT hoặc chụp ép khu trú để loại trừ tổn thương thực thể (Hình 10 - 14)."
-      ],
-      diagnosis: "Bộ tiêu chuẩn chẩn đoán Xáo trộn cấu trúc & Các dạng bất đối xứng tuyến vú - Cẩm nang ACR BI-RADS® v2025",
-      takeaways: [
-        "Xáo trộn cấu trúc không có tiền sử phẫu thuật phải được khuyến cáo sinh thiết mô học, ngay cả khi siêu âm không thấy tổn thương tương ứng.",
-        "ACR BI-RADS® v2025 chính thức loại bỏ thuật ngữ 'Developing Asymmetry' khỏi bảng danh mục mô tả.",
-        "DBT và SM nâng cao độ nhạy phát hiện xáo trộn cấu trúc và giải quyết triệt để các trường hợp giả tổn thương do chồng hình."
-      ]
-    },
     views: 1250,
     readTime: "12 phút đọc",
     source: "ACR BI-RADS® Mammography v2025 Manual (pp. 107-116)",
