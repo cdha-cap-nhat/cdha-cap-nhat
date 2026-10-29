@@ -1,7 +1,9 @@
 import { NextResponse } from "next/server";
+import { cookies } from "next/headers";
 import fs from "fs";
 import path from "path";
 import { POSTS } from "@/data/posts";
+import { ADMIN_TOKEN_KEY, isValidAdminToken } from "@/lib/auth";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -34,6 +36,15 @@ export async function GET(request: Request) {
 
 export async function PUT(request: Request) {
   try {
+    const cookieStore = cookies();
+    const token = cookieStore.get(ADMIN_TOKEN_KEY)?.value || request.headers.get("x-admin-token");
+    if (!isValidAdminToken(token)) {
+      return NextResponse.json(
+        { error: "Unauthorized: Yêu cầu quyền quản trị viên để chỉnh sửa bài viết" },
+        { status: 401 }
+      );
+    }
+
     const body = await request.json();
     const { slug, title, excerpt, author, readTime, htmlContent, tags } = body;
 

@@ -21,6 +21,7 @@ import Link from "next/link";
 import { BOOKS } from "@/data/books";
 import { POSTS } from "@/data/posts";
 import { CATEGORIES } from "@/data/categories";
+import AdminAuthGuard from "@/components/AdminAuthGuard";
 
 export default function AdminPage() {
   const [activeTab, setActiveTab] = useState<"posts" | "books" | "vip-requests" | "settings">("posts");
@@ -55,7 +56,8 @@ export default function AdminPage() {
   );
 
   return (
-    <div className="min-h-screen bg-[#0a0a1a] pt-32 pb-24 text-slate-200">
+    <AdminAuthGuard>
+      <div className="min-h-screen bg-[#0a0a1a] pt-32 pb-24 text-slate-200">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
         {/* Admin Header */}
         <div className="flex flex-wrap items-center justify-between gap-4 mb-8 pb-6 border-b border-white/10">
@@ -403,5 +405,6 @@ export default function AdminPage() {
         )}
       </div>
     </div>
+    </AdminAuthGuard>
   );
 }

@@ -19,6 +19,7 @@ import {
   Sparkles,
 } from "lucide-react";
 import { POSTS } from "@/data/posts";
+import AdminAuthGuard from "@/components/AdminAuthGuard";
 
 export default function AdminEditPostPage() {
   const params = useParams();
@@ -139,7 +140,8 @@ export default function AdminEditPostPage() {
   }
 
   return (
-    <div className="min-h-screen bg-[#0d1117] pt-24 pb-24 text-slate-200">
+    <AdminAuthGuard>
+      <div className="min-h-screen bg-[#0d1117] pt-24 pb-24 text-slate-200">
       <div className="max-w-[1500px] mx-auto px-4 sm:px-6">
         {/* Top Header */}
         <div className="flex flex-wrap items-center justify-between gap-4 mb-6 pb-4 border-b border-white/10">
@@ -405,5 +407,6 @@ export default function AdminEditPostPage() {
         </div>
       </div>
     </div>
+    </AdminAuthGuard>
   );
 }

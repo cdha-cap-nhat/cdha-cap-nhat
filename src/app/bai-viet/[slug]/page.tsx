@@ -23,8 +23,27 @@ import { CATEGORIES } from "@/data/categories";
 export default function ArticleDetailPage({ params }: { params: { slug: string } }) {
   const initialPost = POSTS.find((p) => p.slug === params.slug);
   const [post, setPost] = useState(initialPost);
+  const [isAdmin, setIsAdmin] = useState(false);
 
   useEffect(() => {
+    // Check if current visitor has admin rights
+    const localAuth = typeof window !== "undefined" && localStorage.getItem("cdha_admin_auth") === "true";
+    if (localAuth) {
+      setIsAdmin(true);
+    } else {
+      fetch("/api/admin/auth")
+        .then((res) => res.json())
+        .then((data) => {
+          if (data?.authenticated) {
+            setIsAdmin(true);
+            if (typeof window !== "undefined") {
+              localStorage.setItem("cdha_admin_auth", "true");
+            }
+          }
+        })
+        .catch(() => {});
+    }
+
     fetch(`/api/admin/posts?slug=${params.slug}`)
       .then((res) => res.json())
       .then((data) => {
@@ -73,14 +92,16 @@ export default function ArticleDetailPage({ params }: { params: { slug: string }
             <span className="text-slate-800 truncate max-w-sm">{post.title}</span>
           </nav>
 
-          <Link
-            href={`/admin/bai-viet/${post.slug}`}
-            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-indigo-50 hover:bg-indigo-100 text-indigo-700 text-xs font-bold border border-indigo-200 transition-all shadow-xs"
-            title="Chỉnh sửa bài giảng qua giao diện CMS Admin"
-          >
-            <Edit className="w-3.5 h-3.5" />
-            <span>Chỉnh sửa bài (Admin)</span>
-          </Link>
+          {isAdmin && (
+            <Link
+              href={`/admin/bai-viet/${post.slug}`}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-indigo-50 hover:bg-indigo-100 text-indigo-700 text-xs font-bold border border-indigo-200 transition-all shadow-xs"
+              title="Chỉnh sửa bài giảng qua giao diện CMS Admin"
+            >
+              <Edit className="w-3.5 h-3.5" />
+              <span>Chỉnh sửa bài (Admin)</span>
+            </Link>
+          )}
         </div>
 
         {/* 2-Column Layout */}

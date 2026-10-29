@@ -22,6 +22,7 @@ export const POSTS: Post[] = [
     ],
     htmlContent: `
 
+
       <div class="toc-box">
         <h4 class="font-bold text-slate-900 text-sm mb-2 uppercase tracking-wide">Mục Lục Bài Giảng</h4>
         <ul class="text-xs space-y-1.5 text-blue-700">
@@ -107,7 +108,7 @@ export const POSTS: Post[] = [
 
       <h2 id="phan-4-tong-quan-bat-doi-xung">4. Các dạng bất đối xứng (Asymmetries) & Điểm mới BI-RADS® v2025</h2>
       <p>
-        <strong>Định nghĩa cốt lõi:</strong> Các dạng bất đối xứng là những vùng mô khu trú ở một bên vú, được phát hiện do <strong>không có vùng mô tương ứng ở vị trí đối xứng gương (mirror image location)</strong> tại vú đối bên.
+        <strong>Định nghĩa cốt lõi:</strong> Các dạng bất đối xứng là những vùng mô khu trú ở một bên vú, được phát hiện do <strong>không có vùng mô tương ứng ở vị trí đối xứng </strong> tại vú đối bên.
       </p>
       <ul>
         <li><strong>Đặc điểm nhận diện:</strong> Thường có bờ lõm (concave contours) và bên trong thường có mỡ xen kẽ (interspersed with fat).</li>
@@ -117,7 +118,7 @@ export const POSTS: Post[] = [
       <p>Hệ thống ACR BI-RADS® phân chia bất đối xứng thành 3 phân loại chính:</p>
       <ol>
         <li><strong>Bất đối xứng toàn thể (Global Asymmetry)</strong></li>
-        <li><strong>Bất đối xứng một bình diện (Asymmetry)</strong></li>
+        <li><strong>Bất đối xứng (Asymmetry)</strong></li>
         <li><strong>Bất đối xứng khu trú (Focal Asymmetry)</strong></li>
       </ol>
 
@@ -189,7 +190,7 @@ export const POSTS: Post[] = [
               <th>Đặc Điểm Nhũ Ảnh</th>
               <th>Xáo Trộn Cấu Trúc (Architectural Distortion)</th>
               <th>Bất Đối Xứng Toàn Thể (Global Asymmetry)</th>
-              <th>Bất Đối Xứng Một Bình Diện (Asymmetry)</th>
+              <th>Bất Đối Xứng (Asymmetry)</th>
             </tr>
           </thead>
           <tbody>
@@ -241,6 +242,7 @@ export const POSTS: Post[] = [
           <li><strong>Xem thường bất đối xứng một bình diện:</strong> Dù đa số là lành tính do chồng ảnh, nhưng nếu tổn thương xuất hiện liên tục trên nhiều lát cắt DBT cùng vị trí, đó là tổn thương có thể tích thực sự và cần triệu tập làm chẩn đoán chuyên sâu ngay lập tức.</li>
         </ul>
       </div>
+    
     
     `,
     views: 1250,
