@@ -47,9 +47,11 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           {/* Logo Title */}
           <Link href="/" className="group flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center font-black text-sm shadow-sm group-hover:bg-blue-700 transition-colors shrink-0">
-              CĐHA
-            </div>
+            <img
+              src="/logo.jpg"
+              alt="CĐHA CẬP NHẬT Logo"
+              className="w-11 h-11 sm:w-12 sm:h-12 object-contain rounded-full shadow-xs shrink-0 group-hover:scale-105 transition-transform bg-white border border-slate-200/80"
+            />
             <div>
               <div className="flex items-center gap-2">
                 <span className="text-lg sm:text-xl font-extrabold text-slate-900 tracking-tight group-hover:text-blue-600 transition-colors uppercase">

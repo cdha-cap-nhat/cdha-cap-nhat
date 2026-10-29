@@ -16,9 +16,11 @@ export default function Footer() {
           {/* Brand info */}
           <div className="lg:col-span-5 space-y-4">
             <Link href="/" className="flex items-center gap-3 group">
-              <div className="w-10 h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center font-black text-sm shrink-0 shadow-sm">
-                CĐHA
-              </div>
+              <img
+                src="/logo.jpg"
+                alt="CĐHA CẬP NHẬT Logo"
+                className="w-11 h-11 object-contain rounded-full shrink-0 shadow-sm bg-white p-0.5 border border-slate-700"
+              />
               <div>
                 <span className="block text-base font-extrabold text-white tracking-tight uppercase">
                   CĐHA | CẬP NHẬT

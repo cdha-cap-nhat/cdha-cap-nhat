@@ -6,6 +6,10 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "CĐHA | CẬP NHẬT – CĐHA Cập nhật qua các khoá học video bài giảng hàng đầu trên thế giới",
   description: "CĐHA Cập nhật qua các khoá học video bài giảng hàng đầu trên thế giới: Bài giảng X-quang, Siêu âm, CT, MRI, Can thiệp và tài liệu y khoa chuyên sâu.",
+  icons: {
+    icon: "/logo.jpg",
+    apple: "/logo.jpg",
+  },
   keywords: [
     "khóa học cđha",
     "video bài giảng chẩn đoán hình ảnh",
