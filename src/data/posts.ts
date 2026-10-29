@@ -67,41 +67,41 @@ export const POSTS: Post[] = [
         Khi không có tiền sử chấn thương hoặc phẫu thuật vú trước đó, việc <strong>khuyến cáo chẩn đoán mô học (sinh thiết có định vị nhũ ảnh/DBT) là hoàn toàn phù hợp và bắt buộc</strong>, ngay cả khi khảo sát siêu âm đối chiếu không tìm thấy tổn thương tương ứng (no ultrasound correlate).
       </div>
 
-      <h2 id="phan-3-cac-ca-xao-tron-cau-truc">3. Ca bệnh minh họa: Xáo trộn cấu trúc (Hình 1 - Hình 7)</h2>
+      <h2 id="phan-3-cac-ca-xao-tron-cau-truc">3. Ca bệnh minh họa: Xáo trộn cấu trúc (Figure 1 – Figure 7)</h2>
 
       <figure>
-        <img src="/posts/birads-v2025/fig1_arch_distortion_dbt_idc.jpg" alt="Xáo trộn cấu trúc trên DBT do Ung thư biểu mô thể ống xâm nhập" />
-        <figcaption><strong>Hình 1 – XÁO TRỘN CẤU TRÚC (DBT):</strong> Vùng co kéo cấu trúc tỏa nan hoa sắc nét trên lát cắt DBT. Kết quả giải phẫu bệnh: Ung thư biểu mô tuyến vú thể ống xâm nhập (Invasive ductal carcinoma - IDC).</figcaption>
+        <img src="/posts/birads-v2025/fig1_arch_distortion_dbt_idc.jpg" alt="Figure 1 – ARCHITECTURAL DISTORTION (DBT)" />
+        <figcaption><strong>Figure 1 – XÁO TRỘN CẤU TRÚC (DBT).</strong> Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập (Invasive ductal carcinoma).</figcaption>
       </figure>
 
       <figure>
-        <img src="/posts/birads-v2025/fig2_arch_distortion_sclerosing_adenosis.jpg" alt="Xáo trộn cấu trúc do Bệnh tuyến xơ cứng" />
-        <figcaption><strong>Hình 2 – XÁO TRỘN CẤU TRÚC (DBT):</strong> Hình ảnh co kéo mô tuyến vú ngoại vi. Kết quả giải phẫu bệnh sau sinh thiết: Bệnh tuyến xơ cứng (Sclerosing adenosis - tổn thương tăng sinh lành tính).</figcaption>
+        <img src="/posts/birads-v2025/fig2_arch_distortion_sclerosing_adenosis.jpg" alt="Figure 2 – ARCHITECTURAL DISTORTION (DBT)" />
+        <figcaption><strong>Figure 2 – XÁO TRỘN CẤU TRÚC (DBT).</strong> Giải phẫu bệnh: Bệnh tuyến xơ cứng (Sclerosing adenosis).</figcaption>
       </figure>
 
       <figure>
-        <img src="/posts/birads-v2025/fig3_arch_distortion_idc.jpg" alt="Xáo trộn cấu trúc nan hoa trên DBT - IDC" />
-        <figcaption><strong>Hình 3 – XÁO TRỘN CẤU TRÚC (DBT):</strong> Các dải co kéo dạng sao tỏa ra từ một tâm nhỏ thấu quang. Kết quả giải phẫu bệnh: Ung thư biểu mô tuyến vú thể ống xâm nhập (Invasive ductal carcinoma).</figcaption>
+        <img src="/posts/birads-v2025/fig3_arch_distortion_idc.jpg" alt="Figure 3 – ARCHITECTURAL DISTORTION (DBT)" />
+        <figcaption><strong>Figure 3 – XÁO TRỘN CẤU TRÚC (DBT).</strong> Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập (Invasive ductal carcinoma).</figcaption>
       </figure>
 
       <figure>
-        <img src="/posts/birads-v2025/fig4_arch_distortion_dense_tissue.jpg" alt="Xáo trộn cấu trúc kín đáo trong mô vú đặc trên DBT" />
-        <figcaption><strong>Hình 4 – XÁO TRỘN CẤU TRÚC (DBT):</strong> Một tổn thương xáo trộn cấu trúc rất kín đáo (mũi tên) ẩn bên trong nền mô xơ tuyến cực kỳ đặc, khẳng định vai trò vượt trội của DBT trong việc xóa mờ hiện tượng chồng ảnh. Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập (IDC).</figcaption>
+        <img src="/posts/birads-v2025/fig4_arch_distortion_dense_tissue.jpg" alt="Figure 4 – ARCHITECTURAL DISTORTION (DBT)" />
+        <figcaption><strong>Figure 4 – XÁO TRỘN CẤU TRÚC (DBT).</strong> Một xáo trộn cấu trúc kín đáo được thể hiện bên trong mô rất đặc (mũi tên), cho thấy hiệu quả của DBT trong việc phát hiện chúng. Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập (Invasive ductal carcinoma).</figcaption>
       </figure>
 
       <figure>
-        <img src="/posts/birads-v2025/fig5_arch_distortion_sm_idc.jpg" alt="Xáo trộn cấu trúc trên nhũ ảnh tổng hợp SM" />
-        <figcaption><strong>Hình 5 – XÁO TRỘN CẤU TRÚC (SM):</strong> Dấu hiệu co kéo rõ nét (mũi tên) được tái tạo trên nhũ ảnh tổng hợp 2D (SM). Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập (Invasive ductal carcinoma).</figcaption>
+        <img src="/posts/birads-v2025/fig5_arch_distortion_sm_idc.jpg" alt="Figure 5 – ARCHITECTURAL DISTORTION (arrow) (SM)" />
+        <figcaption><strong>Figure 5 – XÁO TRỘN CẤU TRÚC (mũi tên) (SM).</strong> Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập (Invasive ductal carcinoma).</figcaption>
       </figure>
 
       <figure>
-        <img src="/posts/birads-v2025/fig6_arch_distortion_postsurgical.jpg" alt="Xáo trộn cấu trúc do sẹo sau phẫu thuật vú" />
-        <figcaption><strong>Hình 6 – XÁO TRỘN CẤU TRÚC (DBT):</strong> Hình ảnh xáo trộn co kéo rộng tỏa nan hoa ở bệnh nhân có tiền sử phẫu thuật vú trước đó. Giải phẫu bệnh: Thay đổi sau phẫu thuật (Postsurgical changes / Scarring).</figcaption>
+        <img src="/posts/birads-v2025/fig6_arch_distortion_postsurgical.jpg" alt="Figure 6 – ARCHITECTURAL DISTORTION (DBT)" />
+        <figcaption><strong>Figure 6 – XÁO TRỘN CẤU TRÚC (DBT).</strong> Giải phẫu bệnh: Thay đổi sau phẫu thuật (Postsurgical changes).</figcaption>
       </figure>
 
       <figure>
-        <img src="/posts/birads-v2025/fig7_arch_distortion_radial_scar.jpg" alt="Xáo trộn cấu trúc sẹo hình sao trên DBT" />
-        <figcaption><strong>Hình 7 – XÁO TRỘN CẤU TRÚC (DBT):</strong> Mặc dù hình thái tổn thương rất nghi ngờ ác tính trên nhũ ảnh, việc sinh thiết lấy mẫu qua da đầy đủ và đối chiếu X-quang – giải phẫu bệnh chặt chẽ đã xác nhận bản chất lành tính: <em>Sẹo hình sao (Radial scar)</em>.</figcaption>
+        <img src="/posts/birads-v2025/fig7_arch_distortion_radial_scar.jpg" alt="Figure 7 – ARCHITECTURAL DISTORTION (DBT)" />
+        <figcaption><strong>Figure 7 – XÁO TRỘN CẤU TRÚC (DBT).</strong> Mặc dù hình thái có vẻ nghi ngờ, việc lấy mẫu qua da kỹ lưỡng và đối chiếu X-quang – giải phẫu bệnh cẩn thận đã cho phép xác nhận bản chất lành tính của nó. Giải phẫu bệnh: Sẹo hình sao (Radial scar).</figcaption>
       </figure>
 
       <h2 id="phan-4-tong-quan-bat-doi-xung">4. Các dạng bất đối xứng (Asymmetries) & Điểm mới BI-RADS® v2025</h2>
@@ -134,13 +134,13 @@ export const POSTS: Post[] = [
       </div>
 
       <figure>
-        <img src="/posts/birads-v2025/fig8_global_asymmetry_benign.jpg" alt="Bất đối xứng toàn thể lành tính ổn định nhiều năm" />
-        <figcaption><strong>Hình 8 (Page 112 - Figure 1) – BẤT ĐỐI XỨNG TOÀN THỂ LÀNH TÍNH:</strong> Trên hai thế chụp (A) MLO và (B) CC nhũ ảnh tổng hợp (SM). Nhu mô vú trái phát triển nhiều hơn hẳn vú phải nhưng bờ lõm, xen kẽ mỡ đồng nhất, không kèm co kéo hay vi vôi hóa. Tổn thương hoàn toàn ổn định qua nhiều năm theo dõi.</figcaption>
+        <img src="/posts/birads-v2025/fig8_global_asymmetry_benign.jpg" alt="Figure 1 – GLOBAL ASYMMETRY (A) MLO and (B) CC (SM)" />
+        <figcaption><strong>Figure 1 – BẤT ĐỐI XỨNG TOÀN THỂ (A) MLO và (B) CC (SM).</strong> Lành tính - ổn định qua nhiều năm.</figcaption>
       </figure>
 
       <figure>
-        <img src="/posts/birads-v2025/fig9_global_asymmetry_locally_advanced_idc.jpg" alt="Bất đối xứng toàn thể vú trái ác tính kèm dày da" />
-        <figcaption><strong>Hình 9 (Page 113 - Figure 2) – BẤT ĐỐI XỨNG TOÀN THỂ ÁC TÍNH (Vú trái trên DM):</strong> Chú ý dấu hiệu dày da lan tỏa ở vú trái. Tổn thương này sờ thấy được trên lâm sàng (được đánh dấu bằng miếng dán da hình tam giác). Mặc dù đa số bất đối xứng toàn thể là lành tính, nhưng khi kết hợp với triệu chứng lâm sàng hoặc hình ảnh nghi ngờ phải tiếp cận hết sức thận trọng. Giải phẫu bệnh: Ung thư biểu mô tuyến vú thể ống xâm nhập giai đoạn tiến triển tại chỗ (Locally advanced IDC).</figcaption>
+        <img src="/posts/birads-v2025/fig9_global_asymmetry_locally_advanced_idc.jpg" alt="Figure 2 – GLOBAL ASYMMETRY - left breast (DM)" />
+        <figcaption><strong>Figure 2 – BẤT ĐỐI XỨNG TOÀN THỂ - vú trái (DM).</strong> Lưu ý dày da vú trái. Dấu hiệu này sờ thấy được (xem điểm đánh dấu da hình tam giác). Mặc dù hầu hết bất đối xứng toàn thể là lành tính và do phát triển, chúng nên được tiếp cận một cách thận trọng nếu liên quan đến các dấu hiệu lâm sàng hoặc bất kỳ dấu hiệu hình ảnh nghi ngờ nào. Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập tiến triển tại chỗ (Locally advanced invasive ductal carcinoma).</figcaption>
       </figure>
 
       <h2 id="phan-6-bat-doi-xung-mot-binh-dien">6. Bất đối xứng một bình diện (Asymmetry) & Ca minh họa</h2>
@@ -156,28 +156,28 @@ export const POSTS: Post[] = [
       </ul>
 
       <figure>
-        <img src="/posts/birads-v2025/fig10_asymmetry_cc_view_stable.jpg" alt="Bất đối xứng chỉ thấy trên thế CC ổn định lành tính" />
-        <figcaption><strong>Hình 10 (Page 114 - Figure 1) – BẤT ĐỐI XỨNG MỘT BÌNH DIỆN:</strong> (A) Thế MLO và (B) Thế CC trên nhũ ảnh tổng hợp (SM). Vùng mô đậm đặc chỉ nhìn thấy trên hướng chụp CC, hoàn toàn không thấy trên MLO và không có mô tương ứng ở vú đối bên. Theo dõi ổn định qua nhiều năm, lành tính.</figcaption>
+        <img src="/posts/birads-v2025/fig10_asymmetry_cc_view_stable.jpg" alt="Figure 1 – ASYMMETRY (A) MLO and (B) CC (SM)" />
+        <figcaption><strong>Figure 1 – BẤT ĐỐI XỨNG (A) MLO và (B) CC (SM).</strong> Mô chỉ nhìn thấy trên thế CC. Không thấy mô tương ứng ở vú đối bên. Ổn định qua nhiều năm, lành tính.</figcaption>
       </figure>
 
       <figure>
-        <img src="/posts/birads-v2025/fig11_asymmetry_summation_artifact.jpg" alt="Bất đối xứng do xảo ảnh chồng hình biến mất sau 1 năm" />
-        <figcaption><strong>Hình 11 (Page 115 - Figure 2) – XẢO ẢNH CHỒNG HÌNH (SUMMATION ARTIFACT):</strong> Vùng mô đậm ở góc ngoài vú phải chỉ thấy trên thế CC (hình bên phải). Nghĩ nhiều đến xảo ảnh cộng dồn. Kiểm tra nhũ ảnh tầm soát 1 năm sau hoàn toàn biến mất.</figcaption>
+        <img src="/posts/birads-v2025/fig11_asymmetry_summation_artifact.jpg" alt="Figure 2 – ASYMMETRY (DM)" />
+        <figcaption><strong>Figure 2 – BẤT ĐỐI XỨNG (DM).</strong> Lưu ý vùng mô đặc ở phía ngoài vú phải chỉ thấy trên thế CC (hình bên phải). Được cho là biểu hiện của xảo ảnh chồng hình (summation artifact). Không còn thấy bất đối xứng ở lần khám tầm soát tiếp theo sau 1 năm.</figcaption>
       </figure>
 
       <figure>
-        <img src="/posts/birads-v2025/fig12_asymmetry_triangular_superimposed.jpg" alt="Bất đối xứng hình tam giác do chồng mô" />
-        <figcaption><strong>Hình 12 (Page 115 - Figure 3) – BẤT ĐỐI XỨNG DẠNG TAM GIÁC (SM):</strong> Vùng mô hình tam giác rõ rệt (mũi tên), tuy nhiên bờ lõm và có mỡ xen kẽ, chỉ thấy trên một hướng chụp nên không thỏa tiêu chuẩn khối u. Khảo sát chẩn đoán bổ sung xác nhận đây là hiện tượng chồng lấp mô tuyến bình thường.</figcaption>
+        <img src="/posts/birads-v2025/fig12_asymmetry_triangular_superimposed.jpg" alt="Figure 3 – ASYMMETRY (SM)" />
+        <figcaption><strong>Figure 3 – BẤT ĐỐI XỨNG (SM).</strong> Vùng mô hình tam giác này (mũi tên), mặc dù rõ nét, không đáp ứng các tiêu chuẩn của một khối (nó chỉ được nhìn thấy trên một bình diện, có bờ lõm và mỡ xen kẽ). Không có dấu hiệu tương ứng ở vú đối bên. Do đó, nó được xếp loại là bất đối xứng. Đánh giá chẩn đoán xác nhận rằng nó đại diện cho mô chồng lấp.</figcaption>
       </figure>
 
       <figure>
-        <img src="/posts/birads-v2025/fig13_asymmetry_pash.jpg" alt="Bất đối xứng trên SM - PASH" />
-        <figcaption><strong>Hình 13 (Page 116 - Figure 4) – BẤT ĐỐI XỨNG TRÊN SM:</strong> Vùng bất đối xứng khu trú ngoại vi. Kết quả sinh thiết giải phẫu bệnh: Tăng sản mô đệm giả mạch (Pseudoangiomatous stromal hyperplasia - PASH).</figcaption>
+        <img src="/posts/birads-v2025/fig13_asymmetry_pash.jpg" alt="Figure 4 – ASYMMETRY (SM)" />
+        <figcaption><strong>Figure 4 – BẤT ĐỐI XỨNG (SM).</strong> Giải phẫu bệnh: PASH.</figcaption>
       </figure>
 
       <figure>
-        <img src="/posts/birads-v2025/fig14_asymmetry_dm_dbt_persisting_idc.jpg" alt="Bất đối xứng tồn tại dai dẳng trên DBT - Ung thư biểu mô thể ống IDC" />
-        <figcaption><strong>Hình 14 (Page 116 - Figure 5) – BẤT ĐỐI XỨNG TỒN TẠI TRÊN DBT:</strong> Ban đầu chỉ thấy trên phim tầm soát 2D (A), nhưng trên lát cắt DBT (B) tổn thương thể hiện rõ thể tích và tồn tại dai dẳng khi chụp chẩn đoán bổ sung. Khuyến cáo sinh thiết. Giải phẫu bệnh: Ung thư biểu mô tuyến vú thể ống xâm nhập (Invasive ductal carcinoma - IDC).</figcaption>
+        <img src="/posts/birads-v2025/fig14_asymmetry_dm_dbt_persisting_idc.jpg" alt="Figure 5 – ASYMMETRY (A) DM and (B) DBT slice" />
+        <figcaption><strong>Figure 5 – BẤT ĐỐI XỨNG (A) DM và (B) lát cắt DBT.</strong> Không có dấu hiệu tương ứng trên các thế chụp tầm soát khác, vì vậy dấu hiệu này được xếp loại là bất đối xứng. Tuy nhiên, do đậm độ của tổn thương và sự tồn tại dai dẳng của nó trong các khảo sát chẩn đoán tiếp theo, sinh thiết đã được khuyến cáo. Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập (Invasive ductal carcinoma).</figcaption>
       </figure>
 
       <h2 id="phan-7-bang-so-sanh">7. Bảng tổng hợp so sánh & Lưu đồ xử trí</h2>
