@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "CĐHA | CHẨN ĐOÁN HÌNH ẢNH – CĐHA Cập nhật qua các khoá học video bài giảng hàng đầu trên thế giới",
+  title: "CĐHA | CẬP NHẬT – CĐHA Cập nhật qua các khoá học video bài giảng hàng đầu trên thế giới",
   description: "CĐHA Cập nhật qua các khoá học video bài giảng hàng đầu trên thế giới: Bài giảng X-quang, Siêu âm, CT, MRI, Can thiệp và tài liệu y khoa chuyên sâu.",
   keywords: [
     "khóa học cđha",

@@ -53,7 +53,7 @@ export default function Navbar() {
             <div>
               <div className="flex items-center gap-2">
                 <span className="text-lg sm:text-xl font-extrabold text-slate-900 tracking-tight group-hover:text-blue-600 transition-colors uppercase">
-                  CĐHA | CHẨN ĐOÁN HÌNH ẢNH
+                  CĐHA | CẬP NHẬT
                 </span>
               </div>
               <p className="text-xs text-slate-500 font-medium italic">

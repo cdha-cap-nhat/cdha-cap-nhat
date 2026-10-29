@@ -21,7 +21,7 @@ export default function Footer() {
               </div>
               <div>
                 <span className="block text-base font-extrabold text-white tracking-tight uppercase">
-                  CĐHA | CHẨN ĐOÁN HÌNH ẢNH
+                  CĐHA | CẬP NHẬT
                 </span>
                 <span className="text-xs text-blue-400 font-medium italic block">
                   CĐHA Cập nhật qua các khoá học video bài giảng hàng đầu trên thế giới
@@ -116,7 +116,7 @@ export default function Footer() {
       <div className="border-t border-slate-800 bg-[#080d1a] py-4 px-4 sm:px-6 text-xs text-slate-500">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
           <p>
-            © 2026 <strong className="text-slate-300">CĐHA | CHẨN ĐOÁN HÌNH ẢNH</strong> – CĐHA Cập nhật qua các khoá học video bài giảng hàng đầu trên thế giới.
+            © 2026 <strong className="text-slate-300">CĐHA | CẬP NHẬT</strong> – CĐHA Cập nhật qua các khoá học video bài giảng hàng đầu trên thế giới.
           </p>
           <div className="flex items-center gap-1.5 text-slate-400">
             <ShieldCheck className="w-3.5 h-3.5 text-blue-500" />
