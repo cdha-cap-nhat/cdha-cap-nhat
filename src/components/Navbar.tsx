@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import {
@@ -10,12 +10,7 @@ import {
   ChevronDown,
   BookOpen,
   FileQuestion,
-  Stethoscope,
-  Activity,
-  Layers,
-  Radio,
-  Sparkles,
-  MonitorPlay,
+  Video,
 } from "lucide-react";
 import { CATEGORIES } from "@/data/categories";
 import { POSTS } from "@/data/posts";
@@ -45,26 +40,9 @@ export default function Navbar() {
     }
   };
 
-  const ultrasoundItems = [
-    { name: "Tim", slug: "tim" },
-    { name: "Bụng TQ", slug: "bung-tq" },
-    { name: "Phụ khoa", slug: "phu-khoa" },
-    { name: "Phần mềm CXK", slug: "phan-mem-cxk" },
-    { name: "Thai", slug: "thai" },
-    { name: "Mạch máu", slug: "mach-mau" },
-  ];
-
-  const bookItems = [
-    { name: "TNTC – Ca Lâm Sàng", slug: "tntc-ca-lam-sang" },
-    { name: "Radiopaedia", slug: "radiopaedia" },
-    { name: "Rumack Diagnostic Ultrasound", slug: "rumack" },
-    { name: "The Fetus.net", slug: "the-fetus-net" },
-    { name: "Tạp chí - Báo cáo CĐHA", slug: "tap-chi-bao-cao" },
-  ];
-
   return (
     <header className="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-xs">
-      {/* Top Header Branding Banner matching cdha.edu.vn */}
+      {/* Top Header Branding Banner */}
       <div className="border-b border-slate-100 bg-slate-50/70 py-3 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           {/* Logo Title */}
@@ -79,7 +57,7 @@ export default function Navbar() {
                 </span>
               </div>
               <p className="text-xs text-slate-500 font-medium italic">
-                Học CĐHA qua các ca bệnh & Thư viện Y khoa
+                CĐHA Cập nhật qua các khoá học video bài giảng hàng đầu trên thế giới
               </p>
             </div>
           </Link>
@@ -89,7 +67,7 @@ export default function Navbar() {
             <form onSubmit={handleSearchSubmit} className="relative flex items-center">
               <input
                 type="text"
-                placeholder="Tìm ca bệnh, bài viết, kỹ thuật..."
+                placeholder="Tìm bài giảng, video, chuyên ngành..."
                 value={searchQuery}
                 onChange={(e) => {
                   setSearchQuery(e.target.value);
@@ -111,7 +89,7 @@ export default function Navbar() {
             {showSearchDropdown && searchResults.length > 0 && (
               <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-slate-200 rounded-xl shadow-xl p-2 z-50 text-xs">
                 <div className="text-[10px] uppercase font-bold text-slate-400 px-2 py-1">
-                  Ca bệnh / Bài viết phù hợp:
+                  Bài giảng phù hợp:
                 </div>
                 {searchResults.map((post) => (
                   <Link
@@ -142,55 +120,6 @@ export default function Navbar() {
               Trang chủ
             </Link>
 
-            {/* Dropdown Siêu âm */}
-            <div
-              className="relative group"
-              onMouseEnter={() => setActiveDropdown("sieu-am")}
-              onMouseLeave={() => setActiveDropdown(null)}
-            >
-              <button
-                className="flex items-center gap-1 px-3.5 py-2.5 rounded-lg hover:text-blue-600 hover:bg-blue-50 transition-colors"
-              >
-                <span>Siêu âm</span>
-                <ChevronDown className="w-3.5 h-3.5" />
-              </button>
-
-              {activeDropdown === "sieu-am" && (
-                <div className="absolute top-full left-0 w-48 bg-white border border-slate-200 rounded-xl shadow-lg py-1.5 z-50 animate-in fade-in duration-150 normal-case">
-                  {ultrasoundItems.map((item) => (
-                    <Link
-                      key={item.slug}
-                      href={`/?modality=sieu-am&sub=${item.slug}`}
-                      className="block px-4 py-2 text-xs text-slate-700 hover:bg-blue-50 hover:text-blue-600 font-semibold transition-colors"
-                    >
-                      {item.name}
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
-
-            <Link
-              href="/?modality=ct"
-              className="px-3.5 py-2.5 rounded-lg hover:text-blue-600 hover:bg-blue-50 transition-colors"
-            >
-              CT
-            </Link>
-
-            <Link
-              href="/?modality=mri"
-              className="px-3.5 py-2.5 rounded-lg hover:text-blue-600 hover:bg-blue-50 transition-colors"
-            >
-              MRI
-            </Link>
-
-            <Link
-              href="/?modality=xq"
-              className="px-3.5 py-2.5 rounded-lg hover:text-blue-600 hover:bg-blue-50 transition-colors"
-            >
-              XQ
-            </Link>
-
             {/* Dropdown Chuyên ngành CĐHA (8 chuyên ngành) */}
             <div
               className="relative group"
@@ -219,49 +148,12 @@ export default function Navbar() {
               )}
             </div>
 
-            {/* Dropdown Đọc sách cho vui / Tủ sách */}
-            <div
-              className="relative group"
-              onMouseEnter={() => setActiveDropdown("doc-sach")}
-              onMouseLeave={() => setActiveDropdown(null)}
-            >
-              <button
-                className="flex items-center gap-1 px-3.5 py-2.5 rounded-lg hover:text-blue-600 hover:bg-blue-50 transition-colors"
-              >
-                <span>Đọc sách cho vui</span>
-                <ChevronDown className="w-3.5 h-3.5" />
-              </button>
-
-              {activeDropdown === "doc-sach" && (
-                <div className="absolute top-full left-0 w-64 bg-white border border-slate-200 rounded-xl shadow-lg py-1.5 z-50 animate-in fade-in duration-150 normal-case">
-                  {bookItems.map((item) => (
-                    <Link
-                      key={item.slug}
-                      href={`/?source=${item.slug}`}
-                      className="block px-4 py-2 text-xs text-slate-700 hover:bg-blue-50 hover:text-blue-600 font-semibold transition-colors"
-                    >
-                      {item.name}
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
-
-            <Link
-              href="/pacs"
-              className="px-3.5 py-2.5 rounded-lg text-indigo-700 bg-indigo-50/80 hover:bg-indigo-100 transition-colors flex items-center gap-1.5"
-            >
-              <MonitorPlay className="w-3.5 h-3.5 text-indigo-600" />
-              <span>Hệ thống PACS</span>
-              <span className="px-1.5 py-0.5 bg-indigo-600 text-white text-[9px] font-black rounded-full leading-none">MỚI</span>
-            </Link>
-
             <Link
               href="/yeu-cau-sach"
-              className="px-3.5 py-2.5 rounded-lg hover:text-blue-600 hover:bg-blue-50 transition-colors flex items-center gap-1"
+              className="px-3.5 py-2.5 rounded-lg hover:text-blue-600 hover:bg-blue-50 transition-colors flex items-center gap-1.5"
             >
               <FileQuestion className="w-3.5 h-3.5 text-blue-600" />
-              <span>Yêu cầu tài liệu</span>
+              <span>Yêu cầu tài liệu & bài giảng</span>
             </Link>
           </nav>
 
@@ -303,28 +195,6 @@ export default function Navbar() {
             </Link>
 
             <div className="px-3 py-1 text-[11px] font-bold text-slate-400 uppercase tracking-wider">
-              Siêu âm
-            </div>
-            <div className="grid grid-cols-2 gap-1 pl-3">
-              {ultrasoundItems.map((item) => (
-                <Link
-                  key={item.slug}
-                  href={`/?modality=sieu-am&sub=${item.slug}`}
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="py-1.5 text-slate-600 hover:text-blue-600"
-                >
-                  • {item.name}
-                </Link>
-              ))}
-            </div>
-
-            <div className="grid grid-cols-3 gap-2 px-3 py-2 border-y border-slate-100">
-              <Link href="/?modality=ct" onClick={() => setMobileMenuOpen(false)} className="text-center py-1.5 bg-slate-100 rounded-lg font-bold">CT</Link>
-              <Link href="/?modality=mri" onClick={() => setMobileMenuOpen(false)} className="text-center py-1.5 bg-slate-100 rounded-lg font-bold">MRI</Link>
-              <Link href="/?modality=xq" onClick={() => setMobileMenuOpen(false)} className="text-center py-1.5 bg-slate-100 rounded-lg font-bold">XQ</Link>
-            </div>
-
-            <div className="px-3 py-1 text-[11px] font-bold text-slate-400 uppercase tracking-wider">
               8 Chuyên ngành CĐHA
             </div>
             <div className="grid grid-cols-2 gap-1 pl-3">
@@ -342,29 +212,18 @@ export default function Navbar() {
 
             <div className="pt-2 border-t border-slate-100 px-3 space-y-1.5">
               <Link
-                href="/pacs"
-                onClick={() => setMobileMenuOpen(false)}
-                className="flex items-center justify-between py-2.5 px-3 bg-indigo-50 border border-indigo-200 rounded-xl text-indigo-700 font-bold"
-              >
-                <div className="flex items-center gap-2">
-                  <MonitorPlay className="w-4 h-4 text-indigo-600" />
-                  <span>Hệ thống PACS (Đọc phim trực tuyến)</span>
-                </div>
-                <span className="px-1.5 py-0.5 bg-indigo-600 text-white text-[9px] font-black rounded-full leading-none">MỚI</span>
-              </Link>
-              <Link
                 href="/danh-muc"
                 onClick={() => setMobileMenuOpen(false)}
                 className="block py-2 text-blue-600 font-bold"
               >
-                📚 Kho Ebook Y Khoa & Sách CĐHA
+                📚 Kho Ebook Y Khoa
               </Link>
               <Link
                 href="/yeu-cau-sach"
                 onClick={() => setMobileMenuOpen(false)}
                 className="block py-2 text-slate-700 font-bold"
               >
-                ✍️ Gửi yêu cầu tài liệu mới
+                ✍️ Gửi yêu cầu tài liệu & bài giảng
               </Link>
             </div>
           </div>

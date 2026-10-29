@@ -1,13 +1,11 @@
 import React from "react";
 import Link from "next/link";
 import {
-  BookOpen,
   Mail,
   Send,
   HeartHandshake,
   ShieldCheck,
-  Stethoscope,
-  MonitorPlay,
+  Video,
 } from "lucide-react";
 
 export default function Footer() {
@@ -16,7 +14,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 pb-12">
           {/* Brand info */}
-          <div className="lg:col-span-4 space-y-4">
+          <div className="lg:col-span-5 space-y-4">
             <Link href="/" className="flex items-center gap-3 group">
               <div className="w-10 h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center font-black text-sm shrink-0 shadow-sm">
                 CĐHA
@@ -25,14 +23,14 @@ export default function Footer() {
                 <span className="block text-base font-extrabold text-white tracking-tight uppercase">
                   CĐHA | CHẨN ĐOÁN HÌNH ẢNH
                 </span>
-                <span className="text-xs text-blue-400 font-medium italic">
-                  Học CĐHA qua các ca bệnh
+                <span className="text-xs text-blue-400 font-medium italic block">
+                  CĐHA Cập nhật qua các khoá học video bài giảng hàng đầu trên thế giới
                 </span>
               </div>
             </Link>
 
             <p className="text-xs leading-relaxed text-slate-400">
-              Chuyên trang học tập, thảo luận ca bệnh lâm sàng và chia sẻ tài liệu Chẩn đoán hình ảnh (X-quang, Siêu âm, CT Scanner, Cộng hưởng từ MRI). Mục tiêu lan tỏa kiến thức chuẩn mực cho cộng đồng bác sĩ và sinh viên Y khoa.
+              Chuyên trang tổng hợp các khoá học, video bài giảng và tài liệu Chẩn đoán hình ảnh chuyên sâu từ các trường đại học và hiệp hội điện quang hàng đầu trên thế giới. Nền tảng chia sẻ học thuật y khoa phi thương mại.
             </p>
 
             <div className="pt-1 flex items-center gap-3">
@@ -65,7 +63,7 @@ export default function Footer() {
           </div>
 
           {/* 8 Chuyên Ngành CĐHA */}
-          <div className="lg:col-span-3 space-y-3">
+          <div className="lg:col-span-4 space-y-3">
             <h4 className="text-white font-bold text-xs uppercase tracking-wider flex items-center gap-2">
               <span className="w-1 h-3.5 bg-blue-500 rounded-full" />
               8 CHUYÊN NGÀNH CĐHA
@@ -80,27 +78,6 @@ export default function Footer() {
               <Link href="/?cat=san-phu-khoa" className="hover:text-white transition-colors">• Sản phụ khoa</Link>
               <Link href="/?cat=vu" className="hover:text-white transition-colors">• Vú</Link>
             </div>
-          </div>
-
-          {/* Phương pháp CĐHA */}
-          <div className="lg:col-span-2 space-y-3">
-            <h4 className="text-white font-bold text-xs uppercase tracking-wider flex items-center gap-2">
-              <span className="w-1 h-3.5 bg-indigo-500 rounded-full" />
-              Phương pháp CĐHA
-            </h4>
-            <ul className="space-y-2 text-xs">
-              <li><Link href="/?modality=sieu-am" className="hover:text-white transition-colors">Siêu âm (Ultrasound)</Link></li>
-              <li><Link href="/?modality=ct" className="hover:text-white transition-colors">Cắt lớp vi tính (CT)</Link></li>
-              <li><Link href="/?modality=mri" className="hover:text-white transition-colors">Cộng hưởng từ (MRI)</Link></li>
-              <li><Link href="/?modality=xq" className="hover:text-white transition-colors">X-quang (X-Ray)</Link></li>
-              <li><Link href="/?cat=can-thiep" className="hover:text-white transition-colors">Điện quang can thiệp</Link></li>
-              <li className="pt-1">
-                <Link href="/pacs" className="text-cyan-400 hover:text-cyan-300 font-bold transition-colors flex items-center gap-1.5">
-                  <MonitorPlay className="w-3.5 h-3.5 text-cyan-400" />
-                  <span>Hệ thống PACS (Đọc phim)</span>
-                </Link>
-              </li>
-            </ul>
           </div>
 
           {/* Hỗ trợ & Tài nguyên */}
@@ -139,7 +116,7 @@ export default function Footer() {
       <div className="border-t border-slate-800 bg-[#080d1a] py-4 px-4 sm:px-6 text-xs text-slate-500">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
           <p>
-            © 2026 <strong className="text-slate-300">CĐHA | CHẨN ĐOÁN HÌNH ẢNH</strong> – Học CĐHA qua các ca bệnh. Nền tảng chia sẻ học thuật y khoa phi thương mại.
+            © 2026 <strong className="text-slate-300">CĐHA | CHẨN ĐOÁN HÌNH ẢNH</strong> – CĐHA Cập nhật qua các khoá học video bài giảng hàng đầu trên thế giới.
           </p>
           <div className="flex items-center gap-1.5 text-slate-400">
             <ShieldCheck className="w-3.5 h-3.5 text-blue-500" />
