@@ -46,7 +46,7 @@ Website Thư Viện Tài Liệu & Ebook Y Khoa Trực Tuyến
 
 ### Khởi chạy môi trường phát triển (Development):
 ```bash
-cd /Users/khanhphanduy/.gemini/antigravity/scratch/medical-library-gmhs
+cd /Users/khanhphanduy/.gemini/antigravity/scratch/medical-library-cdha
 npm run dev
 ```
 Trang web sẽ chạy tại địa chỉ: `http://localhost:3000`
