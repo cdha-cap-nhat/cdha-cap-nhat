@@ -13,10 +13,8 @@ import {
   Clock,
   Sparkles,
 } from "lucide-react";
-import VietQrModal from "@/components/VietQrModal";
 
 export default function VipUpgradePage() {
-  const [isQrModalOpen, setIsQrModalOpen] = useState(false);
 
   const perks = [
     { title: "Tải không giới hạn 15.000+ Ebook", desc: "Toàn bộ sách Y Dược, USMLE, Gây mê hồi sức bản đẹp nhất" },
@@ -74,7 +72,7 @@ export default function VipUpgradePage() {
                 </li>
                 <li className="flex items-center gap-3 text-slate-500">
                   <span className="w-4 h-4 rounded-full border border-slate-600 flex items-center justify-center text-[10px]">✕</span>
-                  Tải sách chuyên ngành VIP: 60.000đ/cuốn
+                  Một số tài liệu chuyên sâu dành riêng cho Hội viên
                 </li>
               </ul>
             </div>
@@ -86,44 +84,40 @@ export default function VipUpgradePage() {
             </div>
           </div>
 
-          {/* VIP Package Card matching GMHS */}
+          {/* VIP Package Card */}
           <div className="relative rounded-3xl bg-gradient-to-br from-amber-50/70 via-white to-orange-50/50 border-2 border-amber-400 p-8 shadow-xl flex flex-col justify-between">
             {/* Top highlight badge */}
             <div className="absolute -top-3.5 right-6 px-4 py-1 rounded-full bg-gradient-to-r from-amber-500 to-orange-500 text-white text-xs font-black uppercase tracking-wider shadow-lg">
-              Khuyên dùng (Tiết kiệm 50%)
+              Khuyên dùng
             </div>
 
             <div className="space-y-6">
               <div>
                 <div className="flex items-center gap-2">
-                  <Crown className="w-6 h-6 text-amber-400" />
+                  <Crown className="w-6 h-6 text-amber-500" />
                   <h3 className="text-xl font-extrabold text-slate-900">Hội Viên VIP Toàn Diện</h3>
                 </div>
-                <p className="text-xs text-slate-400 mt-1">Toàn quyền tải không giới hạn mọi tài liệu</p>
+                <p className="text-xs text-slate-500 mt-1">Toàn quyền tải không giới hạn mọi tài liệu</p>
               </div>
 
               <div>
                 <div className="flex items-baseline gap-2">
-                  <span className="text-4xl font-black text-amber-400 font-mono">
-                    399.000đ
-                  </span>
-                  <span className="text-sm text-slate-500 line-through">800.000đ</span>
-                  <span className="text-xs font-semibold text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded">
-                    -50% Khuyến mãi
+                  <span className="text-3xl font-black text-amber-600">
+                    Quyền truy cập VIP
                   </span>
                 </div>
-                <span className="text-xs text-slate-400 block mt-1">Truy cập không giới hạn trọn gói 1 năm</span>
+                <span className="text-xs text-slate-500 block mt-1">Truy cập không giới hạn trọn gói kho tài liệu CĐHA</span>
               </div>
 
               <ul className="space-y-3.5 text-xs text-slate-800">
                 {perks.map((p, idx) => (
                   <li key={idx} className="flex items-start gap-3">
-                    <div className="w-4 h-4 rounded-full bg-amber-500/20 text-amber-400 flex items-center justify-center shrink-0 mt-0.5">
+                    <div className="w-4 h-4 rounded-full bg-amber-500/20 text-amber-500 flex items-center justify-center shrink-0 mt-0.5">
                       <Check className="w-3 h-3" />
                     </div>
                     <div>
                       <strong className="text-slate-900 block">{p.title}</strong>
-                      <span className="text-[11px] text-slate-400">{p.desc}</span>
+                      <span className="text-[11px] text-slate-500">{p.desc}</span>
                     </div>
                   </li>
                 ))}
@@ -131,33 +125,27 @@ export default function VipUpgradePage() {
             </div>
 
             <div className="pt-8">
-              <button
-                onClick={() => setIsQrModalOpen(true)}
+              <a
+                href="mailto:contact@cdha-cap-nhat.vn?subject=Dang%20ky%20Hoi%20vien%20VIP%20CDHA"
                 className="w-full py-4 rounded-xl bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 text-white font-extrabold text-sm shadow-xl shadow-orange-500/30 hover:scale-[1.02] active:scale-95 transition-all flex items-center justify-center gap-2"
               >
                 <Crown className="w-5 h-5" />
-                <span>Nâng cấp VIP qua VietQR ngay</span>
-              </button>
+                <span>Liên hệ Đăng ký Hội viên VIP</span>
+              </a>
             </div>
           </div>
         </div>
 
         {/* Guarantees */}
         <div className="max-w-2xl mx-auto text-center space-y-3 p-6 rounded-2xl bg-white border border-slate-200 shadow-sm">
-          <div className="flex items-center justify-center gap-2 text-emerald-400 font-bold text-xs uppercase tracking-wider">
-            <ShieldCheck className="w-4 h-4" /> Cam kết uy tín từ CĐHA-Cập-Nhật Medical
+          <div className="flex items-center justify-center gap-2 text-emerald-600 font-bold text-xs uppercase tracking-wider">
+            <ShieldCheck className="w-4 h-4" /> Cam kết chất lượng từ CĐHA-Cập-Nhật Medical
           </div>
-          <p className="text-xs text-slate-400 leading-relaxed">
-            Hệ thống kích hoạt VIP hoàn toàn tự động ngay sau khi chuyển khoản thành công. Nếu cần hỗ trợ thêm, vui lòng liên hệ trực tiếp qua Email <strong>contact@cdha-cap-nhat.vn</strong> hoặc Telegram để được giải quyết trong 5 phút.
+          <p className="text-xs text-slate-500 leading-relaxed">
+            Ban quản trị hỗ trợ kích hoạt và cung cấp liên kết tài liệu VIP nhanh chóng. Nếu cần hỗ trợ thêm, vui lòng liên hệ trực tiếp qua Email <strong>contact@cdha-cap-nhat.vn</strong> hoặc Telegram để được giải quyết trong thời gian sớm nhất.
           </p>
         </div>
       </div>
-
-      <VietQrModal
-        isOpen={isQrModalOpen}
-        onClose={() => setIsQrModalOpen(false)}
-        isVipUpgrade={true}
-      />
     </div>
   );
 }

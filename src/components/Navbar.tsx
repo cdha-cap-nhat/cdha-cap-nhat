@@ -268,7 +268,7 @@ export default function Navbar() {
               className="text-amber-600 font-bold py-2 flex items-center gap-2"
             >
               <Crown className="w-4 h-4" />
-              Đăng ký Hội viên VIP (399.000đ)
+              Đăng ký Hội viên VIP
             </Link>
           </nav>
         </div>

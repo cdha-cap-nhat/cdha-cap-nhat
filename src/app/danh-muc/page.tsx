@@ -18,7 +18,6 @@ import { CATEGORIES } from "@/data/categories";
 import { BOOKS } from "@/data/books";
 import { Book } from "@/types";
 import BookCard from "@/components/BookCard";
-import VietQrModal from "@/components/VietQrModal";
 
 function CatalogContent() {
   const searchParams = useSearchParams();
@@ -31,8 +30,6 @@ function CatalogContent() {
   const [selectedFormat, setSelectedFormat] = useState<"all" | "PDF" | "VIDEO">("all");
   const [vipFilter, setVipFilter] = useState<"all" | "free" | "vip">("all");
   const [sortBy, setSortBy] = useState<"popular" | "downloads" | "year">("popular");
-  const [selectedBookForQr, setSelectedBookForQr] = useState<Book | null>(null);
-  const [isQrModalOpen, setIsQrModalOpen] = useState(false);
 
   useEffect(() => {
     const cat = searchParams.get("cat");
@@ -272,7 +269,7 @@ function CatalogContent() {
                   href="/nang-cap-vip"
                   className="block w-full py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 text-white font-bold text-xs shadow-lg shadow-orange-500/20 hover:scale-105 transition-transform"
                 >
-                  Đăng ký ngay (399k)
+                  Tìm hiểu đặc quyền VIP
                 </a>
               </div>
             </div>
@@ -287,8 +284,11 @@ function CatalogContent() {
                     key={book.id}
                     book={book}
                     onQuickDownload={(b) => {
-                      setSelectedBookForQr(b);
-                      setIsQrModalOpen(true);
+                      if (b.downloadUrl) {
+                        window.open(b.downloadUrl, "_blank");
+                      } else {
+                        window.location.href = `/sach/${b.slug}`;
+                      }
                     }}
                   />
                 ))}
@@ -313,12 +313,6 @@ function CatalogContent() {
           </main>
         </div>
       </div>
-
-      <VietQrModal
-        isOpen={isQrModalOpen}
-        onClose={() => setIsQrModalOpen(false)}
-        book={selectedBookForQr}
-      />
     </div>
   );
 }

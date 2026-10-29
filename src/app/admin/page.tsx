@@ -13,7 +13,6 @@ import {
   Trash2,
   Edit,
   Save,
-  QrCode,
   ShieldAlert,
 } from "lucide-react";
 import { BOOKS } from "@/data/books";
@@ -25,17 +24,17 @@ export default function AdminPage() {
   const [search, setSearch] = useState("");
 
   const [vipRequests, setVipRequests] = useState([
-    { id: "REQ-01", user: "Dr. Nguyen Tuan", email: "tuan.dr@gmail.com", amount: 399000, memo: "CDHA VIP 8892", status: "PENDING", time: "10 phút trước" },
-    { id: "REQ-02", user: "Le Thi Mai (SV Y5)", email: "maiy5@hmu.edu.vn", amount: 399000, memo: "CDHA VIP 7712", status: "APPROVED", time: "1 giờ trước" },
-    { id: "REQ-03", user: "Tran Quoc Bao", email: "baotq@ump.edu.vn", amount: 60000, memo: "CDHA BOOK 9901", status: "APPROVED", time: "3 giờ trước" },
+    { id: "REQ-01", user: "Dr. Nguyen Tuan", email: "tuan.dr@gmail.com", package: "Hội viên VIP", memo: "Đăng ký thành viên 1 năm", status: "PENDING", time: "10 phút trước" },
+    { id: "REQ-02", user: "Le Thi Mai (SV Y5)", email: "maiy5@hmu.edu.vn", package: "Hội viên VIP", memo: "Đăng ký ưu đãi sinh viên", status: "APPROVED", time: "1 giờ trước" },
+    { id: "REQ-03", user: "Tran Quoc Bao", email: "baotq@ump.edu.vn", package: "Tài liệu", memo: "Yêu cầu sách CT sọ não", status: "APPROVED", time: "3 giờ trước" },
   ]);
 
   const [settings, setSettings] = useState({
-    bankName: "Vietcombank (VCB)",
-    accountNumber: "1911682737",
-    accountOwner: "HO KINH DOANH TRUC TUYEN TTHL",
-    vipPrice: 399000,
-    singlePrice: 60000,
+    siteName: "CĐHA-Cập-Nhật Medical",
+    contactEmail: "contact@cdha-cap-nhat.vn",
+    supportHotline: "0988.xxx.xxx",
+    telegram: "@cdhacapnhat",
+    storageDriveUrl: "https://drive.google.com/drive/folders/cdha-vip",
     maintenanceMode: false,
   });
 
@@ -95,8 +94,8 @@ export default function AdminPage() {
                 activeTab === "settings" ? "bg-indigo-600 text-white shadow" : "text-slate-400 hover:text-white"
               }`}
             >
-              <QrCode className="w-4 h-4" />
-              Cấu hình VietQR
+              <Settings className="w-4 h-4" />
+              Cấu hình Hệ thống
             </button>
           </div>
         </div>
@@ -200,8 +199,8 @@ export default function AdminPage() {
                   <tr>
                     <th className="p-4">Mã Đơn</th>
                     <th className="p-4">Người dùng</th>
-                    <th className="p-4">Số tiền</th>
-                    <th className="p-4">Cú pháp Chuyển khoản</th>
+                    <th className="p-4">Gói dịch vụ</th>
+                    <th className="p-4">Nội dung ghi chú</th>
                     <th className="p-4">Thời gian</th>
                     <th className="p-4">Trạng thái</th>
                     <th className="p-4 text-right">Xử lý</th>
@@ -215,9 +214,9 @@ export default function AdminPage() {
                         <strong className="text-white block">{req.user}</strong>
                         <span className="text-slate-400">{req.email}</span>
                       </td>
-                      <td className="p-4 font-mono font-bold text-amber-400">{req.amount.toLocaleString()} VNĐ</td>
+                      <td className="p-4 font-bold text-amber-400">{req.package}</td>
                       <td className="p-4">
-                        <span className="px-2 py-0.5 rounded bg-white/5 border border-white/10 font-mono text-indigo-300">
+                        <span className="px-2 py-0.5 rounded bg-white/5 border border-white/10 text-slate-300">
                           {req.memo}
                         </span>
                       </td>
@@ -251,69 +250,69 @@ export default function AdminPage() {
           </div>
         )}
 
-        {/* Tab 3: System & VietQR Settings */}
+        {/* Tab 3: System & Website Settings */}
         {activeTab === "settings" && (
           <div className="max-w-2xl bg-white/[0.03] border border-white/10 rounded-3xl p-8 space-y-6">
             <h3 className="text-lg font-bold text-white flex items-center gap-2">
-              <QrCode className="w-5 h-5 text-indigo-400" />
-              Cấu hình Thông tin Chuyển khoản VietQR
+              <Settings className="w-5 h-5 text-indigo-400" />
+              Cấu hình Website & Kênh Hỗ trợ
             </h3>
 
             <div className="space-y-4 text-xs sm:text-sm">
               <div>
-                <label className="block text-slate-300 font-semibold mb-1">Ngân hàng</label>
+                <label className="block text-slate-300 font-semibold mb-1">Tên nền tảng</label>
                 <input
                   type="text"
-                  value={settings.bankName}
-                  onChange={(e) => setSettings({ ...settings, bankName: e.target.value })}
+                  value={settings.siteName}
+                  onChange={(e) => setSettings({ ...settings, siteName: e.target.value })}
                   className="w-full px-4 py-2.5 rounded-xl bg-white/5 border border-white/10 text-white focus:outline-none focus:border-indigo-500"
                 />
               </div>
 
               <div>
-                <label className="block text-slate-300 font-semibold mb-1">Số tài khoản ngân hàng</label>
+                <label className="block text-slate-300 font-semibold mb-1">Email hỗ trợ & nhận yêu cầu</label>
                 <input
                   type="text"
-                  value={settings.accountNumber}
-                  onChange={(e) => setSettings({ ...settings, accountNumber: e.target.value })}
+                  value={settings.contactEmail}
+                  onChange={(e) => setSettings({ ...settings, contactEmail: e.target.value })}
                   className="w-full px-4 py-2.5 rounded-xl bg-white/5 border border-white/10 text-white font-mono focus:outline-none focus:border-indigo-500"
-                />
-              </div>
-
-              <div>
-                <label className="block text-slate-300 font-semibold mb-1">Tên chủ tài khoản (In hoa không dấu)</label>
-                <input
-                  type="text"
-                  value={settings.accountOwner}
-                  onChange={(e) => setSettings({ ...settings, accountOwner: e.target.value })}
-                  className="w-full px-4 py-2.5 rounded-xl bg-white/5 border border-white/10 text-white uppercase focus:outline-none focus:border-indigo-500"
                 />
               </div>
 
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-slate-300 font-semibold mb-1">Giá gói VIP (VNĐ)</label>
+                  <label className="block text-slate-300 font-semibold mb-1">Hotline / Zalo hỗ trợ</label>
                   <input
-                    type="number"
-                    value={settings.vipPrice}
-                    onChange={(e) => setSettings({ ...settings, vipPrice: Number(e.target.value) })}
+                    type="text"
+                    value={settings.supportHotline}
+                    onChange={(e) => setSettings({ ...settings, supportHotline: e.target.value })}
                     className="w-full px-4 py-2.5 rounded-xl bg-white/5 border border-white/10 text-white font-mono focus:outline-none focus:border-indigo-500"
                   />
                 </div>
                 <div>
-                  <label className="block text-slate-300 font-semibold mb-1">Giá tải sách lẻ (VNĐ)</label>
+                  <label className="block text-slate-300 font-semibold mb-1">Kênh Telegram</label>
                   <input
-                    type="number"
-                    value={settings.singlePrice}
-                    onChange={(e) => setSettings({ ...settings, singlePrice: Number(e.target.value) })}
+                    type="text"
+                    value={settings.telegram}
+                    onChange={(e) => setSettings({ ...settings, telegram: e.target.value })}
                     className="w-full px-4 py-2.5 rounded-xl bg-white/5 border border-white/10 text-white font-mono focus:outline-none focus:border-indigo-500"
                   />
                 </div>
               </div>
 
+              <div>
+                <label className="block text-slate-300 font-semibold mb-1">Thư mục lưu trữ Google Drive VIP</label>
+                <input
+                  type="text"
+                  value={settings.storageDriveUrl}
+                  onChange={(e) => setSettings({ ...settings, storageDriveUrl: e.target.value })}
+                  className="w-full px-4 py-2.5 rounded-xl bg-white/5 border border-white/10 text-white font-mono focus:outline-none focus:border-indigo-500"
+                />
+              </div>
+
               <div className="pt-4">
                 <button
-                  onClick={() => alert("Đã lưu cài đặt VietQR thành công!")}
+                  onClick={() => alert("Đã lưu cấu hình hệ thống thành công!")}
                   className="px-6 py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 text-white font-bold text-xs shadow-lg shadow-indigo-500/25 hover:scale-105 transition-all flex items-center gap-2"
                 >
                   <Save className="w-4 h-4" />

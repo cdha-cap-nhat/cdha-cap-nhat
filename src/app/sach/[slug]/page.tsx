@@ -26,7 +26,6 @@ import {
 } from "lucide-react";
 import { BOOKS } from "@/data/books";
 import BookCard from "@/components/BookCard";
-import VietQrModal from "@/components/VietQrModal";
 import { Lesson } from "@/types";
 
 export default function BookDetailPage({ params }: { params: { slug: string } }) {
@@ -34,9 +33,9 @@ export default function BookDetailPage({ params }: { params: { slug: string } })
 
   if (!book) {
     return (
-      <div className="min-h-screen bg-[#0f172a] pt-40 pb-20 text-center px-4">
-        <h2 className="text-2xl font-bold text-white mb-2">Không tìm thấy tài liệu</h2>
-        <p className="text-sm text-slate-400 mb-6">Tài liệu y khoa bạn tìm kiếm không tồn tại hoặc đã được chuyển dời.</p>
+      <div className="min-h-screen bg-slate-50 pt-40 pb-20 text-center px-4">
+        <h2 className="text-2xl font-bold text-slate-900 mb-2">Không tìm thấy tài liệu</h2>
+        <p className="text-sm text-slate-500 mb-6">Tài liệu y khoa bạn tìm kiếm không tồn tại hoặc đã được chuyển dời.</p>
         <Link href="/danh-muc" className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl text-sm">
           Quay lại kho sách
         </Link>
@@ -48,8 +47,15 @@ export default function BookDetailPage({ params }: { params: { slug: string } })
   const [selectedLesson, setSelectedLesson] = useState<Lesson | null>(
     book.lessons && book.lessons.length > 0 ? book.lessons[0] : null
   );
-  const [isQrModalOpen, setIsQrModalOpen] = useState(false);
   const [copiedLink, setCopiedLink] = useState(false);
+
+  const handleDownload = () => {
+    if (book.downloadUrl) {
+      window.open(book.downloadUrl, "_blank");
+    } else {
+      alert("Liên kết tải tài liệu đang được cập nhật. Bạn vui lòng quay lại sau hoặc gửi yêu cầu tại mục 'Yêu cầu sách'!");
+    }
+  };
 
   const relatedBooks = BOOKS.filter(
     (b) => b.id !== book.id && (b.categorySlug === book.categorySlug || b.category === book.category)
@@ -182,34 +188,24 @@ export default function BookDetailPage({ params }: { params: { slug: string } })
                 </div>
               </div>
 
-              {/* Action Buttons matching GMHS */}
+              {/* Action Buttons */}
               <div className="space-y-4 mb-6">
                 <div className="flex flex-wrap items-center gap-4">
                   {/* Download button */}
-                  {book.isVipOnly ? (
-                    <button
-                      onClick={() => setIsQrModalOpen(true)}
-                      className="flex-1 sm:flex-none px-6 py-3.5 bg-gradient-to-r from-amber-500 to-orange-500 text-white font-extrabold text-sm rounded-xl shadow-lg shadow-orange-500/25 hover:scale-105 transition-all flex items-center justify-center gap-2"
-                    >
-                      <Crown className="w-4 h-4" />
-                      <span>Tải nhanh (60k) / Nâng cấp VIP</span>
-                    </button>
-                  ) : (
-                    <button
-                      onClick={() => alert("Bắt đầu tải sách miễn phí!")}
-                      className="flex-1 sm:flex-none px-6 py-3.5 bg-gradient-to-r from-indigo-500 to-purple-600 text-white font-extrabold text-sm rounded-xl shadow-lg shadow-indigo-500/25 hover:scale-105 transition-all flex items-center justify-center gap-2"
-                    >
-                      <Download className="w-4 h-4" />
-                      <span>Tải sách miễn phí</span>
-                    </button>
-                  )}
+                  <button
+                    onClick={handleDownload}
+                    className="flex-1 sm:flex-none px-6 py-3.5 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-extrabold text-sm rounded-xl shadow-lg shadow-indigo-600/25 hover:scale-105 transition-all flex items-center justify-center gap-2"
+                  >
+                    <Download className="w-4 h-4" />
+                    <span>Tải tài liệu trọn bộ ({book.fileSize})</span>
+                  </button>
 
                   {/* Read preview tab trigger */}
                   <button
                     onClick={() => setActiveTab("preview")}
-                    className="flex-1 sm:flex-none px-6 py-3.5 bg-white/10 hover:bg-white/15 border border-white/20 text-white font-bold text-sm rounded-xl transition-all flex items-center justify-center gap-2"
+                    className="flex-1 sm:flex-none px-6 py-3.5 bg-slate-100 hover:bg-slate-200 border border-slate-200 text-slate-800 font-bold text-sm rounded-xl transition-all flex items-center justify-center gap-2"
                   >
-                    <BookOpen className="w-4 h-4 text-indigo-400" />
+                    <BookOpen className="w-4 h-4 text-indigo-600" />
                     <span>Đọc thử trực tuyến</span>
                   </button>
 
@@ -341,7 +337,7 @@ export default function BookDetailPage({ params }: { params: { slug: string } })
                   href="/nang-cap-vip"
                   className="block text-center py-3 bg-gradient-to-r from-amber-500 to-orange-500 text-white font-bold text-xs rounded-xl shadow-lg hover:scale-105 transition-transform"
                 >
-                  Nâng cấp VIP ngay (399.000đ)
+                  Nâng cấp Hội viên VIP ngay
                 </Link>
               </div>
             </div>
@@ -357,7 +353,7 @@ export default function BookDetailPage({ params }: { params: { slug: string } })
                 <p className="text-xs text-slate-400">Xem trước một phần trang sách trước khi tải trọn bộ</p>
               </div>
               <button
-                onClick={() => setIsQrModalOpen(true)}
+                onClick={handleDownload}
                 className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl flex items-center gap-2"
               >
                 <Download className="w-4 h-4" />
@@ -386,8 +382,8 @@ export default function BookDetailPage({ params }: { params: { slug: string } })
                     Mở trình đọc sách Fullscreen
                   </button>
                   <button
-                    onClick={() => setIsQrModalOpen(true)}
-                    className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 text-white text-xs font-bold shadow-md hover:scale-105 transition-transform flex items-center gap-2"
+                    onClick={handleDownload}
+                    className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 text-white text-xs font-bold shadow-md hover:scale-105 transition-transform flex items-center gap-2"
                   >
                     <Download className="w-4 h-4" />
                     Tải về máy ({book.fileSize})
@@ -500,8 +496,11 @@ export default function BookDetailPage({ params }: { params: { slug: string } })
                   key={b.id}
                   book={b}
                   onQuickDownload={(item) => {
-                    // trigger modal
-                    setIsQrModalOpen(true);
+                    if (item.downloadUrl) {
+                      window.open(item.downloadUrl, "_blank");
+                    } else {
+                      window.location.href = `/sach/${item.slug}`;
+                    }
                   }}
                 />
               ))}
@@ -509,12 +508,6 @@ export default function BookDetailPage({ params }: { params: { slug: string } })
           </div>
         )}
       </div>
-
-      <VietQrModal
-        isOpen={isQrModalOpen}
-        onClose={() => setIsQrModalOpen(false)}
-        book={book}
-      />
     </div>
   );
 }
