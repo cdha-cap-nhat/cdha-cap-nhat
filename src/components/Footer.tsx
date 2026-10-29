@@ -79,6 +79,7 @@ export default function Footer() {
               <li><Link href="/danh-muc?cat=co-xuong-khop" className="hover:text-white transition-colors">Cơ xương khớp</Link></li>
               <li><Link href="/danh-muc?cat=nhi-khoa" className="hover:text-white transition-colors">Nhi khoa</Link></li>
               <li><Link href="/danh-muc?cat=san-phu-khoa" className="hover:text-white transition-colors">Sản phụ khoa</Link></li>
+              <li><Link href="/danh-muc?cat=vu" className="hover:text-white transition-colors">Vú</Link></li>
             </ul>
           </div>
 

@@ -143,6 +143,7 @@ export default function BookRequestPage() {
                       <option value="Cơ xương khớp">Cơ xương khớp</option>
                       <option value="Nhi khoa">Nhi khoa</option>
                       <option value="Sản phụ khoa">Sản phụ khoa</option>
+                      <option value="Vú">Vú</option>
                     </select>
                   </div>
 

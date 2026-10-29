@@ -49,4 +49,10 @@ export const CATEGORIES: Category[] = [
     slug: "san-phu-khoa",
     description: "Siêu âm hình thái học thai nhi, Doppler sản khoa, dị tật tử cung và hình ảnh học phụ khoa",
   },
+  {
+    id: "vu",
+    name: "Vú",
+    slug: "vu",
+    description: "Nhũ ảnh (Mammography), siêu âm tuyến vú, MRI vú, can thiệp sinh thiết định vị và phân loại tổn thương BI-RADS",
+  },
 ];
