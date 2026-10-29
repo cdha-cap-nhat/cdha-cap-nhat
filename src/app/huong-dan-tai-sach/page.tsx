@@ -47,7 +47,7 @@ export default function GuidePage() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#0f172a] pt-32 pb-24 text-slate-200">
+    <div className="min-h-screen bg-slate-50 pt-32 pb-24 text-slate-800">
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-12 space-y-3">
@@ -55,7 +55,7 @@ export default function GuidePage() {
             <DownloadCloud className="w-4 h-4" />
             <span>Cẩm nang bạn đọc</span>
           </div>
-          <h1 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+          <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
             Hướng Dẫn Tải & Đọc Ebook Y Khoa
           </h1>
           <p className="text-sm text-slate-400">
@@ -70,16 +70,16 @@ export default function GuidePage() {
             return (
               <div
                 key={idx}
-                className="rounded-3xl bg-white/[0.03] border border-white/10 p-6 sm:p-8 space-y-4 shadow-xl"
+                className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 space-y-4 shadow-sm"
               >
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-xl bg-indigo-500/20 text-indigo-400 flex items-center justify-center shrink-0">
                     <Icon className="w-5 h-5" />
                   </div>
-                  <h2 className="text-lg sm:text-xl font-bold text-white">{p.title}</h2>
+                  <h2 className="text-lg sm:text-xl font-bold text-slate-900">{p.title}</h2>
                 </div>
 
-                <div className="space-y-2.5 pl-2 sm:pl-4 text-xs sm:text-sm text-slate-300">
+                <div className="space-y-2.5 pl-2 sm:pl-4 text-xs sm:text-sm text-slate-600">
                   {p.steps.map((step, sIdx) => (
                     <div key={sIdx} className="flex items-start gap-3">
                       <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />

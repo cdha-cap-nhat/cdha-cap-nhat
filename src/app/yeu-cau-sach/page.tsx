@@ -27,7 +27,7 @@ export default function BookRequestPage() {
   };
 
   return (
-    <div className="min-h-screen bg-[#0f172a] pt-32 pb-24 text-slate-200">
+    <div className="min-h-screen bg-slate-50 pt-32 pb-24 text-slate-800">
       <div className="max-w-3xl mx-auto px-4 sm:px-6">
         <Link
           href="/"
@@ -36,7 +36,7 @@ export default function BookRequestPage() {
           <ArrowLeft className="w-4 h-4" /> Quay lại trang chủ
         </Link>
 
-        <div className="rounded-3xl bg-white/[0.03] border border-white/10 p-6 sm:p-10 shadow-2xl relative overflow-hidden">
+        <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-10 shadow-md relative overflow-hidden">
           <div className="absolute top-0 right-0 w-80 h-80 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
 
           {submitted ? (
@@ -75,7 +75,7 @@ export default function BookRequestPage() {
                   <FileQuestion className="w-6 h-6" />
                 </div>
                 <div>
-                  <h1 className="text-2xl font-extrabold text-white tracking-tight">
+                  <h1 className="text-2xl font-extrabold text-slate-900 tracking-tight">
                     Yêu Cầu Tài Liệu & Sách Y Khoa
                   </h1>
                   <p className="text-xs sm:text-sm text-slate-400 mt-0.5">
@@ -86,7 +86,7 @@ export default function BookRequestPage() {
 
               <form onSubmit={handleSubmit} className="space-y-5 text-xs sm:text-sm">
                 <div>
-                  <label className="block text-slate-300 font-semibold mb-1.5">
+                  <label className="block text-slate-700 font-semibold mb-1.5">
                     Tên sách / Tài liệu cần tìm <span className="text-rose-400">*</span>
                   </label>
                   <input
@@ -95,13 +95,13 @@ export default function BookRequestPage() {
                     placeholder="VD: Cẩm nang phẫu thuật nội soi ổ bụng, Oxford Handbook..."
                     value={formData.bookTitle}
                     onChange={(e) => setFormData({ ...formData, bookTitle: e.target.value })}
-                    className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition-colors"
+                    className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition-colors"
                   />
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-slate-300 font-semibold mb-1.5">
+                    <label className="block text-slate-700 font-semibold mb-1.5">
                       Tác giả / Nhà xuất bản
                     </label>
                     <input
@@ -109,11 +109,11 @@ export default function BookRequestPage() {
                       placeholder="VD: ĐH Y Hà Nội, McGraw Hill..."
                       value={formData.author}
                       onChange={(e) => setFormData({ ...formData, author: e.target.value })}
-                      className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition-colors"
+                      className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition-colors"
                     />
                   </div>
                   <div>
-                    <label className="block text-slate-300 font-semibold mb-1.5">
+                    <label className="block text-slate-700 font-semibold mb-1.5">
                       Năm xuất bản / Phiên bản (Edition)
                     </label>
                     <input
@@ -121,20 +121,20 @@ export default function BookRequestPage() {
                       placeholder="VD: 2023, Tái bản lần 3..."
                       value={formData.publishYear}
                       onChange={(e) => setFormData({ ...formData, publishYear: e.target.value })}
-                      className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition-colors"
+                      className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition-colors"
                     />
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-slate-300 font-semibold mb-1.5">
+                    <label className="block text-slate-700 font-semibold mb-1.5">
                       Chuyên khoa
                     </label>
                     <select
                       value={formData.category}
                       onChange={(e) => setFormData({ ...formData, category: e.target.value })}
-                      className="w-full px-4 py-3 rounded-xl bg-[#1e293b] border border-white/10 text-white focus:outline-none focus:border-indigo-500 transition-colors"
+                      className="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 text-slate-900 focus:outline-none focus:border-indigo-500 transition-colors"
                     >
                       <option value="Y học lâm sàng">Y học lâm sàng (Nội, Ngoại, Sản, Nhi)</option>
                       <option value="Gây mê Hồi sức">Gây mê Hồi sức (GMHS) & ICU</option>
@@ -146,7 +146,7 @@ export default function BookRequestPage() {
                   </div>
 
                   <div>
-                    <label className="block text-slate-300 font-semibold mb-1.5">
+                    <label className="block text-slate-700 font-semibold mb-1.5">
                       Email nhận thông báo khi có sách <span className="text-rose-400">*</span>
                     </label>
                     <input
@@ -155,13 +155,13 @@ export default function BookRequestPage() {
                       placeholder="tenban@gmail.com"
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                      className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition-colors"
+                      className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition-colors"
                     />
                   </div>
                 </div>
 
                 <div>
-                  <label className="block text-slate-300 font-semibold mb-1.5">
+                  <label className="block text-slate-700 font-semibold mb-1.5">
                     Link tham khảo bìa sách / mục lục (nếu có)
                   </label>
                   <input
@@ -169,12 +169,12 @@ export default function BookRequestPage() {
                     placeholder="https://amazon.com/... hoặc link ảnh bìa"
                     value={formData.referenceUrl}
                     onChange={(e) => setFormData({ ...formData, referenceUrl: e.target.value })}
-                    className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition-colors"
+                    className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition-colors"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-slate-300 font-semibold mb-1.5">
+                  <label className="block text-slate-700 font-semibold mb-1.5">
                     Ghi chú thêm
                   </label>
                   <textarea
@@ -182,7 +182,7 @@ export default function BookRequestPage() {
                     placeholder="Ghi chú về định dạng cần (PDF scan đẹp, bản dịch tiếng Việt hay bản gốc tiếng Anh)..."
                     value={formData.notes}
                     onChange={(e) => setFormData({ ...formData, notes: e.target.value })}
-                    className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition-colors resize-none"
+                    className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition-colors resize-none"
                   />
                 </div>
 

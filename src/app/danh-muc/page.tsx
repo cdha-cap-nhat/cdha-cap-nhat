@@ -91,11 +91,11 @@ function CatalogContent() {
   ) || CATEGORIES[0];
 
   return (
-    <div className="min-h-screen bg-[#0f172a] pt-32 pb-24 text-slate-200">
+    <div className="min-h-screen bg-slate-50 pt-32 pb-24 text-slate-800">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
         {/* Header Breadcrumb & Title */}
         <div className="mb-8">
-          <div className="flex items-center gap-2 text-xs font-semibold text-slate-400 mb-2">
+          <div className="flex items-center gap-2 text-xs font-semibold text-slate-500 mb-2">
             <span>Trang chủ</span>
             <span>/</span>
             <span className="text-indigo-400">Kho tài liệu</span>
@@ -106,7 +106,7 @@ function CatalogContent() {
               </>
             )}
           </div>
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight flex items-center gap-3">
+          <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight flex items-center gap-3">
             {activeCategoryObj.name}
             <span className="text-sm font-semibold px-3 py-1 rounded-full bg-indigo-500/10 text-indigo-300 border border-indigo-500/20">
               {filteredBooks.length} đầu sách
@@ -118,7 +118,7 @@ function CatalogContent() {
         </div>
 
         {/* Filter Controls Bar */}
-        <div className="bg-white/[0.03] border border-white/10 rounded-2xl p-4 mb-8 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4">
+        <div className="bg-white border border-slate-200 rounded-2xl p-4 shadow-sm mb-8 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4">
           {/* Search within catalog */}
           <div className="relative flex-1 max-w-md">
             <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
@@ -127,14 +127,14 @@ function CatalogContent() {
               placeholder="Lọc theo tiêu đề, tác giả trong danh mục..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-9 pr-4 py-2 bg-white/5 border border-white/10 rounded-xl text-xs sm:text-sm text-white placeholder-slate-400 focus:outline-none focus:border-indigo-500"
+              className="w-full pl-9 pr-4 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs sm:text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:border-indigo-500"
             />
           </div>
 
           {/* Quick Filters */}
           <div className="flex flex-wrap items-center gap-2">
             {/* Format filter */}
-            <div className="flex items-center bg-white/5 border border-white/10 rounded-xl p-1 text-xs">
+            <div className="flex items-center bg-slate-100 border border-slate-200 rounded-xl p-1 text-xs">
               <button
                 onClick={() => setSelectedFormat("all")}
                 className={`px-3 py-1.5 rounded-lg font-medium transition-all ${
@@ -162,7 +162,7 @@ function CatalogContent() {
             </div>
 
             {/* VIP Filter */}
-            <div className="flex items-center bg-white/5 border border-white/10 rounded-xl p-1 text-xs">
+            <div className="flex items-center bg-slate-100 border border-slate-200 rounded-xl p-1 text-xs">
               <button
                 onClick={() => setVipFilter("all")}
                 className={`px-3 py-1.5 rounded-lg font-medium transition-all ${
@@ -207,8 +207,8 @@ function CatalogContent() {
           {/* Sidebar */}
           <aside className="lg:w-72 shrink-0">
             <div className="sticky top-24 space-y-4">
-              <div className="bg-white/[0.03] rounded-2xl border border-white/10 p-5 shadow-xl">
-                <h3 className="font-bold text-xs uppercase mb-4 tracking-widest text-white flex items-center gap-2 pb-3 border-b border-white/10">
+              <div className="bg-white rounded-2xl border border-slate-200 p-5 shadow-sm">
+                <h3 className="font-bold text-xs uppercase mb-4 tracking-widest text-slate-900 flex items-center gap-2 pb-3 border-b border-slate-100">
                   <div className="w-1 h-4 bg-indigo-500 rounded-full" />
                   Khám phá theo Chuyên ngành
                 </h3>
@@ -228,7 +228,7 @@ function CatalogContent() {
                           className={`w-full group flex items-center justify-between py-2.5 px-3 rounded-xl transition-all text-xs font-semibold ${
                             isSelected
                               ? "bg-indigo-600/20 text-indigo-400 border border-indigo-500/30"
-                              : "text-slate-300 hover:bg-white/5 hover:text-white"
+                              : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
                           }`}
                         >
                           <span className="truncate">{cat.name}</span>
@@ -294,9 +294,9 @@ function CatalogContent() {
                 ))}
               </div>
             ) : (
-              <div className="py-20 text-center bg-white/[0.02] border border-white/5 rounded-3xl p-8">
+              <div className="py-20 text-center bg-white border border-slate-200 rounded-3xl p-8 shadow-sm">
                 <BookOpen className="w-12 h-12 text-slate-500 mx-auto mb-3" />
-                <h3 className="text-lg font-bold text-white mb-1">
+                <h3 className="text-lg font-bold text-slate-900 mb-1">
                   Không tìm thấy tài liệu phù hợp
                 </h3>
                 <p className="text-xs text-slate-400 max-w-sm mx-auto mb-6">

@@ -49,15 +49,15 @@ export default function VietQrModal({ isOpen, onClose, book, isVipUpgrade = fals
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-in fade-in duration-200">
-      <div className="relative w-full max-w-lg rounded-3xl bg-[#0f172a] border border-white/10 shadow-2xl overflow-hidden animate-in zoom-in-95 duration-200">
+      <div className="relative w-full max-w-lg rounded-3xl bg-white border border-slate-200 shadow-2xl overflow-hidden animate-in zoom-in-95 duration-200">
         {/* Header */}
-        <div className="flex items-center justify-between p-6 border-b border-white/10 bg-white/[0.02]">
+        <div className="flex items-center justify-between p-6 border-b border-slate-200 bg-slate-50">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white shadow-md">
+            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-slate-900 shadow-md">
               <QrCode className="w-5 h-5" />
             </div>
             <div>
-              <h3 className="text-base font-bold text-white">
+              <h3 className="text-base font-bold text-slate-900">
                 {isVipUpgrade ? "Nâng cấp Hội viên VIP" : "Tải nhanh sách lẻ (VietQR)"}
               </h3>
               <p className="text-xs text-slate-400">
@@ -67,7 +67,7 @@ export default function VietQrModal({ isOpen, onClose, book, isVipUpgrade = fals
           </div>
           <button
             onClick={onClose}
-            className="w-8 h-8 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center text-slate-400 hover:text-white transition-colors"
+            className="w-8 h-8 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center text-slate-400 hover:text-slate-900 transition-colors"
           >
             <X className="w-4 h-4" />
           </button>
@@ -80,7 +80,7 @@ export default function VietQrModal({ isOpen, onClose, book, isVipUpgrade = fals
               <div className="w-16 h-16 rounded-full bg-emerald-500/20 border border-emerald-500/40 text-emerald-400 flex items-center justify-center mx-auto">
                 <Check className="w-8 h-8" />
               </div>
-              <h4 className="text-xl font-bold text-white">Thanh toán thành công!</h4>
+              <h4 className="text-xl font-bold text-slate-900">Thanh toán thành công!</h4>
               <p className="text-sm text-slate-300 max-w-sm mx-auto">
                 Hệ thống đã xác nhận chuyển khoản. {isVipUpgrade ? "Tài khoản của bạn đã được nâng cấp VIP thành công!" : "Link tải sách tốc độ cao đã được mở khóa."}
               </p>
@@ -92,7 +92,7 @@ export default function VietQrModal({ isOpen, onClose, book, isVipUpgrade = fals
                     alert("Bắt đầu tải file PDF chất lượng cao (Google Drive Fast Mirror)");
                     onClose();
                   }}
-                  className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 text-white font-bold text-sm shadow-lg shadow-emerald-500/25"
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 text-slate-900 font-bold text-sm shadow-lg shadow-emerald-500/25"
                 >
                   <Download className="w-4 h-4" />
                   Bắt đầu tải ngay
@@ -114,26 +114,26 @@ export default function VietQrModal({ isOpen, onClose, book, isVipUpgrade = fals
               </div>
 
               {/* Bank Details Table */}
-              <div className="space-y-3 bg-white/[0.03] border border-white/5 rounded-2xl p-4 text-xs">
+              <div className="space-y-3 bg-slate-50 border border-slate-200 rounded-2xl p-4 text-xs">
                 <div className="flex items-center justify-between py-1 border-b border-white/5">
                   <span className="text-slate-400">Ngân hàng</span>
-                  <span className="font-bold text-white">{bankName}</span>
+                  <span className="font-bold text-slate-900">{bankName}</span>
                 </div>
 
                 <div className="flex items-center justify-between py-1 border-b border-white/5">
                   <span className="text-slate-400">Chủ tài khoản</span>
-                  <span className="font-bold text-slate-200 uppercase">{accountOwner}</span>
+                  <span className="font-bold text-slate-700 uppercase">{accountOwner}</span>
                 </div>
 
                 <div className="flex items-center justify-between py-1 border-b border-white/5">
                   <span className="text-slate-400">Số tài khoản</span>
                   <div className="flex items-center gap-2">
-                    <span className="font-extrabold text-white text-sm tracking-wider font-mono">
+                    <span className="font-extrabold text-slate-900 text-sm tracking-wider font-mono">
                       {accountNumber}
                     </span>
                     <button
                       onClick={() => copyToClipboard(accountNumber, "acc")}
-                      className="p-1 text-slate-400 hover:text-white transition-colors"
+                      className="p-1 text-slate-400 hover:text-slate-900 transition-colors"
                       title="Sao chép số tài khoản"
                     >
                       {copiedField === "acc" ? (
@@ -153,7 +153,7 @@ export default function VietQrModal({ isOpen, onClose, book, isVipUpgrade = fals
                     </span>
                     <button
                       onClick={() => copyToClipboard(amount.toString(), "amount")}
-                      className="p-1 text-slate-400 hover:text-white transition-colors"
+                      className="p-1 text-slate-400 hover:text-slate-900 transition-colors"
                       title="Sao chép số tiền"
                     >
                       {copiedField === "amount" ? (
@@ -173,7 +173,7 @@ export default function VietQrModal({ isOpen, onClose, book, isVipUpgrade = fals
                     </span>
                     <button
                       onClick={() => copyToClipboard(transferMemo, "memo")}
-                      className="p-1 text-slate-400 hover:text-white transition-colors"
+                      className="p-1 text-slate-400 hover:text-slate-900 transition-colors"
                       title="Sao chép nội dung"
                     >
                       {copiedField === "memo" ? (
@@ -195,14 +195,14 @@ export default function VietQrModal({ isOpen, onClose, book, isVipUpgrade = fals
               <div className="flex items-center gap-3 pt-2">
                 <button
                   onClick={onClose}
-                  className="flex-1 py-3 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 text-xs font-semibold border border-white/10 transition-colors"
+                  className="flex-1 py-3 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 text-xs font-semibold border border-slate-200 transition-colors"
                 >
                   Đóng
                 </button>
                 <button
                   onClick={handleSimulateCheck}
                   disabled={isVerifying}
-                  className="flex-1 py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 text-white text-xs font-bold shadow-lg shadow-indigo-500/20 hover:scale-[1.02] transition-all flex items-center justify-center gap-2 disabled:opacity-50"
+                  className="flex-1 py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 text-slate-900 text-xs font-bold shadow-lg shadow-indigo-500/20 hover:scale-[1.02] transition-all flex items-center justify-center gap-2 disabled:opacity-50"
                 >
                   {isVerifying ? (
                     <>

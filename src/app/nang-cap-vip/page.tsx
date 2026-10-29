@@ -27,7 +27,7 @@ export default function VipUpgradePage() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#0f172a] pt-32 pb-24 text-slate-200">
+    <div className="min-h-screen bg-slate-50 pt-32 pb-24 text-slate-800">
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16 space-y-4">
@@ -36,7 +36,7 @@ export default function VipUpgradePage() {
             <span>Chương trình tri ân sinh viên & Bác sĩ</span>
           </div>
 
-          <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight leading-tight">
+          <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
             Nâng Cấp Hội Viên <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-orange-500">VIP CĐHA-Cập-Nhật</span>
           </h1>
 
@@ -48,18 +48,18 @@ export default function VipUpgradePage() {
         {/* Pricing Cards Comparison */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-16">
           {/* Free Tier */}
-          <div className="rounded-3xl bg-white/[0.02] border border-white/10 p-8 flex flex-col justify-between">
+          <div className="rounded-3xl bg-white border border-slate-200 p-8 shadow-sm flex flex-col justify-between">
             <div className="space-y-6">
               <div>
-                <h3 className="text-xl font-bold text-white">Thành Viên Thường</h3>
+                <h3 className="text-xl font-bold text-slate-900">Thành Viên Thường</h3>
                 <p className="text-xs text-slate-400 mt-1">Dành cho bạn đọc tìm hiểu cơ bản</p>
               </div>
 
-              <div className="text-3xl font-extrabold text-slate-300">
+              <div className="text-3xl font-extrabold text-slate-800">
                 Miễn phí <span className="text-xs font-normal text-slate-500">/ Vĩnh viễn</span>
               </div>
 
-              <ul className="space-y-3.5 text-xs text-slate-300">
+              <ul className="space-y-3.5 text-xs text-slate-600">
                 <li className="flex items-center gap-3">
                   <Check className="w-4 h-4 text-emerald-400 shrink-0" />
                   Đọc thử trực tuyến tất cả tài liệu
@@ -80,14 +80,14 @@ export default function VipUpgradePage() {
             </div>
 
             <div className="pt-8">
-              <div className="py-3 rounded-xl bg-white/5 text-slate-400 text-center text-xs font-semibold">
+              <div className="py-3 rounded-xl bg-slate-100 text-slate-600 text-center text-xs font-semibold">
                 Đang sử dụng
               </div>
             </div>
           </div>
 
           {/* VIP Package Card matching GMHS */}
-          <div className="relative rounded-3xl bg-gradient-to-br from-[#1e293b] via-[#162035] to-[#0f172a] border-2 border-amber-500/50 p-8 shadow-2xl shadow-orange-500/10 flex flex-col justify-between">
+          <div className="relative rounded-3xl bg-gradient-to-br from-amber-50/70 via-white to-orange-50/50 border-2 border-amber-400 p-8 shadow-xl flex flex-col justify-between">
             {/* Top highlight badge */}
             <div className="absolute -top-3.5 right-6 px-4 py-1 rounded-full bg-gradient-to-r from-amber-500 to-orange-500 text-white text-xs font-black uppercase tracking-wider shadow-lg">
               Khuyên dùng (Tiết kiệm 50%)
@@ -97,7 +97,7 @@ export default function VipUpgradePage() {
               <div>
                 <div className="flex items-center gap-2">
                   <Crown className="w-6 h-6 text-amber-400" />
-                  <h3 className="text-xl font-extrabold text-white">Hội Viên VIP Toàn Diện</h3>
+                  <h3 className="text-xl font-extrabold text-slate-900">Hội Viên VIP Toàn Diện</h3>
                 </div>
                 <p className="text-xs text-slate-400 mt-1">Toàn quyền tải không giới hạn mọi tài liệu</p>
               </div>
@@ -115,14 +115,14 @@ export default function VipUpgradePage() {
                 <span className="text-xs text-slate-400 block mt-1">Truy cập không giới hạn trọn gói 1 năm</span>
               </div>
 
-              <ul className="space-y-3.5 text-xs text-slate-200">
+              <ul className="space-y-3.5 text-xs text-slate-800">
                 {perks.map((p, idx) => (
                   <li key={idx} className="flex items-start gap-3">
                     <div className="w-4 h-4 rounded-full bg-amber-500/20 text-amber-400 flex items-center justify-center shrink-0 mt-0.5">
                       <Check className="w-3 h-3" />
                     </div>
                     <div>
-                      <strong className="text-white block">{p.title}</strong>
+                      <strong className="text-slate-900 block">{p.title}</strong>
                       <span className="text-[11px] text-slate-400">{p.desc}</span>
                     </div>
                   </li>
@@ -143,7 +143,7 @@ export default function VipUpgradePage() {
         </div>
 
         {/* Guarantees */}
-        <div className="max-w-2xl mx-auto text-center space-y-3 p-6 rounded-2xl bg-white/[0.02] border border-white/5">
+        <div className="max-w-2xl mx-auto text-center space-y-3 p-6 rounded-2xl bg-white border border-slate-200 shadow-sm">
           <div className="flex items-center justify-center gap-2 text-emerald-400 font-bold text-xs uppercase tracking-wider">
             <ShieldCheck className="w-4 h-4" /> Cam kết uy tín từ CĐHA-Cập-Nhật Medical
           </div>

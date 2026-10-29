@@ -14,22 +14,22 @@ interface FeaturedBooksProps {
 export default function FeaturedBooks({ onQuickDownload }: FeaturedBooksProps) {
   if (BOOKS.length === 0) {
     return (
-      <section id="featured" className="py-16 bg-gradient-to-b from-[#0f172a] via-[#1a1f35] to-[#1e293b]">
+      <section id="featured" className="py-16 bg-white">
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 text-center">
-          <div className="p-10 rounded-3xl bg-white/[0.02] border border-white/5 max-w-lg mx-auto space-y-4">
-            <div className="w-12 h-12 rounded-2xl bg-amber-500/10 text-amber-400 flex items-center justify-center mx-auto border border-amber-500/20">
+          <div className="p-10 rounded-3xl bg-slate-50 border border-slate-200/80 max-w-lg mx-auto space-y-4 shadow-sm">
+            <div className="w-12 h-12 rounded-2xl bg-amber-500/10 text-amber-500 flex items-center justify-center mx-auto border border-amber-200">
               <Crown className="w-6 h-6" />
             </div>
-            <h3 className="text-lg sm:text-xl font-bold text-white">
+            <h3 className="text-lg sm:text-xl font-bold text-slate-900">
               Kho Sách Nổi Bật Đang Được Cập Nhật
             </h3>
-            <p className="text-xs sm:text-sm text-slate-400 leading-relaxed">
+            <p className="text-xs sm:text-sm text-slate-500 leading-relaxed">
               Các đầu sách y khoa và khóa học video chất lượng cao đang được ban biên tập CĐHA-Cập-Nhật tuyển chọn và số hóa.
             </p>
             <div className="pt-2">
               <Link
                 href="/yeu-cau-sach"
-                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold transition-colors shadow-lg shadow-indigo-600/20"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold transition-colors shadow-md shadow-indigo-600/20"
               >
                 <BookOpen className="w-4 h-4" />
                 <span>Yêu cầu sách bạn cần tìm</span>
@@ -45,18 +45,18 @@ export default function FeaturedBooks({ onQuickDownload }: FeaturedBooksProps) {
   const otherFeatured = BOOKS.slice(1, 7);
 
   return (
-    <section id="featured" className="py-20 bg-gradient-to-b from-[#0f172a] via-[#1a1f35] to-[#1e293b]">
+    <section id="featured" className="py-20 bg-white">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
         <div className="flex flex-wrap items-center justify-between gap-6 mb-10">
           <div className="flex items-center gap-4">
-            <div className="w-12 h-12 flex items-center justify-center bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl text-white shadow-lg shadow-orange-500/25">
+            <div className="w-12 h-12 flex items-center justify-center bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl text-white shadow-md shadow-orange-500/20">
               <Crown className="w-6 h-6" />
             </div>
             <div>
-              <h2 className="text-2xl md:text-3xl font-extrabold text-white tracking-tight">
+              <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight">
                 Sách Y Khoa Nổi Bật
               </h2>
-              <p className="text-xs sm:text-sm text-slate-400 mt-0.5">
+              <p className="text-xs sm:text-sm text-slate-500 mt-0.5">
                 Những đầu sách gối đầu giường được cộng đồng y bác sĩ tin cậy nhất
               </p>
             </div>
@@ -64,7 +64,7 @@ export default function FeaturedBooks({ onQuickDownload }: FeaturedBooksProps) {
 
           <Link
             href="/danh-muc"
-            className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-indigo-400 hover:text-indigo-300 transition-colors group"
+            className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-indigo-600 hover:text-indigo-700 transition-colors group"
           >
             <span>Xem tất cả sách</span>
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />

@@ -9,13 +9,11 @@ export const metadata: Metadata = {
   keywords: [
     "ebook y khoa",
     "sách y học",
+    "chẩn đoán hình ảnh",
     "tải sách y khoa",
     "giáo trình y khoa",
     "tài liệu y tế",
     "y học lâm sàng",
-    "gây mê hồi sức",
-    "harrison internal medicine",
-    "netter anatomy",
     "usmle",
   ],
 };
@@ -26,8 +24,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="vi" className="dark">
-      <body className="bg-[#0f172a] text-slate-100 min-h-screen flex flex-col antialiased selection:bg-indigo-500 selection:text-white">
+    <html lang="vi" className="light">
+      <body className="bg-white text-slate-800 min-h-screen flex flex-col antialiased selection:bg-indigo-500 selection:text-white">
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
