@@ -65,38 +65,20 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Chuyên ngành tiêu biểu */}
+          {/* KHÁM PHÁ CÁC CHUYÊN NGÀNH CĐHA */}
           <div className="lg:col-span-3 space-y-4">
             <h4 className="text-white font-bold text-sm uppercase tracking-wider flex items-center gap-2">
               <span className="w-1 h-4 bg-indigo-500 rounded-full" />
-              Chuyên ngành tiêu biểu
+              KHÁM PHÁ CÁC CHUYÊN NGÀNH CĐHA
             </h4>
             <ul className="space-y-2.5 text-sm">
-              <li>
-                <Link href="/danh-muc?cat=can-lam-sang" className="hover:text-white transition-colors">
-                  Chẩn đoán hình ảnh (X-quang, CT, MRI, US)
-                </Link>
-              </li>
-              <li>
-                <Link href="/danh-muc?cat=lam-sang" className="hover:text-white transition-colors">
-                  Y học lâm sàng (Nội, Ngoại, Sản, Nhi)
-                </Link>
-              </li>
-              <li>
-                <Link href="/danh-muc?cat=gay-me" className="hover:text-white transition-colors">
-                  Gây mê Hồi sức (GMHS) & ICU
-                </Link>
-              </li>
-              <li>
-                <Link href="/danh-muc?cat=co-so" className="hover:text-white transition-colors">
-                  Giải phẫu & Y học cơ sở
-                </Link>
-              </li>
-              <li>
-                <Link href="/danh-muc?cat=english" className="hover:text-white transition-colors">
-                  Sách Tiếng Anh & Luyện thi USMLE
-                </Link>
-              </li>
+              <li><Link href="/danh-muc?cat=than-kinh" className="hover:text-white transition-colors">Thần kinh</Link></li>
+              <li><Link href="/danh-muc?cat=dau-mat-co" className="hover:text-white transition-colors">Đầu mặt cổ</Link></li>
+              <li><Link href="/danh-muc?cat=nguc" className="hover:text-white transition-colors">Ngực</Link></li>
+              <li><Link href="/danh-muc?cat=bung-chau" className="hover:text-white transition-colors">Bụng - chậu</Link></li>
+              <li><Link href="/danh-muc?cat=co-xuong-khop" className="hover:text-white transition-colors">Cơ xương khớp</Link></li>
+              <li><Link href="/danh-muc?cat=nhi-khoa" className="hover:text-white transition-colors">Nhi khoa</Link></li>
+              <li><Link href="/danh-muc?cat=san-phu-khoa" className="hover:text-white transition-colors">Sản phụ khoa</Link></li>
             </ul>
           </div>
 

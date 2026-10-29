@@ -98,7 +98,7 @@ function CatalogContent() {
           <div className="flex items-center gap-2 text-xs font-semibold text-slate-500 mb-2">
             <span>Trang chủ</span>
             <span>/</span>
-            <span className="text-indigo-400">Kho tài liệu</span>
+            <span className="text-indigo-600">Chuyên ngành CĐHA</span>
             {selectedCategory !== "all" && (
               <>
                 <span>/</span>
@@ -113,7 +113,7 @@ function CatalogContent() {
             </span>
           </h1>
           <p className="text-xs sm:text-sm text-slate-400 mt-1">
-            {activeCategoryObj.description || "Tìm kiếm và tải sách theo chuyên ngành y tế bạn quan tâm"}
+            {"Khám phá kho tài liệu, cẩm nang và ca lâm sàng chẩn đoán hình ảnh phân theo từng cơ quan chuyên biệt"}
           </p>
         </div>
 
@@ -210,7 +210,7 @@ function CatalogContent() {
               <div className="bg-white rounded-2xl border border-slate-200 p-5 shadow-sm">
                 <h3 className="font-bold text-xs uppercase mb-4 tracking-widest text-slate-900 flex items-center gap-2 pb-3 border-b border-slate-100">
                   <div className="w-1 h-4 bg-indigo-500 rounded-full" />
-                  Khám phá theo Chuyên ngành
+                  KHÁM PHÁ CÁC CHUYÊN NGÀNH CĐHA
                 </h3>
 
                 <div className="space-y-1.5">

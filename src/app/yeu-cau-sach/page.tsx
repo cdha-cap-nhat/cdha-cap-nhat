@@ -136,12 +136,13 @@ export default function BookRequestPage() {
                       onChange={(e) => setFormData({ ...formData, category: e.target.value })}
                       className="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 text-slate-900 focus:outline-none focus:border-indigo-500 transition-colors"
                     >
-                      <option value="Y học lâm sàng">Y học lâm sàng (Nội, Ngoại, Sản, Nhi)</option>
-                      <option value="Gây mê Hồi sức">Gây mê Hồi sức (GMHS) & ICU</option>
-                      <option value="Y học cơ sở">Y học cơ sở (Giải phẫu, Sinh lý...)</option>
-                      <option value="Cận lâm sàng">Cận lâm sàng (X-quang, CT, MRI, ECG)</option>
-                      <option value="Dược học">Dược học & Dược lâm sàng</option>
-                      <option value="Sách Tiếng Anh & USMLE">Sách Tiếng Anh & USMLE</option>
+                      <option value="Thần kinh">Thần kinh</option>
+                      <option value="Đầu mặt cổ">Đầu mặt cổ</option>
+                      <option value="Ngực">Ngực</option>
+                      <option value="Bụng - chậu">Bụng - chậu</option>
+                      <option value="Cơ xương khớp">Cơ xương khớp</option>
+                      <option value="Nhi khoa">Nhi khoa</option>
+                      <option value="Sản phụ khoa">Sản phụ khoa</option>
                     </select>
                   </div>
 
