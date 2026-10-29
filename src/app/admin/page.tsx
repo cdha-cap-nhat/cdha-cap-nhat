@@ -33,7 +33,7 @@ export default function AdminPage() {
     siteName: "CĐHA-Cập-Nhật Medical",
     contactEmail: "contact@cdha-cap-nhat.vn",
     supportHotline: "0988.xxx.xxx",
-    telegram: "@cdhacapnhat",
+    telegram: "https://t.me/+gSNfEhY8rZxiZTk1",
     storageDriveUrl: "https://drive.google.com/drive/folders/cdha-vip",
     maintenanceMode: false,
   });

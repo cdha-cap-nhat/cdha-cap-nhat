@@ -142,7 +142,7 @@ export default function VipUpgradePage() {
             <ShieldCheck className="w-4 h-4" /> Cam kết chất lượng từ CĐHA-Cập-Nhật Medical
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            Ban quản trị hỗ trợ kích hoạt và cung cấp liên kết tài liệu VIP nhanh chóng. Nếu cần hỗ trợ thêm, vui lòng liên hệ trực tiếp qua Email <strong>contact@cdha-cap-nhat.vn</strong> hoặc Telegram để được giải quyết trong thời gian sớm nhất.
+            Ban quản trị hỗ trợ kích hoạt và cung cấp liên kết tài liệu VIP nhanh chóng. Nếu cần hỗ trợ thêm, vui lòng liên hệ trực tiếp qua Email <strong>contact@cdha-cap-nhat.vn</strong> hoặc Telegram: <a href="https://t.me/+gSNfEhY8rZxiZTk1" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-bold hover:underline">t.me/+gSNfEhY8rZxiZTk1</a> để được giải quyết trong thời gian sớm nhất.
           </p>
         </div>
       </div>

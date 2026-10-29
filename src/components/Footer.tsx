@@ -44,7 +44,7 @@ export default function Footer() {
                 <Mail className="w-4 h-4" />
               </a>
               <a
-                href="https://t.me/cdha_cap_nhat"
+                href="https://t.me/+gSNfEhY8rZxiZTk1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-[#229ED9] hover:bg-[#229ED9]/20 transition-colors"
