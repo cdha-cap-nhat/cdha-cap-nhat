@@ -15,6 +15,7 @@ import {
   Layers,
   Radio,
   Sparkles,
+  MonitorPlay,
 } from "lucide-react";
 import { CATEGORIES } from "@/data/categories";
 import { POSTS } from "@/data/posts";
@@ -247,6 +248,15 @@ export default function Navbar() {
             </div>
 
             <Link
+              href="/pacs"
+              className="px-3.5 py-2.5 rounded-lg text-indigo-700 bg-indigo-50/80 hover:bg-indigo-100 transition-colors flex items-center gap-1.5"
+            >
+              <MonitorPlay className="w-3.5 h-3.5 text-indigo-600" />
+              <span>Hệ thống PACS</span>
+              <span className="px-1.5 py-0.5 bg-indigo-600 text-white text-[9px] font-black rounded-full leading-none">MỚI</span>
+            </Link>
+
+            <Link
               href="/yeu-cau-sach"
               className="px-3.5 py-2.5 rounded-lg hover:text-blue-600 hover:bg-blue-50 transition-colors flex items-center gap-1"
             >
@@ -331,6 +341,17 @@ export default function Navbar() {
             </div>
 
             <div className="pt-2 border-t border-slate-100 px-3 space-y-1.5">
+              <Link
+                href="/pacs"
+                onClick={() => setMobileMenuOpen(false)}
+                className="flex items-center justify-between py-2.5 px-3 bg-indigo-50 border border-indigo-200 rounded-xl text-indigo-700 font-bold"
+              >
+                <div className="flex items-center gap-2">
+                  <MonitorPlay className="w-4 h-4 text-indigo-600" />
+                  <span>Hệ thống PACS (Đọc phim trực tuyến)</span>
+                </div>
+                <span className="px-1.5 py-0.5 bg-indigo-600 text-white text-[9px] font-black rounded-full leading-none">MỚI</span>
+              </Link>
               <Link
                 href="/danh-muc"
                 onClick={() => setMobileMenuOpen(false)}

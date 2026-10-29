@@ -19,6 +19,7 @@ import {
   Layers,
   CheckCircle2,
   Share2,
+  MonitorPlay,
 } from "lucide-react";
 import { POSTS } from "@/data/posts";
 import { CATEGORIES } from "@/data/categories";
@@ -317,6 +318,35 @@ function HomePageContent() {
                 />
                 <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
               </form>
+            </div>
+
+            {/* Widget PACS: HỆ THỐNG PACS DICOM */}
+            <div className="bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 rounded-2xl border border-indigo-500/30 p-5 shadow-sm text-white relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-500/10 rounded-full blur-2xl pointer-events-none" />
+              <div className="relative">
+                <div className="flex items-center justify-between mb-2.5 pb-2 border-b border-indigo-800/60">
+                  <h3 className="font-bold text-xs uppercase tracking-wider text-indigo-200 flex items-center gap-2">
+                    <MonitorPlay className="w-4 h-4 text-cyan-400" />
+                    HỆ THỐNG PACS CĐHA
+                  </h3>
+                  <span className="text-[9px] bg-cyan-400/20 text-cyan-300 border border-cyan-400/30 px-2 py-0.5 rounded-full font-bold">
+                    Trực tuyến
+                  </span>
+                </div>
+                <p className="text-xs text-indigo-100 font-semibold italic mb-2">
+                  &ldquo;Rảnh vào đọc phim cho vui...&rdquo;
+                </p>
+                <p className="text-[11px] text-slate-300 mb-3.5 leading-relaxed">
+                  Lưu trữ & đọc phim DICOM trực tuyến (CT, MRI, X-quang, Siêu âm) với đầy đủ công cụ đo đạc, chỉnh cửa sổ W/L và đối chiếu chẩn đoán.
+                </p>
+                <Link
+                  href="/pacs"
+                  className="w-full py-2.5 px-3.5 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-bold text-xs flex items-center justify-center gap-2 shadow-xs transition-all group"
+                >
+                  <span>Mở hệ thống đọc phim PACS</span>
+                  <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+                </Link>
+              </div>
             </div>
 
             {/* Widget 2: Khám Phá Các Chuyên Ngành CĐHA (8 chuyên ngành) */}

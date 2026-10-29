@@ -7,6 +7,7 @@ import {
   HeartHandshake,
   ShieldCheck,
   Stethoscope,
+  MonitorPlay,
 } from "lucide-react";
 
 export default function Footer() {
@@ -93,6 +94,12 @@ export default function Footer() {
               <li><Link href="/?modality=mri" className="hover:text-white transition-colors">Cộng hưởng từ (MRI)</Link></li>
               <li><Link href="/?modality=xq" className="hover:text-white transition-colors">X-quang (X-Ray)</Link></li>
               <li><Link href="/?cat=can-thiep" className="hover:text-white transition-colors">Điện quang can thiệp</Link></li>
+              <li className="pt-1">
+                <Link href="/pacs" className="text-cyan-400 hover:text-cyan-300 font-bold transition-colors flex items-center gap-1.5">
+                  <MonitorPlay className="w-3.5 h-3.5 text-cyan-400" />
+                  <span>Hệ thống PACS (Đọc phim)</span>
+                </Link>
+              </li>
             </ul>
           </div>
 
