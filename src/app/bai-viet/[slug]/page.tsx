@@ -15,6 +15,7 @@ import {
   FolderOpen,
   ChevronRight,
   BookOpen,
+  Edit,
 } from "lucide-react";
 import { POSTS } from "@/data/posts";
 import { CATEGORIES } from "@/data/categories";
@@ -50,16 +51,27 @@ export default function ArticleDetailPage({ params }: { params: { slug: string }
   return (
     <div className="min-h-screen bg-[#fafafc] text-slate-800 py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        {/* Breadcrumb */}
-        <nav className="flex items-center gap-2 text-xs font-semibold text-slate-500 mb-6 flex-wrap">
-          <Link href="/" className="hover:text-blue-600">Trang chủ</Link>
-          <span>/</span>
-          <Link href={`/?cat=${post.specialtySlug}`} className="hover:text-blue-600">
-            {post.specialty}
+        {/* Breadcrumb & Admin Edit Action */}
+        <div className="flex items-center justify-between gap-4 mb-6 flex-wrap">
+          <nav className="flex items-center gap-2 text-xs font-semibold text-slate-500 flex-wrap">
+            <Link href="/" className="hover:text-blue-600">Trang chủ</Link>
+            <span>/</span>
+            <Link href={`/?cat=${post.specialtySlug}`} className="hover:text-blue-600">
+              {post.specialty}
+            </Link>
+            <span>/</span>
+            <span className="text-slate-800 truncate max-w-sm">{post.title}</span>
+          </nav>
+
+          <Link
+            href={`/admin/bai-viet/${post.slug}`}
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-indigo-50 hover:bg-indigo-100 text-indigo-700 text-xs font-bold border border-indigo-200 transition-all shadow-xs"
+            title="Chỉnh sửa bài giảng qua giao diện CMS Admin"
+          >
+            <Edit className="w-3.5 h-3.5" />
+            <span>Chỉnh sửa bài (Admin)</span>
           </Link>
-          <span>/</span>
-          <span className="text-slate-800 truncate max-w-sm">{post.title}</span>
-        </nav>
+        </div>
 
         {/* 2-Column Layout */}
         <div className="flex flex-col lg:flex-row gap-8 items-start">

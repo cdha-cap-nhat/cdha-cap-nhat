@@ -14,12 +14,16 @@ import {
   Edit,
   Save,
   ShieldAlert,
+  FileText,
+  ExternalLink,
 } from "lucide-react";
+import Link from "next/link";
 import { BOOKS } from "@/data/books";
+import { POSTS } from "@/data/posts";
 import { CATEGORIES } from "@/data/categories";
 
 export default function AdminPage() {
-  const [activeTab, setActiveTab] = useState<"books" | "vip-requests" | "settings">("books");
+  const [activeTab, setActiveTab] = useState<"posts" | "books" | "vip-requests" | "settings">("posts");
   const [bookList, setBookList] = useState(BOOKS);
   const [search, setSearch] = useState("");
 
@@ -71,6 +75,15 @@ export default function AdminPage() {
 
           <div className="flex items-center gap-2 bg-white/5 border border-white/10 rounded-xl p-1 text-xs font-semibold">
             <button
+              onClick={() => setActiveTab("posts")}
+              className={`px-4 py-2 rounded-lg transition-all flex items-center gap-1.5 ${
+                activeTab === "posts" ? "bg-indigo-600 text-white shadow" : "text-slate-400 hover:text-white"
+              }`}
+            >
+              <FileText className="w-4 h-4" />
+              Bài giảng & Bài viết ({POSTS.length})
+            </button>
+            <button
               onClick={() => setActiveTab("books")}
               className={`px-4 py-2 rounded-lg transition-all flex items-center gap-1.5 ${
                 activeTab === "books" ? "bg-indigo-600 text-white shadow" : "text-slate-400 hover:text-white"
@@ -99,6 +112,72 @@ export default function AdminPage() {
             </button>
           </div>
         </div>
+
+        {/* Tab 0: Post Management */}
+        {activeTab === "posts" && (
+          <div className="space-y-6">
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div>
+                <h2 className="text-lg font-bold text-white">Danh sách bài giảng & chuyên khảo</h2>
+                <p className="text-xs text-slate-400">Chọn bài viết để mở trình soạn thảo CMS trực quan</p>
+              </div>
+            </div>
+
+            <div className="rounded-2xl bg-white/[0.03] border border-white/10 overflow-hidden">
+              <div className="overflow-x-auto">
+                <table className="w-full text-left text-xs">
+                  <thead className="bg-white/5 text-slate-400 font-semibold uppercase tracking-wider border-b border-white/10">
+                    <tr>
+                      <th className="py-3.5 px-4">Tiêu đề bài giảng</th>
+                      <th className="py-3.5 px-4">Chuyên ngành</th>
+                      <th className="py-3.5 px-4">Phương tiện</th>
+                      <th className="py-3.5 px-4">Ngày đăng</th>
+                      <th className="py-3.5 px-4 text-right">Thao tác</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-white/5 text-slate-300">
+                    {POSTS.map((post) => (
+                      <tr key={post.id} className="hover:bg-white/[0.02] transition-colors">
+                        <td className="py-4 px-4 font-semibold text-white max-w-md">
+                          <div className="truncate font-medium">{post.title}</div>
+                          <div className="text-[10px] text-slate-500 font-mono mt-0.5">{post.slug}</div>
+                        </td>
+                        <td className="py-4 px-4">
+                          <span className="px-2.5 py-1 rounded-md bg-blue-500/10 text-blue-400 font-medium text-[11px] border border-blue-500/20">
+                            {post.specialty}
+                          </span>
+                        </td>
+                        <td className="py-4 px-4">
+                          <span className="px-2 py-0.5 rounded bg-white/10 text-slate-300 text-[11px]">
+                            {post.modality}
+                          </span>
+                        </td>
+                        <td className="py-4 px-4 text-slate-400">{post.date}</td>
+                        <td className="py-4 px-4 text-right space-x-2">
+                          <Link
+                            href={`/admin/bai-viet/${post.slug}`}
+                            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-xs shadow transition-all"
+                          >
+                            <Edit className="w-3.5 h-3.5" />
+                            Sửa bài viết
+                          </Link>
+                          <Link
+                            href={`/bai-viet/${post.slug}`}
+                            target="_blank"
+                            className="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-slate-300 text-xs border border-white/10 transition-all"
+                          >
+                            <ExternalLink className="w-3.5 h-3.5" />
+                            Xem
+                          </Link>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* Tab 1: Book Management */}
         {activeTab === "books" && (
