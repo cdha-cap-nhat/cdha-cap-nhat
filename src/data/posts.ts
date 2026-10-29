@@ -125,7 +125,7 @@ export const POSTS: Post[] = [
         <strong>Định nghĩa:</strong> Bất đối xứng toàn thể là vùng mô tuyến vú lan rộng trên một phần đáng kể của tuyến vú (<strong>ít nhất chiếm một góc phần tư - ≥ 1 quadrant</strong>) và không đối xứng với vùng tương ứng ở vú đối bên.
       </p>
       <p>
-        Tổn thương này <em>không đi kèm khối u, không có xáo trộn cấu trúc và không có vi vôi hóa nghi ngờ</em>. Trong đại đa số trường hợp, bất đối xứng toàn thể đại diện cho sự biến đổi giải phẫu bình thường nhưng không cân xứng của mô xơ tuyến bẩm sinh, thường được ghi nhận lần đầu tiên ngay trên phim nhũ ảnh nền (baseline mammogram).
+        Tổn thương này <em>không đi kèm khối u, không có xáo trộn cấu trúc và không có vi vôi hóa nghi ngờ</em>. Bất đối xứng toàn thể thường đại diện cho sự phân bố bình thường nhưng không đối xứng của mô sợi tuyến (fibroglandular breast tissue), thường được mô tả lần đầu tiên trên phim nhũ ảnh nền (baseline mammogram).
       </p>
 
       <div class="pitfalls">
@@ -201,7 +201,7 @@ export const POSTS: Post[] = [
             <tr>
               <td><strong>Nguyên nhân thường gặp</strong></td>
               <td>Ung thư biểu mô xâm nhập (IDC/ILC), Sẹo hình sao (Radial scar), Sẹo mổ cũ, Bệnh tuyến xơ cứng.</td>
-              <td>Biến thể giải phẫu bình thường của mô xơ tuyến. Hiếm gặp hơn: Ung thư biểu mô xâm nhập lan tỏa.</td>
+              <td>Phân bố bình thường nhưng không đối xứng của mô sợi tuyến (fibroglandular tissue). Hiếm gặp hơn: Ung thư biểu mô xâm nhập lan tỏa.</td>
               <td>Xảo ảnh chồng mô (Summation artifact, chiếm đa số), Khối u hoặc Bất đối xứng khu trú bị che khuất.</td>
             </tr>
             <tr>
@@ -235,7 +235,7 @@ export const POSTS: Post[] = [
       <div class="pitfalls">
         <h4 class="font-bold text-rose-900 mb-1">Diagnostic Pitfalls (Cạm bẫy lâm sàng):</h4>
         <ul>
-          <li><strong>Giả xáo trộn cấu trúc (Pseudo-distortion):</strong> Do các dải xơ tuyến ở các độ sâu khác nhau vô tình tạo hiệu ứng giao nhau trên phim 2D. Khắc phục: Lăn chuột kiểm tra từng lát cắt mỏng DBT để tách lớp.</li>
+          <li><strong>Giả xáo trộn cấu trúc (Pseudo-distortion):</strong> Do các cấu trúc dạng đường thẳng ở các độ sâu khác nhau vô tình chồng lấp tạo hiệu ứng giao nhau trên phim 2D. Khắc phục: Lăn chuột kiểm tra từng lát cắt mỏng DBT để tách lớp.</li>
           <li><strong>Bỏ sót ung thư biểu mô tiểu thùy (ILC):</strong> ILC thường không tạo thành khối rõ rệt mà chỉ biểu hiện dưới dạng co kéo cấu trúc kín đáo hoặc bất đối xứng toàn thể kèm dày da.</li>
           <li><strong>Xem thường bất đối xứng một bình diện:</strong> Dù đa số là lành tính do chồng ảnh, nhưng nếu tổn thương xuất hiện liên tục trên nhiều lát cắt DBT cùng vị trí, đó là tổn thương có thể tích thực sự và cần triệu tập làm chẩn đoán chuyên sâu ngay lập tức.</li>
         </ul>
