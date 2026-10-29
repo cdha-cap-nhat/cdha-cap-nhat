@@ -21,6 +21,7 @@ export const POSTS: Post[] = [
       "Đối với các dạng bất đối xứng (Asymmetries), BI-RADS® v2025 đã chính thức loại bỏ thuật ngữ 'Developing Asymmetry' khỏi bảng danh mục mô tả, đồng thời đưa ra các tiêu chuẩn rõ ràng để tiếp cận Bất đối xứng toàn thể (Global Asymmetry) và Bất đối xứng một bình diện (Asymmetry)."
     ],
     htmlContent: `
+
       <div class="toc-box">
         <h4 class="font-bold text-slate-900 text-sm mb-2 uppercase tracking-wide">Mục Lục Bài Giảng</h4>
         <ul class="text-xs space-y-1.5 text-blue-700">
@@ -143,7 +144,7 @@ export const POSTS: Post[] = [
         <figcaption><strong>Figure 2 – BẤT ĐỐI XỨNG TOÀN THỂ - vú trái (DM).</strong> Lưu ý dày da vú trái. Dấu hiệu này sờ thấy được (xem điểm đánh dấu da hình tam giác). Mặc dù hầu hết bất đối xứng toàn thể là lành tính và do phát triển, chúng nên được tiếp cận một cách thận trọng nếu liên quan đến các dấu hiệu lâm sàng hoặc bất kỳ dấu hiệu hình ảnh nghi ngờ nào. Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập tiến triển tại chỗ (Locally advanced invasive ductal carcinoma).</figcaption>
       </figure>
 
-      <h2 id="phan-6-bat-doi-xung-mot-binh-dien">6. Bất đối xứng một bình diện (Asymmetry) & Ca minh họa</h2>
+      <h2 id="phan-6-bat-doi-xung-mot-binh-dien">6. Bất đối xứng (Asymmetry) & Ca minh họa</h2>
       <p>
         <strong>Định nghĩa:</strong> Thuật ngữ <em>Bất đối xứng (Asymmetry đơn thuần)</em> được định nghĩa chính xác là vùng mô không có phần đối xứng ở vú bên kia và <strong>chỉ nhìn thấy được trên DUY NHẤT MỘT bình diện nhũ ảnh</strong> (thường chỉ thấy trên thế CC hoặc chỉ thấy trên thế MLO).
       </p>
@@ -240,10 +241,11 @@ export const POSTS: Post[] = [
           <li><strong>Xem thường bất đối xứng một bình diện:</strong> Dù đa số là lành tính do chồng ảnh, nhưng nếu tổn thương xuất hiện liên tục trên nhiều lát cắt DBT cùng vị trí, đó là tổn thương có thể tích thực sự và cần triệu tập làm chẩn đoán chuyên sâu ngay lập tức.</li>
         </ul>
       </div>
+    
     `,
     views: 1250,
-    readTime: "12 phút đọc",
+    readTime: "15 phút đọc",
     source: "ACR BI-RADS® Mammography v2025 Manual (pp. 107-116)",
-    tags: ["BI-RADS 2025", "Nhũ ảnh", "DBT", "Xáo trộn cấu trúc", "Bất đối xứng", "Ung thư vú", "Chẩn đoán hình ảnh vú"]
+    tags: ["BI-RADS 2025","Nhũ ảnh","DBT","Xáo trộn cấu trúc","Bất đối xứng","Ung thư vú","Chẩn đoán hình ảnh vú"]
   }
 ];

@@ -38,6 +38,23 @@ export default function AdminEditPostPage() {
   const [saveStatus, setSaveStatus] = useState<{ type: "success" | "error"; message: string } | null>(null);
   const [copiedImg, setCopiedImg] = useState<string | null>(null);
 
+  useEffect(() => {
+    if (!slug) return;
+    fetch(`/api/admin/posts?slug=${slug}`)
+      .then((res) => res.json())
+      .then((data) => {
+        if (data?.post) {
+          if (data.post.title) setTitle(data.post.title);
+          if (data.post.excerpt) setExcerpt(data.post.excerpt);
+          if (data.post.author) setAuthor(data.post.author);
+          if (data.post.readTime) setReadTime(data.post.readTime);
+          if (data.post.tags) setTagsString(data.post.tags.join(", "));
+          if (data.post.htmlContent) setHtmlContent(data.post.htmlContent);
+        }
+      })
+      .catch(() => {});
+  }, [slug]);
+
   // Available figures list for reference
   const figures = [
     { name: "Hình 1 (DBT IDC)", url: "/posts/birads-v2025/fig1_arch_distortion_dbt_idc.jpg" },

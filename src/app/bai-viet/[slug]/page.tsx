@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
@@ -21,7 +21,17 @@ import { POSTS } from "@/data/posts";
 import { CATEGORIES } from "@/data/categories";
 
 export default function ArticleDetailPage({ params }: { params: { slug: string } }) {
-  const post = POSTS.find((p) => p.slug === params.slug);
+  const initialPost = POSTS.find((p) => p.slug === params.slug);
+  const [post, setPost] = useState(initialPost);
+
+  useEffect(() => {
+    fetch(`/api/admin/posts?slug=${params.slug}`)
+      .then((res) => res.json())
+      .then((data) => {
+        if (data?.post) setPost(data.post);
+      })
+      .catch(() => {});
+  }, [params.slug]);
 
   if (!post) {
     return (
