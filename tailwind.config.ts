@@ -29,6 +29,9 @@ const config: Config = {
           to: { transform: "rotate(0deg)" },
         },
       },
+      screens: {
+        desktop: "1440px",
+      },
     },
   },
   plugins: [],

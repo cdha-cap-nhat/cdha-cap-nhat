@@ -71,32 +71,50 @@ body {
   animation: bookBounce 3s ease-in-out infinite;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Medical Article & Lecture Styling */
+.article-body h2,
+.article-body h3,
+.article-body h4 {
+  scroll-margin-top: 100px;
+}
+
 .article-body h2 {
-  font-size: 1.35rem;
+  font-size: 1.5rem;
   font-weight: 800;
   color: #0f172a;
-  margin-top: 2rem;
-  margin-bottom: 0.85rem;
-  padding-bottom: 0.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.65rem;
   border-bottom: 2px solid #e2e8f0;
+  letter-spacing: -0.01em;
 }
 .article-body h3 {
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: #1e293b;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.01em;
+}
+.article-body h4 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #334155;
   margin-top: 1.5rem;
-  margin-bottom: 0.65rem;
+  margin-bottom: 0.5rem;
 }
 .article-body p {
-  margin-bottom: 1rem;
-  line-height: 1.75;
+  margin-bottom: 1.2rem;
   color: #334155;
 }
 .article-body ul, .article-body ol {
-  margin-bottom: 1.25rem;
-  padding-left: 1.5rem;
-  line-height: 1.7;
+  margin-bottom: 1.35rem;
+  padding-left: 1.75rem;
+  line-height: 1.75;
 }
 .article-body ul {
   list-style-type: disc;
@@ -105,41 +123,53 @@ body {
   list-style-type: decimal;
 }
 .article-body li {
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.4rem;
 }
 .article-body table {
   width: 100%;
   border-collapse: collapse;
-  margin: 1.5rem 0;
-  font-size: 0.875rem;
+  margin: 1.75rem 0;
+  font-size: 0.9rem;
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 .article-body th {
   background-color: #f1f5f9;
   font-weight: 700;
   color: #0f172a;
-  padding: 0.75rem 1rem;
+  padding: 0.85rem 1.15rem;
   border: 1px solid #cbd5e1;
   text-align: left;
+  white-space: nowrap;
 }
 .article-body td {
-  padding: 0.75rem 1rem;
+  padding: 0.85rem 1.15rem;
   border: 1px solid #e2e8f0;
   color: #334155;
+  min-width: 160px;
 }
 .article-body tr:nth-child(even) td {
   background-color: #f8fafc;
 }
 .article-body figure {
-  margin: 1.75rem 0;
+  margin: 2rem 0;
   text-align: center;
 }
 .article-body figure img {
-  border-radius: 0.75rem;
+  border-radius: 0.875rem;
   max-width: 100%;
   height: auto;
   margin: 0 auto;
   border: 1px solid #e2e8f0;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.06);
+  cursor: zoom-in;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.article-body figure img:hover {
+  transform: scale(1.008);
+  box-shadow: 0 8px 20px -4px rgba(37, 99, 235, 0.15);
+  border-color: #93c5fd;
 }
 .article-body figcaption {
   margin-top: 0.5rem;
