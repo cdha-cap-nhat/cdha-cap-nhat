@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { BookOpen, ChevronLeft, ChevronRight, CheckCircle2, Bookmark, ArrowLeft, ArrowRight, PanelLeftClose, PanelLeftOpen } from "lucide-react";
+import { BookOpen, CheckCircle2, ArrowLeft, ArrowRight, PanelRightClose, PanelRightOpen } from "lucide-react";
 import { Post } from "@/types";
 
 interface ChapterSidebarProps {
@@ -34,7 +34,7 @@ export default function ChapterSidebar({
           className="p-2 rounded-xl text-slate-500 hover:text-blue-600 hover:bg-blue-50 transition-colors"
           title="Mở rộng danh sách chương"
         >
-          <PanelLeftOpen className="w-5 h-5" />
+          <PanelRightOpen className="w-5 h-5" />
         </button>
         <span className="text-[11px] font-bold text-slate-500 [writing-mode:vertical-lr] rotate-180 tracking-wider">
           CHƯƠNG BÀI GIẢNG
@@ -59,7 +59,7 @@ export default function ChapterSidebar({
               className="p-1 rounded-md text-slate-400 hover:text-slate-600 hover:bg-slate-200/60 transition-colors shrink-0"
               title="Thu gọn danh sách chương"
             >
-              <PanelLeftClose className="w-4 h-4" />
+              <PanelRightClose className="w-4 h-4" />
             </button>
           )}
         </div>

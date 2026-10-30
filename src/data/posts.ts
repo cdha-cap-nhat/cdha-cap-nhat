@@ -21,40 +21,6 @@ export const POSTS: Post[] = [
       "BI-RADS® 2025 cập nhật thuật ngữ hình thái mới 'Đa cung' (Lobulated) và hướng dẫn đánh giá tối ưu đường bờ khối u trực tiếp trên các lát cắt mỏng của DBT."
     ],
     htmlContent: `
-      <div class="toc-box">
-        <h4 class="font-bold text-slate-900 text-sm mb-2 uppercase tracking-wide">Mục Lục Bài Giảng</h4>
-        <ul class="text-xs space-y-1.5 text-blue-700">
-          <li><a href="#phan-1-dinh-nghia" class="hover:underline">1. Giới thiệu tổng quan & Định nghĩa Khối u theo BI-RADS® v2025</a></li>
-          <li><a href="#phan-2-hinh-thai" class="hover:underline">2. Phân loại Hình thái khối u (Mass Shape)</a>
-            <ul class="pl-4 space-y-1 text-slate-600">
-              <li><a href="#shape-oval" class="hover:underline">a. Hình bầu dục (Oval) - Hình 1 đến Hình 5</a></li>
-              <li><a href="#shape-lobulated" class="hover:underline">b. Hình đa cung (Lobulated) - Cập nhật mới BI-RADS 2025 - Hình 1 đến Hình 6</a></li>
-              <li><a href="#shape-round" class="hover:underline">c. Hình tròn (Round) - Hình 1 đến Hình 6</a></li>
-              <li><a href="#shape-irregular" class="hover:underline">d. Hình không đều (Irregular) - Hình 1 đến Hình 6</a></li>
-            </ul>
-          </li>
-          <li><a href="#phan-3-duong-bo" class="hover:underline">3. Phân loại Đường bờ khối u (Mass Margin)</a>
-            <ul class="pl-4 space-y-1 text-slate-600">
-              <li><a href="#margin-circumscribed" class="hover:underline">a. Bờ rõ nét / Giới hạn rõ (Circumscribed) - Hình 1 đến Hình 6</a></li>
-              <li><a href="#margin-obscured" class="hover:underline">b. Bờ bị che khuất (Obscured) - Hình 1 đến Hình 6</a></li>
-              <li><a href="#margin-indistinct" class="hover:underline">c. Bờ không rõ nét (Indistinct) - Hình 1 đến Hình 6</a></li>
-              <li><a href="#margin-spiculated" class="hover:underline">d. Bờ tua gai (Spiculated) - Hình 1 đến Hình 8</a></li>
-            </ul>
-          </li>
-          <li><a href="#phan-4-dam-do" class="hover:underline">4. Phân loại Đậm độ khối u (Mass Density)</a>
-            <ul class="pl-4 space-y-1 text-slate-600">
-              <li><a href="#density-fat" class="hover:underline">a. Chứa mỡ (Fat-Containing) - Hình 1 đến Hình 7</a></li>
-              <li><a href="#density-low" class="hover:underline">b. Đậm độ thấp (Low Density) - Hình 1 đến Hình 4</a></li>
-              <li><a href="#density-equal" class="hover:underline">c. Đồng đậm độ (Equal Density) - Hình 1 đến Hình 5</a></li>
-              <li><a href="#density-high" class="hover:underline">d. Đậm độ cao (High Density) - Hình 1 đến Hình 6</a></li>
-            </ul>
-          </li>
-          <li><a href="#phan-5-dbt" class="hover:underline">5. Vai trò then chốt của Nhũ ảnh 3D cắt lớp (DBT) trong đánh giá khối</a></li>
-          <li><a href="#phan-6-bang-so-sanh" class="hover:underline">6. Bảng tổng hợp đối chiếu & Nguy cơ ác tính</a></li>
-          <li><a href="#phan-7-keypoints-pitfalls" class="hover:underline">7. Điểm cốt lõi cần nhớ (Key Points) & Cạm bẫy chẩn đoán (Diagnostic Pitfalls)</a></li>
-        </ul>
-      </div>
-
       <h2 id="phan-1-dinh-nghia">1. Giới thiệu tổng quan & Định nghĩa Khối u theo BI-RADS® v2025</h2>
       <p>
         Trong thuật ngữ Nhũ ảnh của Hiệp hội Điện quang Hoa Kỳ (American College of Radiology - ACR), <strong>Khối (Mass)</strong> là một cấu trúc choán chỗ ba chiều (3-dimensional, space-occupying structure). Khối có đường bờ lồi hoàn toàn hoặc một phần và khi cản tia (radiodense), khối sẽ xuất hiện đậm hơn ở trung tâm so với vùng ngoại vi.
@@ -729,22 +695,6 @@ export const POSTS: Post[] = [
       "Đối với các dạng bất đối xứng (Asymmetries), BI-RADS® v2025 đã chính thức loại bỏ thuật ngữ 'Developing Asymmetry' khỏi bảng danh mục mô tả, đồng thời đưa ra các tiêu chuẩn rõ ràng để tiếp cận Bất đối xứng toàn thể (Global Asymmetry) và Bất đối xứng một bình diện (Asymmetry)."
     ],
     htmlContent: `
-
-
-      <div class="toc-box">
-        <h4 class="font-bold text-slate-900 text-sm mb-2 uppercase tracking-wide">Mục Lục Bài Giảng</h4>
-        <ul class="text-xs space-y-1.5 text-blue-700">
-          <li><a href="#phan-1-tong-quan" class="hover:underline">1. Giới thiệu tổng quan & Ý nghĩa lâm sàng</a></li>
-          <li><a href="#phan-2-xao-tron-cau-truc" class="hover:underline">2. Xáo trộn cấu trúc (Architectural Distortion)</a></li>
-          <li><a href="#phan-3-cac-ca-xao-tron-cau-truc" class="hover:underline">3. Ca bệnh minh họa: Xáo trộn cấu trúc (Hình 1 - Hình 7)</a></li>
-          <li><a href="#phan-4-tong-quan-bat-doi-xung" class="hover:underline">4. Các dạng bất đối xứng (Asymmetries) & Điểm mới BI-RADS® v2025</a></li>
-          <li><a href="#phan-5-bat-doi-xung-toan-the" class="hover:underline">5. Bất đối xứng toàn thể (Global Asymmetry) & Ca minh họa</a></li>
-          <li><a href="#phan-6-bat-doi-xung-mot-binh-dien" class="hover:underline">6. Bất đối xứng một bình diện (Asymmetry) & Ca minh họa</a></li>
-          <li><a href="#phan-7-bang-so-sanh" class="hover:underline">7. Bảng tổng hợp so sánh & Lưu đồ xử trí</a></li>
-          <li><a href="#phan-8-key-points" class="hover:underline">8. Điểm cốt lõi cần nhớ (Key Points) & Cạm bẫy chẩn đoán (Pitfalls)</a></li>
-        </ul>
-      </div>
-
       <h2 id="phan-1-tong-quan">1. Giới thiệu tổng quan & Ý nghĩa lâm sàng</h2>
       <p>
         Trong chẩn đoán hình ảnh tuyến vú, bên cạnh các khối u dạng nốt (masses) và vi vôi hóa nghi ngờ (calcifications), <strong>Xáo trộn cấu trúc (Architectural Distortion)</strong> và <strong>Các dạng bất đối xứng (Asymmetries)</strong> là hai nhóm dấu hiệu nhũ ảnh cực kỳ quan trọng nhưng cũng thường mang lại nhiều thách thức phân tích nhất cho các bác sĩ chẩn đoán hình ảnh.

@@ -397,21 +397,19 @@ export default function MedicalReadingLayout({
 
         {/* 3-COLUMN DESKTOP LAYOUT (15% - 70% - 15%) */}
         <div className="flex flex-col lg:flex-row gap-6 items-start relative">
-          {/* CỘT TRÁI (15% trên Desktop ≥ 1440px): Chapter Navigation & Related Articles */}
+          {/* CỘT TRÁI (15% trên Desktop ≥ 1440px / Hiển thị từ Laptop ≥ 1024px): Mục lục bài giảng (Table of Contents) */}
           <aside
-            className={`hidden desktop:block shrink-0 transition-all duration-300 sticky top-24 z-20 ${
+            className={`hidden lg:block shrink-0 transition-all duration-300 sticky top-24 z-20 ${
               isLeftCollapsed
                 ? "w-[56px]"
-                : "w-[15%] min-w-[230px] max-w-[280px]"
+                : "w-[260px] desktop:w-[15%] desktop:min-w-[230px] desktop:max-w-[280px]"
             }`}
           >
-            <ChapterSidebar
-              currentPostId={post.id}
-              specialtyName={post.specialty}
-              specialtySlug={post.specialtySlug}
-              chapters={specialtyPosts}
-              prevPost={prevPost}
-              nextPost={nextPost}
+            <TableOfContents
+              headings={headings}
+              activeId={activeHeadingId}
+              readingProgress={readingProgress}
+              onHeadingClick={handleHeadingClick}
               isCollapsed={isLeftCollapsed}
               onToggleCollapse={() => setIsLeftCollapsed(!isLeftCollapsed)}
             />
@@ -615,19 +613,21 @@ export default function MedicalReadingLayout({
             </article>
           </main>
 
-          {/* CỘT PHẢI (15% trên Desktop ≥ 1440px / Hiển thị từ Laptop ≥ 1024px): Table of Contents / On This Page */}
+          {/* CỘT PHẢI (15% trên Desktop ≥ 1440px): Chapter Navigation & Related Articles */}
           <aside
-            className={`hidden lg:block shrink-0 transition-all duration-300 sticky top-24 z-20 ${
+            className={`hidden desktop:block shrink-0 transition-all duration-300 sticky top-24 z-20 ${
               isRightCollapsed
                 ? "w-[56px]"
-                : "w-[260px] desktop:w-[15%] desktop:min-w-[230px] desktop:max-w-[280px]"
+                : "w-[15%] min-w-[230px] max-w-[280px]"
             }`}
           >
-            <TableOfContents
-              headings={headings}
-              activeId={activeHeadingId}
-              readingProgress={readingProgress}
-              onHeadingClick={handleHeadingClick}
+            <ChapterSidebar
+              currentPostId={post.id}
+              specialtyName={post.specialty}
+              specialtySlug={post.specialtySlug}
+              chapters={specialtyPosts}
+              prevPost={prevPost}
+              nextPost={nextPost}
               isCollapsed={isRightCollapsed}
               onToggleCollapse={() => setIsRightCollapsed(!isRightCollapsed)}
             />

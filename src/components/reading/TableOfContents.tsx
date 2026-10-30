@@ -1,7 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
-import { ListTree, ChevronDown, ChevronRight, ArrowUp, PanelRightClose, PanelRightOpen } from "lucide-react";
+import React from "react";
+import { ListTree, ArrowUp, PanelLeftClose, PanelLeftOpen } from "lucide-react";
 
 export interface HeadingItem {
   id: string;
@@ -40,7 +40,7 @@ export default function TableOfContents({
           className="p-2 rounded-xl text-slate-500 hover:text-blue-600 hover:bg-blue-50 transition-colors"
           title="Mở rộng mục lục"
         >
-          <PanelRightOpen className="w-5 h-5" />
+          <PanelLeftOpen className="w-5 h-5" />
         </button>
         <span className="text-[11px] font-bold text-slate-500 [writing-mode:vertical-lr] rotate-180 tracking-wider">
           MỤC LỤC ({Math.round(readingProgress)}%)
@@ -73,7 +73,7 @@ export default function TableOfContents({
                 className="p-1 rounded-md text-slate-400 hover:text-slate-600 hover:bg-slate-200/60 transition-colors"
                 title="Thu gọn mục lục"
               >
-                <PanelRightClose className="w-4 h-4" />
+                <PanelLeftClose className="w-4 h-4" />
               </button>
             )}
           </div>
@@ -98,14 +98,13 @@ export default function TableOfContents({
       <div className="flex-1 overflow-y-auto p-3 space-y-1 text-xs">
         {headings.length === 0 ? (
           <p className="text-slate-400 italic text-center py-6 text-[11px]">
-            Đang phân tích cấu trúc bài viết...
+            Đang tải cấu trúc đề mục...
           </p>
         ) : (
           headings.map((heading) => {
             const isActive = activeId === heading.id;
             const isH2 = heading.level === 2;
             const isH3 = heading.level === 3;
-            const isH4 = heading.level >= 4;
 
             return (
               <button

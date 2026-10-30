@@ -192,10 +192,6 @@ html {
   margin: 1.5rem 0;
 }
 .article-body .toc-box {
-  background-color: #f8fafc;
-  border: 1px solid #e2e8f0;
-  padding: 1rem 1.25rem;
-  border-radius: 0.75rem;
-  margin: 1.25rem 0 2rem 0;
+  display: none !important;
 }
 
