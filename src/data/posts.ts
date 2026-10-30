@@ -3,7 +3,7 @@ import { Post } from "@/types";
 export const POSTS: Post[] = [
   {
     id: "post-birads-2025-masses-shape-margin-density",
-    title: "Cẩm nang ACR BI-RADS® 2025: Khối u tuyến vú (Masses) – Hình thái, Đường bờ và Đậm độ",
+    title: "Cẩm nang ACR BI-RADS® 2025: Tổng quan Nhũ ảnh, Bảng từ vựng Lexicon & Đậm độ tuyến vú (Breast Density)",
     slug: "birads-2025-khoi-u-tuyen-vu-hinh-thai-duong-bo-dam-do",
     date: "30 Tháng 10, 2026",
     updatedDate: "30 Tháng 10, 2026",
@@ -14,676 +14,534 @@ export const POSTS: Post[] = [
     specialty: "Vú",
     specialtySlug: "vu",
     coverImage: "/posts/birads-v2025-masses/page_01_b1_c1.jpg",
-    excerpt: "Cập nhật toàn diện từ Cẩm nang ACR BI-RADS® v2025 về tổn thương Khối u tuyến vú (Masses) trên nhũ ảnh 2D, nhũ ảnh tổng hợp (SM) và nhũ ảnh 3D cắt lớp (DBT). Phân tích chi tiết 3 thuộc tính then chốt: Hình thái (Shape), Đường bờ (Margin) và Đậm độ (Density), kèm theo các cập nhật mới mang tính bước ngoặt như bổ sung hình thái Đa cung (Lobulated), nguyên tắc đánh giá đường bờ trên DBT và các cạm bẫy chẩn đoán ác tính quan trọng.",
+    excerpt: "Cập nhật toàn diện từ Cẩm nang ACR BI-RADS® v2025 về nền tảng Nhũ ảnh: Phân biệt Nhũ ảnh tầm soát và Chẩn đoán, Bảng danh mục từ vựng Lexicon tổng thể (Table 1), và Phân loại Đậm độ tuyến vú (Breast Density a-b-c-d) theo quy định liên bang mới nhất của FDA Hoa Kỳ, kèm đầy đủ 16 ca bệnh đối chiếu nhũ ảnh 2D (DM) và 3D tổng hợp (SM).",
     content: [
       "Khối (Mass) là cấu trúc choán chỗ ba chiều (3D) có đường bờ lồi hoàn toàn hoặc một phần và xuất hiện đậm hơn ở trung tâm.",
       "Theo ACR BI-RADS® v2025, với nhũ ảnh 3D cắt lớp (DBT), một tổn thương có thể được định danh đầy đủ là Khối ngay cả khi chỉ nhìn thấy trên một hướng chụp duy nhất.",
       "BI-RADS® 2025 cập nhật thuật ngữ hình thái mới 'Đa cung' (Lobulated) và hướng dẫn đánh giá tối ưu đường bờ khối u trực tiếp trên các lát cắt mỏng của DBT."
     ],
     htmlContent: `
+
       <div class="editorial-box">
         <h4 class="font-bold text-sky-900 mb-2 flex items-center gap-2">
-          <span>📖</span> Bối cảnh biên dịch & Lời tòa soạn: Cẩm nang ACR BI-RADS® v2025 – Khối u tuyến vú (Masses)
+          <span>📖</span> Bối cảnh biên dịch & Lời tòa soạn: Cẩm nang ACR BI-RADS® v2025 – Nền tảng Nhũ ảnh, Từ vựng & Đậm độ Tuyến vú
         </h4>
         <p class="text-sm text-slate-700 leading-relaxed">
-          Bài giảng được biên dịch nguyên văn đầy đủ từ Cẩm nang <em>ACR BI-RADS® v2025 Manual</em> của Hiệp hội Điện quang Hoa Kỳ, tích hợp 28 ca bệnh và hình ảnh đối chiếu đa phương tiện (DM 2D, DBT 3D và SM tổng hợp). Nội dung dịch nguyên tác bài giảng hiển thị chữ đen trên nền trắng tiêu chuẩn; các phần tổng hợp ma trận đối chiếu, điểm cốt lõi và cạm bẫy lâm sàng được đóng khung màu riêng biệt để dễ dàng nhận diện và kiểm chứng.
+          Đây là bài giảng nền tảng mở đầu cho toàn bộ chương Nhũ ảnh (Mammography) trong Cẩm nang <em>ACR BI-RADS® v2025 Manual</em> của Hiệp hội Điện quang Hoa Kỳ (American College of Radiology - ACR), bao gồm từ trang 5 đến trang 18 của tài liệu gốc. Bài viết cung cấp góc nhìn toàn diện về sự khác biệt cốt lõi giữa Nhũ ảnh tầm soát và Chẩn đoán, công bố Bảng danh mục từ vựng tổng thể (Table 1: Mammography Lexicon Overview), và phân tích chuyên sâu về <strong>Đậm độ tuyến vú (Breast Density)</strong> theo luật định mới nhất của Cục Quản lý Thực phẩm và Dược phẩm Hoa Kỳ (FDA) ban hành tháng 9/2024 và cập nhật tháng 7/2025.
+        </p>
+        <p class="text-sm text-slate-700 leading-relaxed mt-2">
+          Toàn bộ <strong>16 ca bệnh và hình ảnh minh họa nhũ ảnh thực tế</strong> (Figures 1 đến 16) đối chiếu giữa nhũ ảnh 2D kỹ thuật số (DM) và nhũ ảnh tổng hợp 3D (SM) được xuất bản nguyên bản; các nội dung dịch nguyên văn từ bài giảng giữ màu chữ đen trên nền trắng tiêu chuẩn, trong khi các phần phân tích đối chiếu lâm sàng, lưu đồ tầm soát bổ sung và cạm bẫy chẩn đoán do ban biên tập tổng hợp được đóng khung màu chuyên biệt để quý đồng nghiệp tiện theo dõi.
         </p>
       </div>
 
-      <h2 id="phan-1-dinh-nghia">1. Giới thiệu tổng quan & Định nghĩa Khối u theo BI-RADS® v2025</h2>
+      <h2 id="phan-1-gioi-thieu-tong-quan">1. Cấu trúc tổng thể chương Nhũ ảnh trong Cẩm nang BI-RADS® v2025 (Introduction)</h2>
       <p>
-        Trong thuật ngữ Nhũ ảnh của Hiệp hội Điện quang Hoa Kỳ (American College of Radiology - ACR), <strong>Khối (Mass)</strong> là một cấu trúc choán chỗ ba chiều (3-dimensional, space-occupying structure). Khối có đường bờ lồi hoàn toàn hoặc một phần và khi cản tia (radiodense), khối sẽ xuất hiện đậm hơn ở trung tâm so với vùng ngoại vi.
+        Chương Nhũ ảnh (Mammography) của Cẩm nang <em>ACR BI-RADS® v2025</em> được chia thành bảy phần chính (Sections I đến VII) cùng hai phụ lục (Appendices A và B):
       </p>
+      <ul>
+        <li><strong>SECTION I – Các dạng khảo sát nhũ ảnh (Types of Mammographic Studies):</strong> Phân định rõ ràng giữa nhũ ảnh tầm soát (screening) và nhũ ảnh chẩn đoán (diagnostic). Thảo luận mục đích, bằng chứng y học thực chứng về hiệu quả giảm tỷ lệ tử vong, các phương thức thu nhận và hiển thị hình ảnh (DM, DBT, SM), cũng như các công nghệ nhũ ảnh đang phát triển.</li>
+        <li><strong>SECTION II – Bảng danh mục từ vựng Nhũ ảnh (Breast Imaging Lexicon – Mammography):</strong> Hệ thống thuật ngữ mô tả tổn thương nhũ ảnh được chuẩn hóa qua nhiều năm bởi Ủy ban ACR BI-RADS. Cung cấp các định nghĩa rõ ràng, súc tích nhằm tạo ra các báo cáo nhũ ảnh tiêu chuẩn hóa và có tính nhất quán cao giữa các cơ sở y tế.</li>
+        <li><strong>SECTION III – Đậm độ tuyến vú (Breast Density):</strong> Định nghĩa đậm độ nhu mô vú, giải thích ý nghĩa lâm sàng về hiệu ứng che khuất (masking effect) và nguy cơ ung thư vú, đồng thời cập nhật các yêu cầu pháp lý bắt buộc trong báo cáo nhũ ảnh do FDA Hoa Kỳ ban hành.</li>
+        <li><strong>SECTION IV – Các dấu hiệu tổn thương (Findings):</strong> Mô tả chi tiết từng thuật ngữ trong bảng từ vựng kèm hình ảnh minh họa nhũ ảnh thực tế, giải thích các điểm thay đổi so với ấn bản thứ 5 (5th Edition). Các thuật ngữ được sắp xếp theo trình tự từ ít nghi ngờ nhất đến nghi ngờ ác tính cao nhất.</li>
+        <li><strong>SECTION V – Hệ thống báo cáo kết quả (Reporting System):</strong> Cung cấp quy trình tiếp cận có tổ chức để phân tích hình ảnh và cấu trúc văn bản kết quả nhũ ảnh. Nhấn mạnh việc sử dụng phần mềm báo cáo chuẩn hóa để tham gia Cơ sở dữ liệu Nhũ ảnh Quốc gia Hoa Kỳ (ACR National Mammography Database - NMD).</li>
+        <li><strong>SECTION VI – Hướng dẫn thực hành (Guidance):</strong> Giải đáp các thắc mắc chuyên môn thực tế, giải thích cơ sở lý luận của các thay đổi thuật ngữ và phân loại, kết hợp giữa bằng chứng y văn và sự đồng thuận của các chuyên gia hàng đầu.</li>
+        <li><strong>SECTION VII – Các câu hỏi thường gặp (Frequently Asked Questions):</strong> Trực tiếp giải quyết các câu hỏi và tình huống lâm sàng phổ biến nhất trong thực tế đọc nhũ ảnh.</li>
+        <li><strong>APPENDIX A – Các hướng chụp nhũ ảnh (Mammographic Views):</strong> Bảng chuẩn hóa các thuật ngữ và ký hiệu viết tắt cho tất cả các hướng chụp nhũ ảnh thường quy và chuyên sâu.</li>
+        <li><strong>APPENDIX B – Biểu mẫu tóm tắt từ vựng nhũ ảnh (Mammography Lexicon Summary Form):</strong> Bảng tổng hợp tóm tắt phục vụ tra cứu nhanh và làm tài liệu giảng dạy lâm sàng.</li>
+      </ul>
+
+      <h2 id="phan-2-cac-loai-khao-sat-nhu-anh">2. Phân loại các dạng khảo sát Nhũ ảnh (Types of Mammographic Studies)</h2>
       <p>
-        Về mặt lịch sử, theo định nghĩa kinh điển trên nhũ ảnh 2D thông thường (DM), một tổn thương bắt buộc phải nhìn thấy được trên cả <strong>hai hướng chụp nhũ ảnh khác nhau</strong> (thường là hướng CC và MLO) mới đủ tiêu chuẩn được gọi là một "Khối". Nếu chỉ thấy trên một hướng chụp duy nhất, tổn thương đó chỉ được xếp loại là "Bất đối xứng" (Asymmetry).
+        Trong thực hành lâm sàng, các khảo sát nhũ ảnh được chia thành hai nhóm mục đích hoàn toàn khác biệt: <strong>Nhũ ảnh tầm soát (Screening)</strong> và <strong>Nhũ ảnh chẩn đoán (Diagnostic)</strong>.
       </p>
 
-      <div class="key-points">
-        <strong>Thay đổi quan trọng trong BI-RADS® v2025:</strong>
-        Với sự phát triển của nhũ ảnh 3D cắt lớp (<em>Digital Breast Tomosynthesis - DBT</em>), toàn bộ các tiêu chuẩn cần thiết để xác định một khối u (bao gồm cấu trúc choán chỗ 3D có độ dày thể tích thực sự, bờ lồi và đậm độ trung tâm) có thể được <strong>bộc lộ đầy đủ ngay trên một hướng chụp duy nhất khi ghi hình bằng DBT</strong>. Việc khối chỉ nhìn thấy trên một hướng chụp có thể xảy ra do mô sợi tuyến (fibroglandular tissue) che khuất trên hướng chụp kia, hoặc do tổn thương nằm ở vị trí ngoại vi ngoài trường chụp (out of the field of view). Trong những trường hợp này, việc sử dụng thuật ngữ mô tả "Khối" (Mass) hoàn toàn phù hợp dù chỉ quan sát thấy tổn thương trên một hướng chụp đơn độc.
-      </div>
-
+      <h3 id="screening-mammography">a. Nhũ ảnh tầm soát (Screening Mammography)</h3>
       <p>
-        Mỗi khối u phát hiện trên nhũ ảnh được mô tả dựa trên <strong>3 thuộc tính cơ bản</strong>:
+        <strong>Mục tiêu cốt lõi:</strong> Vai trò lớn nhất của nhũ ảnh tầm soát là <em>phát hiện sớm ung thư vú ở những phụ nữ hoàn toàn không có triệu chứng lâm sàng (asymptomatic patients)</em>. Hiệu quả giảm tỷ lệ tử vong của nhũ ảnh tầm soát đã được chứng minh vững chắc qua hàng loạt thử nghiệm lâm sàng ngẫu nhiên có đối chứng (RCTs) và các nghiên cứu bệnh - chứng quy mô lớn trên thế giới.
+      </p>
+      <p>
+        Lợi ích này đạt được nhờ khả năng phát hiện ung thư vú ở kích thước nhỏ hơn và ở giai đoạn sớm hơn nhiều so với nhóm phụ nữ không tham gia tầm soát. Trong số 8 thử nghiệm đối chứng ngẫu nhiên lớn nhất, có tới 7 thử nghiệm chứng minh mức <strong>giảm tử vong chung là 24%</strong> ở những phụ nữ được mời tham gia tầm soát [1]. Các nghiên cứu bệnh - chứng thậm chí còn ghi nhận mức lợi ích cao hơn, với tỷ lệ <strong>tử vong giảm tới 49%</strong> [2]. Kể từ năm 1990, nhũ ảnh tầm soát đã đóng góp vào mức <strong>giảm từ 45.3% đến 58.3%</strong> tỷ lệ tử vong đặc hiệu do ung thư vú đã chuẩn hóa theo tuổi tại Hoa Kỳ [3].
+      </p>
+      <p>
+        <strong>Quy trình kỹ thuật và công nghệ ghi hình:</strong> Quy trình nhũ ảnh tầm soát tiêu chuẩn bao gồm hai hướng chụp cho mỗi bên vú: hướng chếch ngoài-trong (<strong>MLO</strong> - mediolateral-oblique) và hướng sọ-đuôi (<strong>CC</strong> - craniocaudal), thực hiện bằng nhũ ảnh kỹ thuật số 2D (DM) và/hoặc nhũ ảnh 3D cắt lớp (<strong>DBT</strong> - Digital Breast Tomosynthesis).
+      </p>
+      <p>
+        Với công nghệ DBT, bóng phát tia X di chuyển theo một đường vòng cung qua tuyến vú để thu nhận nhiều hình ảnh liều thấp ở các góc độ khác nhau. Các dữ liệu này sau đó được tái tạo thành tập hợp các lát cắt thể tích 3D mỏng của toàn bộ tuyến vú. Từ dữ liệu nguồn DBT, một hình ảnh <strong>"nhũ ảnh tổng hợp" (Synthetic Mammogram - SM)</strong> dạng 2D có thể được tạo ra với độ phân giải và diện mạo tương tự như một phim chụp 2D (DM) thông thường. Nhờ đó, nhiều trung tâm hiện nay sử dụng phối hợp <strong>DBT + SM</strong> thay thế cho <em>DBT + DM</em> nhằm loại bỏ lần phát tia thứ hai, giúp giảm một nửa liều tia bức xạ cho người bệnh mà vẫn giữ nguyên giá trị chẩn đoán.
+      </p>
+      <p>
+        <strong>Ưu thế vượt trội của DBT trong tầm soát:</strong>
+      </p>
+      <ul>
+        <li><strong>Giảm tỷ lệ gọi lại (Recall Rate):</strong> DBT giảm từ <strong>15% đến 37%</strong> tỷ lệ bệnh nhân phải gọi quay lại làm thêm xét nghiệm do các hình ảnh chồng lấp mô sợi tuyến lành tính [4-6].</li>
+        <li><strong>Tăng tỷ lệ phát hiện ung thư:</strong> Tăng thêm từ <strong>1.2 đến 2.7 ca ung thư trên 1000 lượt khám tầm soát</strong>, chủ yếu là các ung thư biểu mô xâm nhập (invasive breast cancer), mà không làm tăng đáng kể các tổn thương DCIS không có ý nghĩa lâm sàng [4-6].</li>
+        <li><strong>Bộc lộ rõ đường bờ và định vị không gian:</strong> DBT cải thiện vượt bậc khả năng đánh giá đường bờ khối u và định vị chính xác vị trí tổn thương trong không gian 3 chiều của vú, ngay cả khi tổn thương chỉ thấy mờ nhạt trên một hướng chụp duy nhất.</li>
+        <li><strong>Rút ngắn quy trình chẩn đoán:</strong> Nhờ độ tương phản và khả năng định vị vượt trội của DBT, nhiều trường hợp có thể bỏ qua các thế chụp nhũ ảnh chẩn đoán bổ sung (như ép khu trú hay phóng đại) để chuyển thẳng người bệnh sang siêu âm chẩn đoán khu trú nhằm xác định bản chất tổn thương [7, 8].</li>
+      </ul>
+      <p>
+        <strong>Nguyên tắc tiếp cận người bệnh:</strong> Theo định nghĩa, tầm soát chỉ dành cho người <em>hoàn toàn không có triệu chứng</em>. Nếu bệnh nhân có bất kỳ triệu chứng lâm sàng mới hoặc nghi ngờ nào (khối sờ thấy, tiết dịch núm vú, đau khu trú, biến đổi da), hoặc đang cần theo dõi một tổn thương phát hiện trước đó, bệnh nhân bắt buộc phải được chuyển sang quy trình nhũ ảnh chẩn đoán. Đặc biệt, nhũ ảnh tầm soát được áp dụng cho <strong>toàn bộ cá thể người bệnh</strong> chứ không áp dụng riêng lẻ cho từng bên vú; ví dụ: không thể chỉ định chụp tầm soát ở vú bên trái trong khi đồng thời chỉ định chụp nhũ ảnh chẩn đoán ở vú bên phải.
+      </p>
+
+      <h3 id="diagnostic-mammography">b. Nhũ ảnh chẩn đoán (Diagnostic Mammography)</h3>
+      <p>
+        <strong>Đặc điểm nhận diện:</strong> Nhũ ảnh chẩn đoán là một khảo sát hình ảnh được <strong>thiết kế chuyên biệt theo từng cá thể (tailored imaging study)</strong> nhằm giải đáp một câu hỏi lâm sàng hoặc một nghi vấn hình ảnh học cụ thể. Bác sĩ chẩn đoán hình ảnh sẽ trực tiếp chỉ định thêm các thế chụp chuyên sâu (chụp ép khu trú, chụp phóng đại, chụp tiếp tuyến, chụp nghiêng 90° LM/ML, hoặc chụp ép khu trú trên DBT) để bộc lộ rõ nhất vùng nghi ngờ.
+      </p>
+      <p>
+        <strong>Các nhóm đối tượng chỉ định nhũ ảnh chẩn đoán:</strong>
       </p>
       <ol>
-        <li><strong>Hình thái (Shape):</strong> Bầu dục (Oval), Đa cung (Lobulated - <em>mô tả mới của BI-RADS 2025</em>), Tròn (Round), Không đều (Irregular).</li>
-        <li><strong>Đường bờ (Margin):</strong> Rõ nét (Circumscribed), Bị che khuất (Obscured), Không rõ nét (Indistinct), Tua gai (Spiculated).</li>
-        <li><strong>Đậm độ (Density):</strong> Chứa mỡ (Fat-containing), Đậm độ thấp (Low density), Đồng đậm độ (Equal density), Đậm độ cao (High density).</li>
+        <li>Bệnh nhân được <strong>gọi lại sau nhũ ảnh tầm soát</strong> (để khẳng định, phân tích đặc tính hình thái và định vị chính xác tổn thương nghi ngờ).</li>
+        <li>Bệnh nhân có <strong>triệu chứng lâm sàng tại tuyến vú</strong>: Sờ thấy khối bất thường, tiết dịch núm vú tự nhiên nghi ngờ (tiết dịch máu hoặc dịch trong như nước súp), đau vú khu trú một điểm kéo dài, hoặc có biến đổi da (co rút da, co rút núm vú, dày da).</li>
+        <li>Bệnh nhân đang trong <strong>quy trình theo dõi định kỳ tổn thương có khả năng lành tính (BI-RADS 3)</strong> để đảm bảo tổn thương giữ nguyên kích thước và diện mạo ổn định qua thời gian theo dõi đủ dài (thường là 2 năm) trước khi hạ bậc xếp loại về lành tính (BI-RADS 2).</li>
+        <li>Bệnh nhân có <strong>tiền sử bản thân mắc ung thư vú</strong> đang trong quy trình theo dõi giám sát sau điều trị.</li>
       </ol>
-
-      <h2 id="phan-2-hinh-thai">2. Phân loại Hình thái khối u (Mass Shape)</h2>
-
-      <h3 id="shape-oval">a. Hình bầu dục (Oval)</h3>
       <p>
-        <strong>Định nghĩa:</strong> Khối hình bầu dục có dạng hình elip với một trục dài hơn hai trục còn lại. Khối hình bầu dục phần lớn đại diện cho các tổn thương lành tính (như u sợi tuyến hoặc nang), tuy nhiên vẫn có thể gặp ở các dạng ung thư xâm nhập phát triển nhanh hoặc ung thư biểu mô thể tủy/nhầy.
+        <strong>Lưu ý lâm sàng mang tính sống còn:</strong> Mặc dù nhũ ảnh phát hiện ung thư vú ở kích thước và giai đoạn sớm hơn nhiều so với khám lâm sàng trên quy mô cộng đồng, <em>không có bất kỳ một xét nghiệm hình ảnh riêng lẻ hay phối hợp nào có thể đảm bảo chắc chắn 100% rằng một cá nhân không mắc ung thư vú</em>. Các quyết định xử trí sau khi kết thúc quy trình nhũ ảnh chẩn đoán bắt buộc phải luôn kết hợp chặt chẽ với dấu hiệu lâm sàng thực tế, bởi vì ung thư vú hoàn toàn có thể <strong>âm tính giả trên nhũ ảnh (mammographically occult)</strong>, đặc biệt là ở những bệnh nhân có nhu mô tuyến vú đặc. Do đó, việc chỉ định sinh thiết mô học dưới hướng dẫn của khám lâm sàng hoặc siêu âm đối với một khối sờ thấy rõ ràng trên lâm sàng – ngay cả khi kết quả nhũ ảnh chẩn đoán trả về là hoàn toàn âm tính – là một thái độ xử trí hoàn toàn đúng đắn và bắt buộc.
       </p>
 
-      <figure class="my-6">
-        <img src="/posts/birads-v2025-masses/page_01_b1_c1.jpg" alt="Figure 1 – OVAL, obscured, equal density mass (DBT). Simple cyst." class="rounded-xl shadow border border-slate-200 mx-auto" />
-        <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 1 – OVAL, obscured, equal density mass (DBT). Simple cyst.</strong> [Khối hình bầu dục, bờ bị che khuất, đồng đậm độ (DBT). Nang đơn giản].</figcaption>
-      </figure>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_01_b2_c1.jpg" alt="Figure 2A – OVAL, circumscribed mass (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 2 (A) DM.</strong></figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_01_b2_c2.jpg" alt="Figure 2B – OVAL, circumscribed mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 2 (B) DBT.</strong></figcaption>
-        </figure>
-      </div>
-      <p class="text-xs text-center text-slate-600 italic -mt-2 mb-6">
-        <strong>Figure 2 – OVAL, circumscribed, equal density mass (arrows). (A) DM (B) DBT. Pathology: Invasive ductal carcinoma and DCIS.</strong> [Khối hình bầu dục, bờ rõ nét, đồng đậm độ (mũi tên). (A) DM (B) DBT. Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập và DCIS].
-      </p>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_02_b1_c1.jpg" alt="Figure 3 – OVAL, obscured, equal density mass (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 3 – OVAL, obscured, equal density mass (SM). Simple cyst.</strong> [Khối hình bầu dục, bờ bị che khuất, đồng đậm độ (SM). Nang đơn giản].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_02_b1_c2.jpg" alt="Figure 4 – OVAL, circumscribed, high density mass (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 4 – OVAL, circumscribed, high density mass (DM). Simple cyst.</strong> [Khối hình bầu dục, bờ rõ nét, đậm độ cao (DM). Nang đơn giản].</figcaption>
-        </figure>
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_02_b2_c1.jpg" alt="Figure 5A – OVAL, obscured mass (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 5 (A) DM.</strong></figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_02_b2_c2.jpg" alt="Figure 5B – OVAL mass characterized on DBT" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 5 (B) DBT.</strong></figcaption>
-        </figure>
-      </div>
-      <p class="text-xs text-center text-slate-600 italic -mt-2 mb-6">
-        <strong>Figure 5 – OVAL, obscured, equal density mass (A)(DM). The margin of this mass is better characterized on DBT (B) compared with the corresponding DM view. Stable mass, presumed cyst.</strong> [Khối hình bầu dục, bờ bị che khuất, đồng đậm độ (A)(DM). Đường bờ của khối này được bộc lộ rõ hơn trên DBT (B) so với hướng chụp DM tương ứng. Khối ổn định, nghi ngờ nang].
-      </p>
-
-      <h3 id="shape-lobulated">b. Hình đa cung (Lobulated) - Cập nhật mới BI-RADS® v2025</h3>
+      <h2 id="phan-3-bang-tu-vung-lexicon">3. Bảng danh mục từ vựng Nhũ ảnh BI-RADS® v2025 (Table 1: Mammography Lexicon Overview)</h2>
       <p>
-        <strong>Định nghĩa:</strong> Khối đa cung biểu hiện một hoặc nhiều chỗ lõm vào (indentations) tạo nên đường viền gợn sóng (undulating contour).
-      </p>
-      <div class="key-points">
-        <strong>Ý nghĩa phân loại mới của BI-RADS® v2025:</strong>
-        Mặc dù đa số các khối hình đa cung vẫn là lành tính (như u sợi tuyến hoặc cụm vi nang), khối đa cung được coi là có mức độ nghi ngờ ác tính nhỉnh hơn so với khối hình bầu dục thông thường. Thuật ngữ mô tả hình thái mới này được đưa vào nhằm bổ sung sắc thái đánh giá tinh tế hơn cho hình thái khối u.
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_03_b1_c1.jpg" alt="Figure 1 – LOBULATED, circumscribed, equal density mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 1 – LOBULATED, circumscribed, equal density mass (DBT). Pathology: Fibroadenoma.</strong> [Khối hình đa cung, bờ rõ nét, đồng đậm độ (DBT). Giải phẫu bệnh: U sợi tuyến].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_03_b1_c2.jpg" alt="Figure 2 – LOBULATED, circumscribed mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 2 – LOBULATED, circumscribed mass (DBT). Pathology: Fibroadenoma.</strong> [Khối hình đa cung, bờ rõ nét (DBT). Giải phẫu bệnh: U sợi tuyến].</figcaption>
-        </figure>
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_03_b2_c1.jpg" alt="Figure 3 – LOBULATED, circumscribed mass (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 3 – LOBULATED, circumscribed, equal density mass (DM). Clustered microcysts.</strong> [Khối hình đa cung, bờ rõ nét, đồng đậm độ (DM). Chùm vi nang].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_03_b2_c2.jpg" alt="Figure 4 – LOBULATED, circumscribed mass (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 4 – LOBULATED, circumscribed, equal density mass (DM). Clustered microcysts.</strong> [Khối hình đa cung, bờ rõ nét, đồng đậm độ (DM). Chùm vi nang].</figcaption>
-        </figure>
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_04_b1_c1.jpg" alt="Figure 5 – LOBULATED, circumscribed, high density mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 5 – LOBULATED, circumscribed, high density mass (DBT). Stable mass, presumed fibroadenoma.</strong> [Khối hình đa cung, bờ rõ nét, đậm độ cao (DBT). Khối ổn định, nghĩ u sợi tuyến].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_04_b1_c2.jpg" alt="Figure 6 – LOBULATED, circumscribed, high density mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 6 – LOBULATED, circumscribed, high density mass (DBT). Stable mass, presumed fibroadenoma.</strong> [Khối hình đa cung, bờ rõ nét, đậm độ cao (DBT). Khối ổn định, nghĩ u sợi tuyến].</figcaption>
-        </figure>
-      </div>
-
-      <h3 id="shape-round">c. Hình tròn (Round)</h3>
-      <p>
-        <strong>Định nghĩa:</strong> Khối hình tròn có dạng hình cầu hoặc hình tròn với cả ba trục xấp xỉ bằng nhau. 
-      </p>
-      <div class="pitfalls">
-        <strong>Nguyên tắc phân loại quan trọng:</strong>
-        Một khối có dạng <em>hình bầu dục trên một hướng chụp</em> và <em>hình tròn trên hướng chụp khác</em> bắt buộc phải được <strong>xếp loại là Hình bầu dục (Oval)</strong>. Khối hình tròn có thể là lành tính hoặc ác tính (đặc biệt là các khối ung thư phát triển dạng đẩy không tạo co kéo tua gai như ung thư biểu mô thể tủy hoặc thể tam âm).
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_05_b1_c1.jpg" alt="Figure 1 – ROUND, obscured, high density mass (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 1 – ROUND, obscured, high density mass (DM). Pathology: Benign phyllodes tumor.</strong> [Khối hình tròn, bờ bị che khuất, đậm độ cao (DM). Giải phẫu bệnh: U diệp thể lành tính].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_05_b1_c2.jpg" alt="Figure 2 – ROUND, indistinct, high density mass (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 2 – ROUND, indistinct, high density mass (SM). Pathology: Fibroadenoma.</strong> [Khối hình tròn, bờ không rõ nét, đậm độ cao (SM). Giải phẫu bệnh: U sợi tuyến].</figcaption>
-        </figure>
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_05_b2_c1.jpg" alt="Figure 3 – ROUND, circumscribed, high density mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 3 – ROUND, circumscribed, high density mass (DBT). Pathology: Simple cyst.</strong> [Khối hình tròn, bờ rõ nét, đậm độ cao (DBT). Giải phẫu bệnh: Nang đơn giản].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_05_b2_c2.jpg" alt="Figure 4 – ROUND, circumscribed, high density mass (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 4 – ROUND, circumscribed, high density mass (SM). Pathology: Simple cyst.</strong> [Khối hình tròn, bờ rõ nét, đậm độ cao (SM). Giải phẫu bệnh: Nang đơn giản].</figcaption>
-        </figure>
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_06_b1_c1.jpg" alt="Figure 5 – ROUND, obscured, high density mass" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 5 – ROUND, obscured, high density mass (arrow). Multiple additional masses are present, including an irregular, spiculated mass (arrowhead) (SM). Pathology: Simple cyst (arrow); invasive ductal carcinoma on biopsy (arrowhead).</strong> [Khối hình tròn, bờ bị che khuất, đậm độ cao (mũi tên). Có nhiều khối u khác xuất hiện đồng thời, bao gồm một khối không đều, bờ tua gai (đầu mũi tên) (SM). Giải phẫu bệnh: Nang đơn giản (mũi tên); ung thư biểu mô thể ống xâm nhập trên sinh thiết (đầu mũi tên)].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_06_b2_c1.jpg" alt="Figure 6 – ROUND, indistinct, high density mass (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 6 – ROUND, indistinct, high density mass (SM). Pathology: Triple negative invasive ductal carcinoma.</strong> [Khối hình tròn, bờ không rõ nét, đậm độ cao (SM). Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập thể tam âm].</figcaption>
-        </figure>
-      </div>
-
-      <h3 id="shape-irregular">d. Hình không đều (Irregular)</h3>
-      <p>
-        <strong>Định nghĩa:</strong> Khối không đều là khối không thuộc dạng hình tròn, hình đa cung hay hình bầu dục, và biểu hiện các phần nhô ra tạo góc nhọn (acute-angle protruding portions). Việc sử dụng mô tả này thường hàm ý dấu hiệu nghi ngờ ác tính cao. Một khối có nhiều cung góc cạnh hoặc khía phân thùy sâu cũng phải được phân loại là hình không đều.
+        Dưới đây là toàn văn <strong>Bảng 1 (Table 1)</strong> chuẩn hóa từ Cẩm nang ACR BI-RADS® v2025, đóng vai trò là "ngôn ngữ chung" quốc tế để mô tả tất cả các dấu hiệu hình ảnh trên nhũ ảnh tuyến vú:
       </p>
 
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_07_b1_c1.jpg" alt="Figure 1 – IRREGULAR, spiculated mass (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 1 – IRREGULAR, spiculated, high density mass (DM). Pathology: Invasive ductal carcinoma.</strong> [Khối không đều, bờ tua gai, đậm độ cao (DM). Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_07_b1_c2.jpg" alt="Figure 2 – IRREGULAR, indistinct mass (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 2 – IRREGULAR, indistinct, high density mass (SM). Pathology: Invasive ductal carcinoma.</strong> [Khối không đều, bờ không rõ nét, đậm độ cao (SM). Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập].</figcaption>
-        </figure>
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_07_b2_c1.jpg" alt="Figure 3 – IRREGULAR, indistinct mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 3 – IRREGULAR, indistinct, high density mass (DBT). Pathology: Clustered microcysts.</strong> [Khối không đều, bờ không rõ nét, đậm độ cao (DBT). Giải phẫu bệnh: Chùm vi nang].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_07_b2_c2.jpg" alt="Figure 4 – IRREGULAR, spiculated mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 4 – IRREGULAR, spiculated, equal density mass (DBT). Pathology: Invasive lobular carcinoma.</strong> [Khối không đều, bờ tua gai, đồng đậm độ (DBT). Giải phẫu bệnh: Ung thư biểu mô tiểu thùy xâm nhập].</figcaption>
-        </figure>
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_08_b1_c1.jpg" alt="Figure 5 – IRREGULAR, spiculated mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 5 – IRREGULAR, spiculated, high density mass (DBT). Pathology: Invasive ductal carcinoma.</strong> [Khối không đều, bờ tua gai, đậm độ cao (DBT). Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_08_b1_c2.jpg" alt="Figure 6 – IRREGULAR, spiculated mass (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 6 – IRREGULAR, spiculated, high density mass (SM). Pathology: Invasive ductal carcinoma.</strong> [Khối không đều, bờ tua gai, đậm độ cao (SM). Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập].</figcaption>
-        </figure>
-      </div>
-
-      <h2 id="phan-3-duong-bo">3. Phân loại Đường bờ khối u (Mass Margin)</h2>
-      <p>
-        Đường bờ là mép hoặc ranh giới phân định của khối u. Mô tả đường bờ, cùng với mô tả hình thái, là các <strong>yếu tố dự báo quan trọng nhất</strong> giúp xác định một khối u là lành tính hay ác tính.
-      </p>
-
-      <div class="key-points">
-        <strong>Nguyên tắc đánh giá đường bờ trên DBT:</strong>
-        Nhũ ảnh cắt lớp 3D (DBT) mang lại khả năng mô tả tính chất đường bờ vượt trội so với nhũ ảnh 2D (DM) nhờ khả năng loại bỏ hiện tượng chồng lấp mô tuyến. Do đó, đường bờ khối u thường nên được <strong>định danh dựa trên các lát cắt DBT</strong> (khi có sẵn) thay vì dựa trên ảnh DM. Ví dụ: Nếu đường bờ của một khối trông có vẻ bị che khuất trên hình ảnh 2D DM hoặc SM nhưng lại rõ nét trên các lát cắt mỏng của DBT, thì đường bờ của khối phải được mô tả là <strong>Bờ rõ nét (Circumscribed)</strong>.
-      </div>
-
-      <h3 id="margin-circumscribed">a. Bờ rõ nét / Giới hạn rõ (Circumscribed)</h3>
-      <p>
-        <strong>Định nghĩa:</strong> Đường bờ rõ nét được phân định sắc nét với ranh giới chuyển tiếp đột ngột giữa tổn thương và mô tuyến xung quanh. Bờ rõ nét thường đi kèm với các tổn thương lành tính nhưng cũng có thể gặp trong một số ung thư xâm nhập.
-      </p>
-      <div class="pitfalls">
-        <strong>Quy tắc phân loại 75% trong BI-RADS®:</strong>
-        Một khối có thể biểu hiện nhiều đặc điểm đường bờ trên chu vi của nó. Nếu một phần đường bờ bị che khuất, nhưng có <strong>ít nhất 75% chu vi đường bờ là rõ nét</strong>, khối đó vẫn được xếp loại là Bờ rõ nét (Circumscribed). Tuy nhiên, nếu <strong>bất kỳ phần nào của đường bờ là không rõ nét (indistinct) hoặc tua gai (spiculated)</strong>, khối bắt buộc phải được phân loại theo thành phần có mức độ nghi ngờ cao nhất.
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_09_b1_c1.jpg" alt="Figure 1 – Oval, CIRCUMSCRIBED mass (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 1 – Oval, CIRCUMSCRIBED, equal density mass with coarse calcifications (DM). Pathology: Fibroadenoma.</strong> [Khối hình bầu dục, bờ rõ nét, đồng đậm độ kèm vôi hóa thô (DM). Giải phẫu bệnh: U sợi tuyến].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_09_b1_c2.jpg" alt="Figure 2 – Oval, CIRCUMSCRIBED mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 2 – Oval, CIRCUMSCRIBED, high density mass (DBT). Pathology: Low grade B-cell Non-Hodgkin's Lymphoma.</strong> [Khối hình bầu dục, bờ rõ nét, đậm độ cao (DBT). Giải phẫu bệnh: U lympho không Hodgkin tế bào B độ mô học thấp].</figcaption>
-        </figure>
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_10_b1_c1.jpg" alt="Figure 3 – Oval, CIRCUMSCRIBED mass (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 3 – Oval, CIRCUMSCRIBED, high density mass (DM). Simple cyst.</strong> [Khối hình bầu dục, bờ rõ nét, đậm độ cao (DM). Nang đơn giản].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_10_b1_c2.jpg" alt="Figure 4 – Round, CIRCUMSCRIBED mass (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 4 – Round, CIRCUMSCRIBED (arrow), high density mass (SM). Simple cyst.</strong> [Khối hình tròn, bờ rõ nét (mũi tên), đậm độ cao (SM). Nang đơn giản].</figcaption>
-        </figure>
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_10_b2_c1.jpg" alt="Figure 5 – Oval, CIRCUMSCRIBED mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 5 – Oval, CIRCUMSCRIBED, high density mass (DBT). Simple cyst.</strong> [Khối hình bầu dục, bờ rõ nét, đậm độ cao (DBT). Nang đơn giản].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_10_b2_c2.jpg" alt="Figure 6 – Oval, CIRCUMSCRIBED mass (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 6 – Oval, CIRCUMSCRIBED, high density mass (SM). Simple cyst.</strong> [Khối hình bầu dục, bờ rõ nét, đậm độ cao (SM). Nang đơn giản].</figcaption>
-        </figure>
-      </div>
-
-      <h3 id="margin-obscured">b. Bờ bị che khuất (Obscured)</h3>
-      <p>
-        <strong>Định nghĩa:</strong> Đường bờ bị che khuất là đường bờ bị ẩn giấu bởi mô sợi tuyến (fibroglandular tissue) nằm chồng lấp hoặc tiếp giáp xung quanh. Thuật ngữ này thường được áp dụng khi một phần đường bờ là rõ nét nhưng phần còn lại (> 25%) không thể quan sát thấy được.
-      </p>
-      <div class="pitfalls">
-        <strong>Lưu ý đối chiếu mô mỡ:</strong>
-        Theo định nghĩa chuẩn của BI-RADS, <strong>không được dùng thuật ngữ Bờ bị che khuất khi đường bờ của khối tiếp xúc trực tiếp với mô mỡ</strong>. Trong trường hợp đó, đường bờ tiếp giáp mô mỡ phải được nhìn thấy rõ ràng; nếu không rõ, bắt buộc phải dùng thuật ngữ <em>"Bờ không rõ nét" (Indistinct)</em>.
-      </div>
-      <p>
-        Bờ bị che khuất không biểu thị bản chất tổn thương là lành tính hay ác tính, mà chỉ đơn thuần phản ánh rằng hiện tại chưa thể đánh giá trọn vẹn đường bờ trên phim chụp. Việc đánh giá bổ sung trên chụp ép khu trú, nhũ ảnh 3D cắt lớp (DBT) hoặc siêu âm sẽ giúp làm sáng tỏ tính chất đường bờ thực sự.
-      </p>
-
-      <figure class="my-6">
-        <img src="/posts/birads-v2025-masses/page_11_b1_c1.jpg" alt="Figure 1 – Irregular, OBSCURED, high density mass (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-        <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 1 – Irregular, OBSCURED, high density mass (DM). Pathology: Invasive ductal carcinoma.</strong> [Khối không đều, bờ bị che khuất, đậm độ cao (DM). Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập].</figcaption>
-      </figure>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_12_b1_c1.jpg" alt="Figure 2 – Lobulated, OBSCURED mass (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 2 – Lobulated, OBSCURED (arrow), equal density mass (SM). Pathology: Cyst.</strong> [Khối hình đa cung, bờ bị che khuất (mũi tên), đồng đậm độ (SM). Giải phẫu bệnh: Nang].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_12_b2_c1.jpg" alt="Figure 3 – Oval, OBSCURED mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 3 – Oval, OBSCURED equal density mass (DBT). Pathology: Invasive ductal carcinoma.</strong> [Khối hình bầu dục, bờ bị che khuất, đồng đậm độ (DBT). Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập].</figcaption>
-        </figure>
-      </div>
-
-      <figure class="my-6">
-        <img src="/posts/birads-v2025-masses/page_13_b1_c1.jpg" alt="Figure 4 – Oval, OBSCURED mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-        <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 4 – Oval, OBSCURED (arrow delineates obscured portion of margin), high density mass (DBT). Pathology: Cyst.</strong> [Khối hình bầu dục, bờ bị che khuất (mũi tên chỉ phần đường bờ bị che khuất), đậm độ cao (DBT). Giải phẫu bệnh: Nang].</figcaption>
-      </figure>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_13_b2_c1.jpg" alt="Figure 5 – Oval, OBSCURED mass (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 5 – Oval, OBSCURED high density mass (arrow) (SM). Pathology: Fibroadenoma.</strong> [Khối hình bầu dục, bờ bị che khuất, đậm độ cao (mũi tên) (SM). Giải phẫu bệnh: U sợi tuyến].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_13_b2_c2.jpg" alt="Figure 6 – Oval, OBSCURED mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 6 – Oval, OBSCURED, equal density mass (arrow) (DBT). Pathology: Fibroadenoma.</strong> [Khối hình bầu dục, bờ bị che khuất, đồng đậm độ (mũi tên) (DBT). Giải phẫu bệnh: U sợi tuyến].</figcaption>
-        </figure>
-      </div>
-
-      <h3 id="margin-indistinct">c. Bờ không rõ nét (Indistinct)</h3>
-      <p>
-        <strong>Định nghĩa:</strong> Đường bờ không rõ nét biểu thị tình trạng thiếu sự phân định sắc nét giữa toàn bộ đường bờ, hoặc bất kỳ phần nào của đường bờ, so với mô đệm xung quanh. Việc xuất hiện bờ không rõ nét luôn hàm ý một dấu hiệu nghi ngờ ác tính (suspicious finding), phản ánh khả năng tế bào khối u đang xâm nhập qua vỏ bao vào mô liên kết lân cận.
-      </p>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_14_b1_c1.jpg" alt="Figure 1 – Oval, INDISTINCT mass (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 1 – Oval, INDISTINCT high density mass (DM). Pathology: Invasive ductal carcinoma.</strong> [Khối hình bầu dục, bờ không rõ nét, đậm độ cao (DM). Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_14_b1_c2.jpg" alt="Figure 2 – Irregular, INDISTINCT mass (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 2 – Irregular, INDISTINCT, high density mass (DM). Pathology: Invasive ductal carcinoma.</strong> [Khối không đều, bờ không rõ nét, đậm độ cao (DM). Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập].</figcaption>
-        </figure>
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_14_b2_c1.jpg" alt="Figure 3 – Irregular, INDISTINCT mass (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 3 – Irregular, INDISTINCT, equal density mass (SM). Pathology: Invasive ductal carcinoma.</strong> [Khối không đều, bờ không rõ nét, đồng đậm độ (SM). Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_14_b2_c2.jpg" alt="Figure 4 – Round, INDISTINCT mass (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 4 – Round, INDISTINCT, equal density mass (SM). Pathology: Invasive ductal carcinoma.</strong> [Khối hình tròn, bờ không rõ nét, đồng đậm độ (SM). Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập].</figcaption>
-        </figure>
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_15_b1_c1.jpg" alt="Figure 5 – Oval, INDISTINCT mass (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 5 – Oval, INDISTINCT, equal density mass (SM). Pathology: Pseudoangiomatous stromal hyperplasia (PASH).</strong> [Khối hình bầu dục, bờ không rõ nét, đồng đậm độ (SM). Giải phẫu bệnh: Tăng sinh mô đệm giả u mạch (PASH)].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_15_b1_c2.jpg" alt="Figure 6 – Irregular, INDISTINCT mass (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 6 – Irregular, INDISTINCT, high density mass (SM). Pathology: Invasive ductal carcinoma with mucinous features.</strong> [Khối không đều, bờ không rõ nét, đậm độ cao (SM). Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập có đặc điểm nhầy].</figcaption>
-        </figure>
-      </div>
-
-      <h3 id="margin-spiculated">d. Bờ tua gai (Spiculated)</h3>
-      <p>
-        <strong>Định nghĩa:</strong> Đường bờ tua gai được đặc trưng bởi các đường thẳng, dải co kéo tăng đậm độ tỏa hình nan hoa từ bờ khối u ra các hướng xung quanh. Việc sử dụng mô tả này hàm ý tổn thương có mức độ nghi ngờ ác tính cao nhất trên nhũ ảnh.
-      </p>
-
-      <div class="pitfalls">
-        <strong>Phân biệt tối quan trọng giữa Khối bờ tua gai và Xáo trộn cấu trúc:</strong>
-        Mặc dù xáo trộn cấu trúc (architectural distortion) có thể có hình ảnh nan hoa tỏa ra tương tự như một khối bờ tua gai, nhưng điểm khác biệt cốt lõi là: <strong>Xáo trộn cấu trúc KHÔNG có cấu trúc thể tích choán chỗ 3 chiều ở trung tâm</strong>. Một khi tổn thương có một khối trung tâm rõ rệt đi kèm các đường nan hoa tỏa ra, tổn thương đó <strong>bắt buộc phải được phân loại là Khối có bờ tua gai (Spiculated mass)</strong> và tuyệt đối không được gọi là xáo trộn cấu trúc.
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_16_b1_c1.jpg" alt="Figure 1 – Irregular, SPICULATED mass (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 1 – Irregular, SPICULATED, equal density mass (DM). Pathology: Invasive ductal carcinoma.</strong> [Khối không đều, bờ tua gai, đồng đậm độ (DM). Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_16_b1_c2.jpg" alt="Figure 2 – Irregular, SPICULATED mass (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 2 – Irregular, SPICULATED, high density mass (DM). Pathology: Invasive ductal carcinoma.</strong> [Khối không đều, bờ tua gai, đậm độ cao (DM). Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập].</figcaption>
-        </figure>
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_17_b1_c1.jpg" alt="Figure 3 – Round, SPICULATED mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 3 – Round, SPICULATED, high density mass (DBT). Pathology: Invasive ductal carcinoma.</strong> [Khối hình tròn, bờ tua gai, đậm độ cao (DBT). Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_17_b1_c2.jpg" alt="Figure 4 – Oval, SPICULATED mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 4 – Oval, SPICULATED, equal density mass (DBT). Pathology: Invasive ductal carcinoma.</strong> [Khối hình bầu dục, bờ tua gai, đồng đậm độ (DBT). Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập].</figcaption>
-        </figure>
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_17_b2_c1.jpg" alt="Figure 5 – Irregular, SPICULATED mass (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 5 – Irregular, SPICULATED, high density mass (SM). Pathology: Invasive ductal carcinoma.</strong> [Khối không đều, bờ tua gai, đậm độ cao (SM). Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_17_b2_c2.jpg" alt="Figure 6 – Irregular, SPICULATED mass (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 6 – Irregular, SPICULATED, equal mass density (SM). Pathology: Invasive ductal carcinoma.</strong> [Khối không đều, bờ tua gai, đồng đậm độ (SM). Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập].</figcaption>
-        </figure>
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_18_b1_c1.jpg" alt="Figure 7A – Irregular, SPICULATED mass (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 7 (A) SM.</strong></figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_18_b1_c2.jpg" alt="Figure 7B – Irregular, SPICULATED mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 7 (B) DBT.</strong></figcaption>
-        </figure>
-      </div>
-      <p class="text-xs text-center text-slate-600 italic -mt-2 mb-6">
-        <strong>Figure 7 – Irregular, SPICULATED, equal density mass: (A) SM and (B) DBT. Pathology: Invasive ductal carcinoma.</strong> [Khối không đều, bờ tua gai, đồng đậm độ: (A) SM và (B) DBT. Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập].
-      </p>
-
-      <figure class="my-6">
-        <img src="/posts/birads-v2025-masses/page_18_b2_c1.jpg" alt="Figure 8 – Irregular, SPICULATED mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-        <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 8 – Irregular, SPICULATED, high density mass (DBT). Pathology: Fat necrosis.</strong> [Khối không đều, bờ tua gai, đậm độ cao (DBT). Giải phẫu bệnh: Hoại tử mỡ].</figcaption>
-      </figure>
-
-      <h2 id="phan-4-dam-do">4. Phân loại Đậm độ khối u (Mass Density)</h2>
-      <p>
-        Đậm độ phản ánh mức độ cản tia X của một khối u so với mức độ cản tia dự kiến của một thể tích tương đương mô sợi tuyến (fibroglandular tissue) bình thường.
-      </p>
-      <ul>
-        <li>Hầu hết các trường hợp ung thư vú biểu hiện dưới dạng khối đều có đậm độ bằng hoặc cao hơn so với mô sợi tuyến lân cận.</li>
-        <li><strong>Nguy cơ ác tính theo đậm độ:</strong> Khả năng ác tính đối với một khối đậm độ cao lên tới <strong>70%</strong>, cao hơn đáng kể so với các khối đồng đậm độ hoặc đậm độ thấp (khoảng <strong>22%</strong>).</li>
-        <li>Rất hiếm khi ung thư vú biểu hiện dưới dạng một khối có đậm độ thấp hoàn toàn.</li>
-        <li><em>Lưu ý:</em> Đậm độ là một đánh giá mang tính chất chủ quan và là mô tả có giá trị tin cậy thấp nhất khi so sánh với Hình thái và Đường bờ.</li>
-      </ul>
-
-      <h3 id="density-fat">a. Chứa mỡ (Fat-Containing)</h3>
-      <p>
-        <strong>Định nghĩa:</strong> Nhóm này bao gồm các khối chứa hoàn toàn thành phần mỡ (thấu quang) như nang dầu (oil cysts) và u mỡ (lipomas), cũng như các khối có đậm độ hỗn hợp chứa mỡ và mô sợi tuyến như u mô thừa (hamartomas).
-      </p>
-      <div class="pitfalls">
-        <strong>Cạm bẫy tổn thương chứa mỡ trên DBT:</strong>
-        Một khối chứa mỡ có <em>đường bờ rõ nét</em> gần như luôn luôn lành tính. Tuy nhiên, cả khối lành tính và ác tính (đặc biệt khi chụp khảo sát trên nhũ ảnh cắt lớp 3D - DBT) đều có thể ghi nhận sự hiện diện của mỡ. Ở các khối u ác tính, phần mô thấu quang đó <strong>chính là các đảo mỡ lành mạnh bị khối ung thư đang phát triển xâm lấn và vùi kẹt lại (entrapped fat)</strong> chứ không phải là mô mỡ thực thụ do tổn thương sinh ra. Do đó: <strong>Không phải tất cả các khối chứa mỡ đều là lành tính!</strong>
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_19_b1_c1.jpg" alt="Figure 1 – Oval, circumscribed, FAT-CONTAINING mass (arrows) (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 1 – Oval, circumscribed, FAT-CONTAINING mass (arrows) (DM). This mass appears to consist entirely of fat. Pathology: Lipoma.</strong> [Khối hình bầu dục, bờ rõ nét, chứa mỡ (mũi tên) (DM). Khối này dường như chứa hoàn toàn là mỡ. Giải phẫu bệnh: U mỡ].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_19_b1_c2.jpg" alt="Figure 2 – Oval, circumscribed, FAT-CONTAINING mass (arrow) (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 2 – Oval, circumscribed, FAT-CONTAINING mass (arrow) (DM). This mass appears to consist entirely of fat. Pathology: Lipoma.</strong> [Khối hình bầu dục, bờ rõ nét, chứa mỡ (mũi tên) (DM). Khối này dường như chứa hoàn toàn là mỡ. Giải phẫu bệnh: U mỡ].</figcaption>
-        </figure>
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_20_b1_c1.jpg" alt="Figure 3 – Oval, obscured, FAT-CONTAINING mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 3 – Oval, obscured, FAT-CONTAINING mass (DBT). Note the fat-fluid level (arrow), indicating that this mass contains fat and non-fatty liquid components, characteristic of a galactocele. Pathology: Galactocele.</strong> [Khối hình bầu dục, bờ bị che khuất, chứa mỡ (DBT). Lưu ý mức mỡ - dịch (mũi tên), cho thấy khối này chứa thành phần mỡ và dịch không phải mỡ, đặc trưng của nang sữa. Giải phẫu bệnh: Nang sữa].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_20_b1_c2.jpg" alt="Figure 4 – Oval, circumscribed, FAT-CONTAINING mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 4 – Oval, circumscribed, FAT-CONTAINING mass (DBT). There are both fatty and soft tissue components within this mass, in keeping with a hamartoma. Pathology: Hamartoma.</strong> [Khối hình bầu dục, bờ rõ nét, chứa mỡ (DBT). Có cả thành phần mỡ và mô mềm bên trong khối này, phù hợp với u mô thừa. Giải phẫu bệnh: U mô thừa].</figcaption>
-        </figure>
-      </div>
-
-      <figure class="my-6">
-        <img src="/posts/birads-v2025-masses/page_20_b2_c1.jpg" alt="Figure 5 – Oval, circumscribed, FAT-CONTAINING mass (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-        <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 5 – Oval, circumscribed, FAT-CONTAINING mass (DM). Pathology: Hamartoma.</strong> [Khối hình bầu dục, bờ rõ nét, chứa mỡ (DM). Giải phẫu bệnh: U mô thừa].</figcaption>
-      </figure>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_21_b1_c1.jpg" alt="Figure 6 – Oval, obscured, FAT-CONTAINING mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 6 – Oval, obscured, FAT-CONTAINING mass (DBT). Pathology: Hamartoma.</strong> [Khối hình bầu dục, bờ bị che khuất, chứa mỡ (DBT). Giải phẫu bệnh: U mô thừa].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_21_b2_c1.jpg" alt="Figure 7 – Irregular, spiculated, FAT-CONTAINING mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 7 – Irregular, spiculated, FAT-CONTAINING mass (DBT). The fat associated with this mass is entrapped by developing cancer rather than intrinsic to the lesion. Not all fat-containing masses are benign. Pathology: Invasive ductal carcinoma.</strong> [Khối không đều, bờ tua gai, chứa mỡ (DBT). Mỡ liên quan đến khối này bị vùi kẹt bởi ung thư đang phát triển chứ không phải là mô nội tại của tổn thương. Không phải tất cả các khối chứa mỡ đều là lành tính. Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập].</figcaption>
-        </figure>
-      </div>
-
-      <h3 id="density-low">b. Đậm độ thấp (Low Density)</h3>
-      <p>
-        <strong>Định nghĩa:</strong> Mức độ cản tia X của khối thấp hơn mức cản tia dự kiến của một thể tích tương đương mô sợi tuyến (fibroglandular tissue) bình thường. Các khối đậm độ thấp thường đại diện cho các tổn thương lành tính mạn tính hoặc nang dịch nhạt màu.
-      </p>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_22_b1_c1.jpg" alt="Figure 1 – Oval, indistinct, LOW DENSITY mass (arrow) (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 1 – Oval, indistinct, LOW DENSITY mass (arrow) (SM). Stable, benign.</strong> [Khối hình bầu dục, bờ không rõ nét, đậm độ thấp (mũi tên) (SM). Ổn định, lành tính].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_22_b2_c1.jpg" alt="Figure 2 – Oval, obscured, LOW DENSITY mass (arrow) (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 2 – Oval, obscured, LOW DENSITY mass (arrow) (DBT). Pathology: Simple cyst.</strong> [Khối hình bầu dục, bờ bị che khuất, đậm độ thấp (mũi tên) (DBT). Giải phẫu bệnh: Nang đơn giản].</figcaption>
-        </figure>
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_23_b1_c1.jpg" alt="Figure 3 – Oval, indistinct, LOW DENSITY (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 3 – Oval, indistinct, LOW DENSITY (DM). Two adjacent masses (arrows). Stable, benign.</strong> [Khối hình bầu dục, bờ không rõ nét, đậm độ thấp (DM). Hai khối u kế cận nhau (các mũi tên). Ổn định, lành tính].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_23_b2_c1.jpg" alt="Figure 4 – Oval, circumscribed, LOW DENSITY mass (arrow) (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 4 – Oval, circumscribed, LOW DENSITY mass (arrow) (DM). Stable, benign.</strong> [Khối hình bầu dục, bờ rõ nét, đậm độ thấp (mũi tên) (DM). Ổn định, lành tính].</figcaption>
-        </figure>
-      </div>
-
-      <h3 id="density-equal">c. Đồng đậm độ (Equal Density)</h3>
-      <p>
-        <strong>Định nghĩa:</strong> Mức độ cản tia X của khối tương đương với mức cản tia dự kiến của một thể tích tương đương mô sợi tuyến (fibroglandular tissue) lân cận.
-      </p>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_24_b1_c1.jpg" alt="Figure 1 – Round, circumscribed, EQUAL DENSITY mass (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 1 – Round, circumscribed, EQUAL DENSITY mass (SM). Pathology: Simple cyst.</strong> [Khối hình tròn, bờ rõ nét, đồng đậm độ (SM). Giải phẫu bệnh: Nang đơn giản].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_24_b1_c2.jpg" alt="Figure 2 – Oval, circumscribed, EQUAL DENSITY mass (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 2 – Oval, circumscribed, EQUAL DENSITY mass (SM). Pathology: Fibroadenoma.</strong> [Khối hình bầu dục, bờ rõ nét, đồng đậm độ (SM). Giải phẫu bệnh: U sợi tuyến].</figcaption>
-        </figure>
-      </div>
-
-      <figure class="my-6">
-        <img src="/posts/birads-v2025-masses/page_24_b2_c1.jpg" alt="Figure 3 – Round, indistinct, EQUAL DENSITY mass (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-        <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 3 – Round, indistinct, EQUAL DENSITY mass (SM). While most of the margin is circumscribed, part is indistinct (arrow); the mass should therefore be characterized as indistinct. Pathology: Fibroadenoma.</strong> [Khối hình tròn, bờ không rõ nét, đồng đậm độ (SM). Mặc dù phần lớn đường bờ là rõ nét, một phần bờ không rõ nét (mũi tên); do đó khối phải được mô tả là bờ không rõ nét. Giải phẫu bệnh: U sợi tuyến].</figcaption>
-      </figure>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_25_b1_c1.jpg" alt="Figure 4 – Oval, obscured, EQUAL DENSITY mass (arrow) (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 4 – Oval, obscured, EQUAL DENSITY mass (arrow) (SM). Pathology: Fibroadenoma.</strong> [Khối hình bầu dục, bờ bị che khuất, đồng đậm độ (mũi tên) (SM). Giải phẫu bệnh: U sợi tuyến].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_25_b2_c1.jpg" alt="Figure 5 – Oval, obscured, EQUAL DENSITY mass (arrowhead)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 5 – Oval, obscured, EQUAL DENSITY mass (arrowhead). Also shown: oval, circumscribed, high density mass (arrow) (DM). Pathology: Simple cysts.</strong> [Khối hình bầu dục, bờ bị che khuất, đồng đậm độ (đầu mũi tên). Đồng thời cũng thấy: khối hình bầu dục, bờ rõ nét, đậm độ cao (mũi tên) (DM). Giải phẫu bệnh: Các nang đơn giản].</figcaption>
-        </figure>
-      </div>
-
-      <h3 id="density-high">d. Đậm độ cao (High Density)</h3>
-      <p>
-        <strong>Định nghĩa:</strong> Mức độ cản tia X của khối lớn hơn mức cản tia dự kiến của một thể tích tương đương mô sợi tuyến (fibroglandular tissue) bình thường. Khối đậm độ cao luôn là một dấu hiệu cảnh báo nguy cơ ác tính đáng kể, với tỷ lệ ác tính đạt tới <strong>70%</strong>.
-      </p>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_26_b1_c1.jpg" alt="Figure 1 – Round, indistinct, HIGH DENSITY mass (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 1 – Round, indistinct, HIGH DENSITY mass (DM). The triangular marker indicates that this mass was palpable. Pathology: Benign reactive lymph node.</strong> [Khối hình tròn, bờ không rõ nét, đậm độ cao (DM). Dấu chỉ điểm hình tam giác cho thấy khối này sờ thấy được trên lâm sàng. Giải phẫu bệnh: Hạch phản ứng lành tính].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_26_b2_c1.jpg" alt="Figure 2 – Round, circumscribed, HIGH DENSITY mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 2 – Round, circumscribed, HIGH DENSITY mass (DBT). Despite its small size, it is denser than adjacent fibroglandular tissue. Stable, benign.</strong> [Khối hình tròn, bờ rõ nét, đậm độ cao (DBT). Mặc dù có kích thước nhỏ, khối này đậm hơn mô sợi tuyến kế cận. Ổn định, lành tính].</figcaption>
-        </figure>
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_27_b1_c1.jpg" alt="Figure 3 – Oval, indistinct, HIGH DENSITY mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 3 – Oval, indistinct, HIGH DENSITY mass (DBT). Pathology: Invasive ductal carcinoma.</strong> [Khối hình bầu dục, bờ không rõ nét, đậm độ cao (DBT). Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_27_b1_c2.jpg" alt="Figure 4 – Oval, indistinct, HIGH DENSITY mass (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 4 – Oval, indistinct, HIGH DENSITY mass (SM). Note: In the BI-RADS 5th Edition, this mass would have been described as microlobulated. Pathology: Fibroadenoma.</strong> [Khối hình bầu dục, bờ không rõ nét, đậm độ cao (SM). Lưu ý: Trong BI-RADS ấn bản lần 5, khối này từng được mô tả là đa cung nhỏ (microlobulated). Giải phẫu bệnh: U sợi tuyến].</figcaption>
-        </figure>
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_27_b2_c1.jpg" alt="Figure 5 – Irregular, indistinct, HIGH DENSITY mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 5 – Irregular, indistinct, HIGH DENSITY mass (DBT). Note: Even if the majority of a mass margin is circumscribed, if any portion is indistinct (arrow), the margin should be classified as indistinct. Pathology: Invasive lobular carcinoma.</strong> [Khối không đều, bờ không rõ nét, đậm độ cao (DBT). Lưu ý: Ngay cả khi phần lớn đường bờ của khối là rõ nét, nếu có bất kỳ phần nào không rõ nét (mũi tên), đường bờ phải được phân loại là không rõ nét. Giải phẫu bệnh: Ung thư biểu mô tiểu thùy xâm nhập].</figcaption>
-        </figure>
-        <figure>
-          <img src="/posts/birads-v2025-masses/page_27_b2_c2.jpg" alt="Figure 6 – Round, indistinct, HIGH DENSITY mass (DBT)" class="rounded-xl shadow border border-slate-200 mx-auto" />
-          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 6 – Round, indistinct, HIGH DENSITY mass (DBT). Pathology: Invasive lobular carcinoma.</strong> [Khối hình tròn, bờ không rõ nét, đậm độ cao (DBT). Giải phẫu bệnh: Ung thư biểu mô tiểu thùy xâm nhập].</figcaption>
-        </figure>
-      </div>
-
-      <h2 id="phan-5-dbt">5. Vai trò then chốt của Nhũ ảnh 3D cắt lớp (DBT) trong đánh giá khối</h2>
-      <p>
-        Sự ra đời và ứng dụng rộng rãi của nhũ ảnh 3D cắt lớp (DBT) đã tạo ra một cuộc cách mạng trong việc tiếp cận và định danh khối u tuyến vú:
-      </p>
-      <ul>
-        <li><strong>Khắc phục xảo ảnh chồng lấp (Tissue Summation):</strong> Trên phim 2D thông thường, các dải mô sợi tuyến bình thường ở các độ sâu khác nhau có thể chồng lên nhau tạo cảm giác như một khối u giả hoặc che khuất bờ của một khối u thật. DBT cắt lát mỏng 1mm giúp bóc tách từng lớp mô, làm rõ đường bờ thực sự.</li>
-        <li><strong>Định danh bờ rõ nét chuẩn xác:</strong> Một khối u có bờ bị che khuất trên 2D (DM/SM) nhưng nếu quan sát thấy đường bờ sắc nét trên các lát cắt DBT thì được phép phân loại ngay là <strong>Bờ rõ nét (Circumscribed)</strong> mà không cần thêm các thế chụp ép bổ sung.</li>
-        <li><strong>Độ nhạy phát hiện u trong mô vú đặc:</strong> Khối u đậm độ cao hoặc đồng đậm độ nằm ẩn trong nền mô vú đặc (dense breasts) thường bị bỏ sót trên 2D nhưng sẽ lộ diện rõ rệt trên từng lát cắt của DBT.</li>
-      </ul>
-
-      <h2 id="phan-6-bang-so-sanh">6. Bảng tổng hợp đối chiếu & Nguy cơ ác tính</h2>
-      <div class="synthesis-box">
-        <h4 class="font-bold text-slate-900 mb-2 flex items-center gap-2">📋 Bảng tổng hợp đối chiếu các đặc điểm khối & Nguy cơ ác tính (Ban biên tập đúc kết):</h4>
-        <div class="overflow-x-auto my-3">
-        <table>
+      <div class="overflow-x-auto my-4">
+        <table class="min-w-full border-collapse border border-slate-300 text-sm">
           <thead>
-            <tr>
-              <th>Đặc Điểm Khối U</th>
-              <th>Phân Loại Từ Vựng BI-RADS® v2025</th>
-              <th>Mức Độ Dự Báo Ác Tính (PPV)</th>
-              <th>Định Hướng Chẩn Đoán & Xử Trí</th>
+            <tr class="bg-slate-100 text-slate-800">
+              <th class="border border-slate-300 p-3 text-left font-bold w-1/3">Cấu trúc / Dấu hiệu (Findings)</th>
+              <th class="border border-slate-300 p-3 text-left font-bold" colspan="2">Thuật ngữ mô tả chuẩn hóa (Standardized Terms)</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td><strong>Hình thái (Shape)</strong></td>
-              <td>
-                • Bầu dục (Oval)<br/>
-                • Đa cung (Lobulated - <em>Mới</em>)<br/>
-                • Tròn (Round)<br/>
-                • Không đều (Irregular)
-              </td>
-              <td>
-                • Oval: Rất thấp (&lt; 2%)<br/>
-                • Đa cung (Lobulated): Thấp - Trung bình<br/>
-                • Round: Thay đổi (Lành tính hoặc Ác tính)<br/>
-                • Irregular: <strong>Rất cao (&gt; 50%)</strong>
-              </td>
-              <td>
-                Khối hình không đều là chỉ định sinh thiết mô học hàng đầu. Khối bầu dục hoặc đa cung bờ rõ có thể theo dõi BI-RADS 3 hoặc xếp BI-RADS 2 nếu là nang/u sợi tuyến kinh điển.
-              </td>
+            <!-- Breast Density -->
+            <tr class="bg-blue-50 font-semibold text-slate-900">
+              <td class="border border-slate-300 p-2" colspan="3">MÔ TUYẾN VÚ (BREAST TISSUE)</td>
             </tr>
             <tr>
-              <td><strong>Đường bờ (Margin)</strong></td>
-              <td>
-                • Rõ nét (Circumscribed)<br/>
-                • Bị che khuất (Obscured)<br/>
-                • Không rõ nét (Indistinct)<br/>
-                • Tua gai (Spiculated)
-              </td>
-              <td>
-                • Circumscribed: Rất thấp (&lt; 2%)<br/>
-                • Obscured: Chưa thể xác định<br/>
-                • Indistinct: Trung bình - Cao (~20-50%)<br/>
-                • Spiculated: <strong>Cực kỳ cao (&gt; 80%)</strong>
-              </td>
-              <td>
-                Bờ tua gai là tiêu chuẩn vàng chỉ điểm ung thư xâm nhập. Nếu có &ge; 75% chu vi rõ nét và phần còn lại bị che khuất bởi mô sợi tuyến, vẫn xếp loại Bờ rõ nét. Bất kỳ phần bờ nào có tua gai/không rõ đều phải xếp loại theo bờ nghi ngờ nhất.
+              <td class="border border-slate-300 p-2 font-medium">Đậm độ tuyến vú (Breast density)<sup>*</sup></td>
+              <td class="border border-slate-300 p-2" colspan="2">
+                <strong>(A)</strong> Tuyến vú hầu như hoàn toàn là mỡ (The breasts are almost entirely fatty)<br/>
+                <strong>(B)</strong> Có các vùng rải rác đậm độ mô sợi tuyến (There are scattered areas of fibroglandular density)<br/>
+                <strong>(C)</strong> Tuyến vú đặc không đồng nhất, có thể che khuất các khối u nhỏ (The breasts are heterogeneously dense, which may obscure small masses)<br/>
+                <strong>(D)</strong> Tuyến vú cực kỳ đặc, làm giảm độ nhạy của nhũ ảnh (The breasts are extremely dense, which lowers the sensitivity of mammography)
               </td>
             </tr>
+
+            <!-- Findings -->
+            <tr class="bg-blue-50 font-semibold text-slate-900">
+              <td class="border border-slate-300 p-2" colspan="3">CÁC DẤU HIỆU BẤT THƯỜNG (FINDINGS)</td>
+            </tr>
             <tr>
-              <td><strong>Đậm độ (Density)</strong></td>
-              <td>
-                • Chứa mỡ (Fat-containing)<br/>
-                • Đậm độ thấp (Low density)<br/>
-                • Đồng đậm độ (Equal density)<br/>
-                • Đậm độ cao (High density)
+              <td class="border border-slate-300 p-2 font-medium" rowspan="3"><strong>A. Khối u (Masses)</strong></td>
+              <td class="border border-slate-300 p-2 w-1/4">1. Hình thái (Shape)</td>
+              <td class="border border-slate-300 p-2">a. Bầu dục (Oval)<br/>b. Đa cung (Lobulated – <em>mô tả mới của v2025</em>)<br/>c. Tròn (Round)<br/>d. Không đều (Irregular)</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2">2. Đường bờ (Margin)</td>
+              <td class="border border-slate-300 p-2">a. Rõ nét (Circumscribed)<br/>b. Bị che khuất (Obscured)<br/>c. Không rõ nét (Indistinct)<br/>d. Tua gai (Spiculated)</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2">3. Đậm độ (Density)</td>
+              <td class="border border-slate-300 p-2">a. Chứa mỡ (Fat-containing)<br/>b. Đậm độ thấp (Low density)<br/>c. Đồng đậm độ (Equal density)<br/>d. Đậm độ cao (High density)</td>
+            </tr>
+
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium" rowspan="3"><strong>B. Vôi hóa (Calcifications)</strong></td>
+              <td class="border border-slate-300 p-2">1. Lành tính điển hình (Typically benign)</td>
+              <td class="border border-slate-300 p-2">a. Da (Skin)<br/>b. Mạch máu (Vascular)<br/>c. Thô (Coarse)<br/>d. Que lớn (Large rod-like)<br/>e. Tròn (Round)<br/>f. Viền (Rim)<br/>g. Lắng lớp (Layering – <em>thay cho milk of calcium</em>)<br/>h. Chỉ khâu (Suture)</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2">2. Hình thái nghi ngờ (Suspicious morphology)</td>
+              <td class="border border-slate-300 p-2">a. Vô định hình (Amorphous)<br/>b. Thô không đồng nhất (Coarse heterogeneous)<br/>c. Đa hình mịn (Fine pleomorphic)<br/>d. Dạng đường mảnh hoặc Phân nhánh (Fine linear or fine linear-branching)</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2">3. Kiểu phân bố (Distribution)</td>
+              <td class="border border-slate-300 p-2">a. Lan tỏa (Diffuse)<br/>b. Vùng (Regional)<br/>c. Thành cụm (Grouped)<br/>d. Dạng đường (Linear)<br/>e. Theo phân thùy (Segmental)</td>
+            </tr>
+
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium"><strong>C. Xáo trộn cấu trúc (Architectural distortion)</strong></td>
+              <td class="border border-slate-300 p-2" colspan="2">Đường thẳng mảnh tỏa hình nan hoa từ một điểm, hoặc co rút khu trú đường bờ nhu mô vú mà không thấy khối u rõ rệt.</td>
+            </tr>
+
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium"><strong>D. Các dạng bất đối xứng (Asymmetries)</strong></td>
+              <td class="border border-slate-300 p-2" colspan="2">
+                1. Bất đối xứng toàn thể (Global asymmetry)<br/>
+                2. Bất đối xứng một bình diện (Asymmetry)<br/>
+                3. Bất đối xứng khu trú (Focal asymmetry)<br/>
+                <em>(Lưu ý: BI-RADS® v2025 đã chính thức loại bỏ thuật ngữ Developing Asymmetry)</em>
               </td>
-              <td>
-                • Fat-containing: Lành tính (trừ mỡ vùi kẹt)<br/>
-                • Low density: Thấp (~22%)<br/>
-                • Equal density: Thấp (~22%)<br/>
-                • High density: <strong>Cao (đạt 70%)</strong>
+            </tr>
+
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium" rowspan="2"><strong>E. Hạch bạch huyết (Lymph nodes)</strong></td>
+              <td class="border border-slate-300 p-2">1. Hạch trong tuyến vú (Intramammary)</td>
+              <td class="border border-slate-300 p-2">a. Bình thường (Normal)<br/>b. Bất thường (Abnormal)</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2">2. Hạch hố nách (Axillary)</td>
+              <td class="border border-slate-300 p-2">a. Bình thường (Normal)<br/>b. Bất thường (Abnormal)</td>
+            </tr>
+
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium"><strong>F. Tổn thương da (Skin lesions)</strong></td>
+              <td class="border border-slate-300 p-2" colspan="2">Nốt ruồi, dày sừng tiết bã, u xơ da chiếu chồng lên nhu mô vú.</td>
+            </tr>
+
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium"><strong>G. Giãn ống tuyến (Dilated ducts)</strong></td>
+              <td class="border border-slate-300 p-2" colspan="2">1. Nhiều ống (Multiple)<br/>2. Đơn độc (Solitary)</td>
+            </tr>
+
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium"><strong>H. Dấu hiệu kèm theo (Associated features)</strong></td>
+              <td class="border border-slate-300 p-2" colspan="2">
+                1. Co rút da (Skin retraction)<br/>
+                2. Co rút núm vú (Nipple retraction)<br/>
+                3. Dày da (Skin thickening)<br/>
+                4. Dày các bè sợi liên kết (Trabecular thickening)
               </td>
-              <td>
-                Khối đậm độ cao kết hợp hình không đều hoặc bờ không rõ nét có tỷ lệ ác tính vượt trội. Khối chứa mỡ có bờ tua gai cần cảnh giác mỡ bị ung thư vùi kẹt (entrapped fat).
+            </tr>
+
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium"><strong>I. Các trường hợp đặc biệt (Special cases)</strong></td>
+              <td class="border border-slate-300 p-2" colspan="2">
+                1. Nữ hóa tuyến vú ở nam giới (Gynecomastia)<br/>
+                2. Túi ngực và các dạng nâng ngực khác (Implants and other forms of augmentation)<br/>
+                3. Tuyến vú sau phẫu thuật đoạn nhũ (Mastectomy)
+              </td>
+            </tr>
+
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium"><strong>J. Vị trí tổn thương (Location of finding)</strong></td>
+              <td class="border border-slate-300 p-2" colspan="2">
+                1. Bên vú: Vú phải (Right) hoặc Vú trái (Left)<br/>
+                2. Vị trí trong tuyến vú: 4 góc phần tư hoặc theo vị trí mặt đồng hồ (Clock face)<br/>
+                3. Độ sâu và/hoặc khoảng cách từ tổn thương tới núm vú (Depth and/or distance from the nipple)
               </td>
             </tr>
           </tbody>
         </table>
       </div>
+      <p class="text-xs text-slate-500 italic mt-1">
+        <sup>*</sup>Ghi chú pháp lý FDA (tháng 7/2025): FDA đã phê chuẩn tiêu chuẩn diễn đạt bổ sung cho phép bác sĩ chẩn đoán hình ảnh đưa ra kết luận đánh giá đậm độ tuyến vú ở dạng số ít (singular phrasing: "the breast is...") khi thực hiện và báo cáo kết quả nhũ ảnh chỉ ở một bên vú đơn độc.
+      </p>
 
-      <h2 id="phan-7-keypoints-pitfalls">7. Điểm cốt lõi cần nhớ (Key Points) & Cạm bẫy chẩn đoán (Diagnostic Pitfalls)</h2>
+      <h2 id="phan-4-dam-do-tuyen-vu">4. Đậm độ tuyến vú (Breast Density) & Ý nghĩa lâm sàng</h2>
+      <p>
+        <strong>Định nghĩa:</strong> Đậm độ tuyến vú được định nghĩa là <em>tỷ lệ tương đối giữa nhu mô tuyến vú (parenchyma) so với mô mỡ (fat) bên trong tuyến vú</em>.
+      </p>
+      <p>
+        Trên hình ảnh nhũ ảnh, nhu mô tuyến vú xuất hiện dưới dạng các cấu trúc cản tia có màu trắng/xám sáng (radiodense), trong khi mô mỡ có tính chất thấu quang và xuất hiện màu tối/đen (radiolucent). Có bốn loại phân loại đậm độ tuyến vú (Bảng 2).
+      </p>
 
+      <h3 id="table-2-density-categories">Bảng 2. Bốn phân loại Đậm độ tuyến vú theo ACR BI-RADS® v2025 (Table 2)</h3>
+      <div class="overflow-x-auto my-4">
+        <table class="min-w-full border-collapse border border-slate-300 text-sm">
+          <thead>
+            <tr class="bg-slate-100 text-slate-800">
+              <th class="border border-slate-300 p-3 text-center w-16">Phân loại</th>
+              <th class="border border-slate-300 p-3 text-left font-bold">Mô tả định danh chuẩn hóa (ACR BI-RADS® 2025)</th>
+              <th class="border border-slate-300 p-3 text-center font-bold">Phân nhóm nguy cơ</th>
+              <th class="border border-slate-300 p-3 text-center font-bold">Tỷ số chênh nguy cơ (Odds Ratio)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-slate-300 p-2 text-center font-bold text-slate-700 text-base">A</td>
+              <td class="border border-slate-300 p-2">
+                <strong>Tuyến vú hầu như hoàn toàn là mỡ</strong><br/>
+                <em>(The breasts are almost entirely fatty)</em>
+              </td>
+              <td class="border border-slate-300 p-2 text-center text-emerald-700 font-semibold">Không đặc (Non-dense)</td>
+              <td class="border border-slate-300 p-2 text-center font-semibold text-emerald-700">0.6</td>
+            </tr>
+            <tr class="bg-slate-50">
+              <td class="border border-slate-300 p-2 text-center font-bold text-slate-700 text-base">B</td>
+              <td class="border border-slate-300 p-2">
+                <strong>Có các vùng rải rác đậm độ mô sợi tuyến</strong><br/>
+                <em>(There are scattered areas of fibroglandular density)</em>
+              </td>
+              <td class="border border-slate-300 p-2 text-center text-emerald-700 font-semibold">Không đặc (Non-dense)</td>
+              <td class="border border-slate-300 p-2 text-center font-semibold text-slate-700">1.0 (nhóm chứng)</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2 text-center font-bold text-amber-700 text-base">C</td>
+              <td class="border border-slate-300 p-2">
+                <strong>Tuyến vú đặc không đồng nhất, có thể che khuất các khối u nhỏ</strong><br/>
+                <em>(The breasts are heterogeneously dense, which may obscure small masses)</em>
+              </td>
+              <td class="border border-slate-300 p-2 text-center text-rose-700 font-bold">Tuyến vú đặc (Dense)</td>
+              <td class="border border-slate-300 p-2 text-center font-semibold text-rose-700">1.4</td>
+            </tr>
+            <tr class="bg-slate-50">
+              <td class="border border-slate-300 p-2 text-center font-bold text-red-700 text-base">D</td>
+              <td class="border border-slate-300 p-2">
+                <strong>Tuyến vú cực kỳ đặc, làm giảm độ nhạy của nhũ ảnh</strong><br/>
+                <em>(The breasts are extremely dense, which lowers the sensitivity of mammography)</em>
+              </td>
+              <td class="border border-slate-300 p-2 text-center text-rose-700 font-bold">Tuyến vú đặc (Dense)</td>
+              <td class="border border-slate-300 p-2 text-center font-bold text-red-700">1.6</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        <strong>Quy định pháp lý bắt buộc của FDA Hoa Kỳ (tháng 9/2024):</strong> Việc ghi nhận và thông báo kết quả đậm độ tuyến vú đã chính thức trở thành <em>yêu cầu bắt buộc theo luật liên bang của Cục Quản lý Thực phẩm và Dược phẩm Hoa Kỳ (FDA)</em> kể từ tháng 9 năm 2024. Ngôn ngữ mô tả trong bản kết quả trả về cho bác sĩ chỉ định cũng như thư thông báo kết quả gửi trực tiếp cho người bệnh bắt buộc phải tuân theo hướng dẫn chuẩn hóa của liên bang.
+      </p>
+      <p>
+        Những người có tuyến vú thuộc nhóm C (đặc không đồng nhất) hoặc nhóm D (cực kỳ đặc) được xếp vào nhóm <strong>"Tuyến vú đặc" (Dense breasts)</strong>. Ngược lại, những người thuộc nhóm A (gần như hoàn toàn là mỡ) hoặc nhóm B (rải rác mô sợi tuyến) được xem là <strong>"Không đặc" (Non-dense)</strong>.
+      </p>
+
+      <h3 id="nguyen-tac-danh-gia-dam-do">Nguyên tắc đánh giá & Bước chuyển tư duy từ BI-RADS 5th đến v2025</h3>
+      <p>
+        Thông thường nhất trên thực hành lâm sàng, bác sĩ chẩn đoán hình ảnh đánh giá và phân loại đậm độ tuyến vú một cách định tính thông qua quan sát bằng mắt thường hình ảnh nhu mô trên các hướng chụp CC và MLO (trên phim 2D DM hoặc ảnh tổng hợp SM), mặc dù hiện nay đã có các phần mềm đo lường đậm độ tự động được FDA phê duyệt.
+      </p>
+      <p>
+        <strong>Bước chuyển quan trọng về tư duy phân loại:</strong> Kể từ ấn bản BI-RADS thứ 5 và tiếp tục duy trì trong v2025, việc phân loại đậm độ tuyến vú đã <strong>chuyển đổi căn bản từ việc ước lượng phần trăm diện tích mô đặc đơn thuần sang đánh giá khả năng mà mô sợi tuyến che khuất tổn thương ung thư (masking effect)</strong>.
+      </p>
+      <p>
+        <em>Quy tắc vùng che khuất:</em> Nếu mô sợi tuyến ở một khu vực nhất định của vú có đậm độ dày đặc và có tiềm năng che khuất một khối ung thư tiềm ẩn bên dưới, thì phân loại đậm độ của toàn bộ tuyến vú phải được gán theo đánh giá của khu vực đó, <strong>thay vì tính toán tỷ lệ thể tích trung bình của toàn bộ tuyến vú</strong>.
+      </p>
+      <p>
+        <em>Quy tắc hai bên vú không đồng nhất:</em> Nếu hai bên vú của cùng một bệnh nhân rơi vào hai mức đậm độ khác nhau, thì <strong>mức đậm độ cao hơn trong hai bên sẽ được gán làm kết quả chung cho toàn bộ cuộc khám đó</strong>.
+      </p>
+      <p>
+        <em>Tính biến thiên theo thời gian:</em> Đậm độ tuyến vú của một cá nhân có thể thay đổi theo từng năm phụ thuộc vào nhiều yếu tố sinh lý và can thiệp điều trị như tăng hoặc giảm cân, liệu pháp nội tiết thay thế (estrogen replacement therapy), giai đoạn mãn kinh, v.v. Vì vậy, đậm độ tuyến vú bắt buộc phải được đánh giá và cập nhật lại ở mỗi lần chụp nhũ ảnh định kỳ để phản ánh chính xác tình trạng hiện tại.
+      </p>
+
+      <h3 id="y-nghia-lam-sang-dam-do">Hai ý nghĩa lâm sàng then chốt của Đậm độ tuyến vú</h3>
+      <p>
+        Đậm độ tuyến vú mang ý nghĩa thực hành to lớn vì hai lý do trực tiếp:
+      </p>
+      <ol>
+        <li>
+          <strong>Ảnh hưởng đến độ chính xác của nhũ ảnh (Hiệu ứng che khuất - Masking Effect):</strong> Tác động bất lợi lớn nhất của mô sợi tuyến đặc là tạo ra hiệu ứng che khuất tổn thương. Với nhũ ảnh phim cổ điển trước đây, độ nhạy phát hiện ung thư giảm sút nghiêm trọng từ nhóm vú mỡ xuống nhóm vú cực kỳ đặc [9]. Sự phát triển của công nghệ nhũ ảnh kỹ thuật số (DM) và đặc biệt là nhũ ảnh 3D cắt lớp (DBT) đã làm giảm đáng kể hiệu ứng này:
+          <ul>
+            <li>Trong thử nghiệm kinh điển DMIST, độ nhạy nhũ ảnh ở phụ nữ có vú đặc đã tăng từ <strong>55%</strong> với nhũ ảnh phim lên <strong>70%</strong> với nhũ ảnh kỹ thuật số [10].</li>
+            <li>Với công nghệ nhũ ảnh 3D cắt lớp (DBT), bác sĩ có thể cuộn xem từng lát cắt mỏng của nhu mô vú, giải tỏa hoàn toàn tình trạng chồng lấp mô sợi tuyến. Ở phụ nữ có tuyến vú đặc, tỷ lệ phát hiện ung thư đã tăng từ <strong>4.5 ca trên 1000 phụ nữ</strong> khi chụp 2D kỹ thuật số lên <strong>5.8 ca trên 1000 phụ nữ</strong> khi chụp với DBT (mức ý nghĩa thống kê $p < 0.001$) [11].</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Gia tăng nguy cơ ung thư vú nội tại (Inherent Cancer Risk):</strong> Tương tự như các yếu tố nguy cơ kinh điển như tuổi tác, đột biến gen gây bệnh (BRCA1/2), tiền sử gia đình và các yếu tố sinh sản, việc có tuyến vú đặc tự bản thân nó là một yếu tố nguy cơ độc lập làm tăng khả năng phát triển ung thư vú. Khi so sánh với nhóm phụ nữ có mô sợi tuyến rải rác (Nhóm B - nhóm chứng với Odds Ratio = 1.0):
+          <ul>
+            <li>Nhóm A (gần như hoàn toàn là mỡ): Tỷ số chênh nguy cơ là <strong>0.6</strong> (nguy cơ thấp hơn).</li>
+            <li>Nhóm C (đặc không đồng nhất): Tỷ số chênh nguy cơ là <strong>1.4</strong> (tăng 40% nguy cơ).</li>
+            <li>Nhóm D (cực kỳ đặc): Tỷ số chênh nguy cơ là <strong>1.6</strong> (tăng 60% nguy cơ) [12].</li>
+          </ul>
+        </li>
+      </ol>
+
+      <h2 id="phan-5-hinh-anh-minh-hoa-dam-do">5. Hệ thống ca bệnh minh họa 4 nhóm Đậm độ tuyến vú (Figures 1 đến 16)</h2>
+      <p>
+        Dưới đây là toàn bộ <strong>16 hình ảnh minh họa nguyên bản từ Cẩm nang ACR BI-RADS® v2025</strong>, phân bổ qua 4 mức độ đậm độ A-B-C-D với các thế chụp nhũ ảnh 2D (DM) và nhũ ảnh tổng hợp 3D (SM):
+      </p>
+
+      <h3 id="density-cat-a">a. Nhóm A: Tuyến vú hầu như hoàn toàn là mỡ (Category A – Almost Entirely Fatty)</h3>
+      <p>
+        Nhu mô vú gần như hoàn toàn thấu quang, tạo điều kiện lý tưởng nhất cho việc phát hiện các khối u nhỏ hoặc vi vôi hóa cản tia. Độ nhạy của nhũ ảnh ở nhóm này đạt mức cao nhất (&gt; 90%).
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure class="my-2">
+          <img src="/posts/birads-v2025-breast-density/density_fig1.jpg" alt="Figure 1 - Breast Density: Category A (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
+          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 1 – Đậm độ tuyến vú: Phân loại BI-RADS nhóm A (SM hướng CC).</strong> Tuyến vú hầu như hoàn toàn là mô mỡ thấu quang trên nhũ ảnh tổng hợp 3D.</figcaption>
+        </figure>
+        <figure class="my-2">
+          <img src="/posts/birads-v2025-breast-density/density_fig2.jpg" alt="Figure 2 - Breast Density: Category A (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
+          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 2 – Đậm độ tuyến vú: Phân loại BI-RADS nhóm A (SM hướng MLO).</strong> Hai bên vú đối xứng, nền mỡ thấu quang chiếm ưu thế tuyệt đối.</figcaption>
+        </figure>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure class="my-2">
+          <img src="/posts/birads-v2025-breast-density/density_fig3.jpg" alt="Figure 3 - Breast Density: Category A (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
+          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 3 – Đậm độ tuyến vú: Phân loại BI-RADS nhóm A (SM hướng CC).</strong> Toàn bộ thể tích nhu mô là mô mỡ, không có vùng cản tia đáng kể.</figcaption>
+        </figure>
+        <figure class="my-2">
+          <img src="/posts/birads-v2025-breast-density/density_fig4.jpg" alt="Figure 4 - Breast Density: Category A (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
+          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 4 – Đậm độ tuyến vú: Phân loại BI-RADS nhóm A (DM 2D).</strong> Nhũ ảnh kỹ thuật số 2D cho thấy nền mỡ trong suốt, quan sát rõ các dải dây chằng Cooper và mạch máu.</figcaption>
+        </figure>
+      </div>
+
+      <h3 id="density-cat-b">b. Nhóm B: Có các vùng rải rác đậm độ mô sợi tuyến (Category B – Scattered Fibroglandular Density)</h3>
+      <p>
+        Có các đảo mô sợi tuyến cản tia nằm rải rác trong nền mô mỡ. Phần lớn thể tích tuyến vú vẫn thấu quang, nhưng một số tổn thương nhỏ nằm bên trong các đảo mô đặc có thể bị che khuất nhẹ.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure class="my-2">
+          <img src="/posts/birads-v2025-breast-density/density_fig5.jpg" alt="Figure 5 - Breast Density: Category B (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
+          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 5 – Đậm độ tuyến vú: Phân loại BI-RADS nhóm B (SM).</strong> Các dải mô sợi tuyến cản tia phân bố rải rác ở vùng trung tâm và góc trên ngoài.</figcaption>
+        </figure>
+        <figure class="my-2">
+          <img src="/posts/birads-v2025-breast-density/density_fig6.jpg" alt="Figure 6 - Breast Density: Category B (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
+          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 6 – Đậm độ tuyến vú: Phân loại BI-RADS nhóm B (SM).</strong> Đậm độ mô sợi tuyến rải rác đối xứng hai bên trên nhũ ảnh tổng hợp.</figcaption>
+        </figure>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure class="my-2">
+          <img src="/posts/birads-v2025-breast-density/density_fig7.jpg" alt="Figure 7 - Breast Density: Category B (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
+          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 7 – Đậm độ tuyến vú: Phân loại BI-RADS nhóm B (DM).</strong> Nhũ ảnh 2D kỹ thuật số bộc lộ các đám mô sợi tuyến rải rác xen kẽ các khoang mỡ.</figcaption>
+        </figure>
+        <figure class="my-2">
+          <img src="/posts/birads-v2025-breast-density/density_fig8.jpg" alt="Figure 8 - Breast Density: Category B (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
+          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 8 – Đậm độ tuyến vú: Phân loại BI-RADS nhóm B (DM).</strong> Một biến thể phân bố mô sợi tuyến rải rác tập trung chủ yếu ở cực trên vú.</figcaption>
+        </figure>
+      </div>
+
+      <h3 id="density-cat-c">c. Nhóm C: Tuyến vú đặc không đồng nhất (Category C – Heterogeneously Dense)</h3>
+      <p>
+        Mô sợi tuyến chiếm tỷ lệ lớn và phân bố không đều. Điểm nhấn quan trọng trong định nghĩa: <strong>có thể che khuất các khối u nhỏ (which may obscure small masses)</strong>. Ngay cả khi tổng thể tích mô đặc không quá lớn nhưng tập trung dày ở một vùng, một khối ung thư nằm trong vùng đó hoàn toàn có thể bị bỏ sót trên nhũ ảnh 2D thông thường.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure class="my-2">
+          <img src="/posts/birads-v2025-breast-density/density_fig9.jpg" alt="Figure 9 - Breast Density: Category C (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
+          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 9 – Đậm độ tuyến vú: Phân loại BI-RADS nhóm C (DM).</strong> Tuyến vú đặc không đồng nhất trên nhũ ảnh 2D, các khối u nhỏ tiềm ẩn nguy cơ bị che khuất cao.</figcaption>
+        </figure>
+        <figure class="my-2">
+          <img src="/posts/birads-v2025-breast-density/density_fig10.jpg" alt="Figure 10 - Breast Density: Category C (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
+          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 10 – Đậm độ tuyến vú: Phân loại BI-RADS nhóm C (SM).</strong> Lưu ý quan trọng từ cẩm nang: <em>Mặc dù tổng thể tích mô đặc không quá lớn, nhưng tổn thương ung thư hoàn toàn có thể bị che giấu tại các vùng chứa mô sợi tuyến dày đặc</em>.</figcaption>
+        </figure>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure class="my-2">
+          <img src="/posts/birads-v2025-breast-density/density_fig11.jpg" alt="Figure 11 - Breast Density: Category C (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
+          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 11 – Đậm độ tuyến vú: Phân loại BI-RADS nhóm C (DM).</strong> Nhu mô đặc phân bố rộng lan tỏa qua nhiều góc phần tư.</figcaption>
+        </figure>
+        <figure class="my-2">
+          <img src="/posts/birads-v2025-breast-density/density_fig12.jpg" alt="Figure 12 - Breast Density: Category C (DM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
+          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 12 – Đậm độ tuyến vú: Phân loại BI-RADS nhóm C (DM).</strong> Mô sợi tuyến dày đặc tập trung ở vùng trung tâm phía sau quầng vú; vùng này có nguy cơ che khuất tổn thương cao dù ngoại vi có mô mỡ.</figcaption>
+        </figure>
+      </div>
+
+      <h3 id="density-cat-d">d. Nhóm D: Tuyến vú cực kỳ đặc (Category D – Extremely Dense)</h3>
+      <p>
+        Toàn bộ tuyến vú là một khối mô sợi tuyến trắng cản tia dày đặc, gần như không có mô mỡ xen kẽ. Độ nhạy của nhũ ảnh 2D ở nhóm này suy giảm nghiêm trọng (có thể xuống dưới 50%), đòi hỏi bắt buộc phải kết hợp nhũ ảnh 3D DBT và các phương tiện tầm soát bổ sung như siêu âm hoặc MRI vú.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure class="my-2">
+          <img src="/posts/birads-v2025-breast-density/density_fig13.jpg" alt="Figure 13 - Breast Density: Category D (SM CC view)" class="rounded-xl shadow border border-slate-200 mx-auto" />
+          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 13 – Đậm độ tuyến vú: Phân loại BI-RADS nhóm D (SM hướng CC).</strong> Tuyến vú cực kỳ đặc trên nhũ ảnh tổng hợp, mô sợi tuyến cản tia dày đặc chiếm toàn bộ thể tích vú làm giảm mạnh độ nhạy của nhũ ảnh.</figcaption>
+        </figure>
+        <figure class="my-2">
+          <img src="/posts/birads-v2025-breast-density/density_fig14.jpg" alt="Figure 14 - Breast Density: Category D (SM MLO view)" class="rounded-xl shadow border border-slate-200 mx-auto" />
+          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 14 – Đậm độ tuyến vú: Phân loại BI-RADS nhóm D (SM hướng MLO).</strong> Hai bên vú trắng xóa dày đặc từ nền ngực tới sau núm vú.</figcaption>
+        </figure>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure class="my-2">
+          <img src="/posts/birads-v2025-breast-density/density_fig15.jpg" alt="Figure 15 - Breast Density: Category D (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
+          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 15 – Đậm độ tuyến vú: Phân loại BI-RADS nhóm D (SM).</strong> Nhu mô đặc cản tia đồng nhất làm lu mờ mọi chi tiết giải phẫu bên trong.</figcaption>
+        </figure>
+        <figure class="my-2">
+          <img src="/posts/birads-v2025-breast-density/density_fig16.jpg" alt="Figure 16 - Breast Density: Category D (SM)" class="rounded-xl shadow border border-slate-200 mx-auto" />
+          <figcaption class="text-xs text-center text-slate-600 mt-2 italic font-medium"><strong>Figure 16 – Đậm độ tuyến vú: Phân loại BI-RADS nhóm D (SM).</strong> Tuyến vú cực kỳ đặc, hiệu ứng che khuất đạt mức tối đa, đòi hỏi chỉ định phối hợp các phương tiện chẩn đoán bổ sung.</figcaption>
+        </figure>
+      </div>
+
+      <h2 id="phan-6-bang-tong-hop-lam-sang">6. Bảng tổng hợp đối chiếu & Lưu đồ thực hành lâm sàng</h2>
+      <div class="synthesis-box">
+        <h4 class="font-bold text-slate-900 mb-2 flex items-center gap-2">
+          <span>📋</span> Bảng đối chiếu lâm sàng: Đậm độ tuyến vú & Chiến lược chỉ định hình ảnh bổ sung (Ban biên tập tổng hợp)
+        </h4>
+        <p class="text-sm text-slate-700 mb-3">
+          Nhằm hiện thực hóa các khuyến cáo của ACR và quy định mới của FDA, bảng dưới đây tổng hợp chiến lược theo dõi và lựa chọn phương tiện chẩn đoán hình ảnh bổ sung (Supplemental Screening) phù hợp cho từng nhóm đậm độ:
+        </p>
+        <div class="overflow-x-auto my-3">
+          <table class="min-w-full border-collapse border border-slate-300 text-sm">
+            <thead>
+              <tr class="bg-slate-200 text-slate-800">
+                <th class="border border-slate-300 p-2 text-left">Phân nhóm</th>
+                <th class="border border-slate-300 p-2 text-center">Tỷ lệ dân số</th>
+                <th class="border border-slate-300 p-2 text-center">Độ nhạy Nhũ ảnh 2D</th>
+                <th class="border border-slate-300 p-2 text-center">Lợi ích của 3D DBT</th>
+                <th class="border border-slate-300 p-2 text-center">Nguy cơ ung thư (OR)</th>
+                <th class="border border-slate-300 p-2 text-left font-bold">Chiến lược Tầm soát Bổ sung (Supplemental)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="border border-slate-300 p-2 font-medium"><strong>Nhóm A</strong> (Toàn bộ là mỡ)</td>
+                <td class="border border-slate-300 p-2 text-center">~10%</td>
+                <td class="border border-slate-300 p-2 text-center text-emerald-700 font-bold">&gt; 90%</td>
+                <td class="border border-slate-300 p-2 text-center">Hiệu quả cơ bản</td>
+                <td class="border border-slate-300 p-2 text-center text-emerald-700 font-bold">0.6</td>
+                <td class="border border-slate-300 p-2">Tầm soát nhũ ảnh định kỳ hàng năm. Không cần phương tiện bổ sung nếu nguy cơ trung bình.</td>
+              </tr>
+              <tr class="bg-slate-50">
+                <td class="border border-slate-300 p-2 font-medium"><strong>Nhóm B</strong> (Mô sợi rải rác)</td>
+                <td class="border border-slate-300 p-2 text-center">~40%</td>
+                <td class="border border-slate-300 p-2 text-center text-emerald-700 font-semibold">~80 - 85%</td>
+                <td class="border border-slate-300 p-2 text-center">Giảm tỷ lệ gọi lại</td>
+                <td class="border border-slate-300 p-2 text-center">1.0 (chuẩn)</td>
+                <td class="border border-slate-300 p-2">Nhũ ảnh hàng năm (ưu tiên DBT). Không chỉ định siêu âm tầm soát thường quy trừ khi có yếu tố nguy cơ cao.</td>
+              </tr>
+              <tr>
+                <td class="border border-slate-300 p-2 font-medium"><strong>Nhóm C</strong> (Đặc không đồng nhất)</td>
+                <td class="border border-slate-300 p-2 text-center">~40%</td>
+                <td class="border border-slate-300 p-2 text-center text-amber-700 font-semibold">~60 - 70%</td>
+                <td class="border border-slate-300 p-2 text-center text-blue-700 font-bold">Tăng phát hiện ung thư xâm nhập (+1.2 - 2.7/1000)</td>
+                <td class="border border-slate-300 p-2 text-center text-rose-700 font-bold">1.4</td>
+                <td class="border border-slate-300 p-2"><strong>Bắt buộc khuyến cáo DBT</strong>. Cân nhắc siêu âm vú tầm soát (ABUS hoặc cầm tay) hoặc MRI tuyến vú nếu có thêm yếu tố nguy cơ gia đình.</td>
+              </tr>
+              <tr class="bg-slate-50">
+                <td class="border border-slate-300 p-2 font-medium"><strong>Nhóm D</strong> (Cực kỳ đặc)</td>
+                <td class="border border-slate-300 p-2 text-center">~10%</td>
+                <td class="border border-slate-300 p-2 text-center text-red-700 font-bold">&lt; 50%</td>
+                <td class="border border-slate-300 p-2 text-center text-blue-700 font-bold">Rất quan trọng nhưng vẫn hạn chế bởi mô đặc</td>
+                <td class="border border-slate-300 p-2 text-center text-red-700 font-bold">1.6</td>
+                <td class="border border-slate-300 p-2 font-medium text-slate-900"><strong>Chỉ định tầm soát bổ sung mạnh mẽ:</strong> Phối hợp DBT + Siêu âm vú toàn bộ (ABUS), hoặc chụp Cộng hưởng từ tuyến vú (Breast MRI) / Nhũ ảnh cản quang (CESM).</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <h2 id="phan-7-key-points">7. Điểm cốt lõi thực hành lâm sàng (Key Points – Ban biên tập đúc kết)</h2>
       <div class="key-points">
-        <h4 class="font-bold text-blue-900 mb-2 flex items-center gap-2">📌 Key Points (Điểm cốt lõi cần nhớ - Ban biên tập đúc kết):</h4>
-        <ul>
-          <li><strong>Định nghĩa khối 3D trên DBT:</strong> Khối có thể được xác lập chỉ trên một hướng chụp duy nhất của DBT nếu hướng kia bị mô sợi tuyến che khuất hoặc khối nằm ngoài trường chụp.</li>
-          <li><strong>Bổ sung hình thái Lobulated:</strong> BI-RADS 2025 chính thức công nhận hình thái Đa cung (Lobulated) để phân biệt các tổn thương có bờ gợn sóng có mức độ nghi ngờ nhỉnh hơn so với hình bầu dục.</li>
-          <li><strong>Xóa bỏ thuật ngữ Microlobulated ở đường bờ:</strong> Khối có đa cung nhỏ nay được quy về bờ không rõ nét (Indistinct) hoặc hình thái đa cung (Lobulated) tùy theo tính chất sắc nét của ranh giới.</li>
-          <li><strong>Quy tắc ưu tiên mức độ nghi ngờ cao nhất:</strong> Nếu một khối có bờ rõ nét ở đa số chu vi nhưng có một điểm nghi ngờ bờ tua gai hoặc bờ không rõ, tổn thương bắt buộc phải được đánh giá dựa trên thành phần tua gai/không rõ đó.</li>
+        <h4 class="font-bold text-blue-900 mb-2 flex items-center gap-2">
+          <span>📌</span> 8 Điểm cốt lõi cần nhớ về Đậm độ Tuyến vú theo ACR BI-RADS® v2025
+        </h4>
+        <ul class="text-sm text-slate-700 space-y-1">
+          <li><strong>1. Đổi mới tiêu chuẩn phân loại:</strong> Đậm độ tuyến vú không còn dựa vào tỷ lệ phần trăm thể tích toán học đơn thuần, mà dựa trên <em>nguy cơ che khuất tổn thương (masking effect)</em>. Một vùng mô đặc khu trú có khả năng che khuất ung thư sẽ quyết định bậc phân loại của toàn bộ tuyến vú.</li>
+          <li><strong>2. Quy tắc gán đậm độ hai bên:</strong> Nếu vú trái và vú phải thuộc hai nhóm đậm độ khác nhau, <em>luôn gán mức đậm độ cao hơn</em> cho toàn bộ cuộc khám.</li>
+          <li><strong>3. Nghĩa vụ pháp lý liên bang của FDA:</strong> Kể từ tháng 9/2024, phân loại đậm độ là thông tin bắt buộc phải ghi trong kết quả cho bác sĩ và gửi thư trực tiếp cho bệnh nhân, nêu rõ nguy cơ che khuất và sự cần thiết của các phương tiện bổ sung.</li>
+          <li><strong>4. Tác động kép của vú đặc:</strong> Tuyến vú đặc (Nhóm C và D) vừa làm <em>giảm độ nhạy nhũ ảnh</em> (hiệu ứng che khuất), vừa là một <em>yếu tố nguy cơ độc lập</em> làm tăng xác suất mắc ung thư vú nội tại (OR 1.4 đến 1.6).</li>
+          <li><strong>5. Giá trị then chốt của DBT:</strong> Với vú đặc, nhũ ảnh 3D cắt lớp (DBT) làm tăng tỷ lệ phát hiện ung thư thêm 1.2 - 2.7 / 1000 lượt khám và giảm 15-37% tỷ lệ gọi lại không cần thiết.</li>
+          <li><strong>6. Nhũ ảnh tổng hợp (SM) thay thế 2D:</strong> SM tái tạo từ DBT có thể thay thế hoàn toàn phim chụp 2D thông thường, giúp tiết kiệm một nửa liều tia bức xạ cho người bệnh.</li>
+          <li><strong>7. Cảnh giác với tổn thương sờ thấy:</strong> Không bao giờ dùng kết quả nhũ ảnh âm tính để loại trừ ung thư ở bệnh nhân có khối sờ thấy trên lâm sàng tại một tuyến vú đặc. Luôn chỉ định siêu âm và sinh thiết định hướng lâm sàng.</li>
+          <li><strong>8. Cập nhật ở mỗi lần khám:</strong> Đậm độ tuyến vú thay đổi theo cân nặng, mãn kinh và liệu pháp nội tiết, do đó bắt buộc phải đánh giá lại độc lập ở từng lần chụp định kỳ.</li>
         </ul>
       </div>
 
+      <h2 id="phan-8-pitfalls">8. Cạm bẫy chẩn đoán & Sai lầm thường gặp (Diagnostic Pitfalls)</h2>
       <div class="pitfalls">
-        <h4 class="font-bold text-rose-900 mb-2 flex items-center gap-2">⚠️ Diagnostic Pitfalls (Cạm bẫy lâm sàng cần tránh - Ban biên tập lưu ý):</h4>
-        <ul>
-          <li><strong>Nhầm lẫn giữa Khối bờ tua gai và Xáo trộn cấu trúc:</strong> Xáo trộn cấu trúc không có khối 3D choán chỗ trung tâm. Khi nhìn thấy khối trung tâm kèm các đường nan hoa, bắt buộc phải chẩn đoán là Khối có bờ tua gai (Spiculated mass).</li>
-          <li><strong>Chủ quan với khối chứa mỡ:</strong> Dù khối chứa mỡ bờ rõ là lành tính (như lipoma, hamartoma), nhưng ung thư xâm nhập phát triển xuyên qua mô mỡ có thể vùi kẹt các đám mỡ thấu quang bên trong khối u trên phim DBT. Do đó nếu khối chứa mỡ nhưng có bờ tua gai hoặc không đều, sinh thiết là bắt buộc.</li>
-          <li><strong>Nhầm lẫn bờ bị che khuất và bờ không rõ nét:</strong> Không bao giờ được dùng từ "bờ bị che khuất" nếu bờ tiếp xúc với mô mỡ. Bờ tiếp xúc mô mỡ nếu mờ thì đó là bờ không rõ nét (Indistinct) và là chỉ dấu nghi ngờ ác tính.</li>
-          <li><strong>Đánh giá thấp ung thư dạng tròn hoặc bầu dục bờ rõ:</strong> Một số ung thư biểu mô tiến triển nhanh, thể tam âm (Triple-negative), thể nhầy hoặc u diệp thể có thể biểu hiện dưới dạng khối hình tròn hoặc bầu dục có vỏ bao giả hoặc bờ rõ nét. Cần kết hợp siêu âm doppler và sinh thiết khi có nghi ngờ lâm sàng.</li>
+        <h4 class="font-bold text-rose-900 mb-2 flex items-center gap-2">
+          <span>⚠️</span> 6 Cạm bẫy lâm sàng thường gặp khi đánh giá Đậm độ Tuyến vú
+        </h4>
+        <ul class="text-sm text-slate-700 space-y-1">
+          <li><strong>Cạm bẫy 1 – Vẫn áp dụng tư duy phần trăm thể tích cũ:</strong> Ước lượng diện tích mô sợi tuyến &lt; 25% hay &gt; 50% để xếp nhóm là sai nguyên lý của BI-RADS 5th và v2025. Nếu vú có 80% là mỡ nhưng 20% còn lại là một mảng mô đặc dày đặc ở vùng trung tâm (xem Figure 12), tuyến vú đó <em>bắt buộc phải xếp vào nhóm C</em> vì mảng mô đặc đó có thể che giấu hoàn toàn một khối u ác tính.</li>
+          <li><strong>Cạm bẫy 2 – Bỏ qua khối sờ thấy vì nhũ ảnh trả về "bình thường":</strong> Ở phụ nữ có vú nhóm C hoặc D, độ nhạy của nhũ ảnh có thể tụt xuống dưới 50%. Khối ung thư xâm nhập dạng bè hoặc ung thư tiểu thùy xâm nhập (ILC) có thể hoàn toàn đồng đậm độ với mô xung quanh và vô hình trên nhũ ảnh. Bác sĩ lâm sàng và chẩn đoán hình ảnh tuyệt đối không được trì hoãn sinh thiết khi có khối sờ thấy nghi ngờ.</li>
+          <li><strong>Cạm bẫy 3 – Lấy mức đậm độ trung bình của hai vú:</strong> Khi một bên vú là nhóm B và bên đối diện là nhóm C, việc ghi kết quả "Nhóm B" hoặc lấy mức trung bình là sai quy định. Bắt buộc phải gán "Nhóm C" cho toàn bộ cuộc khám để cảnh báo đầy đủ nguy cơ cho người bệnh.</li>
+          <li><strong>Cạm bẫy 4 – Không tư vấn phương tiện tầm soát bổ sung (Supplemental Screening) cho phụ nữ có vú cực kỳ đặc:</strong> Trả lời nhũ ảnh âm tính (BI-RADS 1) mà không giải thích cho bệnh nhân nhóm D về nguy cơ âm tính giả và không tư vấn siêu âm vú hoặc MRI là thiếu sót chuyên môn nghiêm trọng theo khuyến cáo hiện hành.</li>
+          <li><strong>Cạm bẫy 5 – Nhầm lẫn giữa nhũ ảnh tầm soát và chẩn đoán trên cùng một bệnh nhân:</strong> Chỉ định nhũ ảnh tầm soát cho một bệnh nhân đang có triệu chứng đau vú khu trú hoặc có khối sờ thấy là vi phạm quy định chỉ định. Bệnh nhân có triệu chứng bắt buộc phải được chụp theo quy trình nhũ ảnh chẩn đoán có bác sĩ chuyên khoa giám sát và chỉ định các thế chụp chuyên sâu tức thì.</li>
+          <li><strong>Cạm bẫy 6 – Bỏ qua thay đổi đậm độ bất thường một bên theo thời gian:</strong> Nếu đậm độ tuyến vú tăng lên khu trú ở một bên vú trong khi bên kia không đổi, đây có thể là dấu hiệu cảnh báo của ứ trệ tuần hoàn tĩnh mạch/bạch huyết do ung thư biểu mô thể viêm hoặc khối u xâm lấn sâu chèn ép.</li>
         </ul>
       </div>
-`,
+
+    
+    `,
     views: 980,
-    readTime: "18 phút đọc",
+    readTime: "15 phút đọc",
     source: "ACR BI-RADS® Mammography v2025 Manual (pp. 20-46)",
-    tags: ["BI-RADS 2025", "Nhũ ảnh", "DBT", "Khối u tuyến vú", "Masses", "Ung thư vú", "Chẩn đoán hình ảnh vú"]
+    tags: ["BI-RADS 2025","Nhũ ảnh","Đậm độ tuyến vú","Breast Density","Tầm soát ung thư vú","Chẩn đoán hình ảnh vú"]
   },
 
   {
@@ -711,7 +569,7 @@ export const POSTS: Post[] = [
           <span>📖</span> Bối cảnh biên dịch & Lời tòa soạn: Cẩm nang ACR BI-RADS® v2025 – Xáo trộn cấu trúc & Bất đối xứng
         </h4>
         <p class="text-sm text-slate-700 leading-relaxed">
-          Bài giảng được biên dịch nguyên văn đầy đủ từ Cẩm nang <em>ACR BI-RADS® v2025 Manual</em> của Hiệp hội Điện quang Hoa Kỳ, tích hợp 21 hình ảnh minh họa thực tế về xáo trộn cấu trúc (Architectural Distortion) và các dạng bất đối xứng (Asymmetries). Nội dung dịch nguyên văn từ bài giảng hiển thị chữ đen trên nền trắng tiêu chuẩn; các phần tổng hợp lưu đồ, điểm cốt lõi và cạm bẫy lâm sàng được đóng khung màu riêng biệt để dễ dàng nhận diện và kiểm chứng.
+          Bài giảng được biên dịch nguyên văn đầy đủ từ Cẩm nang <em>ACR BI-RADS® v2025 Manual</em> của Hiệp hội Điện quang Hoa Kỳ, tích hợp đầy đủ toàn bộ hệ thống hình ảnh minh họa thực tế về xáo trộn cấu trúc (Architectural Distortion) và các dạng bất đối xứng (Asymmetries). Nội dung dịch nguyên văn từ bài giảng hiển thị chữ đen trên nền trắng tiêu chuẩn; các phần tổng hợp lưu đồ, điểm cốt lõi và cạm bẫy lâm sàng được đóng khung màu riêng biệt để dễ dàng nhận diện và kiểm chứng.
         </p>
       </div>
 
@@ -830,8 +688,8 @@ export const POSTS: Post[] = [
 
       <h3>Chiến lược xử trí & Ứng dụng DBT:</h3>
       <ul>
-        <li><strong>Xác định xảo ảnh chồng hình:</strong> Phần lớn bất đối xứng một bình diện là do xảo ảnh cộng dồn/chồng lấp của các cấu trúc tuyến vú bình thường ở các lớp cắt khác nhau (summation artifact). Nhũ ảnh 3D (DBT) là công cụ lý tưởng giúp phân tách từng lớp mô, cho phép bác sĩ khẳng định chắc chắn tổn thương chỉ do chồng hình và không cần triệu tập bệnh nhân làm thêm xét nghiệm.</li>
-        <li><strong>Dấu hiệu cảnh báo tổn thương thực thể:</strong> Nếu tổn thương nghi vấn tiếp tục nhìn thấy liên tục trên <em>nhiều lát cắt DBT kế tiếp nhau</em> (chứng tỏ tổn thương có thể tích thực sự trong không gian 3 chiều), bệnh nhân <strong>bắt buộc phải được triệu tập (recall)</strong> để chụp ép khu trú hoặc siêu âm kiểm tra.</li>
+        <li><strong>Xác định xảo ảnh chồng hình:</strong> Phần lớn bất đối xứng một bình diện là do xảo ảnh cộng dồn/chồng lấp của các cấu trúc tuyến vú bình thường ở các lớp cắt khác nhau (summation artifact). Nhũ ảnh 3D (DBT) là công cụ lý tưởng giúp phân tách từng lớp mô, cho phép bác sĩ khẳng định chắc chắn tổn thương chỉ do chồng hình và không cần gọi lại bệnh nhân làm thêm xét nghiệm.</li>
+        <li><strong>Dấu hiệu cảnh báo tổn thương thực thể:</strong> Nếu tổn thương nghi vấn tiếp tục nhìn thấy liên tục trên <em>nhiều lát cắt DBT kế tiếp nhau</em> (chứng tỏ tổn thương có thể tích thực sự trong không gian 3 chiều), bệnh nhân <strong>bắt buộc phải được gọi lại (recall)</strong> để chụp ép khu trú hoặc siêu âm kiểm tra.</li>
         <li><strong>Biến đổi sau chụp chẩn đoán:</strong> Trên các phim chụp chẩn đoán bổ sung (spot compression view), một bất đối xứng một bình diện nếu được xác nhận là tổn thương thực sự có thể bộc lộ bản chất thành một <em>Khối u (Mass)</em> hoặc một <em>Bất đối xứng khu trú (Focal Asymmetry)</em>.</li>
       </ul>
 
@@ -860,9 +718,66 @@ export const POSTS: Post[] = [
         <figcaption><strong>Figure 5 – BẤT ĐỐI XỨNG (A) DM và (B) lát cắt DBT.</strong> Không có dấu hiệu tương ứng trên các thế chụp tầm soát khác, vì vậy dấu hiệu này được xếp loại là bất đối xứng. Tuy nhiên, do đậm độ của tổn thương và sự tồn tại dai dẳng của nó trong các khảo sát chẩn đoán tiếp theo, sinh thiết đã được khuyến cáo. Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập (Invasive ductal carcinoma).</figcaption>
       </figure>
 
-      <h2 id="phan-7-bang-so-sanh">7. Bảng tổng hợp so sánh & Lưu đồ xử trí</h2>
+      <h2 id="phan-7-bat-doi-xung-khu-tru">7. Bất đối xứng khu trú (Focal Asymmetry) & Hệ thống Ca lâm sàng (Figure 1 – Figure 5)</h2>
+      <p>
+        <strong>Định nghĩa:</strong> <em>Bất đối xứng khu trú (Focal Asymmetry)</em> là một vùng mô giới hạn trong <strong>dưới một góc phần tư (&lt; 1 quadrant)</strong> của tuyến vú và không đối xứng với vị trí tương ứng ở vú đối bên. Dấu hiệu này nhìn thấy được và có thể biểu hiện tương tự nhau trên <strong>nhiều bình diện nhũ ảnh khác nhau</strong> (do đó là một tổn thương thực thể chứ không phải do sự chồng hình của các cấu trúc vú bình thường), nhưng <em>thiếu đường bờ cong lồi ra ngoài, thiếu trung tâm đậm đặc cản quang và thiếu độ nổi bật rõ nét của một khối u (mass)</em>. Đường bờ của một bất đối xứng khu trú có <strong>dạng cong lõm (concave contour)</strong> và bên trong thường có <strong>mỡ xen kẽ (interspersed fat)</strong>.
+      </p>
+
+      <h3>Lưu ý chẩn đoán & Thay đổi bản chất tổn thương</h3>
+      <p>
+        Cần lưu ý rằng đôi khi một dấu hiệu được mô tả đúng là bất đối xứng khu trú trên phim nhũ ảnh tầm soát (tức là thấy được trên cả hai thế chụp tiêu chuẩn MLO và CC) có thể khi chụp nhũ ảnh chẩn đoán chuyên sâu (diagnostic mammography) lại được xác định là hai dấu hiệu khác nhau (nghĩa là hai vùng bất đối xứng riêng biệt, mỗi vùng đại diện cho mô bình thường chồng lấp lên nhau) hoặc ngược lại, bộc lộ bản chất thành một <strong>khối u thực sự (an actual mass)</strong>.
+      </p>
+      <p>
+        Một bất đối xứng khu trú <strong>mới xuất hiện (new)</strong> hoặc <strong>đang tăng kích thước hay tăng độ nổi bật/đậm độ (increasing in size or conspicuity)</strong> khi so sánh với các phim nhũ ảnh trước đó có độ nghi ngờ ác tính cao hơn nhiều so với một bất đối xứng khu trú phát hiện trên phim nhũ ảnh nền đầu tiên (baseline mammogram). Hai thực thể này bắt buộc phải được xử trí theo các chiến lược hoàn toàn khác nhau:
+      </p>
+      <ul>
+        <li><strong>Chỉ định sinh thiết (Biopsy):</strong> Đối với bất đối xứng khu trú mới xuất hiện hoặc đang tiến triển tăng kích thước / đậm độ.</li>
+        <li><strong>Theo dõi ngắn hạn (Short-term follow-up - BI-RADS 3):</strong> Đối với bất đối xứng khu trú phát hiện trên phim nhũ ảnh nền ban đầu, với giả định rằng không phát hiện thêm bất kỳ dấu hiệu nhũ ảnh hoặc siêu âm nghi ngờ nào khác trong quá trình đánh giá chẩn đoán toàn diện.</li>
+      </ul>
+
+      <h3>Loại bỏ thuật ngữ "Developing Asymmetry" & Ý nghĩa lâm sàng then chốt</h3>
+      <p>
+        Mặc dù thuật ngữ mô tả <em>"Bất đối xứng tiến triển" (Developing Asymmetry)</em> đã chính thức <strong>bị bãi bỏ / ngừng sử dụng</strong> như một từ mô tả độc lập trong ấn bản BI-RADS® v2025 này, nhưng tầm quan trọng lâm sàng của một bất đối xứng khu trú mới xuất hiện hoặc ngày càng tăng độ nổi bật/đậm độ vẫn phải được <strong>đặc biệt nhấn mạnh</strong>.
+      </p>
+      <p>
+        Nếu được xác nhận là một <em>tổn thương thực thể</em> sau khi đánh giá nhũ ảnh chẩn đoán, <strong>khuyến cáo sinh thiết mô học nên được đưa ra ngay cả khi khảo sát siêu âm không tìm thấy tổn thương tương ứng (in the absence of an ultrasound correlate)</strong>. Lý do là vì giá trị dự báo dương tính (PPV) ác tính của tổn thương này nằm trong khoảng <strong>7.4% – 12.8% khi phát hiện trong tầm soát</strong> và lên tới <strong>19.7% – 26.7% trong bối cảnh chẩn đoán</strong> [31, 32].
+      </p>
+
+      <h3>Hệ thống Ca bệnh minh họa: Bất đối xứng khu trú (Figure 1 – Figure 5)</h3>
+
+      <figure>
+        <img src="/posts/birads-v2025/fig15_focal_asymmetry_fig1_benign_stable.jpg" alt="Figure 1 – FOCAL ASYMMETRY (DM)" />
+        <figcaption><strong>Figure 1 – BẤT ĐỐI XỨNG KHU TRÚ (DM).</strong> Mô đậm độ không đối xứng chiếm diện tích dưới một góc phần tư trên trong của vú phải. Được coi là lành tính. Tính ổn định lâu dài được quan sát và khẳng định qua việc so sánh đối chiếu với các lần khám trước đó.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/posts/birads-v2025/fig16_focal_asymmetry_fig2_idc.jpg" alt="Figure 2 – FOCAL ASYMMETRY (DM)" />
+        <figcaption><strong>Figure 2 – BẤT ĐỐI XỨNG KHU TRÚ (DM).</strong> Dấu hiệu này được quan sát thấy trên cả hai thế chụp tầm soát CC và MLO và biểu hiện tương tự nhau trên cả hai thế (ở đây chỉ hiển thị một hình phóng to chi tiết). Vùng mô có đường bờ cong lõm, có mỡ xen kẽ, và không đi kèm khối u, xáo trộn cấu trúc hay vôi hóa bất thường. Khảo sát siêu âm định hướng (targeted US) không tìm thấy tổn thương tương ứng. Dấu hiệu này ban đầu được đánh giá là nhiều khả năng lành tính (BI-RADS 3) sau quy trình đánh giá hình ảnh chẩn đoán toàn diện, nhưng sự tăng nhẹ kích thước trong khoảng thời gian theo dõi 6 tháng sau đó đã dẫn đến xếp loại nghi ngờ (BI-RADS 4). Giải phẫu bệnh (sinh thiết lõi kim định vị nhũ ảnh stereotactic core biopsy): Ung thư biểu mô thể ống xâm nhập (Invasive ductal carcinoma - IDC).</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/posts/birads-v2025/fig17_focal_asymmetry_fig3_idc.jpg" alt="Figure 3 – FOCAL ASYMMETRY (DM). (A) MLO and (B) CC" />
+        <figcaption><strong>Figure 3 – BẤT ĐỐI XỨNG KHU TRÚ (DM). (A) Thế MLO và (B) Thế CC.</strong> Dấu hiệu này không có vùng mô tương ứng ở vú đối bên và là tổn thương mới xuất hiện so với các lần chụp trước đó. Mặc dù nhận diện rõ trên cả hai bình diện, nó không thỏa mãn các tiêu chuẩn của một khối u. Đánh giá chẩn đoán chuyên sâu luôn được chỉ định đối với các bất đối xứng khu trú mới xuất hiện hoặc tăng độ nổi bật/đậm độ. Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập (Invasive ductal carcinoma - IDC).</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/posts/birads-v2025/fig18_focal_asymmetry_fig4_ilc_mammogram.jpg" alt="Figure 4 – FOCAL ASYMMETRY. (A) MLO, (B) CC, (C, D) prior exam" />
+        <figcaption><strong>Figure 4 – BẤT ĐỐI XỨNG KHU TRÚ.</strong> Một bất đối xứng khu trú sờ thấy được trên lâm sàng (vị trí được chỉ điểm bởi hạt đánh dấu da hình tam giác) được ghi nhận ở phần trên vú phải (DM) trên thế (A) MLO và thế (B) CC. Đây là tổn thương mới xuất hiện khi so sánh với phim chụp trước đó (C: MLO trước đó, D: CC trước đó). Giải phẫu bệnh: Ung thư biểu mô tiểu thùy xâm nhập (Invasive lobular carcinoma - ILC).</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/posts/birads-v2025/fig19_focal_asymmetry_fig4_ilc_us.jpg" alt="Figure 4 – (Continued) FOCAL ASYMMETRY. Targeted US (E)" />
+        <figcaption><strong>Figure 4 (Tiếp theo) – BẤT ĐỐI XỨNG KHU TRÚ.</strong> Siêu âm định hướng (E) cho thấy một tổn thương không tạo khối giảm âm có bóng lưng tương ứng (hypoechoic shadowing non-mass lesion). Sinh thiết lõi kim (core biopsy) được thực hiện dưới hướng dẫn của siêu âm. Giải phẫu bệnh: Ung thư biểu mô tiểu thùy xâm nhập (Invasive lobular carcinoma - ILC).</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/posts/birads-v2025/fig20_focal_asymmetry_fig5_dcis.jpg" alt="Figure 5 – FOCAL ASYMMETRY (arrows). (A) MLO and (B) CC (DM)" />
+        <figcaption><strong>Figure 5 – BẤT ĐỐI XỨNG KHU TRÚ (mũi tên). (A) Thế MLO và (B) Thế CC (DM).</strong> Bất đối xứng khu trú này (mũi tên) nhìn thấy rõ hơn trên thế MLO so với thế CC nhưng là tổn thương mới xuất hiện, khẳng định sự cần thiết phải đánh giá chẩn đoán bổ sung. Lưu ý các điểm đánh dấu nốt ruồi hình tròn tình cờ và điểm đánh dấu núm vú bằng kim loại. Giải phẫu bệnh: Ung thư biểu mô thể ống tại chỗ (DCIS).</figcaption>
+      </figure>
+
+      <h2 id="phan-8-bang-so-sanh">8. Bảng tổng hợp đối chiếu 4 dấu hiệu & Lưu đồ xử trí</h2>
       <div class="synthesis-box">
-        <h4 class="font-bold text-slate-900 mb-2 flex items-center gap-2">📋 Bảng tổng hợp so sánh các tổn thương & Lưu đồ xử trí (Ban biên tập đúc kết):</h4>
+        <h4 class="font-bold text-slate-900 mb-2 flex items-center gap-2">📋 Bảng tổng hợp đối chiếu 4 dấu hiệu & Lưu đồ xử trí (Ban biên tập đúc kết):</h4>
         <div class="overflow-x-auto my-3">
         <table>
           <thead>
@@ -871,64 +786,96 @@ export const POSTS: Post[] = [
               <th>Xáo Trộn Cấu Trúc (Architectural Distortion)</th>
               <th>Bất Đối Xứng Toàn Thể (Global Asymmetry)</th>
               <th>Bất Đối Xứng (Asymmetry)</th>
+              <th>Bất Đối Xứng Khu Trú (Focal Asymmetry)</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><strong>Định nghĩa hình thái</strong></td>
-              <td>Đường thẳng mảnh tỏa nan hoa từ một tâm, co kéo đường bờ nhu mô vú, không thấy khối u rõ.</td>
-              <td>Mô tuyến lan rộng ≥ 1 góc phần tư vú, bất đối xứng so với bên đối diện, không kèm khối hay vôi hóa.</td>
-              <td>Vùng mô chỉ nhìn thấy trên <strong>duy nhất một bình diện</strong> chiếu nhũ ảnh (CC hoặc MLO).</td>
+              <td><strong>Số bình diện quan sát</strong></td>
+              <td>Thường 2 bình diện hoặc chỉ thấy trên các lát cắt DBT.</td>
+              <td>Thấy trên cả 2 bình diện (CC &amp; MLO).</td>
+              <td><strong>Chỉ duy nhất 1 bình diện</strong> (CC hoặc MLO).</td>
+              <td><strong>Cả 2 bình diện</strong> (thấy tương tự trên CC &amp; MLO).</td>
             </tr>
             <tr>
-              <td><strong>Nguyên nhân thường gặp</strong></td>
-              <td>Ung thư biểu mô xâm nhập (IDC/ILC), Sẹo hình sao (Radial scar), Sẹo mổ cũ, Bệnh tuyến xơ cứng.</td>
-              <td>Phân bố bình thường nhưng không đối xứng của mô sợi tuyến (fibroglandular tissue). Hiếm gặp hơn: Ung thư biểu mô xâm nhập lan tỏa.</td>
-              <td>Xảo ảnh chồng mô (Summation artifact, chiếm đa số), Khối u hoặc Bất đối xứng khu trú bị che khuất.</td>
+              <td><strong>Kích thước &amp; Phạm vi</strong></td>
+              <td>Khu trú quanh tâm co rút nan hoa.</td>
+              <td>Lan rộng <strong>&ge; 1 góc phần tư vú</strong>.</td>
+              <td>Khu trú ở 1 bình diện chiếu.</td>
+              <td>Giới hạn <strong>&lt; 1 góc phần tư vú</strong>.</td>
             </tr>
             <tr>
-              <td><strong>Vai trò của DBT</strong></td>
-              <td>Độ nhạy phát hiện vượt trội so với DM; khử nhiễu chồng ảnh; bộc lộ tổn thương trong mô vú đặc.</td>
-              <td>Đánh giá cấu trúc bên trong xem có kèm xáo trộn cấu trúc kín đáo hoặc khối u ẩn hay không.</td>
-              <td>Xác định nhanh xảo ảnh chồng hình hoặc khẳng định tổn thương thực sự qua nhiều lát cắt liên tiếp.</td>
+              <td><strong>Đường bờ &amp; Cấu tạo mô</strong></td>
+              <td>Đường thẳng mảnh tỏa nan hoa, co kéo bờ mô, không có khối.</td>
+              <td>Phân bố rộng của mô sợi tuyến bình thường không cân xứng.</td>
+              <td>Thường bờ cong lõm, có mỡ xen kẽ.</td>
+              <td><strong>Bờ cong lõm (concave)</strong>, có <strong>mỡ xen kẽ</strong>, thiếu trung tâm đậm đặc.</td>
             </tr>
             <tr>
-              <td><strong>Khuyến cáo xử trí</strong></td>
+              <td><strong>Tiêu chuẩn phân biệt với Khối u</strong></td>
+              <td>Không có khối cản quang tròn/bầu dục rõ.</td>
+              <td>Diện tích quá lớn, không tạo khối.</td>
+              <td>Biến mất trên bình diện thứ 2.</td>
+              <td><strong>Thiếu đường bờ cong lồi</strong> và thiếu độ đậm đặc trung tâm của khối u.</td>
+            </tr>
+            <tr>
+              <td><strong>Bản chất thường gặp</strong></td>
+              <td>IDC, ILC, Sẹo hình sao (Radial scar), Sẹo phẫu thuật cũ, Bệnh tuyến xơ cứng.</td>
+              <td>Biến thể phát triển bình thường của mô sợi tuyến; hiếm gặp: ILC xâm nhập diện rộng.</td>
+              <td>Xảo ảnh chồng mô (Summation artifact); Khối u hoặc Bất đối xứng khu trú bị che.</td>
+              <td>Đảo mô tuyến bình thường ổn định; Tổn thương mới: <strong>IDC, ILC, DCIS</strong>.</td>
+            </tr>
+            <tr>
+              <td><strong>Giá trị dự báo dương tính (PPV)</strong></td>
+              <td>10% &ndash; 30% trên DBT, cao hơn trên DM.</td>
+              <td>Rất thấp (&lt; 2%) nếu ổn định lâu dài và không có triệu chứng.</td>
+              <td>Rất thấp nếu chỉ do xảo ảnh chồng lấp.</td>
+              <td><strong>7.4% &ndash; 12.8%</strong> (tầm soát), <strong>19.7% &ndash; 26.7%</strong> (chẩn đoán) khi mới xuất hiện hoặc tăng kích thước.</td>
+            </tr>
+            <tr>
+              <td><strong>Chiến lược xử trí vàng</strong></td>
               <td><strong>Chỉ định sinh thiết mô học</strong> (kể cả khi siêu âm âm tính), trừ khi có tiền sử mổ tương ứng.</td>
-              <td>Nếu ổn định trên phim cũ: Xếp loại BI-RADS 2. Nếu mới xuất hiện hoặc kèm triệu chứng lâm sàng: Chụp chẩn đoán + Siêu âm.</td>
-              <td>Nếu DBT khẳng định chồng hình: BI-RADS 1/2. Nếu tổn thương nghi vấn tồn tại: Triệu tập chụp chẩn đoán (Spot compression) + Siêu âm.</td>
+              <td>Nếu ổn định trên phim cũ: BI-RADS 2. Nếu mới hoặc kèm triệu chứng: Khảo sát chẩn đoán + Siêu âm.</td>
+              <td>Khẳng định xảo ảnh bằng DBT (BI-RADS 1/2). Nếu tổn thương tồn tại: Gọi lại chụp ép khu trú + Siêu âm.</td>
+              <td>Ổn định: BI-RADS 2; Phim nền: BI-RADS 3 (theo dõi 6 tháng); <strong>Mới hoặc tiến triển: Sinh thiết mô học</strong> (ngay cả khi siêu âm âm tính).</td>
             </tr>
           </tbody>
         </table>
+        </div>
       </div>
 
-      <h2 id="phan-8-key-points">8. Điểm cốt lõi cần nhớ (Key Points) & Cạm bẫy chẩn đoán (Pitfalls)</h2>
+      <h2 id="phan-9-key-points">9. Điểm cốt lõi cần nhớ (Key Points) & Cạm bẫy chẩn đoán (Pitfalls)</h2>
       
       <div class="key-points">
         <h4 class="font-bold text-blue-900 mb-2 flex items-center gap-2">📌 Key Points (Điểm cốt lõi - Ban biên tập đúc kết):</h4>
         <ul>
-          <li>Xáo trộn cấu trúc trên DBT có PPV thấp hơn DM nhưng vẫn đạt mức dự báo ác tính trung bình (10–30%) và bắt buộc phải sinh thiết mô học nếu không có sẹo mổ cũ.</li>
-          <li>Đừng bao giờ từ bỏ sinh thiết một xáo trộn cấu trúc chỉ vì siêu âm tuyến vú trả về kết quả âm tính (no ultrasound correlate). Cần chuyển sang sinh thiết dưới hướng dẫn của nhũ ảnh hoặc DBT (stereotactic/tomosynthesis-guided biopsy).</li>
-          <li>BI-RADS® v2025 đã xóa bỏ thuật ngữ "Developing Asymmetry" để chuẩn hóa phân loại hình thái. Bất kỳ bất đối xứng khu trú nào to lên hoặc tăng đậm độ đều là chỉ dấu nguy cơ cao cần chụp chẩn đoán toàn diện.</li>
-          <li>Nhũ ảnh 3D (DBT) là công cụ then chốt giúp phân biệt tổn thương thực thể với các cấu trúc giả xáo trộn cấu trúc (pseudo-distortion) do chồng lấp mô.</li>
+          <li><strong>Phân biệt dứt khoát 3 dạng bất đối xứng:</strong>
+            <ul>
+              <li><em>Bất đối xứng toàn thể (Global):</em> Lan rộng &ge; 1 góc phần tư vú, thường là biến thể bình thường.</li>
+              <li><em>Bất đối xứng một bình diện (Asymmetry):</em> Chỉ thấy trên duy nhất 1 thế chụp, đa số do xảo ảnh chồng mô.</li>
+              <li><em>Bất đối xứng khu trú (Focal):</em> Thấy trên cả 2 thế chụp (&lt; 1 góc phần tư), bờ lõm, có mỡ xen kẽ, không có khối u.</li>
+            </ul>
+          </li>
+          <li><strong>Ý nghĩa cảnh giác cao nhất của tổn thương mới:</strong> Việc loại bỏ thuật ngữ "Developing Asymmetry" không làm giảm tính chất nguy hiểm. Bất kỳ bất đối xứng khu trú nào mới xuất hiện hoặc tăng kích thước / đậm độ đều có PPV ác tính lên tới <strong>19.7% &ndash; 26.7%</strong> trong bối cảnh chẩn đoán.</li>
+          <li><strong>Quy tắc vàng "Không từ bỏ sinh thiết vì siêu âm âm tính":</strong> Cả Xáo trộn cấu trúc và Bất đối xứng khu trú mới/tiến triển đều <strong>bắt buộc phải sinh thiết mô học</strong> (dưới định vị nhũ ảnh hoặc DBT) ngay cả khi siêu âm đối chiếu hoàn toàn bình thường (no ultrasound correlate).</li>
+          <li><strong>Cảnh giác đặc biệt với Ung thư biểu mô tiểu thùy (ILC):</strong> ILC có đặc tính phát triển thâm nhiễm tế bào đơn độc theo dòng, không phá vỡ cấu trúc mô sợi tuyến xung quanh nên rất hiếm khi tạo khối rõ rệt mà thường chỉ biểu hiện dưới dạng bất đối xứng khu trú hoặc tổn thương không tạo khối giảm âm có bóng lưng trên siêu âm.</li>
         </ul>
       </div>
 
       <div class="pitfalls">
         <h4 class="font-bold text-rose-900 mb-2 flex items-center gap-2">⚠️ Diagnostic Pitfalls (Cạm bẫy lâm sàng - Ban biên tập lưu ý):</h4>
         <ul>
-          <li><strong>Giả xáo trộn cấu trúc (Pseudo-distortion):</strong> Do các cấu trúc dạng đường thẳng ở các độ sâu khác nhau vô tình chồng lấp tạo hiệu ứng giao nhau trên phim 2D. Khắc phục: Lăn chuột kiểm tra từng lát cắt mỏng DBT để tách lớp.</li>
-          <li><strong>Bỏ sót ung thư biểu mô tiểu thùy (ILC):</strong> ILC thường không tạo thành khối rõ rệt mà chỉ biểu hiện dưới dạng co kéo cấu trúc kín đáo hoặc bất đối xứng toàn thể kèm dày da.</li>
-          <li><strong>Xem thường bất đối xứng một bình diện:</strong> Dù đa số là lành tính do chồng ảnh, nhưng nếu tổn thương xuất hiện liên tục trên nhiều lát cắt DBT cùng vị trí, đó là tổn thương có thể tích thực sự và cần triệu tập làm chẩn đoán chuyên sâu ngay lập tức.</li>
+          <li><strong>Cạm bẫy 1: Giả xáo trộn cấu trúc (Pseudo-distortion):</strong> Do các cấu trúc dạng đường thẳng ở các độ sâu khác nhau vô tình chồng lấp tạo hiệu ứng giao nhau trên phim 2D. Khắc phục: Lăn chuột kiểm tra từng lát cắt mỏng DBT để tách lớp mô.</li>
+          <li><strong>Cạm bẫy 2: An tâm giả tạo khi siêu âm âm tính ("No ultrasound correlate"):</strong> Đây là lỗi sai phổ biến nhất dẫn đến chậm trễ chẩn đoán ung thư vú. Nhiều bác sĩ sau khi xác nhận bất đối xứng khu trú trên nhũ ảnh chẩn đoán nhưng làm siêu âm không thấy khối u đã vội vàng hạ bậc xếp loại BI-RADS 2 hoặc BI-RADS 3. Nếu tổn thương là mới xuất hiện hoặc tiến triển, bắt buộc phải sinh thiết định vị nhũ ảnh/DBT.</li>
+          <li><strong>Cạm bẫy 3: Bỏ qua sự tăng kích thước kín đáo trong khoảng theo dõi 6 tháng:</strong> Như minh họa ở Figure 2, tổn thương bất đối xứng khu trú ban đầu xếp BI-RADS 3 chỉ to nhẹ sau 6 tháng theo dõi, sinh thiết ra ung thư biểu mô thể ống xâm nhập (IDC). Do đó, việc đo đạc và so sánh trực tiếp song song với phim cũ là tối quan trọng.</li>
+          <li><strong>Cạm bẫy 4: Xem thường bất đối xứng một bình diện:</strong> Dù đa số là lành tính do chồng ảnh, nhưng nếu tổn thương xuất hiện liên tục trên nhiều lát cắt DBT cùng vị trí, đó là tổn thương có thể tích thực sự và cần gọi lại làm chẩn đoán chuyên sâu ngay lập tức.</li>
         </ul>
       </div>
-    
-    
     `,
     views: 1250,
-    readTime: "15 phút đọc",
-    source: "ACR BI-RADS® Mammography v2025 Manual (pp. 107-116)",
-    tags: ["BI-RADS 2025","Nhũ ảnh","DBT","Xáo trộn cấu trúc","Bất đối xứng","Ung thư vú","Chẩn đoán hình ảnh vú"]
+    readTime: "20 phút đọc",
+    source: "ACR BI-RADS® Mammography v2025 Manual (pp. 107-121)",
+    tags: ["BI-RADS 2025", "Nhũ ảnh", "DBT", "Xáo trộn cấu trúc", "Bất đối xứng", "Bất đối xứng khu trú", "Focal Asymmetry", "Ung thư vú", "Chẩn đoán hình ảnh vú"]
   },
   {
     id: "birads-2025-cac-dang-voi-hoa-tuyen-vu-calcifications",
@@ -1911,7 +1858,7 @@ export const POSTS: Post[] = [
         <strong>Ưu thế vượt trội của DBT trong tầm soát:</strong>
       </p>
       <ul>
-        <li><strong>Giảm tỷ lệ triệu hồi (Recall Rate):</strong> DBT giảm từ <strong>15% đến 37%</strong> tỷ lệ bệnh nhân phải gọi quay lại làm thêm xét nghiệm do các hình ảnh chồng lấp mô sợi tuyến lành tính [4-6].</li>
+        <li><strong>Giảm tỷ lệ gọi lại (Recall Rate):</strong> DBT giảm từ <strong>15% đến 37%</strong> tỷ lệ bệnh nhân phải gọi quay lại làm thêm xét nghiệm do các hình ảnh chồng lấp mô sợi tuyến lành tính [4-6].</li>
         <li><strong>Tăng tỷ lệ phát hiện ung thư:</strong> Tăng thêm từ <strong>1.2 đến 2.7 ca ung thư trên 1000 lượt khám tầm soát</strong>, chủ yếu là các ung thư biểu mô xâm nhập (invasive breast cancer), mà không làm tăng đáng kể các tổn thương DCIS không có ý nghĩa lâm sàng [4-6].</li>
         <li><strong>Bộc lộ rõ đường bờ và định vị không gian:</strong> DBT cải thiện vượt bậc khả năng đánh giá đường bờ khối u và định vị chính xác vị trí tổn thương trong không gian 3 chiều của vú, ngay cả khi tổn thương chỉ thấy mờ nhạt trên một hướng chụp duy nhất.</li>
         <li><strong>Rút ngắn quy trình chẩn đoán:</strong> Nhờ độ tương phản và khả năng định vị vượt trội của DBT, nhiều trường hợp có thể bỏ qua các thế chụp nhũ ảnh chẩn đoán bổ sung (như ép khu trú hay phóng đại) để chuyển thẳng người bệnh sang siêu âm chẩn đoán khu trú nhằm xác định bản chất tổn thương [7, 8].</li>
@@ -1928,7 +1875,7 @@ export const POSTS: Post[] = [
         <strong>Các nhóm đối tượng chỉ định nhũ ảnh chẩn đoán:</strong>
       </p>
       <ol>
-        <li>Bệnh nhân được <strong>triệu hồi sau nhũ ảnh tầm soát</strong> (để khẳng định, phân tích đặc tính hình thái và định vị chính xác tổn thương nghi ngờ).</li>
+        <li>Bệnh nhân được <strong>gọi lại sau nhũ ảnh tầm soát</strong> (để khẳng định, phân tích đặc tính hình thái và định vị chính xác tổn thương nghi ngờ).</li>
         <li>Bệnh nhân có <strong>triệu chứng lâm sàng tại tuyến vú</strong>: Sờ thấy khối bất thường, tiết dịch núm vú tự nhiên nghi ngờ (tiết dịch máu hoặc dịch trong như nước súp), đau vú khu trú một điểm kéo dài, hoặc có biến đổi da (co rút da, co rút núm vú, dày da).</li>
         <li>Bệnh nhân đang trong <strong>quy trình theo dõi định kỳ tổn thương có khả năng lành tính (BI-RADS 3)</strong> để đảm bảo tổn thương giữ nguyên kích thước và diện mạo ổn định qua thời gian theo dõi đủ dài (thường là 2 năm) trước khi hạ bậc xếp loại về lành tính (BI-RADS 2).</li>
         <li>Bệnh nhân có <strong>tiền sử bản thân mắc ung thư vú</strong> đang trong quy trình theo dõi giám sát sau điều trị.</li>
@@ -2318,7 +2265,7 @@ export const POSTS: Post[] = [
                 <td class="border border-slate-300 p-2 font-medium"><strong>Nhóm B</strong> (Mô sợi rải rác)</td>
                 <td class="border border-slate-300 p-2 text-center">~40%</td>
                 <td class="border border-slate-300 p-2 text-center text-emerald-700 font-semibold">~80 - 85%</td>
-                <td class="border border-slate-300 p-2 text-center">Giảm triệu hồi</td>
+                <td class="border border-slate-300 p-2 text-center">Giảm tỷ lệ gọi lại</td>
                 <td class="border border-slate-300 p-2 text-center">1.0 (chuẩn)</td>
                 <td class="border border-slate-300 p-2">Nhũ ảnh hàng năm (ưu tiên DBT). Không chỉ định siêu âm tầm soát thường quy trừ khi có yếu tố nguy cơ cao.</td>
               </tr>
@@ -2353,7 +2300,7 @@ export const POSTS: Post[] = [
           <li><strong>2. Quy tắc gán đậm độ hai bên:</strong> Nếu vú trái và vú phải thuộc hai nhóm đậm độ khác nhau, <em>luôn gán mức đậm độ cao hơn</em> cho toàn bộ cuộc khám.</li>
           <li><strong>3. Nghĩa vụ pháp lý liên bang của FDA:</strong> Kể từ tháng 9/2024, phân loại đậm độ là thông tin bắt buộc phải ghi trong kết quả cho bác sĩ và gửi thư trực tiếp cho bệnh nhân, nêu rõ nguy cơ che khuất và sự cần thiết của các phương tiện bổ sung.</li>
           <li><strong>4. Tác động kép của vú đặc:</strong> Tuyến vú đặc (Nhóm C và D) vừa làm <em>giảm độ nhạy nhũ ảnh</em> (hiệu ứng che khuất), vừa là một <em>yếu tố nguy cơ độc lập</em> làm tăng xác suất mắc ung thư vú nội tại (OR 1.4 đến 1.6).</li>
-          <li><strong>5. Giá trị then chốt của DBT:</strong> Với vú đặc, nhũ ảnh 3D cắt lớp (DBT) làm tăng tỷ lệ phát hiện ung thư thêm 1.2 - 2.7 / 1000 lượt khám và giảm 15-37% tỷ lệ triệu hồi không cần thiết.</li>
+          <li><strong>5. Giá trị then chốt của DBT:</strong> Với vú đặc, nhũ ảnh 3D cắt lớp (DBT) làm tăng tỷ lệ phát hiện ung thư thêm 1.2 - 2.7 / 1000 lượt khám và giảm 15-37% tỷ lệ gọi lại không cần thiết.</li>
           <li><strong>6. Nhũ ảnh tổng hợp (SM) thay thế 2D:</strong> SM tái tạo từ DBT có thể thay thế hoàn toàn phim chụp 2D thông thường, giúp tiết kiệm một nửa liều tia bức xạ cho người bệnh.</li>
           <li><strong>7. Cảnh giác với tổn thương sờ thấy:</strong> Không bao giờ dùng kết quả nhũ ảnh âm tính để loại trừ ung thư ở bệnh nhân có khối sờ thấy trên lâm sàng tại một tuyến vú đặc. Luôn chỉ định siêu âm và sinh thiết định hướng lâm sàng.</li>
           <li><strong>8. Cập nhật ở mỗi lần khám:</strong> Đậm độ tuyến vú thay đổi theo cân nặng, mãn kinh và liệu pháp nội tiết, do đó bắt buộc phải đánh giá lại độc lập ở từng lần chụp định kỳ.</li>
