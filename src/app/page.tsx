@@ -110,69 +110,71 @@ function HomePageContent() {
                 {paginatedPosts.map((post) => (
                   <article
                     key={post.id}
-                    className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-xs hover:shadow-md transition-shadow"
+                    className="group bg-white rounded-2xl border border-slate-200 p-4 sm:p-5 shadow-xs hover:shadow-md hover:border-slate-300 transition-all flex flex-col sm:flex-row gap-4 sm:gap-6 items-start"
                   >
-                    {/* Post Image */}
-                    <div className="relative aspect-[16/9] w-full overflow-hidden bg-slate-100">
-                      <Link href={`/bai-viet/${post.slug}`}>
+                    {/* Left: Compact Thumbnail Image */}
+                    <div className="relative w-full sm:w-48 md:w-56 shrink-0 aspect-[4/3] rounded-xl overflow-hidden bg-slate-100 shadow-xs">
+                      <Link href={`/bai-viet/${post.slug}`} className="block w-full h-full">
                         <img
                           src={post.coverImage}
                           alt={post.title}
-                          className="w-full h-full object-cover hover:scale-102 transition-transform duration-300"
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                         />
                       </Link>
-                      <div className="absolute top-4 left-4 flex flex-wrap gap-1.5">
-                        <span className="px-2.5 py-1 rounded-md text-[11px] font-extrabold uppercase tracking-wide bg-blue-600 text-white shadow-sm">
+                      <div className="absolute top-2.5 left-2.5 flex flex-wrap gap-1">
+                        <span className="px-2 py-0.5 rounded-md text-[10px] font-extrabold uppercase tracking-wide bg-blue-600 text-white shadow-xs">
                           {post.specialty}
                         </span>
                         {post.modality && (
-                          <span className="px-2.5 py-1 rounded-md text-[11px] font-extrabold uppercase tracking-wide bg-slate-900/80 backdrop-blur-xs text-white">
+                          <span className="px-2 py-0.5 rounded-md text-[10px] font-extrabold uppercase tracking-wide bg-slate-900/80 backdrop-blur-xs text-white">
                             {post.modality}
                           </span>
                         )}
                       </div>
                     </div>
 
-                    {/* Post Content */}
-                    <div className="p-6 sm:p-8 space-y-4">
-                      {/* Meta */}
-                      <div className="flex flex-wrap items-center gap-4 text-xs text-slate-400">
-                        <div className="flex items-center gap-1.5">
-                          <User className="w-3.5 h-3.5" />
-                          <span className="font-semibold text-slate-700">{post.author}</span>
+                    {/* Right: Content & Title */}
+                    <div className="flex-1 min-w-0 flex flex-col justify-between self-stretch py-0.5">
+                      <div className="space-y-2.5">
+                        {/* Meta */}
+                        <div className="flex flex-wrap items-center gap-3 text-xs text-slate-400">
+                          <div className="flex items-center gap-1.5 truncate max-w-[220px]">
+                            <User className="w-3.5 h-3.5 shrink-0" />
+                            <span className="font-semibold text-slate-700 truncate">{post.author}</span>
+                          </div>
+                          <div className="flex items-center gap-1.5 shrink-0">
+                            <Calendar className="w-3.5 h-3.5" />
+                            <span>{post.date}</span>
+                          </div>
+                          <div className="flex items-center gap-1.5 shrink-0">
+                            <Eye className="w-3.5 h-3.5" />
+                            <span>{post.views.toLocaleString()} lượt xem</span>
+                          </div>
                         </div>
-                        <div className="flex items-center gap-1.5">
-                          <Calendar className="w-3.5 h-3.5" />
-                          <span>{post.date}</span>
-                        </div>
-                        <div className="flex items-center gap-1.5">
-                          <Eye className="w-3.5 h-3.5" />
-                          <span>{post.views.toLocaleString()} lượt xem</span>
-                        </div>
+
+                        {/* Title */}
+                        <h2 className="text-base sm:text-lg lg:text-xl font-bold text-slate-900 group-hover:text-blue-600 transition-colors leading-snug line-clamp-2">
+                          <Link href={`/bai-viet/${post.slug}`}>
+                            {post.title}
+                          </Link>
+                        </h2>
+
+                        {/* Excerpt */}
+                        <p className="text-xs sm:text-sm text-slate-600 leading-relaxed line-clamp-2 sm:line-clamp-3">
+                          {post.excerpt}
+                        </p>
                       </div>
 
-                      {/* Title */}
-                      <h2 className="text-xl sm:text-2xl font-bold text-slate-900 hover:text-blue-600 transition-colors leading-snug">
-                        <Link href={`/bai-viet/${post.slug}`}>
-                          {post.title}
-                        </Link>
-                      </h2>
-
-                      {/* Excerpt */}
-                      <p className="text-sm text-slate-600 leading-relaxed line-clamp-3">
-                        {post.excerpt}
-                      </p>
-
                       {/* Action */}
-                      <div className="pt-2 flex items-center justify-between border-t border-slate-100">
+                      <div className="pt-3 mt-3 flex items-center justify-between border-t border-slate-100 text-xs">
                         <Link
                           href={`/bai-viet/${post.slug}`}
-                          className="inline-flex items-center gap-1.5 text-xs font-bold text-blue-600 hover:text-blue-700 uppercase tracking-wider group"
+                          className="inline-flex items-center gap-1.5 font-bold text-blue-600 hover:text-blue-700 uppercase tracking-wider group/link"
                         >
                           <span>Xem chi tiết bài giảng</span>
-                          <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+                          <ArrowRight className="w-3.5 h-3.5 group-hover/link:translate-x-1 transition-transform" />
                         </Link>
-                        <span className="text-xs text-slate-400">{post.readTime}</span>
+                        <span className="text-slate-400 font-medium">{post.readTime}</span>
                       </div>
                     </div>
                   </article>
