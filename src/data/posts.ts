@@ -907,5 +907,650 @@ export const POSTS: Post[] = [
     readTime: "15 phút đọc",
     source: "ACR BI-RADS® Mammography v2025 Manual (pp. 107-116)",
     tags: ["BI-RADS 2025","Nhũ ảnh","DBT","Xáo trộn cấu trúc","Bất đối xứng","Ung thư vú","Chẩn đoán hình ảnh vú"]
+  },
+  {
+    id: "birads-2025-cac-dang-voi-hoa-tuyen-vu-calcifications",
+    title: "Cẩm nang ACR BI-RADS® 2025: Các dạng vôi hóa tuyến vú (Calcifications) – Hình thái, Phân bố và Quản lý",
+    slug: "birads-2025-cac-dang-voi-hoa-tuyen-vu-calcifications",
+    date: "30 Tháng 10, 2026",
+    updatedDate: "30 Tháng 10, 2026",
+    author: "ACR BI-RADS® Committee (Biên dịch & Chú giải: CĐHA Cập Nhật)",
+    categories: ["Vú", "Nhũ ảnh", "X-quang", "BI-RADS 2025", "Vôi hóa tuyến vú", "DCIS"],
+    categorySlugs: ["vu", "nhu-anh", "x-quang", "bi-rads-2025"],
+    modality: "XQ",
+    specialty: "Vú",
+    specialtySlug: "vu",
+    coverImage: "/posts/birads-v2025-calcifications/fig_23_fine_linear_branching_casting.jpg",
+    excerpt: "Cập nhật chuyên sâu từ Cẩm nang ACR BI-RADS® v2025 về các dạng vôi hóa tuyến vú: Phân tích chi tiết 8 nhóm vôi hóa thường lành tính, 4 hình thái nghi ngờ (Vô định hình, Thô không đồng nhất, Đa hình thái mịn, Dạng đường/phân nhánh mỏng), 5 kiểu phân bố và các thay đổi thuật ngữ mang tính bước ngoặt.",
+    content: [
+      "Vôi hóa tuyến vú (Calcifications) là một trong những phát hiện nhũ ảnh then chốt hàng đầu, đóng vai trò quyết định trong việc phát hiện sớm ung thư biểu mô thể ống tại chỗ (DCIS) và ung thư vú giai đoạn sớm trước khi xuất hiện khối u sờ thấy trên lâm sàng.",
+      "Cẩm nang ACR BI-RADS® v2025 đưa ra các cập nhật danh pháp chuẩn hóa quan trọng: Bãi bỏ thuật ngữ 'Popcorn-like' và sáp nhập 'Dystrophic' vào danh mục Vôi hóa thô (Coarse); loại bỏ thuật ngữ 'Punctate' để gộp hoàn toàn vào Vôi hóa tròn (Round); thay thế thuật ngữ 'Milk of calcium' bằng 'Layering' (Lắng đọng mức dịch) nhằm mô tả khách quan bản chất động học trên các tư thế chụp nhũ ảnh.",
+      "Chiến lược tiếp cận chẩn đoán vôi hóa tuyến vú bắt buộc phải phối hợp chặt chẽ giữa Hình thái (Morphology) và Phân bố (Distribution), tuân thủ nguyên tắc quyết định xử trí dựa trên hình thái nghi ngờ nhất hiện diện trong tổn thương."
+    ],
+    htmlContent: `
+      <h2 id="phan-1-tong-quan">1. Tổng quan & Tiếp cận phân tích vôi hóa theo BI-RADS® v2025</h2>
+      <p>
+        Trong chẩn đoán hình ảnh tuyến vú, <strong>vôi hóa (calcifications)</strong> là một trong những dấu hiệu nhũ ảnh then chốt và kinh điển nhất. Không giống như các khối u (masses) hay xáo trộn cấu trúc (architectural distortion) thường biểu hiện khi bệnh lý đã tiến triển, vi vôi hóa là phát hiện duy nhất giúp phát hiện sớm ung thư biểu mô tuyến vú tại chỗ (<strong>Ductal Carcinoma In Situ - DCIS</strong>) và các ung thư xâm nhập ở giai đoạn tiền lâm sàng (chưa sờ thấy khối u).
+      </p>
+
+      <div class="note-box">
+        <h4 class="font-bold text-amber-900 mb-1">Mục tiêu lâm sàng cốt lõi của đánh giá vôi hóa:</h4>
+        <p class="mb-0 text-amber-800">
+          Phân biệt chính xác giữa các vôi hóa biểu hiện bệnh lý thoái hóa lành tính thông thường (để tránh can thiệp sinh thiết không cần thiết) với các vi vôi hóa có hình thái và phân bố gợi ý lắng đọng calci hoại tử trong lòng ống dẫn sữa bị ung thư xâm lấn (cần chỉ định sinh thiết mô học kịp thời).
+        </p>
+      </div>
+
+      <h3 id="phan-1-chien-luoc-tiep-can">Chiến lược tiếp cận ma trận hai bước: Hình thái × Phân bố</h3>
+      <p>
+        Hệ thống ACR BI-RADS® luôn nhấn mạnh rằng để đánh giá chính xác nguy cơ ác tính của một tổn thương vôi hóa, bác sĩ chẩn đoán hình ảnh không được đánh giá rời rạc mà phải kết hợp chặt chẽ giữa hai trục mô tả:
+      </p>
+      <ol>
+        <li>
+          <strong>Hình thái học (Morphology):</strong> Phản ánh cơ chế sinh bệnh học và vị trí lắng đọng calci (trong lòng ống tuyến, nang tuyến, mô đệm hay thành mạch). Hình thái được chia thành hai nhóm lớn: <em>Thường lành tính (Typically Benign)</em> và <em>Có hình thái nghi ngờ (Suspicious Morphology)</em>.
+        </li>
+        <li>
+          <strong>Cách thức phân bố (Distribution):</strong> Phản ánh mức độ lan rộng và con đường giải phẫu của tổn thương (lan tỏa ngẫu nhiên, tụ cụm khu trú, chạy dọc ống tuyến hay theo toàn bộ một phân thùy giải phẫu).
+        </li>
+      </ol>
+
+      <div class="important-box">
+        <h4 class="font-bold text-rose-900 mb-1">Nguyên tắc vàng về mức độ nghi ngờ (Highest Suspicion Principle):</h4>
+        <p class="mb-0 text-rose-800">
+          Khi một tổn thương vôi hóa chứa nhiều hình thái khác nhau trong cùng một vùng (ví dụ vừa có vôi hóa tròn lành tính, vừa có vài hạt vi vôi hóa đa hình thái mịn hoặc dạng đường mỏng), <strong>việc mô tả hình thái tổng thể, phân loại BI-RADS và chỉ định sinh thiết LUÔN LUÔN phải căn cứ vào hình thái có mức độ nghi ngờ cao nhất</strong>. Không bao giờ được hạ mức nghi ngờ dựa trên số lượng áp đảo của các hạt vôi hóa lành tính đi kèm.
+        </p>
+      </div>
+
+      <h3 id="phan-1-thay-doi-buoc-ngoat">Các thay đổi mang tính bước ngoặt trong ACR BI-RADS® v2025</h3>
+      <p>
+        Phiên bản <strong>ACR BI-RADS® v2025 (Manual ấn bản mới nhất)</strong> đã tiến hành chuẩn hóa toàn diện danh pháp mô tả vôi hóa nhằm loại bỏ các thuật ngữ dựa trên cơ chế giả định hoặc khó định lượng vi thể, chuyển dịch hoàn toàn sang các thuật ngữ mô tả khách quan dựa trên hình thái học thực nghiệm:
+      </p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="min-w-full text-xs border border-slate-200 rounded-xl overflow-hidden shadow-xs">
+          <thead class="bg-slate-100 text-slate-800 font-bold uppercase tracking-wider">
+            <tr>
+              <th class="py-3 px-4 border-b text-left">Thuật ngữ trước đây (BI-RADS 5th)</th>
+              <th class="py-3 px-4 border-b text-left">Thuật ngữ mới (BI-RADS® v2025)</th>
+              <th class="py-3 px-4 border-b text-left">Lý do & Ý nghĩa cập nhật</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-100 bg-white">
+            <tr class="hover:bg-slate-50/80">
+              <td class="py-2.5 px-4 font-semibold text-rose-700">Dạng bắp rang (Popcorn-like)</td>
+              <td class="py-2.5 px-4 font-bold text-emerald-700">Vôi hóa thô (Coarse)</td>
+              <td class="py-2.5 px-4 text-slate-600">Bãi bỏ hoàn toàn thuật ngữ tượng hình "popcorn-like". Thống nhất gọi là vôi hóa thô do bản chất kích thước lớn và bờ nhẵn láng.</td>
+            </tr>
+            <tr class="hover:bg-slate-50/80">
+              <td class="py-2.5 px-4 font-semibold text-rose-700">Loạn dưỡng (Dystrophic)</td>
+              <td class="py-2.5 px-4 font-bold text-emerald-700">Sáp nhập vào Vôi hóa thô (Coarse)</td>
+              <td class="py-2.5 px-4 text-slate-600">Loại bỏ thuật ngữ "Dystrophic" như một phân loại độc lập; sáp nhập hoàn toàn vào nhóm Coarse do có cùng hình thái thô to, bờ ngoài nhẵn và bản chất lành tính sau phẫu thuật/xạ trị/chấn thương.</td>
+            </tr>
+            <tr class="hover:bg-slate-50/80">
+              <td class="py-2.5 px-4 font-semibold text-rose-700">Dạng chấm (Punctate)</td>
+              <td class="py-2.5 px-4 font-bold text-emerald-700">Sáp nhập vào Vôi hóa tròn (Round)</td>
+              <td class="py-2.5 px-4 text-slate-600">Loại bỏ thuật ngữ "Punctate" (trước đây phân biệt cơ học &lt; 0.5 mm) vì không thực tế và bất khả thi khi đo lường kích thước vi thể của từng hạt vôi hóa riêng lẻ. Nay tất cả đều quy về vôi hóa tròn.</td>
+            </tr>
+            <tr class="hover:bg-slate-50/80">
+              <td class="py-2.5 px-4 font-semibold text-rose-700">Sữa calci (Milk of calcium)</td>
+              <td class="py-2.5 px-4 font-bold text-emerald-700">Lắng đọng mức dịch (Layering)</td>
+              <td class="py-2.5 px-4 text-slate-600">Thay thế bằng thuật ngữ khách quan mô tả hiện tượng hình học "Layering" thay vì suy đoán thành phần hóa học sinh lý. Đặc trưng bởi sự thay đổi hình thái theo góc tia X (mờ nhạt trên CC, ngấn mức dịch nằm ngang/bán nguyệt trên 90° Lateral).</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 id="phan-2-voi-hoa-lanh-tinh">2. Vôi hóa thường lành tính (Typically Benign) – 8 nhóm hình thái</h2>
+      <p>
+        Các vôi hóa thuộc nhóm "Thường lành tính" có đặc điểm hình thái và đường bờ rất đặc trưng, phản ánh các quá trình thoái hóa mô hạt, xơ hóa thành mạch, hoại tử mỡ hay chất bã trong nang. Khi các vôi hóa này mang hình thái điển hình, chúng được xếp vào <strong>BI-RADS 2</strong> mà không cần thêm bất kỳ thăm dò xâm lấn nào.
+      </p>
+
+      <h3 id="phan-2-1-voi-hoa-da">2.1 Vôi hóa da (Skin Calcifications)</h3>
+      <p>
+        Vôi hóa da thường nằm trong các tuyến bã hoặc chân lông biểu bì. Đặc điểm kinh điển là các nốt vôi hóa có <strong>tâm thấu quang (lucent-centered)</strong>, kích thước nhỏ (&lt; 5 mm), bờ tròn hoặc đa giác đều đặn, thường tập trung thành cụm nhỏ.
+      </p>
+      <p>
+        Vị trí xuất hiện phổ biến nhất là dọc <em>nếp lằn dưới vú (inframammary fold)</em>, vùng cạnh xương ức, vùng nách chồng lên mô vú, và xung quanh quầng vú. Nếu vi vôi hóa có vẻ nghi ngờ nhưng nằm sát bề mặt da, bác sĩ cần chỉ định <strong>thế chụp tiếp tuyến (tangential view)</strong> kèm gắn marker định vị ngoài da để chứng minh vôi hóa nằm hoàn toàn trong lớp bì.
+      </p>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_01_skin_lucent.jpg" alt="Figure 1 – SKIN calcifications (DM)" />
+        <figcaption><strong>Figure 1 – VÔI HÓA DA (DM).</strong> Hiện diện một vài nốt vôi hóa có tâm thấu quang (mũi tên), điển hình của vôi hóa biểu bì/trung bì tại nếp lằn dưới vú.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_02_skin_tangential.jpg" alt="Figure 4 – Grouped SKIN calcifications (CC SM vs Tangential view)" />
+        <figcaption><strong>Figure 4 – VÔI HÓA DA (A: CC SM; B: Thế tiếp tuyến).</strong> (A) Các vôi hóa này tụ thành chùm nhưng không có hình thái tâm thấu quang kinh điển. (B) Trên thế chụp tiếp tuyến (tangential view), các vôi hóa được chứng minh nằm hoàn toàn trong bề dày của lớp da (mũi tên), xác nhận bản chất lành tính tuyệt đối.</figcaption>
+      </figure>
+
+      <h3 id="phan-2-2-voi-hoa-mach-mau">2.2 Vôi hóa mạch máu (Vascular Calcifications)</h3>
+      <p>
+        Vôi hóa mạch máu là sự lắng đọng calci ở lớp áo giữa của động mạch tuyến vú (xơ cứng động mạch Mönckeberg). Hình ảnh kinh điển là <strong>hai đường thẳng vôi hóa song song dạng "đường ray xe lửa" (tram-track)</strong> hoặc dạng ống phân nhánh, chạy ngoằn ngoèo theo đường đi giải phẫu của mạch máu.
+      </p>
+      <p>
+        Ở giai đoạn rất sớm khi calci mới bắt đầu lắng đọng ngắt quãng, vôi hóa mạch máu có thể chỉ biểu hiện như một vài đốm vôi hóa ngắt quãng thẳng hàng. Tuy nhiên, việc theo dõi dọc theo trục mạch máu hoặc kiểm tra trên nhũ ảnh 3D (DBT) sẽ giúp nhận diện đường đi hình ống của thành mạch.
+      </p>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_03_vascular_tramtrack.jpg" alt="Figure 1 – VASCULAR calcifications (SM and DBT)" />
+        <figcaption><strong>Figure 1 – VÔI HÓA MẠCH MÁU (A: SM và B: DBT).</strong> Các dải vôi hóa chạy song song hình đường ray xe lửa dọc theo thành động mạch tuyến vú, là dấu hiệu lành tính kinh điển.</figcaption>
+      </figure>
+
+      <h3 id="phan-2-3-voi-hoa-tho">2.3 Vôi hóa thô (Coarse Calcifications – Đã sáp nhập Loạn dưỡng & Bãi bỏ "Bắp rang")</h3>
+      <p>
+        Trong ACR BI-RADS® v2025, danh mục <strong>Vôi hóa thô (Coarse)</strong> được định nghĩa là các vôi hóa kích thước lớn (thường <strong>&gt; 2–3 mm</strong> ở đường kính lớn nhất), mật độ cản quang rất cao (đậm độ calci đặc) và có xu hướng kết tụ, hợp lưu lại với nhau:
+      </p>
+      <ul>
+        <li>
+          <strong>U xơ tuyến thoái hóa vôi hóa:</strong> Trước đây thường gọi là "popcorn-like" (dạng bắp rang). Calci bắt đầu lắng đọng ở ngoại vi hoặc trung tâm khối u xơ thoái triển, sau nhiều năm sẽ hợp lưu thành một khối calci thô to, đặc quánh.
+        </li>
+        <li>
+          <strong>Vôi hóa sau tổn thương mô (trước đây gọi là vôi hóa loạn dưỡng - dystrophic):</strong> Hình thành tại vùng mô vú từng bị xạ trị, phẫu thuật bảo tồn (lumpectomy), chấn thương hoặc nhiễm trùng. Chúng thường có kích thước lớn, đường bờ ngoài nhẵn láng, bên trong có thể kèm vùng thấu quang do hoại tử mỡ.
+        </li>
+      </ul>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_04_coarse_fibroadenoma.jpg" alt="Figure 1 – Grouped COARSE calcifications (DM)" />
+        <figcaption><strong>Figure 1 – VÔI HÓA THÔ TỤ THÀNH CHÙM (DM). (A) thế CC và (B) thế MLO.</strong> Các vôi hóa kích thước lớn, đậm độ cao đang tiến triển hợp lưu lại với nhau. Tổn thương ổn định qua nhiều năm theo dõi, tương ứng u xơ tuyến thoái triển vôi hóa.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_05_coarse_post_lumpectomy.jpg" alt="Figure 6 – COARSE calcifications post breast-conserving treatment (SM)" />
+        <figcaption><strong>Figure 6 – VÔI HÓA THÔ (SM). (A) thế MLO và (B) thế CC.</strong> Bệnh nhân sau phẫu thuật bảo tồn tuyến vú và xạ trị. Các vôi hóa này trước đây được gọi là vôi hóa loạn dưỡng (dystrophic) nhưng nay trong BI-RADS® v2025 đã được gộp chung vào danh mục vôi hóa thô (coarse).</figcaption>
+      </figure>
+
+      <h3 id="phan-2-4-voi-hoa-que-lon">2.4 Vôi hóa dạng que lớn (Large Rod-Like Calcifications)</h3>
+      <p>
+        Vôi hóa dạng que lớn xuất hiện dưới dạng các thanh vôi hóa đặc hoặc ngắt quãng, đường bờ rất rõ nét và nhẵn nhụi, đường kính dày <strong>&gt; 0.5 mm</strong>.
+      </p>
+      <p>
+        Tổn thương này phân bố điển hình theo mạng lưới ống dẫn sữa, hướng tâm hội tụ về phía núm vú, đôi khi có phân nhánh và thường gặp đối xứng ở cả hai bên vú ở phụ nữ trên 60 tuổi. Về mặt bệnh học, đây là hiện tượng lắng đọng calci do <em>bệnh lý tiết dịch (secretory disease)</em>, <em>viêm tuyến vú tế bào huyết tương (plasma cell mastitis)</em> hoặc <em>dãn ống tuyến sữa (duct ectasia)</em>.
+      </p>
+      <div class="note-box">
+        <strong class="text-blue-900">Dấu hiệu phân biệt với DCIS:</strong> Vôi hóa dạng que lớn có đường kính dày (&gt; 0.5 mm), bờ nhẵn láng và đặc biệt là <strong>thon nhọn dần ở hai đầu tận (tapering at ends)</strong>, hoàn toàn trái ngược với các đường vôi hóa mỏng vụn, gãy khúc, bờ nham nhở của ung thư biểu mô tại chỗ.
+      </div>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_06_large_rod_like_secretory.jpg" alt="Figure 1 – LARGE ROD-LIKE calcifications (DM)" />
+        <figcaption><strong>Figure 1 – VÔI HÓA DẠNG QUE LỚN (DM).</strong> Các dải vôi hóa đặc, phân bố đối xứng hai vú theo hệ thống ống tuyến hướng tâm về phía núm vú. Đường bờ nhẵn láng và thon nhọn ở hai đầu tận, khác biệt hoàn toàn với vi vôi hóa trong DCIS.</figcaption>
+      </figure>
+
+      <h3 id="phan-2-5-voi-hoa-tron">2.5 Vôi hóa tròn (Round Calcifications – Đã sáp nhập dạng Chấm / Punctate)</h3>
+      <p>
+        Vôi hóa tròn là các nốt vôi hóa có đường bờ nhẵn láng, hình tròn đều đặn, kích thước thường nhỏ (&lt; 1 mm). Khi có nhiều nốt, chúng có thể dao động nhẹ về kích thước và đậm độ cản quang. Chúng hình thành chủ yếu bên trong các nang nhỏ của tiểu thùy (lobular acini).
+      </p>
+      <div class="important-box">
+        <h4 class="font-bold text-amber-900 mb-1">Cập nhật v2025: Bãi bỏ phân nhóm "Punctate" (Dạng chấm):</h4>
+        <p class="mb-0 text-amber-800">
+          Trong các phiên bản trước, vôi hóa tròn nhỏ &lt; 0.5 mm được gọi là "punctate". Phiên bản 2025 đã chính thức loại bỏ thuật ngữ này vì việc phân định ranh giới 0.5 mm trên hình ảnh lâm sàng vi thể là không thực tế. Tất cả hiện nay đều được gọi chung là <strong>Vôi hóa tròn (Round)</strong>.
+        </p>
+      </div>
+      <p>
+        <strong>Chiến lược quản lý vôi hóa tròn:</strong>
+      </p>
+      <ul>
+        <li><strong>Phân bố lan tỏa hoặc nhiều chùm đối xứng hai bên vú:</strong> Xếp <strong>BI-RADS 2 (Lành tính)</strong>.</li>
+        <li><strong>Một chùm vôi hóa tròn đơn độc trên nhũ ảnh lần đầu (baseline)</strong> chưa có phim cũ so sánh: Sau khi xác nhận trên các thế phóng đại, xếp <strong>BI-RADS 3 (Khả năng lành tính cao)</strong> và theo dõi định kỳ 6 tháng.</li>
+        <li><strong>Một chùm vôi hóa tròn mới xuất hiện, tăng lên về số lượng</strong>, hoặc phân bố dạng đường/phân thùy: Cần chỉ định <strong>sinh thiết mô học (BI-RADS 4)</strong> vì có thể là biểu hiện của tân sinh biểu mô tiểu thùy (LCIS/ALH) hoặc ung thư biểu mô thể ống.</li>
+      </ul>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_07_round_acini.jpg" alt="Figure 1 – Grouped ROUND calcifications (DBT)" />
+        <figcaption><strong>Figure 1 – VÔI HÓA TRÒN TỤ THÀNH CHÙM (DBT).</strong> Các nốt vôi hóa nhỏ, tròn đều, hình thành trong các nang nhỏ của tiểu thùy tuyến vú. Tổn thương lành tính, ổn định qua nhiều năm theo dõi.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_08_round_specimen.jpg" alt="Figure 3 – ROUND calcifications on specimen radiograph (DM)" />
+        <figcaption><strong>Figure 3 – VÔI HÓA TRÒN (X-quang bệnh phẩm sau sinh thiết lõi DM).</strong> Các vôi hóa tròn này (mũi tên) tăng lên về số lượng theo thời gian, do đó sinh thiết lõi và phẫu thuật cắt rộng sau đó được khuyến cáo. Giải phẫu bệnh: Ung thư biểu mô tiểu thùy tại chỗ thể đa hình thái (Pleomorphic LCIS).</figcaption>
+      </figure>
+
+      <h3 id="phan-2-6-voi-hoa-vien-nang">2.6 Vôi hóa viền nang (Rim Calcifications / Eggshell)</h3>
+      <p>
+        Vôi hóa viền nang là các dải calci rất mỏng (bề dày <strong>&lt; 1 mm</strong> khi quan sát tiếp tuyến) lắng đọng trên bề mặt hình cầu của một cấu trúc nang hoặc bọc dịch.
+      </p>
+      <p>
+        Hình ảnh kinh điển là <em>viền vỏ trứng (eggshell)</em> bao quanh một trung tâm thấu quang (chứa mỡ hoặc dịch nang). Nguyên nhân hàng đầu là <strong>hoại tử mỡ (fat necrosis)</strong> tạo thành nang dầu (oil cyst), hoặc calci lắng đọng trên thành các nang đơn giản cũ.
+      </p>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_09_rim_fat_necrosis.jpg" alt="Figure 1 – RIM calcifications (SM)" />
+        <figcaption><strong>Figure 1 – VÔI HÓA VIỀN NANG (SM).</strong> Đi kèm một số nốt vôi hóa thô (mũi tên). Hình ảnh gợi ý tiền sử chấn thương tuyến vú và có hình thái lành tính điển hình, phù hợp với hoại tử mỡ (fat necrosis).</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_10_rim_evolving.jpg" alt="Figure 6 – Evolving RIM calcifications post-surgery (DM)" />
+        <figcaption><strong>Figure 6 – VÔI HÓA VIỀN NANG ĐANG TIẾN TRIỂN (DM).</strong> Một năm sau phẫu thuật lành tính (A), các vôi hóa này gợi ý vôi hóa viền đang hình thành nhưng chưa hoàn toàn điển hình, được chỉ định theo dõi. Sáu tháng sau (B), vôi hóa đã biểu hiện rõ hình thái viền mỏng (RIM) kinh điển quanh nang dầu, ổ phẫu thuật co nhỏ lại và xuất hiện thêm vôi hóa viền lân cận. Biến đổi lành tính sau phẫu thuật.</figcaption>
+      </figure>
+
+      <h3 id="phan-2-7-voi-hoa-lang-dong">2.7 Vôi hóa lắng đọng mức dịch (Layering Calcifications – Thay thế "Milk of calcium")</h3>
+      <p>
+        Trong ACR BI-RADS® v2025, thuật ngữ truyền thống "Milk of calcium" (Sữa calci) đã chính thức được thay thế bằng <strong>Layering (Lắng đọng mức dịch / Tạo ngấn)</strong>. Thuật ngữ mới mô tả chính xác đặc tính hình ảnh động học theo trọng lực thay vì dựa trên phỏng đoán hóa sinh.
+      </p>
+      <p>
+        Dấu hiệu chẩn đoán mang tính quyết định là <strong>sự thay đổi hình dạng rõ rệt giữa hai tư thế chụp vuông góc</strong>:
+      </p>
+      <ul>
+        <li><strong>Trên thế chụp sọ - đuôi (CC view - chùm tia thẳng góc từ trên xuống):</strong> Cặn calci lắng dưới đáy nang tròn biểu hiện như các đốm vôi hóa mờ nhạt, bờ nhòe, không rõ hình thù (dễ nhầm với vôi hóa vô định hình nghi ngờ).</li>
+        <li><strong>Trên thế chụp nghiêng 90° (True Lateral: LM hoặc ML view - chùm tia nằm ngang song song mặt đất):</strong> Dưới tác động của trọng lực, các tinh thể calci chìm xuống phần thấp nhất của lòng nang, tạo thành hình <em>mặt trăng khuyết</em>, <em>đáy chén (tea-cupping)</em>, đường cong lõm lên trên hoặc một đường ngang sắc nét.</li>
+      </ul>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_11_layering_dbt_ml.jpg" alt="Figure 1 – LAYERING calcifications on DBT ML view" />
+        <figcaption><strong>Figure 1 – VÔI HÓA LẮNG ĐỌNG MỨC DỊCH TRÊN THẾ NGHIÊNG ML (DBT).</strong> Calci lắng đọng ở phần thấp theo trọng lực bên trong hai khối giới hạn rõ cạnh nhau, phù hợp với các đại nang biến chứng chứa cặn lắng calci.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_12_layering_cc_vs_ml.jpg" alt="Figure 3 – LAYERING calcifications (A: CC view and B: ML view DM)" />
+        <figcaption><strong>Figure 3 – VÔI HÓA LẮNG ĐỌNG MỨC DỊCH (A: thế CC và B: thế nghiêng 90° ML DM).</strong> Trên thế CC, các hạt calci xuất hiện mờ nhạt, vô định hình; ngược lại trên thế nghiêng 90° ML, calci lắng đọng thành đường cong hình mặt trăng khuyết/đáy chén (dấu hiệu tea-cupping), xác nhận chẩn đoán lành tính tuyệt đối.</figcaption>
+      </figure>
+
+      <h3 id="phan-2-8-voi-hoa-chi-khau">2.8 Vôi hóa chỉ khâu (Suture Calcifications)</h3>
+      <p>
+        Vôi hóa chỉ khâu là sự lắng đọng muối calci trên các sợi chỉ phẫu thuật không tiêu hoặc tiêu chậm, thường gặp tại nền sẹo mổ cũ sau phẫu thuật lành tính hoặc xạ trị ung thư vú.
+      </p>
+      <p>
+        Hình thái đặc trưng là các dải vôi hóa dạng đường thẳng, đường cong hoặc dạng ống, và thường thấy các <strong>nút thắt chỉ (knots/loops)</strong> điển hình.
+      </p>
+      <div class="important-box">
+        <h4 class="font-bold text-rose-900 mb-1">Cảnh giác ung thư tái phát cạnh chỉ khâu:</h4>
+        <p class="mb-0 text-rose-800">
+          Dù vôi hóa chỉ khâu là lành tính, luôn luôn phải quan sát tỉ mỉ mô xung quanh sẹo mổ để tìm kiếm các vi vôi hóa nghi ngờ mới xuất hiện (vô định hình, đa hình thái mịn). Ung thư biểu mô tái phát có thể phát triển ngay tại vết mổ kề cận sợi chỉ khâu.
+        </p>
+      </div>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_13_suture_knots.jpg" alt="Figure 1 & 2 – SUTURE calcifications (DM)" />
+        <figcaption><strong>Figure 1 & 2 – VÔI HÓA CHỈ KHÂU (DM).</strong> Các dải vôi hóa hình sợi chỉ uốn lượn có các nút thắt đặc trưng trên nền vết mổ cũ.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_14_suture_mixed_suspicious.jpg" alt="Figure 5 – SUTURE calcifications with co-existing suspicious calcifications (SM)" />
+        <figcaption><strong>Figure 5 – VÔI HÓA CHỈ KHÂU ĐI KÈM VÔI HÓA NGHI NGỜ (SM).</strong> Bên cạnh vôi hóa chỉ khâu lành tính, còn xuất hiện một chùm vi vôi hóa thô không đồng nhất và đa hình thái mịn (mũi tên). Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập tái phát (Recurrent IDC liên quan đến vùng vi vôi hóa nghi ngờ).</figcaption>
+      </figure>
+
+      <h2 id="phan-3-hinh-thai-nghi-ngo">3. Vôi hóa có hình thái nghi ngờ (Suspicious Morphology) – 4 nhóm hình thái</h2>
+      <p>
+        Nhóm hình thái nghi ngờ bao gồm các vi vôi hóa hình thành do quá trình tăng sinh bất thường của tế bào biểu mô ống tuyến, kèm theo hoại tử trung tâm hoặc lắng đọng calci trong chất tiết bất thường của tế bào ung thư.
+      </p>
+      <p>
+        ACR BI-RADS® v2025 phân loại thành <strong>4 hình thái nghi ngờ</strong>, xếp theo bậc thang nguy cơ ác tính tăng dần từ thấp đến cao:
+      </p>
+
+      <h3 id="phan-3-1-voi-hoa-vo-dinh-hinh">3.1 Vôi hóa vô định hình (Amorphous Calcifications)</h3>
+      <p>
+        Vôi hóa vô định hình là các hạt vi vôi hóa có kích thước rất nhỏ, hình ảnh mờ nhạt (hazy) và về mặt định nghĩa là <strong>không có hình thù xác định (essentially formless)</strong>, khiến người đọc không thể gán cho chúng bất kỳ một hình thái hình học cụ thể nào.
+      </p>
+      <ul>
+        <li><strong>Đặc điểm nhận diện:</strong> Giống như bụi phấn hoặc các hạt đường rắc mờ trên phim nhũ ảnh. Chúng không thay đổi hình dạng giữa các góc chụp (khác với vôi hóa lắng đọng mức dịch).</li>
+        <li><strong>Giá trị dự báo dương tính (PPV):</strong> Dao động từ <strong>8% đến 20%</strong> (mức độ nghi ngờ trung bình, thường xếp <strong>BI-RADS 4B</strong>).</li>
+        <li><strong>Quản lý:</strong> Khi phân bố dạng chùm, dạng đường hoặc phân thùy (hoặc phân bố vùng mới xuất hiện/tăng lên), chỉ định sinh thiết là bắt buộc. Nếu phân bố lan tỏa đối xứng hai bên vú, có thể xếp lành tính (BI-RADS 2).</li>
+      </ul>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_15_amorphous_regional.jpg" alt="Figure 1 – Regional AMORPHOUS calcifications (DM)" />
+        <figcaption><strong>Figure 1 – VÔI HÓA VÔ ĐỊNH HÌNH PHÂN BỐ VÙNG (DM).</strong> Các hạt calci rất nhỏ, mờ nhạt và không thể xác định được hình dạng cụ thể. Giải phẫu bệnh: Biến đổi sợi bọc lành tính (Benign fibrocystic changes).</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_16_amorphous_with_dcis.jpg" alt="Figure 3 – Regional AMORPHOUS calcifications with fine pleomorphic forms (DM)" />
+        <figcaption><strong>Figure 3 – VÔI HÓA VÔ ĐỊNH HÌNH PHÂN BỐ VÙNG (mũi tên), ĐI KÈM CHÙM VI VÔI HÓA ĐA HÌNH THÁI MỊN (đầu mũi tên) (DM).</strong> Sinh thiết vùng vôi hóa đa hình thái mịn cho kết quả DCIS. Các vùng vôi hóa vô định hình luôn cần được quan sát kỹ lưỡng để loại trừ các hình thái nghi ngờ cao hơn cùng tồn tại. Giải phẫu bệnh: DCIS.</figcaption>
+      </figure>
+
+      <h3 id="phan-3-2-voi-hoa-tho-khong-dong-nhat">3.2 Vôi hóa thô không đồng nhất (Coarse Heterogeneous Calcifications)</h3>
+      <p>
+        Vôi hóa thô không đồng nhất là các mảnh vôi hóa có hình dạng gồ ghề không đều, kích thước thường từ <strong>0.5 mm đến 1 mm</strong>, và có xu hướng dính kết tụ lại với nhau.
+      </p>
+      <div class="note-box">
+        <strong class="text-blue-900">Phân biệt với Vôi hóa thô lành tính (Benign Coarse):</strong> Vôi hóa thô không đồng nhất nhỏ hơn vôi hóa thô lành tính (&lt; 1 mm so với &gt; 2-3 mm) và có các góc cạnh sắc nhọn, không đều đặn.
+      </div>
+      <ul>
+        <li><strong>Giá trị dự báo dương tính (PPV):</strong> Dao động từ <strong>7% đến 32%</strong> (mức độ nghi ngờ trung bình, thường xếp <strong>BI-RADS 4B</strong>).</li>
+        <li><strong>Nguyên nhân bệnh học:</strong> Có thể gặp trong các tổn thương lành tính (u xơ tuyến giai đoạn đầu thoái hóa, xơ hóa chất đệm, biến đổi giả u xơ), tổn thương nguy cơ cao (tăng sinh ống tuyến không điển hình - ADH), hoặc ung thư biểu mô tại chỗ (DCIS).</li>
+        <li><strong>Quản lý:</strong> Chỉ định sinh thiết khi tổn thương tụ thành chùm đơn độc, phân bố dạng đường hoặc phân thùy. Nếu có nhiều chùm tương tự đối xứng hai bên vú ổn định qua thời gian, có thể kết luận lành tính.</li>
+      </ul>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_17_coarse_heterogeneous_grouped.jpg" alt="Figure 1 – Grouped COARSE HETEROGENEOUS calcifications (DM)" />
+        <figcaption><strong>Figure 1 – VÔI HÓA THÔ KHÔNG ĐỒNG NHẤT TỤ THÀNH CHÙM (DM).</strong> Bệnh nhân này có nhiều chùm tương tự đối xứng hai bên vú, ổn định qua nhiều năm theo dõi, lành tính.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_18_coarse_heterogeneous_dcis.jpg" alt="Figure 4 – Grouped COARSE HETEROGENEOUS calcifications (SM)" />
+        <figcaption><strong>Figure 4 – VÔI HÓA THÔ KHÔNG ĐỒNG NHẤT TỤ THÀNH CHÙM ĐƠN ĐỘC (SM).</strong> Kích thước các mảnh vôi hóa từ 0.5–1 mm, bờ không đều và có xu hướng kết tụ. Giải phẫu bệnh: Ung thư biểu mô tuyến vú thể ống tại chỗ (DCIS).</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_19_coarse_heterogeneous_mixed.jpg" alt="Figure 6 – Grouped COARSE HETEROGENEOUS calcifications with fine linear forms (DM)" />
+        <figcaption><strong>Figure 6 – CHÙM VÔI HÓA THÔ KHÔNG ĐỒNG NHẤT (mũi tên trắng).</strong> Chú ý sự cùng tồn tại của các vôi hóa dạng đường mỏng phân bố thẳng hàng (đầu mũi tên) cũng như vôi hóa thô dạng chùm (mũi tên vàng). Việc đánh giá mức độ nghi ngờ luôn phải căn cứ vào hình thái nghi ngờ nhất. Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập (Invasive ductal carcinoma).</figcaption>
+      </figure>
+
+      <h3 id="phan-3-3-voi-hoa-da-hinh-thai-min">3.3 Vôi hóa đa hình thái mịn (Fine Pleomorphic Calcifications)</h3>
+      <p>
+        Vôi hóa đa hình thái mịn có kích thước và hình dáng rất đa dạng, sắc nhọn, gồ ghề (hình đa giác, chữ nhật, tam giác, hình sao), nhưng kích thước thường rất nhỏ (<strong>&lt; 0.5 mm</strong>).
+      </p>
+      <ul>
+        <li><strong>So sánh nhận diện:</strong> So với vôi hóa vô định hình, vôi hóa đa hình thái mịn <strong>rõ nét hơn hẳn (more conspicuous)</strong>, có các góc cạnh tách biệt rõ ràng. Tuy nhiên chúng không tạo thành các đường kéo dài liên tục như dạng đường mỏng.</li>
+        <li><strong>Giá trị dự báo dương tính (PPV):</strong> Rất cao, dao động từ <strong>28% đến 79%</strong> (xếp <strong>BI-RADS 4B đến 4C</strong>).</li>
+        <li><strong>Ý nghĩa lâm sàng:</strong> Liên quan mật thiết với ung thư biểu mô thể ống tại chỗ (DCIS độ mô học trung bình hoặc cao) và ung thư xâm nhập. Sinh thiết có hướng dẫn hình ảnh là chỉ định bắt buộc.</li>
+      </ul>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_20_fine_pleomorphic_idc_dcis.jpg" alt="Figure 1 – Grouped FINE PLEOMORPHIC calcifications (DM)" />
+        <figcaption><strong>Figure 1 – VÔI HÓA ĐA HÌNH THÁI MỊN TỤ THÀNH CHÙM (DM).</strong> Các hạt calci có kích thước và hình dạng khác nhau, sắc nhọn, thường &lt; 0.5 mm. Giải phẫu bệnh: Ung thư biểu mô thể ống xâm nhập (IDC) kèm DCIS.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_21_fine_pleomorphic_dcis.jpg" alt="Figure 4 – Grouped FINE PLEOMORPHIC calcifications in two distinct groups (DM)" />
+        <figcaption><strong>Figure 4 – VÔI HÓA ĐA HÌNH THÁI MỊN TỤ THÀNH CHÙM (DM).</strong> Hai chùm tổn thương riêng biệt hiện diện. Một vài mảnh vôi hóa thô không đồng nhất cũng xuất hiện trong mỗi chùm, tuy nhiên mô tả hình thái tổng thể phải dựa trên thành phần nghi ngờ nhất. Giải phẫu bệnh: DCIS ở cả hai chùm tổn thương.</figcaption>
+      </figure>
+
+      <h3 id="phan-3-4-voi-hoa-duong-mong">3.4 Vôi hóa dạng đường mỏng hoặc dạng đường mỏng phân nhánh (Fine Linear / Fine Linear-Branching)</h3>
+      <p>
+        Đây là hình thái có <strong>giá trị dự báo ác tính (PPV) cao nhất</strong> trong toàn bộ các loại vôi hóa tuyến vú.
+      </p>
+      <p>
+        Tổn thương biểu hiện dưới dạng các đường calci rất mỏng, mảnh khảnh, gãy khúc ngắt quãng, đường kính thường <strong>&lt; 0.5 mm</strong>. Đôi khi có thể bắt gặp các hình thái phân nhánh theo hình chữ Y hoặc chữ V.
+      </p>
+      <ul>
+        <li><strong>Cơ chế bệnh sinh:</strong> Calci lắng đọng trực tiếp và <strong>đúc khuôn (casting calcifications)</strong> trong lòng các nhánh ống dẫn sữa bị lấp đầy bởi các tế bào ung thư hoại tử (đặc biệt là DCIS thể trứng cá - comedocarcinoma).</li>
+        <li><strong>Giá trị dự báo dương tính (PPV):</strong> Đạt từ <strong>53% đến 100%</strong> (thường xếp <strong>BI-RADS 4C hoặc BI-RADS 5</strong>).</li>
+        <li><strong>Lưu ý quan trọng:</strong> Nếu kết quả sinh thiết lõi của một chùm vôi hóa dạng đường mỏng phân nhánh trả về kết quả mô bệnh học lành tính, kết quả đó <strong>bắt buộc phải được xem là không tương thích (discordant)</strong> và phải chỉ định phẫu thuật sinh thiết mở cắt rộng tổn thương ngay lập tức để không bỏ sót ung thư.</li>
+      </ul>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_22_fine_linear_segmental.jpg" alt="Figure 1 – FINE LINEAR calcifications in segmental distribution (DM)" />
+        <figcaption><strong>Figure 1 – VÔI HÓA DẠNG ĐƯỜNG MỎNG PHÂN BỐ THEO PHÂN THÙY (DM).</strong> Mặc dù diện tích liên quan không lớn, các hạt vôi hóa dạng đường mỏng chạy uốn lượn theo các nhánh ống tuyến phân đôi, tạo nên kiểu phân bố phân thùy. Giải phẫu bệnh: DCIS độ mô học cao (high nuclear grade).</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_23_fine_linear_branching_casting.jpg" alt="Figure 2 – Segmental FINE LINEAR-BRANCHING calcifications (DM)" />
+        <figcaption><strong>Figure 2 – VÔI HÓA DẠNG ĐƯỜNG MỎNG PHÂN NHÁNH PHÂN BỐ THEO PHÂN THÙY (DM).</strong> Nhìn thấy rõ các dạng đường calci phân nhánh đúc khuôn lòng ống dẫn sữa (casting type). Một số vôi hóa có thể dày hơn nhưng bờ rất gồ ghề và không thon nhọn như vôi hóa que lớn lành tính. Hình ảnh này cực kỳ đặc hiệu cho ung thư biểu mô tại chỗ (DCIS); kết quả sinh thiết lành tính phải được xem là không tương thích (discordant). Giải phẫu bệnh: DCIS.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_24_fine_linear_comedo_dcis.jpg" alt="Figure 5 – Grouped FINE LINEAR calcifications (DM)" />
+        <figcaption><strong>Figure 5 – VÔI HÓA DẠNG ĐƯỜNG MỎNG TỤ THÀNH CHÙM (DM).</strong> Đi kèm một số hạt đa hình thái mịn. Giải phẫu bệnh: DCIS thể trứng cá (Comedocarcinoma).</figcaption>
+      </figure>
+
+      <h3 id="phan-3-5-bang-ppv">Bảng đối chiếu Giá trị dự báo dương tính (PPV) theo các nghiên cứu thực chứng</h3>
+      <p>
+        Bảng 3 trong Cẩm nang ACR BI-RADS® v2025 tổng hợp tỷ lệ ác tính (PPV) của 4 hình thái nghi ngờ từ các công trình nghiên cứu kinh điển và đa trung tâm quy mô lớn:
+      </p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="min-w-full text-xs border border-slate-200 rounded-xl overflow-hidden shadow-xs">
+          <thead class="bg-slate-100 text-slate-800 font-bold uppercase tracking-wider">
+            <tr>
+              <th class="py-3 px-4 border-b text-left">Hình thái mô tả</th>
+              <th class="py-3 px-3 border-b text-center">Choi et al. 2020</th>
+              <th class="py-3 px-3 border-b text-center">Park et al. 2019</th>
+              <th class="py-3 px-3 border-b text-center">Kim et al. 2015</th>
+              <th class="py-3 px-3 border-b text-center">Bent et al. 2010</th>
+              <th class="py-3 px-3 border-b text-center">Burnside et al. 2007</th>
+              <th class="py-3 px-4 border-b text-center">Phân loại gợi ý</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-100 bg-white">
+            <tr class="hover:bg-slate-50/80">
+              <td class="py-2.5 px-4 font-semibold text-slate-900">Vô định hình (Amorphous)</td>
+              <td class="py-2.5 px-3 text-center">9.1%</td>
+              <td class="py-2.5 px-3 text-center">15.9%</td>
+              <td class="py-2.5 px-3 text-center">7.9%</td>
+              <td class="py-2.5 px-3 text-center">20.0%</td>
+              <td class="py-2.5 px-3 text-center">13.0%</td>
+              <td class="py-2.5 px-4 text-center font-bold text-amber-700">BI-RADS 4B</td>
+            </tr>
+            <tr class="hover:bg-slate-50/80">
+              <td class="py-2.5 px-4 font-semibold text-slate-900">Thô không đồng nhất (Coarse Heterogeneous)</td>
+              <td class="py-2.5 px-3 text-center">16.1%</td>
+              <td class="py-2.5 px-3 text-center">31.7%</td>
+              <td class="py-2.5 px-3 text-center">17.8%</td>
+              <td class="py-2.5 px-3 text-center">20.0%</td>
+              <td class="py-2.5 px-3 text-center">7.0%</td>
+              <td class="py-2.5 px-4 text-center font-bold text-amber-700">BI-RADS 4B</td>
+            </tr>
+            <tr class="hover:bg-slate-50/80">
+              <td class="py-2.5 px-4 font-semibold text-slate-900">Đa hình thái mịn (Fine Pleomorphic)</td>
+              <td class="py-2.5 px-3 text-center font-bold text-rose-600">78.8%</td>
+              <td class="py-2.5 px-3 text-center font-bold text-rose-600">58.2%</td>
+              <td class="py-2.5 px-3 text-center font-bold text-rose-600">63.2%</td>
+              <td class="py-2.5 px-3 text-center">28.0%</td>
+              <td class="py-2.5 px-3 text-center">29.0%</td>
+              <td class="py-2.5 px-4 text-center font-bold text-rose-700">BI-RADS 4B – 4C</td>
+            </tr>
+            <tr class="hover:bg-slate-50/80 bg-rose-50/30">
+              <td class="py-2.5 px-4 font-bold text-rose-900">Dạng đường mỏng / Phân nhánh (Fine Linear / Branching)</td>
+              <td class="py-2.5 px-3 text-center font-bold text-rose-700">78.6%</td>
+              <td class="py-2.5 px-3 text-center font-bold text-rose-700">90.6%</td>
+              <td class="py-2.5 px-3 text-center font-bold text-rose-700">100.0%</td>
+              <td class="py-2.5 px-3 text-center font-bold text-rose-700">70.0%</td>
+              <td class="py-2.5 px-3 text-center font-bold text-rose-700">53.0%</td>
+              <td class="py-2.5 px-4 text-center font-black text-rose-800">BI-RADS 4C – 5</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 id="phan-4-phan-bo-voi-hoa">4. Các kiểu phân bố vôi hóa (Distribution Descriptors)</h2>
+      <p>
+        Trong đánh giá nguy cơ ác tính, <strong>cách thức phân bố vôi hóa có tầm quan trọng tương đương, thậm chí đôi khi vượt trội hơn cả hình thái vi thể</strong>. Sự sắp xếp trong không gian giải phẫu phản ánh trực tiếp quá trình lan tràn của tế bào tân sinh theo mạng lưới ống dẫn sữa.
+      </p>
+
+      <h3 id="phan-4-1-phan-bo-lan-toa">4.1 Phân bố lan tỏa (Diffuse)</h3>
+      <p>
+        Vôi hóa phân bố rải rác ngẫu nhiên khắp toàn bộ thể tích vú.
+      </p>
+      <ul>
+        <li>Khi xuất hiện <strong>đối xứng ở cả hai bên vú</strong> và có hình thái tròn hoặc vô định hình, phân bố lan tỏa hầu như luôn luôn là biểu hiện lành tính (<strong>BI-RADS 2</strong>).</li>
+        <li><strong>Ngoại lệ cảnh giác:</strong> Vôi hóa lan tỏa <em>chỉ ở một bên vú (unilateral diffuse)</em> là hiện tượng không phổ biến và có thể là biểu hiện của DCIS lan rộng thể xâm lấn toàn thể, đặc biệt nếu vi vôi hóa có hình thái thô không đồng nhất, đa hình thái mịn hoặc phân nhánh.</li>
+      </ul>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_25_dist_diffuse_round.jpg" alt="Figure 1 – DIFFUSE, primarily round calcifications (DM)" />
+        <figcaption><strong>Figure 1 – PHÂN BỐ LAN TỎA, CHỦ YẾU LÀ VÔI HÓA TRÒN (DM).</strong> Nhiều hạt vôi hóa có tâm thấu quang nhưng không có hạt nào nằm trên bề mặt da. Tổn thương tương tự hiện diện đối xứng ở vú đối bên. Tính chất nhiều ổ, đối xứng hai bên, phân bố lan tỏa và không có hình thái nghi ngờ xác lập kết luận lành tính (BI-RADS 2).</figcaption>
+      </figure>
+
+      <h3 id="phan-4-2-phan-bo-vung">4.2 Phân bố vùng (Regional)</h3>
+      <p>
+        Vôi hóa phân bố chiếm một thể tích lớn của tuyến vú (thường <strong>&gt; 2 cm</strong> ở kích thước lớn nhất, hoặc lan rộng qua nhiều phân vùng/hạ phân thùy), nhưng không chiếm toàn bộ vú như phân bố lan tỏa.
+      </p>
+      <p>
+        Đặc trưng của phân bố vùng là các hạt calci rải rác ngẫu nhiên và <strong>không tuân theo giải phẫu của một hệ thống ống tuyến hay phân thùy dẫn sữa</strong>. Do liên quan đến diện tích rộng không theo phân thùy, khả năng ác tính thường thấp hơn so với phân bố dạng đường hay phân thùy. Tuy nhiên, nếu hình thái là đa hình thái mịn hoặc dạng đường mỏng, tổn thương vẫn bắt buộc phải sinh thiết.
+      </p>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_26_dist_regional_trauma.jpg" alt="Figure 1 – REGIONAL coarse calcifications post-trauma (DM)" />
+        <figcaption><strong>Figure 1 – VÔI HÓA THÔ PHÂN BỐ VÙNG (DM).</strong> Bệnh nhân từng bị chấn thương do dây đai an toàn xe hơi ở vú này. Các vôi hóa phân bố rải rác ngẫu nhiên ở vùng trung tâm vú, không theo hệ thống ống tuyến. Hoại tử mỡ lành tính.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_27_dist_regional_dcis.jpg" alt="Figure 4 – REGIONAL fine pleomorphic and fine linear calcifications (DM)" />
+        <figcaption><strong>Figure 4 – VÔI HÓA ĐA HÌNH THÁI MỊN VÀ DẠNG ĐƯỜNG MỎNG PHÂN BỐ VÙNG (DM).</strong> Mặc dù vôi hóa phân bố rải rác trên diện rộng ở phần trên vú, hình thái của chúng thuộc nhóm nghi ngờ cao, bắt buộc phải sinh thiết. Giải phẫu bệnh: DCIS.</figcaption>
+      </figure>
+
+      <h3 id="phan-4-3-phan-bo-thanh-chum">4.3 Phân bố thành chùm / cụm (Grouped / Clustered)</h3>
+      <p>
+        Phân bố thành chùm được định nghĩa là sự tập trung của ít nhất <strong>5 hạt vôi hóa trong phạm vi diện tích 1 cm</strong>, hoặc một số lượng hạt lớn hơn tập trung trong phạm vi <strong>2 cm</strong>.
+      </p>
+      <p>
+        Khái niệm này ngụ ý một tập hợp vôi hóa khu trú, không ngẫu nhiên. Đây là kiểu phân bố phổ biến nhất cần đánh giá trên lâm sàng:
+      </p>
+      <ul>
+        <li>Hình thái học của từng hạt quan trọng hơn số lượng tuyệt đối: Nếu hình thái nghi ngờ cao (như dạng đường phân nhánh), ngay cả khi chỉ có 3–4 hạt cũng phải chỉ định sinh thiết.</li>
+        <li>Một chùm vôi hóa tròn đơn độc mới xuất hiện được xếp <strong>BI-RADS 3</strong> hoặc <strong>BI-RADS 4A</strong> tùy tiền sử nguy cơ của bệnh nhân.</li>
+      </ul>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_28_dist_grouped_round.jpg" alt="Figure 1 – GROUPED, round calcifications (DM)" />
+        <figcaption><strong>Figure 1 – VÔI HÓA TRÒN PHÂN BỐ THÀNH CHÙM (DM).</strong> Ổ vôi hóa chiếm diện tích nhỏ (&lt; 1 cm), ổn định qua nhiều năm theo dõi, lành tính.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_29_dist_grouped_dcis.jpg" alt="Figure 5 – GROUPED fine pleomorphic and fine linear calcifications (DM)" />
+        <figcaption><strong>Figure 5 – VÔI HÓA ĐA HÌNH THÁI MỊN VÀ DẠNG ĐƯỜNG MỎNG PHÂN BỐ THÀNH CHÙM (DM).</strong> Giải phẫu bệnh: DCIS.</figcaption>
+      </figure>
+
+      <h3 id="phan-4-4-phan-bo-dang-duong">4.4 Phân bố dạng đường (Linear)</h3>
+      <p>
+        Vôi hóa được sắp xếp thẳng hàng nối tiếp nhau thành một đường thẳng hoặc đường cong. Kiểu phân bố này mang <strong>mức độ nghi ngờ ác tính cao</strong>, vì nó phản ánh trực tiếp sự lắng đọng calci bên trong lòng của một nhánh ống dẫn sữa đơn độc.
+      </p>
+      <p>
+        Trừ trường hợp mang hình thái lành tính điển hình (như vôi hóa thành mạch máu hoặc que lớn của viêm tuyến vú tế bào huyết tương), bất kỳ vôi hóa nào có hình thái nghi ngờ phân bố dạng đường đều phải xếp loại <strong>BI-RADS 4C</strong> và chỉ định sinh thiết ngay lập tức.
+      </p>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_30_dist_linear_dcis.jpg" alt="Figure 1 – LINEAR distribution of fine pleomorphic calcifications (DM)" />
+        <figcaption><strong>Figure 1 – PHÂN BỐ DẠNG ĐƯỜNG CỦA VÔI HÓA ĐA HÌNH THÁI MỊN (mũi tên), CẠNH CHÙM VÔI HÓA THÔ KHÔNG ĐỒNG NHẤT (đầu mũi tên) (DM).</strong> Giải phẫu bệnh: DCIS (ở vùng mũi tên) và u xơ tuyến ổn định (ở đầu mũi tên).</figcaption>
+      </figure>
+
+      <h3 id="phan-4-5-phan-bo-phan-thuy">4.5 Phân bố phân thùy (Segmental)</h3>
+      <p>
+        Vôi hóa phân bố theo hình tam giác hoặc hình nón, với <strong>đỉnh nón hướng về phía núm vú</strong> và đáy hướng ra ngoại vi trên ít nhất một bình diện chụp.
+      </p>
+      <p>
+        Sự sắp xếp này tương ứng chính xác với toàn bộ mạng lưới phân nhánh của một thùy tuyến vú giải phẫu (ductal system). Phân bố phân thùy chỉ điểm sự lắng đọng calci lan tràn trong nhiều nhánh ống dẫn sữa của cùng một thùy, cảnh báo <strong>ung thư biểu mô tuyến vú lan rộng hoặc đa ổ (multifocal/extensive DCIS)</strong>. Bất cứ khi nào vôi hóa không mang hình thái thường lành tính mà phân bố phân thùy, nguy cơ ác tính là cực kỳ cao.
+      </p>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_31_dist_segmental_dcis.jpg" alt="Figure 1 – SEGMENTAL distribution of fine linear and fine pleomorphic calcifications (DM)" />
+        <figcaption><strong>Figure 1 – PHÂN BỐ PHÂN THÙY CỦA VÔI HÓA DẠNG ĐƯỜNG MỎNG VÀ ĐA HÌNH THÁI MỊN (DM).</strong> Sự sắp xếp hình tam giác/hình nón hướng đỉnh về núm vú gợi ý lắng đọng calci trong nhiều nhánh của cùng một thùy tuyến vú. Giải phẫu bệnh: DCIS độ cao.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/posts/birads-v2025-calcifications/fig_32_dist_segmental_mastectomy.jpg" alt="Figure 2 – SEGMENTAL distribution of fine linear-branching calcifications (SM and specimen DM)" />
+        <figcaption><strong>Figure 2 – PHÂN BỐ PHÂN THÙY LAN RỘNG CỦA VÔI HÓA DẠNG ĐƯỜNG MỎNG PHÂN NHÁNH. (A) thế CC và (B) thế MLO (SM); (C) X-quang bệnh phẩm sau đoạn nhũ theo hướng trán (DM).</strong> Các đầu mũi tên chỉ vị trí kẹp kim loại sau sinh thiết lõi; mũi tên trắng chỉ núm vú chiếu trực diện trên bệnh phẩm đoạn nhũ. Giải phẫu bệnh: Ung thư biểu mô ống tuyến vú xâm nhập (IDC) kèm DCIS diện rộng.</figcaption>
+      </figure>
+
+      <h2 id="phan-5-ky-thuat-hinh-anh">5. Kỹ thuật hình ảnh chuyên sâu: Nhũ ảnh phóng đại & Nhũ ảnh 3D (DBT)</h2>
+      <p>
+        Trong kỷ nguyên của các công nghệ hình ảnh tiên tiến, việc lựa chọn đúng kỹ thuật để phân tích vi vôi hóa là yếu tố sống còn quyết định độ chính xác chẩn đoán.
+      </p>
+
+      <h3 id="phan-5-1-nhu-anh-phong-dai">Vai trò bất khả thay thế của Nhũ ảnh 2D phóng đại (2D Magnification Views)</h3>
+      <p>
+        Dù công nghệ nhũ ảnh 3D (DBT) đã trở thành tiêu chuẩn trong tầm soát phát hiện khối u và xáo trộn cấu trúc, <strong>chụp phóng đại ép khu trú (Spot Magnification) trên nhũ ảnh 2D kỹ thuật số (DM) vẫn là tiêu chuẩn vàng tuyệt đối để khảo sát vi vôi hóa</strong>:
+      </p>
+      <ul>
+        <li>
+          <strong>Độ phân giải không gian vượt trội:</strong> Nhũ ảnh 2D phóng đại sử dụng tiêu điểm nhỏ (small focal spot: 0.1 mm) và tăng khoảng cách từ vật thể đến detector (air-gap technique), giúp phóng đại hình ảnh lên 1.5 đến 1.8 lần mà không làm mờ hình học, bộc lộ rõ các gai nhọn vi thể &lt; 0.5 mm của vôi hóa đa hình thái mịn hoặc đường phân nhánh.
+        </li>
+        <li>
+          <strong>Tư thế bắt buộc 90° Lateral (LM/ML view):</strong> Khi phát hiện vôi hóa có vẻ vô định hình hoặc mờ nhạt trên thế CC, <strong>bắt buộc phải chụp bổ sung thế phóng đại nghiêng 90° chùm tia song song mặt đất</strong> để tìm kiếm hiện tượng lắng đọng mức dịch (layering sign). Nếu calci lắng thành hình đáy chén/mặt trăng khuyết, bệnh nhân được khẳng định lành tính (BI-RADS 2) và tránh được một cuộc sinh thiết xâm lấn không đáng có.
+        </li>
+      </ul>
+
+      <h3 id="phan-5-2-vai-tro-dbt">Vai trò và giới hạn của Nhũ ảnh 3D (Tomosynthesis - DBT) đối với vi vôi hóa</h3>
+      <ul>
+        <li>
+          <strong>Ưu điểm của DBT:</strong> Giúp xác định chính xác vị trí vôi hóa trong không gian 3 chiều theo trục sâu của vú; phân biệt vôi hóa da thực sự nhờ nhận diện lớp lát cắt bì; phát hiện các tổn thương mô mềm kết hợp (khối u ngầm hoặc xáo trộn cấu trúc) nằm ẩn giấu phía sau chùm vi vôi hóa.
+        </li>
+        <li>
+          <strong>Giới hạn của DBT:</strong> Do chuyển động quét góc của đầu đèn và thuật toán tái tạo tái cắt lớp (reconstruction artifacts), các vi vôi hóa cực nhỏ (&lt; 0.3 mm) có thể bị nhòe mờ hoặc suy giảm độ tương phản trên các lát cắt DBT mỏng. Do đó, <strong>không bao giờ được dựa hoàn toàn vào DBT đơn thuần để loại trừ ác tính đối với vi vôi hóa nghi ngờ</strong> mà không có phim 2D phóng đại đối chứng.
+        </li>
+      </ul>
+
+      <h2 id="phan-6-bang-doi-chieu-xu-tri">6. Bảng tổng hợp đối chiếu & Chiến lược xử trí lâm sàng (Management Strategy)</h2>
+      <p>
+        Bảng ma trận phối hợp Hình thái × Phân bố theo khuyến cáo của Cẩm nang ACR BI-RADS® v2025 giúp chuẩn hóa quyết định lâm sàng:
+      </p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="min-w-full text-xs border border-slate-200 rounded-xl overflow-hidden shadow-xs">
+          <thead class="bg-slate-100 text-slate-800 font-bold uppercase tracking-wider">
+            <tr>
+              <th class="py-3 px-3 border-b text-left">Hình thái vôi hóa</th>
+              <th class="py-3 px-3 border-b text-left">Kiểu phân bố</th>
+              <th class="py-3 px-2 border-b text-center">BI-RADS</th>
+              <th class="py-3 px-3 border-b text-center">Nguy cơ ác tính</th>
+              <th class="py-3 px-4 border-b text-left">Khuyến cáo xử trí chuẩn</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-100 bg-white">
+            <tr class="hover:bg-slate-50/80">
+              <td class="py-2.5 px-3 font-semibold text-slate-800">Da, mạch máu, thô, que lớn, viền nang, tạo ngấn, chỉ khâu</td>
+              <td class="py-2.5 px-3 text-slate-600">Bất kỳ kiểu phân bố nào</td>
+              <td class="py-2.5 px-2 text-center font-bold text-emerald-700">2</td>
+              <td class="py-2.5 px-3 text-center text-emerald-600 font-semibold">~0%</td>
+              <td class="py-2.5 px-4 text-slate-700">Tầm soát định kỳ hàng năm theo độ tuổi.</td>
+            </tr>
+            <tr class="hover:bg-slate-50/80">
+              <td class="py-2.5 px-3 font-semibold text-slate-800">Tròn (Round)</td>
+              <td class="py-2.5 px-3 text-slate-600">Lan tỏa đối xứng 2 vú</td>
+              <td class="py-2.5 px-2 text-center font-bold text-emerald-700">2</td>
+              <td class="py-2.5 px-3 text-center text-emerald-600 font-semibold">~0%</td>
+              <td class="py-2.5 px-4 text-slate-700">Tầm soát định kỳ thông thường.</td>
+            </tr>
+            <tr class="hover:bg-slate-50/80">
+              <td class="py-2.5 px-3 font-semibold text-slate-800">Tròn (Round)</td>
+              <td class="py-2.5 px-3 text-slate-600">Thành chùm đơn độc (lần đầu khám)</td>
+              <td class="py-2.5 px-2 text-center font-bold text-blue-700">3</td>
+              <td class="py-2.5 px-3 text-center text-blue-600 font-semibold">&le; 2%</td>
+              <td class="py-2.5 px-4 text-slate-700">Chụp nhũ ảnh phóng đại kiểm tra sau 6 tháng, 12 tháng và 24 tháng để xác nhận tính ổn định.</td>
+            </tr>
+            <tr class="hover:bg-slate-50/80">
+              <td class="py-2.5 px-3 font-semibold text-slate-800">Vô định hình (Amorphous)</td>
+              <td class="py-2.5 px-3 text-slate-600">Lan tỏa đối xứng 2 vú</td>
+              <td class="py-2.5 px-2 text-center font-bold text-emerald-700">2</td>
+              <td class="py-2.5 px-3 text-center text-emerald-600 font-semibold">~0%</td>
+              <td class="py-2.5 px-4 text-slate-700">Lành tính, không cần can thiệp.</td>
+            </tr>
+            <tr class="hover:bg-slate-50/80 bg-amber-50/20">
+              <td class="py-2.5 px-3 font-bold text-amber-900">Vô định hình (Amorphous)</td>
+              <td class="py-2.5 px-3 text-slate-700">Thành chùm / Dạng đường / Phân thùy</td>
+              <td class="py-2.5 px-2 text-center font-bold text-amber-700">4B</td>
+              <td class="py-2.5 px-3 text-center text-amber-700 font-semibold">10% – 20%</td>
+              <td class="py-2.5 px-4 text-slate-800 font-medium">Chỉ định sinh thiết có hỗ trợ hút chân không (VABB) dưới hướng dẫn định vị nhũ ảnh stereotactic/tomosynthesis.</td>
+            </tr>
+            <tr class="hover:bg-slate-50/80 bg-amber-50/20">
+              <td class="py-2.5 px-3 font-bold text-amber-900">Thô không đồng nhất (Coarse Heterogeneous)</td>
+              <td class="py-2.5 px-3 text-slate-700">Thành chùm đơn độc / Mới xuất hiện</td>
+              <td class="py-2.5 px-2 text-center font-bold text-amber-700">4B</td>
+              <td class="py-2.5 px-3 text-center text-amber-700 font-semibold">15% – 30%</td>
+              <td class="py-2.5 px-4 text-slate-800 font-medium">Sinh thiết định vị stereotactic / VABB.</td>
+            </tr>
+            <tr class="hover:bg-slate-50/80 bg-rose-50/30">
+              <td class="py-2.5 px-3 font-bold text-rose-900">Đa hình thái mịn (Fine Pleomorphic)</td>
+              <td class="py-2.5 px-3 text-slate-700">Thành chùm / Vùng / Dạng đường</td>
+              <td class="py-2.5 px-2 text-center font-bold text-rose-700">4B – 4C</td>
+              <td class="py-2.5 px-3 text-center text-rose-700 font-bold">30% – 80%</td>
+              <td class="py-2.5 px-4 text-rose-900 font-medium">Sinh thiết mô học khẩn trương (VABB/Stereotactic core biopsy). Chụp X-quang bệnh phẩm sau sinh thiết để xác nhận lấy trúng vi vôi hóa.</td>
+            </tr>
+            <tr class="hover:bg-slate-50/80 bg-rose-50/50">
+              <td class="py-2.5 px-3 font-black text-rose-950">Dạng đường mỏng / Phân nhánh (Fine Linear / Branching)</td>
+              <td class="py-2.5 px-3 text-slate-800 font-semibold">Dạng đường / Phân thùy</td>
+              <td class="py-2.5 px-2 text-center font-black text-rose-900">4C – 5</td>
+              <td class="py-2.5 px-3 text-center text-rose-800 font-black">&gt; 80% – 100%</td>
+              <td class="py-2.5 px-4 text-rose-950 font-bold">Sinh thiết mô học ngay lập tức. Đặt clip định vị ổ tổn thương. Nếu giải phẫu bệnh trả lời lành tính, xem là bất tương thích (discordant) và mổ sinh thiết mở rộng.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 id="phan-7-key-points">7. Điểm cốt lõi cần nhớ (Key Points) & Cạm bẫy chẩn đoán (Pitfalls)</h2>
+      
+      <div class="key-points">
+        <h4 class="font-bold text-blue-900 mb-1">Key Points (Điểm cốt lõi):</h4>
+        <ul>
+          <li><strong>Nguyên tắc hình thái nghi ngờ nhất:</strong> Bất cứ khi nào có nhiều dạng vôi hóa hỗn hợp, quyết định can thiệp sinh thiết luôn được chi phối bởi hình thái có độ nghi ngờ cao nhất.</li>
+          <li><strong>Cập nhật BI-RADS® v2025:</strong> Nhớ rõ 4 thay đổi danh pháp then chốt: (1) Bãi bỏ Popcorn-like và sáp nhập Dystrophic vào Coarse; (2) Gộp Punctate vào Round; (3) Thay Milk of calcium bằng Layering; (4) Khẳng định vai trò độc lập của 2D phóng đại.</li>
+          <li><strong>Giá trị của thế 90° Lateral:</strong> Luôn luôn thực hiện thế phóng đại nghiêng 90° (ML/LM) khi gặp các vi vôi hóa mờ nhạt dạng chùm để tìm kiếm dấu hiệu tạo ngấn mức dịch (layering), giúp tránh can thiệp sinh thiết không cần thiết.</li>
+          <li><strong>X-quang bệnh phẩm (Specimen Radiography):</strong> Sau khi sinh thiết vi vôi hóa dưới hướng dẫn định vị, bắt buộc phải chụp X-quang các mẩu mô sinh thiết ngay tại phòng can thiệp để khẳng định chắc chắn đã lấy trúng các hạt vi vôi hóa mục tiêu.</li>
+        </ul>
+      </div>
+
+      <div class="pitfalls">
+        <h4 class="font-bold text-rose-900 mb-1">Diagnostic Pitfalls (Cạm bẫy lâm sàng & Cách phòng tránh):</h4>
+        <ul>
+          <li><strong>Cạm bẫy 1 – Nhầm lẫn Vôi hóa da với tổn thương nhu mô:</strong> Các vôi hóa da ở nếp lằn dưới vú hoặc quầng vú có thể chiếu chồng lên nhu mô vú tạo ảo giác vi vôi hóa nghi ngờ. <em>Khắc phục:</em> Quan sát kỹ tâm thấu quang, kiểm tra trên các lát cắt DBT sát da hoặc chụp thế tiếp tuyến có gắn chỉ điểm (tangential view with skin marker).</li>
+          <li><strong>Cạm bẫy 2 – Bỏ sót vi vôi hóa nghi ngờ bên cạnh vôi hóa chỉ khâu:</strong> Thấy vôi hóa chỉ khâu dạng nút thắt thường dễ dẫn đến tâm lý chủ quan coi là sẹo mổ lành tính. <em>Khắc phục:</em> Luôn soi kỹ mô sợi tuyến bao quanh sẹo mổ để tìm kiếm các hạt vi vôi hóa đa hình thái mịn của ung thư tái phát.</li>
+          <li><strong>Cạm bẫy 3 – Đánh giá thấp phân bố phân thùy:</strong> Ngay cả khi các hạt vi vôi hóa có vẻ nhỏ và số lượng ít, nhưng nếu chúng sắp xếp hình tam giác hướng đỉnh về núm vú theo phân thùy giải phẫu, nguy cơ ung thư biểu mô tại chỗ (DCIS) lan rộng là cực kỳ cao.</li>
+          <li><strong>Cạm bẫy 4 – Chấp nhận kết quả sinh thiết lành tính bất tương thích:</strong> Với vi vôi hóa dạng đường mỏng phân nhánh (casting calcifications) có PPV ác tính lên tới 90–100%, nếu kết quả sinh thiết lõi trả về "biến đổi sợi bọc lành tính" hoặc mô mỡ thông thường, bác sĩ chẩn đoán hình ảnh phải kiên quyết hội chẩn giải phẫu bệnh (radio-pathologic correlation) và yêu cầu sinh thiết mở lại để tránh bỏ sót ung thư.</li>
+        </ul>
+      </div>
+
+    `,
+    views: 1540,
+    readTime: "18 phút đọc",
+    source: "ACR BI-RADS® Mammography v2025 Manual (pp. 48-106)",
+    tags: ["BI-RADS 2025", "Nhũ ảnh", "Vôi hóa tuyến vú", "Calcifications", "DCIS", "Ung thư vú", "Chẩn đoán hình ảnh vú"]
   }
 ];
