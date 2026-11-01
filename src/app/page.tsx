@@ -79,7 +79,7 @@ function HomePageContent() {
     return "Khoá học & Video bài giảng mới nhất";
   };
 
-  const recentPosts = POSTS.slice(0, 5);
+  const recentPosts = [...POSTS].reverse().slice(0, 5);
 
   return (
     <div className="min-h-screen bg-[#fafafc] text-slate-800 py-8">

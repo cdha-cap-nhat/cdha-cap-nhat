@@ -3090,4 +3090,829 @@ export const POSTS: Post[] = [
     source: "ACR BI-RADS® Mammography v2025 Manual (pp. 122-148)",
     tags: ["BI-RADS 2025", "Nhũ ảnh", "Hạch nách", "Hạch trong vú", "Giãn ống tuyến", "Vú to nam giới", "Túi ngực", "Hoại tử mỡ", "Chẩn đoán hình ảnh vú"]
   },
+  {
+    id: "birads-2025-he-thong-bao-cao-guidance-va-bang-tu-vung-lexicon",
+    title: "Cẩm nang ACR BI-RADS® 2025: Hệ thống báo cáo (Reporting System), Hướng dẫn thực hành (Guidance), Câu hỏi thường gặp (FAQs) & Phụ lục Từ vựng (Appendices)",
+    slug: "birads-2025-he-thong-bao-cao-guidance-va-bang-tu-vung-lexicon",
+    date: "01 Tháng 11, 2026",
+    updatedDate: "01 Tháng 11, 2026",
+    author: "ACR BI-RADS® Committee (Biên dịch & Chú giải: CĐHA Cập Nhật)",
+    categories: ["Vú", "Nhũ ảnh", "X-quang", "BI-RADS 2025", "Hệ thống báo cáo", "Phân loại BI-RADS"],
+    categorySlugs: ["vu", "nhu-anh", "x-quang", "bi-rads-2025"],
+    modality: "XQ",
+    specialty: "Vú",
+    specialtySlug: "vu",
+    coverImage: "/posts/birads-v2025-reporting/cover_reporting_system.jpg",
+    excerpt: "Chương kết thúc cẩm nang ACR BI-RADS® v2025 (trang 149–176): Phân tích toàn diện Hệ thống Báo cáo (Reporting System - Categories 0 đến 6 theo sửa đổi luật MQSA 2024), Hướng dẫn thực hành (Guidance) giải thích cơ sở khoa học của các cập nhật danh pháp, Giải đáp 14 tình huống lâm sàng hóc búa (FAQs), Bảng tra cứu chuẩn hóa các hướng chụp (Appendix A) và Toàn bộ Bảng từ vựng tổng kết (Appendix B: Lexicon Summary Form).",
+    content: [
+      "Phân loại đánh giá BI-RADS Categories 0 đến 6: Cập nhật sửa đổi luật MQSA 2024 tách Category 0 thành 2 nhóm (Cần đánh giá thêm hình ảnh VS Cần phim cũ để so sánh); tiêu chuẩn áp dụng chặt chẽ cho Category 3 theo dõi 6-12-24 tháng.",
+      "Hướng dẫn thực hành (Guidance) & Hệ thống phân tầng hành động khi báo cáo phối hợp đa phương thức trong cùng ngày: Áp dụng thứ tự ưu tiên 5 > 4 > 0 > 6 > 3 > 2 > 1 để quyết định phân loại và khuyến nghị xử trí cuối cùng.",
+      "Giải đáp 14 câu hỏi thường gặp (FAQs), Bảng tra cứu ký hiệu viết tắt các hướng chụp (Appendix A: Mammographic Views) và Bảng từ điển tóm tắt toàn bộ từ vựng nhũ ảnh BI-RADS 2025 (Appendix B: Lexicon Summary Form)."
+    ],
+    htmlContent: `
+      <div class="editorial-box">
+        <h4 class="font-bold text-sky-900 mb-2 flex items-center gap-2">
+          <span>📖</span> Bối cảnh biên dịch & Lời tòa soạn: Cẩm nang ACR BI-RADS® v2025 – Hệ thống Báo cáo, Hướng dẫn Thực hành (Guidance), Câu hỏi thường gặp & Phụ lục Từ vựng Toàn diện
+        </h4>
+        <p class="text-sm text-slate-700 leading-relaxed">
+          Đây là <strong>chương kết thúc cẩm nang và mang tính thực hành pháp lý quan trọng nhất</strong> trong toàn bộ Cẩm nang <em>ACR BI-RADS® Mammography v2025 Manual</em> của Hiệp hội Điện quang Hoa Kỳ (American College of Radiology - ACR), bao gồm từ trang 149 đến trang 176 của tài liệu gốc. Bài viết cung cấp hệ thống quy chuẩn hoàn chỉnh nhất về: <strong>SECTION V (Hệ thống Báo cáo kết quả - Reporting System)</strong>, <strong>SECTION VI (Hướng dẫn thực hành lâm sàng - Guidance)</strong>, <strong>SECTION VII (Giải đáp 14 câu hỏi thường gặp - FAQs)</strong>, <strong>APPENDIX A (Bảng chuẩn hóa các hướng chụp nhũ ảnh)</strong> và <strong>APPENDIX B (Biểu mẫu tóm tắt từ vựng nhũ ảnh - Lexicon Summary Form)</strong>.
+        </p>
+        <p class="text-sm text-slate-700 leading-relaxed mt-2">
+          Ấn bản 2025 xác lập nhiều <strong>cập nhật mang tính bản lề và bắt buộc tuân thủ pháp lý theo luật định liên bang MQSA/FDA mới nhất</strong>:
+        </p>
+        <ul class="text-sm text-slate-700 list-disc pl-5 mt-1 space-y-1">
+          <li><strong>Tách đôi phân loại Category 0 theo sửa đổi luật MQSA (hiệu lực từ ngày 10/09/2024):</strong> Bãi bỏ cụm từ kết hợp cũ, chính thức phân thành hai mã phân loại độc lập: <em>Category 0: Incomplete: Need additional imaging evaluation (Cần đánh giá thêm hình ảnh)</em> và <em>Category 0: Incomplete: Need prior mammograms for comparison (Cần phim chụp trước đó để so sánh)</em>, đi kèm quy trình theo dõi nghiêm ngặt 100% trong vòng 30 ngày.</li>
+          <li><strong>Cấu trúc chỉ định lâm sàng chuẩn hóa (Structured Exam Indications - Table 6):</strong> Quy chuẩn hóa các lý do chụp nhũ ảnh thành các danh mục cấu trúc nhằm phục vụ theo dõi kết cục và kiểm định chất lượng phát hiện ung thư quốc gia.</li>
+          <li><strong>Tiêu chuẩn thay thế FDA Alternative Standard #26 (tháng 07/2025):</strong> Bắt buộc báo cáo đậm độ tuyến vú trên mọi phim chụp, đồng thời cho phép sử dụng câu từ dạng số ít (singular phrasing) đối với các trường hợp chụp nhũ ảnh một bên (unilateral mammograms).</li>
+          <li><strong>Quy tắc phân tầng mức độ bất thường khi báo cáo đa phương thức (Hierarchy of Abnormality - Table 8):</strong> Khi thực hiện kết hợp nhiều kỹ thuật (Nhũ ảnh + Siêu âm / MRI) trong cùng một ngày, phân loại và khuyến nghị xử trí cuối cùng bắt buộc tuân theo thứ tự ưu tiên giảm dần: <strong>5 &gt; 4 &gt; 0 &gt; 6 &gt; 3 &gt; 2 &gt; 1</strong>.</li>
+          <li><strong>Nguyên tắc tương đồng Đánh giá - Xử trí (Assessment-Management Concordance) & Xử lý bất tương đồng:</strong> Hướng dẫn chi tiết cách báo cáo các tình huống lâm sàng đặc biệt (sờ thấy khối nhưng nhũ ảnh âm tính; nang đau cần chọc hút; vỡ túi ngực) nhằm đảm bảo an toàn tuyệt đối cho người bệnh và tránh nhầm lẫn pháp lý.</li>
+          <li><strong>Từ điển tra cứu hoàn chỉnh nhất (Appendices A & B):</strong> Bảng tra cứu chuẩn hóa toàn bộ các hướng chụp thường quy/bổ sung và Biểu mẫu tóm tắt toàn bộ từ vựng phân loại BI-RADS 2025.</li>
+        </ul>
+        <p class="text-sm text-slate-700 leading-relaxed mt-2">
+          Theo đúng quy ước biên tập thống nhất: nội dung dịch nguyên văn từ cẩm nang giữ màu chữ đen trên nền trắng tiêu chuẩn; các bảng tra cứu gốc được đính kèm bản chụp cắt lớp độ phân giải cao (300 DPI); các phần tổng hợp ma trận lâm sàng, 12 điểm cốt lõi và 8 cạm bẫy thực hành do ban biên tập đúc kết được đóng khung màu chuyên biệt để quý đồng nghiệp dễ dàng nhận biết và kiểm chứng.
+        </p>
+      </div>
+
+      <h2 id="section-v-reporting-system">SECTION V. Hệ thống Báo cáo kết quả (Reporting System)</h2>
+      <p>
+        Hệ thống báo cáo kết quả nhũ ảnh của ACR BI-RADS® được thiết kế nhằm mục đích chuẩn hóa ngôn ngữ báo cáo, giảm thiểu sự mơ hồ trong việc truyền đạt thông tin chẩn đoán hình ảnh giữa bác sĩ điện quang và bác sĩ lâm sàng, đồng thời tạo cơ sở dữ liệu đồng nhất phục vụ công tác kiểm định chất lượng (audit) và nghiên cứu khoa học.
+      </p>
+
+      <h3 id="section-v-a-assessment-categories">A. Các phân loại đánh giá (Assessment Categories)</h3>
+      <p>
+        Trong hệ thống BI-RADS, mỗi phân loại đánh giá phản ánh một khoảng xác suất ác tính (Likelihood of Cancer) được xác định rõ ràng và đi kèm với một khuyến nghị xử trí lâm sàng tương thích (Management Recommendation).
+      </p>
+
+      <figure class="my-6">
+        <img src="/posts/birads-v2025-reporting/table4_concordance_categories_management.jpg" alt="Table 4 – Sự tương thích giữa các phân loại đánh giá BI-RADS và khuyến nghị xử trí" class="w-full h-auto rounded shadow" />
+        <figcaption class="mt-2 text-xs text-slate-600"><strong>Table 4 – Bảng tương thích chuẩn thức giữa các Phân loại Đánh giá BI-RADS® và Khuyến nghị Xử trí</strong> (Trích nguyên tác Cẩm nang <em>ACR BI-RADS® Mammography v2025</em>, trang 149).</figcaption>
+      </figure>
+
+      <h4 id="table-4-concordance" class="font-bold text-slate-900 mt-6 mb-3">Bảng 4: Sự tương thích giữa các Phân loại Đánh giá BI-RADS® và Khuyến nghị Xử trí</h4>
+      <div class="overflow-x-auto my-4">
+        <table class="w-full text-xs border-collapse">
+          <thead>
+            <tr class="bg-sky-100 text-sky-950 font-bold">
+              <th class="border border-slate-300 p-2 text-left">Phân loại Đánh giá (Assessment)</th>
+              <th class="border border-slate-300 p-2 text-left">Khuyến nghị Xử trí (Management)</th>
+              <th class="border border-slate-300 p-2 text-left">Khả năng Ác tính (Likelihood of Cancer)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium">
+                <strong>Category 0: Chưa hoàn chỉnh: Cần đánh giá thêm bằng hình ảnh</strong><br/>
+                <em>(Category 0: Incomplete: Need Additional Imaging Evaluation)</em><br/>
+                HOẶC<br/>
+                <strong>Category 0: Chưa hoàn chỉnh: Cần phim chụp trước đó để so sánh</strong><br/>
+                <em>(Category 0: Incomplete: Need Prior Mammograms for Comparison)</em>
+              </td>
+              <td class="border border-slate-300 p-2">
+                <strong>Gọi lại để chụp/làm thêm hình ảnh bổ sung</strong> (Recall for additional imaging)<br/>
+                HOẶC<br/>
+                <strong>Cần so sánh với các lần khám trước</strong> (Need comparison to prior examination(s))
+              </td>
+              <td class="border border-slate-300 p-2 font-semibold text-slate-600">Không áp dụng (N/A)</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium"><strong>Category 1: Âm tính</strong> <em>(Negative)</em></td>
+              <td class="border border-slate-300 p-2">Nhũ ảnh tầm soát định kỳ thường quy (Routine mammography screening)</td>
+              <td class="border border-slate-300 p-2 font-semibold text-emerald-700">Thực tế bằng 0% (Essentially 0%)</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium"><strong>Category 2: Lành tính</strong> <em>(Benign)</em></td>
+              <td class="border border-slate-300 p-2">Nhũ ảnh tầm soát định kỳ thường quy (Routine mammography screening)</td>
+              <td class="border border-slate-300 p-2 font-semibold text-emerald-700">Thực tế bằng 0% (Essentially 0%)</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium"><strong>Category 3: Khả năng lành tính</strong> <em>(Probably Benign)</em></td>
+              <td class="border border-slate-300 p-2">Theo dõi khoảng cách ngắn (0 đến 6 tháng) hoặc tiếp tục giám sát (12 tháng) (Short-interval follow-up or continued surveillance)</td>
+              <td class="border border-slate-300 p-2 font-semibold text-amber-700">&gt; 0% nhưng &le; 2%</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium">
+                <strong>Category 4: Nghi ngờ</strong> <em>(Suspicious)</em><br/>
+                &bull; <strong>4A:</strong> Nghi ngờ ác tính thấp (Low suspicion)<br/>
+                &bull; <strong>4B:</strong> Nghi ngờ ác tính trung gian (Intermediate suspicion)<br/>
+                &bull; <strong>4C:</strong> Nghi ngờ ác tính cao (High suspicion)
+              </td>
+              <td class="border border-slate-300 p-2">
+                <strong>Chẩn đoán mô học</strong> (Tissue diagnosis / Biopsy)<br/>
+                <em>"Cần sinh thiết nếu không có chống chỉ định lâm sàng"</em>
+              </td>
+              <td class="border border-slate-300 p-2 font-semibold text-rose-700">
+                &gt; 2% nhưng &lt; 95%<br/>
+                &bull; <strong>4A:</strong> &gt; 2% đến &le; 10%<br/>
+                &bull; <strong>4B:</strong> &gt; 10% đến &le; 50%<br/>
+                &bull; <strong>4C:</strong> &gt; 50% đến &lt; 95%
+              </td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium"><strong>Category 5: Rất gợi ý ác tính</strong> <em>(Highly Suggestive of Malignancy)</em></td>
+              <td class="border border-slate-300 p-2"><strong>Chẩn đoán mô học</strong> (Tissue diagnosis)</td>
+              <td class="border border-slate-300 p-2 font-semibold text-rose-900">&ge; 95% khả năng ác tính</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium"><strong>Category 6: Đã biết ác tính qua sinh thiết</strong> <em>(Known Biopsy-Proven Malignancy)</em></td>
+              <td class="border border-slate-300 p-2">Theo dõi lâm sàng với phẫu thuật viên và/hoặc bác sĩ ung bướu, và điều trị triệt căn tại chỗ (thường là phẫu thuật) khi phù hợp về mặt lâm sàng</td>
+              <td class="border border-slate-300 p-2 font-semibold text-slate-600">Không áp dụng (N/A)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h4 id="category-0" class="font-bold text-slate-900 mt-6 mb-2">1. Đánh giá Nhũ ảnh Chưa Hoàn chỉnh (Mammographic Assessment is Incomplete) – Category 0</h4>
+      <p>
+        Các sửa đổi đối với quy định của Đạo luật Tiêu chuẩn Chất lượng Nhũ ảnh (MQSA), có hiệu lực chính thức từ ngày <strong>10 tháng 9 năm 2024</strong>, đã dẫn đến việc thành lập <strong>hai phân loại đánh giá mới trực thuộc nhóm Category 0</strong> (thay thế cho cụm từ mô tả kết hợp trước đây là <em>"Category 0: Incomplete: Need additional imaging evaluation and/or prior imaging for comparison"</em>). Hai phân loại mới bao gồm:
+      </p>
+      <ul>
+        <li><strong>Category 0: Incomplete: Need additional imaging evaluation (Chưa hoàn chỉnh: Cần đánh giá thêm bằng hình ảnh):</strong> Được sử dụng để chỉ ra rằng cuộc khảo sát chưa được đánh giá đầy đủ, và khuyến nghị là cần thực hiện thêm các khảo sát hình ảnh bổ sung (nghĩa là các hướng chụp nhũ ảnh bổ sung chuyên biệt và/hoặc siêu âm tuyến vú).</li>
+        <li><strong>Category 0: Incomplete: Need prior mammograms for comparison (Chưa hoàn chỉnh: Cần phim chụp trước đó để so sánh):</strong> Được sử dụng nếu việc tìm lại và đối chiếu với các lần khám trước đó là bắt buộc trước khi có thể đưa ra một kết luận đánh giá cuối cùng.</li>
+      </ul>
+      <p>
+        Phân loại <em>Category 0: Cần đánh giá thêm bằng hình ảnh</em> hầu như luôn được sử dụng trong <strong>bối cảnh tầm soát (screening)</strong> để chỉ điểm một cuộc khảo sát tầm soát bất thường không hoàn toàn âm tính (category 1) hoặc lành tính (category 2). Điều này phản ánh bản chất nhị phân của việc đánh giá tầm soát (dương tính so với âm tính) và các khuyến nghị xử trí (tầm soát thường quy so với hành động kịp thời). Ngay cả khi một bất thường nghi ngờ ác tính rõ ràng được bộc lộ trên phim chụp tầm soát, phân loại Category 0 vẫn phải được sử dụng, chỉ ra nhu cầu cần một cuộc khảo sát chẩn đoán hoàn chỉnh để đánh giá chính xác hơn mức độ lan rộng của tổn thương tiềm ẩn trước khi tiến hành sinh thiết.
+      </p>
+      <p>
+        Việc sử dụng đánh giá Category 0 cho tất cả các cuộc khám tầm soát bất thường nhấn mạnh rằng <strong>tỷ lệ diễn giải bất thường (Recall Rate - Tỷ lệ gọi lại)</strong> phải phản ánh đúng cả những cuộc khảo sát tầm soát có phát hiện bất thường đủ mức để chỉ định chẩn đoán mô học. Một khi hình ảnh chẩn đoán đã hoàn tất, một kết luận đánh giá cuối cùng sẽ được đưa ra cho lần khám chẩn đoán đó, nhưng lần khám nhũ ảnh tầm soát ban đầu vẫn giữ nguyên phân loại Category 0 trong dữ liệu lưu trữ.
+      </p>
+      <p>
+        Khi có thể, đặc biệt nếu một cuộc khám nhũ ảnh không được xếp loại âm tính hay lành tính, khuyến cáo nên so sánh phim chụp hiện tại với (các) phim chụp trước đó, điều này giúp <strong>làm giảm đáng kể tỷ lệ bệnh nhân phải gọi lại (Recall Rate)</strong> [42, 43]. Do đó, phân loại <em>Category 0: Cần phim chụp trước đó để so sánh</em> chỉ nên được sử dụng khi việc so sánh như vậy là bắt buộc để đưa ra đánh giá cuối cùng. Thường gặp nhất là các trường hợp có một phát hiện khả năng lành tính (probably benign) có thể được kết luận là lành tính dứt khoát nếu chứng minh được tổn thương đã ổn định qua thời gian.
+      </p>
+
+      <div class="key-points">
+        <strong>Quy định giám sát bắt buộc đối với Category 0 chờ phim cũ:</strong>
+        Các cơ sở nhũ ảnh khi sử dụng phân loại <em>Category 0: Cần phim chụp trước đó để so sánh</em> phải có một <strong>quy trình theo dõi bảo đảm độ tin cậy 100%</strong> rằng một đánh giá cuối cùng sẽ được đưa ra <strong>trong vòng 30 ngày (tốt nhất là sớm hơn)</strong>, ngay cả khi các phim chụp trước đó không thể tìm lại được.
+        <br/><br/>
+        Nếu không có quy trình đảm bảo độ tin cậy 100%, cơ sở nên lựa chọn giải pháp giữ lại ca bệnh (hold the case) cho đến khi xác định được có thể lấy được phim cũ hay không thay vì phát hành báo cáo Category 0. Khi có phim cũ để đối chiếu, một <strong>bản bổ sung báo cáo (addendum)</strong> phải được phát hành và phân loại chưa hoàn chỉnh được thay thế bằng một đánh giá cuối cùng.
+      </div>
+
+      <p>
+        Trong những tình huống hiếm hoi, phân loại Category 0 này có thể được sử dụng trong báo cáo nhũ ảnh chẩn đoán nếu quy trình đánh giá chẩn đoán chưa được hoàn tất đầy đủ (chẳng hạn như bệnh nhân tự ý rời khỏi cơ sở y tế trước khi thực hiện xong các hướng chụp nhũ ảnh bổ sung hoặc siêu âm chẩn đoán).
+      </p>
+      <p>
+        <strong>Quy định nghiêm ngặt về chỉ định MRI đối với Category 0:</strong> Phân loại Category 0 nhìn chung <strong>không được sử dụng</strong> cho các dấu hiệu hình ảnh chẩn đoán tuyến vú cần đánh giá thêm bằng cộng hưởng từ (MRI). Thay vào đó, bác sĩ đọc phim phải đưa ra một đánh giá cuối cùng trong báo cáo được hoàn thành trước khi chụp MRI:
+      </p>
+      <ul>
+        <li>Trường hợp nhũ ảnh âm tính (Category 1) hoặc lành tính (Category 2) nhưng bác sĩ mong muốn có thêm thông tin sinh lý học từ MRI vú do đậm độ tuyến vú cao (tầm soát bổ sung) hoặc do triệu chứng lâm sàng (tiết dịch núm vú nghi ngờ): Bắt buộc phải xếp phân loại nhũ ảnh là <strong>Category 1 hoặc Category 2</strong>, đi kèm câu khuyến nghị xử trí bất tương đồng là đề nghị chụp MRI vú.</li>
+        <li><strong>Tuyệt đối không sử dụng Category 0</strong> để đề nghị chụp MRI nhằm trì hoãn việc sinh thiết đối với một tổn thương vốn đã biểu hiện nghi ngờ ác tính trên nhũ ảnh. Những trường hợp này bắt buộc phải được đánh giá là nghi ngờ và xếp vào <strong>Category 4 hoặc Category 5</strong>.</li>
+      </ul>
+
+      <h4 id="category-1-2" class="font-bold text-slate-900 mt-6 mb-2">2. Đánh giá Hoàn chỉnh: Category 1 (Âm tính) & Category 2 (Lành tính)</h4>
+      <p>
+        <strong>Category 1: Âm tính (Negative):</strong> Đây là một cuộc khảo sát hoàn toàn bình thường. Không có tổn thương dạng khối, xáo trộn cấu trúc hay vôi hóa đáng ngờ.
+      </p>
+      <p>
+        <strong>Category 2: Lành tính (Benign):</strong> Tương tự như Category 1, đây là một kết luận bình thường (khả năng ác tính thực tế bằng 0%), nhưng bác sĩ chẩn đoán hình ảnh lựa chọn mô tả một phát hiện lành tính cụ thể trong bản báo cáo nhũ ảnh. U sợi tuyến thoái hóa vôi hóa, vôi hóa da, dị vật kim loại (clip phẫu thuật hoặc clip đánh dấu sau sinh thiết), và các khối chứa mỡ (nang dầu, u mỡ, nang sữa, u mô thừa hamartoma) đều có diện mạo lành tính kinh điển và có thể được mô tả với độ tự tin tuyệt đối.
+      </p>
+      <p>
+        Bác sĩ cũng có thể lựa chọn mô tả các hạch trong tuyến vú, vôi hóa mạch máu, túi ngực, hoặc xáo trộn cấu trúc liên quan rõ ràng đến sẹo phẫu thuật cũ trong khi vẫn kết luận không có bằng chứng nhũ ảnh của bệnh lý ác tính. Tuy nhiên, nếu người đọc quyết định không mô tả những phát hiện này, cuộc khảo sát nên được xếp loại là âm tính (Category 1).
+      </p>
+
+      <h4 id="category-3" class="font-bold text-slate-900 mt-6 mb-2">3. Category 3: Khả năng Lành tính (Probably Benign) & Phác đồ Giám sát</h4>
+      <p>
+        Một phát hiện được xếp vào phân loại này phải có <strong>xác suất ác tính &gt; 0% nhưng &le; 2%</strong>, cao hơn mức thực tế bằng 0% của một phát hiện lành tính đặc trưng.
+      </p>
+      <p>
+        <strong>Nguyên tắc cốt tử:</strong> Một đánh giá Category 3 <strong>không bao giờ được đưa ra trực tiếp trên một cuộc chụp nhũ ảnh tầm soát</strong>, mà chỉ được đưa ra sau khi đã hoàn tất quy trình đánh giá chẩn đoán hình ảnh toàn diện (chụp ép khu trú, phóng đại, siêu âm). Việc đưa ra đánh giá Category 3 trực tiếp từ tầm soát đã được chứng minh dẫn đến hai hậu quả bất lợi nghiêm trọng:
+      </p>
+      <ol class="list-decimal pl-5 space-y-1">
+        <li>Theo dõi không cần thiết nhiều phát hiện vốn có thể được kết luận là lành tính ngay lập tức nếu làm chẩn đoán kịp thời;</li>
+        <li>Làm chậm trễ việc chẩn đoán một số lượng nhỏ các ung thư mà đáng lẽ có thể được phát hiện ở kích thước nhỏ hơn và giai đoạn sớm hơn nếu được xác nhận ngay qua đánh giá chẩn đoán [44].</li>
+      </ol>
+      <p>
+        Một tổn thương khả năng lành tính không được kỳ vọng sẽ thay đổi trong suốt khoảng thời gian giám sát hình ảnh được đề xuất, nhưng bác sĩ cần phải xác lập tính ổn định lâu dài trước khi khuyến nghị quay trở lại tầm soát định kỳ thường quy. Phân loại Category 3 <strong>không phải là một nhóm "không xác định"</strong> để dùng khi bác sĩ đơn giản là phân vân giữa lành tính (Cat 2) và nghi ngờ (Cat 4), và cũng <em>không được sử dụng chỉ để "chờ xem điều gì sẽ xảy ra"</em>.
+      </p>
+
+      <div class="synthesis-box">
+        <h4 class="font-bold text-sky-900 mb-2 flex items-center gap-2">
+          <span>📋</span> 3 Dấu hiệu Nhũ ảnh Kinh điển duy nhất đủ tiêu chuẩn xếp BI-RADS Category 3 trên phim nền:
+        </h4>
+        <p class="text-sm text-slate-800 leading-relaxed">
+          Y văn y học thực chứng hùng hậu ghi nhận chỉ có <strong>ba phát hiện</strong> quan sát thấy trên phim nhũ ảnh ban đầu (baseline) sau khi làm xong đánh giá chẩn đoán toàn diện mới có xác suất ác tính nằm trong khoảng của Category 3 (&le; 2%) [45-47]:
+        </p>
+        <ol class="list-decimal pl-5 mt-2 space-y-1 text-sm text-slate-800 font-medium">
+          <li><strong>Khối đặc giới hạn rõ, không vôi hóa, đơn độc</strong> (Solitary noncalcified circumscribed solid mass);</li>
+          <li><strong>Bất đối xứng khu trú không có tương quan bất thường trên siêu âm</strong> (Focal asymmetry without an ultrasound correlate);</li>
+          <li><strong>Cụm vôi hóa tròn đơn độc</strong> (Solitary group of round calcifications).</li>
+        </ol>
+        <p class="text-xs text-slate-700 mt-2">
+          Việc áp dụng Category 3 cho các phát hiện khác ngoài 3 dấu hiệu trên chỉ nên được xem xét trong những tình huống đặc thù mà bác sĩ có đủ kinh nghiệm cá nhân (ví dụ: vôi hóa không rõ ràng xuất hiện tại diện mổ cũ nghĩ nhiều đến hoại tử mỡ đang tiến triển, hoặc bất đối xứng khu trú tại vị trí chấn thương gần đây) [44].
+        </p>
+      </div>
+
+      <p>
+        <strong>Phác đồ Giám sát Thời gian 2 năm chuẩn mực của Category 3:</strong>
+      </p>
+      <ul>
+        <li><strong>Lần 1 (Sau 6 tháng):</strong> Chụp kiểm tra bên vú có tổn thương khả năng lành tính (0 đến 6 tháng). Nếu ổn định, tiếp tục xếp Category 3.</li>
+        <li><strong>Lần 2 (Sau 12 tháng kể từ ban đầu - tức 6 tháng sau lần 1):</strong> Chụp kiểm tra cả hai bên vú nếu vú đối bên đã đến kỳ tầm soát hàng năm. Nếu tiếp tục ổn định, tiếp tục xếp Category 3 nhưng giãn khoảng cách theo dõi lên 1 năm.</li>
+        <li><strong>Lần 3 (Sau 24 tháng kể từ ban đầu):</strong> Chụp kiểm tra sau 1 năm theo dõi tiếp theo. Sau khi đã chứng minh được <strong>tính ổn định vững chắc trong 2 năm liên tục (2 years of stability)</strong>, phân loại đánh giá cuối cùng bắt buộc phải được chuyển thành <strong>Lành tính (BI-RADS Category 2)</strong> và đưa bệnh nhân trở lại quy trình tầm soát thường quy hàng năm [50].</li>
+      </ul>
+      <p>
+        Nếu trong quá trình theo dõi, tổn thương nhỏ đi hoặc biến mất hoàn toàn, hoặc bộc lộ các đặc tính lành tính chắc chắn, đánh giá lập tức được hạ xuống <strong>Category 2 hoặc Category 1</strong>. Ngược lại, nếu tổn thương <em>tăng kích thước, tăng độ cản quang hoặc xuất hiện thêm các đặc điểm nghi ngờ</em>, đánh giá phải được nâng ngay lập tức lên <strong>Category 4 hoặc Category 5 và chỉ định sinh thiết mô học ngay lập tức</strong>.
+      </p>
+      <p>
+        <strong>Tình huống bệnh nhân hoặc bác sĩ điều trị yêu cầu sinh thiết đối với tổn thương Category 3:</strong> Cách tiếp cận báo cáo chuẩn mực là: Vẫn đưa ra đánh giá <strong>Category 3: Khả năng lành tính</strong> kèm khuyến nghị xử trí tương thích là theo dõi nhũ ảnh định kỳ ngắn hạn, nhưng bổ sung một câu văn tiếp theo nêu rõ rằng: <em>"Xét nghiệm chẩn đoán mô học sẽ được thực hiện thay thế do nguyện vọng của người bệnh hoặc bác sĩ điều trị."</em>
+      </p>
+
+      <h4 id="category-4" class="font-bold text-slate-900 mt-6 mb-2">4. Category 4: Nghi ngờ Ác tính (Suspicious) & Các Phân nhóm 4A, 4B, 4C</h4>
+      <p>
+        Phân loại Category 4 được sử dụng cho các phát hiện có độ nghi ngờ ác tính đủ cao để <strong>chỉ định chẩn đoán mô học (sinh thiết)</strong>, nhưng chưa có các dấu hiệu kinh điển đặc trưng tuyệt đối cho ung thư. Khoảng xác suất ác tính của Category 4 rất rộng, dao động từ <strong>&gt; 2% đến &lt; 95%</strong>. Khuyến nghị xử trí chuẩn tắc là: <em>"Cần thực hiện sinh thiết nếu không có chống chỉ định lâm sàng"</em>.
+      </p>
+      <p>
+        Nhiều cơ sở y tế đã áp dụng việc chia nhỏ Category 4 thành 3 phân nhóm phụ:
+      </p>
+      <ul>
+        <li><strong>Category 4A – Nghi ngờ ác tính thấp (&gt; 2% đến &le; 10%):</strong> Tổn thương cần can thiệp mô học nhưng khả năng ác tính thấp, không kỳ vọng kết quả ác tính (ví dụ: khối đặc giới hạn rõ một phần, nang phức hợp không điển hình). Một số bệnh nhân có ngưỡng chấp nhận rủi ro cao có thể cân nhắc từ chối sinh thiết nếu họ chấp nhận nguy cơ tối đa 10% là ung thư.</li>
+        <li><strong>Category 4B – Nghi ngờ ác tính trung gian (&gt; 10% đến &le; 50%):</strong> Tổn thương có nguy cơ ác tính thực sự. Bắt buộc phải đối chiếu cẩn thận giữa hình ảnh và giải phẫu bệnh nếu kết quả sinh thiết kim trả về là lành tính. Ví dụ: cụm vôi hóa đa hình thái mịn, khối đặc bờ không rõ.</li>
+        <li><strong>Category 4C – Nghi ngờ ác tính cao (&gt; 50% đến &lt; 95%):</strong> Tổn thương nhiều khả năng là ác tính hơn là lành tính. Ví dụ: khối đặc mới bờ không đều/không rõ, cụm vi vôi hóa mới dạng đường mảnh. Nếu kết quả sinh thiết kim trả về là lành tính, hầu hết sẽ bị xem là bất tương đồng (discordant) và bác sĩ giải phẫu bệnh thường phải cắt thêm lát cắt sâu hoặc khuyến cáo phẫu thuật sinh thiết lại.</li>
+      </ul>
+
+      <h4 id="category-5" class="font-bold text-slate-900 mt-6 mb-2">5. Category 5: Rất Gợi ý Ác tính (Highly Suggestive of Malignancy - &ge; 95%)</h4>
+      <p>
+        Phân loại Category 5 được đưa ra khi xác suất ác tính ước tính <strong>&ge; 95%</strong>. Phân loại này được thiết lập từ thời kỳ phẫu thuật cắt bỏ là phương tiện chẩn đoán mô học chủ yếu, cho phép phẫu thuật viên thực hiện điều trị phẫu thuật triệt căn một thì ngay sau khi có kết quả sinh thiết tức thì (frozen section) khẳng định ung thư.
+      </p>
+      <p>
+        Ngày nay, chẩn đoán ung thư vú đối với các phát hiện trên chẩn đoán hình ảnh hầu như luôn được thực hiện bằng sinh thiết kim qua da (core needle biopsy). Do đó, lý do cốt lõi hiện nay để sử dụng Category 5 là: <strong>Xác định những phát hiện mà nếu kết quả sinh thiết kim qua da trả về không phải là ác tính thì hầu như luôn bị coi là BẤT TƯƠNG ĐỒNG (DISCORDANT)</strong>, dẫn đến khuyến cáo bắt buộc phải làm lại sinh thiết (thường là phẫu thuật cắt bỏ tổn thương).
+      </p>
+      <p>
+        Cần lưu ý rằng: <strong>Không có bất kỳ một dấu hiệu nhũ ảnh đơn độc nào có giá trị dự báo ác tính &ge; 95%</strong>. Tương tự như trên siêu âm và MRI, bắt buộc phải có <em>sự kết hợp của nhiều đặc điểm hình ảnh nghi ngờ</em> (ví dụ: khối đậm độ cao bờ tua gai không đều kèm vi vôi hóa phân nhánh dạng đúc khuôn phân bố theo phân thùy) mới đủ điều kiện để xếp vào Category 5.
+      </p>
+
+      <h4 id="category-6" class="font-bold text-slate-900 mt-6 mb-2">6. Category 6: Đã Biết Ác tính Qua Sinh thiết (Known Biopsy-Proven Malignancy)</h4>
+      <p>
+        Phân loại Category 6 được sử dụng khi hình ảnh tuyến vú được thực hiện <strong>sau khi đã có chẩn đoán mô học là ung thư nhưng trước khi tiến hành điều trị triệt căn tại chỗ</strong> (thường là phẫu thuật, hoặc các liệu pháp điều trị tại chỗ triệt căn khác được hội chẩn đa chuyên khoa thống nhất), và không có bất kỳ bất thường nhũ ảnh mới hoặc bổ sung nào khác ngoài khối ung thư đã biết cần phải đánh giá.
+      </p>
+      <p>
+        Category 6 được sử dụng trong các tình huống:
+      </p>
+      <ul>
+        <li>Hội chẩn ý kiến thứ hai (second opinion) đối với các ca bệnh đã sinh thiết có kết quả ác tính;</li>
+        <li>Sau khi đã cố gắng lấy bỏ toàn bộ tổn thương đích bằng sinh thiết lõi nhưng chưa phẫu thuật triệt căn;</li>
+        <li><strong>Theo dõi đáp ứng điều trị hóa chất tân bổ trợ (Monitoring response to neoadjuvant chemotherapy):</strong> Sau khi kết thúc điều trị tân bổ trợ, nếu tổn thương đã biến mất hoàn toàn trên nhũ ảnh, báo cáo vẫn phải xếp <strong>Category 6</strong> vì phẫu thuật triệt căn tại chỗ chưa diễn ra.</li>
+        <li>Đánh giá sau phẫu thuật cắt rộng (lumpectomy) mà kết quả giải phẫu bệnh báo cáo <strong>diện cắt dương tính (positive resection margins)</strong> và nhũ ảnh còn thấy ít nhất một dấu hiệu gợi ý u còn sót lại. Mục đích chụp phim lúc này là định vị chính xác vị trí nghi ngờ u tồn dư để phẫu thuật viên cắt rộng lại diện mổ.</li>
+      </ul>
+      <p>
+        <strong>Các trường hợp KHÔNG ĐƯỢC dùng Category 6:</strong>
+      </p>
+      <ul>
+        <li>Không dùng cho theo dõi giám sát sau phẫu thuật cắt u vú khi diện cắt giải phẫu bệnh âm tính hoàn toàn. Nếu chỉ thấy sẹo mổ cũ, xếp Category 2; nếu thấy tổn thương mới nghi ngờ, xếp Category 4.</li>
+        <li>Không dùng Category 6 nếu trên phim chụp phát hiện thêm một tổn thương nghi ngờ mới khác ngoài khối ung thư đã biết; khi đó tổn thương mới đòi hỏi hành động khẩn cấp và phải xếp <strong>Category 4 hoặc Category 5</strong>.</li>
+        <li>Không dùng Category 6 cho các bệnh lý ác tính không có nguồn gốc từ tuyến vú (ví dụ: u lympho hay bệnh bạch cầu di căn nách).</li>
+      </ul>
+      <p>
+        <em>Lưu ý kiểm định chất lượng:</em> Toàn bộ các ca chụp xếp Category 6 <strong>không được đưa vào tính toán kiểm toán nhũ ảnh (Audit)</strong> nhằm tránh làm sai lệch các thông số đo lường hiệu suất phát hiện ung thư của cơ sở y tế.
+      </p>
+
+      <h4 id="post-procedure-marker" class="font-bold text-slate-900 mt-6 mb-2">7. Phim Nhũ ảnh Sau Thủ thuật để Xác nhận Clip Đánh dấu (Post-Procedure Mammogram for Marker Placement)</h4>
+      <p>
+        Sửa đổi quy định MQSA năm 2023 đã bổ sung thêm một phân loại đánh giá đặc biệt: <em>"Post-Procedure Mammogram for Marker Placement"</em>. Phân loại này được sử dụng riêng cho các phim chụp với mục đích duy nhất là xác nhận sự hiện diện và vị trí chính xác của clip kim loại đánh dấu mô đã đặt sau sinh thiết lõi. ACR không gán mã số dạng số cho phân loại này và các ca này được miễn trừ khỏi kiểm toán nhũ ảnh.
+      </p>
+
+      <h3 id="section-v-b-report-organization">B. Cấu trúc Tổ chức Bản Báo cáo Nhũ ảnh (Report Organization)</h3>
+      <p>
+        Bản báo cáo kết quả nhũ ảnh chuẩn mực cần ngắn gọn, súc tích và có cấu trúc chặt chẽ gồm 7 phần được tiêu chuẩn hóa theo Bảng 5:
+      </p>
+
+      <div class="synthesis-box">
+        <h4 class="font-bold text-slate-900 mb-2 flex items-center gap-2">📋 Bảng 5: 7 Thành phần Cấu trúc Bản Báo cáo Nhũ ảnh Chuẩn hóa theo ACR BI-RADS® v2025:</h4>
+        <ol class="list-decimal pl-5 space-y-1 text-xs text-slate-800">
+          <li><strong>Chỉ định khảo sát (Indication for examination):</strong> Sử dụng hệ thống danh mục cấu trúc chuẩn.</li>
+          <li><strong>So sánh với các lần khám trước (Comparison to previous examination(s)):</strong> Nêu rõ ngày tháng các phim đối chiếu.</li>
+          <li><strong>Kỹ thuật chụp (Technique):</strong> DM, DBT, SM, các thế chụp chuyên sâu hoặc phần mềm AI/CAD hỗ trợ.</li>
+          <li><strong>Đậm độ tuyến vú (Breast density):</strong> Bắt buộc theo đúng quy định câu chữ chuẩn của FDA.</li>
+          <li><strong>Mô tả rõ ràng các phát hiện quan trọng (Clear description of any important findings):</strong> Mô tả chi tiết hình thái, kích thước, vị trí.</li>
+          <li><strong>Phân loại đánh giá tổng thể (Overall assessment):</strong> Sử dụng thuật ngữ được FDA phê duyệt kèm mã số BI-RADS.</li>
+          <li><strong>Khuyến nghị xử trí (Management recommendations):</strong> Tương thích chặt chẽ với phân loại đánh giá.</li>
+        </ol>
+      </div>
+
+      <figure class="my-6">
+        <img src="/posts/birads-v2025-reporting/table6_structured_indications.jpg" alt="Table 6 – Chỉ định khảo sát có cấu trúc chuẩn hóa" class="w-full h-auto rounded shadow" />
+        <figcaption class="mt-2 text-xs text-slate-600"><strong>Table 6 – Bảng Chuẩn hóa Chỉ định Khảo sát Hình ảnh Tuyến vú</strong> (Trích nguyên tác Cẩm nang <em>ACR BI-RADS® Mammography v2025</em>, trang 155).</figcaption>
+      </figure>
+
+      <h4 id="indication-table-6" class="font-bold text-slate-900 mt-6 mb-2">Bảng 6: Các Danh mục Chỉ định Khảo sát Tuyến vú có Cấu trúc (Structured Exam Indications)</h4>
+      <div class="overflow-x-auto my-3">
+        <table class="w-full text-xs border-collapse">
+          <thead>
+            <tr class="bg-sky-100 text-sky-950 font-bold">
+              <th class="border border-slate-300 p-2 text-left">Chỉ định Chính (Major Indication)</th>
+              <th class="border border-slate-300 p-2 text-left">Phân nhóm Tùy chọn (Optional Subcategory)</th>
+              <th class="border border-slate-300 p-2 text-left">Tiền sử Lâm sàng Liên quan Cần Báo cáo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium"><strong>Tầm soát không triệu chứng</strong><br/><em>(Asymptomatic Screening)</em></td>
+              <td class="border border-slate-300 p-2">
+                &bull; Nguy cơ tăng cao (Elevated risk)<br/>
+                &bull; Vú đặc (Dense breasts)<br/>
+                &bull; Tiền sử ung thư vú, đã hoàn tất điều trị (Prior breast cancer, treatment completed)<br/>
+                &bull; Khác (Other)
+              </td>
+              <td class="border border-slate-300 p-2">
+                &bull; Đột biến gen đã biết (Gene mutation)<br/>
+                &bull; Ước tính phần trăm nguy cơ ung thư (Estimated cancer risk)<br/>
+                &bull; Tiền sử chi tiết bệnh ung thư vú trước đây
+              </td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium"><strong>Đánh giá Chẩn đoán</strong><br/><em>(Diagnostic Work-up)</em></td>
+              <td class="border border-slate-300 p-2">
+                &bull; Dấu hiệu lâm sàng (Clinical findings)<br/>
+                &bull; Dấu hiệu hình ảnh (Imaging findings)<br/>
+                &bull; Theo dõi Category 3 (Follow-up category 3)<br/>
+                &bull; Theo dõi sau sinh thiết (Follow-up after biopsy)<br/>
+                &bull; Đánh giá túi ngực (Implant assessment)<br/>
+                &bull; Khác (Other)
+              </td>
+              <td class="border border-slate-300 p-2">
+                &bull; Loại dấu hiệu lâm sàng (sờ thấy khối, tiết dịch núm vú, đau vú)<br/>
+                &bull; Loại dấu hiệu hình ảnh cần gọi lại kiểm tra (vôi hóa, bất đối xứng, v.v.)
+              </td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium"><strong>Chẩn đoán: Bệnh nhân hiện đang mắc Ung thư vú</strong><br/><em>(Diagnostic: Current Breast Cancer)</em></td>
+              <td class="border border-slate-300 p-2">
+                &bull; Đánh giá mức độ lan rộng trước điều trị/phẫu thuật (Extent of disease before therapy)<br/>
+                &bull; Đánh giá đáp ứng trong hoặc sau hóa trị tân bổ trợ (Response during/after neoadjuvant therapy)<br/>
+                &bull; Khác (Other)
+              </td>
+              <td class="border border-slate-300 p-2">
+                &bull; Vị trí và kích thước khối ung thư trên các lần đánh giá hình ảnh trước đó
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h4 id="comparison-technique-density" class="font-bold text-slate-900 mt-6 mb-2">So sánh Phim cũ, Kỹ thuật & Yêu cầu Pháp lý về Đậm độ Tuyến vú</h4>
+      <p>
+        <strong>So sánh phim cũ:</strong> Bắt buộc ghi nhận rõ ngày tháng của các lần chụp trước được mang ra so sánh. Nếu là lần đầu tiên chụp nhũ ảnh, ghi rõ "Phim nền ban đầu" (Baseline exam). Nếu bệnh nhân có phim cũ chụp ở nơi khác nhưng chưa chuyển đến được, cần ghi rõ trong báo cáo.
+      </p>
+      <p>
+        <strong>Kỹ thuật chụp:</strong> Mô tả các thế chụp kỹ thuật số 2D (DM), 3D cắt lớp (DBT) và/hoặc nhũ ảnh tổng hợp (SM). Khuyến khích nêu rõ việc áp dụng các phần mềm Trí tuệ nhân tạo (AI) hay Phát hiện hỗ trợ máy tính (CAD).
+      </p>
+      <p>
+        <strong>Đậm độ tuyến vú (Breast Density):</strong> Bắt buộc 100% phải có mặt trong mọi báo cáo nhũ ảnh (tầm soát, chẩn đoán, kiểm tra clip sau thủ thuật, bệnh nhân đoạn nhũ và bệnh nhân nam).
+      </p>
+
+      <div class="key-points">
+        <strong>Tiêu chuẩn Thay thế FDA Alternative Standard #26 (Tháng 07/2025):</strong>
+        Đối với các trường hợp <strong>chụp nhũ ảnh một bên (unilateral mammogram)</strong>, FDA đã chính thức cho phép sử dụng câu từ dạng số ít (singular phrasing) hoặc dạng trung tính thay cho câu từ số nhiều dạng hai bên:
+        <br/><br/>
+        &bull; <em>"The breast is almost entirely fatty"</em> (Tuyến vú gần như hoàn toàn là mỡ);<br/>
+        &bull; <em>"There are scattered areas of fibroglandular density"</em> (Có các vùng đậm độ mô sợi tuyến rải rác);<br/>
+        &bull; <em>"The breast is heterogeneously dense, which may obscure small masses"</em> (Tuyến vú dày không đồng nhất, có thể che khuất các khối u nhỏ);<br/>
+        &bull; <em>"The breast is extremely dense, which lowers the sensitivity of mammography"</em> (Tuyến vú cực kỳ đặc, làm giảm độ nhạy của nhũ ảnh).
+      </div>
+
+      <h4 id="description-findings" class="font-bold text-slate-900 mt-6 mb-2">Quy chuẩn Mô tả Chi tiết Từng Dạng Tổn thương</h4>
+      <p>
+        Mỗi dạng tổn thương phải được mô tả đầy đủ các thuộc tính cốt lõi theo thứ tự từ vựng chuẩn mực:
+      </p>
+      <ul>
+        <li><strong>Khối (Mass):</strong> Kích thước &rarr; Hình thái (Bầu dục, Đa cung, Tròn, Không đều) &rarr; Đường bờ (Giới hạn rõ, Bị che khuất, Không rõ, Tua gai) &rarr; Đậm độ (Chứa mỡ, Thấp, Đồng đậm độ, Cao) &rarr; Dấu hiệu thứ phát &rarr; Dấu hiệu phối hợp &rarr; Vị trí.</li>
+        <li><strong>Vôi hóa (Calcifications):</strong> Kích thước/Độ lan rộng &rarr; Hình thái (Thường lành tính: 8 dạng; Nghi ngờ: Vô định hình, Thô không đồng nhất, Đa hình thái mịn, Dạng đường mảnh/phân nhánh) &rarr; Phân bố (Lan tỏa, Vùng, Thành cụm, Dạng đường, Phân thùy) &rarr; Vị trí.</li>
+        <li><strong>Xáo trộn cấu trúc (Architectural Distortion):</strong> Kích thước, dấu hiệu phối hợp, vị trí.</li>
+        <li><strong>Các dạng bất đối xứng (Asymmetries):</strong> Bất đối xứng toàn thể, Bất đối xứng một bình diện, Bất đối xứng khu trú &rarr; Kích thước, dấu hiệu phối hợp, vị trí.</li>
+        <li><strong>Hạch bạch huyết (Lymph nodes):</strong> Trong tuyến vú / Nách &rarr; Vị trí, hình thái, rốn mỡ, vỏ hạch.</li>
+        <li><strong>Tổn thương da & Giãn ống tuyến (SDD):</strong> Vị trí, đặc điểm.</li>
+      </ul>
+
+      <h3 id="section-v-c-wording-table-7">C. Quy chuẩn Từ ngữ trong Báo cáo & Bảng Table 7 (FDA-Approved Wording)</h3>
+      <p>
+        Theo luật định liên bang của FDA Hoa Kỳ (MQSA Final Rule), phần kết luận đánh giá (Assessment) bắt buộc phải sử dụng các <strong>cụm từ ngữ tương đương được FDA phê chuẩn</strong> đặt trước mã số phân loại BI-RADS [54].
+      </p>
+
+      <figure class="my-6">
+        <img src="/posts/birads-v2025-reporting/table7_fda_approved_wording.jpg" alt="Table 7 – Thuật ngữ tương đương được FDA phê chuẩn cho phân loại BI-RADS" class="w-full h-auto rounded shadow" />
+        <figcaption class="mt-2 text-xs text-slate-600"><strong>Table 7 – Bảng Thuật ngữ Báo cáo Phân loại Đánh giá được FDA Hoa Kỳ Phê chuẩn Tương đương</strong> (Trích nguyên tác Cẩm nang <em>ACR BI-RADS® Mammography v2025</em>, trang 158 và 166-167).</figcaption>
+      </figure>
+
+      <h2 id="section-vi-guidance">SECTION VI. Hướng dẫn Thực hành Lâm sàng (Guidance)</h2>
+      <p>
+        Chương Hướng dẫn thực hành (Guidance) đi sâu giải thích cơ sở lý luận khoa học và bằng chứng y học thực chứng đằng sau những thay đổi lớn nhất của Cẩm nang BI-RADS® ấn bản 2025.
+      </p>
+
+      <h3 id="guidance-lexicon">1. Hướng dẫn Thay đổi Từ vựng Nhũ ảnh (Lexicon Updates)</h3>
+      <ul>
+        <li><strong>Khối u (Mass) vs Bất đối xứng (Asymmetry):</strong> Tất cả các dạng bất đối xứng đều có đường bờ cong lõm (concave contour) và thường có mỡ xen kẽ, thiếu độ nổi bật; trong khi khối u có bờ cong lồi hoàn toàn hoặc một phần và đậm hơn ở trung tâm. BI-RADS® 2025 khẳng định: Một tổn thương bộc lộ đầy đủ bờ lồi và độ dày 3D trên các lát cắt liên tiếp của DBT hoàn toàn được định danh là <strong>Khối (Mass) dù chỉ nhìn thấy trên một hướng chụp duy nhất</strong>.</li>
+        <li><strong>Hình thái "Đa cung" (Lobulated) & Loại bỏ bờ "Vi đa cung" (Microlobulated):</strong> Thuật ngữ hình thái "Đa cung" (Lobulated - một hoặc nhiều chỗ lõm nông tạo đường viền lượn sóng) chính thức được phục hồi vì phản ánh độ nghi ngờ ác tính cao hơn hình bầu dục thông thường. Đồng thời, thuật ngữ đường bờ "Vi đa cung" (Microlobulated) bị loại bỏ hoàn toàn để tránh trùng lặp; tổn thương có vi đa cung trước đây nay được xếp vào nhóm <strong>Đường bờ không rõ (Indistinct margin)</strong>.</li>
+        <li><strong>Vôi hóa Thường Lành tính:</strong>
+          <ul class="list-disc pl-5 mt-1 space-y-1">
+            <li>Bãi bỏ thuật ngữ "Dạng bắp rang" (Popcorn-like) và sáp nhập vào thuật ngữ <strong>Vôi hóa thô (Coarse)</strong> để tránh dùng các từ mô tả liên quan đến thức ăn.</li>
+            <li>Sáp nhập hoàn toàn <strong>Vôi hóa dị dưỡng (Dystrophic)</strong> vào danh mục <em>Vôi hóa thô (Coarse)</em>.</li>
+            <li>Thay thế "Sữa canxi" (Milk of calcium) bằng <strong>Vôi hóa lắng lớp (Layering)</strong> nhằm nhấn mạnh bản chất hình thái lắng đọng cơ học thay vì thành phần hóa sinh.</li>
+            <li>Loại bỏ thuật ngữ "Dạng chấm" (Punctate); mọi vôi hóa tròn dù lớn hay nhỏ hơn 0.5 mm đều được gọi thống nhất là <strong>Vôi hóa tròn (Round)</strong>.</li>
+          </ul>
+        </li>
+        <li><strong>Giãn ống tuyến đơn độc (Solitary Dilated Duct - SDD):</strong> Hạ bậc phân loại từ BI-RADS 4A (sinh thiết ở ấn bản 5) xuống <strong>BI-RADS 2 (Lành tính)</strong> nếu tổn thương ổn định và bệnh nhân không có triệu chứng lâm sàng.</li>
+        <li><strong>Bãi bỏ thuật ngữ "Bất đối xứng tiến triển" (Developing Asymmetry):</strong> Loại bỏ thuật ngữ này khỏi bảng từ vựng độc lập để tránh gắn yếu tố thời gian vào định nghĩa hình thái. Tổn thương nay được mô tả là <em>Bất đối xứng khu trú (Focal Asymmetry)</em> và ghi nhận thêm nhận xét về sự thay đổi kích thước/đậm độ. Bác sĩ phải đặc biệt lưu ý: một bất đối xứng khu trú mới xuất hiện hoặc tăng kích thước có giá trị dự báo dương tính ác tính (PPV) rất cao: <strong>7.4% – 12.8% trong tầm soát và 19.7% – 26.7% trong chẩn đoán</strong>, do đó bắt buộc chỉ định sinh thiết ngay cả khi siêu âm không thấy tổn thương tương ứng.</li>
+        <li><strong>Quy chuẩn vị trí trên phim MLO:</strong> Độ sâu trên thế chụp MLO được xác định bằng các đường thẳng tưởng tượng chạy <strong>song song với góc nghiêng của cơ ngực lớn</strong>. Phương pháp này hợp lý về mặt giải phẫu, đảm bảo rằng các tổn thương chiếu lên vùng hố nách sẽ luôn được xếp ở <em>độ sâu Sâu (Posterior)</em> chứ không bị rơi vào độ sâu Giữa như trước đây.</li>
+      </ul>
+
+      <h3 id="guidance-report-organization">2. Hướng dẫn về Tổ chức Báo cáo & Các Tình huống Lâm sàng Đặc thù</h3>
+
+      <h4 id="guidance-concordance" class="font-bold text-slate-900 mt-4 mb-2">Tương đồng Đánh giá - Xử trí & Các Tình huống Bất tương đồng Thường gặp</h4>
+      <p>
+        Nguyên tắc vàng của báo cáo nhũ ảnh là: Phân loại đánh giá phải tương thích hoàn toàn với khuyến nghị xử trí (Bảng 4). Tuy nhiên, có những trường hợp lâm sàng đặc thù đòi hỏi khuyến nghị xử trí có vẻ "bất tương đồng" với hình ảnh nhũ ảnh. BI-RADS® 2025 đưa ra quy tắc giải quyết chuẩn mực:
+      </p>
+      <ul>
+        <li><strong>Tình huống 1: Bệnh nhân sờ thấy khối nhưng nhũ ảnh hoàn toàn bình thường:</strong> Kết luận đánh giá nhũ ảnh bắt buộc phải là <strong>Category 1: Âm tính</strong> kèm khuyến nghị tầm soát thường quy tương thích. Sau đó, bổ sung thêm một câu văn khuyến nghị lâm sàng: <em>"Đề nghị khám chuyên khoa phẫu thuật hoặc làm xét nghiệm mô học đối với tổn thương sờ thấy nếu trên lâm sàng thấy cần thiết."</em></li>
+        <li><strong>Tình huống 2: Nang đơn thuần điển hình lành tính nhưng gây đau nhiều:</strong> Phân loại đánh giá là <strong>Category 2: Lành tính</strong> kèm khuyến nghị tầm soát định kỳ, bổ sung câu văn: <em>"Đề nghị chọc hút nang để giải áp triệu chứng đau cho người bệnh."</em></li>
+        <li><strong>Tình huống 3: Nghi ngờ vỡ túi ngực nhưng không có dấu hiệu ác tính:</strong> Phân loại đánh giá là <strong>Category 2: Lành tính</strong> kèm khuyến nghị tầm soát định kỳ, bổ sung câu văn: <em>"Đề nghị hội chẩn phẫu thuật hoặc chụp MRI vú để đánh giá sự toàn vẹn của bao túi ngực."</em></li>
+      </ul>
+
+      <h4 id="guidance-multimodal-table-8" class="font-bold text-slate-900 mt-6 mb-2">Báo cáo Phối hợp Nhiều Kỹ thuật Cùng Ngày & Hệ thống Phân tầng Bất thường (Table 8)</h4>
+      <p>
+        Khi thực hiện nhiều kỹ thuật chẩn đoán hình ảnh vú trong cùng một ngày (ví dụ: Nhũ ảnh + Siêu âm), ACR khuyến cáo nên phát hành <strong>một bản báo cáo tích hợp chung</strong>. Khi các kết luận của từng phương thức khác nhau, phân loại đánh giá tổng thể và khuyến nghị xử trí cuối cùng bắt buộc phải được đưa ra dựa trên <strong>phát hiện có mức độ ưu tiên hành động cao nhất</strong>.
+      </p>
+
+      <figure class="my-6">
+        <img src="/posts/birads-v2025-reporting/table8_abnormality_hierarchy.jpg" alt="Table 8 – Hệ thống phân tầng mức độ bất thường trong BI-RADS" class="w-full h-auto rounded shadow" />
+        <figcaption class="mt-2 text-xs text-slate-600"><strong>Table 8 – Hệ thống Phân tầng Mức độ Bất thường Giảm dần</strong> (Trích nguyên tác Cẩm nang <em>ACR BI-RADS® Mammography v2025</em>, trang 163).</figcaption>
+      </figure>
+
+      <div class="synthesis-box">
+        <h4 class="font-bold text-slate-900 mb-2 flex items-center gap-2">⚡ Thứ tự Phân tầng Mức độ Bất thường Giảm dần (Abnormality Hierarchy):</h4>
+        <div class="text-sm font-semibold text-sky-950 p-2 bg-white rounded border border-sky-300 text-center my-2">
+          Category 5 &gt; Category 4 &gt; Category 0 &gt; Category 6 &gt; Category 3 &gt; Category 2 &gt; Category 1
+        </div>
+        <p class="text-xs text-slate-700 leading-relaxed mt-1">
+          <em>Ví dụ điển hình:</em> Một bệnh nhân chụp nhũ ảnh chẩn đoán kiểm tra khối sờ thấy cho kết quả bình thường (Category 1), nhưng siêu âm cùng ngày phát hiện một khối đặc bờ không rõ nghi ngờ ác tính (Category 4). Báo cáo tích hợp cuối cùng bắt buộc phải kết luận <strong>BI-RADS Category 4: Nghi ngờ</strong> với khuyến nghị sinh thiết.
+          <br/><br/>
+          <em>Lưu ý đối với Category 0:</em> Nếu một phát hiện Category 0 trên nhũ ảnh đã được giải quyết dứt điểm bằng siêu âm thực hiện ngay trong cùng ngày (ví dụ: khối trên nhũ ảnh được siêu âm xác nhận là nang đơn thuần Category 2), thì Category 0 đã được giải tỏa hoàn toàn và phân loại tổng thể cuối cùng của báo cáo tích hợp là <strong>Category 2</strong>, không phải Category 0.
+        </p>
+      </div>
+
+      <h4 id="guidance-single-vs-separate" class="font-bold text-slate-900 mt-6 mb-2">Báo cáo Một Đánh giá Chung so với Đánh giá Riêng cho Từng Bên Vú</h4>
+      <p>
+        Quy định của FDA cho phép cơ sở y tế lựa chọn đưa ra <strong>một đánh giá tổng thể duy nhất cho cả hai vú</strong> hoặc <strong>đánh giá riêng biệt cho từng bên vú</strong>:
+      </p>
+      <ul>
+        <li>Nếu đưa ra một đánh giá chung duy nhất: Phân loại phải lấy theo bên vú có mức độ bất thường cao hơn (dựa trên hệ thống phân tầng Table 8 nêu trên). Ví dụ: vú phải Category 3, vú trái Category 4 &rarr; Đánh giá tổng thể là <strong>Category 4</strong>.</li>
+        <li>Nếu đưa ra đánh giá riêng cho từng vú: FDA bắt buộc gửi một bản báo cáo y khoa duy nhất cho bác sĩ điều trị; bản tóm tắt gửi cho bệnh nhân phải dựa trên đánh giá của bên vú bất thường cao hơn; và ca đọc chỉ được tính là một cuộc khám duy nhất đối với kinh nghiệm chuyên môn của bác sĩ.</li>
+      </ul>
+
+      <h2 id="section-vii-faqs">SECTION VII. Các Câu hỏi Thường gặp (Frequently Asked Questions - FAQs)</h2>
+      <p>
+        Hội đồng ACR BI-RADS® đã tập hợp và giải đáp 14 tình huống lâm sàng thực tế gây nhiều băn khoăn nhất cho các bác sĩ chẩn đoán hình ảnh:
+      </p>
+
+      <div class="space-y-4 my-6">
+        <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
+          <h4 class="font-bold text-slate-900 text-sm mb-1">FAQ 1: Sự khác biệt giữa yêu cầu của MQSA và ACR trong việc lập báo cáo nhũ ảnh là gì?</h4>
+          <p class="text-xs text-slate-700 leading-relaxed">
+            Đạo luật MQSA do FDA thực thi quy định các tiêu chuẩn tối thiểu bắt buộc bằng luật định liên bang. Báo cáo nhũ ảnh phải tuân thủ câu từ được FDA phê chuẩn (FDA-approved wording), sử dụng các cụm từ mô tả tổng thể (như Âm tính, Lành tính, Nghi ngờ...) chứ không bắt buộc dùng mã số. Ngược lại, ACR cung cấp hướng dẫn chuyên môn sâu sắc hơn, sử dụng các mã số và phân nhóm (như 4A, 4B, 4C) để phục vụ kiểm toán và nghiên cứu khoa học. Về mặt pháp lý, báo cáo bắt buộc phải chứa câu từ phê chuẩn của FDA.
+          </p>
+        </div>
+
+        <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
+          <h4 class="font-bold text-slate-900 text-sm mb-1">FAQ 2: Có mã số dạng số trong BI-RADS cho phim "Nhũ ảnh sau thủ thuật để xác nhận vị trí clip đánh dấu" không?</h4>
+          <p class="text-xs text-slate-700 leading-relaxed">
+            Không. ACR không gán mã số dạng số cho phân loại này. Phân loại này chỉ dùng cho mục đích xác nhận vị trí clip sau sinh thiết, được loại trừ khỏi kiểm toán. Lưu ý: nếu phim kiểm tra clip được thực hiện vào một ngày khác với ngày sinh thiết, bắt buộc vẫn phải báo cáo đậm độ tuyến vú theo luật FDA.
+          </p>
+        </div>
+
+        <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
+          <h4 class="font-bold text-slate-900 text-sm mb-1">FAQ 3: Khi phát hành bản bổ sung báo cáo (Addendum) hoặc báo cáo so sánh phim cũ, yêu cầu của FDA là gì?</h4>
+          <p class="text-xs text-slate-700 leading-relaxed">
+            Sau khi so sánh với phim cũ, bắt buộc phải đưa ra một phân loại đánh giá cuối cùng trong bản bổ sung. Báo cáo này phải được gửi cho bác sĩ điều trị và một bản tóm tắt dễ hiểu phải được gửi cho bệnh nhân (kể cả khi kết quả đánh giá không thay đổi). Bản bổ sung cũng bắt buộc phải bao gồm phân loại đậm độ tuyến vú.
+          </p>
+        </div>
+
+        <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
+          <h4 class="font-bold text-slate-900 text-sm mb-1">FAQ 4: Cơ sở y tế có được dùng các phân nhóm 4A, 4B, 4C thay thế hoàn toàn cho Category 4 (Nghi ngờ) không?</h4>
+          <p class="text-xs text-slate-700 leading-relaxed">
+            Không. Bạn có quyền ghi thêm các phân nhóm 4A, 4B, 4C vào báo cáo, nhưng quy định của FDA bắt buộc từ ngữ "Nghi ngờ" (Suspicious) phải luôn hiện diện và đi trước phân nhóm, không được phép thay thế hoàn toàn thuật ngữ Suspicious bằng 4A/4B/4C.
+          </p>
+        </div>
+
+        <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
+          <h4 class="font-bold text-slate-900 text-sm mb-1">FAQ 5: Khảo sát tầm soát và chẩn đoán thực hiện cùng ngày có thể gộp chung vào một báo cáo hay phải tách làm hai?</h4>
+          <p class="text-xs text-slate-700 leading-relaxed">
+            Cơ sở có thể phát hành báo cáo riêng hoặc báo cáo gộp. ACR khuyến cáo nên phát hành hai báo cáo riêng biệt để không làm sai lệch số liệu kiểm toán (Audit). Nếu phát hành báo cáo gộp, báo cáo phải nêu rõ đây là kết quả tích hợp, có một đánh giá chung duy nhất, nhưng trong dữ liệu kiểm toán nội bộ phải ghi nhận mã đánh giá riêng cho từng cuộc khám để tính toán tỷ lệ gọi lại (Recall rate) chính xác.
+          </p>
+        </div>
+
+        <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
+          <h4 class="font-bold text-slate-900 text-sm mb-1">FAQ 6: Thấy hạch nách to trên nhũ ảnh tầm soát nhưng hai bên tuyến vú hoàn toàn bình thường: Xử trí BI-RADS thế nào?</h4>
+          <p class="text-xs text-slate-700 leading-relaxed">
+            Nếu là <strong>hạch nách to đơn độc một bên</strong> không rõ nguyên nhân viêm/nhiễm trùng: Xếp <strong>Category 0</strong> và khuyến nghị gọi lại làm siêu âm chẩn đoán. Khai thác kỹ tiền sử tiêm vắc-xin COVID-19 hoặc vắc-xin khác cùng bên cánh tay trong thời gian gần đây; nếu hồ sơ xác nhận nguyên nhân tiêm chủng lành tính, có thể kết luận Category 2 (nếu mô tả trong báo cáo) hoặc Category 1 (nếu không mô tả).
+            <br/><br/>
+            Nếu là <strong>hạch nách to hai bên</strong>: Thường do bệnh hệ thống (bệnh tự miễn, nhiễm trùng toàn thân, bệnh lý huyết học/lympho). Nếu có tiền sử rõ ràng, xếp Category 2. Nếu không có tiền sử giải thích, vẫn phải xếp <strong>Category 0</strong> để làm siêu âm và cân nhắc sinh thiết. Lưu ý: Không bao giờ xếp Category 6 cho u lympho hay bạch cầu vì Category 6 chỉ dành riêng cho ung thư có nguồn gốc từ vú.
+          </p>
+        </div>
+
+        <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
+          <h4 class="font-bold text-slate-900 text-sm mb-1">FAQ 7: Có bắt buộc ghi ngày tháng cụ thể của các phim chụp so sánh trước đây không?</h4>
+          <p class="text-xs text-slate-700 leading-relaxed">
+            Mặc dù không bắt buộc bằng luật, ACR đặc biệt khuyến cáo nên ghi cụ thể ngày tháng của các lần khám trước được đưa ra so sánh, đặc biệt là khi đang theo dõi tính ổn định của tổn thương Category 3 hoặc đánh giá đáp ứng điều trị.
+          </p>
+        </div>
+
+        <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
+          <h4 class="font-bold text-slate-900 text-sm mb-1">FAQ 8: Có bắt buộc phải ghi nhận đậm độ tuyến vú cho mọi cuộc khám nhũ ảnh, kể cả phim chẩn đoán khu trú?</h4>
+          <p class="text-xs text-slate-700 leading-relaxed">
+            Có. BI-RADS và luật FDA bắt buộc phân loại đậm độ tuyến vú trên <strong>mọi cuộc khám nhũ ảnh</strong> dẫn đến một kết luận đánh giá (từ 0 đến 6), kể cả trên bệnh nhân nam, bệnh nhân đã phẫu thuật đoạn nhũ và phim kiểm tra vị trí clip sau thủ thuật. Nếu phim chẩn đoán chỉ chụp một phần mô khu trú, giải pháp tốt nhất là lặp lại phân loại đậm độ của lần chụp hai bên gần nhất để tránh gây nhầm lẫn.
+          </p>
+        </div>
+
+        <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
+          <h4 class="font-bold text-slate-900 text-sm mb-1">FAQ 9: Chỉ ghi ký tự phân loại đậm độ (A, B, C, D) mà không ghi câu mô tả bằng chữ có được không?</h4>
+          <p class="text-xs text-slate-700 leading-relaxed">
+            Không. Tối thiểu bắt buộc phải sử dụng các câu mô tả bằng chữ được FDA phê chuẩn trong báo cáo. Việc bổ sung thêm các ký tự A, B, C, D được khuyến khích để tăng cường tính rõ ràng.
+          </p>
+        </div>
+
+        <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
+          <h4 class="font-bold text-slate-900 text-sm mb-1">FAQ 10: Bác sĩ điều trị chỉ định nhũ ảnh tầm soát kèm "làm siêu âm nếu cần" trên bệnh nhân vú đặc: Xếp BI-RADS nào?</h4>
+          <p class="text-xs text-slate-700 leading-relaxed">
+            Nếu nhũ ảnh tầm soát bình thường, kết luận đánh giá bắt buộc phải là <strong>Category 1 (Âm tính) hoặc Category 2 (Lành tính)</strong>. Tuyệt đối không được xếp Category 0 chỉ vì bệnh nhân có vú đặc và có thể cần tầm soát bổ sung bằng siêu âm. Thay vào đó, bổ sung một câu khuyến nghị: <em>"Do bệnh nhân có mô tuyến vú đặc, có thể xem xét chỉ định tầm soát bổ sung."</em>
+          </p>
+        </div>
+
+        <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
+          <h4 class="font-bold text-slate-900 text-sm mb-1">FAQ 11: Bệnh nhân có túi ngực silicone, nhũ ảnh không thấy ung thư nhưng nghi vỡ túi: Có xếp Category 0 để đề nghị chụp MRI không?</h4>
+          <p class="text-xs text-slate-700 leading-relaxed">
+            Không. Kết luận đánh giá nhũ ảnh đúng phải là <strong>Category 2: Lành tính</strong>, đi kèm một câu văn bổ sung khuyến nghị chụp MRI tuyến vú để đánh giá sự toàn vẹn của bao túi ngực.
+          </p>
+        </div>
+
+        <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
+          <h4 class="font-bold text-slate-900 text-sm mb-1">FAQ 12: Tại sao không được xếp Category 3 cho một cụm vôi hóa thấy trên phim nhũ ảnh tầm soát?</h4>
+          <p class="text-xs text-slate-700 leading-relaxed">
+            Xếp Category 3 chỉ được phép sau khi đã hoàn tất đánh giá chẩn đoán toàn diện. Nếu gọi lại làm thế chụp phóng đại ngay, tổn thương có thể bộc lộ bản chất lành tính (như vôi hóa lắng lớp - layering) giúp bệnh nhân không phải theo dõi 2 năm vô ích; hoặc ngược lại, có thể bộc lộ các vi vôi hóa đa hình thái mịn kín đáo của ung thư biểu mô tại chỗ (DCIS) cần sinh thiết khẩn cấp.
+          </p>
+        </div>
+
+        <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
+          <h4 class="font-bold text-slate-900 text-sm mb-1">FAQ 13: Bệnh nhân sau phẫu thuật cắt u vú rộng (lumpectomy) diện cắt âm tính có tự động xếp Category 3 không?</h4>
+          <p class="text-xs text-slate-700 leading-relaxed">
+            Không. Các biến đổi sau mổ (sẹo xơ) là dấu hiệu bình thường dự kiến và nếu không có tổn thương mới nghi ngờ thì phải xếp <strong>Category 2: Lành tính</strong>. Chỉ xếp Category 3 nếu xuất hiện một phát hiện đơn độc mới đáp ứng tiêu chuẩn khả năng lành tính (như vôi hóa thô đang tiến triển tại diện mổ nghĩ nhiều đến hoại tử mỡ).
+          </p>
+        </div>
+
+        <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
+          <h4 class="font-bold text-slate-900 text-sm mb-1">FAQ 14: Thấy tổn thương có bờ lồi trên nhiều lát cắt DBT liên tiếp nhưng chỉ thấy trên một hướng chụp duy nhất: Có được gọi là Khối không?</h4>
+          <p class="text-xs text-slate-700 leading-relaxed">
+            Có. Nhờ công nghệ DBT bộc lộ tổn thương trên các lát cắt liên tiếp, việc xác định đầy đủ các đặc tính thể tích 3D của một khối có thể được thực hiện ngay cả khi tổn thương chỉ thấy trên một hướng chụp (do hướng chụp kia bị che khuất hoặc nằm ngoài trường chụp).
+          </p>
+        </div>
+      </div>
+
+      <h2 id="appendix-a-views">APPENDIX A. Các Hướng Chụp Nhũ Ảnh & Bảng Table 9 (Mammographic Views)</h2>
+      <p>
+        Phụ lục A cung cấp bảng chuẩn hóa quốc tế toàn diện về thuật ngữ và ký hiệu viết tắt cho tất cả các hướng chụp nhũ ảnh thường quy, bổ sung chuyên sâu và kỹ thuật định vị can thiệp:
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure class="m-0">
+          <img src="/posts/birads-v2025-reporting/table9_mammography_views_p1.jpg" alt="Table 9 – Ký hiệu viết tắt các hướng chụp nhũ ảnh (Phần 1)" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Table 9 (Phần 1) – Danh mục Thuật ngữ và Ký hiệu Viết tắt các Hướng Chụp Nhũ Ảnh</strong> (Trang 171).</figcaption>
+        </figure>
+        <figure class="m-0">
+          <img src="/posts/birads-v2025-reporting/table9_mammography_views_p2.jpg" alt="Table 9 – Ký hiệu viết tắt các hướng chụp nhũ ảnh (Phần 2)" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Table 9 (Phần 2) – Ký hiệu Viết tắt các Kỹ thuật Định vị Can thiệp và Sinh thiết</strong> (Trang 172).</figcaption>
+        </figure>
+      </div>
+
+      <div class="overflow-x-auto my-4">
+        <table class="w-full text-xs border-collapse">
+          <thead>
+            <tr class="bg-sky-100 text-sky-950 font-bold">
+              <th class="border border-slate-300 p-2 text-left">Hướng Chụp / Kỹ thuật (Projection/View)</th>
+              <th class="border border-slate-300 p-2 text-left">Mã Viết tắt (Labeling Code)</th>
+              <th class="border border-slate-300 p-2 text-left">Mô tả & Ứng dụng Lâm sàng Cốt lõi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium">Chếch ngoài - trong</td>
+              <td class="border border-slate-300 p-2 font-mono font-bold text-sky-900">MLO</td>
+              <td class="border border-slate-300 p-2">Hướng chụp thường quy bộc lộ toàn bộ mô tuyến vú và cơ ngực lớn, hố nách.</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium">Nghiêng ngoài - trong (90&deg;)</td>
+              <td class="border border-slate-300 p-2 font-mono font-bold text-sky-900">ML</td>
+              <td class="border border-slate-300 p-2">Bộc lộ chuyển động rơi/lắng lớp của vôi hóa (*layering*); xác định tọa độ tổn thương ngoài.</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium">Nghiêng trong - ngoài (90&deg;)</td>
+              <td class="border border-slate-300 p-2 font-mono font-bold text-sky-900">LM</td>
+              <td class="border border-slate-300 p-2">Tối ưu hóa độ phân giải cho các tổn thương nằm ở nửa trong tuyến vú.</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium">Sọ - đuôi</td>
+              <td class="border border-slate-300 p-2 font-mono font-bold text-sky-900">CC</td>
+              <td class="border border-slate-300 p-2">Hướng chụp thường quy bộc lộ mô tuyến nửa trong và ngoài.</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium">Sọ - đuôi kéo dài ra ngoài</td>
+              <td class="border border-slate-300 p-2 font-mono font-bold text-sky-900">XCCL</td>
+              <td class="border border-slate-300 p-2">Bộc lộ tối đa phần mô sâu sát thành ngực ở góc 1/4 trên ngoài và đuôi nách.</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium">Sọ - đuôi kéo dài vào trong</td>
+              <td class="border border-slate-300 p-2 font-mono font-bold text-sky-900">XCCM</td>
+              <td class="border border-slate-300 p-2">Bộc lộ tối đa mô tuyến nằm sâu sát xương ức ở phía trong.</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium">Đuôi - sọ (từ dưới lên)</td>
+              <td class="border border-slate-300 p-2 font-mono font-bold text-sky-900">FB</td>
+              <td class="border border-slate-300 p-2">From Below: bóng phát từ dưới lên, áp dụng cho tổn thương cực trên cao hoặc bệnh nhân gù.</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium">Rãnh liên vú</td>
+              <td class="border border-slate-300 p-2 font-mono font-bold text-sky-900">CV</td>
+              <td class="border border-slate-300 p-2">Cleavage: bộc lộ mô tuyến sâu nhất vùng khe giữa hai vú.</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium">Đuôi nách</td>
+              <td class="border border-slate-300 p-2 font-mono font-bold text-sky-900">AT</td>
+              <td class="border border-slate-300 p-2">Axillary Tail: bộc lộ riêng phần đuôi nách của Spence.</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium">Tiếp tuyến</td>
+              <td class="border border-slate-300 p-2 font-mono font-bold text-sky-900">TAN</td>
+              <td class="border border-slate-300 p-2">Tangential: bộc lộ tổn thương da hoặc sẹo mổ đoạn nhũ, khẳng định hoại tử mỡ.</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium">Ép khu trú</td>
+              <td class="border border-slate-300 p-2 font-mono font-bold text-sky-900">S (Spot)</td>
+              <td class="border border-slate-300 p-2">Dùng bản ép nhỏ tách rời mô chồng lấp, xác định bờ khối và xáo trộn cấu trúc.</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium">Phóng đại</td>
+              <td class="border border-slate-300 p-2 font-mono font-bold text-sky-900">M (Mag)</td>
+              <td class="border border-slate-300 p-2">Đánh giá tối ưu hình thái và phân bố vi vôi hóa.</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium">Lăn vú (Rolled views)</td>
+              <td class="border border-slate-300 p-2 font-mono font-bold text-sky-900">-RL, -RM, -RS, -RI</td>
+              <td class="border border-slate-300 p-2">Lăn mô vú để tách hai cấu trúc nghi ngờ bị chồng hình trên một hướng chụp.</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium">Đẩy túi ngực (Kỹ thuật Eklund)</td>
+              <td class="border border-slate-300 p-2 font-mono font-bold text-sky-900">ID</td>
+              <td class="border border-slate-300 p-2">Implant-Displaced: đẩy túi ngực ra sau sát thành ngực để ép tối đa nhu mô vú phía trước.</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-300 p-2 font-medium">Chiếu nghiêng núm vú</td>
+              <td class="border border-slate-300 p-2 font-mono font-bold text-sky-900">-NP</td>
+              <td class="border border-slate-300 p-2">Nipple in profile: đảm bảo núm vú chiếu tiếp tuyến không chồng lên mô tuyến sau quầng vú.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 id="appendix-b-summary-form">APPENDIX B. Biểu Mẫu Tóm Tắt Từ Vựng Nhũ Ảnh BI-RADS® 2025 (Lexicon Summary Form)</h2>
+      <p>
+        Phụ lục B là <strong>bản từ điển tóm lược hoàn chỉnh nhất</strong> của toàn bộ Hệ thống Từ vựng Nhũ ảnh BI-RADS® v2025 (trang 173–176). Đây là công cụ tra cứu gối đầu giường bắt buộc cho mọi bác sĩ điện quang thực hành vú.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure class="m-0">
+          <img src="/posts/birads-v2025-reporting/appendix_b_lexicon_summary_p1.jpg" alt="Appendix B – Biểu mẫu tóm tắt từ vựng (Trang 1)" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Appendix B (Trang 1):</strong> Đậm độ tuyến vú, Khối u (Hình thái, Bờ, Đậm độ), Vôi hóa thường lành tính (Trang 173).</figcaption>
+        </figure>
+        <figure class="m-0">
+          <img src="/posts/birads-v2025-reporting/appendix_b_lexicon_summary_p2.jpg" alt="Appendix B – Biểu mẫu tóm tắt từ vựng (Trang 2)" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Appendix B (Trang 2):</strong> Vôi hóa nghi ngờ, Kiểu phân bố vôi hóa, Xáo trộn cấu trúc (Trang 174).</figcaption>
+        </figure>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure class="m-0">
+          <img src="/posts/birads-v2025-reporting/appendix_b_lexicon_summary_p3.jpg" alt="Appendix B – Biểu mẫu tóm tắt từ vựng (Trang 3)" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Appendix B (Trang 3):</strong> Các dạng bất đối xứng, Hạch bạch huyết, Tổn thương da, Giãn ống tuyến, Dấu hiệu phối hợp, Trường hợp đặc biệt (Trang 175).</figcaption>
+        </figure>
+        <figure class="m-0">
+          <img src="/posts/birads-v2025-reporting/appendix_b_lexicon_summary_p4.jpg" alt="Appendix B – Biểu mẫu tóm tắt từ vựng (Trang 4)" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Appendix B (Trang 4):</strong> Vị trí tổn thương, Hệ thống phân loại đánh giá Categories 0 đến 6 (Trang 176).</figcaption>
+        </figure>
+      </div>
+
+      <h2 id="synthesis-matrix">8. Bảng Ma Trận Quản Lý & Đối Chiếu Pháp Lý FDA/MQSA</h2>
+      <div class="synthesis-box">
+        <h4 class="font-bold text-slate-900 mb-2 flex items-center gap-2">📋 Ma trận Đối chiếu Toàn diện BI-RADS 2025, Nguy cơ Ác tính & Quy định MQSA/FDA:</h4>
+        <div class="overflow-x-auto my-3">
+          <table class="w-full text-xs border-collapse">
+            <thead>
+              <tr class="bg-sky-100 text-sky-950 font-bold">
+                <th class="border border-slate-300 p-2 text-left">Phân loại & Mã số</th>
+                <th class="border border-slate-300 p-2 text-left">Thuật ngữ FDA Phê duyệt Bắt buộc</th>
+                <th class="border border-slate-300 p-2 text-left">Khả năng Ác tính</th>
+                <th class="border border-slate-300 p-2 text-left">Khuyến nghị Xử trí</th>
+                <th class="border border-slate-300 p-2 text-left">Quy định Kiểm toán & Lưu ý Pháp lý</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="border border-slate-300 p-2 font-medium"><strong>Category 0 (Hình ảnh)</strong></td>
+                <td class="border border-slate-300 p-2 font-mono text-sky-900">Incomplete: Need Additional Imaging Evaluation</td>
+                <td class="border border-slate-300 p-2">N/A</td>
+                <td class="border border-slate-300 p-2">Gọi lại chụp thêm hướng nhũ ảnh chuyên sâu và/hoặc siêu âm.</td>
+                <td class="border border-slate-300 p-2">Đưa vào tính tỷ lệ gọi lại (Recall rate). Cấm dùng cho MRI khi nhũ ảnh âm tính.</td>
+              </tr>
+              <tr>
+                <td class="border border-slate-300 p-2 font-medium"><strong>Category 0 (Phim cũ)</strong></td>
+                <td class="border border-slate-300 p-2 font-mono text-sky-900">Incomplete: Need Prior Mammograms for Comparison</td>
+                <td class="border border-slate-300 p-2">N/A</td>
+                <td class="border border-slate-300 p-2">Tìm lại phim cũ để so sánh tính ổn định.</td>
+                <td class="border border-slate-300 p-2">Bắt buộc ra kết luận cuối trong vòng 30 ngày (addendum kèm báo cáo đậm độ).</td>
+              </tr>
+              <tr>
+                <td class="border border-slate-300 p-2 font-medium"><strong>Category 1</strong></td>
+                <td class="border border-slate-300 p-2 font-mono text-sky-900">Negative Mammogram</td>
+                <td class="border border-slate-300 p-2 font-semibold text-emerald-700">~ 0%</td>
+                <td class="border border-slate-300 p-2">Tầm soát định kỳ thường quy hàng năm.</td>
+                <td class="border border-slate-300 p-2">Dùng khi không mô tả bất kỳ tổn thương lành tính nào trong báo cáo.</td>
+              </tr>
+              <tr>
+                <td class="border border-slate-300 p-2 font-medium"><strong>Category 2</strong></td>
+                <td class="border border-slate-300 p-2 font-mono text-sky-900">Benign Finding / Benign Mammogram</td>
+                <td class="border border-slate-300 p-2 font-semibold text-emerald-700">~ 0%</td>
+                <td class="border border-slate-300 p-2">Tầm soát định kỳ thường quy hàng năm.</td>
+                <td class="border border-slate-300 p-2">Dùng khi có mô tả tổn thương lành tính (u xơ thoái hóa vôi, nang dầu, IMLN, SDD ổn định).</td>
+              </tr>
+              <tr>
+                <td class="border border-slate-300 p-2 font-medium"><strong>Category 3</strong></td>
+                <td class="border border-slate-300 p-2 font-mono text-sky-900">Probably Benign - Short Interval Follow-up Suggested</td>
+                <td class="border border-slate-300 p-2 font-semibold text-amber-700">&gt; 0% đến &le; 2%</td>
+                <td class="border border-slate-300 p-2">Theo dõi nhũ ảnh ngắn hạn: 6 tháng &rarr; 12 tháng &rarr; 24 tháng.</td>
+                <td class="border border-slate-300 p-2">Chỉ dùng cho 3 tổn thương kinh điển sau chẩn đoán. Cấm dùng trực tiếp trên tầm soát.</td>
+              </tr>
+              <tr>
+                <td class="border border-slate-300 p-2 font-medium"><strong>Category 4 (4A, 4B, 4C)</strong></td>
+                <td class="border border-slate-300 p-2 font-mono text-sky-900">Suspicious Finding - Biopsy Should be Considered</td>
+                <td class="border border-slate-300 p-2 font-semibold text-rose-700">&gt; 2% đến &lt; 95%</td>
+                <td class="border border-slate-300 p-2">Chẩn đoán mô học (sinh thiết kim dưới hướng dẫn siêu âm/stereotactic).</td>
+                <td class="border border-slate-300 p-2">Từ "Suspicious" bắt buộc đi trước 4A/4B/4C. Kiểm toán PPV2/PPV3 chặt chẽ.</td>
+              </tr>
+              <tr>
+                <td class="border border-slate-300 p-2 font-medium"><strong>Category 5</strong></td>
+                <td class="border border-slate-300 p-2 font-mono text-sky-900">Highly Suggestive of Malignancy - Appropriate Action Should be Taken</td>
+                <td class="border border-slate-300 p-2 font-semibold text-rose-900">&ge; 95%</td>
+                <td class="border border-slate-300 p-2">Chẩn đoán mô học khẩn cấp; nếu kết quả lành tính bị coi là bất tương đồng.</td>
+                <td class="border border-slate-300 p-2">Cần tổ hợp nhiều dấu hiệu ác tính. Sinh thiết lại bằng phẫu thuật nếu kim âm tính.</td>
+              </tr>
+              <tr>
+                <td class="border border-slate-300 p-2 font-medium"><strong>Category 6</strong></td>
+                <td class="border border-slate-300 p-2 font-mono text-sky-900">Known Biopsy - Proven Malignancy</td>
+                <td class="border border-slate-300 p-2">N/A</td>
+                <td class="border border-slate-300 p-2">Theo dõi lâm sàng với ung bướu/phẫu thuật; điều trị triệt căn tại chỗ.</td>
+                <td class="border border-slate-300 p-2">Miễn trừ khỏi kiểm toán nhũ ảnh. Cấm dùng cho ung thư ngoài nguồn gốc vú.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <h2 id="key-points-pitfalls">9. 12 Điểm Cốt Lõi Cần Nhớ (Key Points) & 8 Cạm Bẫy Thực Hành (Diagnostic Pitfalls)</h2>
+
+      <div class="key-points">
+        <h4 class="font-bold text-emerald-950 mb-2 flex items-center gap-2">
+          <span>🌟</span> 12 Điểm Cốt lõi Cần nhớ từ Cẩm nang ACR BI-RADS® v2025:
+        </h4>
+        <ol class="list-decimal pl-5 space-y-1.5 text-xs text-slate-800">
+          <li><strong>Tách Category 0 thành 2 nhóm riêng biệt:</strong> Bắt buộc phân biệt rõ giữa <em>Cần đánh giá thêm hình ảnh</em> và <em>Cần phim cũ để so sánh</em> theo luật định MQSA 2024.</li>
+          <li><strong>Thời hạn 30 ngày cho Category 0 chờ phim cũ:</strong> Cơ sở phải bảo đảm 100% ra được kết luận cuối cùng trong vòng 30 ngày kể cả khi không tìm thấy phim cũ.</li>
+          <li><strong>Quy tắc phân tầng đa phương thức:</strong> Khi làm nhiều kỹ thuật trong cùng ngày, phân loại tổng thể tuân theo thứ tự: <strong>5 &gt; 4 &gt; 0 &gt; 6 &gt; 3 &gt; 2 &gt; 1</strong>.</li>
+          <li><strong>Cấm xếp Category 3 trực tiếp từ tầm soát:</strong> Bắt buộc phải thực hiện đánh giá chẩn đoán toàn diện trước khi được phép đưa ra phân loại Category 3.</li>
+          <li><strong>Chỉ có 3 dấu hiệu kinh điển cho Category 3 trên phim nền:</strong> Khối đặc bờ rõ đơn độc; Bất đối xứng khu trú không có tương quan siêu âm; và Cụm vôi hóa tròn đơn độc.</li>
+          <li><strong>Phác đồ 2 năm theo dõi Category 3:</strong> 6 tháng &rarr; 12 tháng &rarr; 24 tháng. Đạt đủ 2 năm ổn định mới được chuyển thành Category 2 Lành tính.</li>
+          <li><strong>Xử lý bất tương đồng giữa Đánh giá và Xử trí:</strong> Sờ thấy khối nhưng nhũ ảnh âm tính &rarr; Xếp Category 1 tương thích tầm soát, kèm câu khuyến nghị khám ngoại khoa hoặc sinh thiết.</li>
+          <li><strong>Quy định nghiêm ngặt về chỉ định MRI:</strong> Nhũ ảnh âm tính nhưng cần MRI tầm soát bổ sung cho vú đặc &rarr; Xếp Category 1 hoặc 2 + khuyến nghị MRI; TUYỆT ĐỐI không xếp Category 0.</li>
+          <li><strong>Bắt buộc báo cáo đậm độ vú ở mọi đối tượng:</strong> Kể cả phim chẩn đoán khu trú, bệnh nhân nam, sau đoạn nhũ, và kiểm tra clip sau thủ thuật.</li>
+          <li><strong>Áp dụng FDA Alternative Standard #26:</strong> Được dùng cấu trúc câu số ít cho các ca chụp nhũ ảnh một bên (Unilateral mammograms).</li>
+          <li><strong>Bước ngoặt Solitary Dilated Duct (SDD):</strong> Không còn xếp 4A sinh thiết như ấn bản 5; SDD ổn định không triệu chứng chính thức là <strong>BI-RADS 2 Lành tính</strong>.</li>
+          <li><strong>Loại bỏ Microlobulated và Developing Asymmetry:</strong> Bờ vi đa cung gộp vào bờ không rõ (Indistinct); bất đối xứng tiến triển gọi là bất đối xứng khu trú kèm nhận xét thay đổi theo thời gian.</li>
+        </ol>
+      </div>
+
+      <div class="pitfalls">
+        <h4 class="font-bold text-rose-950 mb-2 flex items-center gap-2">
+          <span>⚠️</span> 8 Cạm Bẫy Chẩn đoán & Báo cáo Thực hành Nguy hiểm nhất (Diagnostic Pitfalls):
+        </h4>
+        <ol class="list-decimal pl-5 space-y-1.5 text-xs text-slate-800">
+          <li><strong>Cạm bẫy trì hoãn sinh thiết tổn thương nghi ngờ để chờ phim cũ:</strong> Nếu tổn thương đã bộc lộ rõ tính chất nghi ngờ (Category 4 hoặc 5), bắt buộc chỉ định sinh thiết ngay; TUYỆT ĐỐI không xếp Category 0 để chờ phim cũ làm chậm trễ điều trị ung thư.</li>
+          <li><strong>Cạm bẫy lạm dụng Category 0 để hoãn sinh thiết bằng chụp MRI:</strong> MRI không bao giờ được dùng như một phương tiện để "trì hoãn" hoặc "hạ bậc" chỉ định sinh thiết đối với một tổn thương đã nghi ngờ trên nhũ ảnh.</li>
+          <li><strong>Cạm bẫy tự động xếp Category 3 cho bệnh nhân sau phẫu thuật cắt u vú (lumpectomy):</strong> Thay đổi xơ sẹo sau mổ thông thường là Category 2; chỉ xếp Category 3 khi có phát hiện đơn độc mới đáp ứng tiêu chuẩn khả năng lành tính (như vôi hóa hoại tử mỡ tiến triển).</li>
+          <li><strong>Cạm bẫy dùng Category 6 cho ung thư di căn ngoài vú:</strong> Bệnh nhân mắc u lympho hay bạch cầu có hạch nách to không được xếp Category 6 vì phân loại này chỉ dành riêng cho ung thư nguyên phát từ biểu mô tuyến vú.</li>
+          <li><strong>Cạm bẫy xếp Category 0 khi siêu âm cùng ngày đã giải quyết được tổn thương:</strong> Nếu khối trên nhũ ảnh được siêu âm xác nhận là nang đơn thuần, phân loại tổng thể của báo cáo kết hợp phải là <strong>Category 2</strong>, không được để sót Category 0.</li>
+          <li><strong>Cạm bẫy nhầm lẫn giữa tụt núm vú và co rút núm vú:</strong> Tụt núm vú (Inversion) hai bên, kéo ra được là lành tính; co rút núm vú (Retraction) mới xuất hiện, một bên và không kéo hồi phục được là dấu hiệu báo động đỏ ác tính.</li>
+          <li><strong>Cạm bẫy bỏ qua bất đối xứng khu trú mới vì siêu âm âm tính:</strong> Bất đối xứng khu trú mới có PPV ác tính lên tới 26.7%; bắt buộc chỉ định sinh thiết dưới hướng dẫn nhũ ảnh/stereotactic ngay cả khi siêu âm không thấy gì.</li>
+          <li><strong>Cạm bẫy dùng số thập phân cho khoảng cách từ núm vú:</strong> Bắt buộc ghi bằng số nguyên cm (ví dụ 2 cm, 5 cm); tuyệt đối không ghi 2.3 cm hay 4.8 cm để tránh gây ảo tưởng sai lầm về độ chính xác giữa các phương thức chụp.</li>
+        </ol>
+      </div>
+
+    `,
+    views: 1680,
+    readTime: "25 phút đọc",
+    source: "ACR BI-RADS® Mammography v2025 Manual (pp. 149-176)",
+    tags: ["BI-RADS 2025", "Nhũ ảnh", "Hệ thống báo cáo", "Reporting System", "BI-RADS Categories", "Guidance", "Từ vựng Nhũ ảnh", "Chẩn đoán hình ảnh vú"]
+  },
 ];
