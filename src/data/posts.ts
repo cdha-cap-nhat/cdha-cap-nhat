@@ -3915,4 +3915,672 @@ export const POSTS: Post[] = [
     source: "ACR BI-RADS® Mammography v2025 Manual (pp. 149-176)",
     tags: ["BI-RADS 2025", "Nhũ ảnh", "Hệ thống báo cáo", "Reporting System", "BI-RADS Categories", "Guidance", "Từ vựng Nhũ ảnh", "Chẩn đoán hình ảnh vú"]
   },
+  {
+    id: "birads-2025-sieu-am-tuyen-vu-giai-phau-ky-thuat-toi-uu-va-abus",
+    title: "Cẩm nang ACR BI-RADS® 2025: Siêu âm Tuyến vú (Ultrasound) – Giải phẫu, Tối ưu hóa Kỹ thuật, Đo đạc & Siêu âm 3D tự động (ABUS)",
+    slug: "birads-2025-sieu-am-tuyen-vu-giai-phau-ky-thuat-toi-uu-va-abus",
+    date: "02 Tháng 11, 2026",
+    updatedDate: "02 Tháng 11, 2026",
+    author: "ACR BI-RADS® Committee (Biên dịch & Chú giải: CĐHA Cập Nhật)",
+    categories: ["Vú", "Siêu âm", "BI-RADS 2025", "Giải phẫu", "Kỹ thuật", "ABUS"],
+    categorySlugs: ["vu", "sieu-am", "bi-rads-2025"],
+    modality: "Siêu âm",
+    specialty: "Vú",
+    specialtySlug: "vu",
+    coverImage: "/posts/birads-v2025-ultrasound-general/cover_ultrasound_anatomy.jpg",
+    excerpt: "Cập nhật toàn diện từ Cẩm nang ACR BI-RADS® v2025 phần Siêu âm tuyến vú (trang 190–226): Giải phẫu học siêu âm các lớp mô vú và hạch nách, mốc giải phẫu định vị đối chiếu với nhũ ảnh/MRI, tối ưu hóa thông số kỹ thuật (tần số đầu dò, áp lực nén, FOV, tiêu điểm, gain thang xám, compound imaging), quy chuẩn gán nhãn và đo đạc (viền tăng âm vs vỏ giả), nguyên tắc lưu trữ hồ sơ và vai trò của siêu âm 3D tự động toàn vú (ABUS) trong tầm soát vú đặc.",
+    content: [
+      "Giải phẫu học siêu âm 5 lớp mô vú và hạch nách: Tiêu chuẩn bề dày vỏ hạch bình thường <= 3 mm; mốc giải phẫu cốt lõi định vị đối chiếu tổn thương giữa Nhũ ảnh / MRI sang Siêu âm.",
+      "Tối ưu hóa 6 thông số kỹ thuật máy siêu âm: Tần số đầu dò linear >= 12-18 MHz, áp lực nén bảo tồn Doppler, trường nhìn FOV thích hợp, vị trí tiêu cự, gain thang xám và đánh đổi của compound imaging.",
+      "Quy chuẩn gán nhãn, đo đạc trực giao 3 chiều (bắt buộc đo bao gồm viền tăng âm ở khối ác tính), tiêu chuẩn lưu trữ hồ sơ và giá trị của siêu âm 3D tự động (ABUS) với hiện tượng co kéo (retraction phenomenon) trong tầm soát vú đặc."
+    ],
+    htmlContent: `
+      <div class="synthesis-box">
+        <h4 class="font-bold text-indigo-900 mb-2 flex items-center gap-2">
+          <span>🎯</span> TÓM TẮT NỘI DUNG THEN CHỐT
+        </h4>
+        <p class="text-sm text-slate-700 leading-relaxed">
+          Chương mở đầu toàn diện của phần <strong>Siêu âm tuyến vú (ULTRASOUND)</strong> trong Cẩm nang <em>ACR BI-RADS® v2025</em> (trang 190–226): Phân tích chi tiết giải phẫu học siêu âm 5 lớp mô tuyến vú và hệ bạch huyết nách (tiêu chuẩn bề dày vỏ hạch bình thường &le; 3 mm); Các mốc giải phẫu cốt lõi để định vị và đối chiếu tổn thương giữa Nhũ ảnh / MRI sang Siêu âm; Quy chuẩn tối ưu hóa 6 thông số máy then chốt (tần số đầu dò, áp lực nén, trường nhìn FOV, tiêu cự, độ khuếch đại thang xám, compound imaging); Nguyên tắc gán nhãn và đo đạc chuẩn mực (phân biệt sống còn giữa đo vỏ giả của u lành và đo viền tăng âm của u ác tính); Tiêu chuẩn lưu trữ hồ sơ; và Vai trò của siêu âm 3D tự động toàn vú (ABUS) trong tầm soát vú đặc cùng hiện tượng co kéo (retraction phenomenon) trên mặt phẳng coronal.
+        </p>
+      </div>
+
+      <div class="editorial-box">
+        <h4 class="font-bold text-sky-900 mb-2 flex items-center gap-2">
+          <span>📖</span> Bối cảnh biên dịch & Lời tòa soạn: Cẩm nang ACR BI-RADS® v2025 – Khởi đầu Phần Siêu âm Tuyến vú (Ultrasound)
+        </h4>
+        <p class="text-sm text-slate-700 leading-relaxed">
+          Đây là <strong>phần nội dung mở đầu cho toàn bộ hệ thống Siêu âm tuyến vú (Ultrasound)</strong> trong Cẩm nang <em>ACR BI-RADS® v2025 Manual</em> của Hiệp hội Điện quang Hoa Kỳ (American College of Radiology - ACR), tiếp nối sau trọn bộ 6 bài giảng về Nhũ ảnh (Mammography). Chương này bao gồm từ trang 190 đến trang 226 của tài liệu gốc, thiết lập nền tảng khoa học và kỹ thuật lâm sàng cho toàn bộ việc thực hành siêu âm vú hiện đại.
+        </p>
+        <p class="text-sm text-slate-700 leading-relaxed mt-2">
+          Các điểm nhấn cập nhật và quy chuẩn thực hành quan trọng nhất bao gồm:
+        </p>
+        <ul class="text-sm text-slate-700 list-disc pl-5 mt-1 space-y-1">
+          <li><strong>Giải phẫu học siêu âm & Cảnh báo an toàn:</strong> Mô tả chi tiết cấu trúc 5 lớp giải phẫu từ nông đến sâu; đặc điểm ống dẫn sữa và đơn vị ống tận - tiểu thùy (TDLU); đặc biệt lưu ý hình thái nụ tuyến vú tuổi dậy thì (pubertal breast bud) - nghiêm cấm sinh thiết hay phẫu thuật cắt bỏ vì sẽ làm tuyến vú mất hoàn toàn khả năng phát triển.</li>
+          <li><strong>Mốc giải phẫu định vị đối chiếu (Location Landmarks):</strong> Việc ghi nhận chính xác lớp mô giải phẫu chứa tổn thương (lớp mỡ dưới da, mô sợi tuyến, lớp mỡ sau tuyến, hay ranh giới giữa các lớp) có giá trị định vị cao hơn nhiều so với ước lượng độ sâu hoặc khoảng cách từ núm vú trên phim ép nhũ ảnh.</li>
+          <li><strong>Tối ưu hóa 6 thông số kỹ thuật máy siêu âm:</strong> Hướng dẫn cụ thể về tần số đầu dò linear (&ge; 12–18 MHz), áp lực nén thích hợp (tránh đè xẹp dòng chảy chậm trên Doppler), trường nhìn FOV (không để quá sâu gây lãng phí độ phân giải), vị trí tiêu cự (tránh xảo ảnh tạo âm phản xạ giả trong nang), độ khuếch đại thang xám (mỡ dưới da phải là màu xám trung bình) và đánh đổi của siêu âm kết hợp không gian (compound imaging làm giảm bóng lưng âm học).</li>
+          <li><strong>Quy tắc đo đạc chuẩn mực & Phân biệt Viền tăng âm vs Vỏ giả:</strong> Đo 3 chiều trực giao theo trục dài nhất của tổn thương; u lành bờ rõ (u sợi tuyến) chỉ đo lõi giảm âm loại trừ vỏ giả; u ác tính bờ không rõ/tua gai <em>bắt buộc phải đo bao gồm cả viền tăng âm (echogenic rind)</em> vì viền này tương quan trực tiếp với phản ứng xơ hóa mô đệm và xâm lấn tế bào ung thư, dự báo chính xác nhất kích thước mô bệnh học.</li>
+          <li><strong>Siêu âm 3D tự động toàn vú (ABUS) & Hiện tượng co kéo:</strong> Giá trị của ABUS trong tầm soát bổ sung ở phụ nữ có mô tuyến vú đặc; hiện tượng co kéo (retraction phenomenon) trên mặt phẳng coronal tái tạo 3D; quy tắc pháp lý tối thượng: ABUS tầm soát nghi ngờ chỉ được xếp <strong>Category 0 (Incomplete)</strong> để gọi lại làm siêu âm chẩn đoán cầm tay, tuyệt đối không xếp trực tiếp Category 3, 4 hoặc 5.</li>
+        </ul>
+        <p class="text-sm text-slate-700 leading-relaxed mt-2">
+          Theo đúng quy ước biên tập thống nhất: toàn văn bài dịch nguyên bản từ cẩm nang được trình bày với chữ đen trên nền trắng tiêu chuẩn; toàn bộ 34 hình ảnh minh họa độ phân giải cao (300 DPI) được nhúng kèm chú thích chi tiết; các phần tổng hợp ma trận kỹ thuật, 10 điểm cốt lõi và 8 cạm bẫy thực hành được đóng khung màu nổi bật để quý đồng nghiệp dễ dàng nhận diện và tra cứu.
+        </p>
+      </div>
+
+      <h2 id="section-i-general-considerations">SECTION I. Các xem xét chung (General Considerations)</h2>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Phần Siêu âm tuyến vú trong Cẩm nang ACR BI-RADS® v2025 mở đầu bằng các xem xét nền tảng về giải phẫu học siêu âm, cơ sở kỹ thuật tối ưu hóa thiết bị, quy chuẩn gán nhãn, đo đạc kích thước và các phương thức siêu âm hiện đại. Việc nắm vững các nguyên lý này là điều kiện tiên quyết để đạt được chất lượng hình ảnh chẩn đoán cao nhất và chuẩn hóa ngôn ngữ báo cáo quốc tế.
+      </p>
+
+      <h3 id="section-i-a-breast-anatomy">A. Giải phẫu Tuyến vú (Breast Anatomy)</h3>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Tuyến vú nằm trên thành ngực trước, trải dài giữa xương sườn thứ hai và xương sườn thứ sáu, được bọc trong các lá của mạc ngực nông (superficial pectoral fascia). Mô mỡ và mô sợi tuyến của vú nằm kẹp giữa lá nông của mạc này (ngay dưới da) và lá sâu của mạc ngực (ngay phía trước cơ ngực lớn - <em>pectoralis major muscle</em>) (<strong>Hình 1</strong>).
+      </p>
+
+      <figure class="my-6">
+        <img src="/posts/birads-v2025-ultrasound-general/figure1_netter_breast_anatomy.jpg" alt="Hình 1 – Giải phẫu tuyến vú bình thường trên bình diện Coronal và Axial (Sơ đồ Frank Netter)" class="w-full h-auto rounded shadow" />
+        <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 1 – NORMAL BREAST ANATOMY.</strong> Sơ đồ giải phẫu tuyến vú bình thường trên bình diện trán (Coronal - A) và bình diện trục (Axial - B). Thể hiện rõ các thành phần: núm vú, quầng vú, củ Montgomery, xoang sữa (lactiferous sinus / ampulla), các ống dẫn sữa (lactiferous ducts), các nang tuyến (acini/alveoli) cùng nhu mô, mỡ dưới da, mỡ trong tuyến vú, mạc nông, mạc sâu, dây chằng treo Cooper và cơ ngực lớn (Pectoralis major) (Trích nguyên tác Cẩm nang <em>ACR BI-RADS® Ultrasound v2025</em>, trang 190, bản quyền minh họa Netter / Elsevier Inc.).</figcaption>
+      </figure>
+
+      <h4 id="anatomy-lobes-ducts-tdlu" class="font-bold text-slate-900 mt-6 mb-3">1. Cấu trúc Thùy, Tiểu thùy và Đơn vị Ống tận - Tiểu thùy (TDLU)</h4>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Tuyến vú được cấu thành từ khoảng 12 đến 20 phân khu hoặc thùy (lobes). Mỗi thùy bao gồm nhiều tiểu thùy nhỏ hơn (lobules) - tức là các mô sợi tuyến mà khi được kích thích thích hợp bởi các hormone sẽ sản xuất ra sữa. Các tiểu thùy bắt đầu từ những nhánh ngoại vi nhỏ và tận cùng tại một ống góp lớn (ống dẫn sữa), có lỗ mở (punctum) nhìn thấy được trên núm vú (<strong>Hình 2</strong>). Các ống dẫn sữa xa nhất ở ngoại vi, gọi là các ống tận trong tiểu thùy (intra-lobular terminal ducts), kết thúc tại <strong>đơn vị ống tận - tiểu thùy (Terminal Duct Lobular Units - TDLUs)</strong>. Đây chính là cấu trúc vi thể nguồn gốc phát sinh phần lớn các bệnh lý lành tính và ác tính thường gặp của tuyến vú.
+      </p>
+
+      <figure class="my-6">
+        <img src="/posts/birads-v2025-ultrasound-general/figure2_lactiferous_duct.jpg" alt="Hình 2 – Giải phẫu ống dẫn sữa bình thường trên mặt cắt nan hoa" class="w-full h-auto rounded shadow" />
+        <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 2 – NORMAL BREAST ANATOMY.</strong> Mặt cắt nan hoa (Radial view) minh họa giải phẫu bình thường của một ống dẫn sữa bắt nguồn từ các tiểu thùy ở ngoại vi, uốn cong ra phía trước (đầu mũi tên) hướng về phía núm vú. Ống dẫn sữa nằm bên trong vùng mô sợi tuyến ngay bên dưới một lớp mỡ (Trích nguyên tác Cẩm nang <em>ACR BI-RADS® Ultrasound v2025</em>, trang 191).</figcaption>
+      </figure>
+
+      <div class="pitfalls my-6">
+        <h4 class="font-bold text-amber-900 mb-2 flex items-center gap-2">
+          <span>⚠️</span> CẢNH BÁO AN TOÀN SỐNG CÒN: NỤ TUYẾN VÚ TUỔI DẬY THÌ (PUBERTAL BREAST BUD)
+        </h4>
+        <p class="text-sm text-slate-800 leading-relaxed">
+          Sự phát triển tuyến vú (thelarche) thường đánh dấu sự khởi đầu của tuổi dậy thì ở nữ giới (<strong>Hình 3</strong>). Tuyến vú bé gái ở tuổi dậy thì có hình ảnh siêu âm tương tự như nữ hóa tuyến vú (gynecomastia) ở nam giới, với cấu trúc mô giảm âm (hypoechoic tissue) nằm ngay phía sau núm vú. Bởi vì những bệnh nhân trẻ tuổi này thông thường không chụp nhũ ảnh, <strong>điều tối quan trọng là không được diễn giải sai nụ tuyến vú giảm âm sau quầng vú này như một bất thường cần phải sinh thiết</strong>. Vùng này phải được nhận diện là cấu trúc giải phẫu hoàn toàn bình thường ở lứa tuổi dậy thì; <strong>nếu nụ tuyến này bị phẫu thuật cắt bỏ, tuyến vú bên đó sẽ vĩnh viễn không thể phát triển!</strong>
+        </p>
+      </div>
+
+      <figure class="my-6">
+        <img src="/posts/birads-v2025-ultrasound-general/figure3_pubertal_breast_bud.jpg" alt="Hình 3 – Nụ tuyến vú tuổi dậy thì bình thường" class="w-full h-auto rounded shadow" />
+        <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 3 – NORMAL BREAST ANATOMY - PUBERTAL.</strong> Cấu trúc mô giảm âm sinh lý bình thường nằm ngay phía sau núm vú (mũi tên) ở trẻ em gái tuổi dậy thì (Trích nguyên tác Cẩm nang <em>ACR BI-RADS® Ultrasound v2025</em>, trang 191).</figcaption>
+      </figure>
+
+      <h4 id="anatomy-vascular-lymphatics" class="font-bold text-slate-900 mt-6 mb-3">2. Mạch máu và Hệ thống Dẫn lưu Bạch huyết</h4>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Nguồn cấp máu động mạch cho tuyến vú được cung cấp bởi các động mạch dưới đòn (subclavian) và động mạch nách (axillary) cùng các nhánh ngực ngoài (lateral thoracic), ngực cùng vai (thoracoacromial), ngực trên (superior thoracic) và động mạch vú trong (internal mammary / internal thoracic). Hệ thống mạch máu tĩnh mạch nằm chủ yếu ở lớp nông ngay sâu dưới da. <strong>Trên 90% lượng dịch bạch huyết của tuyến vú dẫn lưu vào hố nách cùng bên (ipsilateral axilla)</strong>, với một tỷ lệ nhỏ dẫn lưu vào chuỗi hạch vú trong. Ở những bệnh nhân đã phẫu thuật nạo vét hạch nách hoặc đoạn nhũ lan rộng vào hố nách, dòng dẫn lưu bạch huyết có thể đổi hướng sang hố nách đối bên.
+      </p>
+
+      <h4 id="anatomy-normal-axillary-lymph-nodes" class="font-bold text-slate-900 mt-6 mb-3">3. Đặc điểm Hạch Nách Bình thường (Axillary Lymph Nodes)</h4>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Hố nách chứa các hạch bạch huyết, đám rối thần kinh cánh tay (brachial plexus), động mạch và tĩnh mạch nách. Số lượng và kích thước của các hạch nách bình thường biến thiên rất lớn giữa các cá thể. <strong>Không có giới hạn kích thước trên cho một hạch nách bình thường nếu phần vỏ hạch vẫn duy trì độ mỏng thích hợp</strong>. Bề dày vỏ hạch là một thước đo chưa hoàn hảo cho tính chất lành tính của hạch, nhưng <strong>hầu hết các hạch bình thường đều có phần vỏ không dày quá 3 mm (&le; 3 mm)</strong> [1].
+      </p>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Sự đối xứng hai bên về kích thước, hình thái và số lượng hạch là yếu tố rất hữu ích giúp phân biệt hạch bình thường với bất thường. Trên nhũ ảnh, các hạch nách thường được ghi nhận dưới dạng khối bờ rõ, hình bầu dục, thường có hình hạt đậu/hình quả thận (reniform) với rốn hạch sáng chứa mỡ và phần vỏ có đậm độ mô mềm. Trên siêu âm, <strong>hạch nách hoặc hạch trong tuyến vú bình thường có rốn hạch tăng âm chứa mỡ (echogenic fatty hilum) và phần vỏ giảm âm mỏng đồng đều (hypoechoic cortex)</strong> (<strong>Hình 4</strong>).
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/figure4a_normal_lymph_node_trans.jpg" alt="Hình 4A – Hạch nách bình thường mặt cắt ngang" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 4A – NORMAL AXILLARY LYMPH NODE.</strong> Mặt cắt ngang (Transverse plane - A) của hạch nách có kích thước, bề dày vỏ hạch bình thường (&le; 3 mm) và rốn hạch tăng âm, mang hình thái quả thận thu nhỏ (Trích nguyên tác trang 192).</figcaption>
+        </figure>
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/figure4bc_normal_lymph_node_long_axilla.jpg" alt="Hình 4B, C – Hạch nách bình thường mặt cắt dọc và giải phẫu hố nách" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 4B, C – NORMAL AXILLARY LYMPH NODE (Tiếp theo).</strong> (B) Mặt cắt dọc (Longitudinal plane) của hạch nách bình thường. (C) Giải phẫu hố nách: Cơ ngực lớn (PM) nằm trước cơ ngực bé (pm) với tĩnh mạch nách (AV) nằm sâu dưới cả hai cơ (Trích nguyên tác trang 193).</figcaption>
+        </figure>
+      </div>
+
+      <h4 id="anatomy-nipple-areola" class="font-bold text-slate-900 mt-6 mb-3">4. Núm vú và Quầng vú (Nipple and Areola)</h4>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Phức hợp núm - quầng vú biến thiên rất nhiều, với đường kính quầng vú khác biệt lớn giữa các bệnh nhân dựa trên độ tuổi và thể tích vú, điều này khiến <strong>núm vú trở thành một mốc giải phẫu đáng tin cậy hơn nhiều so với quầng vú</strong> [2]. Núm vú bình thường có thể nhô cao, phẳng hoặc tụt. Khi nghi ngờ có bất thường ở núm vú, việc so sánh đối chiếu với bên đối diện là rất hữu ích.
+      </p>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Các khe nứt và bề mặt gồ ghề của núm vú có thể gây ra bóng lưng âm học phía sau (posterior shadowing) trong khi quét siêu âm. Việc sử dụng một lớp gel dày hoặc đệm gel (gel standoff pad / gel offset) có thể tạo ra môi trường truyền âm lý tưởng để bộc lộ rõ núm vú (<strong>Hình 5</strong>). Tuy nhiên, trên thực hành, các mô nằm ngay sau núm vú và quầng vú thường được khảo sát tốt nhất bằng cách quét đầu dò chếch góc (oblique scanning) để chùm tia không truyền trực tiếp xuyên qua núm vú. Lớp da quầng vú thon mỏng dần khi lan tỏa ra xa núm vú. Bề dày da bình thường của tuyến vú lên tới 2 mm, ngoại trừ vùng quầng vú và nếp lằn dưới vú (inframammary fold), nơi da sinh lý thường dày hơn một chút [3].
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/figure5_nipple_gel_offset.jpg" alt="Hình 5 – Giải phẫu núm vú với đệm gel" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 5 – ANATOMY: NIPPLE AND UNDERLYING BREAST TISSUE.</strong> Đệm gel (A và B) giúp bộc lộ da và mô nông. (A) Núm vú bình thường. (B) Núm vú phì đại do ung thư biểu mô tuyến thể nhầy (mucinous carcinoma) nằm bên trong núm (Trích nguyên tác trang 194).</figcaption>
+        </figure>
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/figure6_nipple_3d_abus.jpg" alt="Hình 6 – Siêu âm 3D tự động toàn vú (ABUS) khảo sát núm vú" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 6 – ANATOMY: NIPPLE AND UNDERLYING BREAST (ABUS).</strong> Quét siêu âm toàn vú tự động tư thế nằm ngửa. Trực giao 3 mặt phẳng: Coronal (Z-plane góc trên trái); Sagittal (Y-plane góc trên phải); Tái tạo 3D (góc dưới phải); B-mode ngang (X-plane góc dưới trái). Mô dưới núm vú không bị bóng lưng che khuất như siêu âm cầm tay (Trích nguyên tác trang 195).</figcaption>
+        </figure>
+      </div>
+
+      <h4 id="anatomy-breast-layers-zones" class="font-bold text-slate-900 mt-6 mb-3">5. Cấu trúc Năm Lớp Mô Giải phẫu Tuyến vú (Anatomical Layers)</h4>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Hình ảnh siêu âm tuyến vú thể hiện cấu trúc phân tầng rõ rệt của giải phẫu bình thường (<strong>Hình 7</strong>). Tính từ nông vào sâu, các lớp giải phẫu bao gồm:
+      </p>
+      <ol class="list-decimal pl-5 space-y-2 text-sm text-slate-800 mb-4">
+        <li><strong>Lớp Da (Skin):</strong> Tăng âm (echogenic), có bề dày bình thường &lt; 2 mm.</li>
+        <li><strong>Lớp Mỡ dưới da (Subcutaneous fat - SubQ):</strong> Đồng phản âm (isoechoic) hoặc giảm âm nhẹ so với nhu mô tuyến, bao gồm các thùy mỡ hình bầu dục được nâng đỡ bởi các vách dây chằng treo Cooper.</li>
+        <li><strong>Vùng Mô Sợi Tuyến (Fibroglandular zone - FGZ):</strong> Tăng âm, chứa các thùy và tiểu thùy tuyến vú. Độ phản âm có thể thay đổi tùy thuộc vào tỷ lệ thành phần mô tuyến và mô mỡ bên trong.</li>
+        <li><strong>Lớp Mỡ sau tuyến vú (Retroglandular fat - Retro):</strong> Lớp mỡ mỏng đồng phản âm nằm giữa mặt sau mô sợi tuyến và mạc ngực sâu.</li>
+        <li><strong>Cơ Ngực lớn (Pectoralis major muscle - Pec):</strong> Cấu trúc dải cơ đồng phản âm nằm sâu nhất trên thành ngực trước.</li>
+      </ol>
+
+      <figure class="my-6">
+        <img src="/posts/birads-v2025-ultrasound-general/figure7_breast_layers_anatomy.jpg" alt="Hình 7 – Cấu trúc năm tầng lớp giải phẫu siêu âm tuyến vú" class="w-full h-auto rounded shadow" />
+        <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 7 – ANATOMY: LAYERED APPEARANCE OF NORMAL BREAST.</strong> Hình ảnh siêu âm minh họa cấu trúc phân tầng giải phẫu bình thường của tuyến vú. Từ nông đến sâu: da (skin), mỡ dưới da (subQ), vùng mô sợi tuyến (fgz) chứa các tiểu thùy, mỡ sau tuyến (retro), và cơ ngực lớn (pec) (Trích nguyên tác trang 195).</figcaption>
+      </figure>
+
+      <figure class="my-6">
+        <img src="/posts/birads-v2025-ultrasound-general/figure8_normal_skin_complex.jpg" alt="Hình 8 – Cấu trúc phức hợp da bình thường ở tần số 18 MHz và 26 MHz" class="w-full h-auto rounded shadow" />
+        <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 8 – ANATOMY: NORMAL SKIN COMPLEX.</strong> Khảo sát da ở tần số 18 MHz (A) và 26 MHz (B). Hai đường tăng âm sắc nét giới hạn một lớp ít tăng âm hơn ở giữa có tổng bề dày &lt; 2 mm (ngoại trừ vùng quầng vú hoặc nếp lằn dưới vú có thể dày hơn). Đệm gel giúp quan sát rõ lớp nông của da. Vùng hội tụ (focal zone) phải được đặt ở lớp nông khi đánh giá da (Trích nguyên tác trang 196).</figcaption>
+      </figure>
+
+      <h4 id="anatomy-location-of-findings" class="font-bold text-slate-900 mt-6 mb-3">6. Định vị Tổn thương (Location of Findings): Vai trò của các Tầng Lớp Giải phẫu</h4>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Cấu trúc phân tầng của giải phẫu vú bình thường cung cấp những <strong>mốc chuẩn then chốt giúp định vị một khối u ban đầu được phát hiện trên các phương thức hình ảnh khác (như Nhũ ảnh, MRI) hoặc qua khám lâm sàng</strong>.
+      </p>
+      <div class="synthesis-box my-4">
+        <h5 class="font-bold text-indigo-950 text-xs uppercase mb-1">💡 NGUYÊN TẮC ĐỊNH VỊ CỐT LÕI CỦA BI-RADS 2025</h5>
+        <p class="text-xs text-slate-800 leading-relaxed">
+          Khi mô tả vị trí của một khối u, vùng bất đối xứng hoặc xáo trộn cấu trúc nghi ngờ phát hiện trên nhũ ảnh, <strong>việc ghi nhận chính xác lớp mô mà tổn thương cư trú (lớp mỡ dưới da, vùng mô sợi tuyến, hay lớp mỡ sau tuyến) có giá trị thực tiễn cao hơn nhiều so với việc báo cáo độ sâu biểu kiến hoặc khoảng cách chính xác từ núm vú ước tính trên các thế chụp nhũ ảnh bị ép nén</strong>. Khoảng cách từ núm vú trên nhũ ảnh có thể được ước lượng tương đối theo một phần ba trước (nông), một phần ba giữa, hoặc một phần ba sau (sâu) của tuyến vú (<strong>Hình 1–4 dưới đây</strong>).
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/location_fig1_subq_node.jpg" alt="Vị trí tổn thương Hình 1 – Hạch trong tuyến vú ở lớp mỡ dưới da" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 1 – LOCATION (Mỡ dưới da).</strong> Mô tả lớp mô giúp bác sĩ siêu âm tìm đúng cấu trúc tương ứng. Nhũ ảnh MLO (A) thấy khối bầu dục bờ rõ trong lớp mỡ dưới da (dấu tam giác). Vị trí này được xác nhận chính xác trên siêu âm (B). GPB: Hạch trong tuyến vú phản ứng (Trích nguyên tác trang 197).</figcaption>
+        </figure>
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/location_fig2_fgz_fibroadenoma.jpg" alt="Vị trí tổn thương Hình 2 – U sợi tuyến trong vùng mô sợi tuyến" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 2 – LOCATION (Vùng mô sợi tuyến).</strong> Khối phát hiện trên lát cắt DBT vú trái (A) nằm bên trong vùng mô sợi tuyến (khoanh tròn). Siêu âm tương ứng (B) thấy khối không đều, bờ không rõ trong vùng FGZ. Việc đối chiếu đúng lớp mô khẳng định tổn thương trên nhũ ảnh và siêu âm là một. GPB: U sợi tuyến (Trích nguyên tác trang 198).</figcaption>
+        </figure>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/location_fig3_retroglandular_idc.jpg" alt="Vị trí tổn thương Hình 3 – Ung thư xâm lấn trong lớp mỡ sau tuyến" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 3 – LOCATION (Lớp mỡ sau tuyến).</strong> Khối trên thế ép khu trú CC (A) và MLO (B) nằm trong lớp mỡ sau tuyến vú. Siêu âm (C) thấy khối không song song kèm viền tăng âm (echogenic rind) trong lớp mỡ sau tuyến (retro). GPB: Ung thư biểu mô tuyến ống xâm lấn (IDC) (Trích nguyên tác trang 199).</figcaption>
+        </figure>
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/location_fig4_interface_microcysts.jpg" alt="Vị trí tổn thương Hình 4 – Cụm vi nang tại ranh giới giữa mỡ dưới da và mô sợi tuyến" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 4 – LOCATION (Ranh giới giao diện).</strong> Ranh giới giữa các lớp mô là mốc định vị rất hữu ích. Khối (mũi tên) trên nhũ ảnh ML (A) nằm ngay tại ranh giới giữa mỡ dưới da và mô sợi tuyến. Trên siêu âm (B), khối là một cụm vi nang (cluster of microcysts) nằm đúng tại ranh giới giữa subQ và fgz (Trích nguyên tác trang 200).</figcaption>
+        </figure>
+      </div>
+
+      <h3 id="section-i-b-image-quality">B. Chất lượng Hình ảnh & Tối ưu hóa Thiết bị (Image Quality)</h3>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Giá trị lâm sàng của siêu âm tuyến vú phụ thuộc hoàn toàn vào việc tạo ra những hình ảnh có chất lượng kỹ thuật cao nhất. Khảo sát siêu âm vú cầm tay sử dụng đầu dò tần số cao phụ thuộc chủ yếu vào <strong>kỹ năng của người thực hành, chất lượng trang thiết bị và cấu hình tối ưu của các thông số kỹ thuật trên hệ thống máy siêu âm</strong>. Chất lượng hình ảnh kém có thể dẫn đến việc diễn giải sai các dấu hiệu, chẩn đoán nhầm lẫn giữa tổn thương lành tính và ác tính, hoặc bỏ sót hoàn toàn các ung thư giai đoạn sớm.
+      </p>
+
+      <h4 id="iq-transducer-frequency" class="font-bold text-slate-900 mt-6 mb-3">1. Tần số Đầu dò (Transducer Frequency)</h4>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Để khảo sát tuyến vú, Hiệp hội Điện quang Hoa Kỳ (ACR) khuyến nghị sử dụng <strong>đầu dò linear mảng phẳng (linear array) có dải tần số cao, thông thường từ 12 đến 18 MHz trở lên</strong>. Tần số đầu dò cao mang lại độ phân giải không gian (spatial resolution) và độ phân giải tương phản (contrast resolution) vượt trội, cho phép bộc lộ sắc nét đường bờ của các khối u nghi ngờ, đánh giá xáo trộn cấu trúc xung quanh và phân biệt các vi vôi hóa nhỏ nằm trong ống tuyến (<strong>Hình 1 & 2</strong>).
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/iq_freq_fig1_transducer_frequency_idc.jpg" alt="Chất lượng hình ảnh Hình 1 – Tần số đầu dò bộc lộ bờ u và xáo trộn cấu trúc" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 1 – IMAGE QUALITY: TRANSDUCER FREQUENCY.</strong> Đường bờ và xáo trộn cấu trúc bao quanh khối u không đều này trở nên sắc nét và dễ đặc trưng hóa hơn rất nhiều nhờ độ phân giải được nâng cao của đầu dò tần số cao (18 MHz so với tần số thấp hơn). GPB: Ung thư biểu mô tuyến ống xâm lấn (IDC) (Trích nguyên tác trang 201).</figcaption>
+        </figure>
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/iq_freq_fig2_microcalcifications.jpg" alt="Chất lượng hình ảnh Hình 2 – Đầu dò 17-5 MHz bộc lộ vi vôi hóa trong ống tuyến" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 2 – IMAGE QUALITY: TRANSDUCER FREQUENCY.</strong> Hình ảnh thu được bằng đầu dò linear dải tần 12–5 MHz (A) đủ tiêu chuẩn chẩn đoán, nhưng được cải thiện vượt bậc khi chuyển sang đầu dò dải tần 17–5 MHz (B). Trong cả hai hình, các vi vôi hóa nằm trong lòng ống tuyến (mũi tên) trong vùng mô sợi tuyến được thấy rõ hơn nhiều trên hình (B) (Trích nguyên tác trang 202).</figcaption>
+        </figure>
+      </div>
+
+      <h4 id="iq-transducer-pressure" class="font-bold text-slate-900 mt-6 mb-3">2. Áp lực Đầu dò (Transducer Pressure) & Kỹ thuật Ép</h4>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Việc tạo một áp lực nén thích hợp của đầu dò lên bề mặt da tuyến vú đem lại nhiều lợi ích quan trọng:
+      </p>
+      <ul class="text-sm text-slate-800 list-disc pl-5 mb-4 space-y-1">
+        <li>Làm mỏng lớp mô vú cần khảo sát, giúp tăng độ xuyên thấu của chùm sóng âm.</li>
+        <li><strong>Triệt tiêu các bóng lưng âm học giả tạo (artifactual acoustic shadowing)</strong> sinh ra do sự uốn khúc của các vách mô xơ và dây chằng Cooper (<strong>Hình 3</strong>).</li>
+        <li>Làm rõ nét ranh giới đường bờ của các tổn thương dạng nang hoặc khối đặc.</li>
+      </ul>
+
+      <div class="pitfalls my-6">
+        <h4 class="font-bold text-amber-900 mb-2 flex items-center gap-2">
+          <span>⚠️</span> LƯU Ý SỐNG CÒN KHI SỬ DỤNG DOPPLER MÀU: NÉN ĐẦU DÒ QUÁ MỨC
+        </h4>
+        <p class="text-sm text-slate-800 leading-relaxed">
+          Ngược lại với chế độ B-mode, <strong>khi khảo sát tưới máu bằng Doppler màu (Color Doppler) hoặc Doppler năng lượng (Power Doppler), việc ấn đầu dò quá mạnh sẽ đè xẹp các vi mạch máu có áp lực thấp và dòng chảy chậm bên trong khối u</strong>, dẫn đến nhận định sai lầm là khối u không có tưới máu (<strong>Hình 4</strong>). Luôn quét Doppler với lực tiếp xúc đầu dò nhẹ nhàng nhất có thể.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/iq_press_fig3_compression_cyst.jpg" alt="Chất lượng hình ảnh Hình 3 – Áp lực nén đầu dò bộc lộ bờ nang và xóa bóng lưng giả" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 3 – IMAGE QUALITY: TRANSDUCER PRESSURE.</strong> Mặt cắt ngược nan hoa (Antiradial) của một nang trống âm. Hình (A) nén chưa đủ làm bờ nang bị nhòe và mô xơ xung quanh tạo bóng lưng giả. Tăng lực nén thích hợp (B) bộc lộ bờ nang sắc nét và xóa sạch bóng lưng xảo ảnh (Trích nguyên tác trang 202).</figcaption>
+        </figure>
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/iq_press_fig4_doppler_slow_flow.jpg" alt="Chất lượng hình ảnh Hình 4 – Áp lực đầu dò trong khảo sát Doppler màu dòng chảy chậm" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 4 – IMAGE QUALITY: TRANSDUCER PRESSURE (DOPPLER).</strong> Khối hỗn hợp đặc và nang. Ở hình (A), lực ép đầu dò mạnh làm giảm hiển thị mạch máu. Cùng tần số Doppler nhưng ép nhẹ đầu dò (B), dòng chảy mạch máu tốc độ chậm được bộc lộ đầy đủ và chính xác. GPB: U sợi tuyến (Trích nguyên tác trang 203).</figcaption>
+        </figure>
+      </div>
+
+      <h4 id="iq-field-of-view" class="font-bold text-slate-900 mt-6 mb-3">3. Trường nhìn (Field of View - FOV) & Tối ưu hóa Độ sâu</h4>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Trường nhìn (FOV) là phạm vi mô được hiển thị trên màn hình siêu âm. <strong>Cài đặt tối ưu là trường nhìn cho phép quan sát trọn vẹn từ bề mặt da cho đến bờ trước cơ ngực lớn (pectoralis major muscle) và KHÔNG bao gồm màng phổi hay phổi</strong> (<strong>Hình 1</strong>).
+      </p>
+      <div class="synthesis-box my-4">
+        <h5 class="font-bold text-indigo-950 text-xs uppercase mb-1">📐 QUY TẮC PHẠM VI CHIỀU SÂU FOV</h5>
+        <p class="text-xs text-slate-800 leading-relaxed">
+          Mô tuyến vú cần khảo sát (từ da đến cơ ngực lớn) <strong>phải chiếm ít nhất 75% chiều sâu của màn hình hiển thị</strong>. Nếu trường nhìn đặt quá sâu (FOV too deep), toàn bộ mô vú chỉ co cụm ở nửa trên màn hình (chiếm 50% hoặc ít hơn), trong khi vùng sâu từ 2–4 cm chỉ là phổi và xương sườn hoàn toàn vô giá trị (<strong>Hình 2 & 3</strong>). Điều này làm suy giảm nghiêm trọng độ phân giải, khiến các tổn thương nhỏ hoặc nông trông bị thu nhỏ quá mức và không thể đặc trưng hóa chính xác. Ngược lại, nếu đặt FOV quá nông hoặc phóng đại quá mức, bờ khối có thể bị nhòe và các tổn thương ở lớp sâu sẽ bị bỏ sót.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/iq_fov_fig1_appropriate_fov.jpg" alt="Chất lượng hình ảnh Hình 1 – Trường nhìn FOV thích hợp" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 1 – IMAGE QUALITY: FIELD OF VIEW (FOV).</strong> Hình thang xám mở rộng (EFOV) mặt cắt ngang thể hiện FOV thích hợp: da (mũi tên) ở trường gần và cơ ngực lớn (đầu mũi tên) ở trường xa. Vùng mỡ dưới da (*) có màu xám trung bình, vùng mô sợi tuyến FGZ nằm sau mỡ dưới da (Trích nguyên tác trang 204).</figcaption>
+        </figure>
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/iq_fov_fig2_too_deep.jpg" alt="Chất lượng hình ảnh Hình 2 – Trường nhìn FOV quá sâu gây suy giảm độ phân giải" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 2 – IMAGE QUALITY: FOV TOO DEEP.</strong> Lát cắt dưới chuẩn tại vị trí 6:00 vú trái: mô vú từ da đến cơ ngực chỉ chiếm 50% độ sâu của FOV. Từ độ sâu 2–4 cm hoàn toàn không có thông tin về vú. Tiêu điểm (biểu tượng XX) cũng bị đặt quá sâu (Trích nguyên tác trang 205).</figcaption>
+        </figure>
+      </div>
+
+      <figure class="my-6">
+        <img src="/posts/birads-v2025-ultrasound-general/iq_fov_fig3_complicated_cyst_deep.jpg" alt="Chất lượng hình ảnh Hình 3 – Cài đặt độ sâu FOV không chuẩn cho nang biến chứng" class="w-full h-auto rounded shadow" />
+        <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 3 – IMAGE QUALITY: FIELD OF VIEW (FOV).</strong> Nang biến chứng hình bầu dục, hướng song song, có tăng âm phía sau. Tiêu điểm đặt đúng vị trí nang; tuy nhiên độ sâu FOV dưới chuẩn và quá sâu, bao gồm cả xương sườn và màng phổi, có thể dẫn đến phân loại và diễn giải sai lệch nang này (Trích nguyên tác trang 205).</figcaption>
+      </figure>
+
+      <h4 id="iq-trapezoidal-efov-panoramic" class="font-bold text-slate-900 mt-6 mb-3">Trường nhìn Hình thang (Trapezoidal), Toàn cảnh (Extended FOV / Panoramic) & Siêu âm 3D</h4>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Các đầu dò linear dùng cho tuyến vú thường có chiều dài bề mặt từ 4.0 đến 5.5 cm. Khi gặp tổn thương kích thước lớn hoặc đa tổn thương lan rộng:
+      </p>
+      <ul class="text-sm text-slate-800 list-disc pl-5 mb-4 space-y-1">
+        <li><strong>Trường nhìn hình thang (Trapezoidal FOV):</strong> Chuyển màn hình từ dạng chữ nhật sang hình thang giúp mở rộng góc quét ở lớp sâu, bộc lộ toàn bộ tổn thương lớn (<strong>Hình 4 & 5</strong>).</li>
+        <li><strong>Chế độ chia đôi màn hình (Split screen):</strong> Chụp nửa bên phải rồi nửa bên trái để ghép nối đo kích thước ước tính.</li>
+        <li><strong>Trường nhìn mở rộng / Toàn cảnh (Extended FOV / Panoramic - EFOV):</strong> Quét quét liên tục tạo một dải hình ảnh toàn cảnh dài, cho phép thể hiện toàn bộ phạm vi của một ổ tụ dịch/áp xe lớn, hoặc tương quan vị trí giữa nhiều khối u với núm vú (<strong>Hình 5, 6, 7</strong>) [5].</li>
+        <li><strong>Khảo sát thể tích 3D (Volumetric Acquisition / ABUS):</strong> Sử dụng đầu dò chuyên dụng 14–15 cm quét quét tự động thu thập dữ liệu thể tích toàn vú, tái tạo đồng thời 3 mặt phẳng trực giao (X-plane ngang, Y-plane đứng dọc, Z-plane coronal) giúp hiểu rõ không gian ba chiều của tổn thương (<strong>Hình 8, 9, 10</strong>).</li>
+      </ul>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/iq_fov_fig4_trapezoidal.jpg" alt="Chất lượng hình ảnh Hình 4 – Trường nhìn hình thang đánh giá u sợi tuyến 3 cm" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 4 – IMAGE QUALITY: TRAPEZOIDAL FOV.</strong> Trường nhìn hình thang đánh giá khối giảm âm 3 cm đa cung, song song, bờ rõ, tăng âm sau. FOV cài đặt chuẩn bao gồm cơ ngực nhưng không có phổi. Tiêu điểm đặt đúng vị trí u. GPB: U sợi tuyến (Trích nguyên tác trang 206).</figcaption>
+        </figure>
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/iq_fov_fig5_palpable_lump_rectangular_trapezoid_efov.jpg" alt="Chất lượng hình ảnh Hình 5 – So sánh trường nhìn chữ nhật, hình thang và EFOV" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 5 – IMAGE QUALITY: RECTANGULAR VS TRAPEZOIDAL VS EFOV.</strong> Khối sờ thấy 5 cm. Hình chữ nhật (A) bị giới hạn; hình thang (B) bộc lộ toàn vẹn khối; trường nhìn mở rộng EFOV (C) mang lại hình ảnh tương quan hoàn hảo của khối với mô xung quanh (Trích nguyên tác trang 207).</figcaption>
+        </figure>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/iq_fov_fig6_abscess_rectangular_vs_efov.jpg" alt="Chất lượng hình ảnh Hình 6 – EFOV bộc lộ toàn bộ ổ áp xe vú" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 6 – IMAGE QUALITY: EFOV IN BREAST ABSCESS.</strong> Hình chữ nhật (A) chỉ thấy một phần khối hỗn hợp có cặn di động. Hình EFOV (B) bộc lộ trọn vẹn toàn bộ phạm vi ổ tụ mủ áp xe ở bệnh nhân sau sinh bị viêm tuyến vú tái phát. GPB: Áp xe (Trích nguyên tác trang 208).</figcaption>
+        </figure>
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/iq_fov_fig7_panoramic_multiple_cysts.jpg" alt="Chất lượng hình ảnh Hình 7 – Quét toàn cảnh EFOV chuỗi đa nang tuyến vú" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 7 – IMAGE QUALITY: EFOV OF MULTIPLE CYSTS.</strong> Lát cắt toàn cảnh EFOV bộc lộ vô số nang đơn giản nằm rải rác bên trong vùng mô sợi tuyến, giúp bác sĩ nắm bắt nhanh chóng phân bố tổn thương (Trích nguyên tác trang 209).</figcaption>
+        </figure>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/iq_fov_fig8_volumetric_abus_planes.jpg" alt="Chất lượng hình ảnh Hình 8 – Tái tạo 3 mặt phẳng trực giao trên hệ thống ABUS" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 8 – ABUS VOLUMETRIC ACQUISITION.</strong> Hệ thống tự động 3D hiển thị mặt phẳng đứng dọc (trái), mặt phẳng coronal tái tạo (giữa) và mặt phẳng ngang (phải). Dấu chấm vàng biểu thị núm vú (Trích nguyên tác trang 209).</figcaption>
+        </figure>
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/iq_fov_fig9_granulomatous_mastitis_abus.jpg" alt="Chất lượng hình ảnh Hình 9 – Ổ mủ áp xe vô khuẩn trong viêm vú hạt trên ABUS" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 9 – ABUS IN GRANULOMATOUS MASTITIS.</strong> Khối tụ dịch mủ vô khuẩn được xác định trên 3 bình diện trực giao với tâm chữ thập. GPB: Viêm vú hạt (Granulomatous mastitis) (Trích nguyên tác trang 210).</figcaption>
+        </figure>
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/iq_fov_fig10_multiple_masses_abus.jpg" alt="Chất lượng hình ảnh Hình 10 – Khảo sát đa khối u trên ABUS thể tích" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 10 – ABUS LARGE FOV MULTIPLE MASSES.</strong> Tâm chữ thập giao tại khối bầu dục, bờ rõ, song song tại vị trí 12:00. Mặt phẳng coronal tái tạo mô sợi tuyến màu trắng và mô mỡ màu xám đậm (Trích nguyên tác trang 211).</figcaption>
+        </figure>
+      </div>
+
+      <h4 id="iq-focal-zone" class="font-bold text-slate-900 mt-6 mb-3">4. Vùng Hội tụ / Tiêu cự (Focal Zone)</h4>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Để phân biệt chính xác tổn thương, <strong>tiêu cự phải được đặt ở mức một phần ba trước-đến-giữa của vùng quan tâm, hoặc đặt ngay tại trung tâm/bờ sâu của tổn thương</strong>.
+      </p>
+      <div class="pitfalls my-6">
+        <h4 class="font-bold text-amber-900 mb-2 flex items-center gap-2">
+          <span>⚠️</span> CẠM BẪY XẢO ẢNH PHẢN XẠ GIẢ KHI ĐẶT SAI TIÊU CỰ
+        </h4>
+        <p class="text-sm text-slate-800 leading-relaxed">
+          Nếu tiêu điểm bị đặt không thích hợp ở vị trí sâu bên dưới khối u, chùm sóng âm chưa hội tụ ở lớp nông sẽ tạo ra <strong>các âm vang phản xạ giả (artifactual internal echoes) lấp đầy bên trong nửa trước của một nang trống âm hoàn toàn (Hình 1)</strong>! Điều này khiến nang đơn thuần bị chẩn đoán nhầm thành khối u đặc hoặc nang biến chứng. Khi chỉnh tiêu điểm về đúng giữa nang, tính chất trống âm thuần nhất được khẳng định ngay lập tức.
+        </p>
+      </div>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Việc cài đặt 2–3 tiêu điểm hoặc 1 tiêu điểm dải rộng sẽ tăng độ phân giải của mô trong vùng đó; tuy nhiên, nếu dùng quá 3 tiêu điểm trên các máy đời cũ, tốc độ khung hình (frame rate) sẽ bị chậm rõ rệt, cản trở việc quét thời gian thực (<strong>Hình 1–4</strong>).
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/iq_focal_fig1_cyst_internal_echoes_artifact.jpg" alt="Chất lượng hình ảnh Hình 1 – Tiêu điểm đặt sai tạo âm vang giả trong nang" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 1 – IMAGE QUALITY: FOCAL ZONE.</strong> Tiêu cự (biểu tượng XX) đặt sai bên dưới khối (A) tạo âm vang giả ở nửa trước nang. Khi đặt tiêu điểm đúng ở giữa nang (B), tính chất trống âm hoàn toàn không còn nghi ngờ (Trích nguyên tác trang 212).</figcaption>
+        </figure>
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/iq_focal_fig2_posterior_vs_anterior.jpg" alt="Chất lượng hình ảnh Hình 2 – Vị trí tiêu điểm ở tổn thương nông" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 2 – IMAGE QUALITY: FOCAL ZONE (NÔNG).</strong> Tiêu điểm đặt ở sau khối nông trong (A) và đặt ở mặt trước khối trong (B). Vị trí tiêu cự chuẩn giúp bộc lộ rõ đường bờ (Trích nguyên tác trang 213).</figcaption>
+        </figure>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/iq_focal_fig3_carcinoma_conspicuity.jpg" alt="Chất lượng hình ảnh Hình 3 – Tiêu cự ảnh hưởng đến độ rõ nét của ung thư" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 3 – IMAGE QUALITY: FOCAL ZONE (UNG THƯ).</strong> Vị trí đặt tiêu cự ảnh hưởng trực tiếp đến độ rõ nét và tính nổi bật của tổn thương ung thư. Đặt tiêu điểm lệch khỏi tổn thương (B) làm đường bờ trở nên kém sắc nét rõ rệt (Trích nguyên tác trang 214).</figcaption>
+        </figure>
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/iq_focal_fig4_abscess_focal_zone.jpg" alt="Chất lượng hình ảnh Hình 4 – Cài đặt tiêu cự trong ổ áp xe" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 4 – IMAGE QUALITY: FOCAL ZONE (ÁP XE).</strong> Tiêu điểm đặt tại mức trung tâm ổ tụ mủ giúp đánh giá thành phần dịch và các dải vách ngăn bên trong. GPB: Áp xe (Trích nguyên tác trang 215).</figcaption>
+        </figure>
+      </div>
+
+      <h4 id="iq-grayscale-gain" class="font-bold text-slate-900 mt-6 mb-3">5. Độ Khuếch đại Thang xám (Grayscale Gain)</h4>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Sóng siêu âm bị hấp thụ và suy giảm khi truyền vào các mô ở sâu. Tăng Gain thang xám giúp bù trừ sự suy giảm năng lượng này.
+      </p>
+      <div class="synthesis-box my-4">
+        <h5 class="font-bold text-indigo-950 text-xs uppercase mb-1">🎯 MỐC THAM CHIẾU CHUẨN XÁC CHO GAIN THANG XÁM</h5>
+        <p class="text-xs text-slate-800 leading-relaxed">
+          Gain thang xám phải được cài đặt sao cho nhu mô tuyến vú bình thường trải rộng trên toàn bộ dải sắc thái xám. <strong>Mốc tham chiếu chuẩn: Các thùy mỡ dưới da (subcutaneous fat lobules) BẮT BUỘC PHẢI CÓ MÀU XÁM TRUNG BÌNH (medium gray), TUYỆT ĐỐI KHÔNG ĐƯỢC CÓ MÀU ĐEN</strong>.
+        </p>
+      </div>
+
+      <div class="pitfalls my-6">
+        <h4 class="font-bold text-red-900 mb-2 flex items-center gap-2">
+          <span>🚨</span> NGUY HIỂM CHẾT NGƯỜI: CÀI ĐẶT GAIN QUÁ THẤP TRONG UNG THƯ VÚ TAM ÂM (TNBC)
+        </h4>
+        <p class="text-sm text-slate-800 leading-relaxed">
+          - <strong>Nếu Gain đặt quá cao:</strong> Mô vú chuyển thành màu trắng sáng, che lấp các tổn thương nhỏ và khiến các nang đơn giản trông giống như khối u đặc.<br />
+          - <strong>Nếu Gain đặt quá thấp:</strong> Mô mỡ dưới da chuyển sang màu đen thui. <strong>Hậu quả cực kỳ nguy hiểm là một khối u đặc rất giảm âm (đặc biệt là Ung thư vú thể tam âm - Triple Negative Breast Cancer / TNBC) sẽ bị biến thành cấu trúc trống âm (anechoic) và bị chẩn đoán nhầm thành nang đơn giản (Hình 2)</strong>!
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/iq_gain_fig1_simple_cyst_optimal_gain.jpg" alt="Chất lượng hình ảnh Hình 1 – Gain tối ưu cho nang đơn giản" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 1 – IMAGE QUALITY: GRAY SCALE GAIN (NANG).</strong> Nang đơn giản được khảo sát tối ưu với gain và tiêu điểm chuẩn. Trung tâm nang hoàn toàn trống âm, phân biệt rõ với mô mỡ và nhu mô màu xám trung bình xung quanh. Mũi tên chỉ xảo ảnh dội lại (reverberation) ở thành trước nang (Trích nguyên tác trang 216).</figcaption>
+        </figure>
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/iq_gain_fig2_triple_negative_gain_too_low.jpg" alt="Chất lượng hình ảnh Hình 2 – Gain quá thấp gây chẩn đoán nhầm ung thư vú tam âm" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 2 – IMAGE QUALITY: GAIN IN TRIPLE NEGATIVE CANCER.</strong> Hai bệnh nhân ung thư vú thể tam âm (TNBC). Ở hình (A), cài đặt Gain quá thấp không phù hợp khiến khối ung thư này trông như hoàn toàn trống âm (anechoic). Mô mỡ phải có màu xám như trong hình (B) để không chẩn đoán nhầm ung thư thành nang! (Trích nguyên tác trang 217).</figcaption>
+        </figure>
+      </div>
+
+      <h4 id="iq-compound-imaging" class="font-bold text-slate-900 mt-6 mb-3">6. Siêu âm Kết hợp Không gian (Spatial Compound Imaging) & Giảm Đốm nhiễu</h4>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Kỹ thuật kết hợp không gian (Spatial Compounding) điều khiển chùm sóng âm phát theo nhiều góc độ quét khác nhau để tạo thành một hình ảnh tổng hợp trung bình.
+      </p>
+      <ul class="text-sm text-slate-800 list-disc pl-5 mb-4 space-y-1">
+        <li><strong>Lợi ích vượt trội:</strong> Giảm nhiễu đốm (speckle reduction), triệt tiêu các xảo ảnh phản xạ nhiều lần (reverberation artifacts) ở thành trước nang (<strong>Hình 1</strong>), và làm sắc nét rõ rệt đường bờ của khối u cùng các xáo trộn cấu trúc mô đệm [6, 7].</li>
+        <li><strong>Đánh đổi kỹ thuật (Trade-off):</strong> <strong>Kỹ thuật này có thể làm suy giảm hoặc triệt tiêu bóng lưng âm học phía sau (Acoustic Shadowing)</strong> — vốn là một dấu hiệu gợi ý ác tính rất quan trọng (<strong>Hình 2 & 3</strong>). Hiện tượng tăng âm phía sau cũng có thể bị thu hẹp thành hình nón. Bác sĩ cần linh hoạt bật/tắt compound imaging khi cần đánh giá bóng lưng âm học.</li>
+      </ul>
+
+      <figure class="my-6">
+        <img src="/posts/birads-v2025-ultrasound-general/iq_compound_fig1_cyst_reverberation_elimination.jpg" alt="Chất lượng hình ảnh Hình 1 – Compound imaging triệt tiêu xảo ảnh dội lại trong nang" class="w-full h-auto rounded shadow" />
+        <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 1 – IMAGE QUALITY: COMPOUND IMAGING.</strong> Chế độ thông thường (A) thấy xảo ảnh dội lại ở thành trước nang (mũi tên). Kỹ thuật kết hợp không gian (B) triệt tiêu hoàn toàn xảo ảnh, giúp nang trở về trạng thái trống âm thuần khiết (Trích nguyên tác trang 218).</figcaption>
+      </figure>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/iq_compound_fig2_simple_cyst.jpg" alt="Chất lượng hình ảnh Hình 2 – Nang đơn giản lành tính trên Compound Imaging" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 2 – IMAGE QUALITY: COMPOUND IMAGING.</strong> Nang đơn giản lành tính không có bóng lưng âm học phía sau dưới chế độ siêu âm kết hợp không gian (Trích nguyên tác trang 219).</figcaption>
+        </figure>
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/iq_compound_fig3_loss_of_shadowing.jpg" alt="Chất lượng hình ảnh Hình 3 – Compound imaging làm suy giảm bóng lưng âm học sau khối u" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 3 – COMPOUND IMAGING & LOSS OF SHADOWING.</strong> Khối giảm âm có bờ không đều và bóng lưng sau rõ trên siêu âm thông thường (A). Khi bật kết hợp không gian (B), đường bờ trở nên sắc nét hơn nhưng bóng lưng âm học phía sau bị suy giảm đáng kể (Trích nguyên tác trang 219).</figcaption>
+        </figure>
+      </div>
+
+      <h3 id="section-i-c-labeling-measurement">C. Quy chuẩn Gán nhãn & Đo đạc Kích thước Tổn thương (Labeling and Measurement)</h3>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Việc gán nhãn chính xác và đo đạc chuẩn mực là bắt buộc theo Tiêu chuẩn Thực hành của ACR đối với siêu âm tuyến vú chẩn đoán [4] và các thủ thuật can thiệp vú dưới hướng dẫn siêu âm [8].
+      </p>
+
+      <h4 id="labeling-standards" class="font-bold text-slate-900 mt-6 mb-3">1. Chín Thông số Gán nhãn Bắt buộc trên Hình ảnh Siêu âm</h4>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Mỗi bức ảnh siêu âm lưu trong hồ sơ bệnh án bắt buộc phải chứa đầy đủ 9 thông số sau:
+      </p>
+      <ol class="list-decimal pl-5 space-y-1.5 text-sm text-slate-800 mb-4">
+        <li>Tên cơ sở y tế và địa điểm thực hiện (Facility name and location).</li>
+        <li>Ngày giờ thực hiện cuộc khám (Examination date).</li>
+        <li>Họ và tên đầy đủ của người bệnh (Patient's first and last name).</li>
+        <li>Mã số định danh y tế (ID) và/hoặc Ngày tháng năm sinh (Date of birth).</li>
+        <li>Chỉ định rõ bên vú: <strong>Vú Phải (Right - RT)</strong> hoặc <strong>Vú Trái (Left - LT)</strong>.</li>
+        <li>Vị trí giải phẫu theo quy ước mặt đồng hồ (Clock-face notation, làm tròn đến giờ gần nhất, ví dụ 2:00, 10:30) hoặc sơ đồ tuyến vú có đánh dấu.</li>
+        <li>Hướng quét của đầu dò: Nan hoa (Radial - Rad), Ngược nan hoa (Antiradial - ARad), Cắt ngang (Transverse - Trans), Cắt dọc (Sagittal - Sag), hoặc Chếch (Oblique).</li>
+        <li><strong>Khoảng cách từ núm vú đến tâm tổn thương tính bằng centimet (cm from nipple - FN):</strong> Đo từ núm vú làm mốc chuẩn (không đo từ bờ quầng vú vì quầng vú biến thiên rất lớn). <em>Làm tròn lên hoặc xuống đến số nguyên centimet gần nhất (ví dụ 1 cm FN, 4 cm FN) để tránh tạo ảo tưởng sai lầm về độ chính xác cơ học</em>.</li>
+        <li>Mã số, chữ ký viết tắt hoặc ký hiệu định danh của kỹ thuật viên siêu âm và/hoặc bác sĩ đọc kết quả.</li>
+      </ol>
+
+      <h4 id="measurement-rules" class="font-bold text-slate-900 mt-6 mb-3">2. Quy tắc Đo đạc Kích thước Ba Chiều Trực giao</h4>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        - <strong>Quy chuẩn làm tròn số:</strong> Khi sử dụng đơn vị cm, làm tròn không quá một chữ số thập phân (ví dụ: 0.45–0.49 cm làm tròn thành 0.5 cm; 2.43 cm làm tròn thành 2.4 cm). Khi sử dụng đơn vị mm, bắt buộc ghi số nguyên (ví dụ: 12.4 mm làm tròn thành 12 mm). Bắt buộc sử dụng thống nhất một loại đơn vị trong toàn bộ bản báo cáo.<br />
+        - <strong>Ba kích thước trực giao:</strong> Khi có thể, phải cung cấp 3 kích thước của tổn thương. Kích thước lớn nhất biểu thị <strong>trục dài nhất của tổn thương (longest axis)</strong>. Kích thước thứ hai định hướng vuông góc với trục thứ nhất. Kích thước thứ ba được đo trên mặt cắt vuông góc 90 độ so với hai kích thước ban đầu (<strong>Sơ đồ trực giao bên dưới</strong>).
+      </p>
+
+      <figure class="my-6">
+        <img src="/posts/birads-v2025-ultrasound-general/measuring_diagram_orthogonal_planes.jpg" alt="Sơ đồ đo đạc 3 chiều trực giao của tổn thương" class="w-full h-auto rounded shadow" />
+        <figcaption class="mt-2 text-xs text-slate-600"><strong>DIAGRAM – THREE ORTHOGONAL MEASUREMENTS.</strong> Sơ đồ nguyên tắc đo đạc 3 chiều trực giao: (A) Hình ảnh ban đầu tìm trục dài nhất; (B) Xoay đầu dò 90 độ đo chiều trực giao thứ ba: Trên - Dưới (Superior - Inferior), Ngoài - Trong (Lateral - Medial), Trước - Sau (Anterior - Posterior) (Trích nguyên tác trang 220).</figcaption>
+      </figure>
+
+      <div class="pitfalls my-6">
+        <h4 class="font-bold text-amber-900 mb-2 flex items-center gap-2">
+          <span>⚠️</span> SAI LẦM PHỔ BIẾN KHI ĐO KHỐI U NẰM CHẾCH
+        </h4>
+        <p class="text-sm text-slate-800 leading-relaxed">
+          Đối với các khối u hoặc nang nằm chếch góc, <strong>thước đo phải được đặt theo trục thực tế dài nhất của khối rồi kẻ đường vuông góc (Hình 1A). TUYỆT ĐỐI KHÔNG ĐƯỢC lấy khung hình chữ nhật của màn hình máy siêu âm làm mốc để đo chiều ngang và chiều dọc (Hình 1B)</strong> vì sẽ bóp méo hoàn toàn kích thước thực tế của tổn thương!
+        </p>
+      </div>
+
+      <figure class="my-6">
+        <img src="/posts/birads-v2025-ultrasound-general/measuring_fig1_longest_axis_vs_box.jpg" alt="Quy chuẩn đo đạc Hình 1 – Đo theo trục dài nhất so với đo theo khung hình sai lầm" class="w-full h-auto rounded shadow" />
+        <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 1 – LABELING AND MEASUREMENT.</strong> Đo đạc đa chiều của một nang nằm chếch: Hình (A) đo chuẩn xác bằng cách tìm trục dài nhất của khối rồi đo kích thước vuông góc với trục đó. Hình (B) đo sai hoàn toàn khi lấy khung hình chữ nhật của màn hình làm hệ quy chiếu (Trích nguyên tác trang 221).</figcaption>
+      </figure>
+
+      <h4 id="measurement-pseudocapsule-vs-rind" class="font-bold text-slate-900 mt-6 mb-3">3. Phân biệt Sống còn: Vỏ Giả (Pseudocapsule) vs Viền Tăng Âm (Echogenic Rind / Halo)</h4>
+      <div class="synthesis-box my-4">
+        <h5 class="font-bold text-indigo-950 text-xs uppercase mb-1">⚖️ NGUYÊN TẮC ĐO ĐẠC ĐỈNH CAO CỦA ACR BI-RADS 2025</h5>
+        <div class="space-y-2 text-xs text-slate-800 leading-relaxed">
+          <p>
+            <strong>1. Đối với Khối lành tính bờ rõ (chuyển tiếp đột ngột - như U sợi tuyến):</strong><br />
+            Phép đo <strong>chỉ bao gồm phần lõi giảm âm (hypoechoic portion)</strong>. Tuyệt đối <em>KHÔNG đo viền tăng âm mỏng bao quanh</em> (<strong>Hình 2 - trái</strong>) vì viền này thực chất là <strong>vỏ giả (pseudocapsule)</strong> đại diện cho mô lành xung quanh bị khối u chèn ép sinh lý.
+          </p>
+          <p>
+            <strong>2. Đối với Khối nghi ngờ ác tính có bờ không rõ hoặc tua gai (chuyển tiếp nhòe mờ):</strong><br />
+            Tổn thương thường đi kèm một <strong>viền tăng âm dày (echogenic rind)</strong> chứa các dải tua gai tỏa ra mô xung quanh. Phép đo trên siêu âm <strong>BẮT BUỘC PHẢI BAO GỒM CẢ PHẦN GIẢM ÂM TRUNG TÂM VÀ VIỀN TĂNG ÂM XUNG QUANH (Hình 2 - phải & Hình 3)</strong>!
+          </p>
+          <p>
+            <strong>Cơ sở khoa học:</strong> Các nghiên cứu giải phẫu bệnh [9, 10] chứng minh rằng viền tăng âm này chính là vùng <strong>phản ứng xơ hóa mô đệm (desmoplastic reaction) đi kèm sự xâm lấn của các tế bào ung thư</strong>. Nếu chỉ đo phần giảm âm trung tâm, kích thước khối u sẽ bị đánh giá thấp hơn thực tế từ 2 mm đến hơn 5 mm, làm sai lệch giai đoạn T (TNM staging) và diện cắt phẫu thuật tồn dư ung thư!
+          </p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/measuring_fig2_pseudocapsule_vs_echogenic_rind.jpg" alt="Quy chuẩn đo đạc Hình 2 – So sánh vỏ giả của u sợi tuyến và viền tăng âm của ung thư" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 2 – PSEUDOCAPSULE VS ECHOGENIC RIND.</strong> Bên trái: U sợi tuyến có bờ rõ, đo chỉ lấy phần giảm âm, không đo vỏ giả mỏng (mũi tên). Bên phải: Khối không đều có viền tăng âm tua gai, phép đo bắt buộc phải gồm cả khối giảm âm và viền tăng âm để dự báo chính xác kích thước mô bệnh học (Trích nguyên tác trang 221).</figcaption>
+        </figure>
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/measuring_fig3_echogenic_rind_prediction.jpg" alt="Quy chuẩn đo đạc Hình 3 – Đo bao gồm viền tăng âm tương quan tốt nhất với GPB" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 3 – MEASURING ECHOGENIC RIND.</strong> Khối ung thư giảm âm không đều. (A) Đo bao gồm cả u và viền tăng âm cho kích thước tương quan chuẩn xác nhất với GPB. (B) Thể hiện sự chênh lệch: nếu chỉ đo lõi giảm âm, kích thước bị hụt mất khoảng 2 mm (Trích nguyên tác trang 222).</figcaption>
+        </figure>
+      </div>
+
+      <h3 id="section-i-d-documentation">D. Quy tắc Ghi nhận & Lưu trữ Hồ sơ Siêu âm (Documentation)</h3>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Việc lưu trữ hồ sơ siêu âm cần đảm bảo tính chặt chẽ về pháp lý nhưng đồng thời phải tối ưu hóa thời gian và tài nguyên lưu trữ của cơ sở y tế:
+      </p>
+
+      <h4 id="doc-cysts-nodes-masses" class="font-bold text-slate-900 mt-6 mb-3">1. Quy chuẩn cho Nang, Hạch trong Tuyến vú và Đa khối U lành tính</h4>
+      <ul class="text-sm text-slate-800 list-disc pl-5 mb-4 space-y-2">
+        <li><strong>Khi có nhiều nang (Multiple Cysts):</strong> Các hình ảnh đại diện là đủ. Không cần thiết phải lưu ảnh và đo đạc từng nang một trên hai mặt cắt; <strong>chỉ cần đo nang lớn nhất ở mỗi bên vú theo trục dài nhất là đủ tiêu chuẩn</strong>. Nếu siêu âm nhằm giải quyết một bất thường cụ thể trên nhũ ảnh hoặc vị trí sờ thấy khối lâm sàng, nang đó bắt buộc phải được đo 3 chiều đầy đủ.</li>
+        <li><strong>Nang đơn độc không triệu chứng tình cờ phát hiện khi siêu âm tầm soát:</strong> Nếu bác sĩ quyết định mô tả trong kết quả (đánh giá lành tính Category 2), chỉ cần lưu 1 hình ảnh theo trục dài nhất. Nếu bác sĩ không mô tả vào kết quả (đánh giá âm tính Category 1), không bắt buộc phải lưu hình ảnh.</li>
+        <li><strong>Lưu ý vị trí đuôi nách:</strong> Nang có thể xuất hiện ở đuôi nách hoặc mô vú phụ trong hố nách; tuy nhiên, tổn thương dạng nang ở vị trí này cần đặc biệt cảnh giác chẩn đoán phân biệt với <strong>hạch di căn hoại tử dịch</strong>! Khảo sát Doppler màu và siêu âm đàn hồi (elastography) giúp khẳng định tính chất nang đơn giản hoàn toàn trống âm, không có dòng chảy.</li>
+        <li><strong>Hạch trong tuyến vú (Intramammary Lymph Nodes):</strong> Một hạch trong tuyến vú lành tính điển hình, không triệu chứng, được quan sát thấy tình cờ không bắt buộc phải lưu ảnh hồ sơ.</li>
+        <li><strong>Đa khối u đặc hai bên (Multiple Bilateral Solid Masses):</strong> Xếp <strong>Category 2 (Lành tính)</strong> nếu tất cả các khối đều có hình thái tương tự nhau và mang tính chất lành tính điển hình [11, 12]. Nếu bác sĩ muốn ghi nhận tất cả, báo cáo nên ở dạng danh sách gồm: vị trí giờ, khoảng cách núm vú và 3 kích thước trực giao (<strong>Hình 1</strong>). Khi có nhiều u ở cùng một vùng, ghi nhận thêm độ sâu từ da đến tâm khối u.</li>
+      </ul>
+
+      <figure class="my-6">
+        <img src="/posts/birads-v2025-ultrasound-general/documentation_fig1_abus_multiple_masses_list.jpg" alt="Lưu trữ hồ sơ Hình 1 – Tài liệu hóa đa khối u hai bên trên ABUS" class="w-full h-auto rounded shadow" />
+        <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 1 – DOCUMENTATION: MULTIPLE MASSES.</strong> Mặt cắt coronal của vú phải (A) và vú trái (B) trên hệ thống ABUS tự động bộc lộ vô số khối bờ rõ hai bên. Lát cắt axial ở góc trên phải của (B) và lát cắt sagittal ở góc dưới phải. Tâm chữ thập tương ứng vị trí tổn thương. Bảng danh mục liệt kê giờ, khoảng cách núm vú và độ sâu giúp hồ sơ ngắn gọn, minh bạch (Trích nguyên tác trang 224).</figcaption>
+      </figure>
+
+      <h4 id="doc-image-storage-standards" class="font-bold text-slate-900 mt-6 mb-3">2. Quy chuẩn Lưu trữ Hình ảnh Hai Hướng Vuông góc</h4>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Đối với bất kỳ tổn thương bất thường nào cần theo dõi hoặc can thiệp, cơ sở y tế bắt buộc phải lưu trữ:
+      </p>
+      <ul class="text-sm text-slate-800 list-disc pl-5 mb-4 space-y-1">
+        <li><strong>Hai hình ảnh vuông góc nhau:</strong> Gồm 1 hình ảnh có đặt thước đo kích thước (calipers) và 1 hình ảnh nguyên bản KHÔNG có vạch thước đo (để quan sát trọn vẹn đường bờ tổn thương và các xảo ảnh âm học phía sau không bị che khuất).</li>
+        <li>Hình ảnh video vòng lặp (cine loop) nếu hệ thống PACS cho phép lưu trữ để đối chiếu động học.</li>
+      </ul>
+
+      <h3 id="section-i-e-handheld-vs-abus">E. Siêu âm Cầm tay vs Siêu âm 3D Tự động (ABUS) & Bác sĩ vs Kỹ thuật viên (Handheld vs. Automated)</h3>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Những hạn chế cố hữu của nhũ ảnh ở phụ nữ có mô tuyến vú đặc (dense breasts) đã dẫn đến sự gia tăng mạnh mẽ của việc chỉ định siêu âm tầm soát trong thập kỷ qua. Cẩm nang BI-RADS 2025 cập nhật chỉ định: <strong>Siêu âm toàn bộ tuyến vú như một công cụ tầm soát bổ sung (supplemental screening tool) có thể được cân nhắc cho phụ nữ có mô tuyến vú đặc không đồng nhất (heterogeneously dense) hoặc cực kỳ đặc (extremely dense), phụ nữ có nguy cơ ung thư vú tích lũy suốt đời cao (&ge; 20%) không thể chụp được MRI tuyến vú hoặc những người khó tiếp cận với dịch vụ MRI</strong> [13].
+      </p>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Các thử nghiệm lâm sàng đa trung tâm tiền cứu quy mô lớn như <strong>ACRIN 6666, J-START và ASTOUND</strong> đã kết luận nhất quán: việc bổ sung siêu âm tầm soát giúp tăng đáng kể tỷ lệ phát hiện các ung thư vú xâm lấn kích thước nhỏ, hạch nách âm tính so với nhũ ảnh đơn thuần ở phụ nữ có vú đặc, mặc dù có đi kèm với sự gia tăng tỷ lệ dương tính giả [14–16].
+      </p>
+
+      <h4 id="abus-cdr-evidence" class="font-bold text-slate-900 mt-6 mb-3">1. Bằng chứng Tỷ lệ Phát hiện Ung thư (Cancer Detection Rate - CDR)</h4>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Siêu âm cầm tay (HHUS) có thể do bác sĩ chẩn đoán hình ảnh hoặc kỹ thuật viên thực hiện. Tổng quan công bố năm 2019 [17] phân tích kết quả trên hàng trăm ngàn lượt khám cho thấy kết cục lâm sàng tương đương nhau:
+      </p>
+      <ul class="text-sm text-slate-800 list-disc pl-5 mb-4 space-y-1">
+        <li><strong>Bác sĩ thực hiện siêu âm cầm tay (361.502 ca):</strong> Tỷ lệ phát hiện ung thư bổ sung trung bình (Incremental CDR) đạt <strong>2.0 ca ung thư / 1.000 phụ nữ</strong> được tầm soát.</li>
+        <li><strong>Kỹ thuật viên thực hiện siêu âm cầm tay (64.018 ca):</strong> Đạt <strong>2.7 ca ung thư / 1.000 phụ nữ</strong> được tầm soát.</li>
+        <li><strong>Siêu âm tự động toàn vú ABUS (27.163 ca):</strong> Đạt <strong>2.5 ca ung thư / 1.000 phụ nữ</strong> được tầm soát.</li>
+      </ul>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Hệ thống ABUS tự động giải phóng bác sĩ khỏi việc quét máy kéo dài, lưu trữ toàn bộ dữ liệu thể tích vú để bác sĩ đọc phim sau đó độc lập với thời gian thu nhận hình ảnh.
+      </p>
+
+      <h4 id="abus-retraction-phenomenon" class="font-bold text-slate-900 mt-6 mb-3">2. Hiện tượng Co kéo (Retraction Phenomenon) trên Mặt phẳng Coronal ABUS 3D</h4>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Hệ thống siêu âm tự động 3D có năng lực tái tạo mặt phẳng trán (coronal view) độc nhất vô nhị. <strong>Khi xuất hiện trên mặt phẳng coronal tái tạo, mẫu hình xáo trộn cấu trúc dạng co kéo (retraction phenomenon) mang tính đặc trưng và có giá trị dự báo ác tính cực kỳ cao (PPV rất cao)</strong> [18].
+      </p>
+      <div class="synthesis-box my-4">
+        <h5 class="font-bold text-indigo-950 text-xs uppercase mb-1">🔬 BẢN CHẤT GIẢI PHẪU BỆNH CỦA HIỆN TƯỢNG CO KÉO (RETRACTION PHENOMENON)</h5>
+        <p class="text-xs text-slate-800 leading-relaxed">
+          Mẫu hình này xuất hiện dưới dạng <strong>các đường giảm âm tỏa tia vuông góc và hội tụ vào một khối giảm âm trung tâm</strong>, đại diện cho sự xâm lấn vi thể của tế bào ung thư vào mô xung quanh. Đi kèm dấu hiệu này là một <strong>viền tăng âm bao quanh (surrounding echogenic rind)</strong> biểu hiện cho phản ứng xơ hóa mô đệm (desmoplastic reaction) (<strong>Hình 1 & 2</strong>). Dấu hiệu co kéo này trên mặt phẳng coronal của ABUS tương đương với hình ảnh xáo trộn cấu trúc tua gai trên phim cắt lớp nhũ ảnh 3D (DBT)!
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/abus_screening_fig1_retraction_phenomenon.jpg" alt="ABUS Hình 1 – Hiện tượng co kéo trên bình diện coronal 3D" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 1 – AUTOMATED SCREENING ULTRASOUND: RETRACTION PHENOMENON.</strong> Bệnh nhân vú đặc tầm soát bổ sung bằng ABUS. Các hình ảnh coronal 3D liên tiếp bộc lộ khối giảm âm không đều kèm viền tăng âm và xáo trộn cấu trúc. Hiện tượng co kéo gắn liền với viền tăng âm (mũi tên) có giá trị dự báo ác tính rất cao (Trích nguyên tác trang 226).</figcaption>
+        </figure>
+        <figure>
+          <img src="/posts/birads-v2025-ultrasound-general/abus_screening_fig2_coronal_and_axial_idc.jpg" alt="ABUS Hình 2 – Khối ung thư xâm lấn trên mặt phẳng coronal và axial" class="w-full h-auto rounded shadow" />
+          <figcaption class="mt-2 text-xs text-slate-600"><strong>Figure 2 – ABUS SCREENING: INVASIVE DUCTAL CARCINOMA.</strong> Ảnh coronal 3D (A) thấy khối giảm âm ở tâm chữ thập. Ảnh EFOV axial tương ứng (B) thấy khối giảm âm bờ đa cung nhỏ không có biến đổi âm học sau. GPB: Ung thư biểu mô tuyến ống xâm lấn độ mô học trung bình (Trích nguyên tác trang 226).</figcaption>
+        </figure>
+      </div>
+
+      <div class="pitfalls my-6">
+        <h4 class="font-bold text-red-900 mb-2 flex items-center gap-2">
+          <span>🚨</span> NGUYÊN TẮC PHÁP LÝ TỐI THƯỢNG CỦA BI-RADS 2025: PHÂN LOẠI ABUS TẦM SOÁT
+        </h4>
+        <div class="space-y-2 text-xs text-slate-800 leading-relaxed">
+          <p>
+            <strong>QUY TẮC BẮT BUỘC: Bất kỳ phát hiện nghi ngờ hoặc chưa xác định rõ nào trên cuộc khám siêu âm tầm soát (dù là ABUS hay siêu âm cầm tay HHUS) BẮT BUỘC PHẢI ĐƯỢC XẾP CATEGORY 0 (INCOMPLETE)!</strong>
+          </p>
+          <p>
+            Bệnh nhân phải được <strong>gọi lại (recall) để làm siêu âm chẩn đoán cầm tay khu trú (focused diagnostic handheld ultrasound)</strong>. Bệnh nhân có thể được làm siêu âm chẩn đoán ngay trong ngày; tuy nhiên, cuộc khám thứ hai được tính là một cuộc khám chẩn đoán độc lập và cả hai cuộc khám bắt buộc phải có mã phân loại đánh giá riêng biệt để phục vụ công tác kiểm toán chất lượng (Audit).
+          </p>
+          <p class="font-bold text-red-700">
+            CHỈ CÁC MÃ BI-RADS 0, 1 HOẶC 2 MỚI ĐƯỢC PHÉP GÁN CHO CUỘC KHÁM SIÊU ÂM TẦM SOÁT. TUYỆT ĐỐI KHÔNG BAO GIỜ GÁN MÃ CATEGORY 3, 4 HOẶC 5 TRỰC TIẾP TRÊN MỘT CUỘC KHÁM SIÊU ÂM TẦM SOÁT!
+          </p>
+        </div>
+      </div>
+
+      <h3 id="us-technical-matrix">Bảng Ma trận Đối chiếu Kỹ thuật Siêu âm Tuyến vú BI-RADS® 2025</h3>
+      <p class="text-sm text-slate-800 leading-relaxed mb-4">
+        Dưới đây là bảng tổng hợp các thông số kỹ thuật tối ưu hóa máy siêu âm tuyến vú theo khuyến chuẩn ACR BI-RADS® v2025 và giải pháp xử lý xảo ảnh:
+      </p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-xs border-collapse">
+          <thead>
+            <tr class="bg-indigo-900 text-white font-bold">
+              <th class="border border-indigo-700 p-2.5 text-left">Thông số Kỹ thuật</th>
+              <th class="border border-indigo-700 p-2.5 text-left">Cài đặt Tối ưu (Optimal Setting)</th>
+              <th class="border border-indigo-700 p-2.5 text-left">Hậu quả Cài đặt Sai (Suboptimal Setting)</th>
+              <th class="border border-indigo-700 p-2.5 text-left">Hành động Khắc phục Chuẩn hóa</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 bg-white text-slate-800">
+            <tr class="hover:bg-slate-50">
+              <td class="border border-slate-300 p-2 font-bold text-indigo-950">1. Đầu dò (Transducer)</td>
+              <td class="border border-slate-300 p-2">Linear mảng phẳng dải rộng <strong>&ge; 12–18 MHz</strong></td>
+              <td class="border border-slate-300 p-2">Tần số thấp (&lt; 10 MHz) làm mất độ phân giải không gian, mờ bờ khối, sót vi vôi hóa</td>
+              <td class="border border-slate-300 p-2">Luôn ưu tiên tần số cao nhất có thể đạt được độ xuyên thấu đến cơ ngực lớn</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="border border-slate-300 p-2 font-bold text-indigo-950">2. Áp lực Nén (Pressure)</td>
+              <td class="border border-slate-300 p-2">Nén vừa đủ để làm mỏng mô và xóa bóng lưng giả dây chằng Cooper trên B-mode</td>
+              <td class="border border-slate-300 p-2">Ép quá nhẹ tạo bóng lưng giả; Ép quá mạnh trên Doppler làm đè xẹp vi mạch máu khối u</td>
+              <td class="border border-slate-300 p-2">Ép thích hợp khi làm B-mode; Quét tiếp xúc nhẹ nhàng tối đa khi làm Doppler màu</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="border border-slate-300 p-2 font-bold text-indigo-950">3. Trường nhìn (FOV & Depth)</td>
+              <td class="border border-slate-300 p-2">Bao trọn từ Da đến Cơ ngực lớn (mô vú chiếm <strong>&ge; 75%</strong> chiều sâu màn hình)</td>
+              <td class="border border-slate-300 p-2">Đặt quá sâu lấy cả phổi/xương sườn làm thu nhỏ tổn thương; Đặt quá nông bỏ sót khối sâu</td>
+              <td class="border border-slate-300 p-2">Chỉnh độ sâu vừa chạm bờ trước cơ ngực lớn; Dùng Trapezoid hoặc EFOV cho u &gt; 3 cm</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="border border-slate-300 p-2 font-bold text-indigo-950">4. Vùng Tiêu cự (Focal Zone)</td>
+              <td class="border border-slate-300 p-2">Đặt tại tâm hoặc bờ sâu của tổn thương (1–2 tiêu điểm tối ưu)</td>
+              <td class="border border-slate-300 p-2">Tiêu điểm đặt sâu dưới nang tạo phản âm giả trong nang; Đặt quá nhiều tiêu điểm làm tụt frame rate</td>
+              <td class="border border-slate-300 p-2">Đưa tiêu điểm ngang mức trung tâm khối nghi ngờ để đạt độ phân giải ngang tối đa</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="border border-slate-300 p-2 font-bold text-indigo-950">5. Gain Thang xám (Grayscale Gain)</td>
+              <td class="border border-slate-300 p-2">Mỡ dưới da có màu <strong>xám trung bình (medium gray)</strong>; Nang đơn giản trống âm hoàn toàn</td>
+              <td class="border border-slate-300 p-2">Gain quá cao làm mờ u; Gain quá thấp làm mỡ đen thui và ung thư vú tam âm bị nhầm thành nang</td>
+              <td class="border border-slate-300 p-2">Lấy thùy mỡ dưới da làm mốc chuẩn chỉnh Gain: không bao giờ để mỡ có màu đen</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="border border-slate-300 p-2 font-bold text-indigo-950">6. Compound Imaging</td>
+              <td class="border border-slate-300 p-2">Quét chùm tia đa góc giảm nhiễu đốm, làm sắc nét đường bờ tổn thương</td>
+              <td class="border border-slate-300 p-2">Làm suy giảm hoặc triệt tiêu bóng lưng âm học phía sau (Acoustic Shadowing) của khối ác tính</td>
+              <td class="border border-slate-300 p-2">Linh hoạt tắt/bật kết hợp không gian khi cần kiểm tra bóng lưng âm học phía sau</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="key-points my-6">
+        <h4 class="font-bold text-emerald-900 mb-2 flex items-center gap-2">
+          <span>🌟</span> 10 ĐIỂM CỐT LÕI CẦN NHỚ (KEY TAKEAWAYS)
+        </h4>
+        <ol class="list-decimal pl-5 space-y-2 text-xs text-slate-800">
+          <li><strong>Bảo vệ Nụ tuyến vú dậy thì (Pubertal bud):</strong> Vùng giảm âm sau núm vú ở bé gái dậy thì là mầm mô vú bình thường; tuyệt đối cấm sinh thiết hoặc phẫu thuật cắt bỏ vì sẽ làm vú ngừng phát triển hoàn toàn.</li>
+          <li><strong>Tiêu chuẩn Hạch nách bình thường:</strong> Không có giới hạn kích thước trên nếu bề dày vỏ hạch duy trì &le; 3 mm và rốn hạch giàu mỡ tăng âm cân xứng hai bên.</li>
+          <li><strong>Định vị đối chiếu bằng Tầng lớp Giải phẫu:</strong> Xác định tổn thương ở lớp mỡ dưới da, vùng mô sợi tuyến, hay lớp mỡ sau tuyến là mốc tin cậy nhất để tìm tổn thương từ nhũ ảnh/MRI sang siêu âm.</li>
+          <li><strong>Mốc tham chiếu Gain chuẩn mực:</strong> Lớp mỡ dưới da bắt buộc phải hiển thị màu xám trung bình (medium gray), không bao giờ được phép có màu đen.</li>
+          <li><strong>Cạm bẫy Ung thư vú tam âm (TNBC):</strong> TNBC thường có phản âm rất giảm âm; nếu cài Gain quá thấp sẽ làm khối trông như trống âm thuần nhất và bị nhầm thành nang đơn giản.</li>
+          <li><strong>Kỹ thuật Doppler màu:</strong> Chỉ tiếp xúc đầu dò nhẹ nhàng; tuyệt đối không ấn mạnh vì sẽ đè xẹp vi mạch máu dòng chảy chậm của khối u ác tính.</li>
+          <li><strong>Đo trục dài nhất của khối:</strong> Đo theo trục giải phẫu dài nhất thực tế của tổn thương rồi kẻ đường vuông góc; không đo theo khung hình chữ nhật của màn hình máy siêu âm.</li>
+          <li><strong>Bắt buộc đo Viền Tăng Âm (Echogenic Rind) của khối ác tính:</strong> Phép đo phải bao gồm cả lõi giảm âm và viền tăng âm xung quanh vì viền này đại diện cho phản ứng xơ hóa mô đệm và tế bào u xâm lấn, tương quan chính xác nhất với kích thước giải phẫu bệnh.</li>
+          <li><strong>Hiện tượng Co kéo (Retraction Phenomenon) trên ABUS:</strong> Mẫu hình các dải giảm âm tỏa tia hội tụ trên mặt phẳng coronal tái tạo 3D của ABUS là dấu hiệu có giá trị dự báo ác tính rất cao.</li>
+          <li><strong>Quy tắc Phân loại ABUS Tầm soát:</strong> Phát hiện nghi ngờ trên siêu âm tầm soát chỉ được xếp Category 0 (Incomplete) để gọi lại làm siêu âm chẩn đoán; tuyệt đối cấm gán Category 3, 4, 5 trực tiếp từ cuộc khám tầm soát.</li>
+        </ol>
+      </div>
+
+      <div class="pitfalls my-6">
+        <h4 class="font-bold text-red-900 mb-2 flex items-center gap-2">
+          <span>🚨</span> 8 CẠM BẪY LÂM SÀNG NGUY HIỂM NHẤT TRONG SIÊU ÂM TUYẾN VÚ
+        </h4>
+        <ol class="list-decimal pl-5 space-y-1.5 text-xs text-slate-800">
+          <li><strong>Cạm bẫy cắt bỏ nụ tuyến vú dậy thì:</strong> Nhầm lẫn nụ tuyến sinh lý sau núm vú ở bé gái dậy thì thành khối u xơ/u diệp thể cần cắt bỏ, hủy hoại vĩnh viễn sự phát triển vú của trẻ.</li>
+          <li><strong>Cạm bẫy bỏ sót ung thư vú tam âm do Gain quá thấp:</strong> Đặt gain quá thấp biến khối u đặc ác tính giảm âm thành cấu trúc "trống âm" giả tạo giống nang đơn thuần.</li>
+          <li><strong>Cạm bẫy đè xẹp mạch máu trên Doppler màu:</strong> Ấn đầu dò quá mạnh làm biến mất hoàn toàn tín hiệu tưới máu của khối u ác tính.</li>
+          <li><strong>Cạm bẫy xảo ảnh âm phản xạ giả trong nang do đặt sai tiêu cự:</strong> Đặt tiêu điểm sâu dưới nang tạo ra các chấm phản âm giả ở nửa trước nang, khiến nang đơn thuần bị chẩn đoán nhầm thành u đặc.</li>
+          <li><strong>Cạm bẫy mất bóng lưng âm học khi dùng Compound Imaging:</strong> Quá lạm dụng siêu âm kết hợp chùm tia làm xóa sạch bóng lưng sau — che lấp dấu hiệu ác tính kinh điển của ung thư thể ống xâm lấn.</li>
+          <li><strong>Cạm bẫy đo thiếu kích thước ung thư do bỏ qua Viền Tăng Âm:</strong> Chỉ đo phần lõi giảm âm mà bỏ qua viền tăng âm (echogenic rind) khiến kích thước u trên siêu âm bị hụt 2–5 mm so với giải phẫu bệnh thực tế, gây nguy cơ cắt không sạch diện mổ.</li>
+          <li><strong>Cạm bẫy nhầm lẫn nang đuôi nách với hạch di căn hoại tử:</strong> Khối dạng nang nằm cao ở đuôi nách hoặc hố nách phải luôn cảnh giác cao độ với hạch hoại tử dịch của ung thư di căn.</li>
+          <li><strong>Cạm bẫy xếp Category 4 trực tiếp trên ABUS tầm soát:</strong> Bỏ qua bước gọi lại (recall) làm siêu âm chẩn đoán cầm tay mà chỉ định sinh thiết trực tiếp từ ảnh ABUS tầm soát, vi phạm nghiêm trọng quy chuẩn kiểm toán chất lượng BI-RADS.</li>
+        </ol>
+      </div>
+
+    `,
+    views: 1820,
+    readTime: "25 phút đọc",
+    source: "ACR BI-RADS® Ultrasound v2025 Manual (pp. 190-226)",
+    tags: ["BI-RADS 2025", "Siêu âm tuyến vú", "Ultrasound", "Giải phẫu tuyến vú", "Chất lượng hình ảnh", "ABUS", "Đo đạc siêu âm", "Viền tăng âm", "Co kéo"]
+  },
 ];
