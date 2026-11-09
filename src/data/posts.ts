@@ -4583,4 +4583,776 @@ export const POSTS: Post[] = [
     source: "ACR BI-RADS® Ultrasound v2025 Manual (pp. 190-226)",
     tags: ["BI-RADS 2025", "Siêu âm tuyến vú", "Ultrasound", "Giải phẫu tuyến vú", "Chất lượng hình ảnh", "ABUS", "Đo đạc siêu âm", "Viền tăng âm", "Co kéo"]
   },
+  {
+    id: "post-radiographics-2026-nonthrombotic-pulmonary-artery-embolism",
+    title: "Các bộ mặt đa dạng của Thuyên tắc Động mạch Phổi không do Huyết khối (Nonthrombotic Pulmonary Artery Embolism – NTPE)",
+    slug: "cac-bo-mat-da-dang-cua-thuyen-tac-dong-mach-phoi-khong-do-huyet-khoi-ntpe",
+    date: "09 Tháng 11, 2026",
+    updatedDate: "09 Tháng 11, 2026",
+    author: "Anupama Ramachandran, MD; Mark M. Hammer, MD; Rachna Madan, MD (RadioGraphics 2026 – Biên dịch: CĐHA Cập Nhật)",
+    categories: ["Ngực", "Cắt lớp vi tính", "CT", "CT Mạch máu phổi", "Thuyên tắc phổi", "NTPE", "RadioGraphics"],
+    categorySlugs: ["nguc", "ct", "thuyen-tac-phoi", "ntpe"],
+    modality: "CT",
+    specialty: "Ngực",
+    specialtySlug: "nguc",
+    coverImage: "/posts/nonthrombotic-pulmonary-embolism/cover_ntpe.jpg",
+    excerpt: "Tổng quan chuyên sâu từ RSNA RadioGraphics (2026) về Thuyên tắc Động mạch Phổi không do Huyết khối (NTPE): Phân tích chi tiết cơ chế bệnh sinh, hình ảnh học CTPA, DECT, PCCT, PET/CT và xạ hình V/Q của 4 nhóm nguyên nhân lớn (nhiễm trùng, tân sinh/sarcoma ĐM phổi, can thiệp/dị vật ngoại sinh, thuyên tắc mỡ và nước ối) cùng 4 bảng tra cứu đối chiếu và 20 ca bệnh thực chiến.",
+    content: [
+      "Thuyên tắc động mạch phổi không do huyết khối (NTPE) là tình trạng tắc nghẽn các nhánh động mạch phổi bởi các vật liệu không phải cục máu đông thông thường, bao gồm tế bào u, vi sinh vật, mỡ, dịch ối, khí và dị vật ngoại sinh.",
+      "Khác với thuyên tắc huyết khối thường (bland PE), NTPE kích hoạt chuỗi phản ứng viêm nội mô và độc tế bào, đòi hỏi các chiến lược điều trị đặc hiệu theo từng nguyên nhân thay vì chỉ dùng thuốc chống đông.",
+      "RadioGraphics hệ thống hóa 4 nhóm bệnh lý cốt lõi, ma trận phân biệt Sarcoma động mạch phổi (PAS) với huyết khối thường, nhận diện thuyên tắc vi u (PTTM) và phân tích các xảo ảnh dòng chảy dạng khói trên CTPA."
+    ],
+    htmlContent: `
+
+      <div class="synthesis-box">
+        <h4 class="font-bold text-indigo-900 mb-2 flex items-center gap-2">
+          <span>🎯</span> TÓM TẮT NỘI DUNG THEN CHỐT
+        </h4>
+        <p class="text-sm text-slate-700 leading-relaxed">
+          Bài tổng quan toàn diện từ tạp chí danh tiếng <em>RadioGraphics (RSNA 2026)</em> của các chuyên gia Chẩn đoán Hình ảnh Lồng ngực thuộc Bệnh viện Brigham and Women's – Trường Y Harvard: Phân tích chuyên sâu về <strong>Thuyên tắc động mạch phổi không do huyết khối (Nonthrombotic Pulmonary Artery Embolism – NTPE)</strong>. Khác với thuyên tắc huyết khối thường (bland PE), NTPE hình thành do các vật liệu không phải cục máu đông như vi sinh vật, tế bào u, mỡ, khí, nước ối, thiết bị nội mạch hoặc tá dược ngoại sinh. Bài viết hệ thống hóa toàn bộ phổ bệnh học, 4 bảng tra cứu đối chiếu then chốt, 20 ca bệnh hình ảnh học đa phương tiện (CTPA, DECT, PCCT, PET/CT, V/Q scan) và các dấu hiệu phân biệt sống còn giúp bác sĩ CĐHA tránh chẩn đoán nhầm lẫn với thuyên tắc huyết khối thông thường hoặc tăng áp động mạch phổi mạn tính (CTEPH).
+        </p>
+      </div>
+
+      <div class="editorial-box">
+        <h4 class="font-bold text-sky-900 mb-2 flex items-center gap-2">
+          <span>📖</span> Bối cảnh biên dịch & Lời tòa soạn: RadioGraphics 2026 – Các bộ mặt đa dạng của Thuyên tắc Động mạch Phổi không do Huyết khối (NTPE)
+        </h4>
+        <p class="text-sm text-slate-700 leading-relaxed">
+          Trong thực hành lâm sàng CĐHA lồng ngực khẩn cấp, phần lớn các trường hợp khuyết thuốc cản quang lòng động mạch phổi trên CTPA được chẩn đoán là thuyên tắc huyết khối (Thrombotic PE) và điều trị thường quy bằng thuốc chống đông. Tuy nhiên, một nhóm bệnh lý nguy hiểm và thường bị chẩn đoán muộn là <strong>Thuyên tắc động mạch phổi không do huyết khối (NTPE)</strong>. Việc nhận diện chính xác bản chất của vật liệu thuyên tắc có ý nghĩa sống còn vì phác đồ điều trị hoàn toàn khác biệt: kháng sinh đường tĩnh mạch cho thuyên tắc nhiễm trùng, phẫu thuật bóc tách và hóa trị cho sarcoma động mạch phổi hoặc thuyên tắc u, hồi sức hỗ trợ chuyên sâu cho thuyên tắc mỡ và nước ối, hoặc can thiệp nội mạch lấy dị vật.
+        </p>
+        <p class="text-sm text-slate-700 leading-relaxed mt-2">
+          Quy ước trình bày: Toàn bộ nội dung dịch nguyên văn từ bài báo gốc được hiển thị với <strong>chữ đen trên nền trắng tiêu chuẩn</strong>; các khung tổng hợp lời tòa soạn, 5 điểm giảng dạy cốt lõi (Teaching Points), ma trận phân biệt và cạm bẫy thực hành được đóng khung màu riêng biệt để người đọc dễ dàng nhận biết và kiểm chứng. Toàn bộ 20 hình ảnh ca bệnh độ nét cao nguyên bản được cắt sạch sẽ, không dính chữ thừa, tích hợp phóng to toàn màn hình kèm chú giải tiếng Việt chi tiết.
+        </p>
+      </div>
+
+      <div class="teaching-points my-6 p-5 rounded-2xl bg-amber-50/80 border border-amber-200">
+        <h4 class="font-bold text-amber-900 mb-3 flex items-center gap-2 text-base">
+          <span>💡</span> TEACHING POINTS: 5 ĐIỂM GIẢNG DẠY CỐT LÕI (RADIO GRAPHICS)
+        </h4>
+        <ul class="list-disc pl-5 space-y-2 text-sm text-slate-800 leading-relaxed">
+          <li><strong>Ổ nhồi máu trong thuyên tắc nhiễm trùng (Septic Emboli):</strong> Kinh điển tiến triển thành hoại tử trung tâm, dẫn đến các nốt tổn thương tạo hang (cavitation). Hiện tượng tạo hang cũng có thể xuất hiện trong nhồi máu do huyết khối thường (bland PE), nhưng cực kỳ hiếm gặp.</li>
+          <li><strong>Dấu hiệu then chốt gợi ý Sarcoma động mạch phổi (PAS) hơn là Huyết khối PE:</strong> Bao gồm tổn thương khuyết thuốc một bên choán toàn bộ lòng thân chính hoặc nhánh gốc động mạch phổi; phình giãn khẩu kính động mạch liên quan kèm tổn thương thâm nhiễm thành mạch và <em>dấu hiệu che khuất thành mạch (wall-eclipsing sign)</em>; cùng khối choán chỗ tồn tại dai dẳng hoặc tăng kích thước dù đã điều trị kháng đông đầy đủ.</li>
+          <li><strong>Độ hấp thu FDG biến thiên của Sarcoma động mạch phổi:</strong> PAS có thể có mức độ bắt thuốc rất thay đổi trên FDG PET/CT dựa trên mức độ biệt hóa mô học, khiến cho tính chất ái lực FDG (FDG avidity) không phải là chỉ dấu tin cậy tuyệt đối để loại trừ hoặc khẳng định tính chất ác tính.</li>
+          <li><strong>Phân biệt Thuyên tắc u (Tumor Embolism) với Huyết khối thường:</strong> Cực kỳ thách thức. Ba dấu hiệu hình ảnh hữu ích giúp hướng tới thuyên tắc u gồm: (1) Giãn và có dạng chuỗi hạt các động mạch phổi ngoại vi (<em>dấu hiệu nụ trên cành dạng mạch máu - vascular tree-in-bud sign</em>) trong thuyên tắc vi thể; (2) Ngấm thuốc cản quang không đồng nhất của khuyết thuốc trong thuyên tắc đại thể; và (3) Tổn thương khuyết thuốc không thoái triển khi theo dõi hình ảnh dù đã điều trị kháng đông kéo dài.</li>
+          <li><strong>Bệnh phổi do tá dược (Excipient Lung Disease - ELD):</strong> CT ngực độ phân giải cao điển hình cho thấy các vi nốt trung tâm tiểu thùy lan tỏa (&lt; 3 mm), có hoặc không kèm theo các dấu hiệu tăng áp động mạch phổi và suy tim phải.</li>
+        </ul>
+      </div>
+
+      <h2 id="gioi-thieu-tong-quan">1. Giới thiệu tổng quan (Introduction)</h2>
+      <p>
+        <strong>Thuyên tắc động mạch phổi không do huyết khối (Nonthrombotic Pulmonary Artery Embolism – NTPE)</strong> là tình trạng tắc nghẽn các nhánh động mạch phổi bởi các vật liệu thuyên tắc không phải là cục máu đông đơn thuần (bland thrombus), chẳng hạn như các mảnh mô tế bào, vi sinh vật, dịch ối, mỡ, chất khí, hoặc các dị vật ngoại sinh. Mặc dù NTPE ít gặp hơn so với thuyên tắc huyết khối tĩnh mạch (1), bệnh lý này đi kèm với tỷ lệ mắc bệnh và tỷ lệ tử vong đáng kể. Tỷ lệ hiện mắc thực sự trong cộng đồng vẫn chưa được xác định chắc chắn, do NTPE bao gồm một nhóm bệnh lý rất không đồng nhất và thường xuyên bị bỏ sót hoặc chẩn đoán dưới mức trong thực hành lâm sàng.
+      </p>
+      <p>
+        Tương tự như thuyên tắc phổi do huyết khối (PE), NTPE có thể dẫn đến tắc nghẽn một phần hoặc toàn bộ tuần hoàn động mạch phổi. Tuy nhiên, cơ chế sinh bệnh học của NTPE vượt xa sự tắc nghẽn cơ học đơn thuần của các nhánh mạch máu: tình trạng này thường đi kèm với <strong>tổn thương nội mô vi mạch</strong> và kích hoạt một <strong>chuỗi phản ứng viêm miễn dịch toàn thân và tuần hoàn phổi</strong> dữ dội, tùy thuộc vào bản chất lý hóa và sinh học của tác nhân thuyên tắc (1,2). NTPE có thể bắt nguồn từ rất nhiều chất liệu, vật liệu và mô có nguồn gốc nội sinh (sinh học) hoặc ngoại sinh (Bảng 1). Biểu hiện lâm sàng và đặc điểm hình ảnh thay đổi sâu sắc theo từng nguyên nhân cụ thể.
+      </p>
+
+      <div class="my-6 overflow-x-auto">
+        <table class="w-full text-left border-collapse border border-slate-300 text-sm">
+          <caption class="text-base font-bold text-slate-900 mb-2 text-left">Bảng 1: Các nguyên nhân gây Thuyên tắc Động mạch Phổi không do Huyết khối (Causes of NTPE)</caption>
+          <thead class="bg-slate-100 text-slate-800 font-bold border-b border-slate-300">
+            <tr>
+              <th class="p-3 border border-slate-300 w-1/3">Nhóm bệnh lý</th>
+              <th class="p-3 border border-slate-300">Các thực thể và tác nhân cụ thể</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 text-slate-800 bg-white">
+            <tr>
+              <td class="p-3 font-semibold bg-slate-50 border border-slate-300">Các thực thể Nhiễm trùng<br/><span class="text-xs font-normal text-slate-500">(Infectious entities)</span></td>
+              <td class="p-3 border border-slate-300">
+                <ul class="list-disc pl-5 space-y-1">
+                  <li><strong>Thuyên tắc nhiễm trùng (Septic embolism):</strong> Vi khuẩn (Staphylococcus aureus, Streptococcus), vi nấm (Candida, Aspergillus, Mucor).</li>
+                  <li><strong>Thuyên tắc ký sinh trùng (Parasitic emboli):</strong> Giun đũa (<em>Ascaris lumbricoides</em>), Nang sán hydatid (<em>Echinococcus granulosus</em>), Sán máng (<em>Schistosoma mansoni</em>).</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold bg-slate-50 border border-slate-300">Các thực thể Tân sinh<br/><span class="text-xs font-normal text-slate-500">(Neoplastic entities)</span></td>
+              <td class="p-3 border border-slate-300">
+                <ul class="list-disc pl-5 space-y-1">
+                  <li><strong>Sarcoma động mạch phổi nguyên phát (Primary PAS):</strong> Sarcoma nội mạc (intimal sarcoma), Leiomyosarcoma mạch máu.</li>
+                  <li><strong>Thuyên tắc u di căn (Metastatic tumor embolism):</strong> Thuyên tắc đại thể hoặc thuyên tắc vi thể (PTTM).</li>
+                  <li><strong>Xâm lấn trực tiếp từ ung thư phổi</strong> vào các nhánh mạch máu trung tâm.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold bg-slate-50 border border-slate-300">Thực thể do can thiệp y khoa & Tác nhân ngoại sinh<br/><span class="text-xs font-normal text-slate-500">(Iatrogenic & exogenous)</span></td>
+              <td class="p-3 border border-slate-300">
+                <ul class="list-disc pl-5 space-y-1">
+                  <li><strong>Thiết bị nội mạch (Intravascular devices):</strong> Đoạn gãy catheter tĩnh mạch trung tâm, dây máy tạo nhịp tim (pacemaker lead), vòng xoắn kim loại gây tắc mạch (embolization coils).</li>
+                  <li><strong>"Cục máu nóng" Fluorodeoxyglucose (FDG "hot clot" artifact)</strong> trên PET/CT.</li>
+                  <li><strong>Thuyên tắc xi măng sinh học (Cement embolization)</strong> sau tạo hình đốt sống qua da (vertebroplasty/kyphoplasty).</li>
+                  <li><strong>Dầu iod (Iodinated oil)</strong> sau chụp bạch mạch CT (CT lymphangiography) hoặc TACE.</li>
+                  <li><strong>Thuyên tắc khí (Air embolism):</strong> Do thủ thuật tĩnh mạch trung tâm hoặc giải áp.</li>
+                  <li><strong>Bột talc (Talc)</strong> và <strong>Keo sinh học (Glue - cyanoacrylate)</strong> sau điều trị xơ búi giãn tĩnh mạch.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold bg-slate-50 border border-slate-300">Các thực thể Hỗn hợp khác<br/><span class="text-xs font-normal text-slate-500">(Miscellaneous entities)</span></td>
+              <td class="p-3 border border-slate-300">
+                <ul class="list-disc pl-5 space-y-1">
+                  <li><strong>Hội chứng thuyên tắc mỡ (Fat embolism syndrome - FES):</strong> Sau gãy xương dài, chấn thương khung chậu hoặc phẫu thuật chỉnh hình.</li>
+                  <li><strong>Thuyên tắc nước ối (Amniotic fluid embolization):</strong> Tai biến sản khoa tối khẩn cấp trong chuyển dạ.</li>
+                  <li><strong>Bệnh phổi do tá dược (Excipient lung disease - ELD):</strong> Viêm u hạt do tiêm chích viên thuốc uống nghiền nát (chứa bột talc, cellulose vi tinh thể, tinh bột, crospovidone).</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        Chẩn đoán lâm sàng của NTPE có thể cực kỳ nan giải. Bệnh nhân có thể xuất hiện với các triệu chứng âm thầm, tiến triển chậm tại các phòng khám ngoại trú; ví dụ: bệnh nhân thuyên tắc vi u mạch máu phổi (microscopic tumor embolism) có thể chỉ biểu hiện khó thở tăng dần bán cấp kèm các dấu hiệu của tăng áp động mạch phổi. Ngược lại, bệnh nhân có thể biểu hiện kịch phát dưới bệnh cảnh <strong>Hội chứng suy hô hấp cấp tiến triển (ARDS)</strong> tối cấp; ví dụ: bệnh nhân thuyên tắc mỡ (FES) hoặc thuyên tắc nước ối (1). Biểu hiện cấp tính đe dọa tính mạng này thường là hậu quả trực tiếp của tổn thương phổi do phản ứng sinh hóa, miễn dịch và độc tính tế bào từ các thành phần nội mạch bị tắc nghẽn phóng thích ra.
+      </p>
+      <p>
+        Các xét nghiệm cận lâm sàng trong NTPE thường ghi nhận <strong>nồng độ D-dimer tăng cao</strong>, tuy nhiên chỉ số này hoàn toàn không đặc hiệu và thường dẫn đến việc chẩn đoán nhầm thành thuyên tắc huyết khối cấp tính (Acute PE) ở thời điểm nhập viện ban đầu. Ở những bệnh nhân có biểu hiện âm thầm kéo dài, tổn thương rất dễ bị chẩn đoán nhầm là <em>Tăng áp động mạch phổi do huyết khối thuyên tắc mạn tính (CTEPH)</em> – một chẩn đoán phân biệt then chốt khác. Những thách thức chẩn đoán hình ảnh cốt lõi và nguyên nhân bệnh học cơ bản được tóm lược chi tiết trong Bảng 2.
+      </p>
+
+      <div class="my-6 overflow-x-auto">
+        <table class="w-full text-left border-collapse border border-slate-300 text-sm">
+          <caption class="text-base font-bold text-slate-900 mb-2 text-left">Bảng 2: Những Thách thức Chẩn đoán Hình ảnh trong NTPE (Diagnostic Challenges in Imaging NTPE)</caption>
+          <thead class="bg-slate-100 text-slate-800 font-bold border-b border-slate-300">
+            <tr>
+              <th class="p-3 border border-slate-300 w-1/3">Thách thức chẩn đoán</th>
+              <th class="p-3 border border-slate-300">Mô tả và Cơ chế bệnh sinh</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 text-slate-800 bg-white">
+            <tr>
+              <td class="p-3 font-semibold bg-slate-50 border border-slate-300">Xét nghiệm D-dimer không giúp phân biệt</td>
+              <td class="p-3 border border-slate-300">
+                NTPE do các tác nhân ngoại sinh có thể không kích hoạt chuỗi phản ứng đông máu hay tiêu sợi huyết; do đó, nồng độ D-dimer thường hoàn toàn bình thường trong các bệnh cảnh này.<br/>
+                Mặt khác, D-dimer có thể tăng rất cao trong các nguyên nhân như hội chứng thuyên tắc mỡ (FES) và thuyên tắc nước ối, nhưng sự gia tăng này mang tính phản ứng viêm không đặc hiệu và không giúp phân biệt được với PE do huyết khối thông thường.
+              </td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold bg-slate-50 border border-slate-300">Khởi phát muộn kéo dài<br/><span class="text-xs font-normal text-slate-500">(Delayed presentation)</span></td>
+              <td class="p-3 border border-slate-300">
+                Sự di chuyển qua lòng mạch của các vật liệu ngoại sinh không sinh học (nonbiologic exogenous materials) tạo ra thách thức lớn, bởi vì sự di chuyển và tắc nghẽn thứ phát có thể diễn ra từ nhiều tuần, nhiều tháng, thậm chí nhiều năm sau can thiệp ban đầu.
+              </td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold bg-slate-50 border border-slate-300">Bị che lấp bởi thuốc cản quang iod trên CT<br/><span class="text-xs font-normal text-slate-500">(Obscuration by contrast material)</span></td>
+              <td class="p-3 border border-slate-300">
+                Ở nhiều dạng thuyên tắc đại thể ngoại sinh (nonbiologic macroembolism), vật liệu tắc nghẽn có tỷ trọng tự nhiên rất cao (hyperattenuating, như xi măng sinh học PMMA, kim loại) và có thể hoàn toàn không bị phát hiện do bị che lấp bởi thuốc cản quang iod sáng chói trong lòng mạch máu. Do đó, các tổn thương này được nhận diện tốt nhất trên <strong>cửa sổ xương (bone windows)</strong> hoặc trên <strong>chuỗi ảnh ảo không tiêm thuốc (virtual noncontrast - VNC)</strong> của CT hai mức năng lượng (DECT).
+              </td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold bg-slate-50 border border-slate-300">Thuyên tắc vi thể "vô hình" trong lòng mạch<br/><span class="text-xs font-normal text-slate-500">(Invisible microemboli)</span></td>
+              <td class="p-3 border border-slate-300">
+                Trong các trường hợp thuyên tắc vi thể (như mỡ, dịch ối, mảnh vụn xương, tế bào u vi mô, u hạt talc), bản thân vật liệu thuyên tắc nằm trong các tiểu động mạch và mao mạch nhỏ nên không thể nhìn thấy trực tiếp trên hình ảnh CT mạch máu. Vì vậy, việc chẩn đoán hoàn toàn phụ thuộc vào sự tổng hợp chính xác giữa <strong>các dấu hiệu tổn thương nhu mô phổi thứ phát</strong> với bệnh sử lâm sàng toàn diện.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        Trong khi thuyên tắc huyết khối cấp tính (Acute PE) được điều trị chuẩn mực bằng thuốc chống đông và CTEPH được chỉ định phẫu thuật bóc nội mạc động mạch phổi (pulmonary endarterectomy - PEA), thì việc điều trị NTPE hoàn toàn phụ thuộc vào nguyên nhân gốc rễ: ví dụ, điều trị hỗ trợ nội khoa tích cực cho hội chứng thuyên tắc mỡ (FES) và kháng sinh phổ rộng đường tĩnh mạch cho thuyên tắc nhiễm trùng. Ở bệnh nhân thuyên tắc u hoặc sarcoma động mạch phổi (PAS), phác đồ bắt buộc phải phối hợp giữa kiểm soát bệnh ác tính nguyên phát (hóa trị, xạ trị và phẫu thuật triệt căn) kết hợp với thuốc chống đông vì những bệnh nhân này có xu hướng rất cao hình thành huyết khối thường thứ phát bám trên bề mặt khối u. Điều này một lần nữa khẳng định tầm quan trọng sống còn của việc chẩn đoán sớm và chính xác.
+      </p>
+
+      <h2 id="cac-phuong-tien-chan-doan-hinh-anh">2. Các Phương tiện Chẩn đoán Hình ảnh (Imaging Modalities)</h2>
+      <p>
+        <strong>X-quang ngực (Chest Radiography):</strong> Thường là phương tiện hình ảnh đầu tay được chỉ định để thăm dò các triệu chứng hô hấp. X-quang ngực có thể đủ để xác lập chẩn đoán đối với một số trường hợp NTPE do các vật liệu cản quang cao, chẳng hạn như đoạn catheter đứt gãy, dây máy tạo nhịp tim di lệch, xi măng tạo hình đốt sống, hoặc dầu iod. Tuy nhiên, các dấu hiệu X-quang thường không đặc hiệu ở đa số các nguyên nhân NTPE khác. Với các tổn thương thuyên tắc đại thể vùng trung tâm, X-quang có thể bộc lộ hình ảnh giãn lớn động mạch phổi trung tâm (<em>dấu hiệu Fleischner - Fleischner sign</em>), vùng tăng sáng vô mạch ngoại vi do giảm tưới máu (<em>dấu hiệu Westermark - Westermark sign</em>), hoặc đám mờ hình chêm đáy tựa màng phổi do nhồi máu (<em>dấu hiệu bướu Hampton - Hampton hump</em>), tương tự như mô tả trong PE do huyết khối (3). Trên thực tế lâm sàng, vai trò quan trọng hàng đầu của X-quang ngực là loại trừ các nguyên nhân đau ngực và khó thở thường gặp khác, chẳng hạn như viêm phổi và tràn khí màng phổi.
+      </p>
+      <p>
+        <strong>Cắt lớp vi tính Động mạch phổi (CT Pulmonary Angiography - CTPA):</strong> Là phương tiện hình ảnh trụ cột và là tiêu chuẩn chăm sóc hiện nay cho cả PE và NTPE. Tương tự như trong PE, sự hiện diện của <strong>khuyết thuốc cản quang trong lòng mạch (intraluminal filling defects)</strong> tại các nhánh động mạch phổi được coi là dấu hiệu trực tiếp của NTPE. Các dấu hiệu gián tiếp (thứ phát) bao gồm:
+      </p>
+      <ul class="list-disc pl-5 space-y-1.5 text-slate-800">
+        <li><strong>Dấu hiệu nhu mô:</strong> Các ổ nhồi máu phổi (thường là đám đông đặc hình chêm ở ngoại vi, đáy tựa màng phổi, tương đối nghèo hình ảnh khí phế quản đồ và có thể xuất hiện <em>dấu hiệu halo đảo ngược - reverse halo sign</em>). Dải kính mờ xung quanh có thể xuất hiện do thành phần xuất huyết từ các nhánh động mạch phế quản còn thông suốt. Nhánh mạch máu dẫn trực tiếp vào trung tâm nốt hoặc đám đông đặc — được gọi là <em>dấu hiệu mạch máu nuôi (feeding vessel sign)</em> — rất thường gặp, đặc biệt trong thuyên tắc nhiễm trùng và thuyên tắc u.</li>
+        <li><strong>Dấu hiệu tưới máu:</strong> Tình trạng giảm tưới máu khu trú dẫn đến hình ảnh <em>tưới máu dạng khảm (mosaic perfusion pattern)</em>.</li>
+        <li><strong>Dấu hiệu mạch máu:</strong> Thay đổi khẩu kính, phình giãn nở rộng các mạch máu bị tổn thương và các dấu hiệu quá tải, căng giãn thất phải (right heart strain).</li>
+      </ul>
+
+      <p>
+        <strong>Cắt lớp vi tính hai mức năng lượng (DECT) và CT đếm photon (PCCT):</strong> Việc chụp hình với các máy CT hai mức năng lượng (Dual-Energy CT - DECT) và CT đếm photon (Photon-Counting CT - PCCT) giúp nâng cao vượt bậc năng lực chẩn đoán của CTPA. DECT thu nhận hình ảnh ở hai mức năng lượng khác nhau (thường là kVp cao và thấp), cho phép phân tích và phân định chính xác bản chất vật liệu. PCCT là bước tiến công nghệ đầu thu mang tính đột phá gần đây, cho phép chụp phổ đa mức năng lượng với độ phân giải không gian siêu cao (4). Cả DECT và PCCT đều có thể tái tạo chuỗi <strong>ảnh ảo không tiêm thuốc (Virtual Noncontrast - VNC)</strong> và <strong>bản đồ phân bố iod (Iodine distribution maps)</strong>:
+      </p>
+      <ul class="list-disc pl-5 space-y-1.5 text-slate-800">
+        <li>Ảnh ảo không tiêm thuốc (VNC), tạo ra bằng cách triệt tiêu thuật toán tín hiệu của iod, cho phép đánh giá vượt trội các vật liệu ngoại sinh tăng tỷ trọng tự nhiên (như xi măng sinh học hoặc dị vật kim loại) mà không bị thuốc cản quang lòng mạch che khuất.</li>
+        <li>Bản đồ phân bố iod phản ánh nồng độ iod tương đối trong nhu mô phổi sau khi tiêm thuốc và có thể được sử dụng như một chỉ số đại diện (surrogate) cho tình trạng tưới máu phổi. Bản đồ thể tích máu phổi (Pulmonary Blood Volume - PBV) trên DECT cung cấp thông tin chức năng tưới máu song hành cùng các hình ảnh giải phẫu kinh điển của CTPA. Các vùng giảm tưới máu trong PE và NTPE biểu hiện dưới dạng các ổ khuyết tưới máu rõ nét trên các bản đồ này (5,6).</li>
+      </ul>
+
+      <p>
+        <strong>Xạ hình Thông khí - Tưới máu phổi (V/Q Scintigraphy):</strong> Là kỹ thuật kinh điển đã được khẳng định vững chắc trong chẩn đoán PE (7) và chủ yếu được chỉ định khi bệnh nhân có chống chỉ định với CTPA, chẳng hạn như suy thận nặng hoặc tiền sử dị ứng trầm trọng với thuốc cản quang chứa iod (8). Trong NTPE cũng như PE, xạ hình V/Q có thể phát hiện các ổ khuyết tưới máu trong khi thông khí vẫn được bảo tồn hoàn toàn, được gọi là <strong>khiếm khuyết bất tương xứng (mismatched defects)</strong>. Ví dụ: các khuyết tưới máu dạng phân thùy có thể bắt nguồn từ thuyên tắc vi mạch do u (9), và các khiếm khuyết tưới máu bất tương xứng cũng được ghi nhận kinh điển trong sarcoma nội mạc động mạch phổi (10).
+      </p>
+      <p>
+        <strong>Chụp Động mạch phổi qua catheter thông thường (Conventional Catheter Pulmonary Angiography):</strong> Từng được coi là tiêu chuẩn tham chiếu vàng lịch sử để chứng minh khuyết thuốc lòng mạch. Tuy nhiên, do tính chất xâm lấn, kỹ thuật này hiện nay không còn được chỉ định thường quy để chẩn đoán đơn thuần, mà chỉ dành riêng cho những ca bệnh có kết quả CTPA không thể kết luận chắc chắn hoặc khi đã có kế hoạch can thiệp nội mạch điều trị.
+      </p>
+
+
+      <h2 id="pho-hinh-anh-nhiem-trung">3. Phổ Biểu hiện Hình ảnh: Các Thực thể Nhiễm trùng (Infectious Entities)</h2>
+      
+      <h3 id="thuyen-tac-nhiem-trung">3.1. Thuyên tắc nhiễm trùng (Septic Embolism)</h3>
+      <p>
+        <strong>Thuyên tắc nhiễm trùng (Septic embolism)</strong> đại diện cho tình trạng thuyên tắc của một cục huyết khối có chứa các vi sinh vật sống (vi khuẩn hoặc vi nấm). Bệnh cảnh lâm sàng điển hình xuất hiện với sốt cao và cần phải luôn được cảnh giác nghi ngờ ở những bệnh nhân có nhiễm khuẩn huyết, nhiễm trùng liên quan đến catheter tĩnh mạch lưu trú, viêm nội tâm mạc nhiễm khuẩn, hoặc tiền sử tiêm chích ma túy (11).
+      </p>
+      <p>
+        Phim X-quang ngực ở giai đoạn sớm có thể hoàn toàn bình thường. Khi bệnh tiến triển, xuất hiện các nốt mờ ngoại vi ở hai bên phổi, thường tiến triển tạo hang (cavitation) ở các giai đoạn tiến hóa khác nhau (12).
+      </p>
+      <p>
+        Các dấu hiệu CT ngực đặc trưng của thuyên tắc nhiễm trùng bao gồm các <strong>nốt tổn thương đa ổ ở hai bên phổi hoặc các ổ nhồi máu</strong>, thường phân bố nhiều hơn ở các thùy dưới do ưu thế dòng máu tưới. Kích thước các ổ tổn thương rất khác nhau, phản ánh từng đợt giải phóng cục thuyên tắc lặp đi lặp lại (repeated embolic shower). Ban đầu, tổn thương biểu hiện dưới dạng các đám đông đặc hình chêm ở ngoại vi, đáy tựa sát màng phổi kèm theo <em>dấu hiệu quầng sáng (halo sign)</em> hoặc <em>dấu hiệu halo đảo ngược (reverse halo sign)</em> (13,14). Sau đó, quầng sáng mờ dần và các tổn thương gom lại thành các nốt rõ rệt.
+      </p>
+      <p>
+        Các ổ nhồi máu trong thuyên tắc nhiễm trùng kinh điển sẽ <strong>tiến triển hoại tử trung tâm, dẫn đến các nốt tạo hang (cavitation)</strong> (Hình 1). Hiện tượng tạo hang cũng có thể xuất hiện trong nhồi máu do huyết khối thường (bland PE), nhưng cực kỳ hiếm gặp (15). Trong đa số các trường hợp thuyên tắc nhiễm trùng, không thể nhìn thấy trực tiếp khuyết thuốc cản quang trong lòng động mạch trên CT vì các ổ thuyên tắc nằm ở mao mạch vi thể; tuy nhiên, đôi khi một <strong>mảnh sùi lớn từ van tim</strong> có thể bong ra và di chuyển vào các nhánh động mạch phổi lớn, dễ dàng nhận diện trên CT mạch máu và thường gây nhồi máu phổi diện rộng dạng phân thùy hoặc thùy (Hình 2).
+      </p>
+      <p>
+        Chẩn đoán phân biệt của các nốt phổi tạo hang bao gồm: di căn phổi tạo hang (cavitary metastases), u hạt kèm viêm đa mạch (granulomatosis with polyangiitis - GPA), viêm phổi do nấm, và các nốt hoại tử vô khuẩn (necrobiotic nodules) gặp trong viêm khớp dạng thấp hoặc bệnh lý viêm ruột mạn tính (IBD).
+      </p>
+
+      <div class="my-6">
+        <figure class="my-4">
+          <img src="/posts/nonthrombotic-pulmonary-embolism/figure1_septic_emboli.jpg" alt="Hình 1 – Thuyên tắc nhiễm trùng ở nam giới 30 tuổi với các nốt tạo hang và dấu hiệu reverse halo" class="w-full h-auto rounded-xl shadow-md" />
+          <figcaption class="mt-2 text-xs text-slate-600 leading-relaxed">
+            <strong>Hình 1. Thuyên tắc nhiễm trùng (Septic embolism) được chẩn đoán ở một nam bệnh nhân 30 tuổi.</strong> Hình ảnh CT ngực cửa sổ nhu mô lớp cắt ngang cho thấy các ổ nhồi máu phổi ở nhiều giai đoạn tiến triển khác nhau. Có nhiều nốt tổn thương ngoại vi hai bên (các mũi tên), một số nốt bắt đầu hoại tử tạo hang (mũi tên nét đứt ở A). Một ổ nhồi máu ngoại vi hình chêm mang <em>dấu hiệu halo đảo ngược (reverse halo sign)</em> (vòng elip ở A) hiện diện tại thùy dưới phổi trái.
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="my-6">
+        <figure class="my-4">
+          <img src="/posts/nonthrombotic-pulmonary-embolism/figure2_tricuspid_vegetation.jpg" alt="Hình 2 – Mảnh sùi lớn van ba lá thuyên tắc động mạch phổi ở bệnh nhân nữ 51 tuổi" class="w-full h-auto rounded-xl shadow-md" />
+          <figcaption class="mt-2 text-xs text-slate-600 leading-relaxed">
+            <strong>Hình 2. Mảnh sùi lớn van tim thuyên tắc vào các nhánh động mạch phổi ở bệnh nhân nữ 51 tuổi có tiền sử nhiễm HIV, nhiễm khuẩn huyết tái diễn, viêm nội tâm mạc van ba lá nhân tạo do nấm Candida parapsilosis và tràn dịch màng phổi khu trú.</strong> (A) Hình ảnh CT có tiêm thuốc cản quang lát cắt ngang cho thấy một ổ khuyết thuốc rất lớn (mũi tên) nằm trong thân động mạch phổi phải lan tới động mạch thùy dưới phổi phải, dẫn đến một ổ nhồi máu lớn (*) tại thùy dưới phổi phải. (B) Hình CT cửa sổ nhu mô phổi khẳng định ổ nhồi máu lớn (*). (C) Hình CT ngực lát cắt ngang qua tim bộc lộ khối sùi lớn bám trên van ba lá (các mũi tên) thò vào buồng tống thất phải (RVOT).
+          </figcaption>
+        </figure>
+      </div>
+
+      <p>
+        Quản lý và điều trị thuyên tắc nhiễm trùng tập trung cốt lõi vào việc kiểm soát ổ nhiễm trùng gốc bằng kháng sinh hoặc kháng nấm thích hợp. Các biến chứng nặng nề như <strong>mủ màng phổi (empyema)</strong> và <strong>tràn khí màng phổi tự phát</strong> có thể phát sinh nhanh chóng, do vị trí tổn thương nằm sát màng phổi tạng và bản chất hoại tử tạo hang của các ổ nhồi máu. X-quang ngực đóng vai trò hữu ích trong việc theo dõi sát sự tiến triển của các ổ nhồi máu và phát hiện kịp thời các biến chứng màng phổi trong suốt quá trình điều trị kháng vi sinh.
+      </p>
+
+      <h3 id="thuyen-tac-ky-sinh-trung">3.2. Thuyên tắc ký sinh trùng (Parasitic Emboli)</h3>
+      <p>
+        Bệnh giun đũa (gây bởi <em>Ascaris lumbricoides</em>), bệnh sán máng (gây bởi <em>Schistosoma mansoni</em>), và bệnh nang sán hydatid (gây bởi <em>Echinococcus granulosus</em>) là các nhiễm trùng ký sinh trùng có thể đi kèm với thuyên tắc động mạch phổi:
+      </p>
+      <ul class="list-disc pl-5 space-y-1.5 text-slate-800">
+        <li><strong>Nhiễm giun đũa (Ascariasis):</strong> Điển hình gây ra các phản ứng viêm trong phế nang di chuyển, thoáng qua và khu trú (hội chứng Löffler) trong giai đoạn ấu trùng chu du qua phổi. Tuy nhiên, y văn đã ghi nhận những ca bệnh tắc nghẽn động mạch phổi cấp tính do thuyên tắc ấu trùng ồ ạt trong bệnh giun đũa lan tỏa, dẫn đến đột tử tức thì (16).</li>
+        <li><strong>Bệnh nang sán Hydatid (Echinococcosis):</strong> Có thể khu trú ở bất kỳ cơ quan nào nhưng phổ biến nhất là gan và phổi (17,18). Thuyên tắc động mạch phổi do nang sán hydatid là một biến chứng hiếm gặp nhưng vô cùng nghiêm trọng, gây ra do nang sán ở gan vỡ vào tĩnh mạch chủ dưới (IVC), giải phóng các nang con (daughter cysts) trôi tự do về các buồng tim phải và bắn vào các nhánh động mạch phổi (19). Ít gặp hơn, bệnh có thể bắt nguồn từ việc vỡ một nang sán nằm trong cơ tim phải (20), hoặc hiếm hơn nữa là do nang sán nguyên phát ở phổi xâm lấn trực tiếp vào thành động mạch phổi (21). Thuyên tắc hydatid có thể biểu hiện kịch phát gây tử vong đột ngột, hoặc gây tăng áp động mạch phổi bán cấp và mạn tính (22). Trên hình ảnh CT, các ổ thuyên tắc hydatid biểu hiện dưới dạng <em>cấu trúc dạng nang giảm tỷ trọng nằm trong lòng động mạch phổi gây phình giãn nở rộng lòng mạch khu trú</em> (23). Ban đầu bệnh nhân có thể hoàn toàn không có triệu chứng do tuần hoàn bàng hệ từ động mạch phế quản duy trì tưới máu, nhưng sự phát triển tăng dần kích thước của các nang con cuối cùng sẽ dẫn đến tắc nghẽn hoàn toàn lòng mạch (24).</li>
+        <li><strong>Bệnh sán máng (Schistosomiasis):</strong> Thường gây xơ hóa gan dẫn đến tăng áp lực tĩnh mạch cửa và hình thành tuần hoàn bàng hệ cửa - chủ. Trứng sán máng có thể di chuyển vào hệ tĩnh mạch hệ thống qua các cầu nối bàng hệ này, sau đó mắc kẹt lại trong các tiểu động mạch phổi nhỏ, khởi phát phản ứng viêm u hạt ngoại lai và tái cấu trúc thành mạch dữ dội, cuối cùng dẫn đến tăng áp động mạch phổi liên quan đến sán máng (25).</li>
+      </ul>
+
+      <h2 id="pho-hinh-anh-tan-sinh">4. Phổ Biểu hiện Hình ảnh: Các Thực thể Tân sinh (Neoplastic Entities)</h2>
+
+      <h3 id="sarcoma-dong-mach-phoi-nguyen-phat">4.1. Sarcoma Động mạch Phổi Nguyên phát (Primary PAS)</h3>
+      <p>
+        <strong>Sarcoma động mạch phổi nguyên phát (Pulmonary Artery Sarcoma – PAS)</strong> là một khối u ác tính cực kỳ hiếm gặp, xuất phát từ các tế bào trung mô của lớp nội mạc động mạch phổi (26). Về mặt mô học, sarcoma không biệt hóa (undifferentiated sarcoma) và sarcoma cơ trơn (leiomyosarcoma) là các phân type hay gặp nhất tấn công các mạch máu phổi lớn. Phần lớn bệnh nhân là phụ nữ trong độ tuổi từ 45 đến 55 tuổi (27).
+      </p>
+      <p>
+        Trên hình ảnh CTPA, PAS biểu hiện dưới dạng <strong>khuyết thuốc dạng khối choán chỗ (masslike filling defect)</strong> chiếm giữ lòng thân động mạch phổi chính hoặc các nhánh động mạch phổi gốc. Khối thường lấp kín toàn bộ đường kính lòng mạch và làm <strong>phình giãn nở rộng kích thước mạch máu liên quan</strong>. Thành của động mạch phổi thường bị hòa lẫn vào tổn thương và trở nên mờ nhạt, mất liên tục — dấu hiệu kinh điển này được gọi là <strong>dấu hiệu che khuất thành mạch (wall-eclipsing sign)</strong> (28,29) (Hình 3). Khối u thường tiến triển rất nhanh, phá vỡ thành mạch để xâm lấn trực tiếp vào nhu mô phổi lân cận hoặc các cấu trúc trung thất (Hình 4).
+      </p>
+
+      <div class="my-6">
+        <figure class="my-4">
+          <img src="/posts/nonthrombotic-pulmonary-embolism/figure3_wall_eclipsing_pas.jpg" alt="Hình 3 – Dấu hiệu che khuất thành mạch (wall-eclipsing sign) ở bệnh nhân nữ 45 tuổi mắc PAS" class="w-full h-auto rounded-xl shadow-md" />
+          <figcaption class="mt-2 text-xs text-slate-600 leading-relaxed">
+            <strong>Hình 3. Dấu hiệu che khuất thành mạch (Wall-eclipsing sign) ở một phụ nữ 45 tuổi mắc Sarcoma động mạch phổi (PAS).</strong> (A) Hình CTPA lát cắt ngang bộc lộ khối dạng u nhiều múi (*) choán trọn lòng thân động mạch phổi. Cả hai thành bên của thân động mạch phổi (các mũi tên) đều bị khối u xóa nhòa và che khuất hoàn toàn. (B) Hình CTPA lát cắt ngang thấp hơn cho thấy khối u (*) phát triển lan ngược dòng vào buồng tống thất phải (các mũi tên).
+          </figcaption>
+        </figure>
+      </div>
+
+      <p>
+        Phương pháp điều trị triệt căn duy nhất của PAS là phẫu thuật cắt bỏ rộng rãi. Tiên lượng của PAS rất xấu, và tiên lượng này càng trầm trọng hơn do tình trạng <strong>chẩn đoán muộn kéo dài</strong> (Hình 4E, 4F). Do tính chất hiếm gặp và biểu hiện hình ảnh chồng lấp, ban đầu PAS hầu như luôn bị chẩn đoán nhầm thành thuyên tắc huyết khối (PE), dẫn đến việc bệnh nhân bị điều trị kháng đông kéo dài mà bệnh vẫn âm thầm tiến triển.
+      </p>
+
+      <div class="my-6">
+        <figure class="my-4">
+          <img src="/posts/nonthrombotic-pulmonary-embolism/figure4_pas_progression.jpg" alt="Hình 4 – Diễn tiến lâm sàng và xâm lấn của PAS ở bệnh nhân nữ 40 tuổi" class="w-full h-auto rounded-xl shadow-md" />
+          <figcaption class="mt-2 text-xs text-slate-600 leading-relaxed">
+            <strong>Hình 4. Diễn tiến lâm sàng của Sarcoma động mạch phổi (PAS) ở bệnh nhân nữ 40 tuổi có triệu chứng khó thở bán cấp.</strong> (A) Hình CT ngực tái tạo coronal ban đầu cho thấy khuyết thuốc nhỏ ở ĐM thùy dưới phải và khuyết thuốc gây tắc hoàn toàn ĐM thùy giữa và thùy trên phải (các mũi tên). (B) Hình CT lát cắt ngang cùng thời điểm cho thấy một lượng nhỏ mô mềm ngoài lòng mạch (vùng quan tâm). Bệnh nhân bị chẩn đoán nhầm là PE và được chỉ định dùng thuốc kháng đông. (C) Hình CTPA tái tạo coronal 3 tháng sau ghi nhận khuyết thuốc nội mạch lan rộng đáng kể dù đã dùng kháng đông, cắt cụt ĐM thùy trên và thùy giữa phải (các mũi tên). (D) Hình CT mạch máu lát cắt ngang sau 3 tháng chứng minh khối mô mềm ngoài lòng mạch phát triển mạnh mẽ xâm lấn vào nhu mô phổi và trung thất lân cận (vùng quan tâm). Sinh thiết qua phẫu thuật lồng ngực nội soi có hỗ trợ video (VATS) khẳng định sarcoma nội mạc động mạch phổi xâm lấn nhu mô phổi và mỡ rốn phổi. (E, F) Hình CT ngực 1 năm sau phẫu thuật cắt toàn bộ phổi phải cho thấy di căn gan, các nốt gieo rắc cạnh tim và cạnh thực quản (* ở E) cùng các nốt di căn phổi trái (vòng tròn ở F), minh chứng cho tiên lượng tử vong rất cao của PAS.
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="my-6 overflow-x-auto">
+        <table class="w-full text-left border-collapse border border-slate-300 text-sm">
+          <caption class="text-base font-bold text-slate-900 mb-2 text-left">Bảng 3: Ma trận Chẩn đoán Phân biệt giữa Sarcoma Động mạch Phổi (PAS) và Huyết khối Động mạch Phổi (Bland PE)</caption>
+          <thead class="bg-slate-100 text-slate-800 font-bold border-b border-slate-300">
+            <tr>
+              <th class="p-3 border border-slate-300 w-1/4">Đặc điểm đối chiếu</th>
+              <th class="p-3 border border-slate-300 w-3/8 bg-red-50 text-red-900">Sarcoma Động mạch Phổi (PAS)</th>
+              <th class="p-3 border border-slate-300 w-3/8 bg-blue-50 text-blue-900">Huyết khối Thường (Bland PE)</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 text-slate-800 bg-white">
+            <tr>
+              <td class="p-3 font-semibold bg-slate-50 border border-slate-300">Triệu chứng lâm sàng</td>
+              <td class="p-3 border border-slate-300">Khó thở tiến triển từ từ, sụt cân, mệt mỏi, các triệu chứng toàn thân (B-symptoms)</td>
+              <td class="p-3 border border-slate-300">Khó thở khởi phát đột ngột hoặc bán cấp, đau ngực kiểu màng phổi, ho ra máu</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold bg-slate-50 border border-slate-300">Nồng độ D-dimer</td>
+              <td class="p-3 border border-slate-300">Thường hoàn toàn <strong>bình thường</strong> (hoặc chỉ tăng nhẹ nếu có huyết khối bám kèm)</td>
+              <td class="p-3 border border-slate-300">Thường <strong>tăng rất cao</strong></td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold bg-slate-50 border border-slate-300">Vị trí tổn thương</td>
+              <td class="p-3 border border-slate-300">Trung tâm (thân chính ĐM phổi hoặc các nhánh ĐM phổi gốc), thường ưu thế một bên</td>
+              <td class="p-3 border border-slate-300">Có thể gặp ở trung tâm hoặc ngoại vi (nhánh thùy, phân thùy), thường phân bố hai bên</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold bg-slate-50 border border-slate-300">Đường kính mạch máu</td>
+              <td class="p-3 border border-slate-300"><strong>Phình giãn nở rộng</strong> rõ rệt mạch máu bị tổn thương do khối u choán chỗ</td>
+              <td class="p-3 border border-slate-300">Mạch có thể giãn nhẹ trong tắc cấp, bình thường hoặc teo hẹp trong huyết khối mạn</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold bg-slate-50 border border-slate-300">Ngấm thuốc cản quang (CT/MRI)</td>
+              <td class="p-3 border border-slate-300"><strong>Ngấm thuốc không đồng nhất</strong> hoặc dạng loang lổ (nhận diện rõ trên DECT)</td>
+              <td class="p-3 border border-slate-300"><strong>Hoàn toàn không ngấm thuốc</strong> cản quang</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold bg-slate-50 border border-slate-300">Hạn chế khuếch tán (DWI/MRI)</td>
+              <td class="p-3 border border-slate-300">Thường hiện diện rõ rệt (do mật độ tế bào u cao)</td>
+              <td class="p-3 border border-slate-300">Thường không có hạn chế khuếch tán</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold bg-slate-50 border border-slate-300">Vôi hóa trên CT</td>
+              <td class="p-3 border border-slate-300">Rất hiếm gặp (trừ khi có thành phần tạo xương)</td>
+              <td class="p-3 border border-slate-300">Có thể xuất hiện dạng viền hoặc chấm trong huyết khối mạn tính</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold bg-slate-50 border border-slate-300">Dấu hiệu che khuất thành mạch & Xâm lấn</td>
+              <td class="p-3 border border-slate-300"><strong>Hiện diện trong rất nhiều trường hợp</strong>; phá hủy thành mạch lan vào trung thất/phổi</td>
+              <td class="p-3 border border-slate-300"><strong>Hoàn toàn không có</strong> (thành mạch luôn sắc nét và bảo tồn)</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold bg-slate-50 border border-slate-300">Đáp ứng với thuốc kháng đông</td>
+              <td class="p-3 border border-slate-300"><strong>Hoàn toàn không cải thiện</strong>; khối u tồn tại dai dẳng hoặc to lên</td>
+              <td class="p-3 border border-slate-300"><strong>Có đáp ứng thoái triển</strong> hoặc ly giải cục máu sau vài tuần đến vài tháng</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        Đôi khi, sự ngấm thuốc của khối u có thể khó phát hiện trên CTPA do thì chụp mạch máu quá sớm, và sự xâm lấn ngoài lòng mạch có thể chưa xuất hiện ở các giai đoạn khởi phát của PAS. Trong những tình huống này, <strong>các ổ nhồi máu phổi bán cấp một bên tiến triển liên tục dù đang dùng kháng đông đầy đủ</strong> có thể là dấu hiệu lâm sàng - hình ảnh đầu tiên gợi ý PAS (Hình 5). Do đó, sự hiện diện của các ổ nhồi máu phổi một bên không thoái triển mà ngày càng gia tăng bắt buộc phải gióng lên hồi chuông cảnh báo về một khối u nội mạch gốc và bác sĩ điều trị cần được thông báo ngay lập tức!
+      </p>
+
+      <div class="my-6">
+        <figure class="my-4">
+          <img src="/posts/nonthrombotic-pulmonary-embolism/figure5_pas_infarcts.jpg" alt="Hình 5 – Các ổ nhồi máu phổi một bên tiến triển trong PAS" class="w-full h-auto rounded-xl shadow-md" />
+          <figcaption class="mt-2 text-xs text-slate-600 leading-relaxed">
+            <strong>Hình 5. Hình ảnh CT ngực cửa sổ nhu mô ở bệnh nhân nữ 40 tuổi mắc PAS (cùng bệnh nhân ở Hình 4).</strong> (A) Một ổ nhồi máu nhỏ hình chêm (mũi tên) tại thùy trên phổi phải là tổn thương duy nhất lúc khởi phát ban đầu, chưa hề quan sát thấy khuyết thuốc rõ ở thân động mạch phổi. (B) Chụp CT kiểm tra 3 tháng sau cho thấy các ổ nhồi máu phổi tiến triển lan rộng ở phổi phải, gồm một ổ nhồi máu lớn (*) tại thùy dưới phải cùng vô số ổ nhồi máu nhỏ hơn ở ngoại vi (vòng tròn), cảnh báo sự hiện diện của khối u nội mạch trung tâm đang tiến triển!
+          </figcaption>
+        </figure>
+      </div>
+
+      <p>
+        Một chẩn đoán phân biệt quan trọng khác của PAS là <strong>viêm xơ hóa trung thất (fibrosing mediastinitis)</strong> – một tình trạng tăng sinh lành tính của các mô xơ đặc quánh trong trung thất. Việc phân biệt có thể gặp khó khăn; tuy nhiên viêm xơ hóa trung thất có xu hướng ưu thế tấn công các cấu trúc tĩnh mạch và đường thở. Sự tiến triển nhanh chóng và xuất hiện các thành phần mô mềm dạng u choán chỗ rõ rệt là các yếu tố then chốt ủng hộ PAS hơn là viêm xơ hóa trung thất.
+      </p>
+      <p>
+        Các kỹ thuật hình ảnh tiên tiến như PET/CT và MRI có thể hỗ trợ chẩn đoán PAS và gia tăng độ rõ nét của tổn thương. Trên MRI, PAS biểu hiện hạn chế khuếch tán trên chuỗi xung DWI và ngấm thuốc cản từ rõ trên các chuỗi xung sau tiêm gadolinium (32). Tuy nhiên, độ nhạy của chụp cộng hưởng từ mạch máu (MRA) đối với các nhánh khuyết thuốc ở xa ngoại vi vẫn còn hạn chế (33).
+      </p>
+      <p>
+        <strong>18F-FDG PET/CT</strong> thường xuyên được chỉ định ở các bệnh nhân nghi ngờ PAS. Nhiều nghiên cứu ghi nhận mức độ hấp thu FDG rất cao trong PAS (34), nhưng một số nghiên cứu khác lại báo cáo mức độ hấp thu FDG rất thấp (35). Các khối u sarcoma có thể có mức độ bắt giữ FDG rất dao động tùy thuộc vào mức độ biệt hóa mô học của chúng, điều này khiến cho <em>tính chất ái lực FDG (FDG avidity) trở thành một chỉ số không hoàn toàn đáng tin cậy để xác định bản chất ác tính</em> (Hình 6) (36). Mặt khác, bản thân các cục huyết khối lành tính (PE) trong giai đoạn viêm hoạt động cũng có thể bắt FDG cao (37), và viêm xơ hóa trung thất cũng có mức độ hấp thu FDG biến thiên tùy thuộc vào mức độ viêm hoạt động (38).
+      </p>
+
+      <div class="my-6">
+        <figure class="my-4">
+          <img src="/posts/nonthrombotic-pulmonary-embolism/figure6_pas_pet_ct.jpg" alt="Hình 6 – CTPA và FDG PET/CT ở bệnh nhân PAS" class="w-full h-auto rounded-xl shadow-md" />
+          <figcaption class="mt-2 text-xs text-slate-600 leading-relaxed">
+            <strong>Hình 6. Hình ảnh CTPA và PET/CT ở bệnh nhân nữ 40 tuổi mắc PAS (cùng bệnh nhân ở Hình 4).</strong> (A) Hình CTPA lát cắt ngang bộc lộ khối u sarcoma nội mạc động mạch phổi phát triển lan rộng ra ngoài lòng mạch (các mũi tên) thâm nhiễm vào nhu mô phổi và trung thất. (B) Hình FDG PET/CT lát cắt ngang cho thấy khối u mô mềm chỉ bắt FDG ở mức độ nhẹ (các mũi tên). Mặc dù PET/CT giúp làm tăng độ tương phản nhận diện tổn thương nhưng không đủ giá trị để khẳng định hay phân định bản chất ác tính nếu chỉ dựa vào cường độ SUV.
+          </figcaption>
+        </figure>
+      </div>
+
+      <h3 id="thuyen-tac-u-dong-mach-phoi">4.2. Thuyên tắc U Động mạch Phổi (Pulmonary Tumor Embolism)</h3>
+      <p>
+        Các tế bào hoặc mảnh mô u di căn từ các khối u ác tính trong hoặc ngoài lồng ngực có thể di chuyển và mắc kẹt trong các nhánh động mạch phổi, với các nghiên cứu tử thiết ghi nhận <strong>tỷ lệ hiện mắc từ 3% đến 26% ở các bệnh nhân tử vong do ung thư tạng đặc (solid tumors)</strong> (39). Phổ bệnh học của thuyên tắc u trải dài từ các khối u lớn trong lòng mạch (thuyên tắc đại thể - macroembolism) gây triệu chứng kịch phát mô phỏng PE cấp tính, cho đến các ổ vi huyết khối u tế bào (thuyên tắc vi thể - microscopic tumor embolism) thường dẫn đến biểu hiện suy hô hấp và tăng áp phổi bán cấp.
+      </p>
+      
+      <p><strong>Thuyên tắc u đại thể (Macroscopic tumor emboli):</strong> Tấn công các nhánh động mạch phổi chính, thùy hoặc phân thùy và biểu hiện lâm sàng rất giống PE. Các đặc điểm hình ảnh then chốt giúp phân biệt với huyết khối thường bao gồm: <em>sự ngấm thuốc cản quang rõ rệt trong khối khuyết thuốc trên CT hoặc MRI</em> và <em>sự tăng hấp thu FDG mạnh mẽ trên PET/CT</em> khi khối u nguyên phát là loại u ái lực FDG (Hình 7, Hình 8). Một số khối u có nguồn gốc mô liên kết như osteosarcoma di căn có thể bộc lộ các ổ vôi hóa, khoáng hóa đậm độ xương ngay bên trong khối huyết khối u nội mạch (Hình 8).</p>
+
+      <div class="my-6">
+        <figure class="my-4">
+          <img src="/posts/nonthrombotic-pulmonary-embolism/figure7_thyroid_tumor_thrombus.jpg" alt="Hình 7 – Huyết khối u và thuyên tắc u đại thể ở bệnh nhân ung thư biểu mô tuyến giáp thoái sản" class="w-full h-auto rounded-xl shadow-md" />
+          <figcaption class="mt-2 text-xs text-slate-600 leading-relaxed">
+            <strong>Hình 7. Huyết khối u (tumor thrombus) và thuyên tắc u đại thể (tumor macroembolism) ở nam bệnh nhân 52 tuổi mắc ung thư biểu mô tuyến giáp thể thoái sản (anaplastic thyroid carcinoma).</strong> (A) Hình CT ngực có cản quang lát cắt ngang bộc lộ khối u lớn ở thùy trên phổi trái (*) kèm thành phần xâm lấn nội mạch nổi bật (mũi tên liền) nằm trong ĐM phổi chính bên trái. Một khối u nội mạch tương tự (mũi tên nét đứt) cũng được ghi nhận trong thân ĐM phổi phải. (B) Hình FDG PET/CT lát cắt ngang cho thấy sự bắt giữ FDG rất mạnh mẽ trong khối u thùy trên trái (*) lan liên tục vào ĐM phổi trái (mũi tên bên trái), đại diện cho huyết khối u xâm lấn trực tiếp. Ngoài ra còn có ổ tăng hấp thu FDG đậm nét trong khối mô mềm nội mạch ở ĐM phổi phải (mũi tên bên phải), khẳng định tình trạng thuyên tắc u đại thể di căn xa.
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="my-6">
+        <figure class="my-4">
+          <img src="/posts/nonthrombotic-pulmonary-embolism/figure8_osteosarcoma_tumor_thrombus.jpg" alt="Hình 8 – Huyết khối u và nhồi máu phổi ở bệnh nhân 18 tuổi mắc osteosarcoma di căn" class="w-full h-auto rounded-xl shadow-md" />
+          <figcaption class="mt-2 text-xs text-slate-600 leading-relaxed">
+            <strong>Hình 8. Huyết khối u và nhồi máu phổi ở một bệnh nhân nam 18 tuổi mắc osteosarcoma di căn.</strong> (A) Hình CT ngực có cản quang lát cắt ngang cho thấy các ổ khuyết thuốc trong ĐM phổi xuống bên phải (*) và các nhánh phân thùy thùy dưới trái và thùy lưỡi (các mũi tên), kèm theo sự giãn lớn của các động mạch này. Chú ý hiện tượng <strong>khoáng hóa đậm độ xương (prominent mineralization)</strong> nổi bật ngay bên trong khối huyết khối u đặc trưng của osteosarcoma. (B) Hình CT lát cắt ngang qua nhu mô phổi bộc lộ đám đông đặc hình chêm ở ngoại vi thùy dưới phổi trái (dấu sao), đại diện cho một ổ nhồi máu phổi thứ phát.
+          </figcaption>
+        </figure>
+      </div>
+
+      <p><strong>Thuyên tắc u nhánh nhỏ và vi thể (Small & Microscopic Tumor Emboli):</strong> Tấn công các nhánh động mạch dưới phân thùy và các tiểu động mạch trung tâm tiểu thùy phổi thứ cấp. Tổn thương biểu hiện đặc trưng dưới dạng <strong>các động mạch phổi ngoại vi giãn lớn và có dạng chuỗi hạt (dilated and beaded peripheral pulmonary arteries)</strong> (Hình 9). Các <em>nốt nụ trên cành dạng mạch máu (vascular tree-in-bud nodules)</em> và hiện tượng chuỗi hạt mạch máu là các dấu hiệu hình ảnh kinh điển của thuyên tắc u nhánh nhỏ, nhưng rất dễ bị nhầm lẫn với viêm tiểu phế quản nhiễm trùng (infectious bronchiolitis) hoặc viêm phổi hít – vốn là các bệnh lý thường gặp hơn rất nhiều trên lâm sàng (40).</p>
+
+      <div class="my-6">
+        <figure class="my-4">
+          <img src="/posts/nonthrombotic-pulmonary-embolism/figure9_chondrosarcoma_microembolism.jpg" alt="Hình 9 – Thuyên tắc u vi thể ở bệnh nhân nam 57 tuổi mắc chondrosarcoma thanh quản" class="w-full h-auto rounded-xl shadow-md" />
+          <figcaption class="mt-2 text-xs text-slate-600 leading-relaxed">
+            <strong>Hình 9. Thuyên tắc u vi mạch (Tumor microembolism) ở nam bệnh nhân 57 tuổi mắc chondrosarcoma thanh quản di căn, hiện không điều trị.</strong> (A) Hình CT ngực lát cắt ngang cho thấy tình trạng giãn nở và chuỗi hạt đa ổ của các nhánh mạch máu (các mũi tên). (B) Hình CT ngực lát cắt ngang bộc lộ các nốt "nụ trên cành" (vòng tròn và hình bầu dục). Mặc dù hình thái nụ trên cành thường gặp nhất trong nhiễm trùng lan theo đường thở và hít sặc; tuy nhiên ở một bệnh nhân có bệnh lý ác tính tiềm ẩn, sự xuất hiện dai dẳng và tiến triển của các nốt nụ trên cành dạng mạch máu bắt buộc phải hướng tới chẩn đoán thuyên tắc u vi mạch.
+          </figcaption>
+        </figure>
+      </div>
+
+      <p>
+        <strong>Dấu hiệu phân biệt cốt lõi giữa thuyên tắc u dạng nụ trên cành với viêm tiểu phế quản nhiễm trùng/hít sặc:</strong>
+      </p>
+      <ul class="list-disc pl-5 space-y-1 text-slate-800">
+        <li><strong>Sự vắng mặt của tình trạng dày thành đường thở và nút nhầy phế quản:</strong> Bệnh nhân thuyên tắc u không có dày thành phế quản hay ứ đọng nhầy trong lòng ống thở.</li>
+        <li><strong>Đặc tính tiến triển theo thời gian:</strong> Thuyên tắc u sẽ liên tục to lên và lan rộng theo thời gian; ngược lại viêm đường thở do nhiễm trùng hoặc hít sặc sẽ có xu hướng thuyên giảm, thoái triển hoặc biến đổi thất thường khi được điều trị.</li>
+        <li><strong>Khẩu kính mạch máu:</strong> Thuyên tắc u có xu hướng <em>làm phình giãn nở rộng các nhánh mạch máu ngoại vi</em> khi quan sát kỹ; trong khi các nút nhầy phế quản đơn thuần hầu như không làm giãn nở lòng đường thở (trừ khi có giãn phế quản sẵn từ trước).</li>
+      </ul>
+
+      <p>
+        Các khối u nguyên phát hay gặp nhất đi kèm với thuyên tắc u vi thể bao gồm: ung thư biểu mô tuyến vú, ung thư dạ dày tế bào nhẫn (signet ring cell carcinoma), ung thư biểu mô tế bào gan (HCC), ung thư biểu mô tế bào thận (RCC), ung thư tiền liệt tuyến, và ung thư biểu mô màng đệm (choriocarcinoma) (41). Trong y văn phương Tây, ung thư vú là nguyên nhân thường gặp nhất (42). Các dấu hiệu hình ảnh trên CT có thể rất kín đáo, chỉ biểu hiện dưới dạng dày màng liên tiểu thùy dạng nốt hoặc nhẵn và các vùng kính mờ ngoại vi (Hình 10). Các đám mờ này có thể thay đổi vị trí theo thời gian mô phỏng một quá trình viêm phổi tổ chức hóa.
+      </p>
+      <p>
+        Trên xạ hình V/Q scan, các ổ thuyên tắc u vi thể có thể tạo nên một hình ảnh cực kỳ đặc trưng được gọi là <strong>"bản đồ đường viền" (contour mapping)</strong>: tạo nên bởi vô số các ổ khuyết tưới máu ngoại vi nhỏ, ranh giới sắc nét ở cả hai bên phổi, chạy men theo đúng đường viền ranh giới của các phân thùy phế quản phổi (9) (Hình 10D).
+      </p>
+
+      <div class="my-6">
+        <figure class="my-4">
+          <img src="/posts/nonthrombotic-pulmonary-embolism/figure10_microscopic_tumor_embolism.jpg" alt="Hình 10 – Thuyên tắc u vi thể ở thai phụ 42 tuổi có tiền sử ung thư vú" class="w-full h-auto rounded-xl shadow-md" />
+          <figcaption class="mt-2 text-xs text-slate-600 leading-relaxed">
+            <strong>Hình 10. Thuyên tắc u vi thể (Microscopic tumor embolism) ở thai phụ 42 tuổi có tiền sử ung thư biểu mô tuyến vú thể ống xâm lấn, ung thư biểu mô tuyến giáp thể nhú và u lympho Hodgkin, nhập viện vì khó thở bán cấp tăng dần.</strong> (A–C) Hình CT ngực lát cắt ngang (A, B) và tái tạo coronal (C) bộc lộ các đám kính mờ ngoại vi đa ổ hai bên phổi (các hình bầu dục và vòng tròn), tồn tại dai dẳng trên các phim CT kiểm tra. Ngoài ra bệnh nhân có tổn thương di căn xương lan tỏa. Các chẩn đoán phân biệt ban đầu bao gồm nhồi máu bán cấp tiến triển, nhiễm trùng không điển hình và viêm phổi tổ chức hóa. (D) Xạ hình V/Q scan tiếp theo cho thấy vô số các ổ khuyết tưới máu nhỏ ở ngoại biên (các mũi tên), tạo nên dấu hiệu "bản đồ đường viền" (contour mapping) kinh điển. Siêu âm tim ghi nhận áp lực buồng tim phải tăng rất cao. Bệnh nhân được mổ lấy thai khẩn cấp, giải phẫu bệnh bánh nhau phát hiện các đám tế bào ung thư vú di căn. Khuyết thuốc lòng mạch thường hoàn toàn không thấy trong thuyên tắc vi mạch u, và tổn thương nhu mô phổi có thể là manh mối hình ảnh duy nhất!
+          </figcaption>
+        </figure>
+      </div>
+
+      <p>
+        <strong>Bệnh lý vi mạch huyết khối do u ở phổi (Pulmonary Tumor Thrombotic Microangiopathy – PTTM):</strong> Là một thể lâm sàng cực kỳ ác tính và tối cấp của thuyên tắc u vi mạch động mạch phổi. PTTM mang cơ chế bệnh sinh rất độc đáo: các ổ vi thuyên tắc tế bào u mắc kẹt trong tiểu động mạch sẽ tiết ra các yếu tố tăng trưởng mạch máu như <strong>VEGF (vascular endothelial growth factor), PDGF (platelet-derived growth factor), và osteopontin</strong> (43). Các cytokine này kích hoạt sự tăng sinh tế bào sợi cơ lớp nội mạc mạch máu (fibrocellular intimal proliferation) và tái cấu trúc thành mạch dữ dội. Hậu quả là sức cản mạch máu phổi tăng vọt kịch phát, dẫn đến <strong>tăng áp động mạch phổi tối cấp và tâm phế cấp/bán cấp (cor pulmonale)</strong> (44).
+      </p>
+      <p>
+        Hình ảnh CT ngực trong PTTM bao gồm: <em>hình ảnh lát đá (crazy paving appearance)</em> trên nền các nốt nụ trên cành dạng mạch máu và các mạch máu giãn chuỗi hạt. Các dấu hiệu đi kèm gồm giãn lớn thân động mạch phổi (tăng áp phổi) và các dấu hiệu suy chức năng thất phải nặng nề (thất phải giãn to, vách liên thất bị đẩy phẳng hoặc cong lệch sang trái). PTTM bắt buộc phải được đưa vào chẩn đoán phân biệt ở bất kỳ bệnh nhân ung thư nào đột ngột xuất hiện tăng áp phổi diễn tiến nhanh và tâm phế cấp không giải thích được. Tiên lượng của PTTM là vô cùng tàn khốc: thời gian sống sót trung vị chỉ vỏn vẹn <strong>9 ngày</strong> kể từ khi khởi phát triệu chứng (45)!
+      </p>
+
+      <h3 id="u-co-tron-trong-long-mach">4.3. U Cơ Trơn Trong Lòng Mạch (Intravascular Leiomyomatosis)</h3>
+      <p>
+        Sự xâm lấn lòng mạch máu phổi không phải lúc nào cũng bắt nguồn từ các khối u ác tính. <strong>U cơ trơn trong lòng mạch (Intravascular Leiomyomatosis)</strong> là một thực thể đặc biệt đặc trưng bởi sự tăng sinh trong lòng mạch của các tế bào cơ trơn hoàn toàn lành tính về mặt mô học. Tổn thương có thể phát sinh nguyên phát trong thành mạch hoặc phổ biến hơn là phát triển lan rộng trực tiếp từ một khối u xơ tử cung (uterine leiomyoma) vào các đám rối tĩnh mạch chậu và tĩnh mạch sinh dục lân cận (46).
+      </p>
+      <p>
+        Khối u tiếp tục bò dọc theo tĩnh mạch buồng trứng, tĩnh mạch chủ dưới (IVC), chui vào các buồng tim phải và hiếm hơn có thể vươn tới các nhánh động mạch phổi (47–49) (Hình 11). Bệnh lý này phụ thuộc chặt chẽ vào nồng độ estrogen, và phần lớn bệnh nhân là phụ nữ tiền mãn kinh ở độ tuổi trung niên. Phương pháp điều trị là phẫu thuật bóc tách triệt để toàn bộ khối u; điều này thường khả thi về mặt kỹ thuật do khối u hầu như không dính chặt hoặc chỉ dính một phần rất nhỏ vào lớp nội mạc thành mạch máu (48,50).
+      </p>
+
+      <div class="my-6">
+        <figure class="my-4">
+          <img src="/posts/nonthrombotic-pulmonary-embolism/figure11_intravascular_leiomyomatosis.jpg" alt="Hình 11 – U cơ trơn trong lòng mạch ở bệnh nhân nữ 45 tuổi" class="w-full h-auto rounded-xl shadow-md" />
+          <figcaption class="mt-2 text-xs text-slate-600 leading-relaxed">
+            <strong>Hình 11. U cơ trơn trong lòng mạch (Intravascular leiomyomatosis) ở một phụ nữ 45 tuổi nhập viện vì mệt mỏi và chướng bụng.</strong> (A) Hình CT ổ bụng có tiêm thuốc cản quang tái tạo coronal cho thấy một khối u xơ tử cung phát triển lan liên tục vào đám rối tĩnh mạch cạnh tử cung bên phải, tĩnh mạch buồng trứng phải, tĩnh mạch chủ dưới (IVC) và các buồng tim phải (các mũi tên), lấp đầy toàn bộ lòng mạch. (B) Hình CT thì tĩnh mạch lát cắt ngang qua tim bộc lộ phần u trong tim (*) nằm choán chỗ trong tâm nhĩ phải và tâm thất phải. Khối u đã được phẫu thuật bóc tách thành công, kết quả giải phẫu bệnh khẳng định u cơ trơn lành tính. (C) Hình CT ngực 6 tháng sau phẫu thuật ghi nhận một ổ thuyên tắc u cơ trơn (mũi tên) nằm trong nhánh ĐM thùy dưới phổi phải.
+          </figcaption>
+        </figure>
+      </div>
+
+
+      <h2 id="pho-hinh-anh-can-thiep-va-ngoai-sinh">5. Phổ Biểu hiện Hình ảnh: Thực thể do Can thiệp Y khoa & Tác nhân Ngoại sinh (Iatrogenic & Exogenous)</h2>
+      <p>
+        Số lượng các thủ thuật can thiệp chẩn đoán và điều trị nội mạch ngày càng gia tăng đã kéo theo sự gia tăng tương ứng của các biến chứng liên quan đến sự di chuyển bất thường của các vật liệu ngoại sinh vào các nhánh động mạch phổi. <strong>Cửa sổ xương (Bone window)</strong> và các thuật toán tái tạo chuyên sâu thường là chìa khóa then chốt giúp phát hiện các vật liệu thuyên tắc cản quang cao này.
+      </p>
+
+      <h3 id="thuyen-tac-thiet-bi-noi-mach">5.1. Thuyên tắc Thiết bị Nội mạch (Intravascular Devices)</h3>
+      <p>
+        <strong>Gãy đoạn catheter tĩnh mạch trung tâm:</strong> Các đoạn đứt gãy của catheter tĩnh mạch trung tâm hoặc catheter lọc máu có thể di chuyển xuôi dòng về tĩnh mạch chủ, tâm nhĩ phải, tâm thất phải và kẹt lại trong các nhánh động mạch phổi. Tỷ lệ đứt gãy catheter tĩnh mạch được báo cáo vào khoảng <strong>0.1%</strong> (51) (Hình 12). Rất nhiều bệnh nhân hoàn toàn không có triệu chứng lâm sàng và tổn thương thường chỉ được phát hiện tình cờ trên phim chụp X-quang ngực kiểm tra định kỳ. Can thiệp nội mạch bằng thòng lọng (snare) gắp dị vật được chỉ định thực hiện khi điều kiện giải phẫu cho phép.
+      </p>
+
+      <div class="my-6">
+        <figure class="my-4">
+          <img src="/posts/nonthrombotic-pulmonary-embolism/figure12_catheter_fragment.jpg" alt="Hình 12 – Đoạn gãy catheter thuyên tắc động mạch phổi ở bệnh nhân nữ 23 tuổi" class="w-full h-auto rounded-xl shadow-md" />
+          <figcaption class="mt-2 text-xs text-slate-600 leading-relaxed">
+            <strong>Hình 12. Đoạn gãy catheter thuyên tắc vào động mạch phổi ở một bệnh nhân nữ 23 tuổi mắc bệnh thận mạn giai đoạn cuối.</strong> Phim X-quang ngực thẳng (A) và nghiêng (B) cho thấy một bóng mờ dạng đường thẳng (mũi tên) nằm đúng vị trí giải phẫu của ĐM thùy dưới phổi trái, đại diện cho một mảnh catheter bị đứt gãy và trôi tự do, nhiều khả năng từ một catheter lọc máu cũ. Bệnh nhân có bóng tim to do hở van hai lá nặng và xơ cứng rải rác.
+          </figcaption>
+        </figure>
+      </div>
+
+      <p>
+        <strong>Đứt gãy và thuyên tắc dây máy tạo nhịp tim (Pacemaker lead fracture & embolization):</strong> Là một biến chứng hiếm gặp liên quan đến thao tác rút bỏ dây máy tạo nhịp truyền thống, xảy ra trong khoảng <strong>0.1%–0.2%</strong> các trường hợp (52) (Hình 13). Sự di chuyển của đầu dây tạo nhịp bị đứt từ các buồng tim phải vào lưới mạch máu phổi là kịch bản hay gặp nhất. Chiến lược xử trí bao gồm gắp bỏ can thiệp hoặc chấp nhận lưu giữ theo dõi (abandonment), tùy thuộc vào bối cảnh lâm sàng và tính khả thi kỹ thuật. Khi đoạn dây đã chui sâu vào các nhánh xa của động mạch phổi ngoại vi, nguy cơ rách thủng mạch máu khi cố gắp qua da là rất cao; trong tình huống đó, theo dõi bảo tồn là giải pháp được ưu tiên nếu bệnh nhân không có triệu chứng (53). Việc ứng dụng máy tạo nhịp không dây (leadless pacemaker) trong kỷ nguyên mới giúp loại bỏ hoàn toàn các biến chứng này.
+      </p>
+
+      <div class="my-6">
+        <figure class="my-4">
+          <img src="/posts/nonthrombotic-pulmonary-embolism/figure13_pacemaker_lead.jpg" alt="Hình 13 – Đứt gãy và thuyên tắc dây máy tạo nhịp ở nam bệnh nhân 78 tuổi" class="w-full h-auto rounded-xl shadow-md" />
+          <figcaption class="mt-2 text-xs text-slate-600 leading-relaxed">
+            <strong>Hình 13. Đứt gãy và thuyên tắc đầu dây máy tạo nhịp tim ở cụ ông 78 tuổi đặt máy tạo nhịp hai buồng.</strong> Phim X-quang ngực sau - trước cho thấy các dây tạo nhịp nằm trong tâm nhĩ phải và tâm thất phải. Đầu mút đứt gãy bị thuyên tắc của một dây (mũi tên) nhìn thấy rõ trong nhánh ĐM thùy dưới phổi phải, đại diện cho tai biến của thủ thuật rút bỏ và cấy lại dây máy tạo nhịp.
+          </figcaption>
+        </figure>
+      </div>
+
+      <p>
+        <strong>Vòng xoắn kim loại gây tắc mạch (Embolization coils):</strong> Được sử dụng rộng rãi để bít các cầu nối thông động - tĩnh mạch hoặc điều trị rò dưỡng chấp màng phổi (chylothorax), đôi khi có thể bị áp lực dòng chảy cuốn trôi và thuyên tắc vào tuần hoàn phổi (54) (Hình 14).
+      </p>
+
+      <div class="my-6">
+        <figure class="my-4">
+          <img src="/posts/nonthrombotic-pulmonary-embolism/figure14_coils_embolization.jpg" alt="Hình 14 – Vòng xoắn coil thuyên tắc tuần hoàn phổi ở bệnh nhân nữ 36 tuổi" class="w-full h-auto rounded-xl shadow-md" />
+          <figcaption class="mt-2 text-xs text-slate-600 leading-relaxed">
+            <strong>Hình 14. Vòng xoắn coil thuyên tắc vào tuần hoàn phổi ở một phụ nữ 36 tuổi có tiền sử ghép phổi hai bên và can thiệp bít tắc ống ngực bằng coil và keo sinh học do rò dưỡng chấp.</strong> (A, B) Hình CT ngực lát cắt ngang cho thấy các cấu trúc tăng tỷ trọng kim loại rất cao nằm trong các nhánh ĐM thùy trên phổi phải (các mũi tên) và trong lòng ống ngực (vòng tròn). Vật liệu cản quang trong ống ngực chủ yếu là coil kim loại, cùng một lượng nhỏ hỗn hợp keo và coil đã tràn qua bàng hệ vào ĐM thùy trên phổi phải. (C) X-quang ngực bộc lộ các vòng xoắn coil trong ống ngực (các mũi tên) và vật liệu thuyên tắc trong ĐM thùy trên phổi phải (hình bầu dục).
+          </figcaption>
+        </figure>
+      </div>
+
+      <h3 id="thuyen-tac-tac-nhan-ngoai-sinh">5.2. Thuyên tắc các Chất Ngoại sinh (Exogenous Agents)</h3>
+      <p>
+        <strong>Thuyên tắc xi măng sinh học sau tạo hình đốt sống (Vertebroplasty Cement Embolism):</strong> Liên quan đến sự rò rỉ của xi măng xương (polymethylmethacrylate - PMMA) qua các đám rối tĩnh mạch quanh đốt sống trong hoặc ngay sau thủ thuật bơm xi măng qua da tạo hình thân đốt sống (vertebroplasty hoặc kyphoplasty) (55) (Hình 15). Do tính chất lỏng quánh của xi măng khi mới pha, áp lực tiêm có thể đẩy xi măng vào tĩnh mạch đĩa đệm và trôi về tim phải, lên động mạch phổi. Polymethylmethacrylate có <strong>độ cản quang cực kỳ cao</strong> (tỷ trọng từ 1000 đến trên 2000 HU) và dễ dàng được nhận diện trên X-quang ngực, CT không cản quang hoặc cửa sổ xương trên CTPA (55).
+      </p>
+      <p>
+        <strong>Thuyên tắc keo sinh học (Glue Embolism):</strong> Keo sinh học (<em>n-butyl-2-cyanoacrylate</em>) là biến chứng tiềm ẩn đe dọa tính mạng sau nội soi tiêm xơ điều trị xuất huyết do vỡ giãn tĩnh mạch phình vị dạ dày, do keo rò rỉ vào tĩnh mạch chủ dưới qua các vòng nối bàng hệ vị - thận hoặc lách - thận (56). Đặc điểm hình ảnh học hoàn toàn tương tự như thuyên tắc xi măng xương với các cấu trúc cản quang hình dải phân nhánh trong lòng mạch.
+      </p>
+
+      <div class="my-6">
+        <figure class="my-4">
+          <img src="/posts/nonthrombotic-pulmonary-embolism/figure15_cement_embolization.jpg" alt="Hình 15 – Thuyên tắc xi măng sinh học sau tạo hình đốt sống ở nam bệnh nhân 76 tuổi" class="w-full h-auto rounded-xl shadow-md" />
+          <figcaption class="mt-2 text-xs text-slate-600 leading-relaxed">
+            <strong>Hình 15. Thuyên tắc xi măng sinh học (Cement embolization) ở cụ ông 76 tuổi mới trải qua thủ thuật tạo hình thân đốt sống qua da bằng xi măng sinh học (percutaneous vertebroplasty).</strong> Hình ảnh CT ngực lát cắt ngang cửa sổ trung thất bộc lộ rõ vùng tăng tỷ trọng hình ống đặc quánh dạng kim loại (hình bầu dục) nằm trong một nhánh phân thùy của ĐM phổi xuống bên phải, đặc trưng của thuyên tắc polymethylmethacrylate.
+          </figcaption>
+        </figure>
+      </div>
+
+      <p>
+        <strong>Thuyên tắc dầu iod (Iodinated Oil Embolism):</strong> Xuất hiện trong bệnh cảnh chụp hệ bạch huyết qua CT (CT lymphangiography) (Hình 16), sau thủ thuật nút mạch hóa chất điều trị ung thư biểu mô tế bào gan (TACE) (57), và đôi khi sau chụp tử cung vòi trứng (HSG) bằng chất cản quang gốc dầu (58). CT ngực cho thấy các đám tăng tỷ trọng dạng hạt đậm đặc trong lòng các mạch máu phổi kèm theo các đám kính mờ loang lổ đa ổ do phản ứng viêm hóa học phế nang.
+      </p>
+
+      <div class="my-6">
+        <figure class="my-4">
+          <img src="/posts/nonthrombotic-pulmonary-embolism/figure16_iodinated_oil_embolism.jpg" alt="Hình 16 – Thuyên tắc dầu iod sau chụp bạch mạch ở nam bệnh nhân 50 tuổi" class="w-full h-auto rounded-xl shadow-md" />
+          <figcaption class="mt-2 text-xs text-slate-600 leading-relaxed">
+            <strong>Hình 16. Thuyên tắc dầu iod (Iodinated oil embolization) sau chụp hệ bạch huyết ở nam bệnh nhân 50 tuổi có tiền sử ghép phổi hai bên biến chứng rò dưỡng chấp.</strong> Hình CT ngực tái tạo sagittal (A, B) bộc lộ các dải tăng tỷ trọng hình ống phân nhánh (hình bầu dục ở A) trong các nhánh dưới phân thùy của ĐM thùy trên phổi phải, kèm theo các ổ xuất huyết phế nang (*) và ổ nhồi máu phổi (mũi tên ở B) tại thùy trên phải.
+          </figcaption>
+        </figure>
+      </div>
+
+      <p>
+        <strong>Các tác nhân ngoại sinh hiếm gặp khác:</strong>
+      </p>
+      <ul class="list-disc pl-5 space-y-1.5 text-slate-800">
+        <li><strong>Thuyên tắc thủy ngân (Mercury embolism):</strong> Thường do tiêm tĩnh mạch tự sát (59) hoặc tai biến rút máu tĩnh mạch bằng bơm tiêm có gắn nút bịt thủy ngân. Chẩn đoán xác định dễ dàng trên X-quang ngực với vô số hạt tròn kim loại nhỏ sáng rực phân bố dọc cây mạch máu phổi.</li>
+        <li><strong>Thuyên tắc hạt cấy phóng xạ (Brachytherapy seeds):</strong> Là biến chứng đã được biết rõ của liệu pháp cấy hạt phóng xạ điều trị ung thư tiền liệt tuyến (60). Các hạt cấy gần rìa tuyến tiền liệt có thể di chuyển qua đám rối tĩnh mạch quanh tiền liệt tuyến vào tĩnh mạch chậu và lên động mạch phổi, thường hoàn toàn không có triệu chứng và phát hiện tình cờ dưới dạng các que kim loại nhỏ cản quang.</li>
+        <li><strong>Silicone lỏng tự do (Liquid silicone):</strong> Được tiêm bất hợp pháp để thẩm mỹ nâng ngực hoặc làm đầy cơ thể, đặc biệt ở người chuyển giới nữ (61). Silicone lỏng tiêm tự do có thể thẩm thấu trực tiếp vào tuần hoàn tĩnh mạch, gây thuyên tắc phổi diện rộng có thể tử vong. Bệnh nhân biểu hiện ARDS dữ dội và <strong>xuất huyết phế nang lan tỏa (diffuse alveolar hemorrhage)</strong>, với hình ảnh kính mờ, đông đặc và dày màng liên tiểu thùy dày đặc hai bên (62).</li>
+      </ul>
+
+      <p>
+        <strong>Xảo ảnh "Cục máu nóng" FDG (FDG "Hot Clot" Artifact):</strong> Đại diện cho vùng tích tụ chất đánh dấu phóng xạ rất mạnh trong nhu mô phổi trên PET nhưng <em>hoàn toàn không có bất kỳ tổn thương giải phẫu tương ứng nào trên phim CT đồng thời</em>. Đây là một xảo ảnh kinh điển do hiện tượng <strong>kết tụ (ngưng kết) của phân tử 18F-FDG</strong> trước khi tiêm vào lòng mạch bệnh nhân. Cục "thuyên tắc" FDG này trôi tự do và mắc kẹt trong một tiểu động mạch phổi nhỏ, gây ra một ổ bắt thuốc phóng xạ khu trú giả tạo. Xảo ảnh này có tầm quan trọng đặc biệt trong thực hành ung bướu, vì nó rất dễ bị chẩn đoán nhầm thành nốt di căn phổi đơn độc, dẫn đến việc xếp giai đoạn bệnh quá mức (upstaging) và thay đổi sai lệch hoàn toàn kế hoạch điều trị của người bệnh (Hình 17). Cần lưu ý rằng: <em>nếu chụp kiểm tra lặp lại lần thứ hai, ổ bắt thuốc này sẽ biến mất hoàn toàn</em>!
+      </p>
+
+      <div class="my-6">
+        <figure class="my-4">
+          <img src="/posts/nonthrombotic-pulmonary-embolism/figure17_fdg_hot_clot.jpg" alt="Hình 17 – Xảo ảnh cục máu nóng FDG (hot clot artifact) ở bệnh nhân ung thư phổi" class="w-full h-auto rounded-xl shadow-md" />
+          <figcaption class="mt-2 text-xs text-slate-600 leading-relaxed">
+            <strong>Hình 17. Xảo ảnh "Cục máu nóng" FDG (FDG hot clot artifact) ở một phụ nữ 62 tuổi mắc ung thư biểu mô tuyến của phổi (lung adenocarcinoma).</strong> (A) Hình ảnh FDG PET/CT lát cắt ngang bộc lộ một ổ tăng hấp thu phóng xạ khu trú rất mạnh (mũi tên) tại thùy trên phổi trái, đại diện cho ổ kết tụ FDG do can thiệp y khoa. (B) Hình CT ngực cùng mặt cắt được thực hiện trong cùng ngày hoàn toàn <strong>không có bất kỳ tổn thương dạng nốt hay cấu trúc bất thường tương ứng nào</strong> tại vị trí bắt thuốc này, khẳng định đây là một xảo ảnh do kỹ thuật!
+          </figcaption>
+        </figure>
+      </div>
+
+      <p>
+        <strong>Thuyên tắc khí Động mạch Phổi (Air Embolism):</strong> Thường có nguồn gốc do can thiệp y khoa, xuất hiện sau khi tiêm truyền thuốc hoặc thao tác trên catheter tĩnh mạch trung tâm. Không khí xâm nhập vào các tĩnh mạch hệ thống, đi qua các buồng tim phải và bắn vào các nhánh động mạch phổi. Thuyên tắc khí tĩnh mạch lượng nhỏ khá phổ biến (gặp ở 23% các ca chụp CT) và thường lành tính (63). Tuy nhiên, một thể tích khí từ <strong>200–500 mL được bơm vào tĩnh mạch với tốc độ nhanh &ge; 100 mL/giây</strong> sẽ gây tắc nghẽn cơ học hoàn toàn buồng tống thất phải và tuần hoàn phổi, dẫn đến tử vong nhanh chóng (11,63,64).
+      </p>
+      <p>
+        Thuyên tắc khí tĩnh mạch có nguy cơ nghiêm trọng chuyển thành <strong>thuyên tắc nghịch thường (paradoxical embolism)</strong> đi vào tuần hoàn động mạch hệ thống nếu bệnh nhân có tồn tại lỗ bầu dục (PFO) hoặc shunt động - tĩnh mạch phổi. Ngược lại, thuyên tắc khí động mạch hệ thống nguyên phát xảy ra khi bọt khí đi vào các tĩnh mạch phổi sau các thủ thuật xuyên thành ngực (sinh thiết phổi xuyên thành ngực, áp lạnh hoặc đốt sóng cao tần u phổi). Trong trường hợp này, <em>chỉ cần một thể tích khí cực nhỏ khoảng 2–3 mL xâm nhập vào tĩnh mạch phổi cũng có thể gây tử vong tức thì</em> do nguy cơ tắc nghẽn trực tiếp động mạch vành và động mạch não (65)!
+      </p>
+
+      <h2 id="pho-hinh-anh-thuc-the-hon-hop">6. Phổ Biểu hiện Hình ảnh: Các Thực thể Hỗn hợp Khác (Miscellaneous Entities)</h2>
+
+      <h3 id="hoi-chung-thuyen-tac-mo">6.1. Hội chứng Thuyên tắc Mỡ (Fat Embolism Syndrome – FES)</h3>
+      <p>
+        <strong>Hội chứng thuyên tắc mỡ (Fat Embolism Syndrome – FES)</strong> điển hình xảy ra trong bệnh cảnh gãy các xương dài (đặc biệt là xương đùi) hoặc phẫu thuật chỉnh hình lớn trên xương, trong đó các hạt mỡ tủy xương bị giải phóng vào vòng tuần hoàn tĩnh mạch. Thuyên tắc mỡ xảy ra ở 1%–3% các ca gãy xương dài đơn độc, nhưng <strong>tỷ lệ này vọt lên tới 33% ở các trường hợp gãy hai xương đùi hoặc gãy phức tạp khung chậu</strong> (66,67). Ngoài chấn thương, FES cũng có thể gặp trong các bệnh cảnh không do chấn thương như bệnh huyết sắc tố (bệnh hồng cầu hình liềm), bỏng nặng, viêm tụy cấp hoại tử, viêm tủy xương, truyền máu lượng lớn, phẫu thuật tim phổi nhân tạo, bệnh giảm áp và phẫu thuật hút mỡ (liposuction) (68).
+      </p>
+      <p>
+        Cơ chế bệnh sinh của FES là sự kết hợp kép giữa <strong>tắc nghẽn cơ học vi mạch</strong> bởi các hạt mỡ và <strong>phản ứng viêm hóa học độc tế bào</strong> dữ dội do các acid béo tự do độc hại được giải phóng từ các giọt mỡ bị mắc kẹt tại lưới mao mạch phổi. Tác động của thuyên tắc mỡ biểu hiện rõ nét nhất ở 3 cơ quan đích tạo nên <strong>tam chứng kinh điển: Phổi, Não và Da</strong>:
+      </p>
+      <ul class="list-disc pl-5 space-y-1 text-slate-800">
+        <li>Tổn thương phổi: Khó thở tiến triển, hạ oxy máu nghiêm trọng, ARDS.</li>
+        <li>Tổn thương thần kinh: Kích động, lú lẫn, li bì đến hôn mê.</li>
+        <li>Tổn thương da: Ban xuất huyết dạng chấm (petechial rash) đặc trưng ở vùng ngực, nách, kết mạc mắt và niêm mạc miệng.</li>
+      </ul>
+      <p>
+        Chẩn đoán FES dựa trên lâm sàng và được hỗ trợ bởi các tiêu chuẩn như <strong>tiêu chuẩn Gurd & Wilson</strong> (69) hoặc <strong>tiêu chuẩn Schonfeld</strong> (70). Điểm then chốt trên hình ảnh học là: <strong>các dấu hiệu tổn thương phổi điển hình chỉ xuất hiện sau khoảng thời gian tiềm phục từ 1 đến 2 ngày sau chấn thương</strong>. Khoảng thời gian tiềm phục (time lapse) này là yếu tố vàng giúp phân biệt FES với các tổn thương chấn thương trực tiếp tức thì như giập phổi (pulmonary contusion) – vốn xuất hiện ngay lập tức sau va chạm (11).
+      </p>
+      <p>
+        Dấu hiệu CT ngực điển hình bao gồm các đám kính mờ lan tỏa hai bên và các ổ đông đặc rải rác (Hình 18) – phản ánh hội chứng tổn thương phổi cấp. Sự vắng mặt của bóng tim to, đường Kerley B và tràn dịch màng phổi giúp phân biệt chắc chắn với phù phổi cấp do tim (12).
+      </p>
+      <p>
+        Khuyết thuốc trực tiếp trong lòng các nhánh động mạch phổi lớn do mỡ rất hiếm khi quan sát thấy. Trong trường hợp hiếm hoi nhìn thấy, <strong>đo tỷ trọng CT (Hounsfield Unit - HU) của khối khuyết thuốc là chìa khóa quyết định</strong>: huyết khối máu thường có tỷ trọng dương tính trung bình khoảng <strong>+55 HU</strong> (71), trong khi các cục thuyên tắc chứa mỡ luôn có <strong>tỷ trọng âm tính đặc trưng (âm từ -20 đến -100 HU)</strong>!
+      </p>
+
+      <div class="my-6">
+        <figure class="my-4">
+          <img src="/posts/nonthrombotic-pulmonary-embolism/figure18_fat_embolism.jpg" alt="Hình 18 – Hội chứng thuyên tắc mỡ ở phụ nữ 30 tuổi bị đa chấn thương gãy xương" class="w-full h-auto rounded-xl shadow-md" />
+          <figcaption class="mt-2 text-xs text-slate-600 leading-relaxed">
+            <strong>Hình 18. Hội chứng thuyên tắc mỡ phổi (Pulmonary fat embolism) ở một phụ nữ 30 tuổi bị đa chấn thương.</strong> (A, B) Hình CT ngực lát cắt ngang (A) và tái tạo coronal (B) bộc lộ các đám kính mờ loang lổ và các ổ đông đặc nhỏ nằm đè lên nền kính mờ lan tỏa hai bên phổi, trong bối cảnh lâm sàng gợi ý cao tổn thương phổi cấp do thuyên tắc mỡ. (C) X-quang chi dưới bộc lộ các ổ gãy nát di lệch phức tạp của xương đùi, xương chày và xương mác – nguồn giải phóng mỡ tủy xương ồ ạt vào lòng mạch.
+          </figcaption>
+        </figure>
+      </div>
+
+      <h3 id="thuyen-tac-nuoc-oi">6.2. Thuyên tắc Nước ối (Amniotic Fluid Embolism)</h3>
+      <p>
+        <strong>Thuyên tắc nước ối</strong> là một biến chứng sản khoa cực kỳ nguy hiểm và thường dẫn đến tử vong, với tỷ lệ tử vong được báo cáo lên tới <strong>20%–60%</strong> (72). Cơ chế bệnh sinh liên quan đến sự kích hoạt bùng nổ của chuỗi phản ứng miễn dịch và đông máu khi dịch ối chứa lông tơ, tế bào biểu mô bong và chất gây xâm nhập vào tuần hoàn người mẹ thông qua các vết rách vi thể ở tĩnh mạch tử cung trong quá trình chuyển dạ hoặc mổ lấy thai.
+      </p>
+      <p>
+        Bệnh nhân đột ngột khó thở kịch phát, tím tái, tụt huyết áp trụy tim mạch dữ dội, tiến triển tức thì thành <strong>Đông máu nội mạch lan tỏa (DIC)</strong>, suy tuần hoàn hô hấp tối cấp và phù phổi nặng nề (73). Chẩn đoán chủ yếu dựa vào lâm sàng. Hình ảnh CT ngực biểu hiện các tổn thương phổi cấp tính với các đám kính mờ và đông đặc lan tỏa hai bên của phù phổi không do tim (74). Các vi thuyên tắc nước ối trong lòng tiểu động mạch phổi hoàn toàn "vô hình" trên các phương tiện chẩn đoán hình ảnh.
+      </p>
+
+      <h3 id="benh-phoi-do-ta-duoc">6.3. Bệnh Phổi do Tá dược (Excipient Lung Disease – ELD)</h3>
+      <p>
+        <strong>Bệnh phổi do tá dược (Excipient Lung Disease – ELD)</strong>, còn được gọi là <em>Bệnh u hạt mạch máu dị vật ở phổi (Pulmonary foreign-body angiogranulomatosis)</em>, là một tình trạng bệnh lý không thường gặp xảy ra khi các đối tượng nghiện ma túy nghiền nát các viên thuốc uống để hòa tan và tiêm chích vào tĩnh mạch (75). Các viên thuốc uống chứa đầy các tá dược (excipients) – là các vật liệu độn dạng hạt không hòa tan trơ về mặt hóa học, phổ biến nhất là <strong>bột talc, cellulose vi tinh thể (microcrystalline cellulose), crospovidone, và tinh bột</strong> (76,77).
+      </p>
+      <p>
+        Khi tiêm vào tĩnh mạch, các hạt tá dược không tan này trôi về tim phải và mắc kẹt tại mạng lưới tiểu động mạch và mao mạch phổi, khởi phát phản ứng viêm hạt ngoại lai mạn tính (foreign-body granulomatous reaction), dẫn đến tắc nghẽn lòng mạch tiến triển, xơ hóa và cuối cùng là <strong>tăng áp động mạch phổi nặng nề và tâm phế mạn</strong>. Biểu hiện lâm sàng rất đa dạng, từ hoàn toàn không triệu chứng ở giai đoạn đầu cho tới suy tim phải mất bù nhanh chóng.
+      </p>
+      <p>
+        Đặc điểm hình ảnh CT ngực kinh điển là <strong>các vi nốt trung tâm tiểu thùy lan tỏa (&lt; 3 mm) phân bố đồng đều ở cả hai phổi</strong> (Hình 19), có hoặc không kèm theo dấu hiệu tăng áp phổi và suy tim phải. Các nốt vi thể này hiển thị cực kỳ sắc nét trên <em>chuỗi ảnh tái tạo cường độ tối đa (MIP - Maximum Intensity Projection)</em>. Trên phân tích mô bệnh học, ngoại trừ crospovidone, hầu hết các hạt tá dược này biểu hiện dưới dạng các tinh thể lưỡng chiết phát sáng rực rỡ dưới kính hiển vi ánh sáng phân cực (77). Chẩn đoán phân biệt hình ảnh chính của ELD bao gồm bệnh u máu mao mạch phổi (PCH) (76) và PTTM (75).
+      </p>
+
+      <div class="my-6">
+        <figure class="my-4">
+          <img src="/posts/nonthrombotic-pulmonary-embolism/figure19_excipient_lung_disease.jpg" alt="Hình 19 – Bệnh phổi do tá dược (ELD) ở phụ nữ 29 tuổi tiêm chích ma túy" class="w-full h-auto rounded-xl shadow-md" />
+          <figcaption class="mt-2 text-xs text-slate-600 leading-relaxed">
+            <strong>Hình 19. Bệnh phổi do tá dược (ELD) ở một phụ nữ 29 tuổi có tiền sử lạm dụng tiêm chích ma túy đường tĩnh mạch, nhập viện vì khó thở.</strong> (A) Phim X-quang ngực thẳng cho thấy vô số vi nốt mờ lan tỏa hai bên phổi. (B) Hình CT ngực lát cắt ngang bộc lộ rõ các nốt trung tâm tiểu thùy lan tỏa phân bố đồng đều khắp cả hai phế trường. (C) Trên hình CT tái tạo cường độ tối đa (MIP) lát cắt ngang, các nốt mờ và kiểu phân bố trung tâm tiểu thùy của chúng trở nên nổi bật và sắc nét vượt trội. Bệnh cảnh hình ảnh này kết hợp tiền sử tiêm chích viên thuốc uống khẳng định bệnh phổi do tá dược.
+          </figcaption>
+        </figure>
+      </div>
+
+      <h2 id="xao-anh-tren-ctpa-mo-phong-thuyen-tac-phoi">7. Các Xảo ảnh trên CTPA Mô phỏng Thuyên tắc Phổi (Artifacts at CTPA Simulating NTPE and PE)</h2>
+      <p>
+        Việc đọc và diễn giải chính xác phim CTPA đòi hỏi nồng độ cản quang trong lòng động mạch phổi phải đạt mức cao đồng nhất và tỷ lệ tín hiệu trên nhiễu (contrast-to-noise ratio) tối ưu. Một số xảo ảnh kỹ thuật tại động mạch phổi có thể mô phỏng rất giống cục thuyên tắc huyết khối (PE) hoặc NTPE, tiềm ẩn nguy cơ dẫn đến chẩn đoán dương tính giả tai hại. Bảng 4 tóm tắt các xảo ảnh động mạch phổi quan trọng nhất, đặc điểm nhận diện và các biện pháp kỹ thuật khắc phục (78).
+      </p>
+
+      <div class="my-6 overflow-x-auto">
+        <table class="w-full text-left border-collapse border border-slate-300 text-sm">
+          <caption class="text-base font-bold text-slate-900 mb-2 text-left">Bảng 4: Các Xảo ảnh trên CTPA Mô phỏng NTPE và Huyết khối PE (Artifacts at CTPA)</caption>
+          <thead class="bg-slate-100 text-slate-800 font-bold border-b border-slate-300">
+            <tr>
+              <th class="p-3 border border-slate-300 w-1/5">Loại xảo ảnh</th>
+              <th class="p-3 border border-slate-300 w-1/4">Nguyên nhân cơ chế</th>
+              <th class="p-3 border border-slate-300 w-1/3">Đặc điểm hình ảnh nhận diện</th>
+              <th class="p-3 border border-slate-300">Biện pháp khắc phục (Troubleshooting)</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 text-slate-800 bg-white">
+            <tr>
+              <td class="p-3 font-semibold bg-slate-50 border border-slate-300" rowspan="3">
+                Xảo ảnh dòng chảy ĐM phổi<br/>
+                <em>("Khói" trong lòng mạch - Smoke artifact)*</em>
+              </td>
+              <td class="p-3 border border-slate-300">
+                <strong>Chụp quá sớm:</strong> Chụp trước khi thuốc cản quang hòa trộn đồng nhất trong ĐM phổi (thường gặp ở bệnh nhân suy tim ứ huyết).
+              </td>
+              <td class="p-3 border border-slate-300">
+                Khuyết thuốc bờ không rõ nét với ranh giới dạng sợi khói mỏng ("smoke"); <strong>tỷ trọng khuyết thuốc cao &gt; 78 HU</strong>.<br/>
+                Chưa thấy hoặc thấy rất ít thuốc cản quang trong quai động mạch chủ và các nhánh ĐM phổi xa.
+              </td>
+              <td class="p-3 border border-slate-300">
+                Chụp ở thì muộn hơn (delayed acquisition) với điểm kích hoạt tự động (bolus tracking) đặt tại quai động mạch chủ.
+              </td>
+            </tr>
+            <tr>
+              <td class="p-3 border border-slate-300">
+                <strong>Dòng chảy chậm do co mạch:</strong> Hiện tượng co mạch do thiếu oxy (hypoxemic vasoconstriction) ở các vùng phổi bệnh lý (đông đặc hoặc xẹp phổi).
+              </td>
+              <td class="p-3 border border-slate-300">
+                Khuyết thuốc bờ mờ dạng khói; tỷ trọng &gt; 78 HU.<br/>
+                Không có sự thay đổi khẩu kính mạch máu, tổn thương chỉ khu trú tại một nhánh mạch đơn độc cấp máu cho vùng phổi đông đặc.
+              </td>
+              <td class="p-3 border border-slate-300">
+                Chụp ở thì muộn hơn với trigger kích hoạt từ động mạch chủ.
+              </td>
+            </tr>
+            <tr>
+              <td class="p-3 border border-slate-300">
+                <strong>Dòng máu vào từ ĐM phế quản:</strong> Trong bệnh phổi mạn tính (giãn phế quản, xơ nang), mạng lưới bàng hệ ĐM phế quản phì đại đổ dòng máu không ngấm thuốc ngược vào tuần hoàn ĐM phổi.
+              </td>
+              <td class="p-3 border border-slate-300">
+                Khuyết thuốc có ranh giới rõ hơn ở ngoại vi (nơi máu chưa ngấm thuốc từ ngoại vi đổ vào ĐM phổi) và xuất hiện "dạng khói" ở vùng ĐM phổi trung tâm (Hình 20).
+              </td>
+              <td class="p-3 border border-slate-300">
+                Chụp ở thì muộn hơn với trigger kích hoạt từ động mạch chủ.
+              </td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold bg-slate-50 border border-slate-300">
+                Xảo ảnh cứng hóa chùm tia hoặc vệt sáng<br/>
+                <span class="text-xs font-normal text-slate-500">(Beam-hardening / streak artifact)</span>
+              </td>
+              <td class="p-3 border border-slate-300">
+                Liều bolus thuốc cản quang quá đậm đặc nằm trong tĩnh mạch chủ trên (SVC) hoặc do các kim loại cấy ghép lân cận.
+              </td>
+              <td class="p-3 border border-slate-300">
+                Các vệt tối dạng đường thẳng băng qua mạch máu mô phỏng các khuyết thuốc giảm đậm độ.
+              </td>
+              <td class="p-3 border border-slate-300">
+                Bơm đuổi bằng nước muối sinh lý (saline chaser); sử dụng máy CT hai mức năng lượng (DECT) nếu có.
+              </td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold bg-slate-50 border border-slate-300">
+                Hiệu ứng thể tích bán phần do cử động<br/>
+                <span class="text-xs font-normal text-slate-500">(Partial volume averaging)</span>
+              </td>
+              <td class="p-3 border border-slate-300">
+                Độ dày lát cắt quá dày hoặc mạch máu có hướng chạy chéo so với mặt phẳng cắt ngang.
+              </td>
+              <td class="p-3 border border-slate-300">
+                Hình ảnh giả khuyết thuốc tại rìa thành mạch do sự tính trung bình tỷ trọng giữa nhu mô phổi chứa khí và mạch máu chứa thuốc.
+              </td>
+              <td class="p-3 border border-slate-300">
+                Tái tạo lát cắt mỏng (&le; 1 mm); luôn đối chiếu và kiểm tra trên các mặt phẳng tái tạo đa hướng (MPR).
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="my-6">
+        <figure class="my-4">
+          <img src="/posts/nonthrombotic-pulmonary-embolism/figure20_flow_artifacts.jpg" alt="Hình 20 – Xảo ảnh dòng chảy động mạch phổi mô phỏng huyết khối" class="w-full h-auto rounded-xl shadow-md" />
+          <figcaption class="mt-2 text-xs text-slate-600 leading-relaxed">
+            <strong>Hình 20. Xảo ảnh dòng chảy động mạch phổi (Pulmonary artery flow artifacts).</strong> (A) Hình CT lát cắt ngang bộc lộ một khuyết thuốc dạng "sợi khói" (các mũi tên) trong ĐM phổi trái, nhiều khả năng do tăng áp động mạch phổi khu trú. (B, C) Hình CTPA lát cắt ngang (B) và tái tạo coronal (C) ở một phụ nữ 20 tuổi mắc bệnh xơ nang (cystic fibrosis) cho thấy một ổ khuyết thuốc nhỏ dạng đường cong (mũi tên) nằm trong ĐM thùy lưỡi, gây ra do dòng máu chưa ngấm thuốc từ các động mạch phế quản phì đại đổ ngược vào lòng động mạch phổi, dễ bị đọc nhầm thành thuyên tắc huyết khối nếu không quan sát kỹ!
+          </figcaption>
+        </figure>
+      </div>
+
+      <p>
+        Bên cạnh các xảo ảnh trên, các cấu trúc giải phẫu nằm kế cận như phế quản ứ đọng nút nhầy, tĩnh mạch phổi ngấm thuốc kém hoặc các hạch bạch huyết phì đại tì đè sát thành ngoài động mạch phổi cũng có thể tạo ra hình ảnh giả khuyết thuốc trong lòng mạch (79).
+      </p>
+
+      <h2 id="ket-luan">8. Kết luận (Conclusion)</h2>
+      <p>
+        Thuyên tắc động mạch phổi không do huyết khối (NTPE) bao gồm một phổ bệnh lý rộng lớn, hiếm gặp nhưng tiềm ẩn nguy cơ tử vong rất cao, đòi hỏi sự <strong>nhận diện chính xác ở giai đoạn sớm</strong> và <strong>chiến lược điều trị đặc hiệu theo từng nguyên nhân</strong>. Mặc dù các biểu hiện lâm sàng thường chồng lấp sâu sắc với thuyên tắc huyết khối thông thường, việc kết hợp nhuần nhuyễn các kiểu hình ảnh học tinh tế trên CTPA/DECT với bệnh sử lâm sàng toàn diện sẽ mở ra cánh cửa chẩn đoán chính xác. Các bác sĩ chẩn đoán hình ảnh cần nắm vững phổ bệnh học này để kịp thời gióng lên hồi chuông cảnh báo, giúp cứu sống người bệnh và cải thiện tiên lượng sống còn.
+      </p>
+
+      <div class="key-points my-6 p-5 rounded-2xl bg-indigo-50/80 border border-indigo-200">
+        <h4 class="font-bold text-indigo-900 mb-3 flex items-center gap-2 text-base">
+          <span>🌟</span> 10 ĐIỂM CỐT LÕI CẦN NHỚ TRONG THỰC HÀNH (KEY TAKEAWAYS)
+        </h4>
+        <ol class="list-decimal pl-5 space-y-2 text-sm text-slate-800 leading-relaxed">
+          <li><strong>Bản chất khác biệt của NTPE:</strong> Không phải cục máu đông đơn thuần mà là tế bào u, vi sinh vật, mỡ, khí, nước ối hoặc dị vật; cơ chế gây bệnh bao gồm phản ứng viêm nội mô và độc tế bào chứ không chỉ là tắc nghẽn cơ học.</li>
+          <li><strong>D-dimer không có giá trị loại trừ hay chẩn đoán:</strong> D-dimer thường hoàn toàn bình thường ở các tác nhân ngoại sinh (xi măng, coil, dị vật) và tăng không đặc hiệu ở thuyên tắc mỡ/dịch ối.</li>
+          <li><strong>Dấu hiệu hang trong thuyên tắc nhiễm trùng:</strong> Nhồi máu phổi nhiễm trùng kinh điển hoại tử trung tâm tạo nốt hang; kèm dấu hiệu mạch máu nuôi (feeding vessel) và halo đảo ngược (reverse halo sign).</li>
+          <li><strong>Tam chứng vàng của Sarcoma động mạch phổi (PAS):</strong> (1) Khối choán toàn bộ lòng thân/nhánh gốc ĐM phổi; (2) Phình giãn nở rộng mạch máu kèm <em>dấu hiệu che khuất thành mạch (wall-eclipsing sign)</em>; (3) Khối tồn tại hoặc to lên dù dùng kháng đông đầy đủ.</li>
+          <li><strong>Độ bắt FDG của PAS không đồng nghĩa với loại trừ u:</strong> PAS có thể bắt FDG từ rất thấp đến rất cao phụ thuộc vào độ biệt hóa mô học; không thể chỉ dựa vào FDG âm tính để loại trừ sarcoma.</li>
+          <li><strong>Ba dấu hiệu phân biệt thuyên tắc u:</strong> Khuyết thuốc ngấm thuốc cản quang không đồng nhất; các nhánh ĐM ngoại vi giãn nở và dạng chuỗi hạt (<em>vascular tree-in-bud</em>); và tổn thương không thoái triển trên phim theo dõi.</li>
+          <li><strong>Hiểm họa PTTM ở bệnh nhân ung thư:</strong> Tế bào vi u tiết VEGF/PDGF gây xơ hóa tăng sinh nội mạc, tăng áp phổi kịch phát và tâm phế cấp; hình ảnh lát đá (crazy paving) và "bản đồ đường viền" trên V/Q; tử vong trung vị sau 9 ngày!</li>
+          <li><strong>Tỷ trọng âm tính của Thuyên tắc Mỡ (FES):</strong> Khuyết thuốc do mỡ có tỷ trọng âm tính (&lt; 0 HU), khác biệt hoàn toàn với huyết khối thường (+55 HU); tổn thương nhu mô phổi xuất hiện sau khoảng thời gian tiềm phục 1–2 ngày.</li>
+          <li><strong>Vi nốt trung tâm tiểu thùy trong Bệnh phổi Tá dược (ELD):</strong> Tiêm chích viên thuốc nghiền gây u hạt mạch máu, biểu hiện vô số vi nốt trung tâm tiểu thùy (&lt; 3 mm) sắc nét trên chuỗi xung MIP.</li>
+          <li><strong>Phân biệt Xảo ảnh "Khói" dòng chảy trên CTPA:</strong> Vùng giảm tỷ trọng dạng khói mờ ảo có tỷ trọng &gt; 78 HU (huyết khối thật sự &lt; 78 HU), gặp do chụp quá sớm, co mạch thiếu oxy hoặc dòng máu chưa ngấm thuốc từ ĐM phế quản phì đại đổ vào.</li>
+        </ol>
+      </div>
+
+      <div class="pitfalls my-6 p-5 rounded-2xl bg-rose-50/80 border border-rose-200">
+        <h4 class="font-bold text-rose-900 mb-3 flex items-center gap-2 text-base">
+          <span>🚨</span> 8 CẠM BẪY LÂM SÀNG NGUY HIỂM NHẤT TRONG CHẨN ĐOÁN NTPE
+        </h4>
+        <ol class="list-decimal pl-5 space-y-2 text-sm text-slate-800 leading-relaxed">
+          <li><strong>Cạm bẫy điều trị kháng đông kéo dài cho Sarcoma Động mạch Phổi:</strong> Nhầm PAS thành huyết khối thường (bland PE), cho dùng kháng đông hàng tháng trời trong khi khối u âm thầm xâm lấn ra ngoài thành mạch vào trung thất và di căn xa, làm mất cơ hội phẫu thuật triệt căn.</li>
+          <li><strong>Cạm bẫy bỏ sót khối u trung tâm khi thấy nhồi máu phổi một bên tiến triển:</strong> Bệnh nhân có các ổ nhồi máu phổi một bên tái diễn và ngày càng nhiều dù đang dùng kháng đông đầy đủ phải luôn tìm kiếm khối u nội mạch gốc (PAS hoặc tumor thrombus).</li>
+          <li><strong>Cạm bẫy nhầm lẫn thuyên tắc u dạng nụ trên cành với viêm tiểu phế quản/hít sặc:</strong> Đọc nốt nụ trên cành dạng mạch máu (vascular tree-in-bud) thành viêm đường thở, bỏ sót tình trạng thuyên tắc u vi mạch ác tính. Cần kiểm tra: không có dày thành phế quản, không có nút nhầy lòng phế quản, và mạch máu ngoại vi bị giãn phình.</li>
+          <li><strong>Cạm bẫy xảo ảnh "Cục máu nóng" FDG trên PET/CT:</strong> Kết tụ phân tử 18F-FDG tạo ổ bắt thuốc rất mạnh ở phổi nhưng không có tổn thương trên CT, dễ bị đọc nhầm thành nốt di căn phổi gây xếp sai giai đoạn ung thư (upstaging). Biến mất hoàn toàn khi chụp lại.</li>
+          <li><strong>Cạm bẫy bị thuốc cản quang che lấp vật liệu ngoại sinh:</strong> Xi măng xương (PMMA) hay kim loại có tỷ trọng siêu cao bị che lấp hoàn toàn bởi thuốc cản quang lòng mạch trên cửa sổ trung thất thường quy. Luôn mở cửa sổ xương (bone window) hoặc dùng ảnh ảo không thuốc (VNC) trên DECT để phát hiện.</li>
+          <li><strong>Cạm bẫy nhầm xảo ảnh dòng chảy ("khói" trong lòng mạch) thành huyết khối thật:</strong> Chụp quá sớm ở bệnh nhân suy tim hoặc dòng máu không cản quang từ ĐM phế quản phì đại (trong giãn phế quản/xơ nang) tạo vệt giảm đậm độ trong lòng mạch. Đo tỷ trọng: nếu &gt; 78 HU thì đó là xảo ảnh dòng chảy, không phải cục huyết khối!</li>
+          <li><strong>Cạm bẫy nhầm thuyên tắc mỡ (FES) với giập phổi chấn thương:</strong> Giập phổi xuất hiện ngay tức thì sau va chạm; trong khi tổn thương phổi do FES luôn có khoảng thời gian tiềm phục từ 24 đến 48 giờ sau gãy xương mới bùng phát.</li>
+          <li><strong>Cạm bẫy thuyên tắc khí gây tử vong khi làm thủ thuật lồng ngực:</strong> Khí xâm nhập vào tĩnh mạch phổi trong sinh thiết xuyên thành ngực hay đốt u phổi chỉ cần một lượng siêu nhỏ (2–3 mL) cũng có thể gây thuyên tắc mạch vành và mạch não gây ngừng tim đột ngột!</li>
+        </ol>
+      </div>
+
+    `,
+    views: 1420,
+    readTime: "25 phút đọc",
+    source: "RadioGraphics 2026; 46(4):e250129 (Brigham and Women's Hospital, Harvard Medical School)",
+    tags: ["Thuyên tắc phổi", "NTPE", "Pulmonary Embolism", "Sarcoma động mạch phổi", "PAS", "Thuyên tắc u", "PTTM", "Thuyên tắc nhiễm trùng", "Thuyên tắc mỡ", "FES", "Thuyên tắc nước ối", "Bệnh phổi do tá dược", "ELD", "CTPA", "DECT", "Xảo ảnh CT"]
+  },
 ];
