@@ -7152,6 +7152,7 @@ export const POSTS: Post[] = [
         <strong>Hình 5. Nguy cơ tương đối bóc tách ĐMC theo nhóm kích thước (Paruchuri et al - MESA Database).</strong> Nguy cơ bắt đầu tăng rõ ở mức 4.0–4.4 cm (tăng 89.1 lần) và tăng vọt theo phương thẳng đứng ở mức ≥4.5 cm (tăng 6.305,5 lần), làm cơ sở chuẩn hóa định nghĩa Dãn vs Phình.
       </figcaption>
     </figure>
+  </div>
 
   <h3 id="1-4-chi-so-hoa-kich-thuoc">1.4. Chỉ số hóa kích thước ĐMC theo thể trạng bệnh nhân</h3>
   <p>
@@ -7678,6 +7679,7 @@ export const POSTS: Post[] = [
         <strong>Hình 15. Nguy cơ tử vong phẫu thuật thực tế theo phân tầng thể tích trung tâm (Mori et al).</strong> Khảo sát &gt;53.000 ca mổ ĐMC ngực đoạn gần tại Hoa Kỳ: Tỷ lệ tử vong giảm rõ rệt khi thể tích trung tâm &gt;20–25 ca/năm và giảm xuống mức thấp nhất tại các trung tâm siêu lớn &gt;50 ca/năm.
       </figcaption>
     </figure>
+  </div>
 
   <p>
     <strong>Tác động quyết định lên Bóc tách ĐMC Type A Cấp:</strong>
@@ -8922,6 +8924,7 @@ export const POSTS: Post[] = [
         <strong>Hình 26. Phác đồ EULAR điều trị nội khoa Viêm ĐM Takayasu.</strong> Phối hợp sớm glucocorticoid với các thuốc DMARD tổng hợp kinh điển (csDMARD).
       </figcaption>
     </figure>
+  </div>
 
   <h3 id="9-2-viem-dmc-nhiem-trung">9.2. Viêm ĐMC Nhiễm Trùng &amp; Nhiễm Trùng Mạch Ghép Nhân Tạo</h3>
   <p>
