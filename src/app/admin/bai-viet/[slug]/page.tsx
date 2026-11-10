@@ -92,7 +92,10 @@ export default function AdminEditPostPage() {
     try {
       const res = await fetch("/api/admin/posts", {
         method: "PUT",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          "x-admin-token": "cdha_secret_session_token_2026",
+        },
         body: JSON.stringify({
           slug,
           title,

@@ -37,7 +37,7 @@ export async function POST(request: Request) {
       name: ADMIN_TOKEN_KEY,
       value: ADMIN_SESSION_SECRET,
       httpOnly: false,
-      secure: process.env.NODE_ENV === "production",
+      secure: false, // Cho phép hoạt động mượt mà trên môi trường http://localhost
       path: "/",
       maxAge: 60 * 60 * 24 * 7, // 7 days
       sameSite: "lax",
