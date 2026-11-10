@@ -6080,7 +6080,7 @@ export const POSTS: Post[] = [
           <td class="p-3 leading-relaxed">Dịch mật cô đặc đã kết tủa ra khỏi dung dịch, thường có hồi âm tăng, không tạo bóng lưng, di động khi thay đổi tư thế và lắng đọng ở phần thấp phụ thuộc trọng lực.</td>
         </tr>
         <tr class="hover:bg-slate-50">
-          <td class="p-3 font-bold text-blue-950">Cặn bùn mật dạng u<br/><span class="text-xs font-normal text-slate-500">(Tumefactive sludge)</span></td>
+          <td class="p-3 font-bold text-blue-950">Cặn bùn mật dạng giả u<br/><span class="text-xs font-normal text-slate-500">(Tumefactive sludge)</span></td>
           <td class="p-3 leading-relaxed">Chất kết tủa mật vón cục lại tạo thành một cấu trúc có biểu hiện dạng đặc hơn ("quả bóng bùn" - sludge ball), có thể mô phỏng một khối u hoặc một polyp thực thụ.</td>
         </tr>
         <tr class="hover:bg-slate-50">
@@ -6479,11 +6479,11 @@ export const POSTS: Post[] = [
   </p>
 
   <p class="leading-relaxed text-slate-800 mb-4">
-    Độ nhạy của MRI trong phát hiện polyp túi mật so với siêu âm vẫn chưa được xác định rõ ràng. Tín hiệu cao trên chuỗi xung T1W có thể chỉ điểm polyp cholesterol hoặc sỏi sắc tố, trong khi <strong>hiện tượng hạn chế khuếch tán trên chuỗi xung khuếch tán (DWI) gợi ý mạnh mẽ tổn thương ác tính</strong> (70, 86–88). Các polyp lành tính có xu hướng có cường độ tín hiệu T2 thấp; tuy nhiên, cường độ tín hiệu T2 từ trung gian đến cao là một dấu hiệu nghi ngờ hơn. Ngoài ra, MRI cực kỳ hữu ích để loại trừ bệnh u cơ tuyến (adenomyomatosis) thông qua việc bộc lộ các xoang Rokitansky-Aschoff dạng nang trong thành túi mật, hoặc nhận diện cặn bùn mật dạng u vì cặn bùn sẽ hoàn toàn không ngấm thuốc đối quang từ sau tiêm Gadolinium, trái ngược với ung thư túi mật thường rất giàu mạch máu (90) (<strong>Hình 9</strong>).
+    Độ nhạy của MRI trong phát hiện polyp túi mật so với siêu âm vẫn chưa được xác định rõ ràng. Tín hiệu cao trên chuỗi xung T1W có thể chỉ điểm polyp cholesterol hoặc sỏi sắc tố, trong khi <strong>hiện tượng hạn chế khuếch tán trên chuỗi xung khuếch tán (DWI) gợi ý mạnh mẽ tổn thương ác tính</strong> (70, 86–88). Các polyp lành tính có xu hướng có cường độ tín hiệu T2 thấp; tuy nhiên, cường độ tín hiệu T2 từ trung gian đến cao là một dấu hiệu nghi ngờ hơn. Ngoài ra, MRI cực kỳ hữu ích để loại trừ bệnh u cơ tuyến (adenomyomatosis) thông qua việc bộc lộ các xoang Rokitansky-Aschoff dạng nang trong thành túi mật, hoặc nhận diện cặn bùn mật dạng giả u vì cặn bùn sẽ hoàn toàn không ngấm thuốc đối quang từ sau tiêm Gadolinium, trái ngược với ung thư túi mật thường rất giàu mạch máu (90) (<strong>Hình 9</strong>).
   </p>
 
   <p class="leading-relaxed text-slate-800 mb-6 p-4 rounded-xl bg-blue-50 border border-blue-300 text-sm text-blue-950">
-    <strong>Đồng thuận SRU về Vai trò của CEUS và MRI:</strong> Ủy ban Hội nghị Đồng thuận SRU nhất trí rằng <strong>siêu âm kiểm tra lại khoảng cách ngắn trong vòng 1–2 tháng</strong> với kỹ thuật tối ưu hóa và chuẩn bị bệnh nhân chu đáo có thể hữu ích trong việc đánh giá các tổn thương túi mật lớn hơn 10 mm mà việc phân biệt cặn bùn dạng u với một khối u túi mật, polyp hay bệnh cơ tuyến gặp khó khăn. Ngoài ra, <strong>CEUS có thể được sử dụng để xác định thêm đặc tính</strong>. Nếu CEUS không có sẵn, <strong>MRI có thể được xem xét</strong> (Hình 9). Độ chính xác chẩn đoán của CT kém hơn CEUS hoặc MRI cho mục đích này.
+    <strong>Đồng thuận SRU về Vai trò của CEUS và MRI:</strong> Ủy ban Hội nghị Đồng thuận SRU nhất trí rằng <strong>siêu âm kiểm tra lại khoảng cách ngắn trong vòng 1–2 tháng</strong> với kỹ thuật tối ưu hóa và chuẩn bị bệnh nhân chu đáo có thể hữu ích trong việc đánh giá các tổn thương túi mật lớn hơn 10 mm mà việc phân biệt cặn bùn dạng giả u với một khối u túi mật, polyp hay bệnh cơ tuyến gặp khó khăn. Ngoài ra, <strong>CEUS có thể được sử dụng để xác định thêm đặc tính</strong>. Nếu CEUS không có sẵn, <strong>MRI có thể được xem xét</strong> (Hình 9). Độ chính xác chẩn đoán của CT kém hơn CEUS hoặc MRI cho mục đích này.
   </p>
 
   <!-- FIGURE 9 -->
@@ -6491,13 +6491,13 @@ export const POSTS: Post[] = [
     <div class="relative group cursor-zoom-in">
       <img 
         src="/posts/gallbladder-polyps-sru-consensus-radiology/figure9_tumefactive_sludge.jpg" 
-        alt="Hình 9: Cặn bùn dạng u được chứng minh là vô mạch trên CEUS và MRI (A–F)" 
+        alt="Hình 9: Cặn bùn dạng giả u được chứng minh là vô mạch trên CEUS và MRI (A–F)" 
         class="w-full h-auto object-contain bg-black/5 mx-auto"
         loading="lazy"
       />
     </div>
     <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
-      <strong>Hình 9. Cặn bùn dạng u được chứng minh là hoàn toàn vô mạch trên siêu âm có chất cản âm (CEUS).</strong> (A) Hình siêu âm thang xám của túi mật cho thấy một khối dạng polyp (mũi tên) ở đáy túi mật. (B) Kỹ thuật Doppler nhạy dòng chảy cho thấy ảnh giả ở ngoại vi (mũi tên) nhưng không có tín hiệu mạch máu nuôi rõ rệt bên trong. (C) CEUS và (D) hình ảnh siêu âm thang xám trên mặt cắt chếch ngang cho thấy <strong>hoàn toàn không có sự ngấm thuốc cản âm bên trong tổn thương (các mũi tên)</strong>, phù hợp với cặn bùn mật dạng u (tumefactive sludge). (E) Hình ảnh MRI T1W và (F) T2W thu được 6 tháng sau đó cho thấy cường độ tín hiệu T1 cao tự nhiên và tín hiệu T2 thấp (các mũi tên). Các dấu hiệu MRI hoàn toàn phù hợp với phát hiện CEUS về cặn bùn mật dạng u và sự hình thành sỏi mật sau một khoảng thời gian.
+      <strong>Hình 9. Cặn bùn dạng giả u được chứng minh là hoàn toàn vô mạch trên siêu âm có chất cản âm (CEUS).</strong> (A) Hình siêu âm thang xám của túi mật cho thấy một khối dạng polyp (mũi tên) ở đáy túi mật. (B) Kỹ thuật Doppler nhạy dòng chảy cho thấy ảnh giả ở ngoại vi (mũi tên) nhưng không có tín hiệu mạch máu nuôi rõ rệt bên trong. (C) CEUS và (D) hình ảnh siêu âm thang xám trên mặt cắt chếch ngang cho thấy <strong>hoàn toàn không có sự ngấm thuốc cản âm bên trong tổn thương (các mũi tên)</strong>, phù hợp với cặn bùn mật dạng giả u (tumefactive sludge). (E) Hình ảnh MRI T1W và (F) T2W thu được 6 tháng sau đó cho thấy cường độ tín hiệu T1 cao tự nhiên và tín hiệu T2 thấp (các mũi tên). Các dấu hiệu MRI hoàn toàn phù hợp với phát hiện CEUS về cặn bùn mật dạng giả u và sự hình thành sỏi mật sau một khoảng thời gian.
     </figcaption>
   </figure>
 
@@ -6767,7 +6767,7 @@ export const POSTS: Post[] = [
     </div>
     <div class="space-y-3 text-xs sm:text-sm text-amber-950/90 leading-relaxed">
       <div>
-        <strong class="text-amber-900">1. Cạm bẫy cặn bùn dạng u (Tumefactive sludge) mô phỏng polyp/u túi mật:</strong>
+        <strong class="text-amber-900">1. Cạm bẫy cặn bùn dạng giả u (Tumefactive sludge) mô phỏng polyp/u túi mật:</strong>
         <p class="mt-0.5">Cặn bùn mật vón cục có thể bám vào thành túi mật tạo khối đặc không di động tức thì. Luôn cho người bệnh thay đổi tư thế (nghiêng trái, nằm sấp, đứng dậy) và bật Doppler màu / Doppler vi mạch để kiểm tra. Cặn bùn hoàn toàn không có mạch máu nuôi và sẽ di động sau một khoảng thời gian. Nếu nghi ngờ tổn thương &gt; 10 mm, hãy cho chụp CEUS hoặc MRI để khẳng định bản chất vô mạch.</p>
       </div>
       <div>

@@ -77,57 +77,74 @@ export async function PUT(request: Request) {
       let fileContent = fs.readFileSync(postsFilePath, "utf-8");
 
       // Check if post with slug exists in file
-      if (fileContent.includes(slug)) {
-        // Update title if provided
-        if (title !== undefined) {
-          fileContent = fileContent.replace(
-            /(title:\s*)(["'`].*?["'`])(,)/,
-            `$1${JSON.stringify(title)}$3`
-          );
+      const slugSearch = `slug: "${slug}"`;
+      const slugIndex = fileContent.indexOf(slugSearch);
+      if (slugIndex !== -1) {
+        // Find start of post object (last '\n  {' before slug)
+        const postStartIndex = fileContent.lastIndexOf("\n  {", slugIndex);
+        // Find end of post object (next '\n  },' or '\n  }' after slug)
+        let postEndIndex = fileContent.indexOf("\n  },", slugIndex);
+        let endOffset = 5; // length of "\n  },"
+        if (postEndIndex === -1) {
+          postEndIndex = fileContent.indexOf("\n  }", slugIndex);
+          endOffset = 4;
         }
 
-        // Update author if provided
-        if (author !== undefined) {
-          fileContent = fileContent.replace(
-            /(author:\s*)(["'`].*?["'`])(,)/,
-            `$1${JSON.stringify(author)}$3`
-          );
-        }
+        if (postStartIndex !== -1 && postEndIndex !== -1) {
+          let postBlock = fileContent.slice(postStartIndex, postEndIndex + endOffset);
 
-        // Update readTime if provided
-        if (readTime !== undefined) {
-          fileContent = fileContent.replace(
-            /(readTime:\s*)(["'`].*?["'`])(,)/,
-            `$1${JSON.stringify(readTime)}$3`
-          );
-        }
+          // Update title if provided
+          if (title !== undefined) {
+            postBlock = postBlock.replace(
+              /(title:\s*)(["'`].*?["'`])(,)/,
+              `$1${JSON.stringify(title)}$3`
+            );
+          }
 
-        // Update excerpt if provided
-        if (excerpt !== undefined) {
-          fileContent = fileContent.replace(
-            /(excerpt:\s*)(["'`].*?["'`])(,)/,
-            `$1${JSON.stringify(excerpt)}$3`
-          );
-        }
+          // Update author if provided
+          if (author !== undefined) {
+            postBlock = postBlock.replace(
+              /(author:\s*)(["'`].*?["'`])(,)/,
+              `$1${JSON.stringify(author)}$3`
+            );
+          }
 
-        // Update tags if provided
-        if (Array.isArray(tags)) {
-          fileContent = fileContent.replace(
-            /(tags:\s*)(\[.*?\])([\r\n\s]*\})/,
-            `$1${JSON.stringify(tags)}$3`
-          );
-        }
+          // Update readTime if provided
+          if (readTime !== undefined) {
+            postBlock = postBlock.replace(
+              /(readTime:\s*)(["'`].*?["'`])(,)/,
+              `$1${JSON.stringify(readTime)}$3`
+            );
+          }
 
-        // Update htmlContent if provided
-        if (htmlContent !== undefined) {
-          const sanitizedHtml = htmlContent.replace(/`/g, "\\`").replace(/\${/g, "\\${");
-          fileContent = fileContent.replace(
-            /(htmlContent:\s*`)([\s\S]*?)(`[\s\S]*?views:)/,
-            `$1\n${sanitizedHtml}\n    $3`
-          );
-        }
+          // Update excerpt if provided
+          if (excerpt !== undefined) {
+            postBlock = postBlock.replace(
+              /(excerpt:\s*)(["'`].*?["'`])(,)/,
+              `$1${JSON.stringify(excerpt)}$3`
+            );
+          }
 
-        fs.writeFileSync(postsFilePath, fileContent, "utf-8");
+          // Update tags if provided
+          if (Array.isArray(tags)) {
+            postBlock = postBlock.replace(
+              /(tags:\s*)(\[[\s\S]*?\])([\r\n\s]*\})/,
+              `$1${JSON.stringify(tags)}$3`
+            );
+          }
+
+          // Update htmlContent if provided
+          if (htmlContent !== undefined) {
+            const sanitizedHtml = htmlContent.replace(/`/g, "\\`").replace(/\${/g, "\\${");
+            postBlock = postBlock.replace(
+              /(htmlContent:\s*`)([\s\S]*?)(`[\s\S]*?views:)/,
+              `$1\n${sanitizedHtml}\n    $3`
+            );
+          }
+
+          fileContent = fileContent.slice(0, postStartIndex) + postBlock + fileContent.slice(postEndIndex + endOffset);
+          fs.writeFileSync(postsFilePath, fileContent, "utf-8");
+        }
       }
     }
 
