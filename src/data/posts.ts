@@ -5969,4 +5969,957 @@ export const POSTS: Post[] = [
     source: "RadioGraphics 2023; 43(3):e220189 (Mallinckrodt Institute of Radiology, Washington University School of Medicine)",
     tags: ["Polyp túi mật", "Gallbladder Polyps", "Siêu âm túi mật", "Đồng thuận SRU", "SRU Guidelines", "Ung thư túi mật", "Cắt túi mật", "Polyp cholesterol", "U cơ tuyến túi mật", "Adenomyomatosis", "Dày thành túi mật", "RadioGraphics Update"]
   },
+  {
+    id: "post-radiology-2022-sru-gallbladder-polyps-consensus",
+    title: "Đồng thuận SRU 2022: Quản lý Tổn thương dạng Polyp Túi mật Phát hiện Tình cờ trên Siêu âm (Khuyến cáo Toàn văn từ Tạp chí Radiology)",
+    slug: "dong-thuan-sru-2022-quan-ly-polyp-tui-mat-phat-hien-tinh-co-radiology",
+    date: "10 Tháng 11, 2026",
+    updatedDate: "10 Tháng 11, 2026",
+    author: "Aya Kamaya, MD; Christopher Fung, MD; William D. Middleton, MD và Hội đồng Đồng thuận SRU (Radiology 2022 – Biên dịch: CĐHA Cập Nhật)",
+    categories: ["Bụng - chậu", "Siêu âm", "Túi mật", "Polyp túi mật", "SRU", "Radiology"],
+    categorySlugs: ["bung-chau", "sieu-am", "polyp-tui-mat", "sru"],
+    modality: "Siêu âm",
+    specialty: "Bụng - chậu",
+    specialtySlug: "bung-chau",
+    coverImage: "/posts/gallbladder-polyps-sru-consensus-radiology/cover_gallbladder_polyps_sru_radiology.jpg",
+    excerpt: "Toàn văn tuyên bố đồng thuận đa chuyên khoa chính thức từ Hội các Bác sĩ Siêu âm Chẩn đoán Hình ảnh Hoa Kỳ (SRU) công bố trên tạp chí Radiology: Phân tầng nguy cơ 3 cấp độ (Cực thấp, Thấp, Không xác định) dựa trên hình thái cuống và dày thành túi mật tiếp giáp, nâng ngưỡng chỉ định phẫu thuật cắt túi mật lên 15 mm, chuẩn hóa các tiêu chuẩn loại trừ, rút ngắn thời gian theo dõi tối đa xuống 3 năm và bộ định nghĩa 9 thuật ngữ chuẩn hóa.",
+    content: [
+      "Đồng thuận chính thức từ Hội các Bác sĩ Siêu âm Chẩn đoán Hình ảnh Hoa Kỳ (SRU) công bố trên tạp chí Radiology là bước ngoặt thay đổi toàn diện thực hành siêu âm gan mật.",
+      "Dựa trên các nghiên cứu thuần tập theo dõi dọc 20 năm trên hơn 620.000 bệnh nhân, hội đồng chuyên gia khẳng định nguy cơ ung thư túi mật ở polyp phát hiện tình cờ cực kỳ thấp, chấm dứt chỉ định mổ quá mức ở ngưỡng 10 mm cũ.",
+      "Hệ thống hóa toàn bộ tiêu chuẩn loại trừ (PSC, cặn bùn dạng u, nghi ngờ u xâm lấn), 9 thuật ngữ định nghĩa chuẩn hóa, ma trận phân tầng theo kích thước và 9 ca bệnh minh họa đa phương tiện (US, Doppler, CEUS, CT, MRI)."
+    ],
+    htmlContent: `<div class="prose prose-slate max-w-none text-slate-800 bg-white">
+
+  <!-- HỘP BIÊN TẬP / LỜI GIỚI THIỆU CHUYÊN SÂU -->
+  <div class="not-prose my-8 p-6 rounded-2xl bg-blue-50/80 border border-blue-200/90 shadow-xs">
+    <div class="flex items-center gap-3 mb-3">
+      <span class="px-2.5 py-1 rounded-md bg-blue-600 text-white font-bold text-xs uppercase tracking-wider">Radiology Landmark Review</span>
+      <span class="text-xs font-semibold text-blue-800">Statements & Guidelines • RSNA 2022</span>
+    </div>
+    <h3 class="text-lg font-bold text-blue-950 mb-2">Lời Ban Biên Tập & Ý Nghĩa Lịch Sử Của Đồng Thuận SRU 2022</h3>
+    <p class="text-sm text-blue-900/90 leading-relaxed mb-3">
+      Đây là văn bản đồng thuận quốc tế toàn diện và chính thức của <strong>Hội các Bác sĩ Siêu âm Chẩn đoán Hình ảnh Hoa Kỳ (Society of Radiologists in Ultrasound – SRU)</strong> được đăng tải trên tạp chí <em>Radiology</em> (Số tháng 11/2022; 305(2):277–289). Văn bản này đánh dấu bước chuyển mình mang tính lịch sử trong chuyên ngành chẩn đoán hình ảnh tiêu hóa – gan mật, chấm dứt kỷ nguyên can thiệp phẫu thuật quá mức (overtreatment) dựa trên ngưỡng kích thước 10 mm cứng nhắc trước đây.
+    </p>
+    <p class="text-xs text-blue-800 leading-relaxed border-t border-blue-200/60 pt-2.5">
+      <strong>Ý nghĩa lâm sàng then chốt:</strong> Dựa trên các nghiên cứu thuần tập theo dõi dọc 20 năm trên hàng trăm ngàn bệnh nhân và khảo sát trên hơn 3 triệu lượt siêu âm túi mật, Hội nghị Đồng thuận khẳng định: <em>Phần lớn áp đảo polyp túi mật &lt; 10 mm là giả u cholesterol lành tính không có nguy cơ ung thư</em>; ung thư túi mật phát sinh từ polyp dạng u nhú chỉ chiếm ~6%, còn lại phát sinh từ biểu mô loạn sản phẳng. Do đó, hướng dẫn nâng ngưỡng kích thước chỉ định mổ lên <strong>15 mm</strong> cho polyp nguy cơ thấp, phân tầng nguy cơ tinh vi dựa trên hình thái học cuống polyp, và rút ngắn thời gian theo dõi tối đa xuống còn <strong>3 năm</strong>.
+    </p>
+  </div>
+
+  <!-- KHUNG CÁC ĐIỂM CỐT LÕI (ESSENTIALS) -->
+  <div class="not-prose my-8 p-6 rounded-2xl bg-emerald-50/90 border border-emerald-300 shadow-xs">
+    <div class="flex items-center gap-2.5 mb-3 text-emerald-900 font-bold text-base">
+      <svg class="w-5 h-5 text-emerald-600 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+      </svg>
+      <span>TÓM TẮT CÁC ĐIỂM CỐT LÕI (ESSENTIALS) CỦA ĐỒNG THUẬN SRU</span>
+    </div>
+    <ul class="space-y-2.5 text-sm text-emerald-950/90 leading-relaxed">
+      <li class="flex items-start gap-2">
+        <span class="font-bold text-emerald-700 shrink-0">•</span>
+        <span>Hướng dẫn của Hội nghị Đồng thuận SRU đối với polyp túi mật cung cấp các khuyến cáo quản lý phân tầng theo nguy cơ dựa trên bằng chứng y học thực chứng và sự đồng thuận của hội đồng chuyên gia đa chuyên khoa (Chẩn đoán hình ảnh, Ngoại tiêu hóa, Nội tiêu hóa, Giải phẫu bệnh và Kỹ thuật viên siêu âm) đối với các polyp túi mật phát hiện tình cờ trên siêu âm.</span>
+      </li>
+      <li class="flex items-start gap-2">
+        <span class="font-bold text-emerald-700 shrink-0">•</span>
+        <span>Dựa trên các đặc điểm hình thái học, polyp túi mật được phân tầng thành 3 nhóm nguy cơ: <strong>Nguy cơ cực kỳ thấp (Extremely Low Risk)</strong>, <strong>Nguy cơ thấp (Low Risk)</strong>, và <strong>Nguy cơ không xác định (Indeterminate Risk)</strong>.</span>
+      </li>
+      <li class="flex items-start gap-2">
+        <span class="font-bold text-emerald-700 shrink-0">•</span>
+        <span><strong>Polyp nguy cơ cực kỳ thấp:</strong> Là polyp có cuống với cấu trúc dạng "quả bóng đính trên thành" (ball-on-the-wall) hoặc cuống mảnh (thin stalk). &le; 9 mm không cần theo dõi; 10–14 mm theo dõi siêu âm vào tháng thứ 6, 12, 24; &ge; 15 mm hội chẩn phẫu thuật.</span>
+      </li>
+      <li class="flex items-start gap-2">
+        <span class="font-bold text-emerald-700 shrink-0">•</span>
+        <span><strong>Polyp nguy cơ thấp:</strong> Là polyp có cuống với cuống dày hoặc chân cuống rộng, hoặc polyp dạng không cuống chân rộng (sessile). &le; 6 mm không cần theo dõi; 7–9 mm siêu âm 1 lần duy nhất lúc 12 tháng; 10–14 mm theo dõi siêu âm lúc 6, 12, 24, 36 tháng HOẶC hội chẩn phẫu thuật; &ge; 15 mm hội chẩn phẫu thuật.</span>
+      </li>
+      <li class="flex items-start gap-2">
+        <span class="font-bold text-emerald-700 shrink-0">•</span>
+        <span><strong>Polyp nguy cơ không xác định:</strong> Là polyp có kèm dày khu trú thành túi mật &ge; 4 mm nằm tiếp giáp cạnh polyp. &le; 6 mm theo dõi siêu âm lúc 6, 12, 24, 36 tháng hoặc hội chẩn phẫu thuật; <strong>&ge; 7 mm hội chẩn phẫu thuật cắt túi mật</strong>.</span>
+      </li>
+      <li class="flex items-start gap-2">
+        <span class="font-bold text-emerald-700 shrink-0">•</span>
+        <span><strong>Tốc độ phát triển ngưỡng:</strong> Sự tăng kích thước nhẹ (2–3 mm/năm) hoặc dao động kích thước là diễn tiến tự nhiên của polyp lành tính. Chỉ khi kích thước tăng &ge; 4 mm trong vòng &le; 12 tháng mới coi là tăng trưởng nhanh cần hội chẩn ngoại khoa. Nếu polyp giảm &ge; 4 mm thì ngừng theo dõi hoàn toàn. Thời gian theo dõi tối đa là 3 năm.</span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- BẢNG ĐỊNH NGHĨA THUẬT NGỮ CHUẨN HÓA (DEFINITIONS TABLE) -->
+  <div class="not-prose my-8 overflow-x-auto">
+    <div class="p-3.5 bg-slate-900 text-white rounded-t-xl font-bold text-sm flex items-center justify-between">
+      <span>BẢNG ĐỊNH NGHĨA THUẬT NGỮ CHUẨN HÓA THEO ĐỒNG THUẬN SRU (DEFINITIONS)</span>
+      <span class="text-xs text-slate-300 font-normal">Trang 3 tài liệu gốc</span>
+    </div>
+    <table class="w-full text-left text-xs sm:text-sm border-collapse border border-slate-200 bg-white rounded-b-xl overflow-hidden shadow-xs">
+      <thead>
+        <tr class="bg-slate-100 text-slate-900 border-b border-slate-200">
+          <th class="p-3 font-bold w-1/4">Thuật ngữ (Term)</th>
+          <th class="p-3 font-bold w-3/4">Định nghĩa chuẩn hóa (Standardized Definition)</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 text-slate-800">
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-bold text-blue-950">Polyp túi mật<br/><span class="text-xs font-normal text-slate-500">(Gallbladder polyp)</span></td>
+          <td class="p-3 leading-relaxed">Cấu trúc lồi dạng đặc, không di động, không tạo bóng lưng phát sinh từ niêm mạc túi mật mà không phải do sỏi mật, mật cô đặc (tức cặn bùn mật), nếp gấp niêm mạc, hoặc dày thành khu trú hay lan tỏa; có thể có hình thái có cuống hoặc không cuống.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-bold text-blue-950">Có cuống<br/><span class="text-xs font-normal text-slate-500">(Pedunculated)</span></td>
+          <td class="p-3 leading-relaxed">Điểm bám dính vào thành túi mật thông qua một cuống (stalk) hoặc một cuống mạch nhỏ (pedicle).</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-bold text-blue-950">Không cuống / Chân rộng<br/><span class="text-xs font-normal text-slate-500">(Sessile)</span></td>
+          <td class="p-3 leading-relaxed">Khối hình dẹt hoặc hình vòm nhô ra từ lớp niêm mạc và không có cuống; điểm bám dính vào thành túi mật có đáy rộng (broad-based).</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-bold text-blue-950">Dày khu trú thành túi mật tiếp giáp polyp<br/><span class="text-xs font-normal text-slate-500">(Focal wall thickening adjacent to polyp)</span></td>
+          <td class="p-3 leading-relaxed">Dày thành khu trú có bề dày &ge; 4 mm nằm tiếp giáp ngay cạnh polyp túi mật mà không thể quy cho phù nề thành, bệnh cơ tuyến (adenomyomatosis), nếp gấp niêm mạc, hoặc do túi mật chưa căng trướng đủ.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-bold text-blue-950">Hình thái "Quả bóng đính trên thành"<br/><span class="text-xs font-normal text-slate-500">(“Ball-on-the-wall” appearance)</span></td>
+          <td class="p-3 leading-relaxed">Polyp có cuống, điển hình có dạng hình tròn hoặc hình bầu dục dù chỉ bám rất mỏng manh vào thành túi mật mô phỏng một quả bóng đang tựa trên một mặt phẳng phẳng.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-bold text-blue-950">Cặn bùn mật<br/><span class="text-xs font-normal text-slate-500">(Sludge)</span></td>
+          <td class="p-3 leading-relaxed">Dịch mật cô đặc đã kết tủa ra khỏi dung dịch, thường có hồi âm tăng, không tạo bóng lưng, di động khi thay đổi tư thế và lắng đọng ở phần thấp phụ thuộc trọng lực.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-bold text-blue-950">Cặn bùn mật dạng u<br/><span class="text-xs font-normal text-slate-500">(Tumefactive sludge)</span></td>
+          <td class="p-3 leading-relaxed">Chất kết tủa mật vón cục lại tạo thành một cấu trúc có biểu hiện dạng đặc hơn ("quả bóng bùn" - sludge ball), có thể mô phỏng một khối u hoặc một polyp thực thụ.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-bold text-blue-950">Bệnh cơ tuyến túi mật<br/><span class="text-xs font-normal text-slate-500">(Adenomyomatosis)</span></td>
+          <td class="p-3 leading-relaxed">Tăng sản lớp thành túi mật có thể ở dạng lan tỏa, khu trú hoặc phân đoạn, đi kèm ảnh giả đuôi sao chổi (comet-tail artifact trên siêu âm thang xám) hoặc ảnh giả lấp lánh (twinkling artifact trên Doppler màu) do các tinh thể cholesterol nằm trong thành; các xoang Rokitansky-Aschoff có thể biểu hiện dưới dạng các vi nang trong thành.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-bold text-blue-950">Sỏi túi mật<br/><span class="text-xs font-normal text-slate-500">(Gallstone)</span></td>
+          <td class="p-3 leading-relaxed">Cấu trúc dạng đặc, tăng âm kèm bóng lưng âm rõ rệt phía sau, không có tín hiệu mạch máu, nằm trong lòng túi mật và nhìn chung luôn di động tự do theo trọng lực.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 1. ĐẶT VẤN ĐỀ VÀ TỔNG QUAN -->
+  <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-3 mt-10 mb-4">
+    1. Đặt vấn đề và Tổng quan (Introduction)
+  </h2>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Tổn thương dạng polyp túi mật phát hiện tình cờ (incidental gallbladder polyps, còn được gọi là tổn thương dạng polyp của túi mật) là một phát hiện siêu âm vô cùng phổ biến, xảy ra ở khoảng <strong>3% đến 6%</strong> dân số nói chung (1, 2). Mặc dù phần lớn các tổn thương này là polyp cholesterol lành tính (còn gọi là giả polyp cholesterol - cholesterol pseudopolyps) hoặc polyp dạng viêm, một tỷ lệ nhỏ trong số chúng là các polyp tân sinh thực sự (true neoplastic polyps), mang một tiềm năng ác tính dù nhỏ nhưng chưa được xác định hoàn toàn. Việc phân biệt các polyp không tân sinh với polyp tân sinh trên chẩn đoán hình ảnh là một thách thức lâm sàng to lớn.
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Thêm vào đó, thực tế chỉ có khoảng <strong>6%</strong> các ca ung thư túi mật (gallbladder cancers – GBCs) có thể phát sinh từ một tổn thương tiền thân dạng polyp, trong khi phần lớn áp đảo các trường hợp GBC lại phát triển trực tiếp từ biểu mô loạn sản phẳng (flat dysplastic epithelium) (3). Ngay cả đối với những polyp túi mật lớn hơn 10 mm, một số nghiên cứu gần đây chỉ ra rằng chỉ có khoảng <strong>0,4%</strong> là ác tính, trong đó hầu hết các polyp ác tính điển hình đều có kích thước lớn hơn 20 mm (4, 5). Với những bằng chứng khoa học ngày càng gia tăng cho thấy phần lớn tuyệt đối các polyp túi mật được phẫu thuật cắt bỏ là tổn thương lành tính, các hướng dẫn quản lý hiện hành đang bị đặt dấu hỏi lớn (4–7). Việc quản lý quá mức tích cực đối với các polyp túi mật nhỏ có thể dẫn đến những tác hại đáng kể cho người bệnh, bao gồm phẫu thuật cắt bỏ túi mật không cần thiết, theo dõi hình ảnh quá thường xuyên và kéo dài với lợi ích đáng ngờ, cùng sự lo âu và bất tiện kéo dài cho bệnh nhân.
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Gần đây, một nghiên cứu quy mô dân số lớn (6) trên 622.227 bệnh nhân đã phát hiện ra rằng tỷ lệ mắc ung thư túi mật ở những bệnh nhân có polyp túi mật trên siêu âm (<strong>0,053%</strong> [19 trên 35.856 bệnh nhân]) tương đương hoàn toàn với tỷ lệ ở những người không có polyp túi mật (<strong>0,054%</strong> [316 trên 586.357 bệnh nhân]). Ngoài ra, những bệnh nhân mắc ung thư túi mật có tỷ lệ polyp túi mật đi kèm tương tự nhau (6,0% [22 trên 365 bệnh nhân]) so với những người không mắc ung thư túi mật (5,8% [35.856 trên 622.227 bệnh nhân]). Như vậy, <strong>nguy cơ tương đối của ung thư túi mật ở những người có polyp túi mật không triệu chứng dường như không hề gia tăng</strong> (6).
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Một nghiên cứu gần đây khác trên 156 bệnh nhân có polyp túi mật được chứng minh bằng giải phẫu bệnh tại 4 bệnh viện ở Hà Lan đã kết luận rằng: Kích thước polyp thường bị ước tính quá mức trên siêu âm và ngưỡng kích thước 10 mm để chỉ định phẫu thuật cắt bỏ đã dẫn đến việc điều trị quá mức (overtreatment) đối với các polyp không tân sinh (4). Một nghiên cứu khác trên 434 bệnh nhân có polyp túi mật được theo dõi bằng siêu âm liên tiếp cho thấy sự tăng kích thước từ 2 mm trở lên là rất phổ biến theo thời gian và kết luận rằng: Mức tăng kích thước 2 mm (như đề xuất trong các hướng dẫn đa hiệp hội của Châu Âu [8]) có thể là một ngưỡng quá thấp để bảo đảm cho việc chỉ định cắt túi mật (9).
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-6">
+    Ủy ban Hội nghị Đồng thuận của Hội các Bác sĩ Siêu âm Chẩn đoán Hình ảnh Hoa Kỳ (SRU) đã được thành lập nhằm rà soát lại toàn bộ y văn về mối liên quan giữa polyp túi mật và ung thư túi mật, diễn tiến tự nhiên của polyp túi mật và, nếu phù hợp, sửa đổi các khuyến cáo quản lý đối với các polyp túi mật phát hiện tình cờ trên siêu âm. Người ta kỳ vọng rằng khi bằng chứng khoa học và công nghệ tiếp tục tiến bộ, các khuyến cáo này có thể tiếp tục phát triển hoàn thiện hơn nữa.
+  </p>
+
+  <!-- 2. PHƯƠNG PHÁP LUẬN HỘI NGHỊ ĐỒNG THUẬN -->
+  <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-3 mt-10 mb-4">
+    2. Đối tượng và Phương pháp Đồng thuận (Materials and Methods)
+  </h2>
+
+  <p class="leading-relaxed text-slate-800 mb-6">
+    Các chuyên gia hàng đầu về bệnh lý túi mật trong các lĩnh vực Chẩn đoán hình ảnh, Ngoại khoa, Nội tiêu hóa, Giải phẫu bệnh học và Kỹ thuật siêu âm đã được Chủ tịch Hội nghị Đồng thuận (A.K. - Aya Kamaya) mời tham gia Hội nghị Đồng thuận Polyp Túi mật của SRU. Mỗi thành viên được phân công một chủ đề cụ thể để báo cáo sau khi đã thực hiện một cuộc tổng quan y văn toàn diện. Các nhóm nguy cơ và các khuyến cáo đã được xây dựng, tranh luận và hoàn thiện trong một chuỗi các cuộc hội nghị trực tuyến diễn ra từ tháng 7 đến tháng 9 năm 2021. Các hướng dẫn đề xuất được đúc kết dựa trên y văn hiện có, ý kiến chuyên gia và sự đồng thuận tuyệt đối của hội đồng.
+  </p>
+
+  <!-- 3. THUẬT TOÁN ĐỒNG THUẬN SRU & TÍNH KHẢ THI -->
+  <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-3 mt-10 mb-4">
+    3. Thuật toán Đồng thuận SRU và Tiêu chuẩn Loại trừ (SRU Algorithm & Applicability)
+  </h2>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Đối với một bệnh nhân có tổn thương dạng polyp túi mật phát hiện tình cờ trên siêu âm, khả năng áp dụng thuật toán SRU có thể được xác định sau khi đã áp dụng các bước đối chiếu chéo và kiểm tra tiêu chuẩn loại trừ như được liệt kê trong <strong>Hình 1</strong>.
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-6">
+    Để phân tầng quản lý, Ủy ban Hội nghị Đồng thuận SRU đã chia các polyp túi mật thành ba nhóm tổn thương: <strong>Nguy cơ cực kỳ thấp (extremely low risk)</strong>, <strong>Nguy cơ thấp (low risk)</strong>, và <strong>Nguy cơ không xác định (indeterminate risk)</strong> (Hình 2). Các ví dụ minh họa theo từng nhóm hình thái cũng được cung cấp trong Hình 2. Các khuyến cáo theo dõi cho từng nhóm dựa trên tiền đề rằng hầu hết các polyp ác tính đều có kích thước lớn hơn và sẽ phát triển nhanh hơn theo thời gian so với hầu hết các polyp không ác tính. Các định nghĩa chuẩn hóa được cung cấp trong Bảng Định nghĩa (Table). Các khuyến cáo của Hội nghị Đồng thuận SRU về quản lý theo ngưỡng kích thước, tốc độ phát triển và các nhóm nguy cơ được phác thảo chi tiết trong Hình 2 và các chú thích đi kèm.
+  </p>
+
+  <!-- FIGURE 1 -->
+  <figure class="not-prose my-8 bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden shadow-xs">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/gallbladder-polyps-sru-consensus-radiology/figure1_applicability_flowchart_vi.png" 
+        alt="Hình 1: Lưu đồ xác định tính khả thi áp dụng thuật toán SRU (Bản dịch tiếng Việt)" 
+        class="w-full h-auto object-contain bg-white mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 1. Lưu đồ xác định tính khả thi áp dụng thuật toán của Hội các Bác sĩ Siêu âm Chẩn đoán Hình ảnh Hoa Kỳ (SRU).</strong> CEUS = siêu âm có chất cản âm (contrast-enhanced US).<br/>
+      <span class="inline-block mt-1 font-semibold text-rose-600">[a]</span> Các dấu hiệu có thể chỉ điểm khối u xâm lấn bao gồm: Xâm lấn thành túi mật, tổn thương dạng khối ở gan đồng thời, tắc mật ác tính, hoặc phì đại hạch bệnh lý tại rốn gan hay chuỗi cạnh động mạch chủ.<br/>
+      <span class="inline-block mt-0.5 font-semibold text-rose-600">[b]</span> Các kỹ thuật siêu âm Doppler có độ nhạy cao hơn như Power Doppler, B-Flow và siêu âm Doppler vi mạch máu (microvascular Doppler) có thể giúp phân biệt một polyp giàu mạch với cặn bùn mật vón cục không có mạch máu.<br/>
+      <span class="inline-block mt-0.5 font-semibold text-rose-600">[c]</span> Tham khảo Hướng dẫn thực hành lâm sàng của Hội Tiêu hóa Hoa Kỳ (American Gastroenterology Association – AGA) cho bệnh nhân viêm xơ đường mật tiên phát.
+    </figcaption>
+  </figure>
+
+  <!-- 4. ĐẶC ĐIỂM GIẢI PHẪU BỆNH HỌC -->
+  <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-3 mt-10 mb-4">
+    4. Đặc điểm Giải phẫu Bệnh học của Polyp túi mật (Gallbladder Polyp Pathologic Characteristics)
+  </h2>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Polyp túi mật có thể được phân loại rộng rãi thành hai nhóm lớn: <strong>polyp không tân sinh (nonneoplastic polyps)</strong> và <strong>polyp tân sinh (neoplastic polyps)</strong>. Phần lớn các polyp túi mật được nhận diện trên siêu âm là không tân sinh, phổ biến nhất là polyp cholesterol lành tính hoặc polyp dạng viêm. Các polyp không tân sinh thường có đường kính nhỏ hơn 10 mm với nguy cơ tiến triển thành loạn sản hoặc ác tính là không đáng kể, nếu không muốn nói là hoàn toàn không có.
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Chỉ có khoảng <strong>0,4%</strong> bệnh nhân trải qua phẫu thuật cắt túi mật được phát hiện có polyp tân sinh (3). Các polyp tân sinh này trước đây thường được gọi dưới nhiều tên gọi khác nhau của polyp u tuyến (adenomatous polyps); tuy nhiên, trong thập kỷ qua, thuật ngữ giải phẫu bệnh học đã được cập nhật thành các thực thể cụ thể hơn: <strong>u tuyến môn vị (pyloric gland adenoma)</strong> hoặc <strong>tân sinh nhú-ống trong túi mật (intracholecystic papillary neoplasm – ICPN)</strong> tùy thuộc vào các đặc điểm mô học (3).
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Theo Bảng Phân loại Khối u của Tổ chức Y tế Thế giới (WHO) năm 2019, ấn bản thứ năm về Khối u Hệ Tiêu hóa (10), <strong>ICPN</strong> được định nghĩa là các tân sinh biểu mô dạng khối, không xâm lấn có kích thước <strong>từ 10 mm trở lên</strong> phát sinh từ lớp niêm mạc và nhô vào lòng túi mật. Có bốn phân nhóm hình thái học của ICPN (đường mật, dạ dày, ruột, và tế bào ưa acid - oncocytic), và chúng có thể được phân loại là có loạn sản biểu mô độ thấp hoặc loạn sản biểu mô độ cao. Chỉ có <strong>6%</strong> tổng số các ca ung thư biểu mô túi mật được cho là phát sinh có liên quan đến một tổn thương ICPN, với tỷ lệ sống còn rất thuận lợi đối với ung thư biểu mô túi mật liên quan đến ICPN (<strong>tỷ lệ sống sót sau 3 năm từ 60%–90%</strong>) so với ung thư biểu mô không có tổn thương tiền thân dạng polyp (chỉ đạt 27% sống sót sau 3 năm) (3, 10).
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    <strong>U tuyến môn vị (Pyloric gland adenomas)</strong> là các tổn thương dạng polyp có bề mặt nhẵn nhụi, được cấu tạo từ các tuyến nằm san sát nhau với biểu mô hình khối thấp dạng môn vị. U tuyến môn vị chỉ xuất hiện trong khoảng 0,2%–0,5% bệnh phẩm cắt túi mật (11) và có thể liên quan đến bệnh đa polyp tuyến gia đình (FAP) hoặc hội chứng Peutz-Jeghers (10).
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-6">
+    Tính trung bình, các polyp tân sinh có kích thước lớn hơn đáng kể (<strong>kích thước trung bình từ 18–21 mm</strong>) so với các polyp không tân sinh (<strong>kích thước trung bình chỉ từ 4–7,5 mm</strong>) (5, 12). Hiện vẫn chưa rõ tỷ lệ phần trăm chính xác các polyp tân sinh sẽ trải qua quá trình chuyển dạng ác tính; tuy nhiên, nếu điều này xảy ra, tốc độ chuyển dạng được ước tính là cực kỳ thấp, xét trên mối liên quan rất hạn chế với ung thư túi mật trong y văn. Mặc dù hầu hết các nghiên cứu trước đây cố gắng phân biệt polyp tân sinh với polyp không tân sinh, nhưng trên thực tế lâm sàng, điều phù hợp hơn là cố gắng <strong>chỉ phân biệt các polyp ác tính với cả hai nhóm polyp tân sinh lành tính và không tân sinh</strong>. Mối quan tâm cốt lõi duy nhất khi phát hiện một polyp túi mật là nguy cơ tiềm ẩn polyp đó có phải là một ung thư giai đoạn sớm hay không.
+  </p>
+
+  <!-- 5. TỶ LỆ MỚI MẮC UNG THƯ TÚI MẬT -->
+  <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-3 mt-10 mb-4">
+    5. Tỷ lệ mới mắc Ung thư Túi mật (Gallbladder Cancer Incidence)
+  </h2>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Ung thư túi mật (GBC) là một bệnh lý hiếm gặp nhưng có độ ác tính và tỷ lệ tử vong rất cao. Năm 2020, ước tính có khoảng 116.000 trường hợp được chẩn đoán trên toàn thế giới (5.200 trường hợp tại Hoa Kỳ), dẫn đến 84.695 ca tử vong (13).
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-6">
+    Các tài liệu y văn liên quan đến nguy cơ ác tính của polyp phần lớn dựa trên các bệnh phẩm được phẫu thuật cắt bỏ, với phần lớn các polyp được nghiên cứu có kích thước trên 10 mm. Do đó, các nghiên cứu mô bệnh học bị ảnh hưởng nặng nề bởi <strong>sai lệch lựa chọn (selection bias)</strong> và đã thổi phồng quá mức tỷ lệ các khối tân sinh ác tính liên quan đến polyp túi mật. Ngược lại, phần lớn áp đảo các polyp túi mật được phát hiện trên siêu âm đều có kích thước dưới 10 mm và không bao giờ bị phẫu thuật cắt bỏ. Do đó, kết quả từ các đoàn hệ phẫu thuật không thể ngoại suy cho đại đa số các polyp túi mật quan sát thấy trên siêu âm thường quy trong cộng đồng.
+  </p>
+
+  <!-- 6. CÁC YẾU TỐ LIÊN QUAN ĐẾN NGƯỜI BỆNH -->
+  <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-3 mt-10 mb-4">
+    6. Các yếu tố liên quan đến Người bệnh (Patient Factors)
+  </h2>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Các yếu tố từ người bệnh và yếu tố từ bản thân polyp có thể ảnh hưởng đến nguy cơ ung thư túi mật. Các yếu tố bệnh nhân được nghiên cứu thường liên quan đến nguy cơ gia tăng tuyệt đối của tỷ lệ mắc ung thư túi mật nói chung; tuy nhiên, không rõ liệu những yếu tố này có thể ngoại suy trực tiếp thành nguy cơ một polyp túi mật cụ thể là ung thư sớm hay sẽ tiến triển thành ung thư hay không, bởi vì hầu hết các ca ung thư túi mật không biểu hiện dưới dạng polyp.
+  </p>
+
+  <h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">Nguy cơ Di truyền và Địa lý (Genetic and Geographic Risk)</h3>
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Sự biến thiên tỷ lệ mắc bệnh theo địa lý và sắc tộc gợi ý những ảnh hưởng cơ bản của môi trường và di truyền. Tỷ lệ mắc ung thư túi mật cao nhất (lên tới 7,5 ca trên 100.000 dân ở nam giới và 23 ca trên 100.000 dân ở nữ giới) được ghi nhận ở quần thể người bản địa Bắc và Nam Mỹ cùng các quần thể dân cư Bắc Ấn Độ; tỷ lệ lên tới 5 ca trên 100.000 dân cũng được ghi nhận ở quần thể người Nhật Bản và người Mỹ gốc Tây Ban Nha (18). Các locus di truyền tiềm năng đã được xác định ở các quần thể Bắc Ấn Độ (19) và Nhật Bản (20). Ung thư túi mật có tính chất gia đình có thể liên quan đến sự di truyền từ mẹ (21).
+  </p>
+  <p class="leading-relaxed text-slate-800 mb-4 p-3.5 bg-slate-50 border-l-4 border-slate-400 text-sm">
+    <strong>Đồng thuận SRU:</strong> Ủy ban Hội nghị Đồng thuận SRU nhất trí rằng: Nếu được biết rõ, các yếu tố bệnh nhân về địa lý và di truyền nguy cơ cao có thể làm tăng phân tầng nguy cơ của polyp lên mức <strong>Nhóm Nguy cơ Thấp (Low Risk)</strong> (chứ không giữ ở mức Nguy cơ Cực kỳ Thấp).
+  </p>
+
+  <h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">Viêm xơ đường mật tiên phát (Primary Sclerosing Cholangitis – PSC)</h3>
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Viêm xơ đường mật tiên phát (PSC) có liên quan chặt chẽ với sự phát triển của các bệnh ung thư tiêu hóa, ung thư biểu mô đường mật, polyp túi mật và ung thư túi mật thứ phát do một khuyết tật trường biểu mô đường mật (biliary epithelium field defect) (23). Ở những bệnh nhân mắc PSC, các tổn thương túi mật – bao gồm cả polyp – khi phẫu thuật cắt túi mật đã được chứng minh là có mối liên quan rất cao với ung thư túi mật (<strong>18%–50%</strong>) và các tổn thương tiền ác tính (<strong>25%–35%</strong>).
+  </p>
+  <p class="leading-relaxed text-slate-800 mb-4 p-3.5 bg-rose-50 border-l-4 border-rose-500 text-sm text-rose-950">
+    <strong>Đồng thuận SRU:</strong> Ủy ban Hội nghị Đồng thuận SRU nhất trí rằng <strong>HƯỚNG DẪN ĐỒNG THUẬN SRU KHÔNG ĐƯỢC ÁP DỤNG CHO BỆNH NHÂN MẮC PSC</strong>. Chúng tôi khuyến cáo các bác sĩ chẩn đoán hình ảnh cần nhận thức rõ nguy cơ ác tính gia tăng vượt trội ở bệnh nhân PSC và chuyển sang tham khảo các hướng dẫn chuyên khoa tiêu hóa (Hội Tiêu hóa Hoa Kỳ - AGA và Trường Đại học Tiêu hóa Hoa Kỳ - ACG) để có các khuyến cáo quản lý và ngưỡng chỉ định phẫu thuật đặc thù cho bệnh nhân PSC.
+  </p>
+
+  <h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">Tuổi tác của người bệnh (Age)</h3>
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Các y văn liên quan đến tuổi tác và nguy cơ ung thư túi mật rất đa dạng. Szpakowski và Tucker (6) nhận thấy rằng tuổi trên 65 không phải là một yếu tố nguy cơ khiến polyp phát triển và độ tuổi trung bình của bệnh nhân ung thư túi mật là 71 tuổi. Mặc dù y văn chỉ ra rằng bệnh nhân ung thư túi mật có xu hướng lớn tuổi hơn, nhưng <strong>hoàn toàn không có bằng chứng nào cho thấy tuổi tác cao là một yếu tố nguy cơ đủ mạnh để làm thay đổi việc quản lý polyp</strong>, và không có ngưỡng tuổi rõ ràng nào mà ở đó việc quản lý tích cực hơn đối với polyp túi mật được chứng minh là cải thiện thời gian sống còn.
+  </p>
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Đặc biệt quan trọng, nguy cơ phẫu thuật gia tăng theo tuổi tác và sự suy giảm thể trạng (frailty) phải được cân đối kỹ lưỡng với lợi ích tương đối của việc phẫu thuật cắt bỏ một tổn thương lành tính hoặc có tiềm năng ác tính thấp (36).
+  </p>
+  <p class="leading-relaxed text-slate-800 mb-4 p-3.5 bg-slate-50 border-l-4 border-slate-400 text-sm">
+    <strong>Đồng thuận SRU:</strong> Do thiếu bằng chứng thuyết phục, <strong>tuổi của bệnh nhân KHÔNG ảnh hưởng đến việc phân tầng nguy cơ của polyp túi mật</strong>.
+  </p>
+
+  <h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">Sỏi túi mật đi kèm (Coexisting Gallstones)</h3>
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Mặc dù một nghiên cứu báo cáo tỷ lệ ác tính cao hơn ở các polyp có sỏi hoặc cặn bùn đi kèm (37), các nghiên cứu khác không tìm thấy mối tương quan chặt chẽ giữa sỏi mật với tính chất ác tính hay lành tính của polyp (14, 17, 38). Xét thấy sự hiện diện vô cùng phổ biến của sỏi mật trong cộng đồng, Ủy ban Hội nghị Đồng thuận SRU nhất trí rằng <strong>sỏi mật đi kèm KHÔNG ảnh hưởng đến việc phân tầng nguy cơ của polyp túi mật</strong>.
+  </p>
+
+  <h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">Các yếu tố nguy cơ khác của người bệnh (Other Patient Factors)</h3>
+  <p class="leading-relaxed text-slate-800 mb-6">
+    Các yếu tố khác từng được báo cáo liên quan đến sự phát triển của ung thư túi mật bao gồm hút thuốc lá (nguy cơ tương đối RR, 1,25), đái tháo đường (RR, 1,97) (39), và béo phì (RR, 1,31). Ung thư túi mật có tỷ lệ mắc ở phụ nữ cao gấp 2 đến 6 lần so với nam giới (18). Bởi vì số lượng tuyệt đối các ca ung thư là rất thấp ở mức nền dân số, sự gia tăng nhẹ về nguy cơ tương đối không làm thay đổi đáng kể nguy cơ tuyệt đối. <strong>Đồng thuận SRU:</strong> Các yếu tố này không làm tăng nguy cơ ác tính tuyệt đối đủ mức để ảnh hưởng đến phân tầng nguy cơ.
+  </p>
+
+  <!-- 7. NGUY CƠ POLYP MANG TỔN THƯƠNG ÁC TÍNH HOẶC CHUYỂN DẠNG UNG THƯ -->
+  <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-3 mt-10 mb-4">
+    7. Nguy cơ Polyp mang Tổn thương Ác tính hoặc Chuyển dạng thành Ung thư
+  </h2>
+
+  <h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">Kích thước của Polyp (Polyp Size)</h3>
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Trong một phân tích gộp năm 2014 gồm 10 nghiên cứu (41), <strong>không có bất kỳ trường hợp ung thư túi mật nào được ghi nhận ở các polyp có kích thước từ 5 mm trở xuống</strong>. Một tổng quan hệ thống năm 2015 của Babu và cộng sự (42) cho thấy tỷ lệ ác tính là 0% ở các polyp nhỏ hơn 5 mm, và một tổng quan hệ thống riêng biệt năm 2016 của Bhatt và cộng sự (43) chứng minh các polyp 4 mm có tỷ lệ ác tính 0%. Nhiều nghiên cứu đơn trung tâm cũng không tìm thấy ca ung thư túi mật nào ở các polyp dưới 10 mm (44–52).
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Trong một nghiên cứu năm 2020 của Rafaelsen và cộng sự (53), 154 bệnh nhân có polyp nhỏ hơn 6 mm được theo dõi siêu âm suốt <strong>12 năm</strong> sau lần đầu phát hiện; không có bất kỳ ai mắc ung thư túi mật. Các tác giả đã đề xuất không cần theo dõi đối với các polyp túi mật nhỏ hơn 6 mm. Hơn nữa, một số nhà nghiên cứu nhận thấy rằng <strong>61%–69% số polyp nhìn thấy trên siêu âm không còn tìm thấy trong bệnh phẩm cắt túi mật sau đó</strong>, chỉ một phần trong số đó được giải thích do sỏi bám dính. Đối với các polyp có kích thước biểu kiến từ 5 mm trở xuống, không tìm thấy polyp khi phẫu thuật cắt túi mật ở <strong>lên tới 83%</strong> bệnh nhân (50, 54) do sự bong tróc hoặc hòa tan tự nhiên của các hạt lipid.
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Trong một nghiên cứu dân số 20 năm gần đây (6), tỷ lệ mới mắc ung thư túi mật ở 2.055 bệnh nhân có polyp lớn hơn 10 mm chỉ ước tính ở mức <strong>0,4%</strong>. Trong nghiên cứu này, tỷ lệ ung thư chung ở 35.856 bệnh nhân có polyp túi mật tăng theo kích thước polyp, với tỷ lệ lần lượt là 1,3; 8,7 và 128 trên 100.000 bệnh nhân đối với các polyp nhỏ hơn 6 mm, từ 6 đến dưới 10 mm, và từ 10 mm trở lên.
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Một nghiên cứu năm 2019 của Wennmacker và cộng sự (5) trên 2.085 polyp hoặc vùng dày thành khu trú (&ge; 5 mm) có xác nhận mô bệnh học nhận thấy rằng các polyp tân sinh có kích thước lớn hơn đáng kể so với polyp không tân sinh (18,1 mm so với 7,5 mm). Đáng chú ý, các tổn thương tân sinh và ung thư có nhiều khả năng biểu hiện dưới dạng <strong>dày thành khu trú</strong> (lần lượt là 29,1% và 37,9%) hơn là các polyp nhô vào lòng túi mật (lần lượt là 15,6% và 15,9%) (P &lt; .001 cho cả hai).
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Nghiên cứu năm 2021 của Liu và cộng sự (7) phát hiện ra rằng các polyp tân sinh lớn hơn đáng kể so với polyp không tân sinh (18,5 &plusmn; 4,7 mm so với 12,6 &plusmn; 3,6 mm) và <strong>kích thước lớn hơn 15 mm là một yếu tố nguy cơ độc lập để phân biệt các tổn thương dạng polyp tân sinh</strong>. Tương tự, các nghiên cứu của Kim và cs (2016) (16) và Cha và cs (2011) (32) đều chứng minh kích thước từ 15 mm trở lên là một yếu tố dự báo có ý nghĩa của polyp tân sinh.
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Một cuộc khảo sát thực hiện năm 2021 tập trung vào mô hình thực hành, sở thích và kinh nghiệm của các thành viên SRU cho thấy kích thước polyp được sử dụng rộng rãi để đưa ra các khuyến cáo quản lý. Ước tính tổng số bản ghi siêu âm túi mật được các chuyên gia tham gia khảo sát đọc là <strong>khoảng 3 triệu lượt</strong>. Bất chấp khối lượng kinh nghiệm khổng lồ này, <strong>chưa từng có bất kỳ trường hợp nào được ghi nhận có một polyp nhỏ hơn 10 mm mà được chứng minh là ác tính</strong> tại thời điểm phát hiện siêu âm ban đầu hoặc trong quá trình theo dõi sau đó (56).
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-6 p-4 rounded-xl bg-emerald-50 border border-emerald-300 text-sm text-emerald-950">
+    <strong>Đồng thuận SRU về Kích thước:</strong> Ủy ban Hội nghị Đồng thuận SRU nhất trí rằng kích thước polyp có liên quan đến nguy cơ tân sinh và <strong>khuyến cáo hội chẩn phẫu thuật đối với các polyp từ 15 mm trở lên</strong>. Đối với các polyp có kích thước <strong>10–14 mm</strong>, quyết định hội chẩn phẫu thuật có thể được đưa ra dựa trên các yếu tố của người bệnh hoặc bằng chứng về sự phát triển kích thước khi theo dõi chẩn đoán hình ảnh.
+  </p>
+
+  <h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">Sự phát triển kích thước của Polyp theo thời gian (Growth)</h3>
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Mối tương quan giữa sự phát triển kích thước và sự phát triển của bệnh ác tính là không rõ ràng. Mặc dù đa số các polyp ổn định về kích thước trong vòng 3–10 năm, nhưng polyp được theo dõi càng lâu – như dự đoán – sự phát triển kích thước càng dễ nhận thấy (49–51, 57). Trong nghiên cứu của Szpakowski và Tucker (6), ở mốc theo dõi 10 năm, <strong>hai phần ba số polyp nhỏ hơn 6 mm và hơn một nửa số polyp có kích thước 6–10 mm đã tăng từ 2 mm trở lên</strong>. Do đó, sự phát triển kích thước của các polyp nhỏ là một phần của diễn tiến tự nhiên lành tính và không nhất thiết làm tăng nguy cơ ác tính. Ngược lại, sự giảm kích thước hoặc biến mất hoàn toàn của polyp đã được ghi nhận ở <strong>lên tới 34%</strong> các trường hợp (58).
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Trong một nghiên cứu của Walsh và cộng sự (9) trên các bệnh nhân được siêu âm sàng lọc ung thư biểu mô tế bào gan hàng loạt, các polyp túi mật biểu hiện tính chất biến động động học, với gần một nửa tăng (2,6 &plusmn; 1,2 mm) hoặc giảm (3 &plusmn; 1,5 mm) kích thước, hoặc cả hai, gợi ý rằng <strong>sự dao động kích thước polyp túi mật từ 2–3 mm là một phần của diễn tiến tự nhiên lành tính được dự đoán trước</strong>.
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Ngoài ra, sự phát triển đến ngưỡng 10 mm không nhất thiết đi kèm với việc tăng nguy cơ ung thư túi mật (6). Trong nghiên cứu của Szpakowski và Tucker (6), có 507 polyp ban đầu nhỏ hơn 10 mm (chiếm 8% trong số 6.359 polyp có theo dõi) đã phát triển lên mức từ 10 mm trở lên. <strong>Không có bất kỳ trường hợp nào liên quan đến bệnh ác tính trong 1.549 người-năm theo dõi</strong>.
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-6 p-4 rounded-xl bg-amber-50 border border-amber-300 text-sm text-amber-950">
+    <strong>Đồng thuận SRU về Tốc độ phát triển:</strong> Ủy ban Hội nghị Đồng thuận SRU nhất trí rằng <strong>mức tăng trưởng lên đến 3 mm có thể là một phần trong diễn tiến tự nhiên của các polyp túi mật không ác tính</strong>. Ủy ban nhất trí rằng <strong>sự phát triển từ 4 mm trở lên trong vòng 1 năm cấu thành sự phát triển nhanh (rapid growth)</strong> cần chỉ định hội chẩn ngoại khoa.
+  </p>
+
+  <h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">Thời gian theo dõi dọc tối ưu (Length of Follow-up)</h3>
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Trong nghiên cứu dọc của Szpakowski và Tucker (6), đa số các ca ung thư túi mật (<strong>53% [10 trên 19 ca]</strong>) được chẩn đoán trong vòng 6 tháng đầu tiên sau khi phát hiện polyp ban đầu, và <strong>68% [13 trên 19 ca]</strong> được phát hiện trong vòng 1 năm, phản ánh tỷ lệ lưu hành ung thư vốn có từ trước. Chín trong số 13 polyp được chẩn đoán ác tính trong vòng 1 năm sau phát hiện có kích thước từ 15 mm trở lên hoặc được mô tả là "khối lớn". Sau 1 năm, tỷ lệ chung của ung thư túi mật trên 100.000 người-năm giảm xuống 0 (đối với polyp &lt; 6 mm), 4,5 (đối với polyp từ 6 đến &lt; 10 mm), và 33,4 (đối với polyp &ge; 10 mm).
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Sau 4 năm theo dõi, <strong>chỉ có đúng một ca ung thư được tìm thấy trong 137.633 người-năm theo dõi</strong>, ở một bệnh nhân có polyp ban đầu đo được từ 6 đến 10 mm (tỷ lệ 5,8). Sau năm thứ 4, <strong>không tìm thấy bất kỳ ca ung thư nào ở các polyp ban đầu có kích thước từ 10 mm trở lên</strong>. Nghiên cứu này chứng minh rằng việc theo dõi hình ảnh kéo dài trên 4 năm mang lại giá trị phát hiện rất thấp và một khoảng thời gian theo dõi ngắn hơn là hoàn toàn đủ để phát hiện các khối u ác tính liên quan đến polyp túi mật.
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-6 p-4 rounded-xl bg-blue-50 border border-blue-300 text-sm text-blue-950">
+    <strong>Đồng thuận SRU về Thời gian theo dõi:</strong> Ủy ban Hội nghị Đồng thuận SRU nhất trí rằng việc theo dõi kéo dài đối với polyp túi mật là không hiệu quả. Nếu một polyp được theo dõi, <strong>thời gian tối đa là 3 năm là hoàn toàn đủ để nhận diện đại đa số các tổn thương ác tính liên quan đến polyp</strong>.
+  </p>
+
+  <!-- 8. ĐẶC ĐIỂM HÌNH THÁI HỌC CỦA POLYP TÚI MẬT -->
+  <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-3 mt-10 mb-4">
+    8. Đặc điểm Hình thái học của Polyp (Morphologic Features of Polyps)
+  </h2>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Ngoài kích thước polyp, các đặc điểm hình thái học có thể được đánh giá trên siêu âm bao gồm: hình dạng, độ hồi âm, tưới máu mạch máu, dày thành túi mật khu trú và số lượng polyp (đơn độc hay nhiều polyp). Hầu hết các nghiên cứu trước đây xác định các đặc điểm hình thái học này bằng cách kiểm tra các bệnh phẩm phẫu thuật thay vì các dấu hiệu siêu âm trước mổ, và hầu như tất cả chỉ bao gồm các bệnh nhân đã trải qua phẫu thuật cắt túi mật, do đó bị hạn chế bởi sự sai lệch lựa chọn đáng kể.
+  </p>
+
+  <h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">Dạng Không cuống so với Dạng Có cuống (Sessile vs Pedunculated)</h3>
+  <p class="leading-relaxed text-slate-800 mb-4">
+    <strong>Polyp có cuống (Pedunculated polyps):</strong> Có một điểm gắn vào thành túi mật thông qua một thân cuống hoặc một cuống mạch nhỏ. Bản thân thân cuống hiếm khi có thể nhận biết rõ ràng trên siêu âm thang xám, và polyp mô phỏng hình ảnh <em>"quả bóng đính trên thành" (ball on the wall)</em> (73) (<strong>Hình 3</strong>). Trong một số trường hợp, thân cuống mỏng mảnh có thể được ngầm hiểu hoặc bộc lộ nhờ một mạch máu nhỏ duy nhất đi ra ở phần gốc đáy của polyp (<strong>Hình 4</strong>). Hiếm khi người ta có thể quan sát thấy polyp rung rinh hoặc đung đưa tại chỗ (wiggling in place), và điều này cũng hàm ý sự hiện diện của một cuống mỏng.
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    <strong>Polyp không cuống (Sessile polyps):</strong> Là các khối phẳng hoặc hình vòm nhô ra từ lớp niêm mạc với điểm bám dính vào thành túi mật có chân đáy rộng, hoàn toàn không có cuống (<strong>Hình 5</strong>). Ngoài ra, một số polyp có cuống nhưng cuống dày hoặc chân cuống rộng (<strong>Hình 6</strong>). Hầu như tất cả các nghiên cứu đều chỉ ra tỷ lệ phần trăm polyp ác tính hoặc tân sinh cao hơn ở những polyp có biểu hiện không cuống so với dạng có cuống (14–16, 37, 43, 72).
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-6 p-4 rounded-xl bg-slate-50 border-l-4 border-blue-600 text-sm text-slate-900">
+    <strong>Đồng thuận SRU về Hình dạng Polyp:</strong>
+    <br/>• Các polyp có cấu trúc <strong>"quả bóng đính trên thành"</strong> hoặc <strong>có cuống mỏng mảnh</strong> được xếp vào <strong>Nhóm Nguy cơ Cực kỳ Thấp (Extremely Low Risk)</strong> (Hình 3, 4) và <strong>KHÔNG CẦN THEO DÕI NẾU KÍCH THƯỚC &le; 9 MM</strong>.
+    <br/>• Các polyp <strong>không cuống (sessile)</strong> hoặc <strong>có cuống dày / chân rộng</strong> được xếp vào <strong>Nhóm Nguy cơ Thấp (Low Risk)</strong> (Hình 5, 6) và <strong>KHÔNG CẦN THEO DÕI NẾU KÍCH THƯỚC &le; 6 MM</strong>.
+    <br/>• Nếu có sự không chắc chắn hoặc phân vân về hình dạng của polyp, Ủy ban nhất trí rằng có thể xếp vào Nhóm Nguy cơ Thấp.
+  </p>
+
+  <!-- FIGURE 3 -->
+  <figure class="not-prose my-8 bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden shadow-xs">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/gallbladder-polyps-sru-consensus-radiology/figure3_ball_on_the_wall.jpg" 
+        alt="Hình 3: Polyp túi mật có cuống dạng quả bóng đính trên thành (A–C)" 
+        class="w-full h-auto object-contain bg-black/5 mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 3. (A–C) Hình ảnh siêu âm minh họa ba trường hợp polyp túi mật có cuống dạng "quả bóng đính trên thành" (pedunculated “ball-on-the-wall”).</strong> Các polyp túi mật có cuống dạng quả bóng đính trên thành (mũi tên) trông giống như một quả bóng đặt tựa trên một mặt phẳng phẳng và được phân loại vào nhóm polyp <strong>nguy cơ cực kỳ thấp</strong>. Trong nhóm nguy cơ cực kỳ thấp: Không khuyến cáo theo dõi đối với các polyp từ 9 mm trở xuống; khuyến cáo siêu âm theo dõi vào tháng thứ 6, 12 và 24 đối với các polyp có kích thước từ 10–14 mm; và khuyến cáo hội chẩn phẫu thuật đối với các polyp từ 15 mm trở lên. Nếu khi theo dõi, polyp tăng kích thước từ 4 mm trở lên trong vòng 12 tháng hoặc đạt kích thước 15 mm, khuyến cáo hội chẩn phẫu thuật.
+    </figcaption>
+  </figure>
+
+  <!-- FIGURE 4 -->
+  <figure class="not-prose my-8 bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden shadow-xs">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/gallbladder-polyps-sru-consensus-radiology/figure4_thin_stalk.jpg" 
+        alt="Hình 4: Polyp có cuống mảnh trên Doppler màu, CEUS và siêu âm thang xám (A–C)" 
+        class="w-full h-auto object-contain bg-black/5 mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 4. Hình ảnh siêu âm Doppler màu (A), siêu âm có chất cản âm CEUS (B), và siêu âm thang xám (C) minh họa ba ví dụ về polyp có cuống với thân cuống mỏng mảnh (pedunculated polyps with a thin stalk).</strong> Thân cuống mỏng có thể gần như vô hình trên siêu âm thang xám nhưng được suy luận là có mặt hoặc được hiển thị rõ bằng Doppler màu hoặc Power Doppler (mũi tên trong A), các kỹ thuật nhạy dòng chảy khác, hoặc siêu âm có chất cản âm (mũi tên trong B). Thỉnh thoảng có thể thấy polyp rung rinh tại chỗ, điều này cũng hàm ý sự hiện diện của cuống mỏng (C). Polyp có cuống mảnh được phân loại là <strong>nguy cơ cực kỳ thấp</strong>. Quản lý: &le; 9 mm không theo dõi; 10–14 mm theo dõi SA vào tháng 6, 12, 24; &ge; 15 mm hội chẩn phẫu thuật.
+    </figcaption>
+  </figure>
+
+  <!-- FIGURE 5 -->
+  <figure class="not-prose my-8 bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden shadow-xs">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/gallbladder-polyps-sru-consensus-radiology/figure5_sessile_polyps.jpg" 
+        alt="Hình 5: Polyp túi mật dạng không cuống chân rộng (A–C)" 
+        class="w-full h-auto object-contain bg-black/5 mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 5. (A–C) Hình ảnh siêu âm cho thấy ba ví dụ khác nhau về polyp không cuống chân rộng (sessile polyps).</strong> Polyp không cuống được định nghĩa là một khối dẹt hoặc hình vòm (mũi tên) nhô ra từ lớp niêm mạc và không có cuống. Điểm bám vào thành túi mật có đáy rộng. Polyp không cuống được phân loại là <strong>nguy cơ thấp (low risk)</strong>. Trong nhóm nguy cơ thấp: Không khuyến cáo theo dõi đối với các polyp từ 6 mm trở xuống; khuyến cáo siêu âm theo dõi lúc 12 tháng đối với polyp 7–9 mm; khuyến cáo siêu âm theo dõi vào các tháng 6, 12, 24 và 36 đối với polyp 10–14 mm; và khuyến cáo hội chẩn phẫu thuật đối với polyp từ 15 mm trở lên.
+    </figcaption>
+  </figure>
+
+  <!-- FIGURE 6 -->
+  <figure class="not-prose my-8 bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden shadow-xs">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/gallbladder-polyps-sru-consensus-radiology/figure6_thick_stalk.jpg" 
+        alt="Hình 6: Polyp có cuống dày hoặc chân rộng (A–C)" 
+        class="w-full h-auto object-contain bg-black/5 mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 6. (A–C) Hình ảnh siêu âm minh họa ba ví dụ khác nhau về polyp có cuống dày hoặc thân cuống rộng (pedunculated polyp with thick or broad-based stalk).</strong> Dấu cộng trong hình B phân định ranh giới một polyp. Với các cuống dày hơn hoặc có đáy rộng (mũi tên), các polyp túi mật này được phân loại vào nhóm <strong>nguy cơ thấp (low risk)</strong>. Chiến lược quản lý tương tự như Hình 5: &le; 6 mm không theo dõi; 7–9 mm theo dõi SA lúc 12 tháng; 10–14 mm theo dõi SA lúc 6, 12, 24, 36 tháng HOẶC hội chẩn phẫu thuật; &ge; 15 mm hội chẩn phẫu thuật cắt túi mật.
+    </figcaption>
+  </figure>
+
+  <h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">Tưới máu mạch máu của Polyp (Polyp Vascularity)</h3>
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Rất ít nghiên cứu phân tích tính chất tưới máu của polyp và số lượng ca bệnh còn ít. Mặc dù tất cả các nghiên cứu hiện có đều chỉ ra rằng sự hiện diện của tín hiệu mạch máu phát hiện được, điển hình là ở phần đáy của polyp, thường gặp hơn ở các polyp tân sinh, nhưng <strong>không có nghiên cứu nào chứng minh rằng tưới máu mạch máu là một yếu tố nguy cơ độc lập đối với bệnh ác tính</strong> (16, 17, 68). Kinh nghiệm chuyên gia cho thấy các polyp cholesterol lớn hoàn toàn có thể bộc lộ tín hiệu mạch máu bên trong trên siêu âm Doppler màu.
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Hơn nữa, những tiến bộ vượt bậc về độ nhạy siêu âm, bao gồm các kỹ thuật Doppler vi mạch máu (microvascular Doppler techniques), ngày càng cho phép phát hiện các dòng chảy vi mạch tinh tế trong những polyp mà trước đây nằm dưới ngưỡng phát hiện. Để cải thiện việc mô tả dòng máu chảy chậm, một số kỹ thuật tiên tiến dựa trên Power Doppler hoạt động ở thang vận tốc rất thấp với khả năng triệt tiêu nhiễu chuyển động nâng cao đã được phát triển, bao gồm: <em>Superb Microvascular Imaging (SMI, Canon Medical Systems)</em>, <em>MicroFlow Imaging (MFI, Philips Healthcare)</em>, và <em>Microvascular Flow Imaging (MV-Flow, Samsung Medison)</em> (74).
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-6 p-3.5 bg-slate-50 border-l-4 border-slate-400 text-sm">
+    <strong>Đồng thuận SRU về Tưới máu:</strong> Ủy ban Hội nghị Đồng thuận SRU nhất trí rằng <strong>việc phát hiện tưới máu của polyp KHÔNG ảnh hưởng đến việc phân tầng nguy cơ</strong>.
+  </p>
+
+  <h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">Độ hồi âm của Polyp (Polyp Echogenicity)</h3>
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Hầu hết các polyp cholesterol có biểu hiện tăng âm (hyperechoic); tuy nhiên, độ hồi âm có thể bị tác động bởi bóng cản âm phía sau, hiện tượng tăng âm thành sau hoặc các thông số kỹ thuật của máy, và việc đánh giá rất dễ mang tính chủ quan. Mặc dù các polyp đồng âm (isoechoic) hoặc giảm âm (hypoechoic) so với nhu mô gan hoặc thành túi mật có nhiều khả năng là tân sinh hơn, nhưng không có nghiên cứu nào chỉ ra rằng độ hồi âm là một yếu tố nguy cơ độc lập đối với tân sinh trong phân tích đa biến (68, 72).
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-6 p-3.5 bg-slate-50 border-l-4 border-slate-400 text-sm">
+    <strong>Đồng thuận SRU về Hồi âm:</strong> Ủy ban nhất trí rằng <strong>độ hồi âm của polyp KHÔNG ảnh hưởng đến việc phân tầng nguy cơ</strong>.
+  </p>
+
+  <h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">Dày khu trú thành túi mật tiếp giáp cạnh Polyp (Focal Wall Thickening Adjacent to Polyp)</h3>
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Mặc dù việc dày thành túi mật chưa được nghiên cứu đầy đủ để có giá trị dự đoán mô học, Kim và cộng sự (16) nhận thấy rằng hiện tượng dày khu trú thành túi mật nằm tiếp giáp cạnh một polyp là một yếu tố dự báo có ý nghĩa đối với polyp tân sinh. Wennmacker và cộng sự (5) phát hiện ra rằng dày thành khu trú, thay vì một polyp nhô vào lòng túi mật, có liên quan chặt chẽ với polyp tân sinh và tăng nguy cơ ác tính.
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-6 p-4 rounded-xl bg-rose-50 border border-rose-300 text-sm text-rose-950">
+    <strong>Đồng thuận SRU về Dày thành tiếp giáp:</strong> Ủy ban Hội nghị Đồng thuận SRU nhất trí rằng <strong>hiện tượng dày thành khu trú từ 4 mm trở lên tiếp giáp ngay cạnh một polyp túi mật</strong> mà không thể quy cho phù nề thành, nếp gấp niêm mạc, u cơ tuyến (adenomyomatosis) hoặc do túi mật chưa căng trướng đủ, là một <strong>dấu hiệu đáng lo ngại bắt buộc phải phân tầng nguy cơ vào Nhóm Nguy cơ Không Xác định (Indeterminate Risk Category)</strong> (<strong>Hình 7</strong>).
+  </p>
+
+  <!-- FIGURE 7 -->
+  <figure class="not-prose my-8 bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden shadow-xs">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/gallbladder-polyps-sru-consensus-radiology/figure7_indeterminate_risk_thickening.jpg" 
+        alt="Hình 7: Polyp nguy cơ không xác định có dày thành tiếp giáp ≥ 4 mm (A, B)" 
+        class="w-full h-auto object-contain bg-black/5 mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 7. (A, B) Hình ảnh siêu âm minh họa polyp thuộc nhóm nguy cơ không xác định (indeterminate risk polyps).</strong> Hai bệnh nhân khác nhau có polyp túi mật kèm theo hiện tượng dày khu trú thành túi mật tiếp giáp từ 4 mm trở lên (nằm giữa các đầu mũi tên), đáp ứng tiêu chuẩn của nhóm nguy cơ không xác định. Đối với bệnh nhân có polyp nguy cơ không xác định đo được từ 6 mm trở xuống: Khuyến cáo theo dõi siêu âm vào các tháng thứ 6, 12, 24 và 36 HOẶC hội chẩn phẫu thuật. <strong>Đối với các polyp đo được từ 7 mm trở lên: Khuyến cáo hội chẩn phẫu thuật cắt túi mật ngay.</strong> Ở cả hai ví dụ trên, polyp đều đo được từ 7 mm trở lên và bệnh nhân được chuyển phẫu thuật cắt bỏ. Cả hai trường hợp giải phẫu bệnh đều chứng minh là ung thư biểu mô tuyến (adenocarcinoma).
+    </figcaption>
+  </figure>
+
+  <h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">Tổn thương Đơn độc so với Đa polyp (Single vs Multiple)</h3>
+  <p class="leading-relaxed text-slate-800 mb-6">
+    Mặc dù nhiều nghiên cứu chỉ ra rằng các polyp ác tính hoặc tân sinh có nhiều khả năng là đơn độc hơn là nhiều polyp (4, 5, 7, 14–17, 37, 43, 72, 75), nhưng <strong>rất nhiều polyp lành tính cũng chỉ xuất hiện đơn độc</strong> (4, 5, 35). Đa số các polyp đơn độc vẫn hoàn toàn là lành tính và/hoặc không tân sinh do tỷ lệ lưu hành vượt trội của chúng trong cộng đồng. <strong>Đồng thuận SRU:</strong> Ủy ban nhất trí rằng <strong>số lượng polyp (đơn độc hay nhiều polyp) KHÔNG ảnh hưởng đến việc phân tầng nguy cơ</strong>.
+  </p>
+
+  <!-- 9. CÁC PHƯƠNG PHÁP CHẨN ĐOÁN HÌNH ẢNH THAY THẾ -->
+  <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-3 mt-10 mb-4">
+    9. Các Phương pháp Chẩn đoán Hình ảnh Thay thế (Alternative Imaging Evaluation)
+  </h2>
+
+  <h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">Siêu âm có chất cản âm (Contrast-enhanced US – CEUS)</h3>
+  <p class="leading-relaxed text-slate-800 mb-4">
+    So với CT và MRI, nhiều nghiên cứu đã chứng minh các ưu thế vượt trội của siêu âm có chất cản âm vi bọt (CEUS) trong việc định danh và đánh giá đặc tính của polyp túi mật nhờ vào <strong>độ phân giải không gian và thời gian cực cao</strong> của nó (76). CEUS có thể giúp phân biệt rõ ràng một tổn thương có mạch máu nuôi với cặn bùn mật hoàn toàn vô mạch (77, 78). CEUS cũng cải thiện đáng kể khả năng quan sát các đặc điểm hình thái của polyp và <strong>phát hiện sự xâm lấn thành túi mật hoặc xâm lấn trực tiếp vào nhu mô gan</strong> (78) (<strong>Hình 8</strong>), hoặc nhận diện bệnh u cơ tuyến (adenomyomatosis) dưới dạng một vùng khu trú chứa các vi nang nhỏ trong thành túi mật (77).
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Mức độ ngấm thuốc so với thành túi mật hoặc nhu mô gan, cũng như sự thay đổi động học theo thời gian, có thể có giá trị dự đoán trong việc phân biệt polyp không tân sinh với polyp tân sinh và xác định các tổn thương ác tính (69, 79, 80). Các tổn thương không tân sinh thường ngấm thuốc vi bọt ở thì muộn và có mức độ ngấm thuốc kém hơn so với nhu mô gan, trong khi các tổn thương tân sinh lại bộc lộ hiện tượng <strong>ngấm thuốc mạnh sớm ở thì động mạch</strong> (69, 80). Hiện tượng thải thuốc (washout) nhanh thường được quan sát thấy ở các polyp ác tính (81).
+  </p>
+
+  <!-- FIGURE 8 -->
+  <figure class="not-prose my-8 bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden shadow-xs">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/gallbladder-polyps-sru-consensus-radiology/figure8_frank_liver_invasion.jpg" 
+        alt="Hình 8: Xâm lấn gan trực tiếp và di căn gan từ ung thư túi mật (A–C)" 
+        class="w-full h-auto object-contain bg-black/5 mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 8. Xâm lấn gan trực tiếp rõ rệt và di căn gan từ ung thư túi mật (Frank liver invasion and liver metastases).</strong> (A) Hình siêu âm thang xám cho thấy một khối giảm âm kích thước 23 mm xâm lấn trực tiếp rõ ràng vào nhu mô gan (các mũi tên). Khi có các dấu hiệu nghi ngờ xâm lấn ác tính, <strong>thuật toán của Hội các Bác sĩ Siêu âm Chẩn đoán Hình ảnh Hoa Kỳ (SRU) KHÔNG ĐƯỢC PHÉP ÁP DỤNG</strong>, và khuyến cáo chuyển tuyến khẩn cấp đến chuyên khoa Ung bướu. (B) Hình ảnh siêu âm có chất cản âm (CEUS) và (C) hình ảnh siêu âm thang xám tương ứng được thực hiện 6 tháng sau đó (do bệnh nhân bỏ lỡ theo dõi), cho thấy một khối dạng polyp đang to nhanh (hiện đo được 33 mm) (mũi tên ngắn). Chất cản âm vi bọt (B) bộc lộ sự ngấm thuốc không đồng nhất, loét bề mặt và làm nổi bật nhiều ổ di căn gan (các mũi tên dài trong B và C).
+    </figcaption>
+  </figure>
+
+  <h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">Cắt lớp vi tính (CT) và Cộng hưởng từ (MRI)</h3>
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Các nghiên cứu về CT và MRI đối với các tổn thương dạng polyp túi mật còn khá hạn chế. Các phát hiện có ý nghĩa gợi ý ác tính trên CT bao gồm: kích thước lớn hơn 15 mm, hình dạng không cuống (sessile) và phát hiện được trên CT không cản quang (66). Trong một nghiên cứu năm 1998 của Furukawa và cộng sự (84), chỉ có 45% các tổn thương dạng polyp lớn hơn 5 mm nhìn thấy trên siêu âm được phát hiện trên CT không tiêm thuốc cản quang, mặc dù 100% được phát hiện trên CT có tiêm thuốc. Đa số các tổn thương không phát hiện được trên CT không thuốc là các polyp cholesterol, dẫn đến kết luận rằng một polyp không nhìn thấy trên CT không thuốc nhưng có cuống và nhìn thấy trên CT có thuốc cản quang đại diện cho một <strong>polyp cholesterol lành tính với độ chính xác lên tới 90%</strong>. CT hai mức năng lượng (Dual-energy CT) cũng có thể hữu ích trong việc phân biệt polyp không tân sinh với tân sinh lớn hơn 10 mm (85).
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Độ nhạy của MRI trong phát hiện polyp túi mật so với siêu âm vẫn chưa được xác định rõ ràng. Tín hiệu cao trên chuỗi xung T1W có thể chỉ điểm polyp cholesterol hoặc sỏi sắc tố, trong khi <strong>hiện tượng hạn chế khuếch tán trên chuỗi xung khuếch tán (DWI) gợi ý mạnh mẽ tổn thương ác tính</strong> (70, 86–88). Các polyp lành tính có xu hướng có cường độ tín hiệu T2 thấp; tuy nhiên, cường độ tín hiệu T2 từ trung gian đến cao là một dấu hiệu nghi ngờ hơn. Ngoài ra, MRI cực kỳ hữu ích để loại trừ bệnh u cơ tuyến (adenomyomatosis) thông qua việc bộc lộ các xoang Rokitansky-Aschoff dạng nang trong thành túi mật, hoặc nhận diện cặn bùn mật dạng u vì cặn bùn sẽ hoàn toàn không ngấm thuốc đối quang từ sau tiêm Gadolinium, trái ngược với ung thư túi mật thường rất giàu mạch máu (90) (<strong>Hình 9</strong>).
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-6 p-4 rounded-xl bg-blue-50 border border-blue-300 text-sm text-blue-950">
+    <strong>Đồng thuận SRU về Vai trò của CEUS và MRI:</strong> Ủy ban Hội nghị Đồng thuận SRU nhất trí rằng <strong>siêu âm kiểm tra lại khoảng cách ngắn trong vòng 1–2 tháng</strong> với kỹ thuật tối ưu hóa và chuẩn bị bệnh nhân chu đáo có thể hữu ích trong việc đánh giá các tổn thương túi mật lớn hơn 10 mm mà việc phân biệt cặn bùn dạng u với một khối u túi mật, polyp hay bệnh cơ tuyến gặp khó khăn. Ngoài ra, <strong>CEUS có thể được sử dụng để xác định thêm đặc tính</strong>. Nếu CEUS không có sẵn, <strong>MRI có thể được xem xét</strong> (Hình 9). Độ chính xác chẩn đoán của CT kém hơn CEUS hoặc MRI cho mục đích này.
+  </p>
+
+  <!-- FIGURE 9 -->
+  <figure class="not-prose my-8 bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden shadow-xs">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/gallbladder-polyps-sru-consensus-radiology/figure9_tumefactive_sludge.jpg" 
+        alt="Hình 9: Cặn bùn dạng u được chứng minh là vô mạch trên CEUS và MRI (A–F)" 
+        class="w-full h-auto object-contain bg-black/5 mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 9. Cặn bùn dạng u được chứng minh là hoàn toàn vô mạch trên siêu âm có chất cản âm (CEUS).</strong> (A) Hình siêu âm thang xám của túi mật cho thấy một khối dạng polyp (mũi tên) ở đáy túi mật. (B) Kỹ thuật Doppler nhạy dòng chảy cho thấy ảnh giả ở ngoại vi (mũi tên) nhưng không có tín hiệu mạch máu nuôi rõ rệt bên trong. (C) CEUS và (D) hình ảnh siêu âm thang xám trên mặt cắt chếch ngang cho thấy <strong>hoàn toàn không có sự ngấm thuốc cản âm bên trong tổn thương (các mũi tên)</strong>, phù hợp với cặn bùn mật dạng u (tumefactive sludge). (E) Hình ảnh MRI T1W và (F) T2W thu được 6 tháng sau đó cho thấy cường độ tín hiệu T1 cao tự nhiên và tín hiệu T2 thấp (các mũi tên). Các dấu hiệu MRI hoàn toàn phù hợp với phát hiện CEUS về cặn bùn mật dạng u và sự hình thành sỏi mật sau một khoảng thời gian.
+    </figcaption>
+  </figure>
+
+  <h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">Siêu âm Nội soi (Endoscopic Ultrasound – EUS)</h3>
+  <p class="leading-relaxed text-slate-800 mb-6">
+    Do vị trí giải phẫu gần gũi của túi mật với đầu dò EUS và việc sử dụng các đầu dò tần số cao hơn, về mặt lý thuyết, EUS có thể được sử dụng để nhận diện và phân biệt tốt hơn các polyp túi mật ác tính; tuy nhiên, các dữ liệu nghiên cứu còn rất mâu thuẫn. <strong>Đồng thuận SRU:</strong> Do tính chất xâm lấn của thủ thuật EUS, Ủy ban nhất trí rằng <strong>EUS không nên được xem là một phần trong quy trình đánh giá điển hình của polyp túi mật</strong>.
+  </p>
+
+  <!-- 10. XEM XÉT VỀ MẶT NGOẠI KHOA -->
+  <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-3 mt-10 mb-4">
+    10. Các xem xét về mặt Ngoại khoa và Phân tích Hiệu quả - Chi phí (Surgical & Cost Considerations)
+  </h2>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Trong lịch sử, phẫu thuật cắt túi mật đã được khuyến cáo cho các polyp lớn hơn 10 mm, dẫn đến sự gia tăng nhanh chóng tỷ lệ phẫu thuật cắt túi mật cùng với sự gia tăng phát hiện polyp trên siêu âm (47). Xét thấy hầu hết các polyp được phẫu thuật cắt bỏ đều không phải là ác tính, <strong>khả năng ác tính của tổn thương được phát hiện phải được cân nhắc kỹ lưỡng với các nguy cơ tai biến của phẫu thuật cắt túi mật</strong> (6).
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Trong các nghiên cứu khảo sát các ca cắt túi mật nói chung, <strong>tỷ lệ tai biến biến chứng phẫu thuật dao động từ 2%–8%</strong>, bao gồm nguy cơ tổn thương đường mật nghiêm trọng (3 đến 6 trên 1.000 bệnh nhân) (93, 94). Tỷ lệ tử vong dao động từ 2 đến 7 trên 1.000 bệnh nhân và có liên quan trực tiếp đến độ phức tạp của cuộc mổ cũng như các bệnh lý nội khoa kèm theo (95–97). Khi tỷ lệ bệnh nhân xơ gan và việc siêu âm sàng lọc ung thư biểu mô tế bào gan ngày càng tăng, quyết định can thiệp phẫu thuật đối với một polyp túi mật tình cờ phải được cân nhắc hết sức thận trọng trước nguy cơ phẫu thuật tăng vọt ở quần thể bệnh nhân này (98). Trong mọi trường hợp, nguy cơ phẫu thuật cá thể hóa của từng người bệnh phải được cân bằng với chỉ định mổ (36).
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-4 p-4 rounded-xl bg-amber-50 border border-amber-300 text-sm text-amber-950">
+    <strong>Đồng thuận SRU về Ngoại khoa:</strong> Ủy ban Hội nghị Đồng thuận SRU nhất trí rằng việc lựa chọn bệnh nhân để phẫu thuật là một quá trình đa yếu tố, đòi hỏi sự <strong>ra quyết định chung (shared decision-making)</strong> giữa thầy thuốc và người bệnh, và bắt buộc phải tính đến tình trạng sức khỏe toàn diện của bệnh nhân cũng như hồ sơ nguy cơ trên các dấu hiệu chẩn đoán hình ảnh.
+  </p>
+
+  <h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">Hiệu quả - Chi phí (Cost-effectiveness)</h3>
+  <p class="leading-relaxed text-slate-800 mb-6">
+    Ủy ban Hội nghị Đồng thuận SRU nhận định rằng các phân tích hiệu quả - chi phí trước đây thường dựa trên giả định sai lầm rằng tất cả các polyp tân sinh đều sẽ biến thành ung thư nếu không mổ. Ủy ban nhất trí rằng hiện còn thiếu các bằng chứng chất lượng cao để ủng hộ tính hiệu quả về mặt chi phí của các ngưỡng phẫu thuật cắt polyp cụ thể so với chiến lược theo dõi, và khuyến khích các nghiên cứu phân tích chi phí - hiệu quả trong tương lai.
+  </p>
+
+  <!-- 11. TỔNG KẾT VÀ HÌNH 2 KHUYẾN CÁO SRU -->
+  <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-3 mt-10 mb-4">
+    11. Tóm tắt và Hướng dẫn Quản lý Toàn diện (Summary & Guidelines Matrix)
+  </h2>
+
+  <p class="leading-relaxed text-slate-800 mb-4">
+    Những hiểu biết khoa học đáng kể thu được trong nhiều năm qua đã chỉ ra rằng việc theo dõi và điều trị quá mức tích cực đối với các polyp túi mật nhỏ phát hiện tình cờ là không cần thiết và không có cơ sở khoa học. Hướng dẫn của Hội nghị Đồng thuận Hội các Bác sĩ Siêu âm Chẩn đoán Hình ảnh Hoa Kỳ (SRU) đã tính đến các y văn bình duyệt và các đặc điểm chẩn đoán hình ảnh tinh tế của polyp túi mật để giúp phân tầng hợp lý các khuyến cáo theo dõi.
+  </p>
+
+  <p class="leading-relaxed text-slate-800 mb-6">
+    Các sửa đổi đối với những khuyến cáo này được kỳ vọng sẽ tiếp tục diễn ra khi các bằng chứng y khoa tiếp tục được tích lũy thêm trong tương lai.
+  </p>
+
+  <!-- FIGURE 2 (VIETNAMESE DIAGRAM & ENGLISH REFERENCE) -->
+  <figure class="not-prose my-8 bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden shadow-xs">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/gallbladder-polyps-sru-consensus-radiology/figure2_sru_guidelines_flowchart_vi.png" 
+        alt="Hình 2: Sơ đồ hướng dẫn quản lý polyp túi mật của Hội nghị Đồng thuận SRU (Bản dịch tiếng Việt)" 
+        class="w-full h-auto object-contain bg-white mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 2. Sơ đồ minh họa hướng dẫn của Hội nghị Đồng thuận Hội các Bác sĩ Siêu âm Chẩn đoán Hình ảnh Hoa Kỳ (SRU) đối với polyp túi mật.</strong><br/>
+      <span class="inline-block mt-1 font-semibold text-rose-600">[a]</span> Kích thước polyp nên được làm tròn đến milimét gần nhất.<br/>
+      <span class="inline-block mt-0.5 font-semibold text-rose-600">[b]</span> Khi siêu âm theo dõi: Nếu polyp tăng kích thước từ 4 mm trở lên trong vòng &le; 12 tháng HOẶC polyp đạt đến ngưỡng kích thước phẫu thuật trong nhóm tương ứng &rarr; khuyến cáo hội chẩn phẫu thuật. Nếu polyp giảm kích thước từ 4 mm trở lên &rarr; ngừng theo dõi hoàn toàn.<br/>
+      <span class="inline-block mt-0.5 font-semibold text-rose-600">[c]</span> Hội chẩn phẫu thuật có thể là một lựa chọn thay thế chấp nhận được đối với các polyp 10–14 mm ở nhóm nguy cơ cực kỳ thấp tùy thuộc vào các yếu tố nguy cơ của người bệnh.<br/>
+      <span class="inline-block mt-0.5 font-semibold text-rose-600">[d]</span> Tùy chọn: Có thể cân nhắc xếp polyp vào nhóm nguy cơ thấp thay vì nguy cơ cực kỳ thấp nếu bệnh nhân thuộc các chủng tộc nhất định có tỷ lệ mắc ung thư túi mật cao tại địa phương (người Bắc Ấn, người bản địa Bắc/Nam Mỹ).<br/>
+      <span class="inline-block mt-0.5 font-semibold text-rose-600">[e]</span> Quy tắc khi phân vân: Nếu không chắc chắn giữa các nhóm, luôn chọn nhóm <strong>nguy cơ thấp (low risk category)</strong>.
+    </figcaption>
+  </figure>
+
+  <!-- LƯU ĐỒ TƯƠNG TÁC HTML RESPONSIVE 3 CỘT -->
+  <div class="not-prose my-10 p-6 rounded-2xl bg-slate-50/90 border border-slate-300 shadow-sm">
+    <div class="flex items-center justify-between border-b border-slate-200 pb-4 mb-6">
+      <div class="flex items-center gap-2.5">
+        <span class="p-2 rounded-lg bg-emerald-600 text-white font-bold text-xs uppercase tracking-wider">Phác đồ SRU</span>
+        <h3 class="text-lg font-bold text-slate-900">Ma Trận Phân Tầng Nguy Cơ & Chiến Lược Quản Lý</h3>
+      </div>
+      <span class="text-xs font-semibold text-slate-500">Khuyến cáo chính thức Radiology 2022</span>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      
+      <!-- CỘT 1 -->
+      <div class="rounded-2xl border-2 border-emerald-300 bg-emerald-50/70 p-5 flex flex-col justify-between shadow-xs">
+        <div>
+          <div class="p-2.5 rounded-xl bg-emerald-600 text-white text-center mb-3">
+            <h4 class="text-sm font-bold uppercase tracking-wider">Nguy cơ Cực kỳ Thấp</h4>
+            <span class="text-xs opacity-90">(Extremely Low Risk)</span>
+          </div>
+          <div class="p-3 rounded-xl bg-white border border-emerald-200 text-xs text-slate-700 mb-4 space-y-1">
+            <span class="font-bold text-emerald-900 block text-xs uppercase">Hình thái học nhận diện:</span>
+            <p>• Có cuống dạng <strong>"quả bóng đính trên thành"</strong></p>
+            <p>• HOẶC Có cuống với <strong>cuống mỏng mảnh</strong></p>
+            <p class="text-[11px] text-slate-500 italic mt-1">&rarr; Thường là polyp cholesterol lành tính</p>
+          </div>
+          <div class="space-y-2 text-xs">
+            <span class="font-bold text-slate-900 block uppercase tracking-wider text-[11px]">Xử trí theo kích thước:</span>
+            
+            <div class="p-2.5 rounded-lg bg-white border border-slate-200 flex justify-between items-center">
+              <span class="font-bold text-slate-900">&le; 9 mm</span>
+              <span class="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 font-bold">KHÔNG CẦN THEO DÕI</span>
+            </div>
+
+            <div class="p-2.5 rounded-lg bg-white border border-slate-200">
+              <div class="flex justify-between items-center mb-1">
+                <span class="font-bold text-slate-900">10 – 14 mm</span>
+                <span class="px-2 py-0.5 rounded bg-blue-100 text-blue-800 font-bold">Theo dõi SA</span>
+              </div>
+              <p class="text-[11px] text-slate-600">
+                Siêu âm vào các tháng thứ <strong>6, 12 và 24</strong> <span class="text-rose-600 font-bold">[b, c]</span> (có thể cân nhắc hội chẩn mổ tùy yếu tố BN).
+              </p>
+            </div>
+
+            <div class="p-2.5 rounded-lg bg-rose-50 border border-rose-300 flex justify-between items-center">
+              <span class="font-bold text-rose-950">&ge; 15 mm</span>
+              <span class="px-2 py-0.5 rounded bg-rose-600 text-white font-bold">HỘI CHẨN PHẪU THUẬT</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CỘT 2 -->
+      <div class="rounded-2xl border-2 border-amber-300 bg-amber-50/70 p-5 flex flex-col justify-between shadow-xs">
+        <div>
+          <div class="p-2.5 rounded-xl bg-amber-500 text-white text-center mb-3">
+            <h4 class="text-sm font-bold uppercase tracking-wider">Nguy cơ Thấp [d]</h4>
+            <span class="text-xs opacity-90">(Low Risk)</span>
+          </div>
+          <div class="p-3 rounded-xl bg-white border border-amber-200 text-xs text-slate-700 mb-4 space-y-1">
+            <span class="font-bold text-amber-900 block text-xs uppercase">Hình thái học nhận diện:</span>
+            <p>• Có cuống với <strong>cuống dày hoặc chân rộng</strong></p>
+            <p>• HOẶC Dạng <strong>không cuống / chân rộng (sessile)</strong></p>
+            <p class="text-[11px] text-slate-500 italic mt-1">&rarr; Thường là polyp cơ sợi, u tuyến hoặc giả u</p>
+          </div>
+          <div class="space-y-2 text-xs">
+            <span class="font-bold text-slate-900 block uppercase tracking-wider text-[11px]">Xử trí theo kích thước:</span>
+            
+            <div class="p-2.5 rounded-lg bg-white border border-slate-200 flex justify-between items-center">
+              <span class="font-bold text-slate-900">&le; 6 mm</span>
+              <span class="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 font-bold">KHÔNG CẦN THEO DÕI</span>
+            </div>
+
+            <div class="p-2.5 rounded-lg bg-white border border-slate-200">
+              <div class="flex justify-between items-center mb-1">
+                <span class="font-bold text-slate-900">7 – 9 mm</span>
+                <span class="px-2 py-0.5 rounded bg-blue-100 text-blue-800 font-bold">Theo dõi SA</span>
+              </div>
+              <p class="text-[11px] text-slate-600">
+                Siêu âm kiểm tra lại 1 lần duy nhất vào <strong>tháng thứ 12</strong> <span class="text-rose-600 font-bold">[b]</span>.
+              </p>
+            </div>
+
+            <div class="p-2.5 rounded-lg bg-white border border-slate-200">
+              <div class="flex justify-between items-center mb-1">
+                <span class="font-bold text-slate-900">10 – 14 mm</span>
+                <span class="px-2 py-0.5 rounded bg-amber-100 text-amber-800 font-bold">SA hoặc Mổ</span>
+              </div>
+              <p class="text-[11px] text-slate-600">
+                Siêu âm các tháng <strong>6, 12, 24, 36</strong> <span class="text-rose-600 font-bold">[b]</span> HOẶC Hội chẩn phẫu thuật cắt túi mật.
+              </p>
+            </div>
+
+            <div class="p-2.5 rounded-lg bg-rose-50 border border-rose-300 flex justify-between items-center">
+              <span class="font-bold text-rose-950">&ge; 15 mm</span>
+              <span class="px-2 py-0.5 rounded bg-rose-600 text-white font-bold">HỘI CHẨN PHẪU THUẬT</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CỘT 3 -->
+      <div class="rounded-2xl border-2 border-rose-400 bg-rose-50/70 p-5 flex flex-col justify-between shadow-xs">
+        <div>
+          <div class="p-2.5 rounded-xl bg-rose-600 text-white text-center mb-3">
+            <h4 class="text-sm font-bold uppercase tracking-wider">Nguy cơ Không Xác định</h4>
+            <span class="text-xs opacity-90">(Indeterminate Risk)</span>
+          </div>
+          <div class="p-3 rounded-xl bg-white border border-rose-200 text-xs text-slate-700 mb-4 space-y-1">
+            <span class="font-bold text-rose-900 block text-xs uppercase">Đặc điểm nguy cơ kèm theo:</span>
+            <p>• <strong>Dày khu trú thành túi mật &ge; 4 mm</strong> tiếp giáp cạnh polyp</p>
+            <p class="text-[11px] text-rose-700 font-semibold mt-1">&rarr; Nguy cơ ung thư biểu mô hoặc u xâm lấn cao rõ rệt!</p>
+          </div>
+          <div class="space-y-2 text-xs">
+            <span class="font-bold text-slate-900 block uppercase tracking-wider text-[11px]">Xử trí theo kích thước:</span>
+            
+            <div class="p-2.5 rounded-lg bg-white border border-rose-200">
+              <div class="flex justify-between items-center mb-1">
+                <span class="font-bold text-slate-900">&le; 6 mm</span>
+                <span class="px-2 py-0.5 rounded bg-amber-100 text-amber-800 font-bold">SA hoặc Mổ</span>
+              </div>
+              <p class="text-[11px] text-slate-600">
+                Siêu âm các tháng <strong>6, 12, 24, 36</strong> <span class="text-rose-600 font-bold">[b]</span> HOẶC Hội chẩn phẫu thuật cắt túi mật.
+              </p>
+            </div>
+
+            <div class="p-3 rounded-lg bg-rose-100/80 border-2 border-rose-500 mt-3">
+              <div class="flex justify-between items-center">
+                <span class="font-bold text-rose-950 text-sm">&ge; 7 mm</span>
+                <span class="px-2 py-0.5 rounded bg-rose-700 text-white font-bold">HỘI CHẨN PHẪU THUẬT</span>
+              </div>
+              <p class="text-[11px] text-rose-900 font-medium mt-1.5 leading-snug">
+                Chỉ định phẫu thuật cắt túi mật (ngưỡng mổ hạ xuống 7 mm do nguy cơ tân sinh cao khi có dày thành tiếp giáp).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- BẢNG SO SÁNH MA TRẬN 3 BÊN -->
+  <div class="not-prose my-10 overflow-x-auto">
+    <div class="p-3.5 bg-slate-900 text-white rounded-t-xl font-bold text-sm">
+      BẢNG SO SÁNH ĐỐI CHIẾU: HƯỚNG DẪN CŨ VS ĐỒNG THUẬN SRU 2022 VS HƯỚNG DẪN CHÂU ÂU ESGAR 2022
+    </div>
+    <table class="w-full text-left text-xs sm:text-sm border-collapse border border-slate-200 bg-white rounded-b-xl overflow-hidden shadow-xs">
+      <thead>
+        <tr class="bg-slate-100 text-slate-900 border-b border-slate-200">
+          <th class="p-3 font-bold w-1/4">Nội dung đối chiếu</th>
+          <th class="p-3 font-bold w-1/4 bg-slate-200/60 text-slate-700">Hướng dẫn Cũ (Trước 2022)</th>
+          <th class="p-3 font-bold w-1/4 bg-emerald-50 text-emerald-900 border-x-2 border-emerald-400">Đồng thuận SRU Mới (2022)</th>
+          <th class="p-3 font-bold w-1/4 bg-blue-50 text-blue-900">Đồng thuận Châu Âu ESGAR (2022)</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 text-slate-800">
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-bold text-slate-900">Chiến lược phân tầng</td>
+          <td class="p-3 text-slate-600">Dựa thuần túy vào kích thước (&lt; 6 mm, 6–10 mm, &gt; 10 mm)</td>
+          <td class="p-3 font-semibold text-emerald-950 bg-emerald-50/30 border-x-2 border-emerald-400">Dựa vào Hình thái học cuống (Có cuống quả bóng, cuống mảnh, cuống dày, không cuống, dày thành)</td>
+          <td class="p-3 text-blue-950 bg-blue-50/30">Dựa vào Kích thước kết hợp Yếu tố nguy cơ người bệnh (Tuổi &ge; 60, PSC, Dày thành &ge; 4 mm)</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-bold text-slate-900">Ngưỡng mổ cắt túi mật</td>
+          <td class="p-3 text-rose-700 font-semibold">&gt; 10 mm cho tất cả các polyp</td>
+          <td class="p-3 font-bold text-emerald-950 bg-emerald-50/30 border-x-2 border-emerald-400">
+            &ge; 15 mm (nguy cơ thấp/cực thấp)<br/>
+            &ge; 7 mm (khi có dày thành tiếp giáp)
+          </td>
+          <td class="p-3 font-semibold text-blue-950 bg-blue-50/30">
+            &ge; 10 mm (cho tất cả)<br/>
+            6–9 mm (nếu có yếu tố nguy cơ)
+          </td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-bold text-slate-900">Tốc độ phát triển ngưỡng</td>
+          <td class="p-3 text-slate-600">&ge; 2 mm/năm &rarr; Chuyển mổ</td>
+          <td class="p-3 font-bold text-emerald-950 bg-emerald-50/30 border-x-2 border-emerald-400">&ge; 4 mm trong vòng &le; 12 tháng &rarr; Chuyển mổ</td>
+          <td class="p-3 text-blue-950 bg-blue-50/30">Tăng &ge; 2 mm trong quá trình theo dõi &rarr; Cân nhắc mổ</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-bold text-slate-900">Thời gian theo dõi tối đa</td>
+          <td class="p-3 text-slate-600">Lên tới 5 năm</td>
+          <td class="p-3 font-bold text-emerald-950 bg-emerald-50/30 border-x-2 border-emerald-400">Tối đa 3 năm (sau 4 năm nguy cơ ung thư gần như bằng 0%)</td>
+          <td class="p-3 text-blue-950 bg-blue-50/30">Lên tới 5 năm nếu tổn thương ổn định</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-bold text-slate-900">Khi polyp giảm kích thước</td>
+          <td class="p-3 text-slate-600">Không có quy định</td>
+          <td class="p-3 font-bold text-emerald-700 bg-emerald-50/30 border-x-2 border-emerald-400">Giảm &ge; 4 mm &rarr; NGỪNG THEO DÕI HOÀN TOÀN</td>
+          <td class="p-3 text-slate-600 bg-blue-50/30">Tiếp tục theo dõi theo lịch trình</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- KHUNG CẠM BẪY LÂM SÀNG SỐNG CÒN -->
+  <div class="not-prose my-10 p-6 rounded-2xl bg-amber-50/90 border border-amber-300 shadow-xs">
+    <div class="flex items-center gap-2.5 mb-3 text-amber-900 font-bold text-base">
+      <svg class="w-5 h-5 text-amber-600 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+        <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"></path>
+      </svg>
+      <span>8 CẠM BẪY LÂM SÀNG & NGUYÊN TẮC VÀNG KHI ĐÁNH GIÁ POLYP TÚI MẬT TRÊN SIÊU ÂM</span>
+    </div>
+    <div class="space-y-3 text-xs sm:text-sm text-amber-950/90 leading-relaxed">
+      <div>
+        <strong class="text-amber-900">1. Cạm bẫy cặn bùn dạng u (Tumefactive sludge) mô phỏng polyp/u túi mật:</strong>
+        <p class="mt-0.5">Cặn bùn mật vón cục có thể bám vào thành túi mật tạo khối đặc không di động tức thì. Luôn cho người bệnh thay đổi tư thế (nghiêng trái, nằm sấp, đứng dậy) và bật Doppler màu / Doppler vi mạch để kiểm tra. Cặn bùn hoàn toàn không có mạch máu nuôi và sẽ di động sau một khoảng thời gian. Nếu nghi ngờ tổn thương &gt; 10 mm, hãy cho chụp CEUS hoặc MRI để khẳng định bản chất vô mạch.</p>
+      </div>
+      <div>
+        <strong class="text-amber-900">2. Cạm bẫy nhầm u cơ tuyến (Adenomyomatosis) với polyp chân rộng:</strong>
+        <p class="mt-0.5">U cơ tuyến đáy túi mật thường dày thành khu trú dạng bán cầu. Tìm kiếm dấu hiệu kinh điển: ảnh giả đuôi sao chổi (comet-tail artifact) từ các tinh thể cholesterol nằm trong xoang Rokitansky-Aschoff hoặc các vi nang trong thành. Không chỉ định mổ nhầm cho các tổn thương u cơ tuyến lành tính ổn định.</p>
+      </div>
+      <div>
+        <strong class="text-amber-900">3. Cạm bẫy bỏ sót dấu hiệu báo động: Dày thành khu trú tiếp giáp polyp &ge; 4 mm:</strong>
+        <p class="mt-0.5">Đa số ung thư túi mật khởi phát dưới dạng dày thành khu trú. Khi thấy polyp đi kèm thành túi mật xung quanh dày từ 4 mm trở lên, phải xếp ngay vào Nhóm Nguy cơ Không Xác định với ngưỡng mổ hạ xuống &ge; 7 mm.</p>
+      </div>
+      <div>
+        <strong class="text-amber-900">4. Cạm bẫy áp dụng thuật toán SRU cho bệnh nhân Viêm xơ đường mật tiên phát (PSC):</strong>
+        <p class="mt-0.5">Tuyệt đối không áp dụng bảng phân tầng SRU cho bệnh nhân PSC vì tỷ lệ ác tính ở nhóm này lên tới 18%–50%. Phải chuyển sang quản lý tích cực theo chuyên khoa Tiêu hóa.</p>
+      </div>
+      <div>
+        <strong class="text-amber-900">5. Cạm bẫy đo kích thước trên siêu âm khi túi mật không căng trướng đủ:</strong>
+        <p class="mt-0.5">Khi túi mật xẹp hoặc co bóp sau ăn, các nếp gấp niêm mạc có thể đội lên mô phỏng polyp hoặc làm sai lệch kích thước đo đạc. Bắt buộc bệnh nhân phải nhịn ăn tối thiểu 6 giờ trước khi làm siêu âm đánh giá polyp túi mật.</p>
+      </div>
+      <div>
+        <strong class="text-amber-900">6. Cạm bẫy nhầm lẫn giữa sự dao động tự nhiên với tăng trưởng ác tính:</strong>
+        <p class="mt-0.5">Kích thước polyp tăng/giảm 1–2 mm giữa hai lần khám thường do góc cắt hoặc mức độ căng túi mật khác nhau. Chỉ khi kích thước tăng &ge; 4 mm trong vòng 1 năm mới là tăng trưởng nhanh thực sự cần can thiệp ngoại khoa.</p>
+      </div>
+      <div>
+        <strong class="text-amber-900">7. Cạm bẫy chỉ định mổ cho bệnh nhân cao tuổi, thể trạng suy kiệt (Frailty):</strong>
+        <p class="mt-0.5">Ở bệnh nhân cao tuổi mắc nhiều bệnh nền, nguy cơ tử vong và biến chứng do mổ cắt túi mật cao hơn rất nhiều so với nguy cơ mắc ung thư túi mật từ một polyp nhỏ. Cần thực hiện quá trình ra quyết định chung (shared decision-making) thận trọng.</p>
+      </div>
+      <div>
+        <strong class="text-amber-900">8. Cạm bẫy tiếp tục theo dõi khi polyp đã thoái triển:</strong>
+        <p class="mt-0.5">Nếu polyp giảm kích thước từ 4 mm trở lên qua các lần siêu âm, điều này khẳng định bản chất giả u cholesterol lành tính đã tự bong tróc hoặc tan một phần vào dịch mật. Khuyến cáo ngừng theo dõi hoàn toàn để tránh tốn kém và lo âu không cần thiết cho người bệnh.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- DANH MỤC 99 TÀI LIỆU THAM KHẢO TOÀN VĂN -->
+  <div class="not-prose my-10 p-6 rounded-2xl bg-slate-50 border border-slate-200 text-xs text-slate-600">
+    <h4 class="text-sm font-bold text-slate-800 uppercase tracking-wider mb-2">Thông tin Tác giả & Cam kết lợi ích</h4>
+    <p class="mb-3">
+      <strong>Đơn vị công tác chính:</strong> Khoa Chẩn đoán Hình ảnh, Đại học Stanford; Đại học Alberta; Kaiser Permanente; UT Southwestern; Đại học Georgetown; UC Davis; Mayo Clinic; Đại học Northwestern; Đại học Thomas Jefferson; Đại học Pittsburgh; Joint Pathology Center; và Viện Chẩn đoán Hình ảnh Mallinckrodt, Đại học Washington.<br/>
+      <strong>Tác giả liên hệ:</strong> Aya Kamaya, MD (email: <span class="text-blue-600">kamaya@stanford.edu</span>).<br/>
+      <strong>Công bố xung đột lợi ích:</strong> Toàn bộ công bố xung đột lợi ích của các tác giả được liệt kê chi tiết trong bài báo gốc trên tạp chí <em>Radiology</em>.
+    </p>
+
+    <h4 class="text-sm font-bold text-slate-800 uppercase tracking-wider mb-2 pt-2 border-t border-slate-200">
+      Danh mục 99 Tài liệu Tham khảo Toàn văn (References)
+    </h4>
+    <ol class="list-decimal pl-5 space-y-1.5 leading-relaxed text-[11px] sm:text-xs max-h-96 overflow-y-auto pr-2">
+      <li>Jørgensen T, Jensen KH. Polyps in the gallbladder. A prevalence study. <em>Scand J Gastroenterol</em> 1990;25(3):281–286.</li>
+      <li>Aldouri AQ, Malik HZ, Waytt J, et al. The risk of gallbladder cancer from polyps in a large multiethnic series. <em>Eur J Surg Oncol</em> 2009;35(1):48–51.</li>
+      <li>Adsay V, Jang KT, Roa JC, et al. Intracholecystic papillary-tubular neoplasms (ICPN) of the gallbladder (neoplastic polyps, adenomas, and papillary neoplasms that are &ge;1.0 cm): clinicopathologic and immunohistochemical analysis of 123 cases. <em>Am J Surg Pathol</em> 2012;36(9):1279–1301.</li>
+      <li>Wennmacker SZ, de Savornin Lohman EAJ, Hasami NA, et al. Overtreatment of nonneoplastic gallbladder polyps due to inadequate routine ultrasound assessment. <em>Dig Surg</em> 2021;38(1):73–79.</li>
+      <li>Wennmacker SZ, van Dijk AH, Raessens JHJ, et al. Polyp size of 1 cm is insufficient to discriminate neoplastic and non-neoplastic gallbladder polyps. <em>Surg Endosc</em> 2019;33(5):1564–1571.</li>
+      <li>Szpakowski JL, Tucker LY. Outcomes of gallbladder polyps and their association with gallbladder cancer in a 20-year cohort. <em>JAMA Netw Open</em> 2020;3(5):e205143.</li>
+      <li>Liu K, Lin N, You Y, et al. Risk factors to discriminate neoplastic polypoid lesions of gallbladder: a large-scale case-series study. <em>Asian J Surg</em> 2021;44(12):1515–1519.</li>
+      <li>Wiles R, Thoeni RF, Barbu ST, et al. Management and follow-up of gallbladder polyps: joint guidelines between the European Society of Gastrointestinal and Abdominal Radiology (ESGAR), European Association for Endoscopic Surgery (EAES), International Society of Digestive Surgery (EFISDS) and European Society of Gastrointestinal Endoscopy (ESGE). <em>Eur Radiol</em> 2017;27(9):3856–3866.</li>
+      <li>Walsh AJ, Bingham DB, Kamaya A. Longitudinal ultrasound assessment of changes in size and number of incidentally detected gallbladder polyps. <em>AJR Am J Roentgenol</em> 2022;218(3):472–483.</li>
+      <li>World Health Organization Classification of Tumours Editorial Board. Digestive System Tumours. 5th ed. Geneva, Switzerland: World Health Organization, 2019.</li>
+      <li>He C, Fukumura Y, Toriyama A, et al. Pyloric gland adenoma (PGA) of the gallbladder: a unique and distinct tumor from PGAs of the stomach, duodenum, and pancreas. <em>Am J Surg Pathol</em> 2018;42(9):1237–1245.</li>
+      <li>Taskin OC, Basturk O, Reid MD, et al. Gallbladder polyps: correlation of size and clinicopathologic characteristics based on updated definitions. <em>PLoS One</em> 2020;15(9):e0237979.</li>
+      <li>Sung H, Freedman RA, Siegel RL, et al. Risks of subsequent primary cancers among breast cancer survivors according to hormone receptor status. <em>Cancer</em> 2021;127(18):3310–3324.</li>
+      <li>Kwon W, Jang JY, Lee SE, Hwang DW, Kim SW. Clinicopathologic features of polypoid lesions of the gallbladder and risk factors of gallbladder cancer. <em>J Korean Med Sci</em> 2009;24(3):481–487.</li>
+      <li>Kim JH, Lee JY, Baek JH, et al. High-resolution sonography for distinguishing neoplastic gallbladder polyps and staging gallbladder cancer. <em>AJR Am J Roentgenol</em> 2015;204(2):W150–W159.</li>
+      <li>Kim JS, Lee JK, Kim Y, Lee SM. US characteristics for the prediction of neoplasm in gallbladder polyps 10 mm or larger. <em>Eur Radiol</em> 2016;26(4):1134–1140.</li>
+      <li>Zielinski MD, Atwell TD, Davis PW, Kendrick ML, Que FG. Comparison of surgically resected polypoid lesions of the gallbladder to their pre-operative ultrasound characteristics. <em>J Gastrointest Surg</em> 2009;13(1):19–25.</li>
+      <li>Forman D, Bray F, Brewster DH, et al, eds. Cancer Incidence in Five Continents Vol X. IARC Scientific Publications No. 164. Lyon, France: International Agency for Research on Cancer, 2014.</li>
+      <li>Mhatre S, Wang Z, Nagrani R, et al. Common genetic variation and risk of gallbladder cancer in India: a case-control genome-wide association study. <em>Lancet Oncol</em> 2017;18(4):535–544.</li>
+      <li>Cha PC, Zembutsu H, Takahashi A, Kubo M, Kamatani N, Nakamura Y. A genome-wide association study identifies SNP in DCC is associated with gallbladder cancer in the Japanese population. <em>J Hum Genet</em> 2012;57(4):235–237.</li>
+      <li>Hemminki K, Li X. Familial liver and gall bladder cancer: a nationwide epidemiological study from Sweden. <em>Gut</em> 2003;52(4):592–596.</li>
+      <li>Hsing AW, Bai Y, Andreotti G, et al. Family history of gallstones and the risk of biliary tract cancer and gallstones: a population-based study in Shanghai, China. <em>Int J Cancer</em> 2007;121(4):832–838.</li>
+      <li>Buckles DC, Lindor KD, Larusso NF, Petrovic LM, Gores GJ. In primary sclerosing cholangitis, gallbladder polyps are frequently malignant. <em>Am J Gastroenterol</em> 2002;97(5):1138–1142.</li>
+      <li>Eaton JE, Thackeray EW, Lindor KD. Likelihood of malignancy in gallbladder polyps and outcomes following cholecystectomy in primary sclerosing cholangitis. <em>Am J Gastroenterol</em> 2012;107(3):431–439.</li>
+      <li>van Erp LW, Cunningham M, Narasimman M, et al. Risk of gallbladder cancer in patients with primary sclerosing cholangitis and radiographically detected gallbladder polyps. <em>Liver Int</em> 2020;40(2):382–392.</li>
+      <li>Chapman R, Fevery J, Kalloo A, et al. Diagnosis and management of primary sclerosing cholangitis. <em>Hepatology</em> 2010;51(2):660–678.</li>
+      <li>European Association for the Study of the Liver. EASL Clinical Practice Guidelines: management of cholestatic liver diseases. <em>J Hepatol</em> 2009;51(2):237–267.</li>
+      <li>Bowlus CL, Lim JK, Lindor KD. AGA clinical practice update on surveillance for hepatobiliary cancers in patients with primary sclerosing cholangitis: expert review. <em>Clin Gastroenterol Hepatol</em> 2019;17(12):2416–2422.</li>
+      <li>Lindor KD, Kowdley KV, Harrison ME; ACG clinical guideline: primary sclerosing cholangitis. <em>Am J Gastroenterol</em> 2015;110(5):646–659.</li>
+      <li>Said K, Glaumann H, Bergquist A. Gallbladder disease in patients with primary sclerosing cholangitis. <em>J Hepatol</em> 2008;48(4):598–605.</li>
+      <li>Boulton RA, Adams DH. Gallbladder polyps: when to wait and when to act. <em>Lancet</em> 1997;349(9055):817.</li>
+      <li>Cha BH, Hwang JH, Lee SH, et al. Pre-operative factors that can predict neoplastic polypoid lesions of the gallbladder. <em>World J Gastroenterol</em> 2011;17(17):2216–2222.</li>
+      <li>Terzioğlu SG, Kılıç MO, Sapmaz A, Karaca AS. Predictive factors of neoplastic gallbladder polyps: outcomes of 278 patients. <em>Turk J Gastroenterol</em> 2017;28(3):202–206.</li>
+      <li>Lee H, Kim K, Park I, et al. Preoperative predictive factors for gallbladder cholesterol polyp diagnosed after laparoscopic cholecystectomy for polypoid lesions of gallbladder. <em>Ann Hepatobiliary Pancreat Surg</em> 2016;20(4):180–186.</li>
+      <li>Guo J, Wu G, Zhou Z. Polypoid lesions of the gallbladder: report of 160 cases with special reference to diagnosis and treatment in China. <em>Int J Clin Exp Pathol</em> 2015;8(9):11569–11578.</li>
+      <li>Fagenson AM, Powers BD, Zorbas KA, et al. Frailty predicts morbidity and mortality after laparoscopic cholecystectomy for acute cholecystitis: an ACS-NSQIP cohort analysis. <em>J Gastrointest Surg</em> 2021;25(4):932–940.</li>
+      <li>Park JY, Hong SP, Kim YJ, et al. Long-term follow up of gallbladder polyps. <em>J Gastroenterol Hepatol</em> 2009;24(2):219–222.</li>
+      <li>Park JK, Yoon YB, Kim YT, et al. Management strategies for gallbladder polyps: is it possible to predict malignant gallbladder polyps? <em>Gut Liver</em> 2008;2(2):88–94.</li>
+      <li>Lugo A, Peveri G, Gallus S. Should we consider gallbladder cancer a new smoking-related cancer? A comprehensive meta-analysis focused on dose-response relationships. <em>Int J Cancer</em> 2020;146(12):3304–3311.</li>
+      <li>Borena W, Edlinger M, Bjørge T, et al. A prospective study on metabolic risk factors and gallbladder cancer in the metabolic syndrome and cancer (Me-Can) collaborative study. <em>PLoS One</em> 2014;9(2):e89368.</li>
+      <li>Wiles R, Varadpande M, Muly S, Webb J. Growth rate and malignant potential of small gallbladder polyps—systematic review of evidence. <em>Surgeon</em> 2014;12(4):221–226.</li>
+      <li>Babu BI, Dennison AR, Garcea G. Management and diagnosis of gallbladder polyps: a systematic review. <em>Langenbecks Arch Surg</em> 2015;400(4):455–462.</li>
+      <li>Bhatt NR, Gillis A, Smoothey CO, Awan FN, Ridgway PF. Evidence based management of polyps of the gall bladder: a systematic review of the risk factors of malignancy. <em>Surgeon</em> 2016;14(5):278–286.</li>
+      <li>Kozuka S, Tsubone N, Yasui A, Hachisuka K. Relation of adenoma to carcinoma in the gallbladder. <em>Cancer</em> 1982;50(10):2226–2234.</li>
+      <li>Chattopadhyay D, Lochan R, Balupuri S, Gopinath BR, Wynne KS. Outcome of gall bladder polypoidal lesions detected by transabdominal ultrasound scanning: a nine year experience. <em>World J Gastroenterol</em> 2005;11(14):2171–2173.</li>
+      <li>Yang HL, Sun YG, Wang Z. Polypoid lesions of the gallbladder: diagnosis and indications for surgery. <em>Br J Surg</em> 1992;79(3):227–229.</li>
+      <li>Koga A, Watanabe K, Fukuyama T, Takiguchi S, Nakayama F. Diagnosis and operative indications for polypoid lesions of the gallbladder. <em>Arch Surg</em> 1988;123(1):26–29.</li>
+      <li>Mainprize KS, Gould SW, Gilbert JM. Surgical management of polypoid lesions of the gallbladder. <em>Br J Surg</em> 2000;87(4):414–417.</li>
+      <li>Colecchia A, Larocca A, Scaioli E, et al. Natural history of small gallbladder polyps is benign: evidence from a clinical and pathogenetic study. <em>Am J Gastroenterol</em> 2009;104(3):624–629.</li>
+      <li>Corwin MT, Siewert B, Sheiman RG, Kane RA. Incidentally detected gallbladder polyps: is follow-up necessary?—Long-term clinical and US analysis of 346 patients. <em>Radiology</em> 2011;258(1):277–282.</li>
+      <li>Csendes A, Burgos AM, Csendes P, Smok G, Rojas J. Late follow-up of polypoid lesions of the gallbladder smaller than 10 mm. <em>Ann Surg</em> 2001;234(5):657–660.</li>
+      <li>Pickering O, Pucher PH, Toale C, et al. Prevalence and sonographic detection of gallbladder polyps in a Western European population. <em>J Surg Res</em> 2020;250:226–231.</li>
+      <li>Rafaelsen SR, Otto PO, Pedersen MRV. Long-term ultrasound follow-up in patients with small gallbladder polyps. <em>Dan Med J</em> 2020;67(10):A06200414.</li>
+      <li>Konstantinidis IT, Bajpai S, Kambadakone AR, et al. Gallbladder lesions identified on ultrasound. Lessons from the last 10 years. <em>J Gastrointest Surg</em> 2012;16(3):549–553.</li>
+      <li>Elmasry M, Lindop D, Dunne DF, Malik H, Poston GJ, Fenwick SW. The risk of malignancy in ultrasound detected gallbladder polyps: a systematic review. <em>Int J Surg</em> 2016;33(Pt A):28–35.</li>
+      <li>Middleton WD, Fung C, Dahiya N, et al. Survey study on the experience, practice patterns, and preferences of the fellows of the Society of Radiologists in Ultrasound for evaluation and management of gallbladder polyps detected with ultrasound. <em>Ultrasound Q</em> 2022;38(2):96–102.</li>
+      <li>Chou SC, Chen SC, Shyr YM, Wang SE. Polypoid lesions of the gallbladder: analysis of 1204 patients with long-term follow-up. <em>Surg Endosc</em> 2017;31(7):2776–2782.</li>
+      <li>Pedersen MR, Dam C, Rafaelsen SR. Ultrasound follow-up for gallbladder polyps less than 6 mm may not be necessary. <em>Dan Med J</em> 2012;59(10):A4503.</li>
+      <li>Shin SR, Lee JK, Lee KH, et al. Can the growth rate of a gallbladder polyp predict a neoplastic polyp? <em>J Clin Gastroenterol</em> 2009;43(9):865–868.</li>
+      <li>Choi SY, Kim TS, Kim HJ, et al. Is it necessary to perform prophylactic cholecystectomy for asymptomatic subjects with gallbladder polyps and gallstones? <em>J Gastroenterol Hepatol</em> 2010;25(6):1099–1104.</li>
+      <li>Ito H, Hann LE, D’Angelica M, et al. Polypoid lesions of the gallbladder: diagnosis and followup. <em>J Am Coll Surg</em> 2009;208(4):570–575.</li>
+      <li>Collett JA, Allan RB, Chisholm RJ, Wilson IR, Burt MJ, Chapman BA. Gallbladder polyps: prospective study. <em>J Ultrasound Med</em> 1998;17(4):207–211.</li>
+      <li>Kratzer W, Haenle MM, Voegtle A, et al. Ultrasonographically detected gallbladder polyps: a reason for concern? A seven-year follow-up study. <em>BMC Gastroenterol</em> 2008;8(1):41.</li>
+      <li>Ansari SM, Banu S, Awal MA, Siddique AB, Alam MM. Polypoid gall bladder lesions: is it necessary for immediate surgery? <em>Bangladesh Med Res Counc Bull</em> 2007;33(2):44–47.</li>
+      <li>Patel K, Dajani K, Vickramarajah S, Huguet E. Five year experience of gallbladder polyp surveillance and cost effective analysis against new European consensus guidelines. <em>HPB (Oxford)</em> 2019;21(5):636–642.</li>
+      <li>Park KW, Kim SH, Choi SH, Lee WJ. Differentiation of nonneoplastic and neoplastic gallbladder polyps 1 cm or bigger with multi-detector row computed tomography. <em>J Comput Assist Tomogr</em> 2010;34(1):135–139.</li>
+      <li>Bae JS, Kim SH, Kang HJ, et al. Quantitative contrast-enhanced US helps differentiating neoplastic vs non-neoplastic gallbladder polyps. <em>Eur Radiol</em> 2019;29(7):3772–3781.</li>
+      <li>Choi TW, Kim JH, Park SJ, Ahn SJ, Joo I, Han JK. Risk stratification of gallbladder polyps larger than 10 mm using high-resolution ultrasonography and texture analysis. <em>Eur Radiol</em> 2018;28(1):196–205.</li>
+      <li>Liu XS, Gu LH, Du J, et al. Differential diagnosis of polypoid lesions of the gallbladder using contrast-enhanced sonography. <em>J Ultrasound Med</em> 2015;34(6):1061–1069.</li>
+      <li>Wennmacker SZ, de Savornin Lohman EAJ, de Reuver PR, et al. Imaging based flowchart for gallbladder polyp evaluation. <em>J Med Imaging Radiat Sci</em> 2021;52(1):68–78.</li>
+      <li>Wennmacker SZ, Lamberts MP, Di Martino M, Drenth JP, Gurusamy KS, van Laarhoven CJ. Transabdominal ultrasound and endoscopic ultrasound for diagnosis of gallbladder polyps. <em>Cochrane Database Syst Rev</em> 2018;8(8):CD012233.</li>
+      <li>Kubota K, Bandai Y, Noie T, Ishizaki Y, Teruya M, Makuuchi M. How should polypoid lesions of the gallbladder be treated in the era of laparoscopic cholecystectomy? <em>Surgery</em> 1995;117(5):481–487.</li>
+      <li>Hertzberg B, Middleton W. The Gallbladder. In: Ultrasound Requisites. 3rd ed. Philadelphia, Pa: Elsevier, 2015; 32–50.</li>
+      <li>Kang HJ, Lee JM, Jeon SK, et al. Microvascular flow imaging of residual or recurrent hepatocellular carcinoma after transarterial chemoembolization: comparison with color/power Doppler imaging. <em>Korean J Radiol</em> 2019;20(7):1114–1123.</li>
+      <li>Terzi C, Sökmen S, Seçkin S, Albayrak L, Uğurlu M. Polypoid lesions of the gallbladder: report of 100 cases with special reference to operative indications. <em>Surgery</em> 2000;127(6):622–627.</li>
+      <li>Fei X, Li N, Zhu L, et al. Value of high frame rate contrast-enhanced ultrasound in distinguishing gallbladder adenoma from cholesterol polyp lesion. <em>Eur Radiol</em> 2021;31(9):6717–6725.</li>
+      <li>Zhang HP, Bai M, Gu JY, He YQ, Qiao XH, Du LF. Value of contrast-enhanced ultrasound in the differential diagnosis of gallbladder lesion. <em>World J Gastroenterol</em> 2018;24(6):744–751.</li>
+      <li>Tsuji S, Sofuni A, Moriyasu F, et al. Contrast-enhanced ultrasonography in the diagnosis of gallbladder disease. <em>Hepatogastroenterology</em> 2012;59(114):336–340.</li>
+      <li>Fei X, Lu WP, Luo YK, et al. Contrast-enhanced ultrasound may distinguish gallbladder adenoma from cholesterol polyps: a prospective case-control study. <em>Abdom Imaging</em> 2015;40(7):2355–2363.</li>
+      <li>Yuan Z, Liu X, Li Q, et al. Is contrast-enhanced ultrasound superior to computed tomography for differential diagnosis of gallbladder polyps? A cross-sectional study. <em>Front Oncol</em> 2021;11:657223.</li>
+      <li>Yuan HX, Cao JY, Kong WT, Xia HS, Wang X, Wang WP. Contrast-enhanced ultrasound in diagnosis of gallbladder adenoma. <em>Hepatobiliary Pancreat Dis Int</em> 2015;14(2):201–207.</li>
+      <li>Wang X, Zhu JA, Liu YJ, et al. Conventional ultrasound combined with contrast-enhanced ultrasound in differential diagnosis of gallbladder cholesterol and adenomatous polyps (1-2 cm). <em>J Ultrasound Med</em> 2022;41(3):617–626.</li>
+      <li>Choi JH, Seo DW, Choi JH, et al. Utility of contrast-enhanced harmonic EUS in the diagnosis of malignant gallbladder polyps (with videos). <em>Gastrointest Endosc</em> 2013;78(3):484–493.</li>
+      <li>Furukawa H, Kosuge T, Shimada K, et al. Small polypoid lesions of the gallbladder: differential diagnosis and surgical indications by helical computed tomography. <em>Arch Surg</em> 1998;133(7):735–739.</li>
+      <li>Yin SN, Chi J, Liu L, Ding N, Ji YD, Yuan JM. Dual-energy CT to differentiate gallbladder polyps: cholesterol versus adenomatous. <em>Acta Radiol</em> 2021;62(2):147–154.</li>
+      <li>Tsai HM, Lin XZ, Chen CY, Lin PW, Lin JC. MRI of gallstones with different compositions. <em>AJR Am J Roentgenol</em> 2004;182(6):1513–1519.</li>
+      <li>Irie H, Kamochi N, Nojiri J, Egashira Y, Sasaguri K, Kudo S. High b-value diffusion-weighted MRI in differentiation between benign and malignant polypoid gallbladder lesions. <em>Acta Radiol</em> 2011;52(3):236–240.</li>
+      <li>Lee NK, Kim S, Kim TU, Kim DU, Seo HI, Jeon TY. Diffusion-weighted MRI for differentiation of benign from malignant lesions in the gallbladder. <em>Clin Radiol</em> 2014;69(2):e78–e85.</li>
+      <li>Tseng JH, Wan YL, Hung CF, et al. Diagnosis and staging of gallbladder carcinoma. Evaluation with dynamic MR imaging. <em>Clin Imaging</em> 2002;26(3):177–182.</li>
+      <li>Haradome H, Ichikawa T, Sou H, et al. The pearl necklace sign: an imaging sign of adenomyomatosis of the gallbladder at MR cholangiopancreatography. <em>Radiology</em> 2003;227(1):80–88.</li>
+      <li>Sugiyama M, Xie XY, Atomi Y, Saito M. Differential diagnosis of small polypoid lesions of the gallbladder: the value of endoscopic ultrasonography. <em>Ann Surg</em> 1999;229(4):498–504.</li>
+      <li>Sadamoto Y, Oda S, Tanaka M, et al. A useful approach to the differential diagnosis of small polypoid lesions of the gallbladder, utilizing an endoscopic ultrasound scoring system. <em>Endoscopy</em> 2002;34(12):959–965.</li>
+      <li>Kumar A, Thombare MM, Sikora SS, Saxena R, Kapoor VK, Kaushik SP. Morbidity and mortality of laparoscopic cholecystectomy in an institutional setup. <em>J Laparoendosc Surg</em> 1996;6(6):393–397.</li>
+      <li>Sandblom G, Videhult P, Crona Guterstam Y, Svenner A, Sadr-Azodi O. Mortality after a cholecystectomy: a population-based study. <em>HPB (Oxford)</em> 2015;17(3):239–243.</li>
+      <li>Ismael HN, Cox S, Cooper A, Narula N, Aloia T. The morbidity and mortality of hepaticojejunostomies for complex bile duct injuries: a multi-institutional analysis of risk factors and outcomes using NSQIP. <em>HPB (Oxford)</em> 2017;19(4):352–358.</li>
+      <li>Fong ZV, Pitt HA, Strasberg SM, et al. Diminished survival in patients with bile leak and ductal injury: management strategy and outcomes. <em>J Am Coll Surg</em> 2018;226(4):568–576.e1.</li>
+      <li>Halbert C, Pagkratis S, Yang J, et al. Beyond the learning curve: incidence of bile duct injuries following laparoscopic cholecystectomy normalize to open in the modern era. <em>Surg Endosc</em> 2016;30(6):2239–2243.</li>
+      <li>Yeh CN, Chen MF, Jan YY. Laparoscopic cholecystectomy in 226 cirrhotic patients. Experience of a single center in Taiwan. <em>Surg Endosc</em> 2002;16(11):1583–1587.</li>
+      <li>Cairns V, Neal CP, Dennison AR, Garcea G. Risk and cost-effectiveness of surveillance followed by cholecystectomy for gallbladder polyps. <em>Arch Surg</em> 2012;147(12):1078–1083.</li>
+    </ol>
+  </div>
+
+</div>`,
+    views: 1650,
+    readTime: "30 phút đọc",
+    source: "Radiology 2022; 305(2):277–289 (Society of Radiologists in Ultrasound Consensus Conference)",
+    tags: ["Polyp túi mật", "Gallbladder Polyps", "Đồng thuận SRU", "SRU Consensus", "Radiology 2022", "Siêu âm gan mật", "Ung thư túi mật", "ICPN", "U cơ tuyến", "Adenomyomatosis", "Cặn bùn mật", "CEUS", "Cắt túi mật"]
+  },
 ];
