@@ -32,9 +32,9 @@ function HomePageContent() {
   const [currentPage, setCurrentPage] = useState(1);
   const postsPerPage = 6;
 
-  // Filter posts based on search params
+  // Filter posts based on search params (newest first)
   const filteredPosts = useMemo(() => {
-    return POSTS.filter((post) => {
+    return [...POSTS].reverse().filter((post) => {
       // Filter by category
       if (currentCat) {
         const matchSpecialty = post.specialtySlug === currentCat;

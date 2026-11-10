@@ -6922,4 +6922,2163 @@ export const POSTS: Post[] = [
     source: "Radiology 2022; 305(2):277–289 (Society of Radiologists in Ultrasound Consensus Conference)",
     tags: ["Polyp túi mật", "Gallbladder Polyps", "Đồng thuận SRU", "SRU Consensus", "Radiology 2022", "Siêu âm gan mật", "Ung thư túi mật", "ICPN", "U cơ tuyến", "Adenomyomatosis", "Cặn bùn mật", "CEUS", "Cắt túi mật"]
   },
+  {
+    id: "post-acc-aha-2022-aortic-disease-guideline",
+    title: "Hướng dẫn ACC/AHA 2022: Chẩn đoán và Quản lý Bệnh lý Động mạch Chủ (Khuyến cáo Toàn văn từ Hội Tim mạch Hoa Kỳ & Trường Môn Tim mạch Hoa Kỳ)",
+    slug: "huong-dan-acc-aha-2022-chan-doan-va-quan-ly-benh-ly-dong-mach-chu",
+    date: "10 Tháng 11, 2026",
+    updatedDate: "10 Tháng 11, 2026",
+    author: "Eric M. Isselbacher, MD, MSc, FACC (Chủ tịch) và Hội đồng Đồng thuận ACC/AHA (Biên dịch & Chú giải: CĐHA Cập Nhật)",
+    categories: ["Tim mạch", "Lồng ngực", "Cắt lớp vi tính", "Cộng hưởng từ", "Siêu âm", "Động mạch chủ", "ACC/AHA 2022"],
+    categorySlugs: ["tim-mach", "long-nguc", "cat-lop-vi-tinh", "cong-huong-tu", "sieu-am", "dong-mach-chu"],
+    modality: "Tổng hợp",
+    specialty: "Tim mạch & Lồng ngực",
+    specialtySlug: "tim-mach",
+    coverImage: "/posts/acc-aha-2022-aortic-disease-guideline/figure1_aortic_anatomy.jpg",
+    excerpt: "Toàn văn hướng dẫn lâm sàng toàn diện của Hội Tim mạch Hoa Kỳ (AHA) và Trường Môn Tim mạch Hoa Kỳ (ACC) về chẩn đoán và quản lý bệnh lý động mạch chủ: 10 thông điệp cốt lõi, hạ ngưỡng phẫu thuật phình ĐMC lên xuống 5.0 cm, chuẩn hóa đo đạc trên CT/MRI/siêu âm, phân loại bóc tách SVS/STS 2020, quản lý hội chứng ĐMC cấp (AAS, IMH, PAU), chỉ định TEVAR/EVAR, bệnh ĐMC di truyền (Marfan, LDS, vEDS, BAV) và thai kỳ.",
+    content: [
+      "Tại các trung tâm có Nhóm ĐMC Đa ngành và phẫu thuật viên giàu kinh nghiệm, ngưỡng can thiệp phẫu thuật cho phình gốc ĐMC và ĐMC lên vô căn đã được hạ từ 5.5 cm xuống 5.0 cm ở bệnh nhân chọn lọc, và thấp hơn ở bệnh ĐMC di truyền.",
+      "Chuẩn hóa đo đạc ĐMC vuông góc tuyệt đối với trục dòng máu (centerline); trên CT/MRI có đồng bộ ECG đo theo quy chuẩn bờ trong - bờ trong (inner-edge to inner-edge) và kích thước xoang - xoang tối đa.",
+      "Trong bóc tách ĐMC type A cấp, phẫu thuật cấp cứu tối thiểu phải thực hiện kỹ thuật nối xa mở (open distal anastomosis); trong bóc tách type B, mở rộng vai trò của TEVAR cho các trường hợp không biến chứng nhưng có đặc điểm hình ảnh nguy cơ cao.",
+      "Bắt buộc thực hiện xét nghiệm bảng đa gen và sàng lọc hình ảnh ĐMC cho 100% người thân trực hệ thế hệ thứ nhất của bệnh nhân có phình hoặc bóc tách ĐMC."
+    ],
+    htmlContent: `
+
+<div class="prose prose-slate max-w-none text-slate-800 bg-white">
+
+  <!-- HỘP BIÊN TẬP / LỜI GIỚI THIỆU CHUYÊN SÂU -->
+  <div class="not-prose my-8 p-6 rounded-2xl bg-gradient-to-r from-red-950 via-slate-900 to-red-900 text-white shadow-xl">
+    <div class="flex items-center gap-3 mb-3">
+      <span class="px-3 py-1 rounded-full bg-red-600 text-white font-bold text-xs uppercase tracking-wider shadow-sm">ACC / AHA Guideline 2022</span>
+      <span class="text-xs font-medium text-red-200">Đồng thuận Đa chuyên khoa: ACC • AHA • AATS • ACR • SCA • SCAI • STS • SVS</span>
+    </div>
+    <h2 class="text-2xl sm:text-3xl font-extrabold text-white mb-3">Hướng dẫn ACC/AHA 2022: Chẩn đoán và Quản lý Bệnh lý Động mạch Chủ</h2>
+    <p class="text-sm sm:text-base text-red-100/90 leading-relaxed mb-4">
+      Đây là <strong>bản hướng dẫn lâm sàng thực hành toàn diện và cập nhật nhất thế giới</strong> sau hơn một thập kỷ (thay thế hướng dẫn kinh điển 2010), được công bố đồng thời trên hai tạp chí y khoa hàng đầu <em>Journal of the American College of Cardiology (JACC)</em> và <em>Circulation</em>. Văn bản đánh dấu sự thống nhất đa chuyên khoa giữa các nhà Tim mạch học, Phẫu thuật viên Lồng ngực - Mạch máu, Bác sĩ Can thiệp Nội mạch và Bác sĩ Chẩn đoán Hình ảnh.
+    </p>
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-3 border-t border-red-800/60 text-xs">
+      <div><span class="text-red-300 block">Cơ quan chủ quản:</span>ACC / AHA Task Force</div>
+      <div><span class="text-red-300 block">Chủ tịch Hội đồng:</span>Eric M. Isselbacher, MD</div>
+      <div><span class="text-red-300 block">Quy mô tài liệu:</span>171 trang • 28 Hình • 37 Bảng</div>
+      <div><span class="text-red-300 block">Bản quyền biên dịch:</span>CĐHA Cập Nhật</div>
+    </div>
+  </div>
+
+  <!-- BẢNG GIẢI THÍCH PHÂN LOẠI KHUYẾN CÁO VÀ MỨC ĐỘ BẰNG CHỨNG -->
+  <div class="not-prose my-6 p-4 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-700">
+    <div class="font-bold text-slate-900 mb-2 uppercase tracking-wide">Quy chuẩn Phân nhóm Khuyến cáo (COR) và Mức độ Bằng chứng (LOE) theo ACC/AHA:</div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2">
+      <div class="p-2 rounded bg-emerald-50 border border-emerald-300 text-emerald-950">
+        <span class="font-bold text-emerald-700">Nhóm 1 (COR 1):</span> <strong>Mạnh</strong> (Lợi ích &gt;&gt;&gt; Nguy cơ). Chỉ định / Khuyến cáo thực hiện.
+      </div>
+      <div class="p-2 rounded bg-amber-50 border border-amber-300 text-amber-950">
+        <span class="font-bold text-amber-700">Nhóm 2a (COR 2a):</span> <strong>Vừa phải</strong> (Lợi ích &gt;&gt; Nguy cơ). Hợp lý / Nên cân nhắc thực hiện.
+      </div>
+      <div class="p-2 rounded bg-orange-50 border border-orange-300 text-orange-950">
+        <span class="font-bold text-orange-700">Nhóm 2b (COR 2b):</span> <strong>Yếu</strong> (Lợi ích ≥ Nguy cơ). Có thể xem xét thực hiện.
+      </div>
+      <div class="p-2 rounded bg-rose-50 border border-rose-300 text-rose-950">
+        <span class="font-bold text-rose-700">Nhóm 3 (COR 3):</span> <strong>Không có lợi hoặc Có hại</strong> (Nguy cơ ≥ Lợi ích). Không khuyến cáo / Chống chỉ định.
+      </div>
+    </div>
+    <div class="mt-2 text-slate-500">
+      <strong>Mức độ bằng chứng:</strong> <em>Mức A:</em> Dữ liệu chất lượng cao từ &gt;1 thử nghiệm lâm sàng ngẫu nhiên (RCT) hoặc phân tích gộp; <em>Mức B-R:</em> RCT chất lượng vừa phải; <em>Mức B-NR:</em> Nghiên cứu quan sát thuần tập, sổ bộ không ngẫu nhiên; <em>Mức C-LD:</em> Dữ liệu giới hạn (ca bệnh, nghiên cứu hồi cứu); <em>Mức C-EO:</em> Đồng thuận ý kiến chuyên gia.
+    </div>
+  </div>
+
+  <!-- TOP 10 TAKE-HOME MESSAGES -->
+  <div class="not-prose my-8 p-6 rounded-2xl bg-amber-50/90 border-2 border-amber-300 shadow-md">
+    <div class="flex items-center gap-2 mb-4">
+      <span class="p-2 rounded-lg bg-amber-500 text-white font-black text-sm">⭐ TOP 10</span>
+      <h3 class="text-xl font-bold text-amber-950 m-0">10 Thông Điệp Cốt Lõi Mang Tính Bước Ngoặt (Take-Home Messages)</h3>
+    </div>
+    <ol class="space-y-3 pl-5 text-sm sm:text-base text-slate-800 leading-relaxed list-decimal">
+      <li>
+        <strong>Nhóm ĐMC Đa ngành (Multidisciplinary Aortic Team):</strong> Vì kết quả điều trị cải thiện rõ rệt tại các trung tâm có thể tích phẫu thuật lớn, giàu kinh nghiệm và đầy đủ năng lực hồi sức chuyên sâu, việc phối hợp nhóm đa ngành là yếu tố then chốt để quyết định thời điểm can thiệp tối ưu.
+      </li>
+      <li>
+        <strong>Quyết định chia sẻ (Shared Decision-Making):</strong> Đòi hỏi sự tham gia tích cực giữa người bệnh và nhóm đa chuyên khoa để lựa chọn giữa điều trị nội khoa, can thiệp nội mạch (EVAR/TEVAR) hoặc phẫu thuật mở. Đặc biệt tối quan trọng ở phụ nữ có bệnh ĐMC đang dự định mang thai hoặc đang có thai.
+      </li>
+      <li>
+        <strong>Chuẩn hóa kỹ thuật hình ảnh &amp; Đo đạc:</strong> Cắt lớp vi tính (CT), Cộng hưởng từ (MRI) và Siêu âm tim cần tuân thủ nghiêm ngặt quy trình chụp chuyên dụng cho ĐMC, đo đạc vuông góc với trục dòng chảy (centerline), báo cáo nhất quán kích thước và tần suất theo dõi trước - sau can thiệp.
+      </li>
+      <li>
+        <strong>Hạ ngưỡng phẫu thuật Phình ĐMC ngực lên từ 5.5 cm xuống 5.0 cm:</strong> Tại các trung tâm có Nhóm ĐMC Đa ngành và phẫu thuật viên giàu kinh nghiệm, ngưỡng mổ chủ động cho phình gốc ĐMC và ĐMC lên vô căn đã được hạ từ 5.5 cm xuống <strong>5.0 cm</strong> ở những bệnh nhân chọn lọc, và thậm chí thấp hơn ở các bệnh ĐMC ngực có tính chất di truyền (HTAD).
+      </li>
+      <li>
+        <strong>Chỉ số hóa kích thước ĐMC theo thể trạng:</strong> Ở những bệnh nhân có chiều cao hoặc diện tích da (BSA) chệch nhiều so với trung bình, ngưỡng phẫu thuật cần tích hợp việc chỉ số hóa: đường kính theo BSA (ASI), đường kính theo chiều cao (AHI) hoặc tỷ lệ diện tích cắt ngang ĐMC / chiều cao (≥10 cm²/m).
+      </li>
+      <li>
+        <strong>Định nghĩa tốc độ phát triển phình nhanh (Rapid growth):</strong> Là chỉ định can thiệp phẫu thuật, được định nghĩa là tăng <strong>≥0.5 cm trong 1 năm</strong> hoặc <strong>≥0.3 cm/năm trong 2 năm liên tiếp</strong> đối với phình vô căn; và tăng <strong>≥0.3 cm trong 1 năm</strong> đối với bệnh nhân có bệnh ĐMC di truyền hoặc van ĐMC 2 mảnh (BAV).
+      </li>
+      <li>
+        <strong>Phẫu thuật bảo tồn van ĐMC (Valve-sparing root replacement - David/VSRR):</strong> Là lựa chọn hợp lý hàng đầu trong phẫu thuật thay gốc ĐMC nếu các lá van còn nguyên vẹn, mềm mại và được thực hiện bởi phẫu thuật viên giàu kinh nghiệm tại trung tâm chuyên sâu.
+      </li>
+      <li>
+        <strong>Bóc tách ĐMC type A cấp (ATAAD):</strong> Nếu bệnh nhân huyết động ổn định, cần cân nhắc chuyển ngay đến trung tâm ĐMC thể tích lớn để tăng cơ hội sống sót. Phẫu thuật sửa chữa type A tối thiểu phải thực hiện kỹ thuật nối xa mở (open distal anastomosis) thay vì chỉ thay đoạn ống đơn thuần trên van và kẹp ĐMC (clamp-on).
+      </li>
+      <li>
+        <strong>Vai trò ngày càng tăng của TEVAR trong Bóc tách ĐMC Type B:</strong> Can thiệp nội mạch đặt stent-graft (TEVAR) có vai trò mở rộng trong bóc tách type B cấp không biến chứng nhưng có đặc điểm giải phẫu nguy cơ cao. Các thử nghiệm lâm sàng sửa chữa phình ĐMC ngực bụng (TAAA) bằng stent-graft có nhánh/có lỗ cửa sổ cho thấy tiềm năng thay thế mổ mở ở bệnh nhân có giải phẫu phù hợp.
+      </li>
+      <li>
+        <strong>Sàng lọc hình ảnh cho thân nhân thế hệ thứ nhất (First-Degree Relatives):</strong> Ở tất cả bệnh nhân có phình gốc ĐMC, phình ĐMC lên hoặc bóc tách ĐMC, khuyến cáo bắt buộc phải thực hiện tầm soát hình ảnh ĐMC cho toàn bộ người thân trực hệ (cha mẹ, anh chị em ruột, con cái).
+      </li>
+    </ol>
+  </div>
+
+  <h2 id="phan-1-giai-phau-va-dinh-nghia">1. Giải phẫu chuẩn, Giải phẫu bất thường &amp; Hệ thống Định nghĩa</h2>
+
+  <h3 id="1-1-giai-phau-dmc">1.1. Giải phẫu Động mạch chủ và Cấu trúc Mô học Thành mạch</h3>
+  <p>
+    Động mạch chủ (ĐMC) là mạch máu lớn nhất trong cơ thể, dẫn máu giàu oxy từ tâm thất trái đi nuôi toàn bộ cơ quan. Về phương diện giải phẫu học ngoại khoa và hình ảnh học, ĐMC được chia thành <strong>5 phân đoạn chính</strong> (<strong>Hình 1</strong>):
+  </p>
+  <ul>
+    <li><strong>Gốc ĐMC (Aortic Root / Đoạn xoang Valsalva):</strong> Kéo dài từ vòng van động mạch chủ đến chỗ nối xoang - ống (Sinotubular junction - STJ). Phân đoạn này chứa các xoang Valsalva và lỗ xuất phát của hai động mạch vành (vành trái và vành phải).</li>
+    <li><strong>ĐMC ngực lên (Ascending Thoracic Aorta):</strong> Kéo dài từ chỗ nối xoang - ống (STJ) đến bờ proximo-distal của thân động mạch cánh tay đầu (Innominate artery).</li>
+    <li><strong>Quai ĐMC (Aortic Arch):</strong> Kéo dài từ nguyên ủy thân cánh tay đầu đến nguyên ủy động mạch dưới đòn trái (LSA). Đoạn này thông thường cho ra 3 nhánh lớn: Thân cánh tay đầu, ĐM cảnh chung trái và ĐM dưới đòn trái.</li>
+    <li><strong>ĐMC ngực xuống (Descending Thoracic Aorta):</strong> Kéo dài từ vị trí ngay sau nguyên ủy động mạch dưới đòn trái đến cơ hoành (ngang mức đốt sống ngực T12).</li>
+    <li><strong>ĐMC bụng (Abdominal Aorta):</strong> Kéo dài từ cơ hoành đến chỗ chia đôi thành hai động mạch chậu chung (ngang mức đốt sống thắt lưng L4). Được chia thành hai đoạn chức năng: <em>Đoạn trên thận (Suprarenal)</em> và <em>Đoạn dưới thận (Infrarenal)</em>.</li>
+  </ul>
+
+  <!-- FIGURE 1 -->
+  <figure class="my-8 rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure1_aortic_anatomy.jpg" 
+        alt="Hình 1: Giải phẫu Động mạch chủ và các nhánh chính (Anatomy of the Aorta and Its Main Branches)" 
+        class="w-full max-w-2xl h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 1. Sơ đồ Giải phẫu Động mạch chủ và các nhánh cấp máu chính.</strong> Minh họa 5 phân đoạn: Gốc ĐMC (Aortic root), ĐMC lên (Ascending aorta), Quai ĐMC (Aortic arch), ĐMC ngực xuống (Descending thoracic aorta), và ĐMC bụng (Abdominal aorta) kèm các nhánh tạng chính (Thân tạng, ĐM mạc treo tràng trên, các ĐM thận, ĐM mạc treo tràng dưới, ĐM chậu chung).
+    </figcaption>
+  </figure>
+
+  <p>
+    <strong>Cấu trúc vi thể 3 lớp của thành ĐMC (Hình 2):</strong>
+  </p>
+  <ul>
+    <li><strong>Lớp nội mạc (Tunica Intima):</strong> Lớp trong cùng, rất mỏng, gồm một lớp tế bào nội mô đơn tiếp xúc trực tiếp với dòng máu, nằm trên nền chất nền ngoại bào giàu sợi liên kết mỏng manh và màng đáy.</li>
+    <li><strong>Lớp áo giữa (Tunica Media):</strong> Lớp dày nhất và quan trọng nhất về mặt cơ học. Chứa hơn <strong>50 lớp lá đàn hồi đồng tâm (elastic lamellae)</strong> xen kẽ các tế bào cơ trơn, sợi collagen và proteoglycan. Lớp giữa mang lại sức bền cơ học chịu áp lực đập cực lớn từ tâm thất trái và tính đàn hồi (hiệu ứng Windkessel) giúp duy trì áp lực tưới máu liên tục trong thì tâm trương.</li>
+    <li><strong>Lớp áo ngoài (Tunica Adventitia):</strong> Lớp ngoài cùng, cấu tạo từ mô liên kết xơ sợi lỏng lẻo, nguyên bào sợi, các đầu tận thần kinh và đặc biệt là hệ thống <em>mạch của mạch (vasa vasorum)</em> chịu trách nhiệm cấp máu nuôi dưỡng cho lớp ngoài và 2/3 ngoài của lớp áo giữa.</li>
+  </ul>
+
+  <!-- FIGURE 2 -->
+  <figure class="my-8 rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure2_histology_wall.jpg" 
+        alt="Hình 2: Cấu trúc mô học 3 lớp của thành động mạch chủ (Histology of Aortic Wall)" 
+        class="w-full max-w-xl h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 2. Sơ đồ cấu trúc mô học các thành phần then chốt của thành ĐMC.</strong> Cho thấy lớp nội mạc (Intima), lớp giữa (Media) chứa hơn 50 lớp sợi đàn hồi và tế bào cơ trơn, và lớp áo ngoài (Adventitia) với mạng lưới mạch máu nuôi vasa vasorum.
+    </figcaption>
+  </figure>
+
+  <h3 id="1-2-11-vung-ha-canh">1.2. Phân loại 11 Vùng Hạ Cánh (Aortic Landing Zones)</h3>
+  <p>
+    Để chuẩn hóa việc lập kế hoạch, hướng dẫn và báo cáo kết quả can thiệp nội mạch (đặt Stent-graft ĐMC ngực TEVAR và ĐMC bụng EVAR), Hiệp hội Phẫu thuật Lồng ngực và Phẫu thuật Mạch máu đã phân chia toàn bộ ĐMC ngực và bụng thành <strong>11 vùng hạ cánh (Landing Zones từ 0 đến 11)</strong> (<strong>Hình 3</strong>):
+  </p>
+  <ul>
+    <li><strong>Zone 0:</strong> Kéo dài từ bờ trên vòng van ĐMC đến bờ xa của lỗ xuất phát thân động mạch cánh tay đầu. <em>Roselli và cộng sự</em> chia nhỏ Zone 0 thành: <strong>Zone 0A</strong> (vòng van đến bờ trên ĐM vành cao nhất), <strong>Zone 0B</strong> (trên ĐM vành đến bờ xa ĐM phổi phải), và <strong>Zone 0C</strong> (từ ĐM phổi phải đến bờ xa thân cánh tay đầu).</li>
+    <li><strong>Zone 1:</strong> Nằm giữa bờ xa thân cánh tay đầu và bờ xa động mạch cảnh chung trái.</li>
+    <li><strong>Zone 2:</strong> Nằm giữa bờ xa ĐM cảnh chung trái và bờ xa động mạch dưới đòn trái (LSA).</li>
+    <li><strong>Zone 3:</strong> Đoạn ĐMC ngực xuống đoạn gần (2 cm đầu tiên sau nguyên ủy ĐM dưới đòn trái, ngang mức thân đốt sống T4).</li>
+    <li><strong>Zone 4:</strong> Từ hết Zone 3 đến ĐMC ngực xuống đoạn giữa (ngang mức đốt sống T6).</li>
+    <li><strong>Zone 5:</strong> Từ ĐMC ngực xuống đoạn giữa đến bờ trên của thân tạng (Celiac axis).</li>
+    <li><strong>Zone 6:</strong> Bao gồm nguyên ủy động mạch thân tạng; kéo dài từ thân tạng đến bờ trên động mạch mạc treo tràng trên (SMA).</li>
+    <li><strong>Zone 7:</strong> Bao gồm nguyên ủy SMA; kéo dài từ SMA đến bờ trên các động mạch thận.</li>
+    <li><strong>Zone 8:</strong> Bao gồm nguyên ủy các động mạch thận; kéo dài từ ĐM thận đến ĐMC bụng dưới thận (Infrarenal aorta).</li>
+    <li><strong>Zone 9:</strong> ĐMC bụng đoạn dưới thận đến mức chẽ đôi ĐMC chậu.</li>
+    <li><strong>Zone 10:</strong> Động mạch chậu chung (Common iliac arteries).</li>
+    <li><strong>Zone 11:</strong> Động mạch chậu ngoài (External iliac arteries).</li>
+  </ul>
+
+  <!-- FIGURE 3 -->
+  <figure class="my-8 rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure3_landing_zones.jpg" 
+        alt="Hình 3: Phân loại 11 Vùng Hạ Cánh Động Mạch Chủ (Aortic Landing Zones)" 
+        class="w-full max-w-sm h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 3. Bản đồ 11 Vùng Hạ Cánh Giải phẫu (Landing Zones 0–11) của ĐMC.</strong> Hệ thống phân loại thiết yếu phục vụ cho chỉ định vị trí neo stent-graft trong can thiệp TEVAR và EVAR (Theo Czerny và cs).
+    </figcaption>
+  </figure>
+
+  <h3 id="1-3-dinh-nghia-dan-va-phinh">1.3. Định nghĩa Dãn vs Phình Động Mạch Chủ: Chuẩn Hóa Mới</h3>
+  <div class="p-4 rounded-xl bg-blue-50 border border-blue-200 text-sm leading-relaxed mb-4">
+    <strong>Thay đổi mang tính bước ngoặt:</strong> Định nghĩa kinh điển trước đây xem phình mạch là <em>"khi đường kính dãn từ ≥1.5 lần đường kính bình thường tham chiếu"</em>. Định nghĩa này tuy phù hợp cho ĐMC bụng nhưng <strong>hoàn toàn thất bại và nguy hiểm</strong> khi áp dụng cho gốc ĐMC và ĐMC ngực lên. Một nam giới 40 tuổi có đường kính gốc ĐMC trung bình 3.5 cm; nếu áp dụng quy chuẩn 1.5 lần, ĐMC phải dãn tới 5.25 cm mới được gọi là phình – trong khi nguy cơ bóc tách đã tăng vọt từ lâu trước kích thước này!
+  </div>
+
+  <p>
+    Dựa trên các nghiên cứu quy mô lớn về lịch sử tự nhiên từ cơ sở dữ liệu <em>MESA (Multi-Ethnic Study of Atherosclerosis)</em> và nghiên cứu thuần tập van ĐMC 2 mảnh của <em>Borger et al.</em> (<strong>Hình 4 &amp; Hình 5</strong>), ACC/AHA 2022 đã chính thức chuẩn hóa định nghĩa:
+  </p>
+  <ul>
+    <li><strong>ĐMC bình thường:</strong> Đường kính &lt;4.0 cm (ở người trưởng thành có thể trạng trung bình).</li>
+    <li><strong>ĐMC Dãn (Aortic Dilation):</strong> Đường kính từ <strong>4.0 cm đến 4.4 cm</strong> (nguy cơ bóc tách tăng 89 lần so với nhóm chứng ≤3.4 cm). Thuật ngữ <em>"Dãn" (Dilation)</em> được khuyến cáo sử dụng đồng nhất thay cho từ dễ gây nhầm lẫn <em>"Ectasia"</em>.</li>
+    <li><strong>Phình ĐMC (Aortic Aneurysm):</strong> Đường kính từ <strong>≥4.5 cm</strong> trở lên. Tại ngưỡng này, nguy cơ bóc tách ĐMC tăng vọt tới <strong>6.300 lần</strong> so với người có đường kính bình thường!</li>
+  </ul>
+
+  <!-- FIGURES 4 & 5 -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+    <figure class="rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm m-0">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure4_bav_complications.jpg" 
+        alt="Hình 4: Tỷ lệ không bị biến chứng ĐMC lên ở bệnh nhân van ĐMC 2 mảnh theo kích thước" 
+        class="w-full h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+      <figcaption class="p-3 text-xs text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+        <strong>Hình 4. Đường cong Kaplan-Meier: Tỷ lệ không bị biến chứng ĐMC ở bệnh nhân BAV (Borger et al).</strong> Bệnh nhân có ĐMC dãn vừa (4.5–4.9 cm) có nguy cơ biến cố (phình tiến triển, bóc tách, đột tử) cao vượt trội (p &lt; 0.001) so với nhóm &lt;4.5 cm.
+      </figcaption>
+    </figure>
+
+    <figure class="rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm m-0">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure5_dissection_risk_by_size.jpg" 
+        alt="Hình 5: Nguy cơ tương đối bóc tách ĐMC theo kích thước (Paruchuri et al)" 
+        class="w-full h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+      <figcaption class="p-3 text-xs text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+        <strong>Hình 5. Nguy cơ tương đối bóc tách ĐMC theo nhóm kích thước (Paruchuri et al - MESA Database).</strong> Nguy cơ bắt đầu tăng rõ ở mức 4.0–4.4 cm (tăng 89.1 lần) và tăng vọt theo phương thẳng đứng ở mức ≥4.5 cm (tăng 6.305,5 lần), làm cơ sở chuẩn hóa định nghĩa Dãn vs Phình.
+      </figcaption>
+    </figure>
+
+  <h3 id="1-4-chi-so-hoa-kich-thuoc">1.4. Chỉ số hóa kích thước ĐMC theo thể trạng bệnh nhân</h3>
+  <p>
+    Đối với những bệnh nhân có tầm vóc khác biệt đáng kể (người quá thấp hoặc quá cao, lệch &gt;1–2 độ lệch chuẩn so với trung bình quần thể), việc sử dụng kích thước tuyệt đối đơn thuần sẽ dẫn đến đánh giá thấp nguy cơ ở người nhỏ bé hoặc đánh giá quá mức ở người cao lớn:
+  </p>
+  <ul>
+    <li><strong>Z-Score:</strong> Thường dùng cho trẻ em và thanh thiếu niên (&lt;15 tuổi) để điều chỉnh theo tuổi và sự phát triển cơ thể.</li>
+    <li><strong>Chỉ số kích thước ĐMC (Aortic Size Index - ASI):</strong> Bằng Đường kính ĐMC (cm) / Diện tích bề mặt cơ thể BSA (m²). Dự đoán biến cố tốt hơn đường kính đơn thuần.</li>
+    <li><strong>Chỉ số chiều cao ĐMC (Aortic Height Index - AHI):</strong> Bằng Đường kính ĐMC (cm) / Chiều cao bệnh nhân (m). Đơn giản, không phụ thuộc vào dao động cân nặng.</li>
+    <li><strong>Tỷ lệ Diện tích Cắt ngang / Chiều cao (Cross-sectional Area / Height Ratio):</strong> Bằng Diện tích thiết diện ĐMC (cm²) / Chiều cao (m). Nghiên cứu của Svensson và Masri đã chứng minh: <strong>Tỷ lệ ≥10 cm²/m</strong> là ngưỡng độc lập dự báo nguy cơ tử vong và bóc tách ĐMC tăng vọt, là chỉ định phẫu thuật dự phòng rất đáng tin cậy.</li>
+  </ul>
+
+  <h3 id="1-5-hoi-chung-dmc-cap">1.5. Hội chứng Động Mạch Chủ Cấp (AAS): Định nghĩa &amp; Bệnh sinh</h3>
+  <p>
+    Hội chứng ĐMC cấp (Acute Aortic Syndromes - AAS) là nhóm bệnh lý đe dọa tính mạng cấp bách do tổn thương mất tính toàn vẹn của thành ĐMC. Ba thể bệnh kinh điển bao gồm (<strong>Hình 6</strong>):
+  </p>
+  <ol>
+    <li><strong>Bóc tách động mạch chủ (Aortic Dissection):</strong> Chiếm đa số các trường hợp AAS. Xuất hiện rách lớp nội mạc (intimal tear), dòng máu có áp lực cao xé rách lớp áo giữa theo chiều dọc, hình thành một màng bóc tách (dissection flap) ngăn đôi lòng thật (true lumen) và lòng giả (false lumen). Lòng giả có thể lan xuôi dòng hoặc ngược dòng, gây biến chứng vỡ, tràn máu màng tim, hở van ĐMC cấp, hoặc thiếu máu tạng.</li>
+    <li><strong>Khối máu tụ trong thành (Intramural Hematoma - IMH):</strong> Có sự hiện diện của máu trong lớp giữa của thành ĐMC mà <em>không có rách nội mạc rõ rệt hay không có dòng chảy trong lòng giả</em> trên hình ảnh học thông thường. Thường do vỡ các mạch máu nuôi thành mạch (vasa vasorum) hoặc các vết rách vi thể. Chiếm 5%–25% các ca AAS tại phương Tây và lên đến 30%–40% ở các nước Đông Á.</li>
+    <li><strong>Loét xơ vữa xuyên thấu (Penetrating Atherosclerotic Ulcer - PAU):</strong> Tổn thương mảng xơ vữa bị loét sâu xuyên thủng màng đàn hồi trong (internal elastic lamina) đi vào lớp áo giữa. Thường gặp ở người cao tuổi xơ vữa lan tỏa, hay đi kèm khối máu tụ bao quanh (peri-ulcer hematoma) và có nguy cơ tiến triển thành giả phình hoặc vỡ ĐMC lên đến 40%.</li>
+  </ol>
+
+  <!-- FIGURE 6 -->
+  <figure class="my-8 rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure6_acute_aortic_syndromes.jpg" 
+        alt="Hình 6: Ba thể bệnh của Hội chứng Động mạch chủ cấp (Acute Aortic Syndromes)" 
+        class="w-full max-w-xl h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 6. Minh họa cơ chế bệnh học của 3 thể Hội chứng Động mạch chủ cấp (AAS).</strong> Trái: Bóc tách ĐMC với rách nội mạc và màng ngăn phân chia lòng thật/giả. Giữa: Khối máu tụ trong thành (IMH) đẩy phồng thành ngoài ĐMC trong khi lòng mạch tương đối tròn đều. Phải: Loét xơ vữa xuyên thấu (PAU) ăn thủng lớp màng chun trong vào lớp giữa tạo ổ đọng thuốc khu trú.
+    </figcaption>
+  </figure>
+
+  <!-- BẢNG 3: PHÂN LOẠI THỜI GIAN -->
+  <div class="not-prose my-6 overflow-x-auto">
+    <table class="w-full text-left border-collapse text-sm border border-slate-200">
+      <caption class="text-left font-bold text-slate-900 pb-2 uppercase tracking-wide">Bảng 3. Phân loại Bóc tách ĐMC theo Thời gian (Chuẩn báo cáo SVS/STS 2020)</caption>
+      <thead class="bg-slate-100 text-slate-900 border-b border-slate-300">
+        <tr>
+          <th class="p-3 border-r border-slate-200">Giai đoạn Thời gian (Chronicity)</th>
+          <th class="p-3 border-r border-slate-200">Khoảng thời gian từ khi khởi phát triệu chứng</th>
+          <th class="p-3">Ý nghĩa Lâm sàng &amp; Quyết định Can thiệp</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200">
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-bold text-red-700 border-r border-slate-200">Tối cấp (Hyperacute)</td>
+          <td class="p-3 border-r border-slate-200">&lt; 24 giờ</td>
+          <td class="p-3">Giai đoạn nguy hiểm nhất; tử vong tăng 1%–2%/giờ trong bóc tách Type A nếu không phẫu thuật cấp cứu.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-bold text-orange-700 border-r border-slate-200">Cấp tính (Acute)</td>
+          <td class="p-3 border-r border-slate-200">1 – 14 ngày</td>
+          <td class="p-3">Thành mạch cực kỳ bở và mỏng manh; chỉ định phẫu thuật mở khẩn cho Type A, cân nhắc TEVAR cho Type B có biến chứng.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-bold text-amber-700 border-r border-slate-200">Bán cấp (Subacute)</td>
+          <td class="p-3 border-r border-slate-200">15 – 90 ngày</td>
+          <td class="p-3">Thời điểm "vàng" cho can thiệp nội mạch TEVAR ở Type B; màng bóc tách đã bớt bở nhưng vẫn còn tính mềm dẻo để tái cấu trúc lòng mạch.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-bold text-slate-700 border-r border-slate-200">Mạn tính (Chronic)</td>
+          <td class="p-3 border-r border-slate-200">&gt; 90 ngày</td>
+          <td class="p-3">Màng bóc tách đã dày xơ hóa cố định; đáp ứng tái cấu trúc sau TEVAR kém hơn, nguy cơ tiến triển thành phình ĐMC mạn tính.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 id="1-6-phan-loai-giai-phau-boc-tach">1.6. Phân loại Giải phẫu Bóc Tách ĐMC: Kinh điển &amp; Hệ thống Mới SVS/STS 2020</h3>
+  <p>
+    Về mặt lâm sàng, có 2 hệ thống phân loại kinh điển được áp dụng rộng rãi hàng chục năm qua (<strong>Hình 7</strong>):
+  </p>
+  <ul>
+    <li><strong>Hệ thống Stanford:</strong> Phân chia dựa trên sự liên quan của ĐMC lên (không phụ thuộc vị trí lỗ rách ban đầu):
+      <ul>
+        <li><strong>Stanford Type A:</strong> Bóc tách liên quan đến ĐMC ngực lên (chiếm 65%–70%). Bắt buộc phải phẫu thuật cấp cứu ngoại khoa ngay lập tức.</li>
+        <li><strong>Stanford Type B:</strong> Bóc tách không liên quan đến ĐMC ngực lên (chỉ từ sau chỗ xuất phát ĐM dưới đòn trái trở đi). Điều trị nội khoa là cơ bản, can thiệp TEVAR khi có biến chứng.</li>
+      </ul>
+    </li>
+    <li><strong>Hệ thống DeBakey:</strong> Phân chia chi tiết dựa vào vị trí xuất phát lỗ rách và phạm vi lan rộng:
+      <ul>
+        <li><strong>DeBakey Type I:</strong> Lỗ rách ở ĐMC lên và lan rộng qua quai ĐMC xuống ĐMC ngực - bụng.</li>
+        <li><strong>DeBakey Type II:</strong> Lỗ rách và toàn bộ bóc tách chỉ khu trú tại ĐMC lên.</li>
+        <li><strong>DeBakey Type III:</strong> Lỗ rách ở ĐMC ngực xuống. Chia thành <em>Type IIIa</em> (chỉ khu trú ở ĐMC ngực trên cơ hoành) và <em>Type IIIb</em> (lan xuống ĐMC bụng dưới cơ hoành).</li>
+      </ul>
+    </li>
+  </ul>
+
+  <!-- FIGURE 7 -->
+  <figure class="my-8 rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure7_dissection_classification.jpg" 
+        alt="Hình 7: Phân loại Bóc tách ĐMC theo DeBakey và Stanford (DeBakey and Stanford Classification)" 
+        class="w-full max-w-xl h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 7. Hai hệ thống phân loại giải phẫu bóc tách ĐMC kinh điển nhất: DeBakey và Stanford.</strong> DeBakey chi tiết hơn về mặt vị trí giải phẫu, trong khi Stanford mang tính thực hành cấp cứu quyết định hướng xử trí ngoại khoa hay nội khoa.
+    </figcaption>
+  </figure>
+
+  <p>
+    <strong>Hệ thống Báo cáo Giải phẫu Mới SVS/STS 2020 (Hình 8):</strong> Để phục vụ kỷ nguyên can thiệp nội mạch hiện đại, SVS và STS đã đưa ra phân loại chi tiết hơn:
+  </p>
+  <ul>
+    <li><strong>Type A<sub>D</sub>:</strong> Lỗ rách nội mạc nằm ở <em>Zone 0</em>, chỉ số dưới <em>D</em> biểu thị vùng hạ cánh xa nhất mà bóc tách lan tới (ví dụ: A<sub>9</sub> là bóc tách có lỗ rách ở Zone 0 và lan tới Zone 9 ĐMC bụng).</li>
+    <li><strong>Type B<sub>P,D</sub>:</strong> Lỗ rách nằm ở <em>Zone 1 trở đi</em>. Chỉ số dưới <em>P</em> là vị trí đoạn gần nhất và <em>D</em> là vị trí đoạn xa nhất của bóc tách (ví dụ: B<sub>3,9</sub> là bóc tách bắt đầu từ Zone 3 lan đến Zone 9).</li>
+    <li><strong>Type I<sub>D</sub> (Indeterminate):</strong> Bóc tách lan vào Zone 0 nhưng chưa xác định được chính xác vị trí lỗ rách nội mạc.</li>
+  </ul>
+
+  <!-- FIGURE 8 -->
+  <figure class="my-8 rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure8_svs_sts_classification.jpg" 
+        alt="Hình 8: Chuẩn hóa phân loại giải phẫu bóc tách ĐMC SVS/STS 2020" 
+        class="w-full max-w-md h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 8. Báo cáo giải phẫu bóc tách ĐMC theo Tiêu chuẩn SVS/STS 2020.</strong> Xác định cụ thể vị trí lỗ vào (Entry tear) và phạm vi lan rộng đoạn gần - đoạn xa theo 11 Vùng hạ cánh giải phẫu.
+    </figcaption>
+  </figure>
+
+  <h3 id="1-7-co-che-malperfusion">1.7. Cơ chế Giảm tưới máu Tạng (Malperfusion): Tắc nghẽn Động vs Tắc nghẽn Tĩnh</h3>
+  <p>
+    Hội chứng thiếu máu nuôi tạng (Malperfusion syndrome) xảy ra ở khoảng 25%–30% bệnh nhân bóc tách ĐMC và làm tăng tỷ lệ tử vong lên gấp 5 lần (30.5% so với 6.2%). Hiểu rõ 2 cơ chế bệnh sinh (<strong>Hình 9</strong>) là cực kỳ quan trọng để chọn đúng phương pháp can thiệp:
+  </p>
+  <ul>
+    <li><strong>Tắc nghẽn Động (Dynamic Obstruction) (Hình 9B):</strong> Do lòng giả bị tăng áp lực dữ dội đẩy ép màng bóc tách phồng lên, che lấp hoặc đè sập vào lỗ xuất phát (ostium) của nhánh tạng trong thì tâm thu, ngăn cản dòng máu chảy vào. Bản thân nhánh mạch và lỗ xuất phát hoàn toàn nguyên vẹn về mặt giải phẫu. <em>Phương pháp xử trí:</em> Làm giảm áp lực lòng giả (bằng cách đặt TEVAR bịt lỗ vào chính hoặc mở cửa sổ màng ngăn - fenestration).</li>
+    <li><strong>Tắc nghẽn Tĩnh (Static Obstruction) (Hình 9A):</strong> Do vết rách bóc tách ăn lan trực tiếp vào chính lòng của nhánh mạch, tạo nên lòng giả và huyết khối tắc nghẽn cục bộ trong lòng nhánh mạch làm chít hẹp hoặc bít tắc hoàn toàn lòng thật của nhánh tạng. <em>Phương pháp xử trí:</em> Bắt buộc phải đặt stent trực tiếp vào nhánh mạch bị tắc hoặc phẫu thuật làm cầu nối mở (bypass).</li>
+    <li><strong>Tắc nghẽn Phối hợp (Dynamic + Static) (Hình 9C):</strong> Nhánh mạch vừa bị màng bóc tách ĐMC đè ép bên ngoài, vừa có bóc tách và huyết khối nội tại bên trong lòng nhánh. Cần phối hợp cả giải áp ĐMC trung tâm lẫn đặt stent nhánh đích.</li>
+  </ul>
+
+  <!-- FIGURE 9 -->
+  <figure class="my-8 rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure9_dynamic_static_obstruction.jpg" 
+        alt="Hình 9: Cơ chế tắc nghẽn động và tĩnh trong bóc tách ĐMC (Mechanisms of Dynamic and Static Obstruction)" 
+        class="w-full max-w-sm h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 9. Các cơ chế tắc nghẽn gây thiếu máu nuôi nhánh tạng trong bóc tách ĐMC.</strong> (A) Tắc tĩnh: Bóc tách và huyết khối lan vào lòng nhánh. (B) Tắc động: Màng bóc tách ĐMC phồng đè ép che lấp lỗ xuất phát nhánh. (C) Tắc phối hợp cả động và tĩnh.
+    </figcaption>
+  </figure>
+
+  <h3 id="1-8-phan-loai-taaa-crawford">1.8. Phân loại Phình ĐMC Ngực Bụng (TAAA) theo Crawford-Safi</h3>
+  <p>
+    Khi phình ĐMC ngực xuống lan rộng qua cơ hoành vào ĐMC bụng, tổn thương được gọi là <strong>Phình ĐMC ngực bụng (Thoracoabdominal Aortic Aneurysm - TAAA)</strong>. Phân loại Crawford sửa đổi bởi Safi et al. (<strong>Hình 10</strong>) phân chia 5 mức độ lan rộng (Extent I đến Extent V), giúp tiên lượng chính xác nguy cơ biến chứng suy thận và liệt tủy sống sau mổ:
+  </p>
+  <ul>
+    <li><strong>Extent I:</strong> Bắt đầu từ dưới động mạch dưới đòn trái đến phía trên động mạch thân tạng hoặc đối diện SMA và phía trên các ĐM thận.</li>
+    <li><strong>Extent II:</strong> Bắt đầu từ dưới động mạch dưới đòn trái kéo dài liên tục qua toàn bộ ĐMC bụng đến mức chẽ đôi ĐMC chậu. Đây là thể phẫu thuật phức tạp nhất và có nguy cơ liệt tủy, suy thận cao nhất!</li>
+    <li><strong>Extent III:</strong> Bắt đầu từ khoang liên sườn 6 (dưới T6) kéo dài đến ngang mức chẽ đôi ĐMC chậu.</li>
+    <li><strong>Extent IV:</strong> Bắt đầu từ dưới T12 (ngang mức cơ hoành) kéo dài xuống hết ĐMC bụng trên chỗ phân chia ĐM chậu.</li>
+    <li><strong>Extent V (Safi bổ sung):</strong> Bắt đầu từ dưới T6 kéo dài đến ngay phía trên các động mạch thận (bảo tồn ĐMC bụng dưới thận).</li>
+  </ul>
+
+  <!-- FIGURE 10 -->
+  <figure class="my-8 rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure10_crawford_safi_taaa.jpg" 
+        alt="Hình 10: Phân loại Phình Động Mạch Chủ Ngực Bụng theo Crawford-Safi (Extent I to V)" 
+        class="w-full max-w-xl h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 10. Phân loại Phình ĐMC Ngực Bụng (TAAA) theo Crawford sửa đổi bởi Safi.</strong> Thể Extent II là thể phình toàn bộ có nguy cơ thiếu máu tủy sống (paraplegia) và suy thận cao nhất trong phẫu thuật tái tạo.
+    </figcaption>
+  </figure>
+
+  <h3 id="1-9-phan-loai-endoleaks">1.9. Phân loại Rò Nội Mạch (Endoleaks Type I – V) Sau Can Thiệp</h3>
+  <p>
+    Rò nội mạch (Endoleak) là sự tồn tại dai dẳng của dòng chảy máu bên ngoài khung stent-graft và nằm trong túi phình, làm cho túi phình không thể hình thành huyết khối hoàn toàn và tiếp tục chịu áp lực đứt vỡ. Có <strong>5 loại Endoleak</strong> chính (<strong>Hình 11</strong>):
+  </p>
+  <ul>
+    <li><strong>Type Ia / Ib (Rò vùng gắn kết):</strong> Dòng máu rò qua điểm tiếp xúc áp sát giữa stent và thành mạch ở đoạn đầu gần (Type Ia) hoặc đoạn đầu xa (Type Ib). Áp lực trong túi phình bằng áp lực hệ thống; nguy cơ vỡ cực cao, bắt buộc phải can thiệp sửa chữa ngay lập tức!</li>
+    <li><strong>Type II (Rò qua tuần hoàn bàng hệ):</strong> Dòng máu chảy ngược vào túi phình từ các nhánh mạch bên bị che phủ (phổ biến nhất là động mạch mạc treo tràng dưới - IMA, hoặc các động mạch liên sườn / thắt lưng). Là thể rò thường gặp nhất sau EVAR; thường được theo dõi sát và chỉ can thiệp nếu túi phình tăng kích thước ≥5 mm.</li>
+    <li><strong>Type III (Rò do khiếm khuyết khung ghép):</strong> Rò do rách màng ghép hoặc tuột khớp nối giữa các module khung stent. Cần can thiệp khẩn cấp.</li>
+    <li><strong>Type IV (Rò qua độ xốp của màng ghép):</strong> Máu thấm qua các lỗ vi thể của vật liệu màng graft, thường tự hết sau vài ngày khi hệ đông máu ổn định.</li>
+    <li><strong>Type V (Áp lực nội mạch không rõ rò - Endotension):</strong> Túi phình tiếp tục to ra dù không thấy dòng rò mạch máu nào trên hình ảnh CT/siêu âm, nghi ngờ do truyền áp lực thẩm thấu qua thành graft hoặc huyết khối.</li>
+  </ul>
+
+  <!-- FIGURE 11 -->
+  <figure class="my-8 rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure11_endoleak_types.jpg" 
+        alt="Hình 11: Phân loại 5 loại Rò Nội Mạch (Endoleak Types I to V)" 
+        class="w-full max-w-xl h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 11. Phân loại 5 loại Rò Nội Mạch (Endoleaks) sau can thiệp EVAR / TEVAR.</strong> Type Ia/Ib và Type III có nguy cơ vỡ cao đòi hỏi can thiệp tái sửa chữa ngay; Type II do dòng chảy ngược từ các nhánh ĐM thắt lưng/IMA đòi hỏi theo dõi kích thước túi phình.
+    </figcaption>
+  </figure>
+
+
+  <h2 id="phan-2-ky-thuat-hinh-anh">2. Kỹ thuật Chẩn đoán Hình ảnh &amp; Quy chuẩn Đo đạc Động mạch Chủ</h2>
+
+  <!-- KHUYẾN CÁO VỀ KỸ THUẬT CĐHA VÀ QUY CHUẨN ĐO ĐẠC -->
+  <div class="not-prose my-6 p-4 rounded-xl bg-slate-50 border border-slate-200">
+    <div class="font-bold text-slate-900 mb-3 text-base flex items-center gap-2">
+      <span class="px-2 py-0.5 rounded bg-blue-600 text-white text-xs">ACC/AHA Recommendations</span>
+      Khuyến cáo Kỹ thuật Chẩn đoán Hình ảnh &amp; Quy chuẩn Đo đạc ĐMC
+    </div>
+    <div class="space-y-3 text-xs sm:text-sm">
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE B-NR</span>
+        <div class="text-slate-800 leading-relaxed">
+          Ở bệnh nhân đã biết hoặc nghi ngờ có bệnh lý ĐMC, <strong>đường kính ĐMC bắt buộc phải được đo đạc tại các mốc giải phẫu có thể lặp lại và trên mặt cắt vuông góc tuyệt đối với trục dòng máu (perpendicular to blood flow axis)</strong>. Phương pháp đo phải được mô tả rõ ràng, nhất quán trong bản tường trình. Trường hợp lòng mạch không đối xứng hoặc hình bầu dục (oval), phải báo cáo cả <strong>đường kính dài nhất và đường kính vuông góc</strong> với nó.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-LD</span>
+        <div class="text-slate-800 leading-relaxed">
+          Liều chiếu xạ ion hóa từng đợt và tích lũy từ các lần chụp CT cần được kiểm soát ở mức thấp nhất có thể (ALARA) trong khi vẫn bảo đảm chất lượng hình ảnh chẩn đoán tối ưu.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-EO</span>
+        <div class="text-slate-800 leading-relaxed">
+          Khi thực hiện chụp CT hoặc MRI, khuyến cáo đo đường kính gốc ĐMC và ĐMC lên theo quy chuẩn <strong>từ bờ trong đến bờ trong (inner-edge to inner-edge)</strong> bằng kỹ thuật <strong>đồng bộ điện tim (ECG-gated)</strong>. Nếu có bất thường thành mạch (như mảng xơ vữa, huyết khối bám thành hoặc dày thành khu trú/aortitis/IMH), phải báo cáo thêm đường kính <strong>từ bờ ngoài đến bờ ngoài (outer-edge to outer-edge)</strong>.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-EO</span>
+        <div class="text-slate-800 leading-relaxed">
+          Đường kính gốc ĐMC phải được ghi nhận là <strong>kích thước xoang - xoang tối đa (maximum sinus-to-sinus measurement)</strong>. Khi có bất đối xứng, cần báo cáo nhiều số đo trên cả trục ngắn và trục dài để tránh đánh giá thấp đường kính thực tế.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-amber-50/80 border border-amber-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-amber-600 text-white shrink-0">COR 2a</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-LD</span>
+        <div class="text-slate-800 leading-relaxed">
+          Ở bệnh nhân có gốc ĐMC hoặc ĐMC lên bị dãn, việc <strong>chỉ số hóa kích thước ĐMC theo chiều cao hoặc diện tích bề mặt cơ thể (BSA)</strong> trong bản kết quả là hoàn toàn hợp lý để hỗ trợ phân tầng nguy cơ lâm sàng.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-amber-50/80 border border-amber-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-amber-600 text-white shrink-0">COR 2a</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-EO</span>
+        <div class="text-slate-800 leading-relaxed">
+          Khi làm Siêu âm tim (TTE/TEE), đo đạc ĐMC theo quy chuẩn <strong>từ bờ trước đến bờ trước (leading-edge to leading-edge)</strong>, vuông góc với trục dòng máu (ở thì cuối tâm trương) là chuẩn mực kinh điển có giá trị đối chiếu dịch tễ cao.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-orange-50/80 border border-orange-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-orange-600 text-white shrink-0">COR 2b</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-EO</span>
+        <div class="text-slate-800 leading-relaxed">
+          Việc áp dụng phương pháp đo bờ trong - bờ trong trên siêu âm tim cũng có thể được xem xét, đặc biệt trên hình ảnh trục ngắn để tương thích với CT/MRI.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h3 id="2-1-quy-chuan-do-dac">2.1. Phân tích Chi tiết Kỹ thuật Đo đạc ĐMC Đa phương thức</h3>
+  <p>
+    Việc đo đạc chính xác và có thể tái lập (reproducible) là điều kiện sống còn để định hướng quyết định phẫu thuật và theo dõi tiến triển kích thước ĐMC theo thời gian. Sự sai lệch chỉ 2–3 mm có thể thay đổi toàn bộ chỉ định từ theo dõi bảo tồn sang đại phẫu tim mở!
+  </p>
+
+  <!-- FIGURE 12 -->
+  <figure class="my-8 rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure12_imaging_techniques_measurements.jpg" 
+        alt="Hình 12: Các kỹ thuật đo đạc Động mạch chủ trên Siêu âm tim, CT và MRI" 
+        class="w-full max-w-xl h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 12. Sơ đồ các quy chuẩn đo đạc ĐMC trên Siêu âm tim, CT và MRI.</strong> (A) Kỹ thuật Bờ trước - bờ trước (Leading-edge to leading-edge) trên Siêu âm tim tại gốc ĐMC, STJ và ĐMC lên đoạn gần. (B) Kỹ thuật Bờ trong - bờ trong (Inner-wall to inner-wall) trên CT/MRI: Đo từ Xoang đến Xoang (Sinus-to-sinus) cho kích thước lớn hơn và tương quan chuẩn với siêu âm tim so với đo Xoang đến Mép van (Sinus-to-commissure). (C) Các vị trí giải phẫu đo chuẩn trên CT và MRI.
+    </figcaption>
+  </figure>
+
+  <!-- FIGURE 13 -->
+  <figure class="my-8 rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure13_ct_orthogonal_sinuses.jpg" 
+        alt="Hình 13: Hình ảnh CT tái tạo vuông góc với gốc ĐMC ngang mức các xoang Valsalva" 
+        class="w-full max-w-md h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 13. Hình ảnh CT cắt lớp tái tạo đa bình diện (MPR) vuông góc tuyệt đối với gốc ĐMC ngang mức các xoang Valsalva.</strong> Minh họa rõ: Đường kính Xoang - Xoang (S-S, 58.1 mm) lớn hơn đáng kể so với đường kính Xoang - Mép van (S-C, 51.1 mm). Ngoài ra có thể đo trực tiếp Diện tích thiết diện ngang của gốc ĐMC (Area = 2442 mm²).
+    </figcaption>
+  </figure>
+
+  <p>
+    <strong>Các nguyên tắc kỹ thuật cốt lõi cần ghi nhớ:</strong>
+  </p>
+  <ul>
+    <li><strong>Tránh tuyệt đối các mặt cắt vát xiên (Oblique imaging):</strong> Tại các đoạn cong gấp khúc của quai ĐMC hoặc ĐMC ngực xuống bị vặn xoắn (tortuosity), các lát cắt ngang axial thuần túy sẽ cắt chéo qua lòng mạch, làm đường kính bị phóng đại giả tạo (overestimate). Bắt buộc phải dựng hình tái tạo đa bình diện vuông góc với đường trục trung tâm (Centerline orthogonal MPR).</li>
+    <li><strong>Kỹ thuật đồng bộ điện tim (ECG-gated CT/MRI):</strong> Chuyển động đập của tim và gốc ĐMC trong chu chuyển tim tạo ra ảnh giả rung động (motion artifact) có thể làm mờ bờ thành mạch tới vài milimet. Chụp có đồng bộ ECG giúp bộc lộ sắc nét đường bờ thành mạch ở thì cuối tâm trương, loại bỏ hoàn toàn ảnh giả đập.</li>
+    <li><strong>Sự khác biệt giữa đo Xoang - Xoang (S-S) và Xoang - Mép van (S-C):</strong> Đo S-S (từ đáy một xoang Valsalva sang đáy xoang đối diện) phản ánh kích thước tối đa của gốc ĐMC, có tương quan chặt chẽ nhất với siêu âm tim. Trong khi đó, đo S-C (từ đáy xoang sang mép van đối diện) thường nhỏ hơn từ 2 đến 7 mm. Bác sĩ chẩn đoán hình ảnh cần chỉ rõ đã đo theo phương pháp nào để các lần theo dõi định kỳ sau này có thể so sánh chính xác trên cùng một quy chuẩn.</li>
+  </ul>
+
+  <!-- BẢNG 4: 9 YẾU TỐ BẮT BUỘC TRONG BẢN TƯỜNG TRÌNH CT/MRI -->
+  <div class="not-prose my-6 overflow-x-auto">
+    <table class="w-full text-left border-collapse text-sm border border-slate-200">
+      <caption class="text-left font-bold text-slate-900 pb-2 uppercase tracking-wide">Bảng 4. Chín Yếu Tố Cốt Lõi Bắt Buộc Trong Bản Tường Trình Chẩn Đoán Hình Ảnh CT và MRI Động Mạch Chủ</caption>
+      <thead class="bg-slate-100 text-slate-900 border-b border-slate-300">
+        <tr>
+          <th class="p-3 w-16 text-center border-r border-slate-200">STT</th>
+          <th class="p-3 border-r border-slate-200">Hạng mục Bắt buộc</th>
+          <th class="p-3">Chi tiết Tiêu chuẩn Báo cáo Y khoa</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200">
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 text-center font-bold border-r border-slate-200">1</td>
+          <td class="p-3 font-semibold text-blue-950 border-r border-slate-200">Kích thước ĐMC tối đa tại từng phân đoạn</td>
+          <td class="p-3">Đo vuông góc với trục dòng chảy. Trường hợp lòng mạch oval/bất đối xứng: Ghi cả đường kính dài nhất và đường kính vuông góc. Ghi đầy đủ các mốc giải phẫu chuẩn dù kích thước bình thường.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 text-center font-bold border-r border-slate-200">2</td>
+          <td class="p-3 font-semibold text-blue-950 border-r border-slate-200">Đặc điểm bất thường thành mạch</td>
+          <td class="p-3">Mảng xơ vữa, vôi hóa, dày thành lan tỏa (nghiêm trọng do viêm aortitis), hoặc huyết khối bám thành (mural thrombus).</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 text-center font-bold border-r border-slate-200">3</td>
+          <td class="p-3 font-semibold text-blue-950 border-r border-slate-200">Tắc hẹp lòng mạch</td>
+          <td class="p-3">Vị trí, chiều dài đoạn tổn thương và mức độ hẹp lòng mạch (nhẹ, vừa, nặng, tắc hoàn toàn).</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 text-center font-bold border-r border-slate-200">4</td>
+          <td class="p-3 font-semibold text-blue-950 border-r border-slate-200">Dấu hiệu Hội chứng ĐMC cấp (AAS)</td>
+          <td class="p-3">Xác định thể bệnh: Bóc tách ĐMC (có thông thương/không thông thương), Khối máu tụ trong thành (IMH), Loét xơ vữa xuyên thấu (PAU), Rách nội mạc khu trú; phạm vi lan gần - xa (theo Zone); vị trí nghi ngờ lỗ rách vào (nếu thấy); và các biến chứng (thoát thuốc cản quang hoạt động, vỡ tự do, vỡ bọc, tràn máu trung thất/màng tim/màng phổi).</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 text-center font-bold border-r border-slate-200">5</td>
+          <td class="p-3 font-semibold text-blue-950 border-r border-slate-200">Sự lan vào các nhánh mạch tạng</td>
+          <td class="p-3">Ghi nhận bóc tách lan vào các nhánh ĐM cảnh, dưới đòn, thân tạng, SMA, ĐM thận, ĐM chậu; đánh giá dấu hiệu thiếu máu tạng (malperfusion) và tổn thương cơ quan đích.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 text-center font-bold border-r border-slate-200">6</td>
+          <td class="p-3 font-semibold text-blue-950 border-r border-slate-200">So sánh đối chiếu trực tiếp với phim cũ</td>
+          <td class="p-3">Phải đối chiếu với các lần khám trước để xác định chính xác tốc độ phát triển (mm/năm), sự thay đổi màng bóc tách, hay kích thước túi phình.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 text-center font-bold border-r border-slate-200">7</td>
+          <td class="p-3 font-semibold text-blue-950 border-r border-slate-200">Tình trạng vật liệu nhân tạo / Sửa chữa</td>
+          <td class="p-3">Vị trí và phạm vi của ống ghép phẫu thuật, stent-graft can thiệp; đánh giá biến chứng: Rò nội mạch (Endoleaks Type I-V), gãy khung stent, di lệch stent (migration), nhiễm trùng mạch ghép.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 text-center font-bold border-r border-slate-200">8</td>
+          <td class="p-3 font-semibold text-blue-950 border-r border-slate-200">Kết luận phân loại bệnh lý rõ ràng</td>
+          <td class="p-3">Xếp loại bệnh cụ thể (AAS type A/B, phình bọc, giả phình, xơ vữa, viêm mạch...).</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 text-center font-bold border-r border-slate-200">9</td>
+          <td class="p-3 font-semibold text-blue-950 border-r border-slate-200">Thông số kỹ thuật tạo ảnh &amp; Quy chuẩn đo</td>
+          <td class="p-3">Nêu rõ có đồng bộ ECG hay không, thì chụp (thì không thuốc, thì động mạch, thì muộn), mặt cắt đo (axial hay double oblique), và quy chuẩn đo (bờ trong - bờ trong hay bờ ngoài - bờ ngoài).</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- BẢNG 5: SO SÁNH HIỆU NĂNG CHẨN ĐOÁN CÁC PHƯƠNG THỨC -->
+  <div class="not-prose my-6 overflow-x-auto">
+    <table class="w-full text-left border-collapse text-sm border border-slate-200">
+      <caption class="text-left font-bold text-slate-900 pb-2 uppercase tracking-wide">Bảng 5. So Sánh Hiệu Năng Chẩn Đoán Giữa Các Phương Thức Hình Ảnh Động Mạch Chủ</caption>
+      <thead class="bg-slate-100 text-slate-900 border-b border-slate-300">
+        <tr>
+          <th class="p-3 border-r border-slate-200">Thông số / Tính năng</th>
+          <th class="p-3 text-center border-r border-slate-200">Cắt lớp vi tính (CT)</th>
+          <th class="p-3 text-center border-r border-slate-200">Cộng hưởng từ (MRI)</th>
+          <th class="p-3 text-center border-r border-slate-200">Siêu âm tim qua ngực (TTE)</th>
+          <th class="p-3 text-center border-r border-slate-200">Siêu âm qua thực quản (TEE)</th>
+          <th class="p-3 text-center">Siêu âm bụng (US)</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 text-center">
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 text-left font-semibold border-r border-slate-200">Tính sẵn có (Availability)</td>
+          <td class="p-3 text-emerald-700 font-bold border-r border-slate-200">+++ (Rất cao)</td>
+          <td class="p-3 text-amber-700 font-bold border-r border-slate-200">++ (Trung bình)</td>
+          <td class="p-3 text-emerald-700 font-bold border-r border-slate-200">+++ (Rất cao)</td>
+          <td class="p-3 text-amber-700 font-bold border-r border-slate-200">++ (Khá)</td>
+          <td class="p-3 text-emerald-700 font-bold">+++ (Rất cao)</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 text-left font-semibold border-r border-slate-200">Tính di động tại giường (Portability)</td>
+          <td class="p-3 text-slate-400 font-bold border-r border-slate-200">- (Không)</td>
+          <td class="p-3 text-slate-400 font-bold border-r border-slate-200">- (Không)</td>
+          <td class="p-3 text-emerald-700 font-bold border-r border-slate-200">+++ (Xuất sắc)</td>
+          <td class="p-3 text-emerald-700 font-bold border-r border-slate-200">+++ (Xuất sắc)</td>
+          <td class="p-3 text-emerald-700 font-bold">+++ (Xuất sắc)</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 text-left font-semibold border-r border-slate-200">Tốc độ chụp (Speed of acquisition)</td>
+          <td class="p-3 text-emerald-700 font-bold border-r border-slate-200">+++ (Vài giây)</td>
+          <td class="p-3 text-rose-700 font-bold border-r border-slate-200">+ (Chậm: 30-45p)</td>
+          <td class="p-3 text-amber-700 font-bold border-r border-slate-200">++ (Khá)</td>
+          <td class="p-3 text-amber-700 font-bold border-r border-slate-200">++ (Khá)</td>
+          <td class="p-3 text-amber-700 font-bold">++ (Khá)</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 text-left font-semibold border-r border-slate-200">Độ phân giải không gian (Spatial)</td>
+          <td class="p-3 text-emerald-700 font-bold border-r border-slate-200">+++ (Cực cao)</td>
+          <td class="p-3 text-amber-700 font-bold border-r border-slate-200">++ (Tốt)</td>
+          <td class="p-3 text-amber-700 font-bold border-r border-slate-200">++ (Khá)</td>
+          <td class="p-3 text-emerald-700 font-bold border-r border-slate-200">+++ (Rất cao)</td>
+          <td class="p-3 text-amber-700 font-bold">++ (Khá)</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 text-left font-semibold border-r border-slate-200">Độ phân giải thời gian (Temporal)</td>
+          <td class="p-3 text-rose-700 font-bold border-r border-slate-200">+ (Kém)</td>
+          <td class="p-3 text-amber-700 font-bold border-r border-slate-200">++ (Khá)</td>
+          <td class="p-3 text-emerald-700 font-bold border-r border-slate-200">+++ (Cực cao)</td>
+          <td class="p-3 text-emerald-700 font-bold border-r border-slate-200">+++ (Cực cao)</td>
+          <td class="p-3 text-emerald-700 font-bold">+++ (Cực cao)</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 text-left font-semibold border-r border-slate-200">Tập dữ liệu dựng hình 3D (3D data)</td>
+          <td class="p-3 text-emerald-700 font-bold border-r border-slate-200">+++ (Toàn diện)</td>
+          <td class="p-3 text-amber-700 font-bold border-r border-slate-200">++ (Tốt)</td>
+          <td class="p-3 text-rose-700 font-bold border-r border-slate-200">+ (Hạn chế)</td>
+          <td class="p-3 text-rose-700 font-bold border-r border-slate-200">+ (Hạn chế)</td>
+          <td class="p-3 text-rose-700 font-bold">+ (Hạn chế)</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 text-left font-semibold border-r border-slate-200">Đánh giá nhánh quai &amp; mạch máu tạng</td>
+          <td class="p-3 text-emerald-700 font-bold border-r border-slate-200">+++ (Xuất sắc)</td>
+          <td class="p-3 text-emerald-700 font-bold border-r border-slate-200">+++ (Xuất sắc)</td>
+          <td class="p-3 text-amber-700 font-bold border-r border-slate-200">++ (Đoạn gốc)</td>
+          <td class="p-3 text-rose-700 font-bold border-r border-slate-200">+ (Kém - Điểm mù khí quản)</td>
+          <td class="p-3 text-slate-400 font-bold">NA (Không áp dụng)</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 text-left font-semibold border-r border-slate-200">Đánh giá van tim &amp; Chức năng thất</td>
+          <td class="p-3 text-rose-700 font-bold border-r border-slate-200">+ (Kém)</td>
+          <td class="p-3 text-amber-700 font-bold border-r border-slate-200">++ (Định lượng dòng)</td>
+          <td class="p-3 text-emerald-700 font-bold border-r border-slate-200">+++ (Xuất sắc)</td>
+          <td class="p-3 text-emerald-700 font-bold border-r border-slate-200">+++ (Xuất sắc)</td>
+          <td class="p-3 text-slate-400 font-bold">NA (Không áp dụng)</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="text-xs text-slate-500 mt-1"><em>Ghi chú:</em> +++ Xuất sắc; ++ Tốt/Khá; + Hạn chế; - Không có sẵn; NA: Không áp dụng.</div>
+  </div>
+
+
+  <h2 id="phan-3-nhom-da-nganh">3. Nhóm Động Mạch Chủ Đa Ngành &amp; Quy Trình Quyết Định Chia Sẻ</h2>
+
+  <!-- KHUYẾN CÁO VỀ NHÓM ĐMC ĐA NGÀNH -->
+  <div class="not-prose my-6 p-4 rounded-xl bg-slate-50 border border-slate-200">
+    <div class="font-bold text-slate-900 mb-3 text-base flex items-center gap-2">
+      <span class="px-2 py-0.5 rounded bg-blue-600 text-white text-xs">ACC/AHA Recommendations</span>
+      Khuyến cáo về Nhóm Chuyên khoa ĐMC Đa Ngành (Multidisciplinary Aortic Teams)
+    </div>
+    <div class="space-y-3 text-xs sm:text-sm">
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-EO</span>
+        <div class="text-slate-800 leading-relaxed">
+          Đối với những bệnh nhân có <strong>bệnh lý ĐMC cấp tính đòi hỏi can thiệp sửa chữa khẩn cấp</strong>, phương án can thiệp thích hợp nhất nên được hội chẩn và quyết định bởi một <strong>Nhóm chuyên khoa ĐMC đa ngành</strong>.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-amber-50/80 border border-amber-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-amber-600 text-white shrink-0">COR 2a</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-LD</span>
+        <div class="text-slate-800 leading-relaxed">
+          Đối với những bệnh nhân không triệu chứng có tổn thương ĐMC lan tỏa, hoặc những người có thể hưởng lợi từ các phẫu thuật mở/can thiệp nội mạch phức tạp, hoặc bệnh nhân có nhiều bệnh lý nội khoa kết hợp đang cân nhắc can thiệp: <strong>Việc chuyển tuyến đến trung tâm có thể tích phẫu thuật lớn (thực hiện tối thiểu 30–40 ca can thiệp/phẫu thuật ĐMC mỗi năm)</strong> với các phẫu thuật viên giàu kinh nghiệm trong Nhóm ĐMC Đa ngành là hoàn toàn hợp lý nhằm tối ưu hóa kết quả điều trị.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h3 id="3-1-bang-chung-the-tich-va-tu-vong">3.1. Bằng chứng Thực nghiệm: Thể tích Phẫu thuật và Tỷ lệ Tử vong</h3>
+  <p>
+    Tương tự như mô hình "Heart Team" trong can thiệp mạch vành và van tim, chăm sóc bệnh lý ĐMC hiện đại đòi hỏi sự tập trung nguồn lực chuyên môn cao độ. Một <strong>Nhóm ĐMC Đa ngành (Multidisciplinary Aortic Team)</strong> tiêu chuẩn bao gồm: Phẫu thuật viên tim mạch lồng ngực, Phẫu thuật viên mạch máu, Bác sĩ can thiệp nội mạch, Bác sĩ chẩn đoán hình ảnh chuyên sâu về tim mạch, Bác sĩ gây mê hồi sức tim mạch có kinh nghiệm dẫn lưu dịch não tủy, và Đơn vị Hồi sức tích cực (ICU) chuyên sâu về tim mạch.
+  </p>
+
+  <!-- FIGURES 14 & 15 -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+    <figure class="rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm m-0">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure14_case_volume_mortality.jpg" 
+        alt="Hình 14: Tỷ số odds hiệu chỉnh cho tử vong phẫu thuật theo thể tích ca bệnh hàng năm của trung tâm (Hughes et al)" 
+        class="w-full h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+      <figcaption class="p-3 text-xs text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+        <strong>Hình 14. Mối liên quan giữa Thể tích phẫu thuật hàng năm của trung tâm và Tỷ số Odds (OR) tử vong phẫu thuật (Hughes et al).</strong> Phân tích &gt;13.000 ca mổ gốc ĐMC và ĐMC lên tại 741 bệnh viện Bắc Mỹ: Tỷ lệ tử vong giảm dốc đứng khi thể tích trung tâm đạt từ <strong>30–40 ca/năm</strong> trở lên (p &lt; 0.001).
+      </figcaption>
+    </figure>
+
+    <figure class="rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm m-0">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure15_predicted_risk_mortality.jpg" 
+        alt="Hình 15: Nguy cơ tử vong dự đoán và thực tế theo phân tầng thể tích trung tâm (Mori et al)" 
+        class="w-full h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+      <figcaption class="p-3 text-xs text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+        <strong>Hình 15. Nguy cơ tử vong phẫu thuật thực tế theo phân tầng thể tích trung tâm (Mori et al).</strong> Khảo sát &gt;53.000 ca mổ ĐMC ngực đoạn gần tại Hoa Kỳ: Tỷ lệ tử vong giảm rõ rệt khi thể tích trung tâm &gt;20–25 ca/năm và giảm xuống mức thấp nhất tại các trung tâm siêu lớn &gt;50 ca/năm.
+      </figcaption>
+    </figure>
+
+  <p>
+    <strong>Tác động quyết định lên Bóc tách ĐMC Type A Cấp:</strong>
+  </p>
+  <ul>
+    <li>Một nghiên cứu hồi cứu tại Anh trên 232 bệnh nhân bóc tách Type A cấp cho thấy: Tỷ lệ tử vong 30 ngày ở nhóm bệnh nhân được mổ bởi <strong>phẫu thuật viên chuyên khoa ĐMC chỉ là 10%</strong>, so với <strong>26%</strong> ở nhóm mổ bởi phẫu thuật viên không chuyên sâu (p = 0.02). Đồng thời, phẫu thuật viên chuyên sâu thực hiện các kỹ thuật phức tạp (như sửa/thay gốc ĐMC) thường xuyên hơn gấp đôi (43% vs 17.3%) với thời gian cặp ĐMC ngắn hơn đáng kể.</li>
+    <li>Nghiên cứu của <em>Umana-Pizano et al.</em> ghi nhận tỷ lệ tử vong sau mổ bóc tách Type A là <strong>14% ở phẫu thuật viên thể tích lớn</strong> so với <strong>24% ở phẫu thuật viên thể tích thấp</strong>.</li>
+    <li>Chính vì lý do này, hướng dẫn ACC/AHA 2022 nhấn mạnh: Khi bệnh nhân có kích thước ĐMC ở vùng ranh giới (borderline), tỷ lệ tử vong phẫu thuật cực thấp (dưới 2–3%) tại các trung tâm ĐMC thể tích lớn cho phép <strong>chỉ định phẫu thuật dự phòng sớm hơn một cách an toàn</strong> trước khi thảm họa bóc tách hoặc vỡ xảy ra.</li>
+  </ul>
+
+  <h3 id="3-2-quyet-dinh-chia-se">3.2. Quy trình Quyết định Chia sẻ (Shared Decision-Making)</h3>
+  <div class="not-prose my-6 p-4 rounded-xl bg-slate-50 border border-slate-200">
+    <div class="font-bold text-slate-900 mb-3 text-base flex items-center gap-2">
+      <span class="px-2 py-0.5 rounded bg-blue-600 text-white text-xs">ACC/AHA Recommendations</span>
+      Khuyến cáo về Quy trình Quyết định Chia sẻ (Shared Decision-Making)
+    </div>
+    <div class="space-y-3 text-xs sm:text-sm">
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-LD</span>
+        <div class="text-slate-800 leading-relaxed">
+          Ở bệnh nhân có bệnh lý ĐMC, <strong>quy trình quyết định chia sẻ giữa thầy thuốc và bệnh nhân/gia đình được khuyến cáo bắt buộc</strong> khi xác định ngưỡng can thiệp phù hợp, lựa chọn phương pháp mổ mở hay can thiệp nội mạch, cũng như xây dựng kế hoạch quản lý nội khoa và theo dõi hình ảnh định kỳ.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-EO</span>
+        <div class="text-slate-800 leading-relaxed">
+          Ở phụ nữ có bệnh lý ĐMC đang cân nhắc mang thai hoặc đang có thai, <strong>quyết định chia sẻ là bắt buộc</strong> khi cân nhắc các nguy cơ tim mạch của thai kỳ, ngưỡng đường kính phẫu thuật ĐMC dự phòng trước thụ thai, và phương thức chuyển dạ (sinh thường hay mổ lấy thai).
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p>
+    Quyết định chia sẻ đặc biệt quan trọng trong các tình huống lâm sàng cân bằng lợi ích - nguy cơ (clinical equipoise):
+  </p>
+  <ul>
+    <li>Bệnh nhân phình ĐMC có đường kính tiệm cận ngưỡng phẫu thuật (ví dụ: 5.0–5.4 cm ở người không có hội chứng di truyền).</li>
+    <li>Lựa chọn giữa phẫu thuật bảo tồn van ĐMC (David/VSRR) nhằm tránh dùng thuốc chống đông suốt đời vs phẫu thuật Bentall (thay van cơ học hoặc sinh học).</li>
+    <li>Lựa chọn giữa can thiệp đặt TEVAR sớm vs theo dõi nội khoa tối ưu ở bệnh nhân bóc tách Type B cấp không biến chứng nhưng có đặc điểm hình ảnh nguy cơ cao.</li>
+    <li>Lựa chọn giữa can thiệp EVAR vs Phẫu thuật mở ở bệnh nhân phình ĐMC bụng (AAA).</li>
+  </ul>
+
+
+  <h2 id="phan-4-phinh-dmc-nguc">4. Phình Động Mạch Chủ Ngực (TAA) &amp; Các Bệnh Lý ĐMC Di Truyền</h2>
+
+  <h3 id="4-1-can-nguyen-taa">4.1. Căn nguyên Phình ĐMC Ngực và Phân tầng Nguy cơ</h3>
+  <p>
+    Phình ĐMC ngực (TAA) có tần suất mắc khoảng 5–10 trường hợp trên 100.000 người-năm. Trong đó, <strong>phình gốc ĐMC và ĐMC lên chiếm khoảng 60%</strong>, phình ĐMC ngực xuống chiếm 30% và phình quai ĐMC chiếm &lt;10%.
+  </p>
+
+  <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 text-sm leading-relaxed mb-4">
+    <strong>Điểm khác biệt cốt lõi giữa ĐMC lên và ĐMC xuống:</strong>
+    <ul class="mt-2 space-y-1 mb-0">
+      <li><strong>Phình Gốc ĐMC và ĐMC lên:</strong> Xuất hiện ở độ tuổi trẻ hơn (trung bình 60–64 tuổi), chủ yếu do căn nguyên <em>bẩm sinh, di truyền (HTAD) hoặc van ĐMC 2 mảnh (BAV)</em>. Mảng xơ vữa và vôi hóa thành mạch rất hiếm gặp (chỉ 8%–9%).</li>
+      <li><strong>Phình ĐMC ngực xuống:</strong> Xuất hiện ở độ tuổi già hơn (trung bình 72 tuổi), chủ yếu liên quan chặt chẽ đến <em>xơ vữa động mạch và thoái hóa (degenerative)</em>. Tỷ lệ vôi hóa và xơ vữa thành mạch rất cao (80%–88%).</li>
+    </ul>
+  </div>
+
+  <!-- BẢNG 6: CĂN NGUYÊN TAA -->
+  <div class="not-prose my-6 overflow-x-auto">
+    <table class="w-full text-left border-collapse text-sm border border-slate-200">
+      <caption class="text-left font-bold text-slate-900 pb-2 uppercase tracking-wide">Bảng 6. Phân Loại Căn Nguyên Gây Phình Động Mạch Chủ Ngực (TAA)</caption>
+      <thead class="bg-slate-100 text-slate-900 border-b border-slate-300">
+        <tr>
+          <th class="p-3 border-r border-slate-200 w-1/3">Nhóm Căn Nguyên</th>
+          <th class="p-3">Các Bệnh Lý và Hội Chứng Cụ Thể</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200">
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-bold text-red-900 border-r border-slate-200">Bệnh ĐMC di truyền có hội chứng (Syndromic HTAD)</td>
+          <td class="p-3">Hội chứng Marfan (FBN1), Hội chứng Loeys-Dietz (TGFBR1, TGFBR2, SMAD3, TGFB2, TGFB3), Thể mạch máu của Ehlers-Danlos (vEDS - COL3A1), Hội chứng rối loạn chức năng cơ trơn, đột biến FLNA, BGN, LOX.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-bold text-orange-900 border-r border-slate-200">Bệnh ĐMC di truyền không có hội chứng (Nonsyndromic HTAD)</td>
+          <td class="p-3">Đột biến ACTA2, MYH11, PRKG1, MYLK, MAT2A, MFAP5, FOXE3, THSD4; Phình ĐMC ngực có tính chất gia đình chưa tìm thấy đột biến gen (Familial TAA).</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-bold text-blue-900 border-r border-slate-200">Dị tật bẩm sinh tim mạch</td>
+          <td class="p-3">Van động mạch chủ 2 mảnh (BAV), Hội chứng Turner, Hẹp eo động mạch chủ (CoA), Dị tật tim bẩm sinh phức tạp (Tứ chứng Fallot, Chuyển gốc động mạch, Thân chung động mạch).</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-bold text-slate-900 border-r border-slate-200">Yếu tố mắc phải &amp; Thoái hóa</td>
+          <td class="p-3">Tăng huyết áp lâu năm, Xơ vữa động mạch lan tỏa, Thoái hóa thành mạch, Di chứng bóc tách ĐMC cũ.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-bold text-purple-900 border-r border-slate-200">Viêm động mạch chủ (Aortitis)</td>
+          <td class="p-3">Viêm ĐM tế bào khổng lồ (GCA), Viêm ĐM Takayasu, Bệnh Behçet, Bệnh liên quan IgG4, Viêm mạch liên quan ANCA, Sarcoidosis.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-bold text-amber-900 border-r border-slate-200">Viêm ĐMC nhiễm trùng &amp; Chấn thương</td>
+          <td class="p-3">Nhiễm vi khuẩn (S. aureus, Salmonella, E. coli), nấm, giang mai; Di chứng chấn thương đụng dập ĐMC cũ.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- FIGURE 16 -->
+  <figure class="my-8 rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure16_taa_management_algorithm.jpg" 
+        alt="Hình 16: Lưu đồ định hướng quản lý Phình Gốc ĐMC và ĐMC lên theo căn nguyên" 
+        class="w-full max-w-2xl h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 16. Phân luồng chiến lược quản lý Phình Gốc ĐMC và ĐMC lên theo 4 nhóm căn nguyên:</strong> (1) Phình vô căn không tiền sử gia đình; (2) Có tiền sử gia đình nhưng chưa xác định đột biến gen; (3) Bệnh ĐMC di truyền đã xác định đột biến (Syndromic hoặc Nonsyndromic HTAD); (4) Van động mạch chủ 2 mảnh (BAV).
+    </figcaption>
+  </figure>
+
+  <!-- BẢNG 7: CÁC GEN VÀ HỘI CHỨNG DI TRUYỀN -->
+  <div class="not-prose my-6 overflow-x-auto">
+    <table class="w-full text-left border-collapse text-xs sm:text-sm border border-slate-200">
+      <caption class="text-left font-bold text-slate-900 pb-2 uppercase tracking-wide">Bảng 7. Các Hội Chứng và Bệnh Lý ĐMC Di Truyền Do Đột Biến Gen (HTAD)</caption>
+      <thead class="bg-slate-100 text-slate-900 border-b border-slate-300">
+        <tr>
+          <th class="p-2.5 border-r border-slate-200">Hội chứng / Tình trạng</th>
+          <th class="p-2.5 text-center font-bold border-r border-slate-200">Gen Đột Biến</th>
+          <th class="p-2.5">Đặc Điểm Lâm Sàng &amp; Tổn Thương Mạch Máu Đi Kèm</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200">
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-red-950 border-r border-slate-200">Hội chứng Marfan</td>
+          <td class="p-2.5 text-center font-bold text-red-700 border-r border-slate-200">FBN1</td>
+          <td class="p-2.5">Phình gốc ĐMC (dạng củ hành), bóc tách ĐMC, sa van 2 lá (MVP), phát triển xương dài quá mức, ngón tay dài nhện (arachnodactyly), biến dạng ngực (ức gà/ngực lõm), lệch thể thủy tinh (ectopia lentis), cận thị nặng, dãn màng cứng.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-red-950 border-r border-slate-200">Hội chứng Loeys-Dietz (LDS)</td>
+          <td class="p-2.5 text-center font-bold text-red-700 border-r border-slate-200">TGFBR1, TGFBR2, SMAD3, TGFB2, TGFB3</td>
+          <td class="p-2.5">Bệnh lý mạch máu cực kỳ hung hãn: Phình ĐMC lan tỏa, bóc tách ĐMC ở kích thước nhỏ, phình các nhánh tạng và phình mạch não; mạch máu uốn lượn vặn xoắn dữ dội (arterial tortuosity); khoảng cách hai mắt xa (hypertelorism), lưỡi gà chẻ đôi (bifid uvula), da mỏng nhìn rõ mạch máu, dính khớp sọ sớm.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-red-950 border-r border-slate-200">Ehlers-Danlos thể mạch máu (vEDS)</td>
+          <td class="p-2.5 text-center font-bold text-red-700 border-r border-slate-200">COL3A1</td>
+          <td class="p-2.5">Thành mạch cực kỳ bở và dễ vỡ; nguy cơ vỡ tự nhiên ĐMC và các động mạch vừa/nhỏ ở tuổi rất trẻ dù mạch không dãn nhiều; nguy cơ vỡ ruột tự nhiên và vỡ tử cung khi mang thai; da mỏng, vết sẹo teo, dễ bầm tím.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-slate-900 border-r border-slate-200">Hội chứng Turner</td>
+          <td class="p-2.5 text-center font-bold text-blue-700 border-r border-slate-200">45,XO hoặc thể khảm</td>
+          <td class="p-2.5">Van ĐMC 2 mảnh (15%–30%), Hẹp eo ĐMC (7%–18%), Dãn ĐMC lên (33%), bóc tách ĐMC ở tầm vóc thấp bé; cổ bạnh cánh bướm, lùn thể trạng, suy buồng trứng sớm.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-slate-900 border-r border-slate-200">Phình ĐMC di truyền không hội chứng (FTAA)</td>
+          <td class="p-2.5 text-center font-bold text-purple-700 border-r border-slate-200">ACTA2, PRKG1, MYLK, MYH11, LOX</td>
+          <td class="p-2.5">Bệnh nhân không có dấu hiệu bên ngoài cơ thể rõ rệt. Đột biến <em>ACTA2</em> gây bóc tách ĐMC type A/B, đột quỵ sớm và bệnh mạch vành sớm dạng Moyamoya; Đột biến <em>PRKG1</em> gây bóc tách ĐMC ở người rất trẻ tại kích thước ĐMC gần như bình thường; Đột biến <em>MYLK</em> gây bóc tách ĐMC ở tuổi &gt;40 với đường kính ĐMC trung vị chỉ 4.25 cm!</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 id="4-2-xet-nghiem-di-truyen">4.2. Xét nghiệm Di truyền Đa gen &amp; Sàng lọc Gia đình (Cascade Screening)</h3>
+  <!-- KHUYẾN CÁO SÀNG LỌC GEN -->
+  <div class="not-prose my-6 p-4 rounded-xl bg-slate-50 border border-slate-200">
+    <div class="font-bold text-slate-900 mb-3 text-base flex items-center gap-2">
+      <span class="px-2 py-0.5 rounded bg-blue-600 text-white text-xs">ACC/AHA Recommendations</span>
+      Khuyến cáo về Xét nghiệm Di truyền &amp; Sàng lọc Gia đình Bệnh ĐMC Ngực
+    </div>
+    <div class="space-y-3 text-xs sm:text-sm">
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE B-NR</span>
+        <div class="text-slate-800 leading-relaxed">
+          Ở bệnh nhân có phình gốc ĐMC, phình ĐMC lên hoặc bóc tách ĐMC, <strong>khai thác kỹ tiền sử gia đình qua nhiều thế hệ</strong> về bệnh lý ĐMC, đột tử không rõ nguyên nhân ở tuổi trẻ, phình mạch ngoại vi và phình mạch não được khuyến cáo bắt buộc.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE B-NR</span>
+        <div class="text-slate-800 leading-relaxed">
+          Ở bệnh nhân có phình gốc ĐMC/ĐMC lên hoặc bóc tách ĐMC kèm <strong>các yếu tố nguy cơ HTAD (Bảng 8)</strong>: Thực hiện xét nghiệm giải trình tự gen bảng đa gen (multigene panel) để xác định các biến thể gây bệnh/có khả năng gây bệnh (pathogenic/likely pathogenic variants) được khuyến cáo.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE B-NR</span>
+        <div class="text-slate-800 leading-relaxed">
+          Khi bệnh nhân đã xác định có biến thể gây bệnh HTAD: <strong>Khuyến cáo xét nghiệm di truyền theo tầng (cascade genetic testing)</strong> cho tất cả thân nhân ruột thịt thế hệ 1 có nguy cơ. Những người thân mang gen gây bệnh phải được sàng lọc hình ảnh ĐMC ngay lập tức (bằng Siêu âm tim TTE, nếu không bộc lộ rõ thì chụp CT hoặc MRI).
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE B-NR</span>
+        <div class="text-slate-800 leading-relaxed">
+          Trong gia đình có người mắc phình/bóc tách ĐMC, dù xét nghiệm gen không tìm thấy đột biến đã biết (âm tính): <strong>Vẫn bắt buộc phải sàng lọc định kỳ bằng hình ảnh học (TTE/CT/MRI) cho toàn bộ người thân trực hệ</strong> (lặp lại sau 5 năm ở người trẻ hoặc 10 năm ở người lớn tuổi).
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FIGURE 17 -->
+  <figure class="my-8 rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure17_genetic_testing_protocol.jpg" 
+        alt="Hình 17: Lưu đồ quy trình xét nghiệm di truyền và sàng lọc gia đình bệnh nhân TAD" 
+        class="w-full max-w-xl h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 17. Phác đồ tiếp cận Xét nghiệm Di truyền và Sàng lọc Hình ảnh học cho Thân nhân Bệnh nhân Bệnh ĐMC Ngực (TAD).</strong> Phân luồng tiếp cận dựa trên kiểu hình lâm sàng, tuổi khởi phát (&lt;60 tuổi), và tiền sử gia đình.
+    </figcaption>
+  </figure>
+
+  <h3 id="4-3-hoi-chung-marfan">4.3. Quản lý Hội chứng Marfan (FBN1)</h3>
+  <p>
+    Hội chứng Marfan do đột biến gen <em>FBN1</em> (fibrillin-1). Dãn gốc ĐMC và bóc tách ĐMC Type A là nguyên nhân tử vong hàng đầu nếu không được phát hiện và phẫu thuật dự phòng kịp thời.
+  </p>
+  <ul>
+    <li><strong>Theo dõi hình ảnh:</strong> Siêu âm tim TTE tại thời điểm chẩn đoán và kiểm tra lại sau 6 tháng để xác định tốc độ phát triển. Nếu ổn định, siêu âm lại hàng năm. Người trưởng thành nên chụp CT hoặc MRI ĐMC ngực ban đầu để kiểm tra các phân đoạn xa của ĐMC ngực.</li>
+    <li><strong>Điều trị nội khoa (COR 1, LOE A):</strong> Điều trị bằng <strong>thuốc chẹn thụ thể beta giao cảm (như atenolol, metoprolol, propranolol) HOẶC thuốc ức chế thụ thể angiotensin (ARB như losartan, irbesartan)</strong> ở liều dung nạp tối đa để làm giảm tốc độ dãn gốc ĐMC. Phối hợp cả chẹn beta và ARB (COR 2a) giúp giảm tốc độ dãn ĐMC mạnh hơn nữa.</li>
+    <li><strong>Chỉ định Phẫu thuật Thay Gốc ĐMC (Surgical Thresholds):</strong>
+      <ul>
+        <li><strong>Ngưỡng chuẩn (COR 1, LOE B-NR):</strong> Khi đường kính tối đa gốc ĐMC đạt <strong>≥5.0 cm</strong>.</li>
+        <li><strong>Ngưỡng can thiệp sớm (COR 2a, LOE B-NR):</strong> Khi đường kính gốc ĐMC đạt <strong>≥4.5 cm</strong> VÀ có kèm ít nhất một trong các yếu tố nguy cơ bóc tách (<strong>Bảng 10</strong>):
+          <ul>
+            <li>Tiền sử gia đình có người bị bóc tách ĐMC.</li>
+            <li>Tốc độ dãn ĐMC nhanh: Tăng <strong>≥0.3 cm/năm</strong>.</li>
+            <li>Dãn lan tỏa cả gốc ĐMC và ĐMC lên.</li>
+            <li>Động mạch đốt sống uốn lượn vặn xoắn rõ rệt (marked vertebral tortuosity index).</li>
+          </ul>
+        </li>
+        <li><strong>Chỉ số hóa (COR 2a, LOE C-LD):</strong> Khi Tỷ lệ Diện tích thiết diện ngang gốc ĐMC (cm²) / Chiều cao (m) <strong>≥ 10 cm²/m</strong>.</li>
+        <li><strong>Phẫu thuật bảo tồn van ĐMC (VSRR / David Procedure) (COR 2b, LOE C-LD):</strong> Rất được khuyến khích ở người trẻ tuổi có lá van mềm mại bình thường để tránh biến chứng dùng thuốc chống đông kháng vitamin K suốt đời.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3 id="4-4-hoi-chung-loeys-dietz">4.4. Quản lý Hội chứng Loeys-Dietz (LDS): Phân tầng Phẫu thuật theo Đột biến Gen</h3>
+  <p>
+    Hội chứng Loeys-Dietz (LDS) đặc trưng bởi tính chất mạch máu vô cùng ác tính, bóc tách ĐMC có thể xảy ra ở kích thước rất nhỏ và lan tỏa toàn bộ cây mạch máu từ đầu đến chậu. Bắt buộc phải chụp CT hoặc MRI từ đầu đến khung chậu tại thời điểm chẩn đoán ban đầu.
+  </p>
+
+  <!-- BẢNG 11: NGƯỠNG PHẪU THUẬT LOEYS-DIETZ -->
+  <div class="not-prose my-6 overflow-x-auto">
+    <table class="w-full text-left border-collapse text-xs sm:text-sm border border-slate-200">
+      <caption class="text-left font-bold text-slate-900 pb-2 uppercase tracking-wide">Bảng 11. Ngưỡng Đường Kính Phẫu thuật Dự phòng Thay Gốc ĐMC và ĐMC lên ở Hội chứng Loeys-Dietz theo Đột biến Gen</caption>
+      <thead class="bg-slate-100 text-slate-900 border-b border-slate-300">
+        <tr>
+          <th class="p-2.5 border-r border-slate-200">Nhóm Khuyến cáo (COR)</th>
+          <th class="p-2.5 text-center font-bold border-r border-slate-200">Gen Đột Biến</th>
+          <th class="p-2.5 text-center border-r border-slate-200">Có Yếu tố Nguy cơ Cao?*</th>
+          <th class="p-2.5 text-center font-bold">Ngưỡng Đường Kính ĐMC (cm)</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200">
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-emerald-800 border-r border-slate-200">COR 1 (LOE C-LD)</td>
+          <td class="p-2.5 text-center font-bold text-slate-900 border-r border-slate-200">TGFBR1</td>
+          <td class="p-2.5 text-center border-r border-slate-200">Không</td>
+          <td class="p-2.5 text-center font-bold text-red-700">≥ 4.5 cm</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-emerald-800 border-r border-slate-200">COR 1 (LOE C-LD)</td>
+          <td class="p-2.5 text-center font-bold text-slate-900 border-r border-slate-200">TGFBR2</td>
+          <td class="p-2.5 text-center border-r border-slate-200">Không</td>
+          <td class="p-2.5 text-center font-bold text-red-700">≥ 4.5 cm</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-orange-800 border-r border-slate-200">COR 2b (LOE C-EO)</td>
+          <td class="p-2.5 text-center font-bold text-slate-900 border-r border-slate-200">TGFBR1</td>
+          <td class="p-2.5 text-center font-bold text-red-700 border-r border-slate-200">Có</td>
+          <td class="p-2.5 text-center font-bold text-red-700">≥ 4.0 cm</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-amber-800 border-r border-slate-200">COR 2a (LOE C-LD)</td>
+          <td class="p-2.5 text-center font-bold text-slate-900 border-r border-slate-200">TGFBR2</td>
+          <td class="p-2.5 text-center font-bold text-red-700 border-r border-slate-200">Có</td>
+          <td class="p-2.5 text-center font-bold text-red-700">≥ 4.0 cm</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-amber-800 border-r border-slate-200">COR 2a (LOE C-EO)</td>
+          <td class="p-2.5 text-center font-bold text-slate-900 border-r border-slate-200">SMAD3</td>
+          <td class="p-2.5 text-center border-r border-slate-200">-</td>
+          <td class="p-2.5 text-center font-bold text-red-700">≥ 4.5 cm</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-orange-800 border-r border-slate-200">COR 2b (LOE C-EO)</td>
+          <td class="p-2.5 text-center font-bold text-slate-900 border-r border-slate-200">TGFB2</td>
+          <td class="p-2.5 text-center border-r border-slate-200">-</td>
+          <td class="p-2.5 text-center font-bold text-red-700">≥ 4.5 cm</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-orange-800 border-r border-slate-200">COR 2b (LOE C-EO)</td>
+          <td class="p-2.5 text-center font-bold text-slate-900 border-r border-slate-200">TGFB3</td>
+          <td class="p-2.5 text-center border-r border-slate-200">-</td>
+          <td class="p-2.5 text-center font-bold text-red-700">≥ 5.0 cm</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="text-xs text-slate-500 mt-1">
+      *<em>Yếu tố nguy cơ cao ở LDS:</em> Đột biến gen hung hãn đặc thù; Nữ giới có TGFBR2 kèm thể trạng nhỏ bé; Biểu hiện ngoài ĐMC nặng nề (dính sọ sớm, chẻ vòm hầu, lưỡi gà đôi, mạch uốn lượn nặng, sẹo rộng, da trong suốt); Tiền sử gia đình có bóc tách ĐMC ở tuổi trẻ hoặc kích thước nhỏ; Tốc độ dãn ĐMC &gt;0.3 cm/năm.
+    </div>
+  </div>
+
+  <h3 id="4-5-hoi-chung-turner">4.5. Quản lý Hội chứng Turner: Chuẩn hóa Theo dõi theo Chỉ số ASI</h3>
+  <p>
+    Khoảng 50% bệnh nhân Turner có dị tật tim mạch đi kèm: Van ĐMC 2 mảnh (15%–30%), Hẹp eo ĐMC (7%–18%), Dãn ĐMC lên (33%). Do bệnh nhân Turner có tầm vóc thấp bé đặc thù, đường kính tuyệt đối sẽ đánh giá thấp nguy cơ bóc tách. <strong>Bắt buộc phải tính Chỉ số kích thước ĐMC (ASI = Đường kính cm / BSA m²)</strong>:
+  </p>
+  <ul>
+    <li>ASI &gt; 2.0 cm/m²: Được xem là bất thường (dãn ĐMC).</li>
+    <li>ASI ≥ 2.5 cm/m²: Nguy cơ bóc tách ĐMC tăng vọt!</li>
+    <li><strong>Chỉ định phẫu thuật (COR 2a, LOE C-LD):</strong> Phẫu thuật thay gốc ĐMC/ĐMC lên được chỉ định ở bệnh nhân Turner ≥15 tuổi có <strong>ASI ≥ 2.5 cm/m² KÈM yếu tố nguy cơ bóc tách (Bảng 12: Hẹp eo ĐMC, Dãn ĐMC, Van ĐMC 2 mảnh, hoặc Tăng huyết áp)</strong>.</li>
+  </ul>
+
+  <!-- FIGURE 18 -->
+  <figure class="my-8 rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure18_turner_monitoring_protocol.jpg" 
+        alt="Hình 18: Phác đồ theo dõi ĐMC ở trẻ gái và phụ nữ mắc hội chứng Turner (Silberbach & Gravholt)" 
+        class="w-full max-w-xl h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 18. Phác đồ phân tầng nguy cơ và theo dõi ĐMC ở bệnh nhân Turner ≥15 tuổi.</strong> Phân tầng thành Nguy cơ Thấp (ASI &lt;2.0 cm/m², không CoA/BAV/HTN: Khám và làm TTE/MRI mỗi 5-10 năm); Nguy cơ Trung bình (ASI 2.0-2.3 cm/m² hoặc có CoA/BAV/HTN kèm ASI ≤2.3 cm/m²: Theo dõi mỗi 1-3 năm); Nguy cơ Cao (ASI &gt;2.3 cm/m²: Theo dõi mỗi 6-12 tháng và cân nhắc phẫu thuật khi ASI ≥2.5 cm/m²).
+    </figcaption>
+  </figure>
+
+  <h3 id="4-6-van-dmc-hai-manh">4.6. Bệnh Động Mạch Chủ liên quan Van ĐMC Hai Mảnh (BAV Aortopathy)</h3>
+  <p>
+    Van động mạch chủ 2 mảnh (Bicuspid Aortic Valve - BAV) là dị tật tim bẩm sinh phổ biến nhất (chiếm 1%–2% dân số, ưu thế nam:nữ = 3:1). Bệnh nhân BAV có tỷ lệ dãn hoặc phình ĐMC lên tới 20%–84%.
+  </p>
+
+  <!-- KHUYẾN CÁO BAV -->
+  <div class="not-prose my-6 p-4 rounded-xl bg-slate-50 border border-slate-200">
+    <div class="font-bold text-slate-900 mb-3 text-base flex items-center gap-2">
+      <span class="px-2 py-0.5 rounded bg-blue-600 text-white text-xs">ACC/AHA Recommendations</span>
+      Khuyến cáo Quản lý Phình ĐMC ở Bệnh nhân Van ĐMC Hai Mảnh (BAV)
+    </div>
+    <div class="space-y-3 text-xs sm:text-sm">
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE B-NR</span>
+        <div class="text-slate-800 leading-relaxed">
+          Ở bệnh nhân BAV có đường kính gốc ĐMC, ĐMC lên hoặc cả hai <strong>≥ 5.5 cm</strong>: Phẫu thuật thay thế đoạn ĐMC phình được khuyến cáo chỉ định.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-amber-50/80 border border-amber-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-amber-600 text-white shrink-0">COR 2a</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE B-NR</span>
+        <div class="text-slate-800 leading-relaxed">
+          Ở bệnh nhân BAV có tỷ lệ diện tích thiết diện ĐMC / Chiều cao <strong>≥ 10 cm²/m</strong>: Phẫu thuật thay gốc ĐMC/ĐMC lên là hợp lý khi thực hiện bởi phẫu thuật viên giàu kinh nghiệm trong Nhóm ĐMC Đa ngành.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-amber-50/80 border border-amber-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-amber-600 text-white shrink-0">COR 2a</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE B-NR</span>
+        <div class="text-slate-800 leading-relaxed">
+          Ở bệnh nhân BAV có đường kính ĐMC từ <strong>5.0 cm đến 5.4 cm KÈM yếu tố nguy cơ bóc tách (Bảng 14: Tiền sử gia đình có bóc tách ĐMC, tốc độ tăng ≥0.3 cm/năm, hẹp eo ĐMC, hoặc kiểu hình gốc ĐMC dãn ưu thế)</strong>: Phẫu thuật thay ĐMC là hợp lý tại trung tâm chuyên sâu.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-amber-50/80 border border-amber-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-amber-600 text-white shrink-0">COR 2a</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE B-NR</span>
+        <div class="text-slate-800 leading-relaxed">
+          Ở bệnh nhân BAV đang có chỉ định phẫu thuật thay van hoặc sửa van ĐMC (do hẹp hoặc hở van nặng): Nếu đường kính ĐMC lên hoặc gốc ĐMC <strong>≥ 4.5 cm</strong>, <strong>khuyến cáo thực hiện đồng thời phẫu thuật thay thế đoạn ĐMC phình</strong> trong cùng một cuộc mổ.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-LD</span>
+        <div class="text-slate-800 leading-relaxed">
+          Ở bệnh nhân BAV có dãn gốc ĐMC hoặc ĐMC lên: <strong>Khuyến cáo siêu âm tim TTE sàng lọc cho toàn bộ người thân trực hệ thế hệ 1</strong> (cha mẹ, anh chị em ruột, con cái) để phát hiện BAV tiềm ẩn và dãn ĐMC.
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <h2 id="phan-5-phinh-dmc-bung-va-phau-thuat-goc-dmc">5. Phình Động Mạch Chủ Bụng (AAA) &amp; Phẫu Thuật Phình Gốc ĐMC Vô Căn</h2>
+
+  <h3 id="5-1-sang-loc-aaa">5.1. Sàng lọc Siêu âm &amp; Yếu tố Nguy cơ Phình ĐMC Bụng (AAA)</h3>
+  <p>
+    Phình ĐMC bụng (Abdominal Aortic Aneurysm - AAA) được định nghĩa trên siêu âm hoặc CT khi <strong>đường kính ngoài - ngoài &gt; 3.0 cm</strong>. Nguy cơ trọn đời mắc AAA là 8.2% ở nam giới và lên đến 10.5% ở người hút thuốc lá. Ít nhất 10%–25% bệnh nhân AAA có người thân cùng mắc bệnh, đặc biệt anh em trai của bệnh nhân có tỷ lệ mắc lên đến 32%!
+  </p>
+
+  <!-- BẢNG 15: YẾU TỐ NGUY CƠ AAA -->
+  <div class="not-prose my-6 overflow-x-auto">
+    <table class="w-full text-left border-collapse text-sm border border-slate-200">
+      <caption class="text-left font-bold text-slate-900 pb-2 uppercase tracking-wide">Bảng 15. Các Yếu Tố Nguy Cơ Của Phình Động Mạch Chủ Bụng (AAA)</caption>
+      <thead class="bg-slate-100 text-slate-900 border-b border-slate-300">
+        <tr>
+          <th class="p-3 border-r border-slate-200 w-1/2 bg-red-50 text-red-950 font-bold">Yếu Tố Nguy Cơ Mạnh (Strong Risk Factors)</th>
+          <th class="p-3 bg-slate-100 text-slate-900 font-bold">Yếu Tố Nguy Cơ Phụ Thêm (Additional Risk Factors)</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200">
+        <tr>
+          <td class="p-3 border-r border-slate-200 align-top">
+            <ul class="list-disc pl-5 space-y-1 mb-0 text-slate-800">
+              <li><strong>Tiền sử hút thuốc lá</strong> (được tính từ ≥100 điếu trong đời, nguy cơ tăng theo số gói-năm).</li>
+              <li><strong>Tuổi cao</strong> (nguy cơ tăng vọt sau 65 tuổi).</li>
+              <li><strong>Giới tính nam</strong> (tỷ lệ mắc nam:nữ từ 4:1 đến 6:1).</li>
+              <li><strong>Tiền sử gia đình</strong> có người thân mắc phình ĐMC bụng.</li>
+            </ul>
+          </td>
+          <td class="p-3 align-top">
+            <ul class="list-disc pl-5 space-y-1 mb-0 text-slate-800">
+              <li>Tăng huyết áp.</li>
+              <li>Rối loạn lipid máu (tăng cholesterol, LDL).</li>
+              <li>Chủng tộc da trắng (White race).</li>
+              <li>Bệnh mô liên kết mạch máu di truyền.</li>
+              <li>Bệnh lý tim mạch xơ vữa (ASCVD: bệnh mạch vành, bệnh mạch máu ngoại vi).</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- FIGURE 19 -->
+  <figure class="my-8 rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure19_aaa_screening_algorithm.jpg" 
+        alt="Hình 19: Lưu đồ chỉ định sàng lọc siêu âm phát hiện phình ĐMC bụng (AAA)" 
+        class="w-full max-w-xl h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 19. Lưu đồ Khuyến cáo Sàng lọc Siêu âm phát hiện AAA theo độ tuổi, giới tính và yếu tố nguy cơ.</strong> Phân luồng chỉ định rõ cho nam giới ≥65 tuổi từng hút thuốc (COR 1), người thân thế hệ 1 của bệnh nhân AAA (COR 1), nữ giới ≥65 tuổi từng hút thuốc (COR 2a), và người &gt;75 tuổi đã siêu âm âm tính trước đó (COR 3: Không có lợi).
+    </figcaption>
+  </figure>
+
+  <h3 id="5-2-tan-suat-theo-doi-aaa">5.2. Tần suất Theo dõi Hình ảnh học Phình ĐMC Bụng (AAA Surveillance)</h3>
+  <p>
+    Tốc độ phát triển của AAA không cố định mà tăng dần theo kích thước (trung bình 2.6 mm/năm ở túi phình &lt;5.0 cm và có thể lên tới &gt;5 mm/năm ở túi phình lớn).
+  </p>
+
+  <!-- FIGURE 20 -->
+  <figure class="my-8 rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure20_aaa_surveillance_frequency.jpg" 
+        alt="Hình 20: Tần suất theo dõi hình ảnh học phình ĐMC bụng theo kích thước hiện tại" 
+        class="w-full max-w-lg h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 20. Phác đồ chuẩn hóa Khoảng thời gian theo dõi Siêu âm ĐMC bụng theo đường kính hiện tại (COR 1, LOE B-NR):</strong>
+      <br/>• <strong>3.0 – 3.9 cm:</strong> Siêu âm kiểm tra mỗi <strong>3 năm</strong>.
+      <br/>• <strong>4.0 – 4.9 cm ở Nam / 4.0 – 4.4 cm ở Nữ:</strong> Siêu âm kiểm tra <strong>hàng năm (mỗi 12 tháng)</strong>.
+      <br/>• <strong>≥5.0 cm ở Nam / ≥4.5 cm ở Nữ:</strong> Siêu âm kiểm tra <strong>mỗi 6 tháng</strong> (để chuẩn bị thời điểm can thiệp).
+    </figcaption>
+  </figure>
+
+  <h3 id="5-3-dieu-tri-noi-khoa-aaa-taa">5.3. Điều trị Nội khoa Tối ưu cho Bệnh nhân Phình ĐMC</h3>
+  <div class="space-y-3 text-sm text-slate-800 my-4">
+    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+      <h4 class="font-bold text-slate-900 mb-2 flex items-center gap-2">
+        <span class="px-2 py-0.5 rounded bg-emerald-600 text-white text-xs">COR 1, LOE B-NR</span>
+        1. Kiểm soát Huyết áp nghiêm ngặt (Blood Pressure Management)
+      </h4>
+      <p class="leading-relaxed mb-1">
+        Ở bệnh nhân có TAA hoặc AAA, huyết áp trung bình phải được kiểm soát đạt <strong>Huyết áp tâm thu (SBP) &lt; 130 mmHg và Huyết áp tâm trương (DBP) &lt; 80 mmHg</strong> để làm giảm nguy cơ biến cố tim mạch và giảm lực xé thành mạch.
+      </p>
+      <p class="text-xs text-slate-600 mb-0">
+        Ở bệnh nhân dung nạp tốt và không có chống chỉ định, việc hạ tích cực hơn xuống <strong>SBP &lt; 120 mmHg</strong> (dựa trên thử nghiệm SPRINT) mang lại lợi ích giảm thêm 25% biến cố tim mạch và 27% tử vong toàn bộ. Thuốc <strong>Chẹn thụ thể Beta</strong> (như metoprolol, atenolol) là lựa chọn đầu tay hợp lý, có thể phối hợp thêm <strong>Ức chế thụ thể ARB</strong> (COR 2a).
+      </p>
+    </div>
+
+    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+      <h4 class="font-bold text-slate-900 mb-2 flex items-center gap-2">
+        <span class="px-2 py-0.5 rounded bg-emerald-600 text-white text-xs">COR 1 / 2a, LOE B-NR</span>
+        2. Liệu pháp Statin liều cao hoặc trung bình (Statin Therapy)
+      </h4>
+      <p class="leading-relaxed mb-0">
+        Khuyến cáo chỉ định <strong>Statin cường độ cao (đích giảm &gt;50% LDL-C)</strong> hoặc trung bình cho tất cả bệnh nhân phình ĐMC có bằng chứng lâm sàng hoặc hình ảnh học của xơ vữa mạch máu (mảng xơ vữa, loét xơ vữa PAU, hoặc bệnh mạch vành/ngoại vi kết hợp). Dữ liệu từ các sổ bộ EUROSTAR và Đan Mạch cho thấy dùng Statin trước mổ giúp giảm tỷ lệ tử vong 30 ngày và cải thiện rõ rệt sống sót 5 năm sau can thiệp phình ĐMC.
+      </p>
+    </div>
+
+    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+      <h4 class="font-bold text-slate-900 mb-2 flex items-center gap-2">
+        <span class="px-2 py-0.5 rounded bg-emerald-600 text-white text-xs">COR 1, LOE C-LD</span>
+        3. Cai thuốc lá tuyệt đối (Smoking Cessation)
+      </h4>
+      <p class="leading-relaxed mb-0">
+        Hút thuốc lá là yếu tố nguy cơ có thể thay đổi mạnh nhất làm tăng tốc độ dãn phình và kích hoạt đứt vỡ ĐMC. Khuyến cáo thực hiện chiến lược 5 chữ A (Ask, Advise, Assess, Assist, Arrange) phối hợp các thuốc hỗ trợ (nicotine thay thế, bupropion, varenicline). <em>Lưu ý:</em> Thuốc lá điện tử (e-cigarettes) chưa được chứng minh an toàn ở bệnh nhân có bệnh lý mạch máu.
+      </p>
+    </div>
+  </div>
+
+  <h3 id="5-4-phau-thuat-phinh-goc-dmc-vo-can">5.4. Chỉ định Phẫu thuật Phình Gốc ĐMC &amp; ĐMC Lên Thể Vô Căn (Sporadic TAA)</h3>
+  <!-- KHUYẾN CÁO PHẪU THUẬT TAA VÔ CĂN -->
+  <div class="not-prose my-6 p-4 rounded-xl bg-slate-50 border border-slate-200">
+    <div class="font-bold text-slate-900 mb-3 text-base flex items-center gap-2">
+      <span class="px-2 py-0.5 rounded bg-blue-600 text-white text-xs">ACC/AHA Recommendations</span>
+      Khuyến cáo Phẫu thuật Sửa chữa Phình Gốc ĐMC &amp; ĐMC Lên Thể Vô Căn
+    </div>
+    <div class="space-y-3 text-xs sm:text-sm">
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-LD</span>
+        <div class="text-slate-800 leading-relaxed">
+          Ở bệnh nhân có phình gốc ĐMC hoặc ĐMC lên <strong>có triệu chứng lâm sàng quy kết cho túi phình</strong> (đau ngực, đau lưng do chèn ép hoặc dãn nhanh): Phẫu thuật được chỉ định khẩn cấp.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE B-NR</span>
+        <div class="text-slate-800 leading-relaxed">
+          Ở bệnh nhân không triệu chứng có đường kính tối đa của gốc ĐMC hoặc ĐMC lên <strong>≥ 5.5 cm</strong>: Phẫu thuật thay thế đoạn phình được chỉ định bắt buộc.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-LD</span>
+        <div class="text-slate-800 leading-relaxed">
+          Ở bệnh nhân có túi phình &lt;5.5 cm nhưng <strong>tốc độ phát triển nhanh</strong> (được xác nhận trên CT/MRI là tăng <strong>≥0.5 cm trong 1 năm</strong> hoặc <strong>≥0.3 cm/năm trong 2 năm liên tiếp</strong>): Phẫu thuật được chỉ định.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-amber-50/80 border border-amber-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-amber-600 text-white shrink-0">COR 2a</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE B-NR</span>
+        <div class="text-slate-800 leading-relaxed">
+          <strong>ĐIỂM MỚI BƯỚC NGOẶT:</strong> Ở bệnh nhân không triệu chứng có đường kính tối đa gốc ĐMC hoặc ĐMC lên <strong>≥ 5.0 cm</strong>, phẫu thuật chủ động là hợp lý khi được thực hiện bởi <strong>phẫu thuật viên giàu kinh nghiệm trong Nhóm ĐMC Đa ngành</strong> tại trung tâm có tỷ lệ tử vong mổ phiên thấp (&lt;2%).
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-amber-50/80 border border-amber-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-amber-600 text-white shrink-0">COR 2a</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE B-NR</span>
+        <div class="text-slate-800 leading-relaxed">
+          Ở bệnh nhân đang phẫu thuật sửa hoặc thay van ĐMC (van 3 mảnh): Nếu đường kính ĐMC lên đi kèm <strong>≥ 4.5 cm</strong> (thực hiện bởi trung tâm đa ngành) hoặc <strong>≥ 5.0 cm</strong>: Khuyến cáo thay thế đồng thời đoạn ĐMC lên.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-amber-50/80 border border-amber-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-amber-600 text-white shrink-0">COR 2a</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-LD</span>
+        <div class="text-slate-800 leading-relaxed">
+          Ở bệnh nhân có chiều cao lệch &gt;1 độ lệch chuẩn so với trung bình: Phẫu thuật là hợp lý khi <strong>Tỷ lệ Diện tích thiết diện ĐMC / Chiều cao ≥ 10 cm²/m</strong>.
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <h2 id="phan-6-phinh-doan-xa-va-can-thiep-phuc-tap">6. Phình Quai ĐMC, ĐMC Ngực Xuống, Ngực Bụng (TAAA) &amp; Phình ĐMC Bụng (AAA)</h2>
+
+  <h3 id="6-1-phinh-quai-dmc">6.1. Phình Quai Động Mạch Chủ (Aortic Arch Aneurysms)</h3>
+  <p>
+    Phình quai ĐMC đơn độc chiếm &lt;10% các trường hợp TAA, đa số bắt nguồn từ hậu quả của bóc tách ĐMC cấp hoặc mạn tính trước đó. Do nằm sát các cấu trúc trung thất quan trọng, phình quai ĐMC có thể gây triệu chứng chèn ép sớm trước khi đạt ngưỡng kích thước phẫu thuật:
+  </p>
+  <ul>
+    <li><strong>Hội chứng Ortner (Khàn tiếng đơn độc):</strong> Do túi phình chèn ép hoặc kéo căng dây thần kinh thanh quản quặt ngược trái.</li>
+    <li><strong>Khó nuốt do ĐMC (Dysphagia Aortica):</strong> Chèn ép thực quản từ ngoài bởi túi phình dạng túi hoặc hình thoi.</li>
+    <li><strong>Khó thở và Hội chứng tĩnh mạch chủ trên:</strong> Do chèn ép khí quản hoặc tĩnh mạch vô danh / SVC.</li>
+  </ul>
+
+  <!-- KHUYẾN CÁO QUAI ĐMC -->
+  <div class="not-prose my-4 p-4 rounded-xl bg-slate-50 border border-slate-200">
+    <div class="font-bold text-slate-900 mb-2 text-sm flex items-center gap-2">
+      <span class="px-2 py-0.5 rounded bg-blue-600 text-white text-xs">Khuyến cáo Quai ĐMC</span>
+    </div>
+    <div class="space-y-2 text-xs sm:text-sm">
+      <div class="p-2.5 rounded bg-emerald-50 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-EO</span>
+        <div>Phẫu thuật mở thay quai ĐMC được khuyến cáo ở bệnh nhân có triệu chứng chèn ép quy kết cho túi phình và có nguy cơ phẫu thuật thấp hoặc trung bình.</div>
+      </div>
+      <div class="p-2.5 rounded bg-amber-50 border border-amber-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-amber-600 text-white shrink-0">COR 2a</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE B-NR</span>
+        <div>Ở bệnh nhân phình quai ĐMC đơn độc không triệu chứng, phẫu thuật mở thay thế là hợp lý khi đường kính quai ĐMC <strong>≥ 5.5 cm</strong>.</div>
+      </div>
+      <div class="p-2.5 rounded bg-amber-50 border border-amber-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-amber-600 text-white shrink-0">COR 2a</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-LD</span>
+        <div>Khi phẫu thuật phình ĐMC lên lan vào quai ĐMC gần: Mở rộng phẫu thuật thay nửa quai (Hemiarch replacement) là hợp lý.</div>
+      </div>
+      <div class="p-2.5 rounded bg-orange-50 border border-orange-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-orange-600 text-white shrink-0">COR 2b</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-LD</span>
+        <div>Nếu phình lan vào ĐMC ngực xuống đoạn gần: Cân nhắc kỹ thuật vòi voi kinh điển (Elephant trunk) hoặc vòi voi đông lạnh (Frozen Elephant Trunk - FET).</div>
+      </div>
+    </div>
+  </div>
+
+  <h3 id="6-2-phinh-dmc-nguc-xuong">6.2. Phình ĐMC Ngực Xuống &amp; Vai trò Ưu tiên của TEVAR</h3>
+  <p>
+    Tỷ lệ biến cố tử vong hoặc vỡ phình ĐMC ngực xuống tăng vọt theo kích thước (<strong>Bảng 16</strong>): 5.5% ở mức 5.0 cm, 7.2% ở mức 5.5 cm, 9.3% ở mức 6.0 cm và 15.4% ở mức 7.0 cm.
+  </p>
+
+  <!-- BẢNG 16: TỶ LỆ BIẾN CỐ ĐMC NGỰC XUỐNG -->
+  <div class="not-prose my-6 overflow-x-auto">
+    <table class="w-full text-left border-collapse text-sm border border-slate-200">
+      <caption class="text-left font-bold text-slate-900 pb-2 uppercase tracking-wide">Bảng 16. Tỷ Lệ Biến Cố ĐMC Sau 1 Năm Theo Đường Kính Nền ở Bệnh Nhân Phình ĐMC Ngực Xuống (Kim JB et al)</caption>
+      <thead class="bg-slate-100 text-slate-900 border-b border-slate-300">
+        <tr>
+          <th class="p-3 border-r border-slate-200">Đường Kính ĐMC (cm)</th>
+          <th class="p-3 text-center border-r border-slate-200 text-red-700 font-bold">Biến Cố Chắc Chắn* (%)</th>
+          <th class="p-3 text-center font-bold">Biến Cố Có Thể Xảy Ra† (%)</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200">
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-semibold border-r border-slate-200">5.0 cm</td>
+          <td class="p-3 text-center border-r border-slate-200">5.5%</td>
+          <td class="p-3 text-center">8.0%</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-semibold border-r border-slate-200">5.5 cm</td>
+          <td class="p-3 text-center border-r border-slate-200">7.2%</td>
+          <td class="p-3 text-center">11.2%</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3 font-semibold border-r border-slate-200">6.0 cm</td>
+          <td class="p-3 text-center border-r border-slate-200">9.3%</td>
+          <td class="p-3 text-center">15.6%</td>
+        </tr>
+        <tr class="hover:bg-slate-50 bg-red-50/50">
+          <td class="p-3 font-bold text-red-900 border-r border-slate-200">7.0 cm</td>
+          <td class="p-3 text-center font-bold text-red-700 border-r border-slate-200">15.4%</td>
+          <td class="p-3 text-center font-bold text-red-700">28.1%</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="text-xs text-slate-500 mt-1"><em>*Biến cố chắc chắn:</em> Bóc tách hoặc vỡ ĐMC được xác nhận trên hình ảnh hoặc trong mổ. <em>†Biến cố có thể:</em> Gồm biến cố chắc chắn cộng với đột tử không rõ nguyên nhân.</div>
+  </div>
+
+  <div class="space-y-3 text-sm text-slate-800 my-4">
+    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+      <h4 class="font-bold text-slate-900 mb-2 flex items-center gap-2">
+        <span class="px-2 py-0.5 rounded bg-emerald-600 text-white text-xs">COR 1, LOE B-NR</span>
+        1. Chỉ định Sửa chữa Can thiệp Nội mạch TEVAR
+      </h4>
+      <p class="leading-relaxed mb-2">
+        Ở bệnh nhân phình ĐMC ngực xuống nguyên vẹn, <strong>chỉ định can thiệp sửa chữa khi đường kính đạt ≥ 5.5 cm</strong>. Cân nhắc sửa chữa ở đường kính &lt;5.5 cm khi có các yếu tố nguy cơ vỡ (Bảng 17: Tốc độ lớn ≥0.5 cm/năm, có triệu chứng, phình dạng túi saccular, phụ nữ, hoặc phình nhiễm trùng).
+      </p>
+      <p class="leading-relaxed mb-0 font-semibold text-blue-900">
+        Khuyến cáo ưu tiên chọn Can thiệp nội mạch đặt Stent-graft (TEVAR) hơn phẫu thuật mở ở những bệnh nhân không mắc Marfan/LDS/vEDS và có giải phẫu mạch máu phù hợp, nhờ giảm mạnh tỷ lệ tử vong chu phẫu và biến chứng nặng.
+      </p>
+    </div>
+
+    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+      <h4 class="font-bold text-slate-900 mb-2 flex items-center gap-2">
+        <span class="px-2 py-0.5 rounded bg-emerald-600 text-white text-xs">COR 1, LOE B-NR</span>
+        2. Tái thông Động Mạch Dưới Đòn Trái (Left Subclavian Artery - LSA)
+      </h4>
+      <p class="leading-relaxed mb-0">
+        Có tới 40% các ca TEVAR ĐMC ngực xuống cần phải đặt stent che phủ lỗ xuất phát ĐM dưới đòn trái (Zone 2) để đạt vùng dính niêm phong (sealing zone) đủ 2 cm. <strong>Khuyến cáo bắt buộc phải phẫu thuật bắc cầu tái thông ĐM dưới đòn trái trước khi đặt TEVAR</strong> (bằng cầu nối cảnh - dưới đòn trái) để phòng ngừa biến chứng nhồi máu tủy sống gây liệt 2 chi dưới (Spinal Cord Injury - SCI), giảm nguy cơ đột quỵ thiếu máu não hố sau và tránh thiếu máu hoại tử cánh tay trái.
+      </p>
+    </div>
+
+    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+      <h4 class="font-bold text-slate-900 mb-2 flex items-center gap-2">
+        <span class="px-2 py-0.5 rounded bg-amber-600 text-white text-xs">COR 2a, LOE B-NR</span>
+        3. Kiểm tra Tuần hoàn Bàng hệ Động mạch Thân Tạng
+      </h4>
+      <p class="leading-relaxed mb-0">
+        Khoảng 15% ca TEVAR cần che phủ động mạch thân tạng. Bắt buộc phải đánh giá kỹ trên CTA trước can thiệp để xác nhận có <strong>tuần hoàn bàng hệ đầy đủ giữa thân tạng và động mạch mạc treo tràng trên (SMA)</strong> thông qua cung viền tụy - tá tràng (Gastroduodenal artery) nhằm ngăn ngừa biến chứng hoại tử gan, lách và dạ dày.
+      </p>
+    </div>
+  </div>
+
+  <h3 id="6-3-phinh-dmc-nguc-bung-taaa">6.3. Phình ĐMC Ngực Bụng (TAAA) &amp; Các Biện Pháp Bảo Vệ Tủy Sống - Tạng Đích</h3>
+  <p>
+    Sửa chữa phình ĐMC ngực bụng (TAAA) là một trong những đại phẫu nặng nề nhất trong ngoại khoa tim mạch lồng ngực. Ngưỡng chỉ định can thiệp phẫu thuật mở là khi <strong>đường kính đạt ≥ 6.0 cm</strong> (COR 1, LOE B-NR), hoặc <strong>≥ 5.5 cm tại các trung tâm có Nhóm ĐMC Đa ngành chuyên sâu</strong> (COR 2a).
+  </p>
+
+  <div class="p-4 rounded-xl bg-red-50 border border-red-300 text-sm text-red-950 mb-4">
+    <div class="font-bold text-red-900 mb-1 flex items-center gap-2">
+      <span>⚠️</span> Biến chứng Tàn khốc: Nhồi Máu Tủy Sống &amp; Liệt 2 Chi Dưới (SCI / Paraplegia)
+    </div>
+    <p class="leading-relaxed mb-2">
+      Tần suất liệt tủy sau mổ TAAA dao động từ 2% đến 15%, đặc biệt cao ở phình Extent II. Khoảng 60% trường hợp liệt tủy là <em>liệt tủy xuất hiện muộn (delayed SCI)</em> trong vòng 2 tuần đầu sau mổ khi có các biến cố tụt huyết áp, rối loạn nhịp hoặc thiếu máu.
+    </p>
+    <div class="p-3 bg-white rounded-lg border border-red-200 text-xs">
+      <strong>Khuyến cáo Vàng về Bảo vệ Tủy sống:</strong>
+      <ul class="list-disc pl-5 mt-1 space-y-1 mb-0">
+        <li><strong>Dẫn lưu Dịch Não Tủy (Cerebrospinal Fluid Drainage - CSF) (COR 1, LOE A):</strong> Được chứng minh trong thử nghiệm lâm sàng ngẫu nhiên (RCT) giúp giảm ngoạn mục tỷ lệ liệt tủy tạm thời và vĩnh viễn ở bệnh nhân mổ TAAA Extent I &amp; II nguy cơ cao. Dẫn lưu dịch não tủy giúp làm giảm áp lực khoang dưới nhện, từ đó làm tăng áp lực tưới máu tủy sống (Áp lực tưới máu tủy = Huyết áp động mạch trung bình MAP - Áp lực dịch não tủy CSFP).</li>
+        <li><strong>Xử trí cấp cứu khi xuất hiện Liệt Tủy Muộn (Bảng 20) (COR 1, LOE B-NR):</strong> Đặt ngay catheter dẫn lưu dịch não tủy (nếu chưa có hoặc đã rút), nâng Huyết áp động mạch trung bình <strong>MAP &gt; 100 mmHg</strong>, truyền máu duy trì <strong>Hemoglobin &gt; 10 g/dL</strong>, hồi sức dịch tối ưu và sốc điện chuyển nhịp ngay nếu có loạn nhịp nhanh. Phác đồ này giúp phục hồi vận động thành công cho 57% bệnh nhân liệt muộn!</li>
+      </ul>
+    </div>
+  </div>
+
+  <p>
+    <strong>Bảo vệ Thận và Tạng Tạng (COR 1, LOE A):</strong> Trong mổ mở TAAA có liên quan đến các động mạch thận, khuyến cáo bắt buộc phải <strong>bơm rửa tưới máu thận bằng máu lạnh hoặc dung dịch tinh thể lạnh (cold crystalloid / cold blood renal perfusion)</strong> giúp giảm 3 lần tỷ lệ suy thận cấp sau mổ và giảm nhu cầu lọc máu chu phẫu.
+  </p>
+
+  <h3 id="6-4-phau-thuat-phinh-dmc-bung-aaa">6.4. Phẫu thuật và Can thiệp Sửa chữa Phình ĐMC Bụng (AAA)</h3>
+  <div class="not-prose my-6 p-4 rounded-xl bg-slate-50 border border-slate-200">
+    <div class="font-bold text-slate-900 mb-3 text-base flex items-center gap-2">
+      <span class="px-2 py-0.5 rounded bg-blue-600 text-white text-xs">ACC/AHA Recommendations</span>
+      Ngưỡng Chỉ Định Can Thiệp &amp; Chiến Lược Phẫu Thuật Phình ĐMC Bụng (AAA)
+    </div>
+    <div class="space-y-3 text-xs sm:text-sm">
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE A</span>
+        <div class="text-slate-800 leading-relaxed">
+          Ở bệnh nhân phình ĐMC bụng chưa vỡ: Khuyến cáo can thiệp sửa chữa khi <strong>đường kính tối đa ≥ 5.5 cm ở Nam giới</strong> HOẶC <strong>≥ 5.0 cm ở Nữ giới</strong> (phụ nữ có nguy cơ vỡ cao hơn ở kích thước nhỏ hơn).
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE B-NR</span>
+        <div class="text-slate-800 leading-relaxed">
+          Ở bệnh nhân AAA <strong>có triệu chứng lâm sàng</strong> (đau lưng, đau bụng, đau mạn sườn, ấn đau túi phình): Chỉ định can thiệp phẫu thuật khẩn cấp để ngăn chặn nguy cơ vỡ tự do.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-orange-50/80 border border-orange-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-orange-600 text-white shrink-0">COR 2b</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-LD</span>
+        <div class="text-slate-800 leading-relaxed">
+          Ở bệnh nhân có <strong>phình dạng túi (Saccular AAA)</strong> hoặc có tốc độ tăng kích thước nhanh <strong>≥ 0.5 cm trong 6 tháng</strong>: Can thiệp sửa chữa là hợp lý bất kể đường kính tuyệt đối chưa đạt 5.5 cm.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE A</span>
+        <div class="text-slate-800 leading-relaxed">
+          <strong>Lựa chọn phương pháp (EVAR vs Mổ mở):</strong> Ở bệnh nhân có nguy cơ phẫu thuật từ thấp đến trung bình và có giải phẫu phù hợp cho cả 2 phương pháp, khuyến cáo tiến hành <strong>Quy trình quyết định chia sẻ</strong> cân nhắc giữa ưu điểm xâm lấn tối thiểu ban đầu của EVAR vs tính bền vững dài hạn ít phải can thiệp lại của mổ mở.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE B-R</span>
+        <div class="text-slate-800 leading-relaxed">
+          <strong>Xử trí Phình ĐMC Bụng Vỡ (Ruptured AAA - rAAA):</strong>
+          <ul class="list-disc pl-5 mt-1 space-y-1 mb-0">
+            <li>Nếu bệnh nhân huyết động ổn định: Chụp ngay CTA để đánh giá khả năng can thiệp nội mạch (COR 1).</li>
+            <li>Nếu giải phẫu phù hợp: <strong>Khuyến cáo can thiệp nội mạch (rEVAR) hơn mổ mở</strong> nhằm giảm tỷ lệ tử vong chu phẫu và biến chứng nặng (COR 1, LOE B-R).</li>
+            <li>Ưu tiên gây tê tại chỗ hơn gây mê toàn thân trong can thiệp rEVAR để tránh sập tuần hoàn do mất phản xạ catecholamine tự nhiên (COR 2a, LOE B-NR).</li>
+            <li>Duy trì <strong>Hạ huyết áp có kiểm soát (Permissive hypotension) với SBP từ 60–90 mmHg</strong> (đủ duy trì tri giác) nhằm hạn chế mất máu dữ dội trước khi kiểm soát được vị trí vỡ (COR 2a, LOE C-LD).</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE B-NR</span>
+        <div class="text-slate-800 leading-relaxed">
+          <strong>Phình kèm Động mạch Chậu chung (CIA):</strong> Khi có kèm phình ĐM chậu chung <strong>≥ 3.5 cm</strong>, khuyến cáo sửa chữa đồng thời cả ĐMC bụng và ĐM chậu. Bắt buộc phải <strong>bảo tồn tối thiểu một động mạch chậu trong (ĐM hạ vị)</strong> nếu giải phẫu cho phép để ngăn ngừa biến chứng thiếu máu vùng chậu (khập khiễng cách hồi vùng mông, hoại tử ruột, rối loạn cương dương).
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <h2 id="phan-7-hoi-chung-dmc-cap">7. Hội chứng Động Mạch Chủ Cấp (AAS) &amp; Tổn Thương Do Chấn Thương</h2>
+
+  <h3 id="7-1-lam-sang-va-tam-soat">7.1. Bệnh Cảnh Lâm Sàng &amp; Chiến Lược Phân Tầng Chẩn Đoán Cấp Cứu</h3>
+  <p>
+    Hội chứng ĐMC cấp (AAS) là một cấp cứu nội - ngoại khoa tối khẩn cấp với tỷ lệ tử vong tăng từ <strong>1% đến 2% mỗi giờ</strong> trong những ngày đầu nếu không được chẩn đoán và xử trí đúng đắn.
+  </p>
+
+  <div class="p-4 rounded-xl bg-amber-50 border border-amber-200 text-sm leading-relaxed mb-4">
+    <strong>Bẫy lâm sàng thường gặp:</strong> Cơn đau kinh điển được mô tả trong y văn là đau <em>"xé rách" (ripping, tearing)</em>, nhưng trên thực tế đa số bệnh nhân lại mô tả cơn đau ngực hoặc đau lưng khởi phát <strong>đột ngột, dữ dội ngay từ giây đầu tiên (maximal at onset), tính chất "nhói buốt" hoặc "dao đâm" (sharp, stabbing)</strong>. Cơn đau thường di chuyển lan dọc theo hướng tiến triển của bóc tách.
+  </div>
+
+  <!-- BẢNG 22: DẤU HIỆU LÂM SÀNG AAS -->
+  <div class="not-prose my-6 overflow-x-auto">
+    <table class="w-full text-left border-collapse text-xs sm:text-sm border border-slate-200">
+      <caption class="text-left font-bold text-slate-900 pb-2 uppercase tracking-wide">Bảng 22. Các Dấu Hiệu Lâm Sàng Thường Gặp Của AAS và Cơ Chế Bệnh Sinh Đi Kèm</caption>
+      <thead class="bg-slate-100 text-slate-900 border-b border-slate-300">
+        <tr>
+          <th class="p-2.5 border-r border-slate-200 w-1/3">Dấu hiệu &amp; Triệu chứng</th>
+          <th class="p-2.5">Cơ chế Bệnh sinh &amp; Vị trí Tổn thương ĐMC</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200">
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-red-950 border-r border-slate-200">Chênh lệch Huyết áp giữa 2 tay (&gt;20 mmHg)</td>
+          <td class="p-2.5">Tắc nghẽn hoặc đè ép dòng máu vào thân cánh tay đầu hoặc ĐM dưới đòn trái.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-red-950 border-r border-slate-200">Tiếng thổi mới xuất hiện của Hở van ĐMC</td>
+          <td class="p-2.5">Bóc tách lan vào gốc ĐMC gây sa lá van (cusp prolapse) hoặc dãn vòng van cấp tính.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-red-950 border-r border-slate-200">Nhồi máu cơ tim cấp (STEMI)</td>
+          <td class="p-2.5">Bóc tách lan vào lỗ xuất phát ĐM vành (thường gặp nhất là ĐM vành phải RCA gây nhồi máu thành dưới).</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-red-950 border-r border-slate-200">Đột quỵ não / Hôn mê</td>
+          <td class="p-2.5">Bóc tách hoặc huyết khối lan vào ĐM cảnh chung hoặc ĐM đốt sống.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-red-950 border-r border-slate-200">Sốc / Tụt huyết áp</td>
+          <td class="p-2.5">Chèn ép tim cấp (Cardiac Tamponade) do tràn máu màng ngoài tim, hở van ĐMC cấp nặng, hoặc vỡ ĐMC vào khoang màng phổi.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-slate-900 border-r border-slate-200">Liệt hai chi dưới (Paraplegia)</td>
+          <td class="p-2.5">Thiếu máu tủy sống do bít tắc các động mạch liên sườn cấp máu cho tủy ngực (ĐM Adamkiewicz).</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-slate-900 border-r border-slate-200">Đau bụng, toan lactic máu</td>
+          <td class="p-2.5">Thiếu máu mạc treo ruột do tắc nghẽn ĐM thân tạng hoặc ĐM mạc treo tràng trên (SMA).</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-slate-900 border-r border-slate-200">Thiểu niệu, suy thận cấp, tiểu máu</td>
+          <td class="p-2.5">Thiếu máu thận do bít tắc một hoặc cả hai động mạch thận.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>
+    <strong>Thang điểm Đánh giá Nguy cơ ADD-RS và Vai trò của D-Dimer (Bảng 24):</strong>
+    <br/>Để loại trừ an toàn AAS tại khoa Cấp cứu, hướng dẫn ACC/AHA 2022 khuyến cáo kết hợp <strong>Thang điểm Nguy cơ Bóc tách ĐMC (Aortic Dissection Detection Risk Score - ADD-RS)</strong> với xét nghiệm nồng độ D-dimer huyết tương:
+  </p>
+  <ul>
+    <li>Thang điểm ADD-RS (từ 0 đến 3 điểm) dựa trên 3 nhóm yếu tố: <em>(1) Tình trạng nguy cơ cao</em> (Marfan, tiền sử gia đình, bệnh van ĐMC, phình ĐMC đã biết); <em>(2) Tính chất đau nguy cơ cao</em> (khởi phát đột ngột, dữ dội, xé rách); <em>(3) Dấu hiệu thăm khám nguy cơ cao</em> (mất mạch, chênh lệch HA &gt;20 mmHg, thiếu hụt thần kinh khu trú, tiếng thổi hở chủ mới, sốc).</li>
+    <li><strong>Chiến lược loại trừ an toàn:</strong> Ở bệnh nhân có xác suất tiền nghiệm thấp (ADD-RS = 0 hoặc 1 điểm), nếu xét nghiệm <strong>D-dimer &lt; 500 ng/mL</strong> thì có thể loại trừ AAS với giá trị dự báo âm tính &gt;99%, tránh được các chỉ định chụp CT không cần thiết.</li>
+    <li><strong>Lựa chọn CĐHA:</strong> Chụp <strong>Cắt lớp vi tính mạch máu (CTA toàn bộ ĐMC từ nền cổ đến đùi)</strong> là phương thức lựa chọn hàng đầu (COR 1, LOE C-LD) nhờ tốc độ cực nhanh, tính sẵn có 24/7 và bộc lộ toàn diện toàn bộ cây mạch máu. Siêu âm qua thực quản (TEE) và MRI là lựa chọn thay thế hợp lý (COR 2a).</li>
+  </ul>
+
+  <h3 id="7-2-dieu-tri-noi-khoa-cap-cuu">7.2. Điều trị Nội khoa Cấp cứu Ban đầu (Anti-Impulse Therapy)</h3>
+  <div class="not-prose my-6 p-4 rounded-xl bg-slate-50 border border-slate-200">
+    <div class="font-bold text-slate-900 mb-3 text-base flex items-center gap-2">
+      <span class="px-2 py-0.5 rounded bg-blue-600 text-white text-xs">ACC/AHA Recommendations</span>
+      Phác đồ Điều trị Nội khoa Cấp cứu Ban đầu cho Hội chứng ĐMC Cấp
+    </div>
+    <div class="space-y-3 text-xs sm:text-sm">
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE B-NR</span>
+        <div class="text-slate-800 leading-relaxed">
+          Ở bệnh nhân nhập viện vì AAS: <strong>Khuyến cáo điều trị ngay lập tức bằng liệu pháp giảm xung lực dội (Anti-impulse therapy)</strong> kèm đặt đường theo dõi huyết áp động mạch xâm lấn liên tục (Arterial line) tại phòng Hồi sức tích cực (ICU) nhằm giảm tối đa sức căng thành ĐMC.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-LD</span>
+        <div class="text-slate-800 leading-relaxed">
+          Mục tiêu huyết động: <strong>Hạ Huyết áp tâm thu (SBP) &lt; 120 mmHg</strong> (hoặc mức huyết áp thấp nhất còn duy trì tưới máu tạng) và <strong>kiểm soát Tần số tim đạt từ 60 đến 80 nhịp/phút</strong>.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE B-NR</span>
+        <div class="text-slate-800 leading-relaxed">
+          <strong>Thuốc Chẹn thụ thể Beta đường tĩnh mạch (IV Beta Blockers như Esmolol, Labetalol, Metoprolol)</strong> là lựa chọn đầu tay bắt buộc, trừ khi có chống chỉ định (hở chủ cấp nặng, block nhĩ thất, nhịp chậm). Nếu chống chỉ định chẹn beta, dùng <strong>chẹn kênh calci non-DHP đường tĩnh mạch (Verapamil hoặc Diltiazem)</strong> để kiểm soát tần số tim (COR 2a, LOE B-NR).
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-LD</span>
+        <div class="text-slate-800 leading-relaxed">
+          <strong>QUY TẮC BẤT THÀNH VĂN:</strong> Thuốc dãn mạch đường tĩnh mạch (như Nicardipine, Clevidipine hoặc Nitroprusside) <strong>CHỈ ĐƯỢC PHÉP BẮT ĐẦU SAU KHI ĐÃ ĐẠT ĐƯỢC CHẸN BETA ĐẦY ĐỦ</strong>. Dùng thuốc dãn mạch đơn độc trước khi chẹn beta sẽ gây nhịp tim nhanh phản xạ (reflex tachycardia) và tăng tốc độ gia tăng áp lực đập (dP/dt), làm rách toạc ĐMC dữ dội hơn!
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-EO</span>
+        <div class="text-slate-800 leading-relaxed">
+          Khống chế đau tối ưu bằng thuốc giảm đau nhóm Opioid đường tĩnh mạch (như Morphine, Fentanyl) là thành phần thiết yếu để cắt đứt cơn bão giao cảm kích hoạt tăng huyết áp và nhịp tim.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h3 id="7-3-boc-tach-type-a-cap">7.3. Bóc Tách ĐMC Type A Cấp (ATAAD): Phẫu Thuật Cấp Cứu &amp; Xử Trí Thiếu Máu Nuôi Tạng</h3>
+  <p>
+    Bóc tách ĐMC Type A cấp là một thảm họa y khoa với tỷ lệ tử vong điều trị nội khoa đơn thuần lên tới 57%. <strong>Phẫu thuật cấp cứu khẩn cấp là chỉ định tuyệt đối (COR 1, LOE B-NR)</strong> nhằm loại bỏ nguy cơ vỡ tim màng ngoài tim, sửa chữa hở van ĐMC cấp và tái lập dòng máu nuôi cơ thể.
+  </p>
+
+  <p>
+    <strong>Xử trí Thiếu máu nuôi tạng (Malperfusion Syndrome) (Hình 21):</strong>
+  </p>
+  <ul>
+    <li>Khoảng 25% bệnh nhân Type A có thiếu máu tạng đi kèm (<strong>Bảng 26</strong>). Khi có thiếu máu thận, chi dưới hoặc thiếu máu mạc treo ruột không biến chứng, <strong>khuyến cáo phẫu thuật mở ĐMC lên cấp cứu ngay lập tức</strong> (COR 1, LOE B-NR) vì việc tái tạo ĐMC trung tâm sẽ mở rộng lại lòng thật và tái tưới máu thành công cho các nhánh tạng.</li>
+    <li>Trường hợp thiếu máu mạc treo ruột nặng (Mesenteric ischemia) có toan chuyển hóa nặng: Có thể chọn lựa phẫu thuật ĐMC lên trước hoặc can thiệp nội mạch tái tưới máu ruột trước (bằng mở cửa sổ nội mạch fenestration hoặc đặt stent nhánh SMA) tại phòng mổ Hybrid trước khi mổ ĐMC trung tâm (COR 2a, LOE C-LD).</li>
+  </ul>
+
+  <!-- FIGURE 21 -->
+  <figure class="my-8 rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure21_malperfusion_treatment_options.jpg" 
+        alt="Hình 21: Lưu đồ chiến lược điều trị Hội chứng Giảm tưới máu trong bóc tách ĐMC" 
+        class="w-full max-w-2xl h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 21. Lưu đồ Hướng dẫn Xử trí Giảm tưới máu Tạng (Malperfusion Options) trong Bóc tách ĐMC Type A và Type B.</strong> Phân luồng tiếp cận giữa can thiệp phẫu thuật mở trung tâm, can thiệp nội mạch TEVAR, mở cửa sổ màng ngăn (fenestration), đặt stent nhánh đích hoặc làm cầu nối ngoài giải phẫu.
+    </figcaption>
+  </figure>
+
+  <p>
+    <strong>Các Khuyến cáo Kỹ thuật Ngoại khoa Cốt lõi trong Type A:</strong>
+  </p>
+  <ul>
+    <li><strong>Kỹ thuật Nối xa mở (Open Distal Anastomosis) (COR 1, LOE B-NR):</strong> Bắt buộc phải ngừng tuần hoàn hạ thân nhiệt và mở quai ĐMC để kiểm tra trực tiếp vết rách nội mạc, thay thế nửa quai (hemiarch) dưới tầm nhìn trực tiếp, tuyệt đối không dùng kỹ thuật kẹp ĐMC đơn thuần (clamp-on technique) vì làm tăng nguy cơ bóc tách ngược dòng và rách nát thành mạch.</li>
+    <li><strong>Treo bảo tồn van ĐMC (Aortic Valve Resuspension) (COR 1, LOE B-NR):</strong> Nếu các lá van lành lặn và bóc tách chỉ làm bong tróc mép van, kỹ thuật treo lại mép van được ưu tiên tuyệt đối hơn thay van nhân tạo (tỷ lệ tử vong mổ chỉ 8.1% so với 23.1% khi thay gốc ĐMC).</li>
+    <li><strong>Đường vào mạch máu: Canun Động mạch Nách (Axillary Cannulation) (COR 2a, LOE B-NR):</strong> Được ưu tiên hơn canun động mạch đùi vì cung cấp tưới máu não xuôi dòng (antegrade cerebral perfusion) trong lúc ngừng tuần hoàn và giảm nguy cơ đột quỵ não cũng như giảm thuyên tắc dòng máu ngược dòng.</li>
+  </ul>
+
+  <h3 id="7-4-boc-tach-type-b-cap">7.4. Bóc Tách ĐMC Type B Cấp (ATBAD): Phân nhóm &amp; Chỉ Định TEVAR</h3>
+  <div class="space-y-3 text-sm text-slate-800 my-4">
+    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+      <h4 class="font-bold text-slate-900 mb-2 flex items-center gap-2">
+        <span class="px-2 py-0.5 rounded bg-emerald-600 text-white text-xs">COR 1, LOE B-NR</span>
+        1. Type B Không biến chứng (Uncomplicated Type B)
+      </h4>
+      <p class="leading-relaxed mb-0">
+        Khuyến cáo <strong>điều trị nội khoa tối ưu ban đầu</strong> tại phòng ICU với kiểm soát huyết áp và nhịp tim nghiêm ngặt. Tỷ lệ sống sót 30 ngày với điều trị nội khoa là khoảng 90%.
+      </p>
+    </div>
+
+    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+      <h4 class="font-bold text-slate-900 mb-2 flex items-center gap-2">
+        <span class="px-2 py-0.5 rounded bg-emerald-600 text-white text-xs">COR 1, LOE C-LD</span>
+        2. Type B Có biến chứng (Complicated Type B) (Bảng 27)
+      </h4>
+      <p class="leading-relaxed mb-2">
+        Được định nghĩa khi có ít nhất một trong các dấu hiệu: <strong>Vỡ ĐMC</strong> (vỡ tự do hoặc vỡ bọc vào khoang màng phổi/trung thất), <strong>Thiếu máu nuôi tạng</strong> (thiếu máu ruột, suy thận cấp, thiếu máu chi dưới), <strong>Bóc tách lan rộng</strong> (tiến triển ngược dòng vào quai ĐMC thành Type A), <strong>Túi phình to nhanh</strong>, <strong>Đau ngực dai dẳng kháng trị</strong>, hoặc <strong>Tăng huyết áp không kiểm soát được</strong> dù đã phối hợp tối đa các thuốc.
+      </p>
+      <p class="leading-relaxed mb-0 font-semibold text-red-900">
+        Bắt buộc phải can thiệp cấp cứu! Khuyến cáo ưu tiên chọn Can thiệp nội mạch đặt Stent-graft (TEVAR) hơn phẫu thuật mở (COR 1, LOE C-EO) nếu giải phẫu phù hợp.
+      </p>
+    </div>
+
+    <div class="p-4 rounded-xl bg-amber-50 border border-amber-200">
+      <h4 class="font-bold text-amber-950 mb-2 flex items-center gap-2">
+        <span class="px-2 py-0.5 rounded bg-orange-600 text-white text-xs">COR 2b, LOE B-R</span>
+        3. Type B Không biến chứng nhưng có Đặc điểm Hình ảnh Nguy cơ cao (Bảng 28)
+      </h4>
+      <p class="leading-relaxed mb-1">
+        Các thử nghiệm lâm sàng INSTEAD-XL và ADSORB cho thấy: Can thiệp đặt TEVAR sớm trong giai đoạn bán cấp (từ ngày 15 đến ngày 90) ở nhóm bệnh nhân này giúp thúc đẩy tạo huyết khối bít tắc lòng giả, tái cấu trúc thành ĐMC tích cực và giảm đáng kể tỷ lệ tử vong ĐMC sau 5 năm.
+      </p>
+      <div class="text-xs text-slate-700 mt-2 bg-white p-3 rounded-lg border border-amber-200">
+        <strong>Các dấu hiệu hình ảnh nguy cơ cao trên CT (Bảng 28):</strong>
+        <ul class="list-disc pl-5 mt-1 space-y-0.5 mb-0">
+          <li>Đường kính ĐMC tối đa &gt; 40 mm.</li>
+          <li>Đường kính lòng giả lớn &gt; 20–22 mm.</li>
+          <li>Kích thước lỗ rách vào &gt; 10 mm.</li>
+          <li>Lỗ rách nằm ở bờ cong nhỏ của quai ĐMC.</li>
+          <li>Kích thước ĐMC tăng nhanh &gt; 5 mm giữa các lần chụp.</li>
+          <li>Tràn dịch màng phổi có máu.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <h3 id="7-5-quan-ly-imh-va-pau">7.5. Quản lý Khối Máu Tụ Trong Thành (IMH) và Loét Xơ Vữa Xuyên Thấu (PAU)</h3>
+  <div class="space-y-4 my-6">
+    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+      <h4 class="font-bold text-slate-900 mb-2">Quản lý Khối Máu Tụ Trong Thành (IMH):</h4>
+      <ul class="text-sm space-y-2 text-slate-800">
+        <li><strong>IMH Type A (COR 1, LOE B-NR):</strong> Khuyến cáo <strong>phẫu thuật mở cấp cứu khẩn cấp</strong> do nguy cơ tiến triển thành bóc tách kinh điển hoặc vỡ ĐMC lên đến 40%. Chỉ cân nhắc điều trị nội khoa bảo tồn ở bệnh nhân nguy cơ mổ quá cao và không có các đặc điểm hình ảnh nguy cơ cao (Bảng 30: ĐMC &gt;45–50 mm, chiều dày máu tụ ≥10 mm, rách nội mạc khu trú ULP/FID &gt;3 mm, tràn dịch màng tim).</li>
+        <li><strong>IMH Type B (COR 1, LOE B-NR):</strong> Điều trị nội khoa là chiến lược ban đầu. Can thiệp TEVAR (COR 2a) nếu có biến chứng hoặc có đặc điểm hình ảnh nguy cơ cao (ĐMC &gt;47–50 mm, máu tụ ≥13 mm, tràn dịch màng phổi tiến triển).</li>
+      </ul>
+    </div>
+
+    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+      <h4 class="font-bold text-slate-900 mb-2">Quản lý Loét Xơ Vữa Xuyên Thấu (PAU):</h4>
+      <p class="text-sm leading-relaxed mb-3">
+        PAU thường gặp ở người cao tuổi xơ vữa nặng. Phải đo đạc chuẩn các thông số (<strong>Hình 22</strong>): Chiều sâu ổ loét (Depth), đường kính cổ loét (Width) và kích thước khối máu tụ bao quanh.
+      </p>
+
+      <!-- FIGURE 22 -->
+      <figure class="my-4 rounded-xl overflow-hidden border border-slate-200 bg-white shadow-xs">
+        <img 
+          src="/posts/acc-aha-2022-aortic-disease-guideline/figure22_pau_dimensions.jpg" 
+          alt="Hình 22: Kích thước và các thông số đo đạc của Loét xơ vữa xuyên thấu (PAU)" 
+          class="w-full max-w-sm h-auto object-contain mx-auto"
+          loading="lazy"
+        />
+        <figcaption class="p-3 text-xs text-slate-700 leading-relaxed border-t border-slate-200">
+          <strong>Hình 22. Quy chuẩn đo đạc PAU trên CT:</strong> (A) Đường kính ĐMC tối đa tại vị trí ổ loét; (B) Chiều sâu ổ máu đọng trong lớp giữa; (C) Chiều dài tổn thương nội mạc; (D) Chiều rộng của ổ loét.
+        </figcaption>
+      </figure>
+
+      <ul class="text-sm space-y-2 text-slate-800">
+        <li><strong>PAU kèm Vỡ hoặc kèm IMH:</strong> Phẫu thuật cấp cứu khẩn cấp (ở ĐMC lên: COR 1; ở quai ĐMC hoặc ĐMC ngực xuống: COR 2a - ưu tiên TEVAR).</li>
+        <li><strong>PAU đơn độc có triệu chứng đau dai dẳng (COR 1, LOE B-NR):</strong> Chỉ định sửa chữa can thiệp (TEVAR hoặc mổ mở).</li>
+        <li><strong>PAU đơn độc không triệu chứng:</strong> Cân nhắc can thiệp (COR 2b) nếu có <strong>các dấu hiệu nguy cơ cao (Bảng 31): Đường kính ổ loét ≥13–20 mm, Chiều sâu ổ loét ≥10 mm</strong>, hoặc tiến triển nhanh trên hình ảnh theo dõi.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3 id="7-6-ton-thuong-chan-thuong">7.6. Tổn Thương Động Mạch Chủ Do Chấn Thương Đụng Dập (BTTAI &amp; BAAI)</h3>
+  <p>
+    Tổn thương ĐMC ngực do chấn thương đụng dập (Blunt Traumatic Thoracic Aortic Injury - BTTAI) là nguyên nhân gây tử vong đứng hàng thứ hai trong chấn thương. Vị trí tổn thương hay gặp nhất là <strong>eo ĐMC (Aortic isthmus)</strong> do đây là điểm chuyển tiếp giữa quai ĐMC di động và ĐMC ngực xuống cố định.
+  </p>
+
+  <!-- FIGURE 23 -->
+  <figure class="my-8 rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure23_bttai_classification.jpg" 
+        alt="Hình 23: Phân độ tổn thương ĐMC ngực do chấn thương đụng dập BTTAI theo Estrera / Azizzadeh" 
+        class="w-full max-w-2xl h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 23. Hệ thống 4 Phân độ Tổn thương ĐMC do Chấn thương Đụng dập (BTTAIs theo Estrera / Azizzadeh / SVS):</strong>
+      <br/>• <strong>Độ 1 (Grade 1):</strong> Rách nội mạc đơn thuần (Intimal tear / flap ≤10 mm).
+      <br/>• <strong>Độ 2 (Grade 2):</strong> Khối máu tụ trong thành (Intramural hematoma).
+      <br/>• <strong>Độ 3 (Grade 3):</strong> Rách thành mạch tạo túi giả phình (Pseudoaneurysm).
+      <br/>• <strong>Độ 4 (Grade 4):</strong> Vỡ ĐMC tự do (Free rupture).
+    </figcaption>
+  </figure>
+
+  <div class="not-prose my-6 p-4 rounded-xl bg-slate-50 border border-slate-200">
+    <div class="font-bold text-slate-900 mb-2 text-sm">Chiến lược Xử trí BTTAI theo Phân độ:</div>
+    <ul class="text-xs sm:text-sm space-y-2 text-slate-800 mb-0">
+      <li><strong>Độ 1 (Grade 1) (COR 1, LOE C-LD):</strong> Điều trị bảo tồn nội khoa (kiểm soát huyết áp, nhịp tim) và theo dõi hình ảnh định kỳ; tỷ lệ tự liền sẹo rất cao, tử vong gần như 0%.</li>
+      <li><strong>Độ 3 và Độ 4 (Grade 3–4) (COR 1, LOE C-LD):</strong> <strong>Chỉ định can thiệp sửa chữa cấp cứu bắt buộc</strong>. Khuyến cáo <strong>ưu tiên Can thiệp nội mạch TEVAR hơn phẫu thuật mở (COR 1, LOE B-NR)</strong> giúp giảm mạnh tỷ lệ tử vong 30 ngày và giảm nguy cơ liệt tủy tàn phế.</li>
+      <li><strong>Độ 2 (Grade 2):</strong> Cân nhắc can thiệp TEVAR nếu có các dấu hiệu nguy cơ cao trên hình ảnh (Bảng 32: Khối máu tụ trung thất sau &gt;10 mm, dày khối tụ quanh quai &gt;15 mm, tỷ lệ đường kính tổn thương/bình thường &gt;1.4, giả hẹp eo ĐMC) (COR 2a, LOE C-LD). Nếu không có nguy cơ cao: Điều trị nội khoa theo dõi (COR 2b).</li>
+    </ul>
+  </div>
+
+  <h4 class="font-bold text-slate-900 mt-6 mb-2">Tổn thương Động Mạch Chủ Bụng do Chấn thương (BAAI):</h4>
+  <p class="text-sm leading-relaxed mb-3">
+    Tổn thương ĐMC bụng do chấn thương đụng dập (BAAI) là thể tổn thương hiếm gặp (&lt;1% các ca chấn thương đụng dập) nhưng có tỷ lệ tử vong cực cao (lên đến 83% ở tổn thương Độ 4 do sốc mất máu). Shalhub và cộng sự đã đề xuất phân loại các phân vùng tổn thương ĐMC bụng theo giải phẫu phẫu thuật (<strong>Hình 24</strong>):
+  </p>
+
+  <!-- FIGURE 24 -->
+  <figure class="my-6 rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure24_abdominal_zones_injury.jpg" 
+        alt="Hình 24: Phân vùng tổn thương ĐMC bụng theo tiếp cận ngoại khoa và theo phân loại chấn thương (Shalhub et al)" 
+        class="w-full max-w-xl h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 24. So sánh Phân vùng Tổn thương ĐMC Bụng cho Tiếp cận Phẫu thuật vs Phân vùng Chấn thương Kinh điển:</strong> (A) Phân vùng ĐMC bụng theo Shalhub: Zone 1 (trên thân tạng), Zone 2 (quanh các nhánh tạng và thận), Zone 3 (dưới thận đến chỗ chia đôi ĐM chậu). Tử vong cao nhất ở Zone 2 Độ 4. (B) Phân vùng chấn thương ổ bụng kinh điển.
+    </figcaption>
+  </figure>
+
+
+  <h2 id="phan-8-thai-ky-va-benh-dmc">8. Bệnh Lý Động Mạch Chủ Ở Phụ Nữ Mang Thai</h2>
+
+  <h3 id="8-1-nguy-co-thai-ky">8.1. Thay đổi Sinh lý Thai Kỳ &amp; Nguy cơ Bóc Tách Động Mạch Chủ</h3>
+  <p>
+    Thai kỳ gây ra những biến đổi huyết động và nội tiết tố sâu sắc: Thể tích máu tuần hoàn tăng 40%–50%, cung lượng tim tăng, nhịp tim tăng, và nồng độ estrogen/progesterone cao làm biến đổi cấu trúc sợi collagen và elastin của thành mạch. Đây là giai đoạn có <strong>nguy cơ bóc tách ĐMC tăng vọt ở phụ nữ có bệnh ĐMC tiềm ẩn</strong> (đặc biệt trong 3 tháng cuối thai kỳ và 12 tuần đầu sau sinh).
+  </p>
+
+  <!-- BẢNG 34: NGƯỠNG PHẪU THUẬT TRƯỚC MANG THAI -->
+  <div class="not-prose my-6 overflow-x-auto">
+    <table class="w-full text-left border-collapse text-xs sm:text-sm border border-slate-200">
+      <caption class="text-left font-bold text-slate-900 pb-2 uppercase tracking-wide">Bảng 34. Ngưỡng Đường Kính Phẫu Thuật ĐMC Chủ Động TRƯỚC Khi Mang Thai ở Phụ Nữ Mắc Bệnh ĐMC Di Truyền</caption>
+      <thead class="bg-slate-100 text-slate-900 border-b border-slate-300">
+        <tr>
+          <th class="p-2.5 border-r border-slate-200">Bệnh Lý / Tình Trạng ĐMC</th>
+          <th class="p-2.5 text-center font-bold border-r border-slate-200">Ngưỡng Đường Kính Phẫu Thuật Trước Mang Thai</th>
+          <th class="p-2.5">Ghi Chú Lâm Sàng Đặc Biệt</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200">
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-red-950 border-r border-slate-200">Hội chứng Marfan (tiêu chuẩn)</td>
+          <td class="p-2.5 text-center font-bold text-red-700 border-r border-slate-200">&gt; 4.5 cm</td>
+          <td class="p-2.5">Khuyến cáo phẫu thuật thay gốc ĐMC trước khi thụ thai để giảm nguy cơ bóc tách Type A.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-red-950 border-r border-slate-200">Hội chứng Marfan có yếu tố nguy cơ</td>
+          <td class="p-2.5 text-center font-bold text-red-700 border-r border-slate-200">4.0 – 4.5 cm</td>
+          <td class="p-2.5">Cân nhắc phẫu thuật trước mang thai nếu có: Tiền sử gia đình bóc tách ĐMC hoặc tốc độ dãn ĐMC nhanh ≥0.3 cm/năm.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-red-950 border-r border-slate-200">Hội chứng Loeys-Dietz (TGFBR1, TGFBR2, SMAD3)</td>
+          <td class="p-2.5 text-center font-bold text-red-700 border-r border-slate-200">≥ 4.0 cm</td>
+          <td class="p-2.5">Bệnh cảnh cực kỳ hung hãn; nguy cơ bóc tách chu sinh rất cao ngay cả ở kích thước nhỏ.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-red-950 border-r border-slate-200">Hội chứng Loeys-Dietz (TGFB2, TGFB3)</td>
+          <td class="p-2.5 text-center font-bold text-red-700 border-r border-slate-200">≥ 4.5 cm</td>
+          <td class="p-2.5">Kiểu hình ĐMC thường ít hung hãn hơn nhóm TGFBR1/2.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-slate-900 border-r border-slate-200">Ehlers-Danlos thể mạch máu (vEDS)</td>
+          <td class="p-2.5 text-center font-bold text-rose-700 border-r border-slate-200">Khuyên KHÔNG mang thai</td>
+          <td class="p-2.5">Tỷ lệ tử vong mẹ liên quan thai kỳ lên tới 5%–25% do vỡ tự do tử cung và ĐMC!</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-blue-950 border-r border-slate-200">Hội chứng Turner</td>
+          <td class="p-2.5 text-center font-bold text-blue-700 border-r border-slate-200">ASI ≥ 2.5 cm/m²</td>
+          <td class="p-2.5">Bắt buộc phải chỉ số hóa đường kính ĐMC theo diện tích da BSA.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-blue-950 border-r border-slate-200">Van ĐMC 2 mảnh (BAV) hoặc Phình vô căn</td>
+          <td class="p-2.5 text-center font-bold text-blue-700 border-r border-slate-200">≥ 5.0 cm</td>
+          <td class="p-2.5">Nếu ĐMC &gt;5.0 cm, thai kỳ được xếp loại WHO nhóm IV (nguy cơ tử vong mẹ rất cao, chống chỉ định mang thai).</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 id="8-2-quan-ly-thai-ky-va-chuyen-da">8.2. Quản lý Trong Thai Kỳ, Lựa Chọn Thuốc &amp; Phương Thức Sinh</h3>
+  <div class="space-y-3 text-sm text-slate-800 my-4">
+    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+      <h4 class="font-bold text-slate-900 mb-2 flex items-center gap-2">
+        <span class="px-2 py-0.5 rounded bg-emerald-600 text-white text-xs">COR 1</span>
+        1. Sử dụng Thuốc Hạ Áp An Toàn Trong Thai Kỳ
+      </h4>
+      <p class="leading-relaxed mb-2">
+        <strong>Labetalol</strong> là thuốc chẹn beta được ưu tiên lựa chọn hàng đầu cho phụ nữ mang thai có tăng huyết áp và bệnh ĐMC. Duy trì chẹn beta liên tục suốt thai kỳ và tiếp tục ít nhất vài tuần sau sinh.
+      </p>
+      <p class="leading-relaxed mb-0 font-bold text-rose-700">
+        CHỐNG CHỈ ĐỊNH TUYỆT ĐỐI các thuốc Ức chế men chuyển (ACEI) và Ức chế thụ thể (ARB) trong suốt thai kỳ do nguy cơ gây quái thai, suy thận và tử vong thai nhi! Tránh dùng chẹn kênh calci ở hội chứng Marfan.
+      </p>
+    </div>
+
+    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+      <h4 class="font-bold text-slate-900 mb-2 flex items-center gap-2">
+        <span class="px-2 py-0.5 rounded bg-emerald-600 text-white text-xs">COR 1, LOE C-LD</span>
+        2. Theo dõi Hình ảnh An Toàn Cho Thai Nhi
+      </h4>
+      <p class="leading-relaxed mb-0">
+        Khuyến cáo làm <strong>Siêu âm tim TTE định kỳ mỗi tam cá nguyệt (3 tháng một lần)</strong> và kiểm tra lại vài tuần sau sinh. Nếu cần khảo sát toàn bộ quai ĐMC, ĐMC ngực xuống và ĐMC bụng: <strong>Khuyến cáo ưu tiên chụp Cộng hưởng từ (MRI không tiêm thuốc đối quang từ Gadolinium)</strong> để bảo vệ thai nhi khỏi phơi nhiễm bức xạ ion hóa của CT (COR 1, LOE C-LD).
+      </p>
+    </div>
+
+    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+      <h4 class="font-bold text-slate-900 mb-2 flex items-center gap-2">
+        <span class="px-2 py-0.5 rounded bg-blue-600 text-white text-xs">Khuyến cáo Chuyển dạ</span>
+        3. Phương Thức Sinh: Sinh Thường vs Sinh Mổ Chủ Động
+      </h4>
+      <ul class="list-disc pl-5 space-y-1 mb-0">
+        <li><strong>Mổ lấy thai chủ động (Cesarean delivery):</strong> Khuyến cáo chỉ định ở bệnh nhân có <strong>tiền sử bóc tách ĐMC mạn tính</strong> (COR 1) hoặc đường kính ĐMC <strong>≥ 4.5 cm</strong> (COR 2a). Cân nhắc mổ lấy thai ở bệnh nhân HTAD có ĐMC từ 4.0–4.5 cm (COR 2b).</li>
+        <li><strong>Sinh ngả âm đạo (Vaginal delivery):</strong> Khuyến cáo ở bệnh nhân có đường kính ĐMC <strong>&lt; 4.0 cm</strong> (COR 1). Nếu ĐMC từ 4.0–4.5 cm: Sinh thường có gây tê vùng ngoài màng cứng, rút ngắn giai đoạn 2 rặn đẻ và hỗ trợ sinh bằng giác hút/forceps để giảm tối đa áp lực rặn dội lên thành mạch (COR 2b).</li>
+      </ul>
+    </div>
+
+    <div class="p-4 rounded-xl bg-red-50 border border-red-300">
+      <h4 class="font-bold text-red-950 mb-2 flex items-center gap-2">
+        <span class="px-2 py-0.5 rounded bg-red-600 text-white text-xs">COR 1, LOE C-LD</span>
+        4. Cấp Cứu Bóc Tách ĐMC Type A Trong Thai Kỳ
+      </h4>
+      <ul class="list-disc pl-5 space-y-1 mb-0 text-red-950 text-xs sm:text-sm">
+        <li><strong>Trong 6 tháng đầu thai kỳ (Tam cá nguyệt 1 &amp; 2, &lt;28 tuần):</strong> <strong>Phẫu thuật thay ĐMC lên cấp cứu cho mẹ trước</strong> với theo dõi tim thai liên tục, chấp nhận nguy cơ sảy thai để bảo toàn tính mạng người mẹ.</li>
+        <li><strong>Trong 3 tháng cuối thai kỳ (Tam cá nguyệt 3, &gt;28 tuần):</strong> <strong>Mổ lấy thai cấp cứu khẩn cấp ngay lập tức, sau đó tiến hành phẫu thuật tim mở thay ĐMC lên cho người mẹ</strong> trong cùng một cuộc gây mê nhằm cứu cả mẹ và con.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2 id="phan-9-cac-benh-ly-dac-biet">9. Các Tình Trạng Bệnh Lý ĐMC Đặc Biệt Khác</h2>
+
+  <h3 id="9-1-viem-dmc-tu-mien">9.1. Viêm Động Mạch Chủ Do Viêm Mạch Lớn (Takayasu &amp; Viêm ĐM Tế Bào Khổng Lồ GCA)</h3>
+  <p>
+    Viêm mạch máu lớn (Large Vessel Vasculitis - LVV) gồm 2 thể bệnh chính: <strong>Viêm ĐM Takayasu</strong> (thường gặp ở phụ nữ trẻ &lt;40 tuổi) và <strong>Viêm ĐM tế bào khổng lồ (GCA)</strong> (gặp ở người lớn tuổi &gt;50 tuổi). Hậu quả dẫn tới hẹp tắc mạch, phình ĐMC, bóc tách ĐMC và suy tim.
+  </p>
+
+  <!-- BẢNG 35: TIÊU CHUẨN CHẨN ĐOÁN VIÊM ĐMC -->
+  <div class="not-prose my-6 overflow-x-auto">
+    <table class="w-full text-left border-collapse text-xs sm:text-sm border border-slate-200">
+      <caption class="text-left font-bold text-slate-900 pb-2 uppercase tracking-wide">Bảng 35. Tiêu Chuẩn Chẩn Đoán Viêm Động Mạch Lớn (ACR / Hiratzka et al)</caption>
+      <thead class="bg-slate-100 text-slate-900 border-b border-slate-300">
+        <tr>
+          <th class="p-2.5 border-r border-slate-200 w-1/3">Bệnh Lý</th>
+          <th class="p-2.5 border-r border-slate-200">Các Tiêu Chuẩn Chẩn Đoán</th>
+          <th class="p-2.5 text-center font-bold">Xác Nhận Chẩn Đoán Khi Nào?</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200">
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-slate-900 border-r border-slate-200">Viêm ĐM Takayasu</td>
+          <td class="p-2.5 border-r border-slate-200">
+            1. Tuổi khởi phát &lt;40 tuổi.<br/>
+            2. Khập khiễng cách hồi chi dưới hoặc chi trên.<br/>
+            3. Giảm bắt mạch động mạch cánh tay.<br/>
+            4. Tiếng thổi trên ĐM dưới đòn hoặc ĐMC.<br/>
+            5. Chênh lệch Huyết áp tâm thu giữa hai tay &gt;10 mmHg.<br/>
+            6. Bằng chứng hẹp tắc ĐMC hoặc các nhánh lớn trên hình ảnh mạch máu.
+          </td>
+          <td class="p-2.5 text-center font-bold text-emerald-800">Có từ ≥ 3 tiêu chuẩn<br/><span class="text-xs font-normal text-slate-500">(Độ nhạy 90.5%, Độ đặc hiệu 97.8%)</span></td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-slate-900 border-r border-slate-200">Viêm ĐM Tế Bào Khổng Lồ (GCA)</td>
+          <td class="p-2.5 border-r border-slate-200">
+            1. Tuổi khởi phát &gt;50 tuổi.<br/>
+            2. Đau đầu khu trú mới xuất hiện.<br/>
+            3. Ấn đau hoặc giảm đập động mạch thái dương.<br/>
+            4. Tốc độ máu lắng ESR tăng cao &gt;50 mm/giờ.<br/>
+            5. Sinh thiết động mạch thái dương cho thấy viêm mạch hoại tử u hạt.
+          </td>
+          <td class="p-2.5 text-center font-bold text-emerald-800">Có từ ≥ 3 tiêu chuẩn<br/><span class="text-xs font-normal text-slate-500">(Độ nhạy &gt;90%, Độ đặc hiệu &gt;90%)</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>
+    <strong>Phác đồ Điều trị Nội khoa theo EULAR (Hình 25 &amp; Hình 26):</strong>
+  </p>
+  <ul>
+    <li><strong>Liệu pháp Glucocorticoid liều cao (COR 1, LOE B-NR):</strong> Khởi đầu bằng Prednisone 40–60 mg/ngày (hoặc Methylprednisolone truyền xung tĩnh mạch 0.25–1 g/ngày trong 3 ngày nếu có dọa mất thị lực cấp do GCA). Sau đó giảm liều dần đạt 15–20 mg/ngày sau 2–3 tháng và ≤5 mg/ngày sau 1 năm.</li>
+    <li><strong>Kháng thể đơn dòng ức chế IL-6 (Tocilizumab) (COR 1, LOE B-R):</strong> Được chứng minh vượt trội trong thử nghiệm lâm sàng giúp đạt tỷ lệ lui bệnh bền vững mà không cần phụ thuộc steroid ở bệnh nhân GCA có viêm ĐMC tiến triển. Methotrexate là lựa chọn thay thế.</li>
+    <li><strong>Thuốc chống thấp khớp làm thay đổi bệnh (DMARDs) (COR 1, LOE C-LD):</strong> Phối hợp ngay từ đầu với steroid ở tất cả bệnh nhân Takayasu (Methotrexate, Azathioprine, Leflunomide) do tỷ lệ tái phát lên tới 70%.</li>
+    <li><strong>Thời điểm Phẫu thuật Mạch máu (COR 2a, LOE C-LD):</strong> <strong>Chỉ thực hiện phẫu thuật mở hoặc can thiệp nội mạch sửa chữa hẹp/phình mạch khi bệnh đã ở giai đoạn LUI BỆNH HOÀN TOÀN (Remission)</strong>. Mổ trong giai đoạn viêm cấp tính sẽ làm bung miệng nối, tắc mạch ghép và tái phát dữ dội. Sử dụng chụp PET/CT 18F-FDG để xác nhận tình trạng hết viêm trước mổ.</li>
+  </ul>
+
+  <!-- FIGURES 25 & 26 -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+    <figure class="rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm m-0">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure25_gca_treatment_algorithm.jpg" 
+        alt="Hình 25: Phác đồ điều trị nội khoa Viêm ĐM Tế Bào Khổng Lồ theo EULAR" 
+        class="w-full h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+      <figcaption class="p-3 text-xs text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+        <strong>Hình 25. Phác đồ EULAR điều trị nội khoa Viêm ĐM tế bào khổng lồ (GCA).</strong> Phân giai đoạn Phase I (Steroid liều cao) và Phase II (phối hợp Tocilizumab hoặc Methotrexate).
+      </figcaption>
+    </figure>
+
+    <figure class="rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm m-0">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure26_takayasu_treatment_algorithm.jpg" 
+        alt="Hình 26: Phác đồ điều trị nội khoa Viêm ĐM Takayasu theo EULAR" 
+        class="w-full h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+      <figcaption class="p-3 text-xs text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+        <strong>Hình 26. Phác đồ EULAR điều trị nội khoa Viêm ĐM Takayasu.</strong> Phối hợp sớm glucocorticoid với các thuốc DMARD tổng hợp kinh điển (csDMARD).
+      </figcaption>
+    </figure>
+
+  <h3 id="9-2-viem-dmc-nhiem-trung">9.2. Viêm ĐMC Nhiễm Trùng &amp; Nhiễm Trùng Mạch Ghép Nhân Tạo</h3>
+  <p>
+    Thuật ngữ "Viêm ĐMC nhiễm trùng" (Infectious Aortitis) đã thay thế thuật ngữ cũ gây hiểu lầm "Phình mạch nấm" (Mycotic Aneurysm). Các tác nhân phổ biến nhất là <em>Staphylococcus aureus, Salmonella, Streptococcus pneumoniae và E. coli</em>.
+  </p>
+  <ul>
+    <li><strong>Kháng sinh tĩnh mạch (COR 2b, LOE C-EO):</strong> Điều trị kháng sinh phổ rộng liều cao kéo dài <strong>tối thiểu 6 tuần đến 6 tháng</strong>, có thể phải duy trì thuốc ức chế uống suốt đời ở bệnh nhân không thể phẫu thuật.</li>
+    <li><strong>Phẫu thuật Cấp cứu (COR 1, LOE C-EO):</strong> Cắt lọc triệt để tổ chức hoại tử nhiễm trùng thành ĐMC và tái tạo lưu thông mạch máu (bằng mạch nhân tạo ngâm kháng sinh Rifampin, mạch đồng loại bảo quản lạnh, hoặc làm cầu nối ngoài giải phẫu axillobifemoral bypass). Can thiệp đặt Stent-graft (TEVAR) có thể dùng như một biện pháp cầu nối tạm thời (bridge therapy) để cầm máu khẩn cấp khi vỡ mạch trước khi mổ triệt để (<strong>Bảng 36</strong>).</li>
+  </ul>
+
+  <h3 id="9-3-cac-bien-the-giai-phau-quai">9.3. Các Biến Thể Giải Phẫu Quai ĐMC Thường Gặp</h3>
+  
+  <p>
+    <strong>Động Mạch Dưới Đòn Lạc Chỗ (ASCA) &amp; Túi Thừa Kommerell (Hình 27):</strong>
+    <br/>ĐM dưới đòn phải lạc chỗ (Aberrant Right Subclavian Artery - ARSA) xuất phát từ thành sau quai ĐMC và chạy vắt chéo sau thực quản để sang cánh tay phải. Khoảng 20%–60% bệnh nhân có kèm túi phình dãn tại gốc xuất phát, gọi là <strong>Túi thừa Kommerell (Kommerell Diverticulum)</strong>. Túi thừa có nguy cơ bóc tách và vỡ tự do lên đến 50%.
+    <br/><strong>Chỉ định can thiệp (COR 2b, LOE C-LD):</strong> Phẫu thuật sửa chữa được chỉ định khi <em>đường kính cổ túi thừa &gt; 3.0 cm</em> HOẶC <em>tổng đường kính túi thừa cộng ĐMC ngực xuống lân cận &gt; 5.0 cm</em> (<strong>Hình 27</strong>).
+  </p>
+
+  <!-- FIGURE 27 -->
+  <figure class="my-8 rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure27_kommerell_diverticulum.jpg" 
+        alt="Hình 27: Quy chuẩn đo đạc Túi thừa Kommerell trên Cắt lớp vi tính" 
+        class="w-full max-w-sm h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 27. Sơ đồ quy chuẩn 2 phép đo bắt buộc đối với Túi thừa Kommerell (Erben et al):</strong> (1) Đường kính lỗ cổ túi thừa (Orifice of diverticulum); và (2) Tổng đường kính từ đỉnh túi thừa đến thành đối diện của ĐMC ngực xuống lân cận.
+    </figcaption>
+  </figure>
+
+  <p>
+    <strong>Quai Động Mạch Chủ Dạng Bò (Bovine Arch) (Hình 28):</strong>
+    <br/>Đây là biến thể giải phẫu phổ biến nhất của quai ĐMC. Thuật ngữ "Bovine arch" thực chất là một sự nhầm lẫn lịch sử (vì ở loài bò thực sự chỉ có 1 thân chung duy nhất chia 3 nhánh). Ở người có 2 thể:
+  </p>
+  <ul>
+    <li><strong>Type II-A (chiếm 9% dân số):</strong> Động mạch cảnh chung trái xuất phát trực tiếp từ thân động mạch cánh tay đầu.</li>
+    <li><strong>Type II-B (chiếm 13% dân số):</strong> Thân cánh tay đầu và ĐM cảnh chung trái có chung một gốc xuất phát từ quai ĐMC.</li>
+    <li><strong>Ý nghĩa Lâm sàng:</strong> Các nghiên cứu thuần tập và phân tích gộp chứng minh "Bovine arch" là <strong>một dấu ấn nguy cơ độc lập của bệnh lý ĐMC ngực (TAD)</strong>. Bệnh nhân có quai dạng bò có tốc độ phát triển phình ĐMC nhanh gấp 3 lần so với người có quai bình thường (0.29 cm/năm so với 0.09 cm/năm; p &lt; 0.001) và tăng nguy cơ rách quai ĐMC cũng như đột quỵ trong mổ bóc tách Type A.</li>
+  </ul>
+
+  <!-- FIGURE 28 -->
+  <figure class="my-8 rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+    <div class="relative group cursor-zoom-in">
+      <img 
+        src="/posts/acc-aha-2022-aortic-disease-guideline/figure28_bovine_arch_configurations.jpg" 
+        alt="Hình 28: Các dạng cấu hình quai ĐMC bình thường và quai ĐMC dạng bò (Bovine Arch)" 
+        class="w-full max-w-2xl h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+    </div>
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 28. Ba cấu hình quai ĐMC:</strong> (A) Type I: Giải phẫu bình thường 3 nhánh riêng rẽ (chiếm 70%); (B) Type II-A: ĐM cảnh chung trái xuất phát từ thân cánh tay đầu (9%); (C) Type II-B: Thân cánh tay đầu và ĐM cảnh chung trái có chung một gốc xuất phát (13%).
+    </figcaption>
+  </figure>
+
+  <h2 id="phan-10-hoat-dong-the-luc">10. Hướng Dẫn Hoạt Động Thể Lực &amp; Phục Hồi Chức Năng Tim Mạch</h2>
+  <!-- KHUYẾN CÁO VẬN ĐỘNG -->
+  <div class="not-prose my-6 p-4 rounded-xl bg-slate-50 border border-slate-200">
+    <div class="font-bold text-slate-900 mb-3 text-base flex items-center gap-2">
+      <span class="px-2 py-0.5 rounded bg-blue-600 text-white text-xs">ACC/AHA Recommendations</span>
+      Khuyến cáo Hoạt Động Thể Lực &amp; Nâng Cao Chất Lượng Cuộc Sống (HRQOL)
+    </div>
+    <div class="space-y-3 text-xs sm:text-sm">
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-EO</span>
+        <div class="text-slate-800 leading-relaxed">
+          Ở bệnh nhân có bệnh lý ĐMC có ý nghĩa lâm sàng: Bắt buộc phải <strong>tư vấn và giáo dục người bệnh tránh tuyệt đối các bài tập đẳng trương gắng sức nặng (intense isometric exercises như nâng tạ nặng, cử tạ), các hoạt động đòi hỏi làm nghiệm pháp rặn Valsalva</strong> (có thể làm huyết áp tâm thu vọt tức thì lên &gt;300 mmHg!), các hoạt động bộc phát quá mức và các môn thể thao va chạm đối kháng mạnh.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-600 text-white shrink-0">COR 1</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-EO</span>
+        <div class="text-slate-800 leading-relaxed">
+          Ở bệnh nhân đã phẫu thuật điều trị phình hoặc bóc tách ĐMC: <strong>Chương trình phục hồi chức năng tim mạch có giám sát (Cardiac Rehabilitation) được khuyến cáo chỉ định</strong> nhằm cải thiện công suất tiêu thụ oxy tối đa, năng lực thể chất và chất lượng sống.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-amber-50/80 border border-amber-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-amber-600 text-white shrink-0">COR 2a</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-LD</span>
+        <div class="text-slate-800 leading-relaxed">
+          Ở bệnh nhân phình ĐMC ngực hoặc bụng đã được kiểm soát huyết áp tốt: Khuyến khích thực hiện <strong>30 đến 60 phút hoạt động thể lực hiếu khí (aerobic) cường độ nhẹ đến trung bình</strong> (như đi bộ nhanh, đạp xe nhẹ nhàng) ít nhất <strong>3 đến 4 ngày mỗi tuần</strong>.
+        </div>
+      </div>
+
+      <div class="p-3 rounded-lg bg-amber-50/80 border border-amber-200 flex items-start gap-2">
+        <span class="px-2 py-0.5 rounded text-xs font-bold bg-amber-600 text-white shrink-0">COR 2a</span>
+        <span class="px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-300 shrink-0">LOE C-LD</span>
+        <div class="text-slate-800 leading-relaxed">
+          Khuyến cáo chủ động sàng lọc <strong>trầm cảm, lo âu và rối loạn căng thẳng sau sang chấn (PTSD)</strong> ở bệnh nhân sau biến cố bóc tách ĐMC, đồng thời cung cấp các nguồn lực hỗ trợ tâm lý chuyên khoa để cải thiện chất lượng sống dài hạn.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2 id="phan-11-ket-luan">11. Lời Kết &amp; Khuyến Nghị Thực Hành Cho Bác Sĩ Lâm Sàng</h2>
+  <div class="not-prose my-6 p-6 rounded-2xl bg-gradient-to-br from-slate-900 to-blue-950 text-white shadow-lg">
+    <h3 class="text-lg font-bold text-white mb-3">Tóm Lược Các Thay Đổi Thực Hành Quan Trọng Nhất Từ Hướng Dẫn ACC/AHA 2022:</h3>
+    <ul class="text-sm space-y-2 text-slate-200 leading-relaxed mb-0 pl-5 list-disc">
+      <li><strong>Hạ ngưỡng phẫu thuật ĐMC lên:</strong> Tại các trung tâm thể tích lớn, ngưỡng mổ chủ động TAA vô căn đã giảm xuống <strong>5.0 cm</strong> (thay vì 5.5 cm) và tiếp tục thấp hơn ở các bệnh nhân có đột biến gen (4.0–4.5 cm).</li>
+      <li><strong>Chuẩn hóa đo đạc CĐHA:</strong> Bắt buộc đo vuông góc tuyệt đối với trục dòng máu (centerline); dùng quy chuẩn bờ trong - bờ trong trên CT/MRI có đồng bộ ECG; báo cáo đường kính xoang - xoang tối đa.</li>
+      <li><strong>Bóc tách Type A:</strong> Mổ cấp cứu mở quai đoạn gần (open distal anastomosis) thay cho kẹp ĐMC; ưu tiên đi canun động mạch nách; can thiệp thiếu máu nuôi tạng tích cực.</li>
+      <li><strong>Bóc tách Type B:</strong> Mở rộng chỉ định TEVAR cho các trường hợp không biến chứng nhưng có đặc điểm hình ảnh nguy cơ cao (lòng giả lớn, lỗ rách bờ cong nhỏ, ĐMC &gt;40 mm).</li>
+      <li><strong>Phình ĐMC bụng:</strong> Phân biệt rõ ngưỡng mổ Nam (5.5 cm) vs Nữ (5.0 cm); trong rAAA vỡ, ưu tiên hàng đầu can thiệp rEVAR kèm hạ huyết áp có kiểm soát (SBP 60–90 mmHg).</li>
+      <li><strong>Bệnh ĐMC di truyền:</strong> Thực hiện xét nghiệm bảng đa gen và sàng lọc hình ảnh bắt buộc cho 100% người thân trực hệ thế hệ thứ nhất.</li>
+    </ul>
+  </div>
+
+  <!-- TÀI LIỆU THAM KHẢO CHÍNH -->
+  <div class="not-prose my-8 p-6 rounded-2xl bg-slate-50 border border-slate-200 text-xs text-slate-600">
+    <h4 class="font-bold text-slate-900 text-sm mb-3 uppercase tracking-wider">Tài Liệu Tham Khảo Trích Dẫn Chọn Lọc (Key References):</h4>
+    <ol class="space-y-1.5 pl-4 list-decimal">
+      <li>Isselbacher EM, Preventza O, Black JH 3rd, et al. 2022 ACC/AHA guideline for the diagnosis and management of aortic disease: a report of the American Heart Association/American College of Cardiology Joint Committee on Clinical Practice Guidelines. <em>J Am Coll Cardiol</em>. 2022;80(24):e223–e393.</li>
+      <li>Hiratzka LF, Bakris GL, Beckman JA, et al. 2010 ACCF/AHA/AATS/ACR/ASA/SCA/SCAI/SIR/STS/SVM guidelines for the diagnosis and management of patients with thoracic aortic disease. <em>J Am Coll Cardiol</em>. 2010;55:e27–e129.</li>
+      <li>Paruchuri V, Salhab KF, Kuzmik G, et al. Aortic size distribution in the general population: explaining the size paradox in aortic dissection. <em>Cardiology</em>. 2015;131:265–272.</li>
+      <li>Borger MA, Preston M, Ivanov J, et al. Should the ascending aorta be replaced more frequently in patients with bicuspid aortic valve disease? <em>J Thorac Cardiovasc Surg</em>. 2004;128:677–683.</li>
+      <li>Lombardi JV, Hughes GC, Appoo JJ, et al. Society for Vascular Surgery (SVS) and Society of Thoracic Surgeons (STS) reporting standards for type B aortic dissections. <em>J Vasc Surg</em>. 2020;71:723–747.</li>
+      <li>Hughes GC, Zhao Y, Rankin JS, et al. Effects of institutional volumes on operative outcomes for aortic root replacement in North America. <em>J Thorac Cardiovasc Surg</em>. 2013;145:166–170.</li>
+      <li>Mori M, Shioda K, Wang X, et al. Perioperative risk profiles and volume-outcome relationships in proximal thoracic aortic surgery. <em>Ann Thorac Surg</em>. 2018;106:1095–1104.</li>
+      <li>Chaikof EL, Dalman RL, Eskandari MK, et al. The Society for Vascular Surgery practice guidelines on the care of patients with an abdominal aortic aneurysm. <em>J Vasc Surg</em>. 2018;67:2–77.e72.</li>
+      <li>IMPROVE Trial Investigators. Comparative clinical effectiveness and cost effectiveness of endovascular strategy v open repair for ruptured abdominal aortic aneurysm: three year results of the IMPROVE randomised trial. <em>BMJ</em>. 2017;359:j4859.</li>
+      <li>Nienaber CA, Kische S, Rousseau H, et al. Endovascular repair of type B aortic dissection: long-term results of the randomized investigation of stent grafts in aortic dissection trial (INSTEAD-XL). <em>Circ Cardiovasc Interv</em>. 2013;6:407–416.</li>
+      <li>Hellmich B, Agueda A, Monti S, et al. 2018 update of the EULAR recommendations for the management of large vessel vasculitis. <em>Ann Rheum Dis</em>. 2020;79:19–30.</li>
+      <li>Silberbach M, Roos-Hesselink JW, Andersen NH, et al. Cardiovascular health in Turner syndrome: a scientific statement from the American Heart Association. <em>Circ Genom Precis Med</em>. 2018;11:e000048.</li>
+    </ol>
+  </div>
+
+</div>
+
+
+    `,
+    views: 1450,
+    readTime: "45 phút đọc",
+    source: "Journal of the American College of Cardiology (JACC) 2022;80(24):e223–e393 & Circulation",
+    tags: [
+      "Động mạch chủ",
+      "Aortic Disease",
+      "ACC/AHA 2022",
+      "Bóc tách động mạch chủ",
+      "Phình động mạch chủ",
+      "Hội chứng động mạch chủ cấp",
+      "AAS",
+      "IMH",
+      "PAU",
+      "TEVAR",
+      "EVAR",
+      "Marfan",
+      "Loeys-Dietz",
+      "Van động mạch chủ 2 mảnh",
+      "BAV",
+      "Cắt lớp vi tính",
+      "Siêu âm tim"
+    ]
+  }
 ];
