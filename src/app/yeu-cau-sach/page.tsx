@@ -138,7 +138,7 @@ export default function BookRequestPage() {
                     >
                       <option value="Thần kinh">Thần kinh</option>
                       <option value="Đầu mặt cổ">Đầu mặt cổ</option>
-                      <option value="Ngực">Ngực</option>
+                      <option value="Tim mạch & Lồng ngực">Tim mạch & Lồng ngực</option>
                       <option value="Bụng - chậu">Bụng - chậu</option>
                       <option value="Cơ xương khớp">Cơ xương khớp</option>
                       <option value="Nhi khoa">Nhi khoa</option>

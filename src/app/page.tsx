@@ -37,8 +37,13 @@ function HomePageContent() {
     return [...POSTS].reverse().filter((post) => {
       // Filter by category
       if (currentCat) {
-        const matchSpecialty = post.specialtySlug === currentCat;
-        const matchCategory = post.categorySlugs.includes(currentCat);
+        const isChestCardio = currentCat === "tim-mach-long-nguc" || currentCat === "nguc" || currentCat === "tim-mach";
+        const matchSpecialty = isChestCardio
+          ? (post.specialtySlug === "tim-mach-long-nguc" || post.specialtySlug === "nguc" || post.specialtySlug === "tim-mach")
+          : post.specialtySlug === currentCat;
+        const matchCategory = isChestCardio
+          ? (post.categorySlugs.includes("tim-mach-long-nguc") || post.categorySlugs.includes("nguc") || post.categorySlugs.includes("tim-mach") || post.categorySlugs.includes("long-nguc"))
+          : post.categorySlugs.includes(currentCat);
         if (!matchSpecialty && !matchCategory) return false;
       }
 
@@ -73,6 +78,9 @@ function HomePageContent() {
   const getActiveFilterTitle = () => {
     if (currentQuery) return `Kết quả tìm kiếm cho: "${currentQuery}"`;
     if (currentCat) {
+      if (currentCat === "tim-mach-long-nguc" || currentCat === "nguc" || currentCat === "tim-mach") {
+        return "Chuyên ngành: Tim mạch & Lồng ngực";
+      }
       const catObj = CATEGORIES.find((c) => c.slug === currentCat);
       return `Chuyên ngành: ${catObj ? catObj.name : currentCat}`;
     }
@@ -281,10 +289,22 @@ function HomePageContent() {
               </h3>
               <div className="space-y-1">
                 {CATEGORIES.filter((c) => c.id !== "all").map((cat) => {
-                  const count = POSTS.filter(
-                    (p) => p.specialtySlug === cat.slug || p.categorySlugs.includes(cat.slug)
-                  ).length;
-                  const isCurrent = currentCat === cat.slug;
+                  const count = POSTS.filter((p) => {
+                    if (cat.slug === "tim-mach-long-nguc") {
+                      return (
+                        p.specialtySlug === "tim-mach-long-nguc" ||
+                        p.specialtySlug === "nguc" ||
+                        p.specialtySlug === "tim-mach" ||
+                        p.categorySlugs.includes("tim-mach-long-nguc") ||
+                        p.categorySlugs.includes("nguc") ||
+                        p.categorySlugs.includes("tim-mach")
+                      );
+                    }
+                    return p.specialtySlug === cat.slug || p.categorySlugs.includes(cat.slug);
+                  }).length;
+                  const isCurrent =
+                    currentCat === cat.slug ||
+                    (cat.slug === "tim-mach-long-nguc" && (currentCat === "nguc" || currentCat === "tim-mach"));
 
                   return (
                     <Link

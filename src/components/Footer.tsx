@@ -73,7 +73,7 @@ export default function Footer() {
             <div className="grid grid-cols-2 gap-x-2 gap-y-2 text-xs">
               <Link href="/?cat=than-kinh" className="hover:text-white transition-colors">• Thần kinh</Link>
               <Link href="/?cat=dau-mat-co" className="hover:text-white transition-colors">• Đầu mặt cổ</Link>
-              <Link href="/?cat=nguc" className="hover:text-white transition-colors">• Ngực</Link>
+              <Link href="/?cat=tim-mach-long-nguc" className="hover:text-white transition-colors">• Tim mạch & Lồng ngực</Link>
               <Link href="/?cat=bung-chau" className="hover:text-white transition-colors">• Bụng - chậu</Link>
               <Link href="/?cat=co-xuong-khop" className="hover:text-white transition-colors">• Cơ xương khớp</Link>
               <Link href="/?cat=nhi-khoa" className="hover:text-white transition-colors">• Nhi khoa</Link>

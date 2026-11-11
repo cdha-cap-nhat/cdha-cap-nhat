@@ -55,12 +55,19 @@ export default function ArticleDetailPage({ params }: { params: { slug: string }
     );
   }
 
-  // Filter related posts in the same specialty or modality
-  const relatedPosts = POSTS.filter(
+  // Filter related posts in the same specialty (or fallback to same modality if no specialty sibling)
+  const sameSpecialtyPosts = POSTS.filter(
     (p) =>
       p.id !== post.id &&
-      (p.specialtySlug === post.specialtySlug || p.modality === post.modality)
+      (p.specialtySlug === post.specialtySlug ||
+        ((post.specialtySlug === "tim-mach-long-nguc" || post.specialtySlug === "nguc" || post.specialtySlug === "tim-mach") &&
+         (p.specialtySlug === "tim-mach-long-nguc" || p.specialtySlug === "nguc" || p.specialtySlug === "tim-mach")))
   );
+
+  const relatedPosts =
+    sameSpecialtyPosts.length > 0
+      ? sameSpecialtyPosts
+      : POSTS.filter((p) => p.id !== post.id && p.modality === post.modality);
 
   const recentPosts = POSTS.slice(0, 5);
 

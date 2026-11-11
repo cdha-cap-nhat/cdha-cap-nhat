@@ -20,10 +20,10 @@ export const CATEGORIES: Category[] = [
     description: "Hình ảnh học xoang, hốc mắt, tai xương đá, vòm họng, tuyến giáp và các khoang vùng cổ",
   },
   {
-    id: "nguc",
-    name: "Ngực",
-    slug: "nguc",
-    description: "X-quang ngực, CT lồng ngực liều thấp, bệnh lý nhu mô phổi, màng phổi, trung thất và tim mạch",
+    id: "tim-mach-long-nguc",
+    name: "Tim mạch & Lồng ngực",
+    slug: "tim-mach-long-nguc",
+    description: "Chẩn đoán hình ảnh tim mạch, động mạch chủ, bệnh lý nhu mô phổi, màng phổi, trung thất, X-quang và CT lồng ngực",
   },
   {
     id: "bung-chau",
