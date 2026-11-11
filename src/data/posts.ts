@@ -9083,5 +9083,948 @@ export const POSTS: Post[] = [
       "Cắt lớp vi tính",
       "Siêu âm tim"
     ]
+  },
+  {
+    id: "post-radiographics-2021-ct-evaluation-of-hemoptysis",
+    title: "Chụp Cắt lớp vi tính Đánh giá Ho ra máu: Tiếp cận Hệ thống theo Cơ chế Bệnh sinh & Hướng dẫn Can thiệp Lâm sàng (RSNA RadioGraphics)",
+    slug: "chup-cat-lop-vi-tinh-danh-gia-ho-ra-mau-radiographics",
+    date: "11 Tháng 11, 2026",
+    updatedDate: "11 Tháng 11, 2026",
+    author: "Kaitlin M. Marquis, MD; Sanjeev Bhalla, MD et al. (RadioGraphics 2021 – Biên dịch: CĐHA Cập Nhật)",
+    categories: ["Tim mạch & Lồng ngực", "Lồng ngực", "Cắt lớp vi tính", "CT", "Ho ra máu", "Động mạch phế quản", "RadioGraphics"],
+    categorySlugs: ["tim-mach-long-nguc", "long-nguc", "cat-lop-vi-tinh", "ct", "ho-ra-mau", "dong-mach-phe-quan", "radiographics"],
+    modality: "CT",
+    specialty: "Tim mạch & Lồng ngực",
+    specialtySlug: "tim-mach-long-nguc",
+    coverImage: "/posts/ct-cho-ho-ra-mau-radiographics/cover_hemoptysis_ct.jpg",
+    downloadUrl: "/posts/ct-cho-ho-ra-mau-radiographics/marquis-et-al-2021-ct-for-evaluation-of-hemoptysis-radiographics.pdf",
+    excerpt: "Tổng quan thực hành toàn diện từ RSNA RadioGraphics về Chụp Cắt lớp vi tính (CT) trong Đánh giá Ho ra máu: Giao thức chụp thì động mạch hệ thống không dùng saline chaser, nhận diện dấu hiệu xuất huyết nhu mô và đường thở, hệ thống hóa cơ chế mạch máu nguyên phát (phì đại ĐM phế quản >2 mm, mạch hệ thống ngoài phế quản NBSA, giả phình ĐM phổi Rasmussen/nhiễm trùng, dị dạng AVM, xuất huyết phế nang DAH) và cơ chế thứ phát (hoại tử u, nhồi máu phổi, xâm lấn đường thở, sỏi phế quản), cùng ma trận tiếp cận trực tiếp - gián tiếp định hướng nút mạch (BAE/PAP coil) hay phẫu thuật.",
+    content: [
+      "Nguyên nhân tử vong hàng đầu ở bệnh nhân ho ra máu là suy hô hấp do ngạt thở chứ không phải do sốc mất máu; thể tích chỉ 250 mL đã đủ lấp đầy toàn bộ cây khí phế quản.",
+      "Giao thức chụp CT ngực thì động mạch hệ thống với bolus tracking tại ĐMC ngực xuống, thể tích cản quang lớn 110–125 mL tốc độ 4–5 mL/s, tuyệt đối không dùng saline chaser và quét trùm qua hết thân tạng.",
+      "Phân biệt rõ cơ chế mạch máu nguyên phát do phì đại mạch hệ thống (ĐM phế quản chính vị vs lạc vị, NBSA xuyên màng phổi) với các túi giả phình động mạch phổi (PAP) đòi hỏi can thiệp nút coil qua đường tĩnh mạch hệ thống.",
+      "Nhận diện các dấu hiệu trực tiếp (tổn thương thủ phạm, mạch máu thủ phạm) và gián tiếp (kính mờ, đông đặc, crazy-paving, máu đông nội phế quản >40 HU) giúp lập bản đồ can thiệp tối ưu."
+    ],
+    htmlContent: `
+
+<div class="prose prose-slate max-w-none text-slate-800 bg-white">
+
+  <!-- HỘP BIÊN TẬP / LỜI GIỚI THIỆU CHUYÊN SÂU -->
+  <div class="not-prose my-8 p-6 rounded-2xl bg-gradient-to-r from-rose-950 via-slate-900 to-red-900 text-white shadow-xl">
+    <div class="flex items-center gap-3 mb-3">
+      <span class="px-3 py-1 rounded-full bg-rose-600 text-white font-bold text-xs uppercase tracking-wider shadow-sm">RadioGraphics 2021 • CĐHA Cập Nhật</span>
+      <span class="text-xs font-medium text-rose-200">Mallinckrodt Institute of Radiology • UCSF • Centro Rossi</span>
+    </div>
+    <h2 class="text-2xl sm:text-3xl font-extrabold text-white mb-3">Chụp Cắt Lớp Vi Tính Đánh Giá Ho Ra Máu: Tiếp Cận Hệ Thống Theo Cơ Chế Mạch Máu &amp; Định Hướng Can Thiệp</h2>
+    <p class="text-sm sm:text-base text-rose-100/90 leading-relaxed mb-4">
+      Ho ra máu (Hemoptysis) là một cấp cứu nội - ngoại khoa nguy kịch với phổ chẩn đoán phân biệt rộng lớn. Nguy cơ tử vong hàng đầu ở bệnh nhân ho ra máu là <strong>suy hô hấp do ngạt thở (Asphyxiation)</strong> chứ không phải do mất máu (Exsanguination), bởi vì <em>chỉ cần một thể tích máu từ 250 mL (chưa đầy một lon nước ngọt) là đã đủ lấp đầy toàn bộ cây khí phế quản</em>. Cắt lớp vi tính đa dãy (MDCT) với giao thức chuyên biệt thì động mạch hệ thống đóng vai trò quyết định giúp xác định chính xác vị trí xuất huyết, cơ chế mạch máu nền tảng, bộc lộ các mạch máu thủ phạm và lập bản đồ giải phẫu cho can thiệp nút mạch (Embolization) hay phẫu thuật khẩn cấp.
+    </p>
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-3 border-t border-rose-800/60 text-xs">
+      <div>
+        <div class="text-rose-300 font-semibold">Tác giả chính</div>
+        <div class="text-white font-bold">Kaitlin M. Marquis, MD et al.</div>
+      </div>
+      <div>
+        <div class="text-rose-300 font-semibold">Cơ sở học thuật</div>
+        <div class="text-white font-bold">Mallinckrodt &amp; UCSF</div>
+      </div>
+      <div>
+        <div class="text-rose-300 font-semibold">Nguồn tài liệu</div>
+        <div class="text-white font-bold">RadioGraphics 2021; 41:742–761</div>
+      </div>
+      <div>
+        <div class="text-rose-300 font-semibold">Chuyên khoa</div>
+        <div class="text-white font-bold">Tim mạch &amp; Lồng ngực (CT)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5 ĐIỂM CỐT LÕI (TEACHING POINTS) -->
+  <div class="not-prose my-8 p-6 rounded-2xl bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-300/80 shadow-md">
+    <div class="flex items-center gap-2 mb-4">
+      <span class="p-1.5 rounded-lg bg-amber-600 text-white font-black text-sm">★</span>
+      <h3 class="text-lg font-extrabold text-amber-950 uppercase tracking-wide m-0">5 Thông Điệp Thực Hành Cốt Lõi (Teaching Points)</h3>
+    </div>
+    <ul class="space-y-3 text-sm text-amber-900 leading-relaxed font-medium">
+      <li class="flex items-start gap-2.5">
+        <span class="w-2 h-2 rounded-full bg-amber-600 mt-2 shrink-0"></span>
+        <span><strong>Giao thức chụp CT tối ưu:</strong> Bắt buộc chụp ở <strong>thì động mạch hệ thống (Systemic Arterial Phase)</strong> với tốc độ tiêm <strong>4–5 mL/s</strong>, kích hoạt bolus tracking tại đoạn giữa động mạch chủ ngực xuống. <strong>Tuyệt đối không sử dụng nước muối đuổi (saline chaser)</strong> nhằm tránh làm loãng hoặc rửa trôi thuốc cản quang trong tuần hoàn động mạch phổi. Trường chụp phải mở rộng từ nền cổ xuống hết <strong>thân tạng (celiac axis)</strong> để không bỏ sót các nhánh cấp máu xuất phát dưới cơ hoành.</span>
+      </li>
+      <li class="flex items-start gap-2.5">
+        <span class="w-2 h-2 rounded-full bg-amber-600 mt-2 shrink-0"></span>
+        <span><strong>Phân loại cơ chế sinh bệnh học:</strong> Ho ra máu chia thành 2 nhóm cơ chế lớn: <em>(1) Cơ chế mạch máu nguyên phát</em> (phì đại mạch hệ thống mạn tính, tổn thương khu trú gây giả phình mạch, biệt lập phổi, dị dạng/rò động - tĩnh mạch, và xuất huyết mức độ mao mạch) và <em>(2) Cơ chế mạch máu thứ phát</em> (phá hủy nhu mô phổi do nhiễm trùng/nhồi máu và xâm lấn trực tiếp đường thở do u hoặc sỏi phế quản).</span>
+      </li>
+      <li class="flex items-start gap-2.5">
+        <span class="w-2 h-2 rounded-full bg-amber-600 mt-2 shrink-0"></span>
+        <span><strong>Sinh lý bệnh phì đại động mạch phế quản:</strong> Khi bị viêm hoặc thiếu oxy mạn tính, lưu lượng tim đổ vào động mạch phế quản có thể <strong>tăng vọt từ mức bình thường 1% lên tới 30%</strong>. Những mạch máu phì đại này có thành rất mỏng manh, chịu áp lực tuần hoàn hệ thống cao, nằm sát dưới niêm mạc phế quản nên rất dễ vỡ bung vào lòng đường thở gây ho ra máu sét đánh.</span>
+      </li>
+      <li class="flex items-start gap-2.5">
+        <span class="w-2 h-2 rounded-full bg-amber-600 mt-2 shrink-0"></span>
+        <span><strong>Động mạch hệ thống ngoài phế quản (NBSA):</strong> Trong khi ĐM phế quản phì đại theo các đường giải phẫu bình thường, các nhánh NBSA (ĐM ngực trong, gian sườn, hoành dưới, ngực ngoài, thân giáp cổ...) xâm nhập cấp máu cho phổi qua <em>đường giải phẫu mắc phải (dây chằng phổi, màng phổi dày dính)</em>. Nhận diện NBSA là chìa khóa tránh thất bại sau can thiệp nút ĐM phế quản đơn thuần.</span>
+      </li>
+      <li class="flex items-start gap-2.5">
+        <span class="w-2 h-2 rounded-full bg-amber-600 mt-2 shrink-0"></span>
+        <span><strong>Giả phình động mạch phổi (PAP):</strong> Đa số các túi giả phình mạch trong phổi có nguồn gốc từ <strong>tuần hoàn động mạch phổi</strong> (như phình Rasmussen do lao, thuyên tắc nhiễm trùng, u xâm lấn). Khi phát hiện PAP, can thiệp nút coil bắt buộc phải tiếp cận qua <strong>đường tĩnh mạch hệ thống</strong> (Systemic Venous Approach) chứ không phải đường động mạch đùi!</span>
+      </li>
+    </ul>
+  </div>
+
+
+  <!-- PHẦN 1: ĐỊNH NGHĨA & KỸ THUẬT CHỤP CT -->
+  <h2 id="phan-1-dinh-nghia-va-ky-thuat-ct">1. Định Nghĩa, Nguy Cơ Lâm Sàng &amp; Kỹ Thuật Chụp CT Chuyên Biệt</h2>
+  
+  <p>
+    <strong>Ho ra máu (Hemoptysis)</strong> được định nghĩa là sự khạc ra máu bắt nguồn từ các phế nang hoặc đường dẫn khí của đường hô hấp dưới. Về mặt lâm sàng, cần phân biệt rõ ho ra máu với nôn ra máu (Hematemesis - từ đường tiêu hóa trên) và máu chảy từ tổn thương vùng mũi họng bị hít sặc vào đường thở (Pseudomhemoptysis).
+  </p>
+
+  <div class="not-prose my-6 p-4 rounded-xl bg-red-50 border border-red-200">
+    <div class="font-bold text-red-950 mb-1 text-sm flex items-center gap-2">
+      <span class="w-2.5 h-2.5 rounded-full bg-red-600"></span>
+      Cảnh báo lâm sàng then chốt: Nguy cơ ngạt thở đe dọa tính mạng
+    </div>
+    <p class="text-xs sm:text-sm text-red-900 leading-relaxed m-0">
+      Mặc dù y văn thường phân loại ho ra máu thành "ho ra máu sét đánh/ồ ạt" (massive) hay "không ồ ạt" (submassive) dựa trên thể tích máu khạc ra, các thuật ngữ này hiện thiếu sự đồng thuận và ít có giá trị định hướng xử trí. <strong>Nguyên nhân tử vong hàng đầu ở bệnh nhân ho ra máu là SUY HÔ HẤP DO NGẠT THỞ (Asphyxiation) chứ không phải do sốc mất máu (Exsanguination).</strong> Toàn bộ cây khí phế quản người trưởng thành chỉ có dung tích chứa khoảng <strong>250 mL</strong> (tương đương thể tích một lon nước ngọt nhỏ). Do đó, chỉ cần một lượng máu rất nhỏ làm đông tắc đường thở cũng có thể gây tử vong nhanh chóng nếu không được giải phóng đường thở kịp thời!
+    </p>
+  </div>
+
+  <h3 id="1-1-ky-thuat-chup-ct">1.1. Kỹ Thuật Chụp Cắt Lớp Vi Tính Đa Dãy (MDCT Protocol)</h3>
+  <p>
+    Theo Tiêu chuẩn Phù hợp của Trường Môn Điện quang Hoa Kỳ (ACR Appropriateness Criteria), chụp CT ngực có tiêm thuốc cản quang được đánh giá là phương tiện <strong>"thường là phù hợp nhất" (Usually Appropriate)</strong> cho cả ho ra máu đe dọa tính mạng và không đe dọa tính mạng. CT không chỉ giúp định vị chính xác vị trí chảy máu mà còn xác định cơ chế bệnh sinh, tìm mạch máu thủ phạm và lập kế hoạch can thiệp nội mạch hoặc phẫu thuật.
+  </p>
+
+  <!-- BẢNG 1: GIAO THỨC CHỤP CT -->
+  <div class="not-prose my-6 overflow-x-auto">
+    <table class="w-full text-left border-collapse text-xs sm:text-sm border border-slate-200">
+      <caption class="text-left font-bold text-slate-900 pb-2 uppercase tracking-wide">Bảng 1. Giao thức chụp CT ngực đánh giá ho ra máu (RadioGraphics 2021)</caption>
+      <thead class="bg-slate-100 text-slate-900 border-b border-slate-300">
+        <tr>
+          <th class="p-2.5 border-r border-slate-200 w-1/3">Thông Số Kỹ Thuật</th>
+          <th class="p-2.5 border-r border-slate-200">Chi Tiết Cài Đặt Khuyến Cáo</th>
+          <th class="p-2.5 font-bold">Lý Do Lâm Sàng &amp; Lưu Ý</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200">
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-slate-900 border-r border-slate-200">Thể tích thuốc cản quang</td>
+          <td class="p-2.5 border-r border-slate-200 font-semibold text-rose-700">110 – 125 mL</td>
+          <td class="p-2.5 text-slate-700">Thể tích lớn giúp duy trì nồng độ cản quang kéo dài trong cả hệ ĐM phổi và hệ ĐM phế quản.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-slate-900 border-r border-slate-200">Tốc độ tiêm (Flow rate)</td>
+          <td class="p-2.5 border-r border-slate-200 font-semibold text-rose-700">4.0 – 5.0 mL/giây</td>
+          <td class="p-2.5 text-slate-700">Đảm bảo ngấm thuốc đậm đặc tức thì trong lòng các nhánh động mạch phế quản nhỏ &lt;2 mm.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-slate-900 border-r border-slate-200">Thì quét &amp; Bolus tracking</td>
+          <td class="p-2.5 border-r border-slate-200 font-semibold text-rose-700">Thì động mạch hệ thống (Systemic Arterial Phase)</td>
+          <td class="p-2.5 text-slate-700">Đặt ROI kích hoạt bolus tracking tại <strong>đoạn giữa ĐMC ngực xuống</strong>. Giúp hiện hình tối ưu ĐM phế quản (nguồn chảy máu trong 90% ca can thiệp).</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-slate-900 border-r border-slate-200 bg-red-50/50">Nước muối đuổi (Saline Chaser)</td>
+          <td class="p-2.5 border-r border-slate-200 font-bold text-red-700 bg-red-50/50">TUYỆT ĐỐI KHÔNG DÙNG</td>
+          <td class="p-2.5 text-red-800 bg-red-50/50 font-medium">Bơm nước muối đuổi sẽ làm loãng và rửa trôi thuốc cản quang trong thân và các nhánh động mạch phổi, làm mất khả năng phát hiện giả phình ĐM phổi (PAP).</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-slate-900 border-r border-slate-200">Phạm vi quét (Coverage)</td>
+          <td class="p-2.5 border-r border-slate-200 font-semibold text-slate-800">Từ nền cổ xuống hết thân tạng (Celiac Axis)</td>
+          <td class="p-2.5 text-slate-700">Rất quan trọng! Khoảng 10–15% ca ho ra máu có nguồn mạch cấp máu xuất phát từ dưới cơ hoành (ĐM hoành dưới, ĐM vị trái, các nhánh thân tạng - <em>xem Hình 1</em>).</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-slate-900 border-r border-slate-200">Độ dày lát cắt tái tạo</td>
+          <td class="p-2.5 border-r border-slate-200 font-semibold text-slate-800">1 mm (Kernel chuẩn cho mạch máu &amp; mô mềm)</td>
+          <td class="p-2.5 text-slate-700">Tái tạo đa bình diện (MPR) Coronal và Sagittal trực tiếp từ dữ liệu thô (raw data).</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-slate-900 border-r border-slate-200">Cửa sổ nhu mô phổi</td>
+          <td class="p-2.5 border-r border-slate-200 font-semibold text-slate-800">Lát cắt 3 mm / bước nhảy 2 mm (Kernel phổi chuyên biệt)</td>
+          <td class="p-2.5 text-slate-700">Đánh giá xuất huyết nhu mô (kính mờ, đông đặc, crazy-paving) và đường dẫn khí.</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-slate-900 border-r border-slate-200">Kỹ thuật xử lý sau dựng hình</td>
+          <td class="p-2.5 border-r border-slate-200 font-semibold text-slate-800">MIP, Dựng hình cong, 3D Thể tích (VR)</td>
+          <td class="p-2.5 text-slate-700">Lập bản đồ đường đi giải phẫu của các nhánh ĐM phế quản phì đại và mạch bàng hệ hệ thống cho bác sĩ can thiệp mạch (IR).</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-slate-900 border-r border-slate-200">Các chuỗi quét bổ sung (Tùy chọn)</td>
+          <td class="p-2.5 border-r border-slate-200 font-semibold text-slate-800">
+            • Thì không tiêm cản quang<br/>
+            • Thì tĩnh mạch cửa (delay 70 giây)
+          </td>
+          <td class="p-2.5 text-slate-700">
+            • Chụp không tiêm ở bệnh nhân chấn thương xuyên thấu hoặc tiền sử phẫu thuật để phân biệt dị vật/vật liệu phẫu thuật với thoát thuốc cản quang.<br/>
+            • Thì trễ 70s ở bệnh nhân có u phổi hoặc ổ áp xe để đánh giá mức độ ngấm thuốc nhu mô.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- FIGURE 1 -->
+  <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm not-prose">
+    <img 
+      src="/posts/ct-cho-ho-ra-mau-radiographics/figure1_intralobar_sequestration.jpg" 
+      alt="Hình 1: Ho ra máu ở bệnh nhân nữ 24 tuổi có tiền sử phẫu thuật hàn cột sống" 
+      class="w-full h-auto object-contain mx-auto"
+      loading="lazy"
+    />
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 1. Ho ra máu ở bệnh nhân nữ 24 tuổi có tiền sử phẫu thuật hàn xương cột sống điều trị vẹo cột sống (Scoliosis).</strong>
+      <strong>(a)</strong> Ảnh CT cắt ngang cửa sổ phổi cho thấy dấu hiệu xuất huyết nhu mô với đám mờ kính mờ lan tỏa ở thùy giữa và thùy dưới phổi phải. Đám kính mờ bao quanh vùng phổi đông đặc ở phần trong thùy dưới phải, nằm ngay sát vật liệu hàn cột sống đâm xuyên vào nhu mô phổi.
+      <strong>(b)</strong> Ảnh tái tạo coronal (MPR) bộc lộ rõ vùng phổi đông đặc được cấp máu bởi các nhánh động mạch hệ thống phì đại xuất phát từ <strong>động mạch hoành dưới (mũi tên)</strong>. Hình ảnh điển hình của một ổ biệt lập phổi trong thùy (intralobar sequestration) mắc phải do quá trình viêm mạn tính quanh đinh nẹp cột sống.
+      <strong>(c)</strong> Chụp mạch số hóa xóa nền qua ống thông chọn lọc thân tạng xác nhận nhánh ĐM hoành dưới phì đại (mũi tên) cấp máu cho tổn thương. Bệnh nhân được nút mạch thành công bằng hạt PVA trước khi phẫu thuật cắt bỏ tổn thương an toàn. <em>Ca lâm sàng khẳng định nguyên tắc bắt buộc phải quét CT qua hết tầng thân tạng!</em>
+    </figcaption>
+  </figure>
+
+  <!-- PHẦN 2: DẤU HIỆU XUẤT HUYẾT TRÊN CT -->
+  <h2 id="phan-2-nhan-dien-dau-hieu-xuat-huyet">2. Nhận Diện Dấu Hiệu Xuất Huyết Trên Cắt Lớp Vi Tính</h2>
+  <p>
+    Bước đầu tiên trong quy trình đọc phim CT ở bệnh nhân ho ra máu là tìm kiếm các dấu hiệu gián tiếp cho thấy sự hiện diện của máu trong phế nang hoặc trong đường dẫn khí.
+  </p>
+
+  <h3 id="2-1-xuat-huyet-nhu-mo-va-phe-nang">2.1. Dấu hiệu xuất huyết phế nang &amp; nhu mô phổi</h3>
+  <ul>
+    <li><strong>Kính mờ (Ground-Glass Opacity - GGO) và Đông đặc (Consolidation):</strong> Máu lấp đầy các phế nang biểu hiện điển hình dưới dạng kính mờ (nếu lấp đầy một phần) hoặc đông đặc hoàn toàn. Dù các hình thái này có thể gặp trong phù phổi hoặc viêm phổi, ở bệnh nhân đang ho ra máu, chúng phải được coi là <em>vùng xuất huyết nhu mô cấp tính</em>.</li>
+    <li><strong>Hình ảnh "Lát đá vỉa hè" (Crazy-Paving Pattern):</strong> Ở giai đoạn bán cấp, các đại thực bào phế nang thực bào hồng cầu thoái hóa và di chuyển vào mạng lưới bạch huyết nằm trong các vách liên tiểu thùy. Quá trình này tạo nên hình ảnh dày vách liên tiểu thùy trên nền kính mờ (<strong>Hình 2</strong>).</li>
+    <li><strong>Phân bố tổn thương:</strong> Tổn thương dạng <em>lan tỏa (diffuse)</em> thường gợi ý bệnh lý hệ thống (viêm mạch tự miễn, rối loạn đông máu) và thường không có chỉ định can thiệp nút mạch cục bộ. Ngược lại, tổn thương <em>khu trú (focal)</em> giúp định vị chính xác vị trí mạch máu thủ phạm để can thiệp.</li>
+  </ul>
+
+  <!-- FIGURE 2 -->
+  <div class="my-8 max-w-xl mx-auto not-prose">
+    <figure class="rounded-2xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+      <img 
+        src="/posts/ct-cho-ho-ra-mau-radiographics/figure2_small_vessel_vasculitis_crazy_paving.jpg" 
+        alt="Hình 2: Viêm mạch máu nhỏ và ho ra máu từng đợt ở nam giới 38 tuổi" 
+        class="w-full h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+      <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+        <strong>Hình 2. Viêm mạch máu nhỏ (Small-vessel vasculitis) và ho ra máu từng đợt ở nam giới 38 tuổi.</strong> Ảnh CT cắt ngang cửa sổ phổi bộc lộ đám mờ kính mờ kết hợp dày các vách liên tiểu thùy tạo nên dạng hình thái "lát đá vỉa hè" (crazy-paving pattern). Kính mờ là dấu hiệu gián tiếp của xuất huyết phế nang, được khẳng định bằng nội soi phế quản. Dày vách liên tiểu thùy xuất hiện trong giai đoạn bán cấp khi đại thực bào thâm nhiễm và dọn dẹp các sản phẩm thoái hóa của hồng cầu qua hệ bạch huyết.
+      </figcaption>
+    </figure>
+  </div>
+
+  <h3 id="2-2-mau-trong-duong-dan-khi">2.2. Dấu hiệu máu trong đường thở &amp; Phân biệt máu tại chỗ vs Máu hít sặc</h3>
+  <p>
+    Máu chảy vào lòng khí phế quản tạo nên các dấu hiệu chẩn đoán đặc hiệu:
+  </p>
+  <ul>
+    <li><strong>Khuyết thuốc trong lòng phế quản (Filling defect):</strong> Trong các phế quản lớn, cục máu đông biểu hiện dưới dạng cấu trúc choán chỗ có <strong>đậm độ tự nhiên cao (>40 HU)</strong> trên phim chụp CT, giúp phân biệt rõ ràng với các nút nhầy ứ đọng thông thường (thường &lt;20 HU) (<strong>Hình 3</strong>). Cục máu đông lớn có thể gây bít tắc hoàn toàn lòng phế quản dẫn đến xẹp phổi hạ lưu.</li>
+    <li><strong>Nốt mờ trung tâm tiểu thùy &amp; Dạng nụ trên cành (Tree-in-bud):</strong> Ở các nhánh phế quản ngoại vi nhỏ hơn, máu hít sặc lắng đọng tạo thành các nốt mờ trung tâm tiểu thùy và hình ảnh chồi cây tương tự như viêm tiểu phế quản nhiễm trùng.</li>
+    <li><strong>Phân biệt máu tại chỗ (Parenchymal) vs Máu hít sặc (Aspirated blood):</strong> Đây là điểm mấu chốt để tìm tổn thương thủ phạm. Máu hít sặc thường tạo thành các chùm nốt nụ trên cành nhỏ, giới hạn rõ ở vùng thấp/hạ lưu, trong khi xuất huyết nhu mô tại chỗ thường có dạng kính mờ dạng đám rộng hoặc đông đặc liên tục quanh mạch máu tổn thương. Khi thấy máu hít sặc ở ngoại vi, người đọc phim phải truy ngược lên cây phế quản đoạn gần để tìm nguồn chảy máu thực sự!</li>
+  </ul>
+
+  <!-- FIGURE 3 -->
+  <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm not-prose">
+    <img 
+      src="/posts/ct-cho-ho-ra-mau-radiographics/figure3_ectopic_bronchial_artery_clot.jpg" 
+      alt="Hình 3: Bệnh tim bẩm sinh đã sửa chữa biểu hiện bằng ho ra máu ở nam 36 tuổi" 
+      class="w-full h-auto object-contain mx-auto"
+      loading="lazy"
+    />
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 3. Bệnh tim bẩm sinh đã phẫu thuật sửa chữa biểu hiện ho ra máu ở nam 36 tuổi.</strong>
+      <strong>(a)</strong> CT cắt ngang cửa sổ phổi cho thấy các nốt kính mờ rải rác ở phân thùy ngoài thùy giữa phải.
+      <strong>(b)</strong> Cửa sổ mô mềm bộc lộ tổn thương khuyết thuốc có đậm độ cao (60 HU, mũi tên) trong lòng phế quản thùy dưới phải, phù hợp với cục máu đông nội phế quản gây xẹp gần hoàn toàn thùy dưới phải, chỉ điểm nguồn chảy máu nằm ở phổi phải.
+      <strong>(c)</strong> Ảnh CT cắt ngang phát hiện một <strong>động mạch phế quản lạc vị (ectopic bronchial artery)</strong> xuất phát từ mặt dưới quai động mạch chủ với lỗ xuất phát dãn lớn tới 3 mm (mũi tên).
+      <strong>(d)</strong> Tái tạo MIP chếch đứng dọc (sagittal oblique) theo dõi toàn bộ đường đi của động mạch phế quản lạc vị phì đại (mũi tên) chạy thẳng tới vị trí cục máu đông trong phế quản thùy dưới phải.
+      <strong>(e)</strong> Chụp mạch số hóa xóa nền chọn lọc ĐM phế quản lạc vị phải khẳng định khẩu kính phì đại lớn và cấp máu lan lên cả màng phổi đỉnh phải. Can thiệp nút mạch bằng hạt PVA 500–700 μm giúp cắt đứt hoàn toàn dòng chảy và bệnh nhân hết ho ra máu.
+    </figcaption>
+  </figure>
+
+
+  <!-- PHẦN 3: CÁC CƠ CHẾ HO RA MÁU NGUYÊN PHÁT -->
+  <h2 id="phan-3-co-che-mach-mau-nguyen-phat">3. Các Cơ Chế Ho Ra Máu Nguyên Phát Do Mạch Máu (Primary Vascular Mechanisms)</h2>
+  
+  <p>
+    Không có một cơ chế bệnh sinh đơn độc nào giải thích cho toàn bộ các trường hợp ho ra máu. Về mặt hình ảnh học và huyết động, các nguyên nhân được phân thành hai nhóm cơ chế lớn: <strong>(1) Cơ chế mạch máu nguyên phát</strong> và <strong>(2) Cơ chế mạch máu thứ phát</strong>.
+  </p>
+
+  <h3 id="3-1-phi-dai-mach-he-thong-man-tinh">3.1. Phì Đại Mạch Máu Hệ Thống Mạn Tính (Chronic Systemic Vascular Hypertrophy)</h3>
+  <p>
+    Phổi có hệ thống tuần hoàn kép độc đáo:
+  </p>
+  <ul>
+    <li><strong>Tuần hoàn động mạch phổi:</strong> Cung cấp máu tĩnh mạch nghèo oxy với áp lực thấp (huyết áp tâm thu bình thường 15–25 mmHg), chiếm tới <strong>99% tổng lượng máu lên phổi</strong> và trực tiếp tham gia quá trình trao đổi khí.</li>
+    <li><strong>Tuần hoàn động mạch phế quản:</strong> Cung cấp máu giàu oxy với áp lực hệ thống cao (huyết áp tương đương động mạch chủ), chiếm khoảng <strong>1% cung lượng tim</strong> trong điều kiện sinh lý bình thường. Chức năng chính là nuôi dưỡng phế quản, tổ chức liên kết nhu mô và các cấu trúc trung thất.</li>
+  </ul>
+
+  <div class="not-prose my-6 p-4 rounded-xl bg-blue-50 border border-blue-200">
+    <div class="font-bold text-blue-950 mb-1 text-sm flex items-center gap-2">
+      <span class="w-2.5 h-2.5 rounded-full bg-blue-600"></span>
+      Sinh lý bệnh phì đại &amp; Tân tạo mạch hệ thống
+    </div>
+    <p class="text-xs sm:text-sm text-blue-900 leading-relaxed m-0">
+      Trong các bệnh lý mạn tính gây thiếu oxy tổ chức, viêm mạn tính kéo dài hoặc khối u (giãn phế quản, lao phổi, xơ nang, nấm phổi, ung thư), các cytokine tiền tạo mạch như <strong>Angiopoietin-1</strong> và <strong>Yếu tố tăng trưởng biểu bì (EGF)</strong> được giải phóng ồ ạt, kích thích dãn mạch, tái cấu trúc thành mạch và tân tạo mạch hệ thống. Khi đó, lưu lượng máu đổ vào các động mạch phế quản có thể <strong>tăng từ 1% lên tới 30% tổng cung lượng tim!</strong> Do phải chịu áp lực tuần hoàn hệ thống cao trong khi thành mạch mới tân tạo lại rất mỏng manh, các mạch máu này phình to, ngoằn ngoèo, ăn sâu dưới niêm mạc phế quản và rất dễ vỡ bung vào lòng đường thở.
+    </p>
+  </div>
+
+  <h4 id="3-1-1-dong-mach-phe-quan-chinh-vi-va-lac-vi">3.1.1. Giải phẫu Động mạch Phế quản: Chính vị vs Lạc vị &amp; Tiêu chuẩn phì đại</h4>
+  <ul>
+    <li><strong>Động mạch phế quản chính vị (Orthotopic Bronchial Arteries):</strong> Xuất phát từ mặt trước - bên của động mạch chủ ngực xuống đoạn gần, tương ứng mức <strong>giữa bờ trên đốt sống T5 và bờ dưới đốt sống T6</strong>. ĐM phế quản chính vị đi ở khoang sau phế quản trong trung thất trước khi tiến vào rốn phổi.</li>
+    <li><strong>Động mạch phế quản lạc vị (Ectopic Bronchial Arteries):</strong> Chiếm tới 20–30% trường hợp, xuất phát từ các vị trí bất thường khác dọc quai ĐMC, thân cánh tay đầu, ĐM dưới đòn, thân giáp cổ, ĐM ngực trong hoặc hiếm hơn là từ ĐM vành. Nhận diện các nhánh lạc vị là yếu tố sống còn giúp tránh thất bại can thiệp nút mạch.</li>
+    <li><strong>Thân chung Gian sườn - Phế quản (Intercostal-Bronchial Artery Trunk - ICBT):</strong> Thường gặp nhất ở bên phải, trong đó một nhánh ĐM phế quản phải chung gốc xuất phát với một nhánh ĐM gian sườn (thường là gian sườn 3 hoặc 4). Theo nghiên cứu tử thi kinh điển của Cauldwell và Siekert (1948), dạng phân nhánh phổ biến nhất (chiếm 41% cá thể) gồm <em>1 nhánh ĐM phế quản phải xuất phát từ thân ICBT và 2 nhánh ĐM phế quản trái xuất phát trực tiếp từ ĐMC</em>.</li>
+    <li><strong>Tiêu chuẩn chẩn đoán phì đại trên MDCT:</strong> Bình thường ĐM phế quản có đường kính đoạn gốc <strong>&lt;2 mm</strong> và đoạn đầu xa &lt;0.5 mm. <strong>Động mạch phế quản được coi là phì đại khi đường kính đoạn gần đo được từ ≥2.0 mm trở lên trên CT</strong> (hoặc &gt;0.5 mm ở mức rốn phổi và ngoại vi). Sự phì đại bất đối xứng giữa hai bên là dấu hiệu chỉ điểm cực kỳ có giá trị (<strong>Hình 4</strong>).</li>
+    <li><strong>Đường đi lạc chỗ trong lòng phế quản (Intrabronchial Course):</strong> Hiếm gặp nhưng là một bẫy chẩn đoán chết người! Nhánh ĐM phế quản phì đại có thể đâm xuyên qua thành sụn và chạy trần trụi ngay trong lòng phế quản gốc (<strong>Hình 5</strong>). Bác sĩ CĐHA bắt buộc phải báo cáo dấu hiệu này để cảnh báo bác sĩ nội soi hô hấp không được sinh thiết hoặc can thiệp thô bạo vào vị trí này, tránh gây xuất huyết ồ ạt không cầm được.</li>
+  </ul>
+
+  <!-- FIGURES 4 & 5 -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8 not-prose">
+    <figure class="rounded-2xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm m-0">
+      <img 
+        src="/posts/ct-cho-ho-ra-mau-radiographics/figure4_cystic_fibrosis_bronchial_hypertrophy.jpg" 
+        alt="Hình 4: Ho ra máu ở bệnh nhân nam 28 tuổi mắc bệnh xơ nang" 
+        class="w-full h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+      <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+        <strong>Hình 4. Ho ra máu ở bệnh nhân nam 28 tuổi mắc bệnh xơ nang (Cystic Fibrosis).</strong>
+        <strong>(a)</strong> Tái tạo MIP coronal CT bộc lộ vùng đông đặc và giãn phế quản nặng ở thùy trên hai phổi kèm giảm thể tích và co kéo rốn phổi lên cao. Nhiều nhánh động mạch phế quản chính vị phì đại ngoằn ngoèo chiếm ưu thế bên phải (mũi tên) trong trung thất.
+        <strong>(b)</strong> Chụp mạch qua catheter chọn lọc ĐM phế quản phải (mũi tên) cho thấy các nhánh mạch phì đại dữ dội kèm vùng đọng thuốc cản quang đa ổ (multifocal staining) ở thùy trên phổi phải. Can thiệp nút mạch bằng hạt PVA 500–700 μm giúp kiểm soát thành công ho ra máu.
+      </figcaption>
+    </figure>
+
+    <figure class="rounded-2xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm m-0">
+      <img 
+        src="/posts/ct-cho-ho-ra-mau-radiographics/figure5_intrabronchial_course_bronchial_artery.jpg" 
+        alt="Hình 5: Đường đi trong lòng phế quản của động mạch phế quản phải phì đại" 
+        class="w-full h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+      <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+        <strong>Hình 5. Đường đi trong lòng phế quản (Intrabronchial course) của ĐM phế quản phải phì đại ở cụ bà 90 tuổi có tiền sử nhiễm trực khuẩn lao không điển hình mạn tính.</strong> Ảnh CT tái tạo MPR coronal bộc lộ vô số nhánh tuần hoàn bàng hệ phế quản dãn lớn, trong đó có một nhánh đâm xuyên và chạy trực tiếp ngay trong lòng phế quản gốc phải (mũi tên). Đây là dấu hiệu trực tiếp chỉ điểm mạch máu thủ phạm và là thông tin tối thượng giúp bác sĩ nội soi phế quản tránh chọc hút/sinh thiết gây tử vong do xuất huyết sét đánh.
+      </figcaption>
+    </figure>
+  </div>
+
+  <h4 id="3-1-2-dong-mach-he-thong-ngoai-phe-quan-nbsa">3.1.2. Động Mạch Hệ Thống Ngoài Phế Quản (Nonbronchial Systemic Arteries - NBSA)</h4>
+  <p>
+    Trong khi động mạch phế quản mở rộng dòng máu qua các con đường giải phẫu bình thường, các <strong>động mạch hệ thống ngoài phế quản (NBSA)</strong> lại xâm nhập vào phổi qua các <strong>con đường giải phẫu mắc phải</strong>, điển hình là qua các cầu dính màng phổi (pleural adhesions) và dây chằng phổi (pulmonary ligaments).
+  </p>
+  <ul>
+    <li><strong>Các nguồn NBSA thường gặp nhất:</strong> Động mạch ngực trong (Internal mammary artery), các động mạch gian sườn (Intercostal arteries), động mạch ngực ngoài (Lateral thoracic artery), động mạch hoành dưới (Inferior phrenic artery), thân sườn cổ (Costocervical trunk), thân giáp cổ (Thyrocervical trunk), và hiếm hơn là từ ĐM chẩm, ĐM cảnh hoặc ĐM vị trái (<strong>Hình 9</strong>).</li>
+    <li><strong>Tiêu chuẩn nhận diện NBSA trên CT:</strong> Khác với ĐM phế quản, <em>không có ngưỡng kích thước cố định nào để định nghĩa NBSA bất thường</em>. Bất kỳ một nhánh động mạch hệ thống nào được phát hiện đâm xuyên qua màng phổi dày dính đi vào nhu mô phổi hoặc bò dọc theo cây phế quản đều là bằng chứng của tuần hoàn bàng hệ NBSA bệnh lý! Sự phì đại bất đối xứng của các cặp động mạch (như ĐM ngực trong hai bên hoặc ĐM gian sườn hai bên) kết hợp với dày màng phổi kế cận là dấu hiệu chỉ điểm kinh điển (<strong>Hình 6</strong>).</li>
+    <li><strong>Nguồn cấp máu kép (Dual Supply) &amp; Nguyên nhân tái phát:</strong> Nhiều tổn thương viêm mạn tính (u nấm Aspergillus/Mycetoma, hang lao) đồng thời nhận máu từ cả ĐM phế quản và các nhánh NBSA (<strong>Hình 7</strong>). Ở những bệnh nhân bị ho ra máu tái phát sau khi đã nút ĐM phế quản, việc khảo sát tỉ mỉ các nhánh NBSA bỏ sót là chìa khóa điều trị dứt điểm (<strong>Hình 8</strong>).</li>
+  </ul>
+
+  <!-- FIGURES 6, 7, 8 -->
+  <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm not-prose">
+    <img 
+      src="/posts/ct-cho-ho-ra-mau-radiographics/figure6_nonbronchial_systemic_collaterals.jpg" 
+      alt="Hình 6: Tuần hoàn bàng hệ động mạch hệ thống ngoài phế quản ở nam 35 tuổi" 
+      class="w-full h-auto object-contain mx-auto"
+      loading="lazy"
+    />
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 6. Cấp máu từ động mạch hệ thống ngoài phế quản (NBSA) ở bệnh nhân nam 35 tuổi có tiền sử nhiễm trùng mạn tính thùy trên phổi trái.</strong>
+      <strong>(a)</strong> Ảnh CT tái tạo coronal (MPR) bộc lộ vùng dày màng phổi đỉnh trái (đầu mũi tên, ảnh trái) - một dấu hiệu gián tiếp kinh điển. Các nhánh động mạch dãn ngoằn ngoèo phát triển dày đặc dọc theo màng phổi dày (mũi tên ở cả hai ảnh) đại diện cho mạng lưới NBSA phì đại cấp máu cho phổi trái.
+      <strong>(b)</strong> Chụp mạch qua catheter chọn lọc ĐM ngực trong trái (ảnh phải) và ĐM ngực ngoài trái (ảnh trái) khẳng định các nhánh bàng hệ xuyên màng phổi (transpleural collaterals) đổ dồn vào thùy trên phổi trái kèm tăng sinh mạch nhu mô rõ rệt (mũi tên). Bệnh nhân được nút mạch tạm thời bằng xốp gelatin trước khi phẫu thuật cắt thùy phổi.
+    </figcaption>
+  </figure>
+
+  <!-- FIGURE 7 -->
+  <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm not-prose">
+    <img 
+      src="/posts/ct-cho-ho-ra-mau-radiographics/figure7_mycetoma_dual_supply.jpg" 
+      alt="Hình 7: Ho ra máu tái phát ở bệnh nhân nữ 74 tuổi có nguồn cấp máu kép cho u nấm" 
+      class="w-full h-auto object-contain mx-auto"
+      loading="lazy"
+    />
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 7. Ho ra máu tái phát ở bệnh nhân nữ 74 tuổi có cấp máu kép (Dual supply) cho u nấm (Mycetoma).</strong>
+      <strong>(a)</strong> CT cắt ngang cửa sổ phổi cho thấy hang thùy trên phổi phải chứa khối u nấm bên trong kèm các ổ tăng tỷ trọng mạch máu ở ngoại vi (mũi tên).
+      <strong>(b)</strong> Dựng hình MIP coronal bộc lộ ĐM phế quản phải phì đại xuất phát từ thân chung gian sườn - phế quản (ICBT, mũi tên).
+      <strong>(c)</strong> Chụp mạch ban đầu khẳng định tổn thương nhận máu chủ yếu từ thân ICBT phải (mũi tên) và được nút mạch bằng hạt PVA 300–500 μm. Tuy nhiên, bệnh nhân bị ho ra máu tái phát sau đó.
+      <strong>(d)</strong> Đánh giá lại phim CT gốc phát hiện thêm ĐM ngực trong phải (mũi tên đen) và <strong>thân sườn cổ phải (costocervical trunk - mũi tên trắng)</strong> dãn bất đối xứng, cho nhánh đâm thẳng vào khối u nấm. Chụp mạch lặp lại chọn lọc ĐM ngực trong được nút hạt PVA 500 μm thành công; thân sườn cổ được điều trị bảo tồn do có nhánh cấp máu tủy cổ nguy hiểm. Bệnh nhân ổn định hoàn toàn sau đợt can thiệp thứ hai.
+    </figcaption>
+  </figure>
+
+  <!-- FIGURE 8 -->
+  <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm not-prose">
+    <img 
+      src="/posts/ct-cho-ho-ra-mau-radiographics/figure8_complex_vascular_supply_post_inhalation.jpg" 
+      alt="Hình 8: Hệ thống cấp máu phức tạp ở nam 34 tuổi sau tổn thương hít khí độc" 
+      class="w-full h-auto object-contain mx-auto"
+      loading="lazy"
+    />
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 8. Mạng lưới cấp máu phức tạp ở nam 34 tuổi có tiền sử chấn thương hít khí độc biểu hiện ho ra máu tái phát.</strong>
+      <strong>(a)</strong> CT cắt ngang cho thấy vùng phổi quá sáng (hyperlucent) ở thùy trên phải kèm dày màng phổi bao quanh (đầu mũi tên), chứa nhiều mạch máu ngoằn ngoèo ngấm thuốc mạnh bên trong.
+      <strong>(b)</strong> Dựng hình thể tích 3D (Volume Rendering) bộc lộ tuyệt đẹp mạng lưới bàng hệ phức tạp với sự đóng góp từ ĐM ngực ngoài (mũi tên trắng), ĐM ngực trong phải (mũi tên đen) và các nhánh ĐM phế quản dãn lớn (đầu mũi tên).
+      <strong>(c)</strong> Chụp mạch chọn lọc ĐM dưới đòn phải bộc lộ rõ các nhánh nuôi từ ĐM ngực ngoài (mũi tên trắng), ĐM ngực trong (mũi tên đen) và hiện hình ngược dòng tuần hoàn ĐM phổi phải (mũi tên đứt nét) qua các nhánh nối bàng hệ. Nhánh ĐM ngực ngoài được nút mạch trước mổ giúp phẫu thuật cắt thùy diễn ra an toàn không mất máu.
+    </figcaption>
+  </figure>
+
+  <!-- SƠ ĐỒ HÌNH 9: MASTER DIAGRAM -->
+  <div class="my-8 max-w-lg mx-auto not-prose">
+    <figure class="rounded-2xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+      <img 
+        src="/posts/ct-cho-ho-ra-mau-radiographics/figure9_bronchial_nonbronchial_systemic_diagram.jpg" 
+        alt="Hình 9: Sơ đồ giải phẫu các nguồn động mạch phế quản và động mạch hệ thống ngoài phế quản thường gặp gây ho ra máu" 
+        class="w-full h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+      <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+        <strong>Hình 9. Sơ đồ giải phẫu tổng hợp các nguồn cấp máu phế quản và hệ thống ngoài phế quản (NBSA) thường gặp gây ho ra máu (Marquis et al - RadioGraphics 2021).</strong>
+        <ul class="mt-2 space-y-1 list-disc pl-4 text-xs text-slate-600">
+          <li><strong>A:</strong> Động mạch phế quản chính vị xuất phát từ bờ trước bên ĐMC ngực xuống mức T5–T6 (1 phải, 2 trái). Nhánh nét đứt đỏ minh họa động mạch phế quản lạc vị từ mặt dưới quai ĐMC.</li>
+          <li><strong>B:</strong> Động mạch gian sườn sau (Posterior intercostal arteries) cho các nhánh bàng hệ xuyên màng phổi.</li>
+          <li><strong>C:</strong> Động mạch đốt sống (Vertebral artery).</li>
+          <li><strong>D:</strong> Thân giáp cổ (Thyrocervical trunk).</li>
+          <li><strong>E:</strong> Động mạch ngực trong (Internal mammary artery).</li>
+          <li><strong>F:</strong> Thân sườn cổ (Costocervical trunk).</li>
+          <li><strong>G:</strong> Động mạch ngực ngoài (Lateral thoracic artery) đi ở thành ngực bên.</li>
+          <li><strong>H:</strong> Động mạch hoành dưới (Inferior phrenic arteries) xuất phát từ ĐMC bụng hoặc thân tạng, cấp máu qua dây chằng phổi dưới.</li>
+        </ul>
+      </figcaption>
+    </figure>
+  </div>
+
+
+  <h3 id="3-2-ton-thuong-mach-khu-tru-va-gia-phinh-mach">3.2. Tổn Thương Mạch Khu Trú &amp; Giả Phình Động Mạch (Vascular Damage or Pseudoaneurysm)</h3>
+  <p>
+    Khác với phình động mạch thật sự (True Aneurysm - thành phình chứa đủ cả 3 lớp nội mạc, trung mạc và ngoại mạc), <strong>túi giả phình mạch (Pseudoaneurysm)</strong> hình thành do rách hoặc hoại tử xuyên thành mạch, máu thoát ra ngoài và được bao bọc tạm thời bởi lớp mô liên kết xung quanh hoặc màng phổi. Giả phình mạch có cấu trúc thành cực kỳ mong manh, mất ổn định và có thể vỡ tự do bất cứ lúc nào vào nhu mô phổi hoặc lòng phế quản, gây ho ra máu sét đánh đe dọa tính mạng.
+  </p>
+  <p>
+    <strong>Đa số các túi giả phình mạch gây ho ra máu bắt nguồn từ hệ thống ĐỘNG MẠCH PHỔI</strong>, mặc dù giả phình động mạch phế quản hoặc giả phình động mạch chủ cũng có thể xảy ra.
+  </p>
+
+  <h4 id="3-2-1-gia-phinh-dong-mach-phoi-pap">3.2.1. Giả Phình Động Mạch Phổi (Pulmonary Artery Pseudoaneurysm - PAP)</h4>
+  <p>
+    Nhiễm trùng là nguyên nhân phổ biến nhất gây ra PAP:
+  </p>
+  <ul>
+    <li><strong>Sự lan rộng trực tiếp từ ổ viêm phổi/áp xe kế cận:</strong> Vi khuẩn hoặc nấm gieo rắc từ ngoài vào trong phá hủy thành mạch máu. Điển hình nhất trong y văn là <strong>túi phình Rasmussen (Rasmussen aneurysm)</strong> - một biến chứng hiếm gặp nhưng chết người của bệnh lao phổi (<em>Mycobacterium tuberculosis</em>), thường xuất hiện ở thành hang lao hoặc rìa ổ hoại tử. Trên CT, phình Rasmussen biểu hiện dưới dạng ổ đọng thuốc cản quang tròn nhỏ nằm ở bờ ngoài vùng hoại tử nhu mô, xuất phát từ một nhánh mạch máu nhỏ bình thường khó truy ngược gốc (<strong>Hình 10, Hình 11</strong>).</li>
+    <li><strong>Thuyên tắc động mạch phổi nhiễm trùng (Septic Pulmonary Emboli):</strong> Các cục huyết khối nhiễm trùng (từ viêm nội tâm mạc nhiễm khuẩn van ba lá, nhiễm trùng catheter tĩnh mạch trung tâm hoặc tiêm chích ma túy) trôi theo dòng máu và mắc kẹt trong các nhánh ĐM phổi, gây viêm hoại tử thành mạch từ trong lòng mạch ra ngoài. <em>Bệnh nhân thuyên tắc nhiễm trùng có thể xuất hiện nhiều túi giả phình phổi tiến triển to lên nhanh chóng chỉ trong vài ngày</em> (<strong>Hình 12</strong>).</li>
+    <li><strong>Nguyên nhân không do nhiễm trùng:</strong> Khối u ác tính xâm lấn trực tiếp vào nhánh ĐM phổi, viêm mạch máu (bệnh Behcet, viêm mạch Hughes-Stovin), viêm sau xạ trị (<strong>Hình 13</strong>), chấn thương ngực kín hoặc xuyên thấu, và các biến chứng can thiệp y khoa (thủng ĐM phổi do bóng catheter Swan-Ganz, sinh thiết phổi xuyên thành ngực).</li>
+  </ul>
+
+  <div class="not-prose my-6 p-4 rounded-xl bg-rose-50 border border-rose-200">
+    <div class="font-bold text-rose-950 mb-1 text-sm flex items-center gap-2">
+      <span class="w-2.5 h-2.5 rounded-full bg-rose-600"></span>
+      Cảnh báo hình ảnh: Tại sao túi giả phình ĐM phổi hay bị bỏ sót trên CT?
+    </div>
+    <p class="text-xs sm:text-sm text-rose-900 leading-relaxed m-0">
+      Nhiều nghiên cứu ghi nhận các túi giả phình ĐM phổi (PAP) thường xuyên bị bỏ sót trên phim CT ban đầu. Lý do không phải vì lỗi kỹ thuật (bởi vì nhánh ĐM phổi luôn ngấm thuốc rõ nếu không dùng saline chaser), mà là do <strong>thói quen của người đọc phim chỉ tập trung chú ý vào động mạch phế quản mà lơ là việc rà soát tỉ mỉ cây động mạch phổi!</strong><br/>
+      <strong>Định hướng can thiệp sống còn:</strong> Nhận diện chính xác PAP thay đổi hoàn toàn chiến lược điều trị: Tổn thương ĐM phổi <strong>KHÔNG THỂ tiếp cận qua đường động mạch đùi</strong>, mà bắt buộc bác sĩ can thiệp mạch phải chọc mạch qua <strong>đường tĩnh mạch hệ thống (Systemic Venous Approach)</strong> đi qua tim phải vào ĐM phổi để thả vòng xoắn kim loại (microcoil) bít tắc túi giả phình.
+    </p>
+  </div>
+
+  <!-- FIGURES 10, 11, 12, 13 -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8 not-prose">
+    <figure class="rounded-2xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm m-0">
+      <img 
+        src="/posts/ct-cho-ho-ra-mau-radiographics/figure10_aspergillus_pseudoaneurysm.jpg" 
+        alt="Hình 10: Giả phình động mạch phổi do nấm Aspergillus xâm lấn mạch ở nam 42 tuổi giảm bạch cầu hạt" 
+        class="w-full h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+      <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+        <strong>Hình 10. Giả phình động mạch phổi nhiễm trùng do nấm Aspergillus xâm lấn mạch ở nam 42 tuổi bị giảm bạch cầu hạt.</strong>
+        <strong>(a)</strong> Ảnh CT cắt ngang cho thấy ổ đọng thuốc cản quang nhỏ (mũi tên) với viền giảm tỷ trọng bao quanh ở ngoại vi nốt hoại tử thùy giữa phải, phù hợp với túi giả phình ĐM phổi huyết khối một phần.
+        <strong>(b)</strong> Chụp mạch qua catheter chọn lọc nhánh ĐM phổi thùy giữa phải xác nhận túi giả phình (mũi tên). Tổn thương được nút thành công bằng vi vòng xoắn kim loại (microcoil).
+      </figcaption>
+    </figure>
+
+    <figure class="rounded-2xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm m-0">
+      <img 
+        src="/posts/ct-cho-ho-ra-mau-radiographics/figure11_necrotic_pneumonia_pseudoaneurysm.jpg" 
+        alt="Hình 11: Giả phình động mạch phổi nhiễm trùng ở nam 62 tuổi có viêm phổi hoại tử" 
+        class="w-full h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+      <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+        <strong>Hình 11. Giả phình động mạch phổi nhiễm trùng trong ổ viêm phổi hoại tử thùy dưới phải ở nam 62 tuổi.</strong> Ảnh CT cắt ngang cửa sổ mô mềm bộc lộ ổ tăng tỷ trọng dạng bầu dục (mũi tên) nằm giữa vùng phổi hoại tử không ngấm thuốc, có đậm độ cản quang tương đương lòng mạch ĐM phổi. Hình ảnh điển hình của túi giả phình ĐM phổi hoại tử trung tâm, được điều trị nút coil thành công.
+      </figcaption>
+    </figure>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8 not-prose">
+    <figure class="rounded-2xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm m-0">
+      <img 
+        src="/posts/ct-cho-ho-ra-mau-radiographics/figure12_septic_emboli_pseudoaneurysm.jpg" 
+        alt="Hình 12: Giả phình động mạch phổi ở nam 42 tuổi bị thuyên tắc phổi nhiễm trùng" 
+        class="w-full h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+      <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+        <strong>Hình 12. Giả phình ĐM phổi ở bệnh nhân nam 42 tuổi có bệnh cảnh thuyên tắc nhiễm trùng (Septic Embolic Disease).</strong>
+        <strong>(a)</strong> CT cắt ngang bộc lộ nhiều ổ áp xe ngoại vi hai phổi; ở thùy dưới phải xuất hiện ổ đọng thuốc cản quang tròn đậm độ cao (mũi tên) đại diện cho túi giả phình mạch nhiễm trùng.
+        <strong>(b)</strong> Chụp mạch xóa nền khẳng định túi giả phình ĐM phổi (mũi tên) và được nút coil khẩn cấp. Ở bệnh nhân thuyên tắc nhiễm trùng, bắt buộc phải chủ động tìm kiếm PAP vì chúng có thể tăng kích thước cực nhanh và vỡ tự do.
+      </figcaption>
+    </figure>
+
+    <figure class="rounded-2xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm m-0">
+      <img 
+        src="/posts/ct-cho-ho-ra-mau-radiographics/figure13_postradiation_tumor_pseudoaneurysm.jpg" 
+        alt="Hình 13: Giả phình động mạch phổi trong khối u sau xạ trị ở nữ 49 tuổi" 
+        class="w-full h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+      <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+        <strong>Hình 13. Giả phình ĐM phổi trong khối u sau xạ trị ở bệnh nhân nữ 49 tuổi có tiền sử ung thư phổi.</strong>
+        Phim CT ban đầu đọc ĐM phế quản bình thường nhưng bệnh nhân vẫn được nút dự phòng ĐM phế quản. Ho ra máu tiếp diễn dai dẳng.
+        <strong>(a)</strong> Chụp lại CT phát hiện túi giả phình ĐM phổi tròn (mũi tên đen) nằm trong khối u hoại tử thùy trên phải, tiếp xúc trực tiếp với các nhánh phế quản (mũi tên trắng).
+        <strong>(b)</strong> Chụp mạch ĐM phổi xác nhận túi giả phình (mũi tên) và được nút microcoil dứt điểm. Ca bệnh minh chứng nguy cơ bỏ sót PAP nếu không rà soát tuần hoàn ĐM phổi.
+      </figcaption>
+    </figure>
+  </div>
+
+  <h4 id="3-2-2-gia-phinh-he-thong-va-ro-dmc-phe-quan">3.2.2. Giả Phình Động Mạch Hệ Thống &amp; Rò Động Mạch Chủ - Phế Quản (Aortobronchial Fistula - ABF)</h4>
+  <p>
+    Giả phình động mạch hệ thống gây ho ra máu hiếm gặp hơn nhưng mang tiên lượng tử vong tức thì:
+  </p>
+  <ul>
+    <li><strong>Rò Động mạch chủ - Phế quản (Aortobronchial Fistula - ABF):</strong> Thường xảy ra sau phẫu thuật thay đoạn động mạch chủ, sửa chữa hẹp eo ĐMC (Coarctation), phẫu thuật quai ĐMC, hoặc do vỡ túi phình ĐMC ngực xuống do xơ vữa/nhiễm trùng (<strong>Hình 14, Hình 15</strong>).</li>
+    <li><strong>Dấu hiệu hình ảnh chỉ điểm:</strong> Túi giả phình hoặc túi phình hình túi (saccular) của ĐMC ngực tiếp xúc trực tiếp, đè đẩy hoặc ăn mòn vào thành khí quản hoặc phế quản gốc trái, kèm thâm nhiễm kính mờ xung quanh đại diện cho xuất huyết nhu mô phổi lân cận.</li>
+    <li><strong>Dấu hiệu thoát thuốc cản quang trực tiếp (Direct Extravasation):</strong> Rất hiếm khi bắt gặp trên CT do bệnh nhân thường chảy máu ngắt quãng hoặc tử vong trước khi kịp chụp. Khi bắt gặp dòng thuốc cản quang phụt thẳng từ lòng ĐMC vào phế quản (<strong>Hình 16</strong>), đây là dấu hiệu tối khẩn cấp đòi hỏi can thiệp đặt Stent-graft nội mạch ĐMC (TEVAR) hoặc phẫu thuật mở cấp cứu ngay lập tức!</li>
+  </ul>
+
+  <!-- FIGURES 14, 15, 16 -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8 not-prose">
+    <figure class="rounded-2xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm m-0">
+      <img 
+        src="/posts/ct-cho-ho-ra-mau-radiographics/figure14_unstable_aortic_aneurysm.jpg" 
+        alt="Hình 14: Phình động mạch chủ mất ổn định gây ho ra máu ở nam 51 tuổi" 
+        class="w-full h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+      <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+        <strong>Hình 14. Phình động mạch chủ mất ổn định gây ho ra máu ở nam 51 tuổi.</strong>
+        <strong>(a)</strong> CT tái tạo coronal cho thấy túi phình dạng túi lớn, mất ổn định (mũi tên) ở ĐMC ngực xuống.
+        <strong>(b)</strong> Cửa sổ phổi bộc lộ đám mờ kính mờ bao quanh (mũi tên) đại diện cho xuất huyết phổi, khẳng định túi phình ĐMC là thủ phạm gây ho ra máu. Bệnh nhân được đặt Stent-graft nội mạch (TEVAR) cấp cứu thành công.
+      </figcaption>
+    </figure>
+
+    <figure class="rounded-2xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm m-0">
+      <img 
+        src="/posts/ct-cho-ho-ra-mau-radiographics/figure16_aortobronchial_fistula_extravasation.jpg" 
+        alt="Hình 16: Ho ra máu đe dọa tính mạng ở nữ 68 tuổi có rò động mạch chủ - phế quản" 
+        class="w-full h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+      <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+        <strong>Hình 16. Ho ra máu sét đánh ở bệnh nhân nữ 68 tuổi mắc bệnh bạch cầu cấp dòng tủy (AML).</strong> Bệnh nhân được đặt bóng chèn nội phế quản cấp cứu làm xẹp phổi trái. Ảnh CT sau đó ghi nhận hình ảnh thoát thuốc cản quang trực tiếp từ quai ĐMC vào phế quản gốc trái (mũi tên) cùng bóng chèn nội phế quản (đầu mũi tên). Bệnh nhân được cứu sống nhờ can thiệp đặt Stent-graft ĐMC cấp cứu.
+      </figcaption>
+    </figure>
+  </div>
+
+  <!-- FIGURE 15 -->
+  <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm not-prose">
+    <img 
+      src="/posts/ct-cho-ho-ra-mau-radiographics/figure15_aortobronchial_fistula_cases.jpg" 
+      alt="Hình 15: Rò động mạch chủ - phế quản ở 2 bệnh nhân có tiền sử phẫu thuật động mạch chủ" 
+      class="w-full h-auto object-contain mx-auto"
+      loading="lazy"
+    />
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 15. Rò động mạch chủ - phế quản (Aortobronchial Fistula) ở hai bệnh nhân có tiền sử phẫu thuật ĐMC ngực.</strong>
+      <strong>(a)</strong> Ảnh CT chếch đứng dọc ở nam giới 51 tuổi có tiền sử phẫu thuật sửa hẹp eo ĐMC từ nhiều năm trước, bộc lộ túi giả phình ĐMC ngực xuống (mũi tên) tiếp xúc trực tiếp và ăn mòn vào phế quản gốc trái, được xác nhận rò ĐMC-phế quản trong phẫu thuật.
+      <strong>(b)</strong> Ảnh CT cắt ngang ở nữ giới 59 tuổi ho ra máu ngắt quãng nhiều năm sau phẫu thuật thay quai ĐMC, cho thấy túi phình dạng túi mới xuất hiện ở đoạn gần ĐMC ngực xuống (mũi tên) lồi vào thùy trên phổi trái, chẩn đoán xác định rò ĐMC-phế quản khi mổ mở.
+    </figcaption>
+  </figure>
+
+
+  <h3 id="3-3-biet-lap-phoi">3.3. Biệt Lập Phổi Được Cấp Máu Bởi Động Mạch Hệ Thống (Pulmonary Sequestration)</h3>
+  <p>
+    <strong>Biệt lập phổi (Pulmonary Sequestration)</strong> là một dị tật bẩm sinh đặc trưng bởi một khối nhu mô phổi loạn sản, mất chức năng, không có sự thông thương bình thường với cây khí phế quản và được cấp máu trực tiếp bởi một hoặc nhiều nhánh động mạch bất thường xuất phát từ hệ tuần hoàn hệ thống (thường từ ĐMC ngực hoặc ĐMC bụng/thân tạng).
+  </p>
+  <ul>
+    <li><strong>Biệt lập phổi ngoài thùy (Extralobar Sequestration):</strong> Chiếm khoảng 25%, có màng phổi lá tạng riêng biệt bọc quanh, thường dẫn lưu tĩnh mạch về hệ tuần hoàn hệ thống (tĩnh mạch đơn hoặc bán đơn).</li>
+    <li><strong>Biệt lập phổi trong thùy (Intralobar Sequestration):</strong> Chiếm 75%, nằm chung trong màng phổi của thùy phổi lành, thường dẫn lưu tĩnh mạch về các tĩnh mạch phổi. Nhiều trường hợp trong thùy được cho là thứ phát mắc phải sau các đợt viêm phổi mạn tính tái diễn gây "ký sinh" mạch máu hệ thống lân cận (như trường hợp nẹp vít cột sống ở <strong>Hình 1</strong>).</li>
+    <li><strong>Cơ chế gây ho ra máu:</strong> Khối biệt lập chịu áp lực tuần hoàn hệ thống rất cao dẫn đến phì đại lớp trung mạc và viêm nội mạc mạch máu (endarteritis). Thành mạch giòn, dễ vỡ rách vào các phế nang lân cận gây xuất huyết phế nang khu trú hoặc ho ra máu tái diễn.</li>
+    <li><strong>Chiến lược điều trị:</strong> Phẫu thuật cắt bỏ khối biệt lập là phương pháp điều trị triệt để. Tuy nhiên, <strong>nút mạch can thiệp trước mổ (Preoperative Embolization)</strong> đóng vai trò then chốt giúp triệt tiêu dòng máu áp lực cao, phòng ngừa mất máu ồ ạt trong cuộc mổ.</li>
+  </ul>
+
+  <h3 id="3-4-di-dang-va-ro-dong-tinh-mach">3.4. Dị Dạng &amp; Rò Động - Tĩnh Mạch (Arteriovenous Malformations &amp; Fistulas)</h3>
+  <p>
+    <strong>Dị dạng động - tĩnh mạch phổi (Pulmonary AVM - PAVM):</strong> Là sự thông thương bất thường trực tiếp giữa các nhánh động mạch phổi và tĩnh mạch phổi thông qua một búi mạch (nidus) hoặc túi phình có thành mỏng, bỏ qua mạng lưới mao mạch phế nang.
+  </p>
+  <ul>
+    <li><strong>Hội chứng Rendu-Osler-Weber (Hereditary Hemorrhagic Telangiectasia - HHT):</strong> Trên 90% bệnh nhân có PAVM mang gen bệnh HHT. Ngược lại, có tới 50% bệnh nhân HHT phát triển PAVM trong đời.</li>
+    <li><strong>Chỉ định can thiệp nút mạch:</strong> Các búi PAVM có <strong>đường kính nhánh động mạch nuôi từ ≥3 mm trở lên</strong> bắt buộc phải được điều trị can thiệp nút vi vòng xoắn kim loại (microcoil) hoặc dù nút mạch, không chỉ để dự phòng ho ra máu mà còn để ngăn ngừa biến chứng <em>thuyên tắc nghịch mầm (paradoxical embolism)</em> gây đột quỵ nhồi máu não và áp xe não.</li>
+    <li><strong>Rò Động mạch phế quản - Tĩnh mạch phổi (BAPV Malformation) &amp; Rò ĐM phế quản - ĐM phổi (BAPAF):</strong> Là biến thể phức tạp hiếm gặp, nơi động mạch phế quản đổ thẳng vào tuần hoàn tĩnh mạch phổi với áp lực cao, gây ho ra máu ồ ạt đe dọa tử vong nhanh chóng (<strong>Hình 17</strong>).</li>
+  </ul>
+
+  <!-- FIGURE 17 -->
+  <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm not-prose">
+    <img 
+      src="/posts/ct-cho-ho-ra-mau-radiographics/figure17_bapv_malformation.jpg" 
+      alt="Hình 17: Dị dạng động mạch phế quản - tĩnh mạch phổi ở nam 19 tuổi" 
+      class="w-full h-auto object-contain mx-auto"
+      loading="lazy"
+    />
+    <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+      <strong>Hình 17. Dị dạng động mạch phế quản - tĩnh mạch phổi (BAPV Malformation) ở nam thiếu niên 19 tuổi ho ra máu ngắt quãng 10 ngày, nhập viện cấp cứu với nồng độ Hemoglobin tụt nghiêm trọng xuống 6.7 g/dL.</strong>
+      <strong>(a)</strong> CT cắt ngang cửa sổ phổi cho thấy đám kính mờ dạng nốt lan tỏa ở thùy dưới và thùy giữa phải kèm xẹp thùy giữa, phù hợp với máu hít sặc từ tổn thương bên phải.
+      <strong>(b)</strong> Dựng hình MIP cửa sổ mô mềm phát hiện ĐM phế quản phải phì đại lớn (mũi tên).
+      <strong>(c)</strong> Tái tạo MIP coronal bộc lộ ĐM phế quản phải dãn to đổ vào một búi mạch dãn ngoằn ngoèo ở rốn phổi phải (mũi tên trắng), ôm bọc phế quản gốc phải và thông thương trực tiếp với tĩnh mạch phổi dưới phải (mũi tên đen). Do tổn thương quá phức tạp với nguy cơ trôi vật liệu nút mạch gây tắc mạch hệ thống (đột quỵ), bệnh nhân được chuyển phẫu thuật cắt thùy giữa và thùy dưới phải cấp cứu thành công.
+    </figcaption>
+  </figure>
+
+  <h3 id="3-5-xuat-huyet-muc-do-mao-mach-dah">3.5. Xuất Huyết Mức Độ Mao Mạch &amp; Xuất Huyết Phế Nang Lan Tỏa (Diffuse Alveolar Hemorrhage - DAH)</h3>
+  <p>
+    Xuất huyết mức độ mao mạch dẫn tới hội chứng <strong>Xuất huyết phế nang lan tỏa (DAH)</strong>, đặc trưng bởi sự tràn ngập hồng cầu từ lưới mao mạch quanh phế nang vào trong các khoang phế nang.
+  </p>
+  <ul>
+    <li><strong>Điểm mấu chốt lâm sàng:</strong> Có tới <strong>33% (1/3 số bệnh nhân) mắc DAH không hề biểu hiện ho ra máu trên lâm sàng!</strong> Chẩn đoán xác định thường dựa trên nội soi phế quản rửa phế quản phế nang (BAL) với dịch rửa ngày càng đỏ đậm dần qua các ống hút nối tiếp.</li>
+    <li><strong>Căn nguyên tự miễn (Immune-mediated):</strong> Các bệnh lý viêm mạch máu nhỏ hoại tử (ANCA-associated vasculitis: GPA/Wegener, Microscopic Polyangiitis), Hội chứng Goodpasture (kháng thể kháng màng đáy cầu thận), và Lupus ban đỏ hệ thống (SLE). Dấu hiệu nốt hang nhu mô, dày thành khí phế quản hoặc viêm xoang đi kèm là gợi ý đắt giá cho viêm mạch.</li>
+    <li><strong>Căn nguyên không do miễn dịch:</strong> Dùng thuốc chống đông quá liều, hẹp van hai lá khít (tăng áp lực tĩnh mạch phổi mao mạch), ngộ độc crack cocaine, hoặc giảm tiểu cầu nặng.</li>
+    <li><strong>Đặc điểm hình ảnh học trên CT:</strong> Tổn thương đông đặc và kính mờ hai bên, đối xứng, chiếm ưu thế ở vùng rốn phổi và đáy phổi, thường đi kèm dày vách liên tiểu thùy tạo hình thái lát đá vỉa hè (crazy-paving) (<strong>Hình 18</strong>).</li>
+    <li><strong>Chiến lược điều trị:</strong> <em>DAH là chống chỉ định của can thiệp nút mạch cục bộ!</em> Điều trị chủ yếu là nội khoa: Corticosteroid liều cao xung tĩnh mạch (Pulse Methylprednisolone), lọc huyết tương (Plasmapheresis), thuốc ức chế miễn dịch (Cyclophosphamide, Rituximab) và điều chỉnh rối loạn đông máu.</li>
+  </ul>
+
+  <!-- FIGURE 18 -->
+  <div class="my-8 max-w-xl mx-auto not-prose">
+    <figure class="rounded-2xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+      <img 
+        src="/posts/ct-cho-ho-ra-mau-radiographics/figure18_diffuse_alveolar_hemorrhage.jpg" 
+        alt="Hình 18: Xuất huyết phế nang lan tỏa ở nam 55 tuổi đang dùng thuốc kháng đông" 
+        class="w-full h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+      <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+        <strong>Hình 18. Xuất huyết phế nang lan tỏa (DAH) ở nam 55 tuổi có tiền sử dùng thuốc chống đông.</strong> Ảnh CT cắt ngang bộc lộ đám đông đặc và kính mờ phế nang phân bố ưu thế vùng thấp hai thùy dưới trên nền khí phế thũng. Chẩn đoán DAH được xác nhận qua nội soi phế quản với dịch rửa BAL đỏ máu. Không tìm thấy mạch máu bất thường thủ phạm khu trú; bệnh nhân đáp ứng hoàn toàn với điều trị nội khoa bảo tồn và ngừng thuốc kháng đông.
+      </figcaption>
+    </figure>
+  </div>
+
+
+  <!-- PHẦN 4: CÁC CƠ CHẾ HO RA MÁU THỨ PHÁT -->
+  <h2 id="phan-4-co-che-mach-mau-thu-phat">4. Các Cơ Chế Ho Ra Máu Thứ Phát (Secondary Vascular Mechanisms)</h2>
+  
+  <p>
+    Trong nhóm cơ chế thứ phát, các mạch máu phổi hoặc mạch máu hệ thống ban đầu có cấu trúc hoàn toàn bình thường, nhưng sau đó bị tổn thương hoặc xé rách do các quá trình bệnh lý tại nhu mô hoặc đường dẫn khí tác động trực tiếp lên chúng.
+  </p>
+
+  <h3 id="4-1-pha-huy-nhu-mo-phoi">4.1. Phá Hủy Nhu Mô Phổi (Parenchymal Destruction)</h3>
+  <ul>
+    <li><strong>Viêm phổi nhiễm trùng hoại tử &amp; Áp xe phổi:</strong> Tác nhân vi khuẩn kỵ khí, <em>Staphylococcus aureus, Klebsiella pneumoniae, Pseudomonas aeruginosa</em>, trực khuẩn lao (<em>M tuberculosis</em>, NTM) và nấm xâm lấn. Vùng hoại tử trung tâm giảm tỷ trọng kèm bọt khí biểu hiện sự phá hủy nhu mô trên diện rộng. Dấu hiệu <strong>"quầng kính mờ" (Ground-glass halo sign)</strong> bao quanh nốt hoặc khối đông đặc là biểu hiện xuất huyết quanh tổn thương kinh điển của <em>nấm Aspergillus xâm lấn mạch máu (angioinvasive aspergillosis)</em>.</li>
+    <li><strong>Hoại tử khối u ác tính (Tumor Necrosis):</strong> Khi khối u phát triển nhanh vượt quá khả năng cấp máu của mạch tân tạo, vùng trung tâm sẽ bị hoại tử vô mạch tạo hang. Trên CT, hình ảnh hoại tử giảm tỷ trọng trung tâm, mức dịch máu hoặc hang thành dày nham nhở kèm kính mờ xuất huyết xung quanh (<strong>Hình 19</strong>) giúp nhận diện chính xác tổn thương thủ phạm ở những bệnh nhân có nhiều nốt di căn rải rác.</li>
+    <li><strong>Nhồi máu phổi do Thuyên tắc Động mạch Phổi (Pulmonary Embolism &amp; Infarction):</strong> Gặp ở 10–20% bệnh nhân thuyên tắc phổi cấp. Khi cục huyết khối bít tắc nhánh ĐM phổi, áp lực tưới máu từ tuần hoàn ĐM phế quản bàng hệ dồn vào vùng thiếu máu cục bộ gây xuất huyết vào phế nang. Dấu hiệu hình ảnh gợi ý gồm đám đông đặc hình chêm đáy tựa màng phổi (Hampton's hump), kính mờ, hoặc dấu hiệu <strong>"quầng kính mờ đảo ngược" (Reverse-halo / Atoll sign)</strong>. Chẩn đoán đúng giúp hướng tới liệu pháp chống đông hoặc lấy huyết khối qua ống thông chứ không phải nút mạch!</li>
+  </ul>
+
+  <!-- FIGURE 19 -->
+  <div class="my-8 max-w-xl mx-auto not-prose">
+    <figure class="rounded-2xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
+      <img 
+        src="/posts/ct-cho-ho-ra-mau-radiographics/figure19_tumor_necrosis_hemorrhage_halo.jpg" 
+        alt="Hình 19: Ho ra máu ở nam 61 tuổi có tiền sử sarcoma và nhiều nốt di căn phổi" 
+        class="w-full h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+      <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+        <strong>Hình 19. Ho ra máu ở bệnh nhân nam 61 tuổi có tiền sử Sarcoma và đa ổ di căn phổi.</strong> Ảnh CT cắt ngang cửa sổ phổi bộc lộ nhiều nốt di căn rải rác; trong đó nốt lớn nhất ở thùy dưới phải được xác định là khối u thủ phạm (culprit lesion) gây ho ra máu nhờ phát hiện viền kính mờ bao quanh đại diện cho xuất huyết nhu mô mới xuất hiện (mũi tên).
+      </figcaption>
+    </figure>
+  </div>
+
+  <h3 id="4-2-xam-lan-truc-tiep-duong-dan-khi">4.2. Xâm Lấn Trực Tiếp Đường Dẫn Khí (Direct Airway Invasion)</h3>
+  <p>
+    Tổn thương xâm lấn phá hủy trực tiếp niêm mạc khí phế quản gây chảy máu trực diện vào lòng cây phế quản:
+  </p>
+  <ul>
+    <li><strong>Khối u nội phế quản (Endobronchial Tumors):</strong> Ung thư biểu mô phế quản nguyên phát, u Carcinoid phế quản (<strong>Hình 20</strong>), hoặc u di căn đường thở (từ ung thư biểu mô thận, melanoma, ung thư vú, đại trực tràng). U carcinoid thường gặp ở người trẻ, giàu mạch máu, ngấm thuốc rất mạnh trên CT. Việc nhận diện u xâm lấn đường thở định hướng bệnh nhân tới <strong>can thiệp nội soi phế quản (đốt điện, laser, đặt stent) hoặc phẫu thuật tạo hình/cắt thùy phổi</strong> hơn là nút mạch đơn thuần.</li>
+    <li><strong>Sỏi phế quản (Broncholithiasis):</strong> Là một hạch bạch huyết trung thất hoặc quanh phế quản bị vôi hóa (thường là di chứng sau lao hoặc nhiễm nấm Histoplasma) theo thời gian bị viêm dính và bào mòn xuyên qua thành sụn phế quản lọt vào lòng đường thở (<strong>Hình 21</strong>).</li>
+  </ul>
+
+  <div class="not-prose my-6 p-4 rounded-xl bg-amber-50 border border-amber-200">
+    <div class="font-bold text-amber-950 mb-1 text-sm flex items-center gap-2">
+      <span class="w-2.5 h-2.5 rounded-full bg-amber-600"></span>
+      Cảnh báo can thiệp tối quan trọng: Hiểm họa khi gắp sỏi phế quản qua nội soi
+    </div>
+    <p class="text-xs sm:text-sm text-amber-900 leading-relaxed m-0">
+      Khi sỏi phế quản bào mòn thành phế quản, nó thường dính chặt vào thành động mạch phế quản hoặc nhánh động mạch phổi đi song hành kế cận. <strong>Cố gắng gắp hoặc can thiệp thô bạo lấy sỏi qua nội soi phế quản ống mềm có thể làm rách toạc động mạch lân cận, gây xuất huyết sét đánh tử vong ngay trên bàn nội soi!</strong> (<em>xem ca bệnh thực tế ở Hình 21</em>). Chụp CT lát mỏng giúp đánh giá mối tương quan giải phẫu giữa sỏi và các mạch máu lớn xung quanh để lựa chọn phẫu thuật mở an toàn.
+    </p>
+  </div>
+
+  <!-- FIGURES 20 & 21 -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8 not-prose">
+    <figure class="rounded-2xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm m-0">
+      <img 
+        src="/posts/ct-cho-ho-ra-mau-radiographics/figure20_endobronchial_carcinoid_tumor.jpg" 
+        alt="Hình 20: U Carcinoid nội phế quản gây ho ra máu ở phụ nữ trẻ 31 tuổi" 
+        class="w-full h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+      <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+        <strong>Hình 20. U Carcinoid nội phế quản gây ho ra máu ở phụ nữ trẻ 31 tuổi.</strong> Ảnh CT tái tạo MPR coronal bộc lộ khối u nội phế quản ngấm thuốc cản quang mạnh (mũi tên) nằm bít tắc trong lòng phế quản thùy dưới trái. Căn cứ vào độ tuổi trẻ, vị trí nội phế quản và độ ngấm thuốc cao, u carcinoid phế quản được chẩn đoán và xác nhận sau phẫu thuật cắt bỏ tổn thương.
+      </figcaption>
+    </figure>
+
+    <figure class="rounded-2xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm m-0">
+      <img 
+        src="/posts/ct-cho-ho-ra-mau-radiographics/figure21_broncholith_atelectasis.jpg" 
+        alt="Hình 21: Sỏi phế quản gây ho ra máu ở phụ nữ 69 tuổi" 
+        class="w-full h-auto object-contain mx-auto"
+        loading="lazy"
+      />
+      <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
+        <strong>Hình 21. Sỏi phế quản (Broncholith) gây ho ra máu ngắt quãng tái phát ở phụ nữ 69 tuổi.</strong> Ảnh CT cắt ngang bộc lộ nốt vôi hóa đậm độ cao (mũi tên) nằm trong phế quản thùy giữa phải, gây xẹp phân thùy ngoài. Nội soi phế quản ống cứng xác nhận viên sỏi vôi hóa bít tắc lòng phế quản; tuy nhiên nỗ lực lay gắp viên sỏi đã gây xuất huyết ồ ạt, buộc phải phẫu thuật cắt thùy giữa phải cấp cứu để cứu sống bệnh nhân.
+      </figcaption>
+    </figure>
+  </div>
+
+  <!-- PHẦN 5: HO RA MÁU VÔ CĂN -->
+  <h2 id="phan-5-ho-ra-mau-vo-can">5. Ho Ra Máu Vô Căn (Cryptogenic Hemoptysis) &amp; Sang Thương Mạch Dieulafoy</h2>
+  <p>
+    Ở khoảng <strong>10% – 20% bệnh nhân</strong> ho ra máu, sau khi đã thực hiện đầy đủ các xét nghiệm hình ảnh học MDCT và nội soi phế quản, bác sĩ vẫn không thể tìm thấy bất kỳ tổn thương cấu trúc, ổ nhiễm trùng hay mạch máu thủ phạm nào. Những trường hợp này được phân loại là <strong>Ho ra máu vô căn (Cryptogenic Hemoptysis)</strong>.
+  </p>
+  <ul>
+    <li><strong>Mối liên hệ với tổn thương tiền ác tính &amp; Khuyến cáo chụp kiểm tra:</strong> Tỷ lệ ho ra máu vô căn cao hơn rõ rệt ở người hút thuốc lá. Nghiên cứu theo dõi dài hạn của Herth et al trên 135 bệnh nhân ho ra máu vô căn ghi nhận có <strong>6% bệnh nhân được chẩn đoán ung thư phổi giai đoạn không thể phẫu thuật trong vòng 6 năm tiếp theo</strong>. Ho ra máu có thể là dấu hiệu sớm của loạn sản hoặc dị sản biểu mô phế quản. Vì vậy, các tác giả khuyến cáo <em>bắt buộc phải chụp CT ngực kiểm tra định kỳ sau 6–12 tháng</em> ở những bệnh nhân ho ra máu vô căn để phát hiện sớm các tổn thương ác tính tiềm ẩn.</li>
+    <li><strong>Sang thương Dieulafoy ở phế quản (Bronchial Dieulafoy Lesion):</strong> Savale et al theo dõi 81 ca ho ra máu vô căn và phát hiện sang thương Dieulafoy ở 5/9 bệnh nhân phẫu thuật. Đây là một dị dạng mạch máu bẩm sinh đặc trưng bởi một nhánh tiểu động mạch phế quản dãn ngoằn ngoèo nằm nông sát dưới lớp niêm mạc phế quản. Sang thương Dieulafoy có kích thước quá nhỏ để có thể nhìn thấy trực tiếp trên CT (trên phim chỉ thấy hình ảnh máu hít sặc). Chẩn đoán đòi hỏi nội soi phế quản phát hiện nốt mạch đập dưới niêm mạc và chụp mạch can thiệp nút tắc để tránh nguy cơ vỡ mạch tử vong.</li>
+  </ul>
+
+
+  <!-- PHẦN 6: CHIẾN LƯỢC TIẾP CẬN CÓ CẤU TRÚC TRÊN CT -->
+  <h2 id="phan-6-chien-luoc-tiep-can-ct">6. Chiến Lược Tiếp Cận CT Có Cấu Trúc &amp; Định Hướng Điều Trị Lâm Sàng</h2>
+  
+  <p>
+    Để áp dụng kiến thức vào thực hành lâm sàng hàng ngày, nhóm tác giả đề xuất một <strong>chiến lược đọc phim CT có cấu trúc nhưng linh hoạt</strong>, dựa trên việc nhận diện và phân tích có hệ thống các <em>dấu hiệu gián tiếp (Indirect Signs)</em> và <em>dấu hiệu trực tiếp (Direct Signs)</em>.
+  </p>
+
+  <!-- BẢNG 2: TỔNG HỢP CƠ CHẾ VÀ NGUYÊN NHÂN -->
+  <div class="not-prose my-6 overflow-x-auto">
+    <table class="w-full text-left border-collapse text-xs sm:text-sm border border-slate-200">
+      <caption class="text-left font-bold text-slate-900 pb-2 uppercase tracking-wide">Bảng 2. Bảng phân loại toàn diện cơ chế bệnh sinh và căn nguyên gây ho ra máu (RadioGraphics 2021)</caption>
+      <thead class="bg-slate-100 text-slate-900 border-b border-slate-300">
+        <tr>
+          <th class="p-2.5 border-r border-slate-200 w-1/3">Phân Loại Cơ Chế</th>
+          <th class="p-2.5 border-r border-slate-200">Cơ Chế Huyết Động / Bệnh Sinh</th>
+          <th class="p-2.5 font-bold">Các Căn Nguyên Bệnh Lý Cụ Thể Thường Gặp</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200">
+        <!-- 1. Primary Vascular -->
+        <tr class="bg-rose-50/40">
+          <td rowspan="5" class="p-2.5 font-bold text-rose-950 border-r border-slate-200 align-top">
+            CƠ CHẾ MẠCH MÁU NGUYÊN PHÁT<br/>
+            <span class="text-[11px] font-normal text-rose-800">(Primary Vascular Mechanisms)</span>
+          </td>
+          <td class="p-2.5 font-semibold text-slate-900 border-r border-slate-200 align-top">
+            1. Phì đại mạch máu hệ thống mạn tính<br/>
+            <span class="text-xs font-normal text-slate-600">(ĐM phế quản &amp; NBSA)</span>
+          </td>
+          <td class="p-2.5 text-slate-700">
+            • Giãn phế quản (Bronchiectasis), Bệnh xơ nang (Cystic fibrosis)<br/>
+            • Lao phổi (TB), Nhiễm NTM, Tổn thương xơ sẹo sau nhiễm trùng cũ, U nấm (Mycetoma)<br/>
+            • Khối u phổi ác tính (tân tạo mạch hệ thống)<br/>
+            • Bệnh tim bẩm sinh tím, Hẹp/gián đoạn động mạch phổi đoạn gần<br/>
+            • Bệnh lý thuyên tắc huyết khối phổi mạn tính (CTEPH), Viêm trung thất xơ hóa, Suy tim sung huyết
+          </td>
+        </tr>
+        <tr class="bg-rose-50/40">
+          <td class="p-2.5 font-semibold text-slate-900 border-r border-slate-200 align-top">
+            2. Tổn thương mạch khu trú hoặc Giả phình mạch<br/>
+            <span class="text-xs font-normal text-slate-600">(ĐM phổi &amp; ĐM hệ thống)</span>
+          </td>
+          <td class="p-2.5 text-slate-700">
+            • Nhiễm trùng: Lao phổi (Phình Rasmussen), Viêm phổi hoại tử do vi khuẩn/nấm, Thuyên tắc nhiễm trùng (Septic emboli)<br/>
+            • Không nhiễm trùng: U ác tính xâm lấn, Viêm mạch máu lớn/vừa (Behcet, Takayasu)<br/>
+            • Chấn thương ngực kín hoặc xuyên thấu, Biến chứng thủng ĐM phổi do catheter Swan-Ganz, Sinh thiết xuyên thành<br/>
+            • Vỡ túi phình ĐMC ngực, Rò động mạch chủ - phế quản (ABF), Xói mòn do đặt stent đường thở, Tổn thương sau xạ trị
+          </td>
+        </tr>
+        <tr class="bg-rose-50/40">
+          <td class="p-2.5 font-semibold text-slate-900 border-r border-slate-200 align-top">
+            3. Loạn sản nhu mô có cấp máu hệ thống
+          </td>
+          <td class="p-2.5 text-slate-700">
+            • Biệt lập phổi trong thùy (Intralobar sequestration)<br/>
+            • Biệt lập phổi ngoài thùy (Extralobar sequestration)
+          </td>
+        </tr>
+        <tr class="bg-rose-50/40">
+          <td class="p-2.5 font-semibold text-slate-900 border-r border-slate-200 align-top">
+            4. Dị dạng &amp; Rò động - tĩnh mạch
+          </td>
+          <td class="p-2.5 text-slate-700">
+            • Dị dạng ĐM-TM phổi bẩm sinh (PAVM) trong Hội chứng Rendu-Osler-Weber (HHT)<br/>
+            • Rò ĐM-TM mắc phải sau chấn thương, sinh thiết, đặt ống dẫn lưu màng phổi<br/>
+            • Rò ĐM phế quản - TM phổi (BAPVM), Rò ĐM phế quản - ĐM phổi (BAPAF)
+          </td>
+        </tr>
+        <tr class="bg-rose-50/40">
+          <td class="p-2.5 font-semibold text-slate-900 border-r border-slate-200 align-top">
+            5. Xuất huyết mức độ mao mạch<br/>
+            <span class="text-xs font-normal text-slate-600">(Xuất huyết phế nang lan tỏa - DAH)</span>
+          </td>
+          <td class="p-2.5 text-slate-700">
+            • Viêm mạch máu nhỏ tự miễn (GPA/Wegener, Microscopic polyangiitis, Goodpasture, SLE)<br/>
+            • Dùng thuốc chống đông quá liều, thuốc chống kết tập tiểu cầu<br/>
+            • Sử dụng chất kích thích (Crack cocaine)<br/>
+            • Giảm tiểu cầu nặng, Hẹp van hai lá khít
+          </td>
+        </tr>
+
+        <!-- 2. Secondary Vascular -->
+        <tr class="bg-amber-50/40">
+          <td rowspan="2" class="p-2.5 font-bold text-amber-950 border-r border-slate-200 align-top">
+            CƠ CHẾ MẠCH MÁU THỨ PHÁT<br/>
+            <span class="text-[11px] font-normal text-amber-800">(Secondary Vascular Mechanisms)</span>
+          </td>
+          <td class="p-2.5 font-semibold text-slate-900 border-r border-slate-200 align-top">
+            1. Phá hủy nhu mô phổi<br/>
+            <span class="text-xs font-normal text-slate-600">(Parenchymal Destruction)</span>
+          </td>
+          <td class="p-2.5 text-slate-700">
+            • Hoại tử khối u phổi ác tính (Ung thư biểu mô nguyên phát hoặc di căn)<br/>
+            • Nhiễm trùng: Lao phổi, NTM, Viêm phổi hoại tử do vi khuẩn, Viêm phổi nấm xâm lấn<br/>
+            • Nhồi máu phổi do thuyên tắc động mạch phổi cấp
+          </td>
+        </tr>
+        <tr class="bg-amber-50/40">
+          <td class="p-2.5 font-semibold text-slate-900 border-r border-slate-200 align-top">
+            2. Xâm lấn trực tiếp đường dẫn khí<br/>
+            <span class="text-xs font-normal text-slate-600">(Airway Invasion)</span>
+          </td>
+          <td class="p-2.5 text-slate-700">
+            • Khối u ác tính nội phế quản (Ung thư phế quản, u Carcinoid, tổn thương di căn đường thở)<br/>
+            • Sỏi phế quản (Broncholithiasis - hạch bạch huyết vôi hóa bào mòn lòng phế quản)
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- BẢNG 3: TIẾP CẬN DẤU HIỆU TRỰC TIẾP & GIÁN TIẾP -->
+  <div class="not-prose my-6 overflow-x-auto">
+    <table class="w-full text-left border-collapse text-xs sm:text-sm border border-slate-200">
+      <caption class="text-left font-bold text-slate-900 pb-2 uppercase tracking-wide">Bảng 3. Chiến lược tiếp cận MDCT — Dấu hiệu Trực tiếp &amp; Gián tiếp ở bệnh nhân ho ra máu</caption>
+      <thead class="bg-slate-100 text-slate-900 border-b border-slate-300">
+        <tr>
+          <th class="p-2.5 border-r border-slate-200 w-1/4">Nhóm Dấu Hiệu CT</th>
+          <th class="p-2.5 border-r border-slate-200">Các Biểu Hiện Hình Ảnh Điển Hình</th>
+          <th class="p-2.5 font-bold">Ý Nghĩa Chẩn Đoán &amp; Định Hướng Điều Trị</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200">
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-slate-900 border-r border-slate-200 align-top">
+            Dấu hiệu gián tiếp tại Nhu mô phổi<br/>
+            <span class="text-xs font-normal text-slate-500">(Indirect Pulmonary Signs)</span>
+          </td>
+          <td class="p-2.5 border-r border-slate-200 text-slate-700">
+            • Đám kính mờ (Ground-glass opacities)<br/>
+            • Đám đông đặc (Consolidation)<br/>
+            • Nốt mờ trung tâm tiểu thùy &amp; Nụ trên cành (Tree-in-bud)<br/>
+            • Dày vách liên tiểu thùy / Crazy-paving (bán cấp)
+          </td>
+          <td class="p-2.5 text-slate-700">
+            <strong>Định vị vùng xuất huyết:</strong> Nếu tổn thương khu trú một thùy/phân thùy -> khu trú can thiệp mạch hoặc phẫu thuật. Nếu tổn thương lan tỏa hai bên -> cảnh giác xuất huyết phế nang DAH do bệnh hệ thống (chỉ định điều trị nội khoa).
+          </td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold text-slate-900 border-r border-slate-200 align-top">
+            Dấu hiệu gián tiếp tại Mạch máu<br/>
+            <span class="text-xs font-normal text-slate-500">(Indirect Vascular Signs)</span>
+          </td>
+          <td class="p-2.5 border-r border-slate-200 text-slate-700">
+            • Tăng số lượng và khẩu kính ĐM phế quản (&gt;2 mm)<br/>
+            • Tăng kích thước bất đối xứng của các nhánh NBSA (ĐM ngực trong, gian sườn, ngực ngoài)<br/>
+            • Dày màng phổi kế cận với các mạch máu bàng hệ đâm xuyên
+          </td>
+          <td class="p-2.5 text-slate-700">
+            <strong>Chỉ điểm cơ chế tăng sinh mạch hệ thống:</strong> Lập bản đồ cho bác sĩ can thiệp mạch (IR). Định hướng chụp mạch chọn lọc ĐM phế quản (BAE) kết hợp tìm kiếm và nút các nhánh bàng hệ NBSA để tránh tái phát.
+          </td>
+        </tr>
+        <tr class="hover:bg-slate-50 bg-rose-50/30">
+          <td class="p-2.5 font-bold text-rose-950 border-r border-slate-200 align-top">
+            Dấu hiệu trực tiếp:<br/>
+            Tổn thương thủ phạm<br/>
+            <span class="text-xs font-normal text-rose-800">(Culprit Lesion)</span>
+          </td>
+          <td class="p-2.5 border-r border-slate-200 text-slate-700">
+            • Ổ nhiễm trùng / Áp xe hoại tử<br/>
+            • Khối u nội phế quản hoặc hoại tử trung tâm<br/>
+            • Sỏi phế quản (Broncholith) lọt vào lòng đường thở
+          </td>
+          <td class="p-2.5 text-slate-700">
+            <strong>Xác định căn nguyên cục bộ:</strong> Trực tiếp thay đổi hướng điều trị từ nút mạch sang <em>nội soi can thiệp hoặc phẫu thuật cắt thùy phổi</em> (ví dụ: cắt u carcinoid, phẫu thuật gắp sỏi phế quản tránh rách mạch).
+          </td>
+        </tr>
+        <tr class="hover:bg-slate-50 bg-rose-50/30">
+          <td class="p-2.5 font-bold text-rose-950 border-r border-slate-200 align-top">
+            Dấu hiệu trực tiếp:<br/>
+            Mạch máu thủ phạm<br/>
+            <span class="text-xs font-normal text-rose-800">(Culprit Vessel)</span>
+          </td>
+          <td class="p-2.5 border-r border-slate-200 text-slate-700">
+            • Túi giả phình ĐM phổi nhiễm trùng (PAP / Rasmussen)<br/>
+            • Giả phình ĐM phổi do khối u xâm lấn / chấn thương<br/>
+            • Phình ĐMC ngực mất ổn định / Rò ĐMC - phế quản (ABF)
+          </td>
+          <td class="p-2.5 text-slate-700">
+            <strong>Chỉ định can thiệp tối khẩn cấp:</strong><br/>
+            • Nếu là PAP: <strong>Nút microcoil qua đường tĩnh mạch hệ thống</strong> (không đi đường ĐM đùi!).<br/>
+            • Nếu là rò ĐMC-phế quản: Đặt <strong>Stent-graft nội mạch ĐMC (TEVAR)</strong> hoặc mổ mở cấp cứu.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="phan-7-ket-luan">7. Lời Kết &amp; Khuyến Nghị Thực Hành</h2>
+  <div class="not-prose my-6 p-6 rounded-2xl bg-gradient-to-r from-slate-900 to-rose-950 text-white shadow-lg">
+    <h3 class="text-lg font-bold text-white mb-3">Tóm Lược Các Điểm Cần Nhớ Trong Thực Hành Hàng Ngày</h3>
+    <ul class="text-sm space-y-2 text-rose-100/90 leading-relaxed list-disc pl-5">
+      <li><strong>Kỹ thuật chụp chuẩn:</strong> Bắt buộc chụp thì động mạch hệ thống, bolus tracking tại đoạn giữa ĐMC ngực xuống, thể tích cản quang lớn 110–125 mL tốc độ 4–5 mL/s, <em>tuyệt đối không dùng saline chaser</em> và quét trùm qua hết thân tạng dưới cơ hoành.</li>
+      <li><strong>Tìm kiếm dấu hiệu xuất huyết:</strong> Phân biệt xuất huyết phế nang (kính mờ, đông đặc, crazy-paving) với máu hít sặc (nốt mờ nụ trên cành ở ngoại vi); cục máu đông trong lòng phế quản có đậm độ tự nhiên cao >40 HU.</li>
+      <li><strong>Rà soát hệ động mạch phế quản &amp; NBSA:</strong> Nhận diện ĐM phế quản phì đại (&gt;2 mm) và các biến thể lạc vị; chủ động tìm kiếm các nhánh NBSA xuyên màng phổi dày dính để ngăn ngừa tái phát sau nút mạch.</li>
+      <li><strong>Cảnh giác với giả phình động mạch phổi (PAP):</strong> Đừng bỏ qua tuần hoàn động mạch phổi! Nhận diện đúng PAP giúp định hướng nút coil qua đường tĩnh mạch hệ thống kịp thời cứu mạng bệnh nhân.</li>
+      <li><strong>Theo dõi ho ra máu vô căn:</strong> Luôn lên lịch chụp CT kiểm tra lại sau 6–12 tháng ở bệnh nhân ho ra máu không rõ nguyên nhân để tầm soát sớm các ung thư phổi ác tính tiềm ẩn.</li>
+    </ul>
+  </div>
+
+  <!-- TÀI LIỆU THAM KHẢO CHÍNH -->
+  <div class="not-prose my-8 p-6 rounded-2xl bg-slate-50 border border-slate-200 text-xs text-slate-600">
+    <h4 class="font-bold text-slate-900 text-sm mb-3 uppercase tracking-wider">Tài Liệu Tham Khảo Chọn Lọc (Selected References)</h4>
+    <ol class="space-y-1.5 pl-4 list-decimal">
+      <li>Davidson K, Shojaee S. Managing Massive Hemoptysis. <em>Chest</em> 2020;157(1):77–88.</li>
+      <li>Ibrahim WH. Massive haemoptysis: the definition should be revised. <em>Eur Respir J</em> 2008;32(4):1131–1132.</li>
+      <li>Expert Panel on Thoracic Imaging; Olsen KM, Manouchehr-Pour S, et al. ACR Appropriateness Criteria® Hemoptysis. <em>J Am Coll Radiol</em> 2020;17(5S):S148–S159.</li>
+      <li>Bruzzi JF, Rémy-Jardin M, Delhaye D, et al. Multi-detector row CT of hemoptysis. <em>RadioGraphics</em> 2006;26(1):3–22.</li>
+      <li>Yoon W, Kim JK, Kim YH, et al. Bronchial and nonbronchial systemic artery embolization for life-threatening hemoptysis: a comprehensive review. <em>RadioGraphics</em> 2002;22(6):1395–1409.</li>
+      <li>Shin TB, Yoon SK, Lee KN, et al. The role of pulmonary CT angiography and selective pulmonary angiography in endovascular management of pulmonary artery pseudoaneurysms associated with infectious lung diseases. <em>J Vasc Interv Radiol</em> 2007;18(7):882–887.</li>
+      <li>Sanyika C, Corr P, Royston D, Blyth DF. Pulmonary angiography and embolization for severe hemoptysis due to cavitary pulmonary tuberculosis. <em>Cardiovasc Intervent Radiol</em> 1999;22(6):457–460.</li>
+      <li>Sbano H, Mitchell AW, Ind PW, Jackson JE. Peripheral pulmonary artery pseudoaneurysms and massive hemoptysis. <em>AJR Am J Roentgenol</em> 2005;184(4):1253–1259.</li>
+      <li>Keller FS, Rosch J, Loflin TG, et al. Nonbronchial systemic collateral arteries: significance in percutaneous embolotherapy for hemoptysis. <em>Radiology</em> 1987;164(3):687–692.</li>
+      <li>Rossi SE, Erasmus JJ, Volpacchio M, et al. “Crazy-paving” pattern at thin-section CT of the lungs: radiologic-pathologic overview. <em>RadioGraphics</em> 2003;23(6):1509–1519.</li>
+      <li>Cauldwell EW, Siekert RG, et al. The bronchial arteries; an anatomic study of 150 human cadavers. <em>Surg Gynecol Obstet</em> 1948;86(4):395–412.</li>
+      <li>Walker CM, Rosado-de-Christenson ML, Martínez-Jiménez S, et al. Bronchial arteries: anatomy, function, hypertrophy, and anomalies. <em>RadioGraphics</em> 2015;35(1):32–49.</li>
+      <li>Remy-Jardin M, Bouaziz N, Dumont P, et al. Bronchial and nonbronchial systemic arteries at multi-detector row CT angiography: comparison with conventional angiography. <em>Radiology</em> 2004;233(3):741–749.</li>
+      <li>Chen Y, Gilman MD, Humphrey KL, et al. Pulmonary Artery Pseudoaneurysms: Clinical Features and CT Findings. <em>AJR Am J Roentgenol</em> 2017;208(1):84–91.</li>
+      <li>Herth F, Ernst A, Becker HD. Long-term outcome and lung cancer incidence in patients with hemoptysis of unknown origin. <em>Chest</em> 2001;120(5):1592–1594.</li>
+      <li>Savale L, Parrot A, Khalil A, et al. Cryptogenic hemoptysis: from a benign to a life-threatening pathologic vascular condition. <em>Am J Respir Crit Care Med</em> 2007;175(11):1181–1185.</li>
+    </ol>
+  </div>
+
+</div>
+
+
+    `,
+    views: 1320,
+    readTime: "35 phút đọc",
+    source: "RadioGraphics 2021; 41:742–761 (Radiological Society of North America - RSNA)",
+    tags: [
+      "Ho ra máu",
+      "Hemoptysis",
+      "RadioGraphics 2021",
+      "Cắt lớp vi tính",
+      "CT ngực",
+      "Động mạch phế quản",
+      "Bronchial Artery",
+      "NBSA",
+      "Giả phình động mạch phổi",
+      "Rasmussen Aneurysm",
+      "Dị dạng động tĩnh mạch",
+      "PAVM",
+      "HHT",
+      "Xuất huyết phế nang",
+      "DAH",
+      "Sỏi phế quản",
+      "Nút mạch phế quản",
+      "BAE"
+    ]
   }
+
 ];
