@@ -9107,6 +9107,7 @@ export const POSTS: Post[] = [
     ],
     htmlContent: `
 
+
 <div class="prose prose-slate max-w-none text-slate-800 bg-white">
 
   <!-- HỘP BIÊN TẬP / LỜI GIỚI THIỆU CHUYÊN SÂU -->
@@ -9308,7 +9309,7 @@ export const POSTS: Post[] = [
     Máu chảy vào lòng khí phế quản tạo nên các dấu hiệu chẩn đoán đặc hiệu:
   </p>
   <ul>
-    <li><strong>Khuyết thuốc trong lòng phế quản (Filling defect):</strong> Trong các phế quản lớn, cục máu đông biểu hiện dưới dạng cấu trúc choán chỗ có <strong>đậm độ tự nhiên cao (>40 HU)</strong> trên phim chụp CT, giúp phân biệt rõ ràng với các nút nhầy ứ đọng thông thường (thường &lt;20 HU) (<strong>Hình 3</strong>). Cục máu đông lớn có thể gây bít tắc hoàn toàn lòng phế quản dẫn đến xẹp phổi hạ lưu.</li>
+    <li><strong>Lấp đầy trong lòng phế quản:</strong> Trong các phế quản lớn, cục máu đông biểu hiện dưới dạng cấu trúc choán chỗ có <strong>đậm độ tự nhiên cao (>40 HU)</strong> trên phim chụp CT, giúp phân biệt rõ ràng với các nút nhầy ứ đọng thông thường (thường &lt;20 HU) (<strong>Hình 3</strong>). Cục máu đông lớn có thể gây bít tắc hoàn toàn lòng phế quản dẫn đến xẹp phổi hạ lưu.</li>
     <li><strong>Nốt mờ trung tâm tiểu thùy &amp; Dạng nụ trên cành (Tree-in-bud):</strong> Ở các nhánh phế quản ngoại vi nhỏ hơn, máu hít sặc lắng đọng tạo thành các nốt mờ trung tâm tiểu thùy và hình ảnh chồi cây tương tự như viêm tiểu phế quản nhiễm trùng.</li>
     <li><strong>Phân biệt máu tại chỗ (Parenchymal) vs Máu hít sặc (Aspirated blood):</strong> Đây là điểm mấu chốt để tìm tổn thương thủ phạm. Máu hít sặc thường tạo thành các chùm nốt nụ trên cành nhỏ, giới hạn rõ ở vùng thấp/hạ lưu, trong khi xuất huyết nhu mô tại chỗ thường có dạng kính mờ dạng đám rộng hoặc đông đặc liên tục quanh mạch máu tổn thương. Khi thấy máu hít sặc ở ngoại vi, người đọc phim phải truy ngược lên cây phế quản đoạn gần để tìm nguồn chảy máu thực sự!</li>
   </ul>
@@ -9324,7 +9325,7 @@ export const POSTS: Post[] = [
     <figcaption class="p-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-200 bg-white">
       <strong>Hình 3. Bệnh tim bẩm sinh đã phẫu thuật sửa chữa biểu hiện ho ra máu ở nam 36 tuổi.</strong>
       <strong>(a)</strong> CT cắt ngang cửa sổ phổi cho thấy các nốt kính mờ rải rác ở phân thùy ngoài thùy giữa phải.
-      <strong>(b)</strong> Cửa sổ mô mềm bộc lộ tổn thương khuyết thuốc có đậm độ cao (60 HU, mũi tên) trong lòng phế quản thùy dưới phải, phù hợp với cục máu đông nội phế quản gây xẹp gần hoàn toàn thùy dưới phải, chỉ điểm nguồn chảy máu nằm ở phổi phải.
+      <strong>(b)</strong> Cửa sổ mô mềm bộc lộ tổn thương có đậm độ cao (60 HU, mũi tên) lấp đầy trong lòng phế quản thùy dưới phải, phù hợp với cục máu đông nội phế quản gây xẹp gần hoàn toàn thùy dưới phải, chỉ điểm nguồn chảy máu nằm ở phổi phải.
       <strong>(c)</strong> Ảnh CT cắt ngang phát hiện một <strong>động mạch phế quản lạc vị (ectopic bronchial artery)</strong> xuất phát từ mặt dưới quai động mạch chủ với lỗ xuất phát dãn lớn tới 3 mm (mũi tên).
       <strong>(d)</strong> Tái tạo MIP chếch đứng dọc (sagittal oblique) theo dõi toàn bộ đường đi của động mạch phế quản lạc vị phì đại (mũi tên) chạy thẳng tới vị trí cục máu đông trong phế quản thùy dưới phải.
       <strong>(e)</strong> Chụp mạch số hóa xóa nền chọn lọc ĐM phế quản lạc vị phải khẳng định khẩu kính phì đại lớn và cấp máu lan lên cả màng phổi đỉnh phải. Can thiệp nút mạch bằng hạt PVA 500–700 μm giúp cắt đứt hoàn toàn dòng chảy và bệnh nhân hết ho ra máu.
@@ -10001,30 +10002,12 @@ export const POSTS: Post[] = [
 </div>
 
 
+    
     `,
     views: 1320,
     readTime: "35 phút đọc",
     source: "RadioGraphics 2021; 41:742–761 (Radiological Society of North America - RSNA)",
-    tags: [
-      "Ho ra máu",
-      "Hemoptysis",
-      "RadioGraphics 2021",
-      "Cắt lớp vi tính",
-      "CT ngực",
-      "Động mạch phế quản",
-      "Bronchial Artery",
-      "NBSA",
-      "Giả phình động mạch phổi",
-      "Rasmussen Aneurysm",
-      "Dị dạng động tĩnh mạch",
-      "PAVM",
-      "HHT",
-      "Xuất huyết phế nang",
-      "DAH",
-      "Sỏi phế quản",
-      "Nút mạch phế quản",
-      "BAE"
-    ]
+    tags: ["Ho ra máu","Hemoptysis","RadioGraphics 2021","Cắt lớp vi tính","CT ngực","Động mạch phế quản","Bronchial Artery","NBSA","Giả phình động mạch phổi","Rasmussen Aneurysm","Dị dạng động tĩnh mạch","PAVM","HHT","Xuất huyết phế nang","DAH","Sỏi phế quản","Nút mạch phế quản","BAE"]
   }
 
 ];
