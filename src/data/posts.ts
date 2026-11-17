@@ -2,6 +2,1511 @@ import { Post } from "@/types";
 
 export const POSTS: Post[] = [
   {
+    id: "post-radiographics-2024-erdheim-chester-disease",
+    title: "Chẩn Đoán Hình Ảnh Toàn Diện Bệnh Erdheim-Chester (ECD): Từ Dấu Hiệu Kinh Điển Đến Kỷ Nguyên Liệu Pháp Đích (RSNA RadioGraphics)",
+    slug: "chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024",
+    date: "17 Tháng 11, 2026",
+    updatedDate: "17 Tháng 11, 2026",
+    author: "Yashant Aswani, MD; Shweta Bhatt, MD et al. (RadioGraphics 2024 – Biên dịch: CĐHA Cập Nhật)",
+    categories: ["Bụng - chậu", "Cơ xương khớp", "Thần kinh", "Tim mạch & Lồng ngực", "Y học hạt nhân", "PET/CT", "Tổng hợp", "RadioGraphics"],
+    categorySlugs: ["bung-chau", "co-xuong-khop", "than-kinh", "tim-mach-long-nguc", "y-hoc-hat-nhan", "pet-ct", "tong-hop", "radiographics"],
+    modality: "Tổng hợp",
+    specialty: "Bụng - chậu",
+    specialtySlug: "bung-chau",
+    coverImage: "/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/cover_erdheim_chester_disease_radiographics_2024.jpg",
+    downloadUrl: "/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/aswani-et-al-2024-imaging-in-erdheim-chester-disease-radiographics.pdf",
+    excerpt: "Tổng quan cập nhật toàn diện từ RSNA RadioGraphics về Chẩn đoán Hình ảnh Bệnh Erdheim-Chester (ECD) – bệnh lý tân sinh mô bào đa cơ quan gắn liền với đột biến BRAF V600E và con đường MAPK: Phân tích sâu 4 dấu hiệu pathognomonic kinh điển (Xơ đặc xương thân - hành xương đối xứng quanh gối 'Hot knees', Dấu hiệu 'Thận lông - Hairy kidneys', 'Động mạch chủ bọc - Coated aorta', Khối giả u nhĩ phải 40%), phân biệt tổn thương TKTW (đái tháo nhạt, u thân não, thoái hóa tiểu não), hốc mắt, phổi, tiêu chuẩn đáp ứng chuyển hóa PERCIST trên FDG PET/CT và sự bất tương xứng với xơ hóa trên hình ảnh giải phẫu.",
+    content: [
+      "Bệnh Erdheim-Chester (ECD) đã được Tổ chức Y tế Thế giới (WHO 2022) và Hiệp hội Mô bào phân loại lại là một bệnh lý tân sinh dòng mô bào ác tính đa hệ thống, liên quan đột biến BRAF V600E (50%–60%) và hoạt hóa con đường MAPK/ERK.",
+      "Dấu hiệu xơ đặc xương thân - hành xương đối xứng hai bên ở xương dài chi dưới quanh khớp gối ('Hot knees' sign trên xạ hình xương 99mTc và FDG PET/CT) gặp ở ~95% ca bệnh và có tính chất gần như pathognomonic.",
+      "Các biểu hiện ngoài xương then chốt gồm dấu hiệu 'thận lông' (hairy kidneys, 50%–60%), 'động mạch chủ bọc' (coated aorta, 50%–60%), khối giả u tâm nhĩ phải (~40%), đái tháo nhạt trung ương do tổn thương trục dưới đồi - tuyến yên, và khối u thâm nhiễm sau nhãn cầu hốc mắt.",
+      "Điều trị đã bước sang kỷ nguyên nhắm trúng đích với thuốc ức chế BRAF (Vemurafenib) và MEK (Cobimetinib), cải thiện tỷ lệ sống sót 5 năm từ 43% lên 83%; FDG PET/CT toàn thân là tiêu chuẩn vàng theo dõi đáp ứng theo PERCIST."
+    ],
+    htmlContent: `
+<div class="prose prose-slate max-w-none text-slate-800 bg-white">
+
+<div class="bilingual-hero mb-10 p-6 md:p-8 rounded-3xl text-white shadow-xl relative overflow-hidden" style="background: linear-gradient(135deg, #071626 0%, #162c46 50%, #1a162b 100%); color: #ffffff;">
+  <div class="absolute -right-10 -bottom-10 w-72 h-72 bg-rose-500/10 rounded-full blur-3xl pointer-events-none"></div>
+  <div class="relative z-10">
+    <div class="flex flex-wrap items-center gap-2 mb-4">
+      <span class="px-3 py-1 rounded-full text-xs font-bold tracking-wider uppercase bg-rose-500/20 text-rose-200 border border-rose-400/30">
+        RadioGraphics (RSNA) • Multisystem Radiology 2024
+      </span>
+      <span class="px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">
+        University of Iowa • Rush • USP • Mayo Clinic
+      </span>
+      <span class="px-3 py-1 rounded-full text-xs font-semibold bg-sky-500/20 text-sky-300 border border-sky-400/30">
+        Song ngữ Anh - Việt song song (Parallel Bilingual)
+      </span>
+    </div>
+
+    <h1 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white leading-tight mb-4">
+      Chẩn Đoán Hình Ảnh Toàn Diện Bệnh Erdheim-Chester (ECD)
+    </h1>
+    <p class="text-lg md:text-xl text-sky-200 font-medium mb-6">
+      Imaging in Erdheim-Chester Disease: Multiorgan Histiocytic Neoplasm
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-6 border-t border-slate-700/60 text-xs sm:text-sm text-slate-300">
+      <div>
+        <strong class="text-white block font-semibold mb-1">Tác giả &amp; Đơn vị công tác:</strong>
+        Yashant Aswani, MD<sup>a</sup>, Aditi Patel, MD<sup>a</sup>, Xin Zhan, MD<sup>a</sup>, Shehbaz Ansari, MD<sup>b</sup>, Leonardo Gomes Marcelino, MD<sup>c</sup>, Nishant Aswani, MD, DM<sup>d</sup>, Dhrumil Deveshkumar Patel, MD<sup>e</sup>, Sedat Kandemirli, MD<sup>a</sup>, Sarah Averill, MD<sup>a</sup>, Shweta Bhatt, MD<sup>f</sup>.<br>
+        <span class="text-slate-400 italic">
+          <sup>a</sup> Khoa Chẩn đoán Hình ảnh, Đại học Y khoa Iowa (University of Iowa), IA, USA.<br>
+          <sup>b</sup> Trung tâm Y tế Đại học Rush, Chicago, IL, USA.<br>
+          <sup>c</sup> Viện Điện quang, Đại học São Paulo, São Paulo, Brazil.<br>
+          <sup>d</sup> Khoa Thần kinh, Trường Y Geetanjali, Udaipur, Ấn Độ.<br>
+          <sup>e</sup> Bệnh viện KEM &amp; Đại học Seth GS, Mumbai, Ấn Độ.<br>
+          <sup>f</sup> Khoa Chẩn đoán Hình ảnh, Mayo Clinic, Jacksonville, FL, USA.
+        </span>
+      </div>
+      <div class="md:border-l md:border-slate-700/60 md:pl-6">
+        <strong class="text-white block font-semibold mb-1">Trích dẫn &amp; Xuất bản:</strong>
+        <em>RadioGraphics</em> 2024; 44(9):e240011 (Hội Điện quang Bắc Mỹ - RSNA).<br>
+        DOI: <a href="https://doi.org/10.1148/rg.240011" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:underline">10.1148/rg.240011</a>.<br>
+        <span class="text-rose-400 font-medium mt-1 inline-block">★ Chuyên đề Giáo dục Y khoa Đa Cơ quan (Multisystem CME) kèm 30 hình ảnh &amp; 3 bảng chẩn đoán phân biệt.</span>
+      </div>
+    </div>
+
+    <!-- Download PDF Action Bar -->
+    <div class="mt-6 pt-4 border-t border-slate-700/60 flex flex-wrap items-center justify-between gap-4">
+      <div class="flex items-center gap-2 text-xs sm:text-sm text-sky-200">
+        <svg class="w-5 h-5 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+        </svg>
+        <span>Tài liệu toàn văn PDF gốc (19 trang, RSNA RadioGraphics):</span>
+      </div>
+      <a href="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/aswani-et-al-2024-imaging-in-erdheim-chester-disease-radiographics.pdf" 
+         target="_blank" 
+         class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-rose-600 hover:bg-rose-500 text-white font-bold text-xs sm:text-sm shadow-md transition-all duration-200">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+        </svg>
+        Tải PDF Gốc (RSNA RadioGraphics)
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Teaching Points Box -->
+<div class="my-8 bg-gradient-to-r from-rose-900/10 via-amber-800/10 to-sky-900/10 border-l-4 border-rose-600 rounded-r-2xl p-5 md:p-6 shadow-sm">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="px-2.5 py-1 rounded-md bg-rose-600 text-white font-black text-xs uppercase tracking-wider">TEACHING POINTS</span>
+    <h3 class="text-base md:text-lg font-bold text-slate-900">Điểm Cốt Lõi Cần Nhớ (Teaching Points)</h3>
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm text-slate-700 leading-relaxed">
+    <ul class="list-disc pl-5 space-y-2">
+      <li><strong>Skeletal:</strong> The pattern of bilateral symmetric metadiaphyseal osteosclerosis, especially around the knees, is virtually pathognomonic for ECD. These regions reveal intense uptake at scintigraphy and FDG PET/CT ("hot knees"), a finding nearly exclusive to ECD.</li>
+      <li><strong>Retroperitoneum:</strong> Manifests as infiltrative soft-tissue masses in bilateral perirenal ("hairy kidneys") and posterior pararenal spaces.</li>
+      <li><strong>Cardiac:</strong> Myocardial infiltration has a predilection for the right atrium and atrioventricular sulcus, manifesting as a focal mural mass (pseudotumor).</li>
+      <li><strong>Pulmonary:</strong> Seen at CT in 50% of patients, presenting as smooth interlobular septal thickening (perilymphatic histiocytic infiltration), peribronchovascular interstitium, and visceral pleural thickening.</li>
+      <li><strong>Central Nervous System:</strong> Intracranial lesions (intra-axial, meningeal, perivascular, pituitary infundibulum) are rarely isolated; patients almost always have osteosclerosis of paranasal sinus walls and/or orbital disease.</li>
+    </ul>
+    <ul class="list-disc pl-5 space-y-2 md:border-l md:border-slate-300 md:pl-5 text-slate-900">
+      <li><strong>Cơ xương khớp:</strong> Kiểu hình xơ đặc xương đối xứng hai bên vùng hành - thân xương, đặc biệt quanh khớp gối, là dấu hiệu gần như <em>chắc chắn điểm chỉ (pathognomonic)</em> cho ECD. Vùng này tăng bắt giữ hoạt độ phóng xạ cực mạnh trên xạ hình xương và FDG PET/CT (dấu hiệu "đầu gối nóng - hot knees").</li>
+      <li><strong>Khoang sau phúc mạc:</strong> Biểu hiện dưới dạng khối thâm nhiễm mô mềm khoang quanh thận hai bên (hình ảnh <em>"thận lông - hairy kidneys"</em>) và khoang cạnh thận sau.</li>
+      <li><strong>Tim mạch:</strong> Thâm nhiễm cơ tim có ái lực đặc biệt với tâm nhĩ phải và rãnh nhĩ thất, tạo thành khối mô mềm thành tim dạng <em>giả u (right atrial pseudotumor)</em>.</li>
+      <li><strong>Phổi &amp; Màng phổi:</strong> Gặp trên CT ở 50% bệnh nhân, đặc trưng bởi dày nhẵn vách liên tiểu thùy do thâm nhiễm mô bào theo đường bạch huyết, dày mô kẽ quanh phế quản mạch máu và dày màng phổi tạng.</li>
+      <li><strong>Hệ thần kinh trung ương:</strong> Tổn thương nội sọ (nhu mô não, màng não, mạch máu, cuống tuyến yên) hiếm khi xuất hiện đơn độc; bệnh nhân hầu như luôn có xơ đặc xương thành xoang cạnh mũi và/hoặc tổn thương hốc mắt đi kèm.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Section 1: Overview & Pathogenesis -->
+<div class="my-10 border-t-2 border-b-2 border-rose-600/30 py-4 bg-rose-50/50 rounded-2xl px-6">
+  <div class="flex items-center gap-3">
+    <span class="flex items-center justify-center w-10 h-10 rounded-xl bg-rose-600 text-white font-black text-lg shadow-md">1</span>
+    <div>
+      <h2 class="text-xl md:text-2xl font-black text-slate-900 tracking-tight">
+        Tổng Quan Lịch Sử, Cơ Chế Sinh Học Phân Tử &amp; Đặc Điểm Mô Bệnh Học
+      </h2>
+      <p class="text-sm md:text-base text-rose-700 font-medium">
+        Introduction, History, MAPK/BRAF Mutations, Histopathology &amp; Overlap Syndromes
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Introduction &amp; Reclassification as a Neoplasm</h3>
+    <p>Erdheim-Chester disease (ECD) is a rare multiorgan histiocytosis with diverse clinical manifestations. Initially described as "lipoid granulomatosis" by William Chester and Jakob Erdheim in 1930 (1), it was named after its founders by Henry Jaffe in 1972.</p>
+    <p class="mt-2">ECD was previously considered an inflammatory histiocytosis, but the discovery of activating somatic mutations in the <strong>mitogen-activated protein kinase (MAPK) signaling pathway</strong> has established ECD as a <strong>clonal histiocytic neoplasm</strong>, although secondary inflammation contributes significantly to organ damage (2). Hence, ECD was included in the <em>"histiocytic and dendritic cell neoplasms"</em> category in the 2016 World Health Organization (WHO) classification of hematopoietic tumors (3), and in the <em>Langerhans group</em> in the 2016 revised Histiocyte Society classification, as it shares MAPK mutations with Langerhans cell histiocytosis (LCH) (4).</p>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Tổng Quan &amp; Tái Phân Loại Sang Nhóm Tân Sinh Khối U</h3>
+    <p>Bệnh Erdheim-Chester (ECD) là một bệnh lý tăng sinh mô bào hiếm gặp ảnh hưởng đa cơ quan với biểu hiện lâm sàng hết sức phong phú. Bệnh được William Chester và Jakob Erdheim mô tả lần đầu vào năm 1930 với tên gọi "u hạt ứ mỡ" (lipoid granulomatosis) (1), và được Henry Jaffe chính thức đặt tên theo hai nhà sáng lập vào năm 1972.</p>
+    <p class="mt-2">Trước đây ECD từng được xem là bệnh lý mô bào viêm phản ứng, nhưng việc phát hiện các đột biến soma kích hoạt con đường tín hiệu <strong>mitogen-activated protein kinase (MAPK)</strong> đã xác lập ECD là một <strong>bệnh tân sinh mô bào đơn dòng (clonal histiocytic neoplasm)</strong> thực thụ, dù phản ứng viêm thứ phát đóng góp lớn vào tổn thương cơ quan (2). Do đó, Tổ chức Y tế Thế giới (WHO) năm 2016 đã xếp ECD vào nhóm <em>"khối u tân sinh tế bào mô bào và tế bào tua"</em> (3), và Hội Bệnh lý Mô bào Quốc tế (Histiocyte Society 2016) xếp ECD vào <em>nhóm Langerhans (L group)</em> do cùng chia sẻ các đột biến trục MAPK với bệnh mô bào Langerhans (LCH) (4).</p>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Epidemiology &amp; Molecular Pathogenesis: The BRAF V600E Mutation</h3>
+    <p>The disease predominantly affects adults in their <strong>5th to 7th decades</strong>, with a recognized male preponderance (6). Unlike adults, pediatric ECD typically spares the heart and may manifest initially as juvenile xanthogranuloma (JXG) of the central nervous system (6).</p>
+    <p class="mt-2"><strong>The BRAF V600E Mutation:</strong> BRAF is a key serine/threonine protein kinase of the MAPK pathway. <strong>BRAF<sup>V600E</sup> is the most common activating mutation, found in 50%–60% of patients with ECD</strong> (1). The presence of this mutation is significantly associated with severe cardiovascular involvement, central nervous system disease (2), and extensive perinephric infiltration (13). In patients without BRAF mutations, non-BRAF mutations and fusions in the MAPK pathway (e.g., MAP2K1, KRAS, NRAS) or PI3K pathway are identified (2,8).</p>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Dịch Tễ Học &amp; Cơ Chế Phân Tử: Đột Biến BRAF V600E</h3>
+    <p>Bệnh chủ yếu gặp ở người trưởng thành trong độ tuổi từ <strong>thập niên 50 đến 70</strong>, với ưu thế rõ rệt ở nam giới (6). Khác với người lớn, thể bệnh hiếm gặp ở trẻ em thường không tổn thương tim và có thể khởi phát dưới dạng u hạt vàng thiếu niên (juvenile xanthogranuloma) tại hệ thần kinh trung ương (6).</p>
+    <p class="mt-2"><strong>Đột Biến Trục BRAF V600E:</strong> BRAF là enzyme protein kinase cốt lõi điều hòa con đường tín hiệu MAPK. <strong>Đột biến kích hoạt BRAF<sup>V600E</sup> xuất hiện ở 50%–60% bệnh nhân mắc ECD</strong> (1). Đáng chú ý, sự hiện diện của đột biến này liên quan có ý nghĩa thống kê với tổn thương tim mạch nặng nề, tổn thương hệ thần kinh trung ương (2) và thâm nhiễm bao quanh thận diện rộng (13). Ở các bệnh nhân âm tính với BRAF V600E, các đột biến khác dọc con đường MAPK (như MAP2K1, KRAS, NRAS) hoặc con đường PI3K được phát hiện (2,8).</p>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Pathologic Features &amp; Immunohistochemistry</h3>
+    <p>Histologically, ECD is characterized by <strong>lipid-laden (foamy/xanthomatous) histiocytes</strong> with small, uniform nuclei infiltrating an inflammatory and mildly fibrotic stroma (14). These xanthomatous histiocytes frequently fuse to form <strong>multinucleated giant cells and Touton cells</strong> (giant cells with multiple nuclei clustered around a central cytoplasm, encircled by a foamy lipid-rich outer ring) (15), surrounded by lymphocytes and plasma cells.</p>
+    <p class="mt-2"><strong>Immunohistochemical Profile:</strong></p>
+    <ul class="list-disc pl-5 space-y-1 my-2">
+      <li><strong>Positive:</strong> CD68, CD163, Factor XIIIa, and Fascin (+).</li>
+      <li><strong>Negative:</strong> CD1a and CD207 (langerin) are consistently <em>negative</em> (which distinguishes ECD from Langerhans cell histiocytosis).</li>
+      <li><strong>S100:</strong> Classically negative, but can be weakly or focally positive in some cases (6).</li>
+    </ul>
+    <p class="mt-2">Atypical features include fibrotic lamellae or prominent lymphohistiocytic infiltrates where foamy cells or Touton giant cells are sparse. <em>Absence of Touton cells does not rule out ECD</em> (6).</p>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Đặc Điểm Mô Bệnh Học &amp; Hóa Mô Miễn Dịch</h3>
+    <p>Về mô bệnh học, tổn thương kinh điển của ECD là sự xâm nhập của các <strong>đại thực bào ứ đọng lipid (mô bào bọt / xanthomatous histiocytes)</strong> với nhân nhỏ đồng dạng trên nền mô đệm viêm kèm xơ hóa nhẹ (14). Các mô bào bọt này thường hợp bào tạo thành <strong>tế bào khổng lồ Touton</strong> (tế bào đa nhân xếp thành vòng tròn bao quanh vùng nguyên sinh chất trung tâm, viền ngoài là dải bào tương sáng giàu hạt mỡ) (15), xen kẽ tế bào lympho và tương bào.</p>
+    <p class="mt-2"><strong>Dấu Ấn Hóa Mô Miễn Dịch:</strong></p>
+    <ul class="list-disc pl-5 space-y-1.5 my-2">
+      <li><strong>Dương tính:</strong> CD68 (+), CD163 (+), Yếu tố XIIIa (+) và Fascin (+).</li>
+      <li><strong>Âm tính:</strong> CD1a (-) và CD207/Langerin (-) hoàn toàn âm tính (đặc điểm then chốt giúp phân biệt với LCH).</li>
+      <li><strong>S100:</strong> Kinh điển là âm tính, nhưng có thể dương tính yếu hoặc khu trú ở một số ca (6).</li>
+    </ul>
+    <p class="mt-2">Các thể không điển hình có thể biểu hiện dạng xơ hóa dải hoặc viêm mô bào giàu lympho mà hiếm gặp tế bào Touton. <em>Sự vắng mặt của tế bào Touton không loại trừ chẩn đoán ECD</em> (6).</p>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Clinical Presentation &amp; Diagnostic Challenges</h3>
+    <p>Due to the rarity and multisystem diversity, the onset is insidious, with diagnosis frequently delayed by months to decades (6). Untreated multisystem ECD is progressive and often fatal; spontaneous remission (as observed in LCH) does <em>not</em> occur (2).</p>
+    <p class="mt-2"><strong>Most Common Presenting Symptoms:</strong></p>
+    <ul class="list-disc pl-5 space-y-1 my-2">
+      <li><strong>Bone pain:</strong> 50% of patients (most common presentation).</li>
+      <li><strong>Neurologic deficits:</strong> 50% (ataxia, cranial nerve palsies, dysarthria).</li>
+      <li><strong>Xanthelasma-like lesions (XLLs):</strong> 28% (eyelids/periorbital).</li>
+      <li><strong>Exophthalmos:</strong> 28% (retro-orbital infiltration).</li>
+      <li><strong>Central diabetes insipidus:</strong> 25% (pituitary/hypothalamic involvement) (5).</li>
+    </ul>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Biểu Hiện Lâm Sàng &amp; Thách Thức Chẩn Đoán</h3>
+    <p>Do bệnh hiếm gặp và biểu hiện ở nhiều cơ quan khác nhau, bệnh thường khởi phát âm thầm, thời gian từ lúc có triệu chứng đến khi chẩn đoán đúng thường kéo dài từ nhiều tháng tới hàng chục năm (6). ECD thể đa cơ quan nếu không được điều trị sẽ tiến triển nặng dần dẫn đến tử vong; bệnh <em>không bao giờ tự thoái lui</em> như trong LCH (2).</p>
+    <p class="mt-2"><strong>Các Triệu Chứng Khởi Phát Thường Gặp Nhất:</strong></p>
+    <ul class="list-disc pl-5 space-y-1.5 my-2">
+      <li><strong>Đau xương:</strong> 50% bệnh nhân (triệu chứng khởi phát phổ biến nhất).</li>
+      <li><strong>Thiếu sót thần kinh:</strong> 50% (thất điều, liệt dây thần kinh sọ, khó phát âm).</li>
+      <li><strong>Ban vàng quanh mắt dạng xanthelasma (XLLs):</strong> 28%.</li>
+      <li><strong>Lồi mắt:</strong> 28% (thâm nhiễm khoang sau nhãn cầu).</li>
+      <li><strong>Đái tháo nhạt trung ương:</strong> 25% (tổn thương trục dưới đồi - tuyến yên) (5).</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Table 1 Card -->
+<div class="my-8 bg-white border border-slate-200 rounded-2xl shadow-sm overflow-hidden">
+  <div class="bg-gradient-to-r from-slate-900 to-indigo-900 px-6 py-3.5 text-white flex flex-wrap items-center justify-between gap-2">
+    <span class="font-bold text-base tracking-wide">BẢNG 1 / TABLE 1: DẤU HIỆU NGHI NGỜ TÂN SINH MÔ BÀO (ECD, LCH, RDD) - MAYO CLINIC CONSENSUS</span>
+    <span class="text-xs bg-white/20 px-2.5 py-1 rounded-full font-semibold">Theo Goyal et al. (16)</span>
+  </div>
+  <div class="overflow-x-auto">
+    <table class="w-full text-left border-collapse text-xs sm:text-sm">
+      <thead>
+        <tr class="bg-slate-100 text-slate-800 border-b border-slate-200">
+          <th class="p-3.5 font-bold w-1/3">Phân loại dấu hiệu</th>
+          <th class="p-3.5 font-bold">Biểu hiện lâm sàng &amp; Hình ảnh học</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200">
+        <tr class="hover:bg-slate-50 bg-rose-50/30">
+          <td class="p-3.5 font-bold text-rose-900">Dấu hiệu chính (Major features)</td>
+          <td class="p-3.5 text-slate-800 space-y-1">
+            <p>• <strong>Đặc xương vùng hành - thân xương (Metadiaphyseal osteosclerosis)</strong> của xương đùi, xương chày hoặc xương mác.</p>
+            <p>• <strong>Đái tháo nhạt trung ương vô căn (Idiopathic central diabetes insipidus)</strong>.</p>
+            <p>• <strong>Thâm nhiễm mô bào không điển hình (Atypical histiocytic infiltrate)</strong> dương tính với CD68 hoặc CD163 trên sinh thiết mô.</p>
+          </td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-3.5 font-bold text-blue-900">Dấu hiệu phụ (Other features)<br><span class="text-xs font-normal text-slate-500">Kết hợp với bất kỳ dấu hiệu chính nào</span></td>
+          <td class="p-3.5 text-slate-700 space-y-1">
+            <p>• Tăng sinh mô mềm đậm đặc quanh thận khoang sau phúc mạc (<strong>dấu hiệu "thận lông" - hairy kidney</strong>).</p>
+            <p>• Lớp mô mềm bọc quanh mạch máu kích thước trung bình đến lớn (<strong>dấu hiệu "động mạch chủ bọc" - coated aorta</strong>).</p>
+            <p>• Tổn thương dạng kén khí kèm nốt ưu thế thùy trên phổi ở người có hút thuốc lá (gợi ý LCH).</p>
+            <p>• Tổn thương tiêu xương dạng đột lỗ (punched-out lytic lesions), thường ở xương dẹt (hộp sọ, xương ức, xương sườn, xương chậu).</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Mixed Histiocytoses (MHs): Overlap Syndrome</h3>
+    <p>Patients with mixed histiocytoses harbor features belonging to two or rarely three distinct histiocytoses within the same patient or even the same biopsy sample (2). A common myeloid progenitor cell in the bone marrow carrying early clonal mutations is the likely explanation (18):</p>
+    <ul class="list-disc pl-5 space-y-1 my-2">
+      <li><strong>ECD-LCH Overlap:</strong> Typically affects younger patients, with higher frequency of BRAF mutations and a disease phenotype closer to ECD. LCH diagnosis precedes or occurs concurrently with ECD, but never follows ECD (2).</li>
+      <li><strong>ECD-RDD Overlap:</strong> Predominates in elderly men, near-exclusive extranodal disease with frequent testicular involvement and higher frequency of MAP2K1 mutations (19).</li>
+    </ul>
+    <p class="mt-2">A repeat biopsy should be considered in patients with atypical presentations to confirm mixed histiocytosis (6).</p>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Bệnh Lý Mô Bào Hỗn Hợp (Mixed Histiocytoses): Hội Chứng Chồng Lấp</h3>
+    <p>Một số bệnh nhân biểu hiện kiểu hình của hai hoặc hiếm hơn là ba bệnh mô bào khác nhau trên cùng một cơ thể hoặc thậm chí trên cùng một mẫu bệnh phẩm sinh thiết (2). Giả thuyết sinh học phân tử là do sự tồn tại của một tế bào gốc dòng tủy chung mang đột biến sớm (18):</p>
+    <ul class="list-disc pl-5 space-y-1.5 my-2">
+      <li><strong>Chồng lấp ECD - LCH:</strong> Thường gặp ở người trẻ tuổi hơn, tần suất đột biến BRAF cao hơn và kiểu hình lâm sàng gần với ECD. Chẩn đoán LCH thường đi trước hoặc đồng thời với ECD, không bao giờ xuất hiện sau khi đã chẩn đoán ECD (2).</li>
+      <li><strong>Chồng lấp ECD - RDD (Rosai-Dorfman):</strong> Ưu thế ở nam giới cao tuổi, tổn thương hầu như thuần túy ngoài hạch, thường ảnh hưởng đến tinh hoàn và có tần suất đột biến MAP2K1 cao (19).</li>
+    </ul>
+    <p class="mt-2">Nên xem xét sinh thiết lại ở những bệnh nhân có tổn thương không điển hình để xác định hội chứng chồng lấp (6).</p>
+  </div>
+</div>
+
+<!-- Figure 1 Card -->
+<div class="my-8 bg-white border border-slate-200 rounded-3xl shadow-lg overflow-hidden">
+  <div class="bg-gradient-to-r from-slate-900 via-rose-950 to-indigo-950 p-4 text-white flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <span class="px-3 py-1 rounded-full bg-rose-500/30 text-rose-200 text-xs font-bold uppercase tracking-wider border border-rose-400/30">HÌNH 1 / FIGURE 1</span>
+      <span class="font-bold text-sm md:text-base">Sơ Đồ Toàn Diện Các Đặc Điểm Lâm Sàng &amp; Hình Ảnh Của Bệnh Erdheim-Chester</span>
+    </div>
+  </div>
+  <div class="p-4 md:p-6 bg-slate-900 flex flex-col items-center justify-center">
+    <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig1_key_clinical_and_radiologic_features_diagram.jpg" 
+         alt="Hình 1: Sơ đồ toàn diện các đặc điểm lâm sàng và hình ảnh của bệnh Erdheim-Chester" 
+         class="max-w-full md:max-w-4xl h-auto rounded-xl shadow-2xl border border-slate-700" 
+         loading="lazy" />
+  </div>
+  <div class="p-4 md:p-6 bg-slate-50 border-t border-slate-200">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
+      <div class="lang-en text-slate-700 leading-relaxed">
+        <p class="font-bold text-slate-900 mb-1">Figure 1. Key clinical and radiologic features of Erdheim-Chester disease (ECD).</p>
+        <p>Comprehensive diagram summarizing multisystem involvement: <strong>Bones (~95%)</strong> bilateral osteosclerosis around knees (pathognomonic); <strong>Retroperitoneum (50%–60%)</strong> "hairy kidney"; <strong>Coated Aorta (50%–60%)</strong> periarterial infiltration; <strong>Heart (~40%)</strong> right atrial pseudotumor; <strong>CNS (25%–50%)</strong> brainstem, cerebellum, meninges; <strong>Endocrine (40%–70%)</strong> pituitary stalk lesions, diabetes insipidus; <strong>Pleuropulmonary (~50%)</strong> interlobular and subpleural thickening; <strong>Orbits (25%–30%)</strong> intraconal masses; <strong>Cutaneous (20%–30%)</strong> xanthelasma-like lesions; <strong>Testis (3%–5%)</strong> hypoechoic lesions in ECD/RDD overlap.</p>
+      </div>
+      <div class="lang-vi text-slate-900 leading-relaxed md:border-l md:border-slate-300 md:pl-4">
+        <p class="font-bold text-rose-900 mb-1">Hình 1. Các đặc điểm lâm sàng và hình ảnh then chốt của bệnh Erdheim-Chester (ECD).</p>
+        <p>Sơ đồ tổng quan tổn thương đa cơ quan: <strong>Xương (~95%)</strong> xơ đặc xương đối xứng quanh gối (dấu hiệu pathognomonic); <strong>Sau phúc mạc (50%–60%)</strong> hình thái "thận lông"; <strong>Động mạch chủ bọc (50%–60%)</strong> thâm nhiễm quanh mạch; <strong>Tim (~40%)</strong> khối giả u nhĩ phải; <strong>Hệ TKTW (25%–50%)</strong> thân não, tiểu não, màng não; <strong>Nội tiết (40%–70%)</strong> dày cuống tuyến yên, đái tháo nhạt; <strong>Phổi - màng phổi (~50%)</strong> dày vách liên tiểu thùy và màng phổi; <strong>Hốc mắt (25%–30%)</strong> khối trong chóp cơ; <strong>Da (20%–30%)</strong> ban vàng dạng xanthelasma; <strong>Tinh hoàn (3%–5%)</strong> nốt giảm âm ở thể chồng lấp ECD/RDD.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Role of Multimodality Imaging in ECD</h3>
+    <p>Imaging plays a central role in ECD across every phase of management:</p>
+    <ul class="list-disc pl-5 space-y-1.5 my-2">
+      <li><strong>Diagnosis &amp; Biopsy Targeting:</strong> Often provides the initial diagnostic clue (20) and targets the most FDG-avid or accessible lesion (cutaneous, bone, perirenal) for tissue sampling (6).</li>
+      <li><strong>Radiography &amp; 99mTc Bone Scintigraphy:</strong> Scintigraphy is the most sensitive modality for skeletal involvement, revealing uptake even in radiographically silent lesions (22).</li>
+      <li><strong>Magnetic Resonance Imaging (MRI):</strong> Preferred for evaluating the central nervous system, pituitary stalk, orbits, and cardiac involvement due to superior soft-tissue contrast (6). Recommended in all patients at baseline.</li>
+      <li><strong>Baseline Whole-Body FDG PET/CT (Vertex-to-Toes):</strong> Recommended for all patients at diagnosis to establish the full systemic extent of disease, guide biopsy, and serve as the baseline for metabolic response monitoring (6). If PET/CT is unavailable, contrast-enhanced CT of the chest, abdomen, pelvis plus lower extremity imaging is mandatory.</li>
+    </ul>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Vai Trò Của Các Phương Thức Hình Ảnh Trong Quản Lý ECD</h3>
+    <p>Chẩn đoán hình ảnh đóng vai trò trung tâm xuyên suốt toàn bộ quá trình chẩn đoán và theo dõi bệnh nhân ECD:</p>
+    <ul class="list-disc pl-5 space-y-2 my-2">
+      <li><strong>Chẩn Đoán Ban Đầu &amp; Định Hướng Sinh Thiết:</strong> Hình ảnh thường là gợi ý đầu tiên hướng tới ECD (20) và giúp chọn vị trí có hoạt độ chuyển hóa FDG cao nhất hoặc dễ tiếp cận nhất (da, xương, quanh thận) để sinh thiết tìm đột biến phân tử (6).</li>
+      <li><strong>X-quang &amp; Xạ Hình Xương 99mTc:</strong> Xạ hình xương là phương thức nhạy nhất phát hiện tổn thương xương, có thể phát hiện bất thường ngay cả khi phim X-quang quy ước chưa thấy rõ (22).</li>
+      <li><strong>Cộng Hưởng Từ (MRI):</strong> Lựa chọn ưu tiên để đánh giá hệ thần kinh trung ương, cuống tuyến yên, hốc mắt và tổn thương tim nhờ độ tương phản mô mềm tuyệt hảo (6). Được khuyến cáo thực hiện ở tất cả bệnh nhân tại thời điểm chẩn đoán.</li>
+      <li><strong>FDG PET/CT Toàn Thân (Từ Đỉnh Đầu Đến Ngón Chân):</strong> Bắt buộc thực hiện ở mọi bệnh nhân lúc ban đầu để lập bản đồ mức độ lan tràn toàn thân, theo dõi đáp ứng điều trị đích (6). Nếu không có PET/CT, bắt buộc chụp CT có tiêm cản quang ngực - bụng - chậu kết hợp khảo sát chi dưới.</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ========================================== -->
+<!-- PHẦN 2: TỔN THƯƠNG HỆ CƠ XƯƠNG (SKELETAL INVOLVEMENT) -->
+<!-- ========================================== -->
+<div class="section-divider my-10 border-t-2 border-dashed border-rose-200"></div>
+
+<div class="bilingual-section-header bg-gradient-to-r from-rose-900 via-slate-900 to-indigo-950 text-white p-5 rounded-2xl shadow-lg mb-8">
+  <div class="flex items-center gap-3">
+    <span class="flex items-center justify-center w-10 h-10 rounded-xl bg-rose-500/30 text-rose-300 font-black text-xl border border-rose-400/40">01</span>
+    <div>
+      <h2 class="text-xl md:text-2xl font-extrabold text-white tracking-wide">
+        Tổn Thương Hệ Cơ Xương &amp; Dấu Hiệu "Hot Knees" Pathognomonic
+      </h2>
+      <p class="text-xs md:text-sm text-rose-200 font-medium">
+        Skeletal Involvement: Metadiaphyseal Osteosclerosis &amp; The "Hot Knees" Sign
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">High Prevalence but Clinically Silent Bone Lesions</h3>
+    <p>Bone involvement is an almost constant finding in Erdheim-Chester disease (23). More than half of the cases show at least one concomitant extraskeletal site of involvement (24). Although the vast majority of bone lesions are clinically silent (23), when symptomatic, juxta-articular bone pain around the knees and the ankles is the most common presenting feature (22, 24). Despite a high frequency of skeletal involvement (nearly 95% of cases), there is no increased risk of fracture (16, 25).</p>
+    <p class="mt-3">ECD has a striking predilection for the appendicular skeleton, particularly the long bones of the lower extremities (26). The long bones of the upper extremity are less frequently involved and exhibit milder abnormalities (23).</p>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Tỷ Lệ Tổn Thương Xương Gần Như Tuyệt Đối Nhưng Thường Thầm Lặng</h3>
+    <p>Tổn thương xương là dấu hiệu hiện diện gần như bất biến trong bệnh Erdheim-Chester (chiếm tới 95% trường hợp) (23). Hơn một nửa số bệnh nhân có ít nhất một vị trí tổn thương ngoài xương đi kèm (24). Mặc dù đại đa số tổn thương xương diễn tiến thầm lặng trên lâm sàng (23), khi có triệu chứng, đau xương cạnh khớp quanh khớp gối và cổ chân là biểu hiện khởi phát thường gặp nhất (22, 24). Đáng lưu ý, dù tần suất tổn thương xương rất cao, bệnh nhân không hề gia tăng nguy cơ gãy xương bệnh lý (16, 25).</p>
+    <p class="mt-3">ECD có ái tính đặc biệt với bộ xương chi (appendicular skeleton), nhất là các xương dài của chi dưới (26). Các xương dài chi trên ít bị ảnh hưởng hơn và biểu hiện tổn thương thường nhẹ hơn (23).</p>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Pathognomonic Bilateral Symmetric Metadiaphyseal Osteosclerosis</h3>
+    <p>Radiographs and CT images demonstrate symmetric and bilateral cortical sclerosis affecting the diaphysis and metaphysis of the femur, tibia, and fibula, particularly around the knees (6). As the cortical sclerosis progresses, there is blurring of the corticomedullary junction with heterogeneous or homogeneous sclerosis of the cancellous bone and, in advanced cases, obliteration of the bone marrow cavity (22) (Figs 2, 3).</p>
+    <p class="mt-3">The pattern of bilateral symmetric metadiaphyseal regions of osteosclerosis, especially around the knees, is virtually pathognomonic for ECD (6, 24). These regions reveal intense radiotracer uptake at bone scintigraphy (the classic <em>"hot knees"</em> sign, Fig 4) and avid uptake on FDG PET/CT (Fig 5), a finding nearly exclusive to ECD (22).</p>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Dấu Hiệu Xơ Đặc Xương Thân - Hành Xương Đối Xứng Hai Bên Đặc Trưng (Pathognomonic)</h3>
+    <p>Trên phim X-quang và CT, hình ảnh kinh điển là hiện tượng dày xơ đặc vỏ xương đối xứng hai bên, phân bố chủ yếu ở vùng thân xương (diaphysis) và hành xương (metaphysis) của xương đùi, xương chày và xương mác, tập trung nhiều nhất quanh khớp gối (6). Khi tình trạng xơ đặc vỏ xương tiến triển, ranh giới vỏ - tủy xương sẽ bị xóa mờ, kèm theo xơ hóa xương bè dạng loang lổ hoặc đồng nhất, và ở giai đoạn muộn có thể gây xóa hoàn toàn khoang tủy xương (22) (Hình 2, 3).</p>
+    <p class="mt-3">Kiểu hình xơ đặc xương thân - hành xương đối xứng hai bên, đặc biệt quanh khớp gối, được coi là dấu hiệu gần như <em>pathognomonic</em> (đặc trưng tuyệt đối) của bệnh ECD (6, 24). Các vùng xương này tăng bắt giữ hoạt độ phóng xạ cực mạnh trên xạ hình xương 99mTc (tạo nên dấu hiệu kinh điển <em>"hot knees"</em> - "gối nóng", Hình 4) và tăng hấp thu mạnh trên FDG PET/CT (Hình 5) — một hình ảnh gần như độc quyền của ECD (22).</p>
+  </div>
+</div>
+
+<div class="my-8 rounded-2xl border border-slate-200 bg-white p-4 sm:p-6 shadow-sm">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+    <div>
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig2_typical_long_bones_osteosclerosis_radiograph.jpg" alt="Figure 2: Typical long bones osteosclerosis radiograph" class="w-full max-h-[460px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 2 / Fig 2: Phim X-quang gối thẳng (Frontal knee radiograph)</p>
+    </div>
+    <div>
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig3_coronal_ct_distal_femora_osteosclerosis.jpg" alt="Figure 3: Coronal CT distal femora osteosclerosis" class="w-full max-h-[460px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 3 / Fig 3: Tái tạo CT mặt phẳng đứng ngang (Coronal CT reformation, bone window)</p>
+    </div>
+  </div>
+  <div class="mt-4 pt-4 border-t border-slate-200 grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
+    <div class="lang-en text-slate-700 leading-relaxed">
+      <p><strong>Figure 2. Typical involvement of long bones in ECD.</strong> Frontal knee radiograph depicts symmetric osteosclerosis of the distal metaphyses and diaphyses of both femora (arrows).</p>
+      <p class="mt-2"><strong>Figure 3. Distal femoral osteosclerosis on CT.</strong> Coronal CT reformation (bone window) shows bilateral symmetric metaphyseal and diaphyseal sclerosis involving the distal femora (arrows).</p>
+    </div>
+    <div class="lang-vi text-slate-900 leading-relaxed md:border-l md:border-slate-300 md:pl-4">
+      <p><strong>Hình 2. Tổn thương xương dài điển hình trong bệnh ECD.</strong> Phim X-quang khớp gối thẳng bộc lộ tình trạng xơ đặc xương đối xứng ở hành xương và thân xương đoạn xa của cả hai xương đùi (các mũi tên).</p>
+      <p class="mt-2"><strong>Hình 3. Xơ đặc đầu dưới xương đùi trên CT.</strong> Hình tái tạo CT mặt phẳng đứng ngang (cửa sổ xương) cho thấy tổn thương xơ đặc xương đối xứng hai bên ở vùng hành xương và thân xương của đoạn xa hai xương đùi (các mũi tên).</p>
+    </div>
+  </div>
+</div>
+
+<div class="my-8 rounded-2xl border border-slate-200 bg-white p-4 sm:p-6 shadow-sm">
+  <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 items-center">
+    <div>
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig4_hot_knees_sign_99mtc_bone_scintigraphy.png" alt="Figure 4: Hot knees sign 99mTc bone scintigraphy" class="w-full max-h-[480px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 4 / Fig 4: Xạ hình xương 99mTc ("Hot knees" sign)</p>
+    </div>
+    <div>
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig5_coronal_fdg_pet_ct_mip_bony_involvement.jpg" alt="Figure 5: Bony involvement coronal FDG PET/CT MIP" class="w-full max-h-[480px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 5 / Fig 5: FDG PET/CT tái tạo MIP toàn thân</p>
+    </div>
+    <div>
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig6_femoral_coronal_postcontrast_t1_mri.jpg" alt="Figure 6: Femoral involvement coronal postcontrast T1 MRI" class="w-full max-h-[480px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 6 / Fig 6: MRI coronal T1 sau tiêm đối quang từ</p>
+    </div>
+  </div>
+  <div class="mt-4 pt-4 border-t border-slate-200 grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
+    <div class="lang-en text-slate-700 leading-relaxed">
+      <p><strong>Figure 4. “Hot knees” sign.</strong> 99mTc bone scintigraphic image shows a symmetric and bilateral increase in radiotracer uptake in the distal femora and proximal tibiae around the knees (bracket), distal tibiae (arrows), and proximal humeri (arrowheads).</p>
+      <p class="mt-2"><strong>Figure 5. Bony involvement in ECD on FDG PET/CT.</strong> Coronal FDG PET/CT maximum intensity projection (MIP) shows a bilateral and symmetric increase in uptake around the knees (bracket). Also seen is symmetric increased activity in the proximal femora (white arrows), distal tibiae (black arrows), and proximal humeri (arrowheads) on both sides.</p>
+      <p class="mt-2"><strong>Figure 6. Femoral involvement on MRI.</strong> Coronal postcontrast T1-weighted MR image shows nonspecific enhancing lesions in the distal metadiaphyseal regions of both femora (arrows), with relative sparing of the epiphyses.</p>
+    </div>
+    <div class="lang-vi text-slate-900 leading-relaxed md:border-l md:border-slate-300 md:pl-4">
+      <p><strong>Hình 4. Dấu hiệu "Hot knees" (Gối nóng).</strong> Hình ảnh xạ hình xương bằng 99mTc cho thấy sự gia tăng bắt giữ chất phóng xạ đối xứng và hai bên ở đầu dưới xương đùi và đầu trên xương chày quanh khớp gối (dấu ngoặc), đầu dưới xương chày (các mũi tên) và đầu trên xương cánh tay (các đầu mũi tên).</p>
+      <p class="mt-2"><strong>Hình 5. Tổn thương xương trong bệnh ECD trên FDG PET/CT.</strong> Hình ảnh tái tạo MIP đứng ngang trên FDG PET/CT bộc lộ tăng hấp thu chất chuyển hóa đối xứng hai bên quanh khớp gối (dấu ngoặc). Đồng thời cũng thấy tăng hoạt tính đối xứng ở đầu trên xương đùi (mũi tên trắng), đầu dưới xương chày (mũi tên đen) và đầu trên xương cánh tay hai bên (đầu mũi tên).</p>
+      <p class="mt-2"><strong>Hình 6. Tổn thương xương đùi trên MRI.</strong> Hình ảnh MRI coronal T1 sau tiêm chất đối quang từ cho thấy các tổn thương ngấm thuốc không đặc hiệu ở vùng thân - hành xương đoạn xa của cả hai xương đùi (các mũi tên), với sự bảo tồn tương đối vùng đầu xương (epiphyses).</p>
+    </div>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">MRI Characteristics and Epiphyseal Sparing</h3>
+    <p>MRI findings in the skeleton are nonspecific and reflect replacement of normal fatty marrow by fibrohistiocytic infiltrates: low signal intensity on T1-weighted images, heterogeneous signal on T2-weighted and STIR images, along with diffuse postcontrast enhancement (Fig 6) (23, 24).</p>
+    <p class="mt-3">Classically, ECD has been described to strictly spare the epiphysis. However, partial epiphyseal involvement with sparing of the immediate subchondral bone has been documented on MRI (23) (Fig 7). Histopathologic examination confirmed that these areas of signal alteration represent active CD68-positive histiocytic proliferation.</p>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Đặc Điểm MRI Xương &amp; Tính Chất Bảo Tồn Đầu Xương (Epiphyseal Sparing)</h3>
+    <p>Hình ảnh cộng hưởng từ (MRI) xương thường không đặc hiệu, phản ánh quá trình thay thế tủy mỡ bình thường bằng mô thâm nhiễm xơ - mô bào: giảm tín hiệu trên T1W, tín hiệu không đồng nhất trên T2W và xung xóa mỡ STIR, kèm theo ngấm thuốc đối quang từ sau tiêm (Hình 6) (23, 24).</p>
+    <p class="mt-3">Theo mô tả kinh điển, ECD bảo tồn hoàn toàn vùng đầu xương (epiphysis). Tuy nhiên, các nghiên cứu MRI độ phân giải cao gần đây đã ghi nhận hiện tượng tổn thương lan một phần vào đầu xương nhưng luôn bảo tồn lớp xương dưới sụn (subchondral bone sparing) (23) (Hình 7). Phân tích giải phẫu bệnh khẳng định vùng tín hiệu bất thường này chứa đầy các mô bào thâm nhiễm dương tính với CD68.</p>
+  </div>
+</div>
+
+<div class="my-8 rounded-2xl border border-slate-200 bg-white p-4 sm:p-6 shadow-sm">
+  <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 items-center">
+    <div>
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig7_partial_epiphyseal_involvement_stir_mri.png" alt="Figure 7: Partial epiphyseal involvement STIR MRI" class="w-full max-h-[460px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 7 / Fig 7: MRI xung STIR (Partial epiphyseal involvement)</p>
+    </div>
+    <div>
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig8_pediatric_ecd_mandible_axial_ct.jpg" alt="Figure 8: Pediatric ECD mandible axial CT" class="w-full max-h-[460px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 8 / Fig 8: CT cắt ngang xương hàm dưới ở trẻ em</p>
+    </div>
+    <div>
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig9_multifocal_osteolytic_ecd_radiograph_ct.png" alt="Figure 9: Multifocal osteolytic ECD radiograph and CT" class="w-full max-h-[460px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 9 / Fig 9: Thể tiêu xương đa ổ (Osteolytic ECD)</p>
+    </div>
+  </div>
+  <div class="mt-4 pt-4 border-t border-slate-200 grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
+    <div class="lang-en text-slate-700 leading-relaxed">
+      <p><strong>Figure 7. Partial epiphyseal involvement in ECD.</strong> Coronal STIR image of the knees, tibiae, and ankle joints shows extension of high-signal metadiaphyseal lesions from the distal femora and proximal/distal tibiae into the epiphyses (arrows). Subchondral bone is strictly spared. High signal intensity corresponded to CD68-positive histiocytic infiltrates.</p>
+      <p class="mt-2"><strong>Figure 8. Pediatric ECD involving axial skeleton.</strong> 15-year-old adolescent boy with posttraumatic fracture of the mandible. Axial CT shows an incidental sclerotic lesion (arrow) confirmed as ECD at biopsy. Bone involvement in ECD does not predispose to increased fracture risk.</p>
+      <p class="mt-2"><strong>Figure 9. Multifocal osteolytic ECD.</strong> 51-year-old man with left thigh and knee pain. (A) Frontal radiograph depicts multiple metadiaphyseal lytic lesions (arrow). (B) Sagittal CT reformation shows long-segment lytic lesion involving distal epiphysis, metaphysis, and diaphysis of the left femur (arrow). Three years prior, a lytic lesion was detected in T12 vertebra.</p>
+    </div>
+    <div class="lang-vi text-slate-900 leading-relaxed md:border-l md:border-slate-300 md:pl-4">
+      <p><strong>Hình 7. Tổn thương đầu xương một phần trong bệnh ECD.</strong> Hình ảnh MRI coronal STIR khớp gối, cẳng chân và cổ chân cho thấy tổn thương tăng tín hiệu vùng thân - hành xương từ đầu dưới xương đùi và đầu trên/dưới xương chày lan một phần vào đầu xương (các mũi tên). Lớp xương dưới sụn được bảo tồn nguyên vẹn. Tín hiệu cao này tương ứng với các ổ thâm nhiễm mô bào dương tính với CD68.</p>
+      <p class="mt-2"><strong>Hình 8. Bệnh ECD ở bệnh nhi tổn thương xương trục.</strong> Thiếu niên 15 tuổi vào viện vì gãy xương hàm dưới sau chấn thương. Hình ảnh CT cắt ngang xương hàm dưới cho thấy tổn thương xơ đặc xương tình cờ (mũi tên), sinh thiết xác chẩn là ECD. Tổn thương xương trong ECD không làm tăng nguy cơ gãy xương.</p>
+      <p class="mt-2"><strong>Hình 9. Thể tiêu xương đa ổ không điển hình của bệnh ECD.</strong> Nam bệnh nhân 51 tuổi đau đùi và khớp gối trái. (A) X-quang gối thẳng thấy nhiều tổn thương tiêu xương vùng thân - hành xương (mũi tên). (B) CT tái tạo đứng dọc (sagittal) cho thấy tổn thương tiêu xương đoạn dài xâm lấn đầu xương, hành xương và thân xương đùi trái (mũi tên). 3 năm trước, bệnh nhân từng có tổn thương tiêu xương ở thân đốt sống ngực T12.</p>
+    </div>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Atypical &amp; Uncommon Skeletal Manifestations</h3>
+    <p>Uncommon forms of osseous ECD include:</p>
+    <ul class="list-disc pl-5 space-y-1.5 my-2">
+      <li>Involvement of the skull and axial skeleton, such as the mandible (Fig 8) or spine (27).</li>
+      <li>Purely lytic lesions without surrounding osteosclerosis (Fig 9) (23).</li>
+      <li>Osteolysis with cortical destruction and an associated soft-tissue mass (pseudotumoral lesion) (23, 28, 29).</li>
+      <li>Mixed sclerotic and lytic patterns seen in ECD-LCH mixed histiocytosis (17).</li>
+    </ul>
+    <p class="mt-3">Differential diagnoses for sclerotic lesions of ECD include bone infarction (BI), enchondroma, renal osteodystrophy, osteoblastic metastases, chronic focal osteomyelitis, myelofibrosis, and Paget disease (PD) (24) (Table 2).</p>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Các Thể Tổn Thương Xương Không Điển Hình &amp; Chẩn Đoán Phân Biệt</h3>
+    <p>Các dạng tổn thương xương ít gặp của bệnh ECD bao gồm:</p>
+    <ul class="list-disc pl-5 space-y-2 my-2">
+      <li>Tổn thương xương sọ và bộ xương trục (axial skeleton), chẳng hạn như xương hàm dưới (Hình 8) hoặc cột sống (27).</li>
+      <li>Tổn thương tiêu xương thuần túy không có viền xơ đặc bao quanh (Hình 9) (23).</li>
+      <li>Tiêu xương kèm phá hủy vỏ xương và tạo khối mô mềm cạnh xương (dạng giả u - pseudotumor) (23, 28, 29).</li>
+      <li>Kiểu hình hỗn hợp tiêu xương phối hợp xơ đặc xương trong hội chứng chồng lấp ECD-LCH (17).</li>
+    </ul>
+    <p class="mt-3">Chẩn đoán phân biệt các tổn thương xơ đặc xương của ECD gồm: nhồi máu xương (bone infarction), u sụn màng trong (enchondroma), loạn dưỡng xương do thận, di căn thể đặc xương, viêm tủy xương mạn khu trú, xơ tủy (myelofibrosis) và bệnh Paget xương (24) (Bảng 2).</p>
+  </div>
+</div>
+
+<div class="my-8 rounded-2xl border border-slate-200 bg-white p-4 sm:p-6 shadow-sm overflow-hidden">
+  <div class="flex items-center justify-between mb-4 pb-3 border-b border-slate-200">
+    <h4 class="text-base font-bold text-slate-900">
+      Bảng 2: Chẩn Đoán Phân Biệt Tổn Thương Xơ Đặc Xương Thân - Hành Xương Dài
+    </h4>
+    <span class="text-xs bg-rose-100 text-rose-800 font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">
+      Table 2 • Bone Differential
+    </span>
+  </div>
+  
+  <div class="overflow-x-auto">
+    <table class="w-full text-left text-xs sm:text-sm border-collapse">
+      <thead>
+        <tr class="bg-slate-100 text-slate-700 border-b border-slate-200 font-bold">
+          <th class="p-3">Bệnh lý (Entity)</th>
+          <th class="p-3">Bối cảnh lâm sàng</th>
+          <th class="p-3">Đặc điểm X-quang / CT</th>
+          <th class="p-3">Đặc điểm trên MRI</th>
+          <th class="p-3">Y học hạt nhân (Scintigraphy / PET)</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-100 text-slate-800">
+        <tr class="bg-rose-50/40 hover:bg-rose-50/70 transition-colors">
+          <td class="p-3 font-extrabold text-rose-900">
+            Bệnh Erdheim-Chester (ECD)
+          </td>
+          <td class="p-3">
+            Nam giới trung niên - cao tuổi; đau xương khớp gối/cổ chân hoặc không triệu chứng.
+          </td>
+          <td class="p-3">
+            Xơ đặc xương đối xứng hai bên ở vùng thân - hành xương dài, đặc biệt quanh gối. Tổn thương cả vỏ xương và khoang tủy; xóa ranh giới vỏ - tủy.
+          </td>
+          <td class="p-3">
+            Giảm tín hiệu trên T1W; tín hiệu không đồng nhất trên T2W; ngấm thuốc cản từ sau tiêm. Bảo tồn tương đối đầu xương (hoặc chỉ lan một phần, chừa lớp dưới sụn).
+          </td>
+          <td class="p-3 font-bold text-rose-800">
+            Tăng bắt giữ cực mạnh trên xạ hình xương 99mTc (dấu hiệu "Hot knees") và FDG PET/CT.
+          </td>
+        </tr>
+        <tr class="hover:bg-slate-50 transition-colors">
+          <td class="p-3 font-bold text-slate-900">
+            Nhồi máu xương (Bone Infarction - BI)
+          </td>
+          <td class="p-3">
+            Tiền sử dùng corticosteroid kéo dài, nghiện rượu, bệnh hồng cầu hình liềm, SLE.
+          </td>
+          <td class="p-3">
+            Một bên hoặc hai bên. Tổn thương dạng xơ đặc viền ngoằn ngoèo (serpiginous border), khu trú ở khoang tủy xương, KHÔNG làm dày vỏ xương.
+          </td>
+          <td class="p-3">
+            Viền giảm tín hiệu trên T1W bao quanh tủy xương trung tâm bình thường. Dấu hiệu viền đôi (double-rim sign) trên T2W: vòng ngoài giảm tín hiệu (xơ), vòng trong tăng tín hiệu (sung huyết).
+          </td>
+          <td class="p-3 text-slate-600">
+            Thường KHÔNG tăng bắt giữ trên xạ hình xương 99mTc; đôi khi tăng nhẹ FDG nếu đang trong giai đoạn tổ chức hóa cấp.
+          </td>
+        </tr>
+        <tr class="hover:bg-slate-50 transition-colors">
+          <td class="p-3 font-bold text-slate-900">
+            U sụn màng trong (Enchondroma)
+          </td>
+          <td class="p-3">
+            Phát hiện tình cờ ở mọi lứa tuổi; thường không triệu chứng trừ khi có gãy xương.
+          </td>
+          <td class="p-3">
+            Tổn thương một bên ở hành xương hoặc thân - hành xương. Tổn thương tiêu xương có viền xơ hóa với vôi hóa dạng chất nền sụn "vòng cung và nhẫn" ("arcs and rings"), có thể lõm nội mạc xương (endosteal scalloping).
+          </td>
+          <td class="p-3">
+            Chất nền sụn tăng tín hiệu rất mạnh trên T2W; nốt vôi hóa giảm tín hiệu trên T2W tạo hoa văn đặc trưng.
+          </td>
+          <td class="p-3 text-slate-600">
+            Bắt giữ xạ thay đổi trên xạ hình xương; hoạt độ FDG PET rất thấp (giúp phân biệt với chondrosarcoma và ECD).
+          </td>
+        </tr>
+        <tr class="hover:bg-slate-50 transition-colors">
+          <td class="p-3 font-bold text-slate-900">
+            Bệnh Paget xương (Paget Disease - PD)
+          </td>
+          <td class="p-3">
+            Nam giới lớn tuổi; đau nhức xương âm ỉ, tăng chu chuyển xương (ALP máu tăng cao).
+          </td>
+          <td class="p-3">
+            Không đối xứng hai bên; ảnh hưởng cả bộ xương trục và xương chi. Đặc trưng bởi phì đại kích thước xương (bony expansion), thô các bè xương và biến dạng cong xương.
+          </td>
+          <td class="p-3">
+            Tín hiệu tủy xương thay đổi theo giai đoạn; vỏ xương dày lên rõ rệt kèm phì đại toàn bộ đường kính thân xương.
+          </td>
+          <td class="p-3 text-slate-600">
+            Tăng bắt giữ chất phóng xạ rất mạnh trên xạ hình xương toàn thân ở các xương phì đại; bắt giữ FDG thay đổi tùy giai đoạn hoạt tính.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-[11px] text-slate-500 mt-3 italic">
+    *Ghi chú: Các bệnh lý hiếm gặp khác như loạn dưỡng xương do thận, di căn ung thư đặc xương, viêm tủy xương xơ mạn tính Garre, xơ tủy (myelofibrosis) hay bệnh ứ đọng lipid (Gaucher, Niemann-Pick) được phân định dựa vào bệnh sử, xét nghiệm hóa sinh huyết học và sinh thiết mô (24, 26).
+  </p>
+</div>
+
+<!-- ========================================== -->
+<!-- PHẦN 3: TỔN THƯƠNG SAU PHÚC MẠC VÀ THẬN (RETROPERITONEAL & RENAL) -->
+<!-- ========================================== -->
+<div class="section-divider my-10 border-t-2 border-dashed border-rose-200"></div>
+
+<div class="bilingual-section-header bg-gradient-to-r from-emerald-950 via-slate-900 to-teal-950 text-white p-5 rounded-2xl shadow-lg mb-8">
+  <div class="flex items-center gap-3">
+    <span class="flex items-center justify-center w-10 h-10 rounded-xl bg-emerald-500/30 text-emerald-300 font-black text-xl border border-emerald-400/40">02</span>
+    <div>
+      <h2 class="text-xl md:text-2xl font-extrabold text-white tracking-wide">
+        Tổn Thương Sau Phúc Mạc, Dấu Hiệu "Thận Lông" (Hairy Kidneys) &amp; Tuyến Thượng Thận
+      </h2>
+      <p class="text-xs md:text-sm text-emerald-200 font-medium">
+        Retroperitoneal &amp; Renal Involvement: The "Hairy Kidneys" Sign and Adrenal Glands
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Prevalence and Clinical Manifestation</h3>
+    <p>Retroperitoneal and renal involvement is present in 50%–60% of patients with ECD (6, 24). Although patients with renal involvement are frequently asymptomatic, they may present clinically with flank/abdominal pain and dysuria (22). In long-standing cases, progressive infiltrative retroperitoneal fibrosis may impair renal function, manifesting as progressive azotemia or an elevation in serum creatinine levels.</p>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Tần Suất &amp; Biểu Hiện Lâm Sàng Tổn Thương Sau Phúc Mạc</h3>
+    <p>Tổn thương khoang sau phúc mạc và hệ tiết niệu gặp ở 50%–60% bệnh nhân mắc ECD (6, 24). Mặc dù đa số bệnh nhân tổn thương thận không có triệu chứng rõ rệt, họ có thể đến khám vì đau bụng âm ỉ vùng hạ sườn/hông lưng hoặc tiểu khó (22). Trong những trường hợp mạn tính, quá trình xơ hóa thâm nhiễm sau phúc mạc tiến triển âm thầm có thể làm suy giảm chức năng thận, biểu hiện bằng tăng urê máu hoặc tăng creatinine huyết thanh.</p>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Imaging Findings: The Pathognomonic "Hairy Kidneys" Sign</h3>
+    <p>ECD in the retroperitoneum manifests as infiltrative soft-tissue masses in the bilateral perirenal spaces (giving the classic <em>"hairy kidneys"</em> appearance, Fig 10) and posterior pararenal spaces (13, 32). On CT images, this infiltrative soft tissue is typically isoattenuating relative to skeletal muscle and displays mild, homogeneous postcontrast enhancement.</p>
+    <p class="mt-3">At MRI, the perirenal rind is iso- to hypointense relative to skeletal muscle on both T1- and T2-weighted images (Fig 11) with mild postcontrast enhancement (24). <strong>Caveat:</strong> Because normal renal parenchyma demonstrates intense physiologic excretion and uptake of FDG, the sensitivity of FDG PET/CT for detecting perinephric ECD is substantially lower than contrast-enhanced CT (33).</p>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Đặc Điểm Hình Ảnh: Dấu Hiệu "Thận Lông" (Hairy Kidneys) Điển Hình</h3>
+    <p>Biểu hiện của ECD tại khoang sau phúc mạc là các khối mô mềm thâm nhiễm lan tỏa trong khoang quanh thận hai bên (tạo nên hình thái kinh điển <em>"thận lông" - hairy kidneys</em>, Hình 10) và khoang cạnh thận sau (13, 32). Trên hình ảnh chụp cắt lớp vi tính (CT), dải mô mềm thâm nhiễm này đồng tỷ trọng với cơ vân và ngấm thuốc cản quang nhẹ, đồng nhất sau tiêm.</p>
+    <p class="mt-3">Trên MRI, dải mô quanh thận đồng tín hiệu hoặc giảm tín hiệu so với cơ vân trên cả T1W và T2W (Hình 11), ngấm thuốc đối quang từ mức độ nhẹ (24). <strong>Lưu ý quan trọng:</strong> Do nhu mô thận bài tiết và bài xuất sinh lý thuốc phóng xạ FDG rất mạnh, độ nhạy của FDG PET/CT trong việc phát hiện tổn thương ECD quanh thận thấp hơn đáng kể so với CT có tiêm thuốc cản quang (33).</p>
+  </div>
+</div>
+
+<div class="my-8 rounded-2xl border border-slate-200 bg-white p-4 sm:p-6 shadow-sm">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+    <div>
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig10_hairy_kidneys_coronal_contrast_enhanced_ct.jpg" alt="Figure 10: Hairy kidneys coronal contrast enhanced CT" class="w-full max-h-[460px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 10 / Fig 10: Dấu hiệu "thận lông" trên CT đứng ngang (Hairy kidneys coronal CT)</p>
+    </div>
+    <div>
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig11_hairy_kidneys_coronal_t2_mri.jpg" alt="Figure 11: Hairy kidneys coronal T2 MRI" class="w-full max-h-[460px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 11 / Fig 11: MRI đứng ngang T2W (Coronal T2-weighted MRI)</p>
+    </div>
+  </div>
+  <div class="mt-4 pt-4 border-t border-slate-200 grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
+    <div class="lang-en text-slate-700 leading-relaxed">
+      <p><strong>Figure 10. Hairy kidneys in a 62-year-old woman with ECD.</strong> Coronal contrast-enhanced CT reformation depicts a bilateral symmetric perinephric rind of soft-tissue thickening (white arrows). The infiltrative soft tissue extends superiorly to encase the adrenal glands on both sides (black arrows).</p>
+      <p class="mt-2"><strong>Figure 11. Hairy kidneys in a 44-year-old man presenting with elevated creatinine.</strong> Coronal MR image demonstrates a T2-hypointense rind of soft tissue encasing both kidneys (arrows), the renal hila, and proximal ureters, causing consequent bilateral hydronephrosis.</p>
+    </div>
+    <div class="lang-vi text-slate-900 leading-relaxed md:border-l md:border-slate-300 md:pl-4">
+      <p><strong>Hình 10. Dấu hiệu "thận lông" (Hairy kidneys) ở bệnh nhân nữ 62 tuổi mắc ECD.</strong> Hình tái tạo CT đứng ngang có tiêm cản quang cho thấy dải mô mềm dày quanh thận đối xứng hai bên (mũi tên trắng). Khối mô thâm nhiễm lan lên trên bọc quanh tuyến thượng thận cả hai bên (mũi tên đen).</p>
+      <p class="mt-2"><strong>Hình 11. Dấu hiệu "thận lông" ở bệnh nhân nam 44 tuổi có tăng nồng độ creatinine máu.</strong> Hình ảnh MRI đứng ngang cho thấy dải mô mềm giảm tín hiệu trên T2W bao bọc cả hai thận (các mũi tên), rốn thận và đoạn gần niệu quản, dẫn đến hậu quả ứ nước thận hai bên.</p>
+    </div>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Adrenal Encasement and Obstructive Uropathy</h3>
+    <p>Chronic perinephric histiocytic infiltrates may ultimately result in renal atrophy (6). Infrequently, perinephric infiltrates extend into the renal sinus to involve the renal pelvis and proximal ureters, leading to extrinsic compression and obstructive uropathy (6, 24).</p>
+    <p class="mt-3">The perinephric soft tissue may also extend superiorly to encase both adrenal glands (Fig 10). Imaging demonstrates diffuse, bilateral, and symmetric thickening of the adrenal limbs (24). Interestingly, despite circumferential soft-tissue encasement, primary adrenal insufficiency remains exceedingly rare (6).</p>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Bọc Quanh Tuyến Thượng Thận &amp; Tắc Nghẽn Đường Bài Xuất Nước Tiểu</h3>
+    <p>Tình trạng thâm nhiễm mô bào mạn tính quanh thận có thể dẫn đến teo thận thứ phát (6). Trong một số trường hợp, mô thâm nhiễm quanh thận lan sâu vào xoang thận, bọc lấy bể thận và đoạn trên niệu quản, gây chèn ép từ ngoài và dẫn đến bệnh lý tắc nghẽn đường tiết niệu (6, 24).</p>
+    <p class="mt-3">Mô mềm quanh thận cũng có thể lan lên phía trên bao bọc cả hai tuyến thượng thận (Hình 10). Trên hình ảnh học ghi nhận hình ảnh phì đại dày lan tỏa, đối xứng hai bên các nhánh tuyến thượng thận (24). Điểm thú vị là dù bị bao bọc hoàn toàn bởi mô mềm, suy tuyến thượng thận tiên phát trên lâm sàng lại cực kỳ hiếm gặp (6).</p>
+  </div>
+</div>
+
+<div class="my-8 rounded-2xl border border-slate-200 bg-white p-4 sm:p-6 shadow-sm">
+  <div class="flex justify-center">
+    <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig12_illustrations_perinephric_soft_tissue_differential.jpg" alt="Figure 12: Illustrations showing perinephric soft tissue conditions" class="w-full max-h-[520px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+  </div>
+  <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 12 / Fig 12: Sơ đồ minh họa chẩn đoán phân biệt mô mềm quanh thận và quanh động mạch chủ</p>
+  <div class="mt-4 pt-4 border-t border-slate-200 grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
+    <div class="lang-en text-slate-700 leading-relaxed">
+      <p><strong>Figure 12. Illustrations show various conditions that manifest with perinephric soft tissue.</strong></p>
+      <ul class="list-disc pl-4 space-y-1.5 mt-2">
+        <li><strong>(A) Erdheim-Chester Disease (ECD):</strong> The perinephric soft tissue (white arrow) extends medially to coat the aorta circumferentially, both anteriorly and posteriorly (black arrow).</li>
+        <li><strong>(B) IgG4-Related Retroperitoneal Fibrosis (RPF):</strong> Periaortic soft tissue is strictly anterior and lateral to the aorta, sparing the posterior aortic wall (black arrow). Associated "sausage pancreas" (arrowhead). Periaortic tissue seldom involves the perinephric space (white arrow).</li>
+        <li><strong>(C) Lymphoma:</strong> Surrounds the aorta posteriorly (black arrow) and involves the perinephric space (white arrow), mimicking ECD. However, prominent retroperitoneal lymphadenopathy (arrowhead) is common in lymphoma but exceedingly rare in ECD.</li>
+        <li><strong>(D) Rosai-Dorfman-Destombes Disease (RDD):</strong> Renal involvement most commonly manifests as bilateral infiltrative renal hilar masses (arrow).</li>
+      </ul>
+    </div>
+    <div class="lang-vi text-slate-900 leading-relaxed md:border-l md:border-slate-300 md:pl-4">
+      <p><strong>Hình 12. Sơ đồ minh họa các bệnh lý biểu hiện với khối mô mềm quanh thận và sau phúc mạc.</strong></p>
+      <ul class="list-disc pl-4 space-y-1.5 mt-2">
+        <li><strong>(A) Bệnh Erdheim-Chester (ECD):</strong> Mô mềm quanh thận (mũi tên trắng) lan vào phía trong bao bọc động mạch chủ theo chu vi, ở cả mặt trước và mặt sau (mũi tên đen).</li>
+        <li><strong>(B) Xơ hóa sau phúc mạc liên quan IgG4 (RPF):</strong> Mô mềm quanh động mạch chủ chỉ nằm ở mặt trước và các mặt bên, bảo tồn hoàn toàn thành sau động mạch chủ (mũi tên đen). Thường kèm hình ảnh tụy hình xúc xích (đầu mũi tên). Mô xơ quanh động mạch chủ rất hiếm khi lan vào khoang quanh thận (mũi tên trắng).</li>
+        <li><strong>(C) U lympho (Lymphoma):</strong> Mô u cũng bao quanh thành sau động mạch chủ (mũi tên đen) và có thể thâm nhiễm khoang quanh thận (mũi tên trắng), rất giống ECD. Tuy nhiên, hạch phì đại sau phúc mạc (đầu mũi tên) rất phổ biến trong u lympho nhưng lại cực kỳ hiếm thấy trong ECD.</li>
+        <li><strong>(D) Bệnh Rosai-Dorfman-Destombes (RDD):</strong> Tổn thương thận phổ biến nhất là các khối thâm nhiễm hai bên rốn thận (mũi tên).</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Differential Diagnoses of Perinephric Infiltration</h3>
+    <p>Perinephric soft-tissue infiltration can be seen in several conditions besides ECD, including lymphoma, retroperitoneal fibrosis (RPF), Rosai-Dorfman-Destombes disease (RDD), amyloidosis, and extramedullary hematopoiesis (EMH) (Table 3, Fig 12):</p>
+    <ul class="list-disc pl-5 space-y-1.5 my-2">
+      <li><strong>ECD vs Lymphoma:</strong> Both involve perinephric and retroaortic spaces with avid FDG uptake. Contiguous invasion from retroperitoneal nodal masses is classic in lymphoma; in stark contrast, lymphadenopathy is exceedingly rare in ECD (33, 34).</li>
+      <li><strong>ECD vs Retroperitoneal Fibrosis (RPF):</strong> While both cause hydronephrosis, ECD is epicentered around the renal hila and proximal ureters, whereas classic RPF is centered at the aortic bifurcation, causing medial deviation and distal ureteral obstruction (22). RPF lies anterior/lateral to the aorta and spares the posterior wall. IgG4-related RPF frequently exhibits autoimmune pancreatitis ("sausage pancreas").</li>
+      <li><strong>ECD vs RDD:</strong> RDD manifests as bilateral discrete renal hilar masses rather than a circumferential perinephric rind, and features prominent massive cervical lymphadenopathy in children or young adults (33).</li>
+      <li><strong>Amyloidosis:</strong> Occurs in the setting of plasma cell dyscrasias or chronic inflammation and frequently presents with coarse calcifications within perinephric deposits (33).</li>
+      <li><strong>Extramedullary Hematopoiesis (EMH):</strong> Features hepatosplenomegaly, paraspinal masses, a history of hematologic disorders (thalassemia, myelofibrosis), and shows radiotracer uptake on 99mTc-sulfur colloid scans due to reticuloendothelial marrow elements (33).</li>
+    </ul>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Chẩn Đoán Phân Biệt Thâm Nhiễm Mô Mềm Quanh Thận</h3>
+    <p>Thâm nhiễm mô mềm khoang quanh thận có thể gặp trong nhiều bệnh lý ngoài ECD, bao gồm u lympho, xơ hóa sau phúc mạc (RPF), bệnh Rosai-Dorfman-Destombes (RDD), nhiễm thoái hóa tinh bột (amyloidosis) và tạo máu ngoài tủy (EMH) (Bảng 3, Hình 12):</p>
+    <ul class="list-disc pl-5 space-y-2 my-2">
+      <li><strong>ECD và U Lympho:</strong> Cả hai đều có thể thâm nhiễm khoang quanh thận và khoang sau động mạch chủ, đồng thời tăng bắt FDG mạnh. Tuy nhiên, u lympho bắt nguồn từ khối hạch sau phúc mạc phát triển kế cận; ngược lại, phì đại hạch là dấu hiệu cực kỳ hiếm thấy trong bệnh ECD (33, 34).</li>
+      <li><strong>ECD và Xơ Hóa Sau Phúc Mạc (RPF):</strong> Dù cả hai đều gây ứ nước thận, ECD có tâm tổn thương ở rốn thận và đoạn trên niệu quản, trong khi RPF điển hình có tâm ở chỗ phân đôi động mạch chủ, kéo niệu quản lệch vào trong và gây tắc đoạn dưới niệu quản (22). RPF nằm ở mặt trước và hai bên động mạch chủ, chừa mặt sau. RPF liên quan IgG4 thường kèm viêm tụy tự miễn ("tụy hình xúc xích").</li>
+      <li><strong>ECD và Bệnh RDD:</strong> Tổn thương thận trong RDD thường biểu hiện dưới dạng các khối rốn thận hai bên hơn là dải mô mỏng bọc quanh thận, và thường có hạch cổ phì đại khổng lồ ở bệnh nhân trẻ tuổi (33).</li>
+      <li><strong>Thoái Hóa Tinh Bột (Amyloidosis):</strong> Xuất hiện trên nền rối loạn dòng tương bào hoặc viêm mạn tính; lắng đọng amyloid quanh thận rất hay có vôi hóa (33).</li>
+      <li><strong>Tạo Máu Ngoài Tủy (EMH):</strong> Thường kèm gan lách to, khối cạnh sống, tiền sử thiếu máu tan máu mạn tính (thalassemia, xơ tủy), và đặc biệt bắt giữ hạt keo lưu huỳnh (99mTc-sulfur colloid) trên xạ hình tủy xương (33).</li>
+    </ul>
+  </div>
+</div>
+
+<div class="my-8 rounded-2xl border border-slate-200 bg-white p-4 sm:p-6 shadow-sm overflow-hidden">
+  <div class="flex items-center justify-between mb-4 pb-3 border-b border-slate-200">
+    <h4 class="text-base font-bold text-slate-900">
+      Bảng 3: Chẩn Đoán Phân Biệt Tổn Thương Thâm Nhiễm Mô Mềm Khoang Quanh Thận
+    </h4>
+    <span class="text-xs bg-emerald-100 text-emerald-800 font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">
+      Table 3 • Perinephric Differential
+    </span>
+  </div>
+  
+  <div class="overflow-x-auto">
+    <table class="w-full text-left text-xs sm:text-sm border-collapse">
+      <thead>
+        <tr class="bg-slate-100 text-slate-700 border-b border-slate-200 font-bold">
+          <th class="p-3">Thực thể (Entity)</th>
+          <th class="p-3">Bối cảnh lâm sàng</th>
+          <th class="p-3">Vị trí cơ quan thường gặp</th>
+          <th class="p-3">Đặc điểm tổn thương thận / Quanh thận</th>
+          <th class="p-3">Đặc điểm Y học hạt nhân</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-100 text-slate-800">
+        <tr class="bg-emerald-50/40 hover:bg-emerald-50/70 transition-colors">
+          <td class="p-3 font-extrabold text-emerald-900">
+            Bệnh Erdheim-Chester (ECD)
+          </td>
+          <td class="p-3">
+            Nam giới lớn tuổi, biểu hiện đa hệ thống (xương dài, tim mạch, TKTW).
+          </td>
+          <td class="p-3">
+            Xương dài (95%), tim (40%), ĐMC bọc (50-60%), TKTW (25-50%), hốc mắt.
+          </td>
+          <td class="p-3">
+            Dải mô mềm bao bọc thận đối xứng hai bên ("thận lông") và cấu trúc rốn thận. Ứ nước do chèn ép bể thận hoặc đoạn trên niệu quản. Mô mềm nằm ở CẢ MẶT TRƯỚC VÀ SAU ĐMC.
+          </td>
+          <td class="p-3 font-bold text-emerald-800">
+            Tăng bắt giữ FDG (nhưng độ nhạy quanh thận thấp hơn CT do FDG bài tiết qua thận).
+          </td>
+        </tr>
+        <tr class="hover:bg-slate-50 transition-colors">
+          <td class="p-3 font-bold text-slate-900">
+            Bệnh Rosai-Dorfman-Destombes (RDD)
+          </td>
+          <td class="p-3">
+            Trẻ em và thanh niên; sốt, đổ mồ hôi đêm, sụt cân.
+          </td>
+          <td class="p-3">
+            Hạch: hạch cổ hai bên to mạn tính, không đau; hạch trung thất, bẹn, sau phúc mạc. Ngoài hạch: da, mô mềm, hô hấp trên, hốc mắt.
+          </td>
+          <td class="p-3">
+            Khối thâm nhiễm hai bên rốn thận; tổn thương dưới bao thận; mô mềm quanh thận ít gặp hơn.
+          </td>
+          <td class="p-3 text-slate-600">
+            Tăng bắt giữ FDG mạnh tại các tổn thương hạch và ngoài hạch.
+          </td>
+        </tr>
+        <tr class="hover:bg-slate-50 transition-colors">
+          <td class="p-3 font-bold text-slate-900">
+            U lympho (Lymphoma)
+          </td>
+          <td class="p-3">
+            Mọi lứa tuổi; hội chứng B (sốt, sút cân, ra mồ hôi đêm), tổn thương đa cơ quan.
+          </td>
+          <td class="p-3">
+            Hạch bạch huyết toàn thân, lách, gan, tủy xương.
+          </td>
+          <td class="p-3">
+            Tổn thương thận hoặc khoang quanh thận liên tục lan từ các khối u hoặc hạch sau phúc mạc. Mô mềm nằm cả trước và sau ĐMC. Hiếm khi gây ứ nước thận đơn độc.
+          </td>
+          <td class="p-3 font-bold text-indigo-700">
+            Hấp thu FDG cực kỳ mạnh (avid FDG uptake).
+          </td>
+        </tr>
+        <tr class="hover:bg-slate-50 transition-colors">
+          <td class="p-3 font-bold text-slate-900">
+            Tạo máu ngoài tủy (Extramedullary Hematopoiesis)
+          </td>
+          <td class="p-3">
+            Tiền sử bệnh lý huyết học mạn tính (thiếu máu tan máu, thalassemia, xơ tủy).
+          </td>
+          <td class="p-3">
+            Gan to, lách to, hạch bạch huyết, các khối mô mềm cạnh sống ngực.
+          </td>
+          <td class="p-3">
+            Một hoặc hai bên. Khối nhu mô hoặc rốn thận ngấm thuốc nhẹ; khối mô mềm quanh thận thâm nhiễm đôi khi gây tắc nghẽn niệu quản.
+          </td>
+          <td class="p-3 font-bold text-amber-800">
+            Tăng bắt FDG mức độ nhẹ - vừa. ĐẶC HIỆU: Tăng bắt giữ 99mTc sulfur colloid.
+          </td>
+        </tr>
+        <tr class="hover:bg-slate-50 transition-colors">
+          <td class="p-3 font-bold text-slate-900">
+            Thoái hóa tinh bột (Amyloidosis)
+          </td>
+          <td class="p-3">
+            Tiên phát hoặc thứ phát sau rối loạn tương bào (đa u tủy xương), bệnh viêm mạn tính.
+          </td>
+          <td class="p-3">
+            Tim, thận, đường tiêu hóa, thần kinh ngoại biên.
+          </td>
+          <td class="p-3">
+            Mô mềm quanh thận thường kèm THEO VÔI HÓA (calcifications), dấu hiệu hiếm thấy trong ECD.
+          </td>
+          <td class="p-3 text-slate-600">
+            Hấp thu FDG thay đổi, thường không đáng kể.
+          </td>
+        </tr>
+        <tr class="hover:bg-slate-50 transition-colors">
+          <td class="p-3 font-bold text-slate-900">
+            Xơ hóa sau phúc mạc liên quan IgG4 (IgG4-RPF)
+          </td>
+          <td class="p-3">
+            Nam giới trung niên; tăng IgG4 huyết thanh, hội chứng xơ hóa đa cơ quan.
+          </td>
+          <td class="p-3">
+            Tụy ("tụy hình xúc xích"), đường mật, tuyến nước bọt, tuyến lệ.
+          </td>
+          <td class="p-3">
+            Mô xơ quanh động mạch chủ CHỈ NẰM Ở MẶT TRƯỚC VÀ HAI BÊN ĐMC (chừa mặt sau). Hiếm khi lan vào khoang quanh thận. Gây ứ nước thận do bọc ĐOẠN DƯỚI NIỆU QUẢN (kéo niệu quản vào trong).
+          </td>
+          <td class="p-3 text-slate-600">
+            Tăng bắt giữ FDG trong giai đoạn viêm hoạt tính.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+<!-- ========================================== -->
+<!-- PHẦN 4: TỔN THƯƠNG TIM MẠCH (CARDIOVASCULAR INVOLVEMENT) -->
+<!-- ========================================== -->
+<div class="section-divider my-10 border-t-2 border-dashed border-rose-200"></div>
+
+<div class="bilingual-section-header bg-gradient-to-r from-red-950 via-slate-900 to-rose-950 text-white p-5 rounded-2xl shadow-lg mb-8">
+  <div class="flex items-center gap-3">
+    <span class="flex items-center justify-center w-10 h-10 rounded-xl bg-red-500/30 text-red-300 font-black text-xl border border-red-400/40">03</span>
+    <div>
+      <h2 class="text-xl md:text-2xl font-extrabold text-white tracking-wide">
+        Tổn Thương Tim Mạch: Khối Giả U Nhĩ Phải &amp; Dấu Hiệu "Động Mạch Chủ Bọc" (Coated Aorta)
+      </h2>
+      <p class="text-xs md:text-sm text-red-200 font-medium">
+        Cardiovascular Involvement: Right Atrial Pseudotumor &amp; The "Coated Aorta"
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Cardiac ECD: Right Atrial Pseudotumor &amp; Pericardium</h3>
+    <p>Cardiac involvement can affect the myocardium, pericardium, or endocardium (35). Myocardial infiltration has a strong predilection for the right atrium and the right atrioventricular (AV) sulcus, manifesting as a focal mural mass termed a <em>pseudotumor</em> (10). Remarkably, up to 40% of patients with ECD harbor a right atrial pseudotumor (10).</p>
+    <p class="mt-3">The pseudotumor appears as a soft-tissue mass on CT images (Fig 13A), isoattenuating relative to myocardium with mild enhancement. At MRI, it is iso- to hypointense relative to myocardium on T1- and T2-weighted images with postcontrast enhancement (Fig 13B) (35). These lesions demonstrate intense tracer uptake on FDG PET/CT (Fig 14) (24). Pericardial disease, present in ~8% of cases, manifests as pericardial thickening and pericardial effusion (10).</p>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Tổn Thương Tim: Khối Giả U Nhĩ Phải &amp; Màng Ngoài Tim</h3>
+    <p>Tổn thương tim trong ECD có thể ảnh hưởng đến cơ tim, màng ngoài tim hoặc màng trong tim (35). Quá trình thâm nhiễm cơ tim có ái tính đặc biệt với tâm nhĩ phải và rãnh nhĩ thất (AV sulcus) bên phải, biểu hiện dưới dạng khối mô thâm nhiễm ở thành tim gọi là <em>khối giả u (pseudotumor)</em> (10). Đáng kinh ngạc, có tới 40% bệnh nhân mắc bệnh ECD có khối giả u ở tâm nhĩ phải (10).</p>
+    <p class="mt-3">Khối giả u này hiển thị dưới dạng khối mô mềm trên phim chụp CT tim (Hình 13A), đồng tỷ trọng với cơ tim và ngấm thuốc cản quang nhẹ. Trên MRI, khối đồng hoặc giảm tín hiệu so với cơ tim trên T1W và T2W, ngấm thuốc đối quang từ sau tiêm (Hình 13B) (35). Các tổn thương này bắt giữ hoạt độ phóng xạ rất mạnh trên FDG PET/CT (Hình 14) (24). Bệnh lý màng ngoài tim gặp ở khoảng 8% trường hợp, biểu hiện bằng dày màng ngoài tim và tràn dịch màng tim (10).</p>
+  </div>
+</div>
+
+<div class="my-8 rounded-2xl border border-slate-200 bg-white p-4 sm:p-6 shadow-sm">
+  <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 items-center">
+    <div class="lg:col-span-3">
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig13_right_atrial_pseudotumor_coronary_ct_mri.jpg" alt="Figure 13: Right atrial pseudotumor and coronary artery involvement" class="w-full max-h-[460px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 13 / Fig 13: Khối giả u nhĩ phải &amp; bao bọc động mạch vành phải (Right atrial pseudotumor &amp; RCA encasement)</p>
+    </div>
+    <div class="lg:col-span-1">
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig14_right_atrial_pseudotumor_fdg_pet_ct.jpg" alt="Figure 14: Pseudotumor in ECD axial FDG PET/CT" class="w-full max-h-[460px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 14 / Fig 14: Tăng hấp thu FDG PET/CT tại nhĩ phải</p>
+    </div>
+  </div>
+  <div class="mt-4 pt-4 border-t border-slate-200 grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
+    <div class="lang-en text-slate-700 leading-relaxed">
+      <p><strong>Figure 13. Right atrial pseudotumor and coronary artery involvement in a 62-year-old woman with ECD.</strong> (A) Axial cardiac CT image shows a soft-tissue mass along the right atrioventricular sulcus (white arrow) encasing the right coronary artery (arrowhead). There is also soft-tissue thickening of the interatrial septum (black arrow). (B) Cardiac SSFP MR image (four-chamber view) demonstrates mass-like infiltration of the AV sulcus (white arrow) and interatrial septum (black arrow). (C) Curved planar cardiac CT reconstruction shows soft tissue encasing the right coronary artery (RCA) (arrowhead).</p>
+      <p class="mt-2"><strong>Figure 14. Pseudotumor in ECD on PET/CT.</strong> Axial FDG PET/CT image at the heart level demonstrates increased radiotracer uptake (arrows) in the right atrium and interatrial septum.</p>
+    </div>
+    <div class="lang-vi text-slate-900 leading-relaxed md:border-l md:border-slate-300 md:pl-4">
+      <p><strong>Hình 13. Khối giả u nhĩ phải và tổn thương động mạch vành ở bệnh nhân nữ 62 tuổi mắc ECD.</strong> (A) CT tim cắt ngang cho thấy khối mô mềm dọc theo rãnh nhĩ thất phải (mũi tên trắng) bao bọc động mạch vành phải (đầu mũi tên). Đồng thời có dày mô mềm vách liên nhĩ (mũi tên đen). (B) MRI tim xung SSFP (mặt cắt 4 buồng) bộc lộ tổn thương dạng khối thâm nhiễm rãnh nhĩ thất (mũi tên trắng) và vách liên nhĩ (mũi tên đen). (C) Hình tái tạo cong theo lòng mạch (curved planar CT) cho thấy mô mềm bọc quanh động mạch vành phải (RCA) (đầu mũi tên).</p>
+      <p class="mt-2"><strong>Hình 14. Khối giả u trong ECD trên PET/CT.</strong> Hình ảnh FDG PET/CT cắt ngang qua tim cho thấy sự gia tăng hấp thu chất phóng xạ rõ rệt (các mũi tên) tại tâm nhĩ phải và vách liên nhĩ.</p>
+    </div>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Vascular ECD: The "Coated Aorta" &amp; Branch Vessel Ischemia</h3>
+    <p>Vascular ECD manifests as circumferential perivascular soft-tissue cuffing (35). The aorta is the most commonly affected vessel (giving the pathognomonic <em>"coated aorta"</em> sign), observed in 50%–60% of patients (6). On CT images, the soft tissue is isoattenuating to muscle with homogeneous mild postcontrast enhancement (Fig 15) (35).</p>
+    <p class="mt-3">The periaortic soft tissue may be segmental or diffuse, frequently extending along the adventitia to involve major branch vessel ostia. Extrinsic compression results in downstream vascular compromise and ischemia: affecting coronary arteries (Fig 13C) in 33% (36) and renal arteries in 20% (6) of patients. Perivascular sheathing of mesenteric vessels is less frequent (Fig 16) (2). <strong>Crucial clinical note:</strong> Even after targeted therapy induces metabolic remission, downstream ischemia often persists due to non-regressing perivascular fibrosis (22).</p>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Tổn Thương Mạch Máu: Dấu Hiệu "Động Mạch Chủ Bọc" (Coated Aorta) &amp; Thiếu Máu Phân Nhánh</h3>
+    <p>Tổn thương mạch máu trong ECD biểu hiện dưới dạng lớp vỏ bọc mô mềm bao quanh mạch máu theo chu vi (35). Động mạch chủ là mạch máu bị ảnh hưởng phổ biến nhất (tạo nên dấu hiệu <em>"động mạch chủ bọc" - coated aorta</em> kinh điển), gặp ở 50%–60% bệnh nhân (6). Trên CT, lớp mô mềm này đồng tỷ trọng với cơ và ngấm thuốc cản quang nhẹ, đồng nhất (Hình 15) (35).</p>
+    <p class="mt-3">Mô mềm quanh động mạch chủ có thể khu trú từng đoạn hoặc lan tỏa, thường lan theo lớp áo ngoài vào gốc các nhánh mạch lớn. Sự chèn ép từ bên ngoài này gây hẹp lòng mạch và dẫn đến thiếu máu tạng hạ lưu: tổn thương động mạch vành (Hình 13C) gặp ở 33% bệnh nhân (36) và hẹp động mạch thận gặp ở 20% bệnh nhân (6). Sự bọc quanh mạch mạc treo tràng ít gặp hơn (Hình 16) (2). <strong>Điểm lâm sàng cốt lõi:</strong> Ngay cả khi điều trị nhắm trúng đích thành công mang lại thuyên giảm chuyển hóa, tình trạng thiếu máu cơ quan vẫn có thể tồn tại dai dẳng do quá trình xơ hóa sau phúc mạc quanh mạch máu không thoái lui hoàn toàn (22).</p>
+  </div>
+</div>
+
+<div class="my-8 rounded-2xl border border-slate-200 bg-white p-4 sm:p-6 shadow-sm">
+  <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 items-center">
+    <div>
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig15_coated_aorta_axial_contrast_enhanced_ct.jpg" alt="Figure 15: Coated aorta in ECD axial CT" class="w-full max-h-[460px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 15 / Fig 15: Động mạch chủ bọc (Coated aorta on CT)</p>
+    </div>
+    <div>
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig16_mesenteric_involvement_coronal_ct.jpg" alt="Figure 16: Mesenteric involvement in ECD coronal CT" class="w-full max-h-[460px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 16 / Fig 16: Tổn thương mạc treo ruột trên CT đứng ngang</p>
+    </div>
+    <div>
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig17_coated_aorta_axial_t1_mri_pleural_effusion.jpg" alt="Figure 17: Aortic involvement in ECD axial T1 MRI" class="w-full max-h-[460px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 17 / Fig 17: Phân biệt viêm mạch trên MRI T1W</p>
+    </div>
+  </div>
+  <div class="mt-4 pt-4 border-t border-slate-200 grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
+    <div class="lang-en text-slate-700 leading-relaxed">
+      <p><strong>Figure 15. Coated aorta in ECD.</strong> 52-year-old woman with abdominal pain and low-grade fever. Axial contrast-enhanced CT at the level of the renal arteries depicts circumferential periaortic soft tissue (arrow) extending both anterior and posterior to the aorta.</p>
+      <p class="mt-2"><strong>Figure 16. Mesenteric involvement in ECD.</strong> 51-year-old woman. Coronal postcontrast CT depicts an ill-defined mesenteric mass (white arrow) extending along vessels, mildly compressing the superior mesenteric vein (arrowhead). A few small lymph nodes are embedded within the mass (black arrows).</p>
+      <p class="mt-2"><strong>Figure 17. Aortic involvement in ECD vs Large-Vessel Vasculitis.</strong> Axial noncontrast T1-weighted MR image at the aortic arch shows T1-hypointense periaortic soft tissue (black arrow) located outside the T1 intermediate-signal aortic wall (arrowhead). In ECD, the primary disease is perivascular (periadventitial), with relative sparing of the aortic wall itself. Moderate pleural effusions are also present (white arrows).</p>
+    </div>
+    <div class="lang-vi text-slate-900 leading-relaxed md:border-l md:border-slate-300 md:pl-4">
+      <p><strong>Hình 15. Dấu hiệu "động mạch chủ bọc" (Coated aorta) trong ECD.</strong> Bệnh nhân nữ 52 tuổi đau bụng và sốt nhẹ. CT có tiêm cản quang cắt ngang ngang mức các động mạch thận cho thấy mô mềm bao quanh động mạch chủ theo chu vi (mũi tên). Lưu ý rằng mô mềm bao bọc cả mặt trước lẫn mặt sau của động mạch chủ.</p>
+      <p class="mt-2"><strong>Hình 16. Tổn thương mạc treo trong ECD.</strong> Bệnh nhân nữ 51 tuổi. CT đứng ngang sau tiêm bộc lộ khối mạc treo giới hạn không rõ (mũi tên trắng) lan dọc theo bó mạch, gây chèn ép nhẹ tĩnh mạch mạc treo tràng trên (đầu mũi tên). Khối có kèm một vài hạch bạch huyết nhỏ bên trong (mũi tên đen).</p>
+      <p class="mt-2"><strong>Hình 17. Tổn thương động mạch chủ trong ECD phân biệt với Viêm mạch máu lớn.</strong> Hình ảnh MRI T1W cắt ngang qua quai động mạch chủ cho thấy mô mềm quanh động mạch chủ giảm tín hiệu T1 (mũi tên đen) nằm hoàn toàn ở BÊN NGOÀI thành động mạch chủ có tín hiệu trung gian (đầu mũi tên). Trong ECD, bản chất tổn thương là viêm quanh mạch (ngoài lớp áo ngoài), bảo tồn tương đối thành mạch. Đồng thời thấy tràn dịch màng phổi hai bên lượng vừa (mũi tên trắng).</p>
+    </div>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">ECD vs Large-Vessel Vasculitides (GCA &amp; Takayasu)</h3>
+    <p>Aortic involvement in ECD can mimic giant cell arteritis (GCA), Takayasu arteritis, infectious aortitis, lymphoma, and IgG4-related RPF. The pivotal discriminating feature on MRI is that in vasculitis and infectious aortitis, the primary inflammatory process directly involves the <em>vessel wall itself</em>. In contrast, ECD infiltration is <strong>perivascular (periadventitial)</strong>, and the spared native arterial wall appears hyperintense on T1- and T2-weighted images relative to the hypointense surrounding soft-tissue cuff (Fig 17) (35).</p>
+    <p class="mt-3">Furthermore, thoracic aortic involvement in GCA typically leads to aortic aneurysm formation (37). Takayasu arteritis characteristically affects young females and causes luminal stenosis and wall thickening, whereas ECD affects elderly men and lacks true transmural wall inflammation.</p>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Phân Biệt ECD Với Các Bệnh Viêm Mạch Máu Lớn (GCA &amp; Takayasu)</h3>
+    <p>Tổn thương động mạch chủ trong ECD có thể nhầm lẫn với viêm động mạch tế bào khổng lồ (GCA), viêm động mạch Takayasu, viêm động mạch chủ nhiễm trùng, u lympho và xơ sau phúc mạc liên quan IgG4. Dấu hiệu then chốt trên MRI để phân biệt là: trong các bệnh viêm mạch thực sự và viêm mạch nhiễm trùng, tổn thương viêm xảy ra trực tiếp ngay trên <em>thành mạch máu</em>. Ngược lại, trong ECD, bản chất là <strong>thâm nhiễm quanh mạch (lớp ngoài áo ngoài - periadventitial)</strong>, và thành mạch nguyên vẹn được bảo tồn hiển thị tăng tín hiệu hơn trên T1W và T2W so với dải mô xơ quanh mạch bao bọc bên ngoài (Hình 17) (35).</p>
+    <p class="mt-3">Thêm vào đó, tổn thương động mạch chủ ngực trong GCA thường dẫn tới phình động mạch chủ (37). Viêm động mạch Takayasu chủ yếu gặp ở phụ nữ trẻ và gây hẹp lòng mạch kèm dày nội mạc/thành mạch thực sự, trong khi ECD chủ yếu gặp ở nam giới lớn tuổi và không có viêm xuyên thành mạch.</p>
+  </div>
+</div>
+
+<!-- ========================================== -->
+<!-- PHẦN 5: TỔN THƯƠNG PHỔI - MÀNG PHỔI (PLEUROPULMONARY INVOLVEMENT) -->
+<!-- ========================================== -->
+<div class="section-divider my-10 border-t-2 border-dashed border-rose-200"></div>
+
+<div class="bilingual-section-header bg-gradient-to-r from-cyan-950 via-slate-900 to-sky-950 text-white p-5 rounded-2xl shadow-lg mb-8">
+  <div class="flex items-center gap-3">
+    <span class="flex items-center justify-center w-10 h-10 rounded-xl bg-cyan-500/30 text-cyan-300 font-black text-xl border border-cyan-400/40">04</span>
+    <div>
+      <h2 class="text-xl md:text-2xl font-extrabold text-white tracking-wide">
+        Tổn Thương Phổi - Màng Phổi: Dày Nhẵn Vách Liên Tiểu Thùy Phân Bố Quanh Bạch Huyết
+      </h2>
+      <p class="text-xs md:text-sm text-cyan-200 font-medium">
+        Pleuropulmonary Involvement: Smooth Interlobular Septal Thickening &amp; Perilymphatic Infiltration
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Clinical and High-Resolution CT Manifestations</h3>
+    <p>Pulmonary ECD is frequently asymptomatic or manifests indolently with dyspnea and dry cough (24). Unlike Langerhans cell histiocytosis (LCH), an association with cigarette smoking has not been established (6). Standard chest radiographs are often normal or show subtle reticular markings.</p>
+    <p class="mt-3">At high-resolution CT (HRCT), pulmonary involvement is identified in ~50% of patients and is characterized by <strong>diffuse smooth interlobular septal thickening</strong> (38). The histiocytic infiltrate tracks along lymphatic pathways (perilymphatic distribution), causing smooth thickening of interlobular septa, peribronchovascular interstitium, and visceral pleura (Fig 18) (38). Less common findings include centrilobular nodules, ground-glass opacities, consolidation, and occasional lung cysts (38). Spirometry may reveal a restrictive pattern with reduced DLCO. While progressive fibrosis may develop, end-stage respiratory failure is rare (10).</p>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Đặc Điểm Lâm Sàng &amp; Hình Ảnh CT Độ Phân Giải Cao (HRCT)</h3>
+    <p>Tổn thương phổi trong bệnh ECD thường không có triệu chứng hoặc biểu hiện âm thầm với khó thở khi gắng sức và ho khan (24). Khác biệt hoàn toàn với bệnh mô bào Langerhans (LCH), ECD không hề có mối liên hệ nhân quả với thói quen hút thuốc lá (6). Phim X-quang ngực thẳng thông thường thường bình thường hoặc chỉ thấy các nốt lưới mờ kín đáo.</p>
+    <p class="mt-3">Trên CT ngực độ phân giải cao (HRCT), tổn thương phổi được phát hiện ở khoảng 50% bệnh nhân với đặc trưng nổi bật là <strong>dày nhẵn các vách liên tiểu thùy lan tỏa</strong> (38). Quá trình thâm nhiễm mô bào phân bố dọc theo các đường bạch huyết (phân bố quanh mạch bạch huyết - perilymphatic), gây dày nhẵn vách liên tiểu thùy, mô kẽ quanh bó mạch phế quản và màng phổi tạng (Hình 18) (38). Các dấu hiệu ít gặp hơn bao gồm nốt trung tâm tiểu thùy, kính mờ, đông đặc và đôi khi có nang khí nhỏ (38). Thăm dò chức năng hô hấp có thể thấy hội chứng hạn chế kèm giảm độ khuếch tán khí DLCO. Mặc dù xơ hóa phổi có thể xuất hiện theo thời gian, suy hô hấp giai đoạn cuối rất hiếm gặp (10).</p>
+  </div>
+</div>
+
+<div class="my-8 rounded-2xl border border-slate-200 bg-white p-4 sm:p-6 shadow-sm">
+  <div class="flex justify-center">
+    <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig18_pulmonary_ecd_hrct_smooth_septal_thickening.jpg" alt="Figure 18: Pulmonary ECD HRCT smooth septal thickening" class="w-full max-h-[480px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+  </div>
+  <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 18 / Fig 18: Tổn thương phổi trong bệnh ECD trên CT độ phân giải cao (HRCT)</p>
+  <div class="mt-4 pt-4 border-t border-slate-200 grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
+    <div class="lang-en text-slate-700 leading-relaxed">
+      <p><strong>Figure 18. Pulmonary ECD in a 58-year-old woman presenting with dyspnea.</strong> Axial high-resolution CT image of the chest at the level of the aortic arch shows diffuse smooth thickening of the interlobular septa (black arrows) and left major fissure (white arrow). Diffuse faint ground-glass opacities and bilateral mild visceral pleural thickening are also present. Retroperitoneal biopsy confirmed ECD.</p>
+    </div>
+    <div class="lang-vi text-slate-900 leading-relaxed md:border-l md:border-slate-300 md:pl-4">
+      <p><strong>Hình 18. Tổn thương phổi do ECD ở bệnh nhân nữ 58 tuổi vào viện vì khó thở.</strong> Hình ảnh CT ngực độ phân giải cao cắt ngang ngang mức quai động mạch chủ cho thấy dày nhẵn lan tỏa các vách liên tiểu thùy (các mũi tên đen) và rãnh liên thùy lớn bên trái (mũi tên trắng). Kèm theo đó là các đám mờ dạng kính mờ lan tỏa và dày nhẹ màng phổi tạng hai bên. Bệnh nhân sau đó được sinh thiết khoang sau phúc mạc xác chẩn ECD.</p>
+    </div>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Differential Diagnoses for Smooth Septal Thickening</h3>
+    <p>Differential diagnoses for smooth interlobular septal thickening include pulmonary edema (PE), lymphangitic carcinomatosis (LC), lymphoproliferative disorders (LPD), alveolar proteinosis, pulmonary hemorrhage, and viral pneumonia (40):</p>
+    <ul class="list-disc pl-5 space-y-1.5 my-2">
+      <li><strong>Pulmonary Edema:</strong> Associated with cardiomegaly, pleural effusions, gravitational dependency (lower-lung predominance), and rapid resolution following diuretic therapy.</li>
+      <li><strong>Lymphangitic Carcinomatosis:</strong> Usually asymmetric, patchy, often nodular septal thickening with known primary malignancy (adenocarcinoma of lung, breast, stomach) and hilar/mediastinal adenopathy.</li>
+      <li><strong>Alveolar Proteinosis:</strong> Presents with the classic "crazy-paving" pattern (superimposed ground-glass attenuation on smooth septal thickening with sharp geographic borders).</li>
+      <li><strong>Diagnostic Clue:</strong> Coexistence of pericardial effusion, "coated aorta", or "hairy kidneys" strongly establishes the systemic diagnosis of ECD.</li>
+    </ul>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Chẩn Đoán Phân Biệt Hình Ảnh Dày Nhẵn Vách Liên Tiểu Thùy</h3>
+    <p>Chẩn đoán phân biệt hình ảnh dày nhẵn vách liên tiểu thùy trên HRCT bao gồm phù phổi cấp/huyết động (PE), ung thư di căn theo đường bạch huyết (lymphangitic carcinomatosis - LC), bệnh tăng sinh lympho (LPD), bệnh tích protein phế nang (PAP), xuất huyết phế nang và viêm phổi do virus (40):</p>
+    <ul class="list-disc pl-5 space-y-2 my-2">
+      <li><strong>Phù Phổi Huyết Động:</strong> Thường kèm bóng tim to, tràn dịch màng phổi, phân bố theo trọng lực (ưu thế vùng đáy và phần thấp của phổi), đáp ứng nhanh chóng với thuốc lợi tiểu.</li>
+      <li><strong>Ung Thư Di Căn Đường Bạch Huyết (LC):</strong> Thường không đối xứng hai bên, phân bố dạng mảng, dày vách liên tiểu thùy dạng nốt hoặc chuỗi hạt, có khối u nguyên phát (K phổi, vú, dạ dày) và hạch trung thất/rốn phổi to.</li>
+      <li><strong>Tích Protein Phế Nang (PAP):</strong> Biểu hiện hình ảnh "lát đá vỉa hè" (crazy-paving) kinh điển với nền kính mờ xen kẽ các vách dày nhẵn, ranh giới rõ rệt theo địa dư tiểu thùy phổi.</li>
+      <li><strong>Manh Mối Chẩn Đoán Quyết Định:</strong> Sự hiện diện đồng thời của tràn dịch màng tim, hình ảnh "động mạch chủ bọc" hoặc dấu hiệu "thận lông" ở bụng là chìa khóa vàng xác định chẩn đoán hệ thống ECD.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ========================================== -->
+<!-- PHẦN 6: TỔN THƯƠNG HỆ THẦN KINH TRUNG ƯƠNG (CNS INVOLVEMENT) -->
+<!-- ========================================== -->
+<div class="section-divider my-10 border-t-2 border-dashed border-rose-200"></div>
+
+<div class="bilingual-section-header bg-gradient-to-r from-purple-950 via-slate-900 to-indigo-950 text-white p-5 rounded-2xl shadow-lg mb-8">
+  <div class="flex items-center gap-3">
+    <span class="flex items-center justify-center w-10 h-10 rounded-xl bg-purple-500/30 text-purple-300 font-black text-xl border border-purple-400/40">05</span>
+    <div>
+      <h2 class="text-xl md:text-2xl font-extrabold text-white tracking-wide">
+        Tổn Thương Hệ Thần Kinh Trung Ương: Vùng Dưới Đồi - Tuyến Yên, U Thân Não &amp; Thoái Hóa Thần Kinh
+      </h2>
+      <p class="text-xs md:text-sm text-purple-200 font-medium">
+        Central Nervous System (CNS) Involvement: Hypothalamic-Pituitary, Brainstem Tumors &amp; Neurodegeneration
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Neuro-Axial Spectrum &amp; Diabetes Insipidus</h3>
+    <p>Neurologic involvement is documented in 25%–50% of patients and most commonly affects the hypothalamic-pituitary axis (up to 53%) (41). Other frequent locations include the meninges and neuroparenchyma (42). Intracranial lesions in ECD are rarely isolated; patients with CNS disease almost invariably exhibit concomitant osteosclerosis of paranasal sinus walls and/or orbital lesions (41).</p>
+    <p class="mt-3"><strong>Central diabetes insipidus</strong> is the single earliest systemic manifestation of ECD and may precede the definitive diagnosis by years or even decades (2). The most common MRI feature is <em>loss of the normal T1-hyperintense bright spot</em> of the posterior pituitary gland, followed by infundibular stalk enlargement, sellar/suprasellar masses (Fig 19A), and T2/FLAIR hyperintensity in the hypothalamus (21, 41, 43, 44).</p>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Phổ Tổn Thương Trục Thần Kinh &amp; Đái Tháo Nhạt</h3>
+    <p>Tổn thương hệ thần kinh trung ương (TKTW) được ghi nhận ở 25%–50% bệnh nhân và phổ biến nhất là tại trục dưới đồi - tuyến yên (lên tới 53%) (41). Các vị trí thường gặp khác bao gồm màng não và nhu mô não (42). Các tổn thương nội sọ trong ECD hiếm khi xuất hiện đơn độc; bệnh nhân có tổn thương thần kinh trung ương hầu như luôn có tình trạng xơ đặc xương các thành xoang cạnh mũi và/hoặc khối u hốc mắt đi kèm (41).</p>
+    <p class="mt-3"><strong>Đái tháo nhạt trung ương (Central diabetes insipidus)</strong> là biểu hiện khởi phát sớm nhất của toàn bộ bệnh lý ECD và có thể đi trước thời điểm chẩn đoán xác định nhiều năm, thậm chí hàng thập kỷ (2). Dấu hiệu hình ảnh MRI phổ biến nhất là <em>mất điểm sáng tăng tín hiệu sinh lý trên T1W</em> của thùy sau tuyến yên, tiếp theo là dày cuống tuyến yên, khối u vùng trên yên/hố yên (Hình 19A) và tăng tín hiệu T2/FLAIR ở vùng dưới đồi (21, 41, 43, 44).</p>
+  </div>
+</div>
+
+<div class="my-8 rounded-2xl border border-slate-200 bg-white p-4 sm:p-6 shadow-sm">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+    <div>
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig19_sellar_suprasellar_dural_sinus_choroid_mri.jpg" alt="Figure 19: Sellar suprasellar venous sinus and choroid plexus MRI" class="w-full max-h-[460px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 19 / Fig 19: Tổn thương vùng yên, xoang màng cứng &amp; đám rối màng mạch</p>
+    </div>
+    <div>
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig20_pontocerebellar_lesions_axial_postcontrast_mri.png" alt="Figure 20: Pontocerebellar lesions axial postcontrast MRI" class="w-full max-h-[460px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 20 / Fig 20: Tổn thương dạng u cầu não - tiểu não sau tiêm đối quang từ</p>
+    </div>
+  </div>
+  <div class="mt-4 pt-4 border-t border-slate-200 grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
+    <div class="lang-en text-slate-700 leading-relaxed">
+      <p><strong>Figure 19. Sellar-suprasellar, venous sinus, and choroid plexus involvement by ECD in a 34-year-old man.</strong> (A) Sagittal postcontrast T1-weighted MR image shows enhancing sellar and suprasellar soft tissue replacing the pituitary and its stalk (white arrow). Note expansion of the straight sinus (black arrow) due to enhancing soft tissue extending posteriorly to involve the torcula and superiorly into superior sagittal sinus (arrowhead). (B) Axial postcontrast T1 MR image shows enhancing solid expansive lesions in the choroid plexus of ventricular atria (arrows).</p>
+      <p class="mt-2"><strong>Figure 20. Pontocerebellar lesions in ECD in a 42-year-old woman.</strong> Axial postcontrast T1-weighted MR image shows multiple enhancing nodules in the pons (black arrows) and cerebellar hemispheres (white arrows).</p>
+    </div>
+    <div class="lang-vi text-slate-900 leading-relaxed md:border-l md:border-slate-300 md:pl-4">
+      <p><strong>Hình 19. Tổn thương hố yên - trên yên, xoang tĩnh mạch màng cứng và đám rối màng mạch trong ECD ở bệnh nhân nam 34 tuổi.</strong> (A) MRI sagittal T1 sau tiêm đối quang từ cho thấy mô mềm ngấm thuốc mạnh ở hố yên và trên yên thay thế hoàn toàn tuyến yên và cuống yên (mũi tên trắng). Đáng chú ý là sự giãn nở của xoang thẳng (mũi tên đen) do mô mềm ngấm thuốc lan ra sau vào hội lưu xoang và lên trên vào xoang dọc trên (đầu mũi tên). (B) MRI cắt ngang T1 sau tiêm cho thấy các tổn thương dạng khối đặc ngấm thuốc phì đại ở đám rối màng mạch ngã ba não thất (các mũi tên).</p>
+      <p class="mt-2"><strong>Hình 20. Các tổn thương cầu não - tiểu não do ECD ở bệnh nhân nữ 42 tuổi.</strong> Hình ảnh MRI cắt ngang T1 sau tiêm bộc lộ nhiều nốt ngấm thuốc cản từ trong cầu não (mũi tên đen) và hai bán cầu tiểu não (mũi tên trắng).</p>
+    </div>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Neuroparenchymal ECD: Tumoral vs Neurodegenerative Phenotypes</h3>
+    <p>Similar to LCH, neuroparenchymal ECD displays two primary patterns: <strong>tumoral</strong> or, less commonly, <strong>nontumorous neurodegenerative (atrophic)</strong> changes, predominantly involving the posterior fossa (2, 18):</p>
+    <ul class="list-disc pl-5 space-y-1.5 my-2">
+      <li><strong>Tumoral Phenotype:</strong> Manifests with acute or progressive headaches, ataxia, cranial neuropathies, or focal deficits. Appears as nodular masses with marked postcontrast enhancement in the brainstem, pons, and middle cerebellar peduncles (Figs 20, 21A, 21B) (41). Pontine lesions may exhibit an irregular, transversely oriented enhancement pattern (42). Unlike CLIPPERS or CNS lymphoma, brainstem lesions in ECD do not respond to steroids (45).</li>
+      <li><strong>Neurodegenerative Phenotype:</strong> Characterized by abnormal, symmetric T2/FLAIR hyperintensity in the cerebellar dentate and peridentate nuclei and middle cerebellar peduncles without mass effect or enhancement (41). Clinically leads to severe progressive cerebellar ataxia and pyramidal syndromes. With time, severe cerebellar atrophy ensues (45).</li>
+      <li><strong>Supratentorial Lesions:</strong> Rare white matter infiltrates mimicking multiple sclerosis (Figs 22, 23A) or ependymal enhancement along lateral ventricles with deep extension to lentiform nuclei (42).</li>
+    </ul>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Tổn Thương Nhu Mô Não: Thể Dạng U Phân Biệt Thể Thoái Hóa Thần Kinh</h3>
+    <p>Tương tự như bệnh mô bào Langerhans (LCH), tổn thương nhu mô não trong ECD biểu hiện theo hai kiểu hình chính: <strong>thể dạng u (tumoral)</strong> hoặc <strong>thể thoái hóa thần kinh không tạo u (neurodegenerative/atrophic)</strong>, ưu thế ở hố sau (2, 18):</p>
+    <ul class="list-disc pl-5 space-y-2 my-2">
+      <li><strong>Kiểu Hình Dạng U (Tumoral):</strong> Khởi phát với đau đầu tiến triển, thất điều, liệt dây thần kinh sọ hoặc dấu thần kinh khu trú. Biểu hiện là các nốt khối ngấm thuốc đối quang từ rất mạnh ở thân não, cầu não và cuống tiểu não giữa (Hình 20, 21A, 21B) (41). Tổn thương cầu não đôi khi ngấm thuốc thành dải ngang đặc trưng (42). Khác với hội chứng CLIPPERS hay u lympho thần kinh trung ương, các tổn thương thân não trong ECD không hề đáp ứng với corticosteroid (45).</li>
+      <li><strong>Kiểu Hình Thoái Hóa Thần Kinh:</strong> Biểu hiện bởi tổn thương tăng tín hiệu T2/FLAIR đối xứng hai bên tại nhân răng (dentate nuclei), vùng quanh nhân răng của tiểu não và cuống tiểu não giữa, hoàn toàn KHÔNG có hiệu ứng khối và KHÔNG ngấm thuốc đối quang từ (41). Về lâm sàng dẫn đến thất điều tiểu não và hội chứng tháp tiến triển nặng nề, về sau teo tiểu não nghiêm trọng (45).</li>
+      <li><strong>Tổn Thương Trên Lều:</strong> Các ổ chất trắng hiếm gặp có thể nhầm lẫn với xơ cứng rải rác (MS) (Hình 22, 23A) hoặc ngấm thuốc dưới màng não thất dọc não thất bên lan sâu vào nhân bèo (42).</li>
+    </ul>
+  </div>
+</div>
+
+<div class="my-8 rounded-2xl border border-slate-200 bg-white p-4 sm:p-6 shadow-sm">
+  <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 items-center">
+    <div>
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig21_orbital_pontine_meningeal_mri.jpg" alt="Figure 21: Orbital pontine and meningeal ECD MRI" class="w-full max-h-[460px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 21 / Fig 21: Tổn thương hốc mắt, cầu não &amp; màng não</p>
+    </div>
+    <div>
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig22_intra_axial_supratentorial_flair_t1c_mri.jpg" alt="Figure 22: Intra-axial supratentorial FLAIR T1c MRI" class="w-full max-h-[460px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 22 / Fig 22: Tổn thương nội trục trên lều (FLAIR &amp; T1+C)</p>
+    </div>
+    <div>
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig23_supratentorial_frontal_and_hepatic_ecd_mri_ct.jpg" alt="Figure 23: Supratentorial frontal and hepatic ECD MRI CT" class="w-full max-h-[460px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 23 / Fig 23: Tổn thương thùy trán &amp; gan đa ổ</p>
+    </div>
+  </div>
+  <div class="mt-4 pt-4 border-t border-slate-200 grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
+    <div class="lang-en text-slate-700 leading-relaxed">
+      <p><strong>Figure 21. Orbital, pontine, and meningeal ECD in a 60-year-old man.</strong> (A) Coronal postcontrast T1 MR image demonstrates intraconal soft tissue encasing the optic nerves bilaterally (arrows) causing exophthalmos. (B) Axial postcontrast T1 MR image shows an enhancing pontine mass (arrow). (C) Axial postcontrast T1 MR image shows diffuse pachymeningeal enhancement (arrows).</p>
+      <p class="mt-2"><strong>Figure 22. Intra-axial supratentorial ECD in a 54-year-old man.</strong> (A) Axial FLAIR MR image depicts hyperintense periventricular and subcortical white matter lesions. (B) Axial postcontrast T1 MR image demonstrates multiple enhancing parenchymal nodular lesions.</p>
+      <p class="mt-2"><strong>Figure 23. Supratentorial frontal ECD with hepatic involvement.</strong> (A) Axial postcontrast T1 MR image depicts an enhancing frontal lobe mass (arrow). (B) Coronal postcontrast CT shows multiple hypoattenuating liver lesions (arrows).</p>
+    </div>
+    <div class="lang-vi text-slate-900 leading-relaxed md:border-l md:border-slate-300 md:pl-4">
+      <p><strong>Hình 21. Tổn thương hốc mắt, cầu não và màng não ở bệnh nhân nam 60 tuổi.</strong> (A) MRI coronal T1 sau tiêm cho thấy mô mềm trong chóp cơ bao bọc dây thần kinh thị giác hai bên (các mũi tên) gây lồi mắt. (B) MRI cắt ngang T1 sau tiêm bộc lộ khối ngấm thuốc trong cầu não (mũi tên). (C) MRI cắt ngang T1 sau tiêm thấy dày ngấm thuốc lan tỏa màng não cứng (pachymeningeal) (các mũi tên).</p>
+      <p class="mt-2"><strong>Hình 22. Tổn thương ECD nội trục trên lều ở bệnh nhân nam 54 tuổi.</strong> (A) MRI cắt ngang FLAIR cho thấy các ổ tăng tín hiệu quanh não thất và dưới vỏ. (B) MRI cắt ngang T1 sau tiêm bộc lộ nhiều nốt tổn thương nhu mô não ngấm thuốc đối quang từ.</p>
+      <p class="mt-2"><strong>Hình 23. Tổn thương thùy trán trên lều kèm tổn thương gan đa ổ.</strong> (A) MRI cắt ngang T1 sau tiêm bộc lộ khối ngấm thuốc ở thùy trán (mũi tên). (B) CT đứng ngang sau tiêm cho thấy nhiều tổn thương giảm tỷ trọng rải rác trong gan (các mũi tên).</p>
+    </div>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Extra-Axial &amp; Skull Base Manifestations</h3>
+    <p>Extra-axial ECD manifests as <strong>diffuse pachymeningeal thickening</strong> (Fig 21C) or discrete <strong>meningioma-like dural masses</strong> (Fig 24). Unlike true meningiomas, pachymeningeal lesions of ECD are profoundly hypointense on T2-weighted images, though both show avid postcontrast enhancement. Some ECD lesions exhibit a distinctive "stellate" appearance with central nonenhancing hypointense spicules (42).</p>
+    <p class="mt-3">Skull base involvement is rare (Figs 25, S12), with half having concurrent CNS disease (46). In the cavernous sinus (CS), ECD encases the internal carotid artery, presenting with diplopia and trigeminal neuropathies. At the jugular foramen, it causes dysarthria and vocal cord paralysis (Fig 25B). Choroid plexus lesions show profound T2 hypointensity (Fig 19B) (25). In venous sinuses, intraluminal soft tissue expands the straight, transverse, or superior sagittal sinuses (Fig 19A) (41).</p>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Tổn Thương Ngoài Trục &amp; Nền Sọ</h3>
+    <p>Biểu hiện ngoài trục của ECD bao gồm <strong>dày màng não cứng lan tỏa</strong> (pachymeningeal thickening, Hình 21C) hoặc các <strong>khối màng cứng dạng u màng não</strong> (meningioma-like mass, Hình 24). Khác với u màng não thực sự, các mảng tổn thương màng não trong ECD giảm tín hiệu rất sâu trên T2W (do giàu thành phần collagen xơ và mô bào lắng đọng), mặc dù cả hai đều ngấm thuốc cản từ rất mạnh. Một số tổn thương có dạng hình sao với các gai xơ trung tâm không ngấm thuốc (42).</p>
+    <p class="mt-3">Tổn thương nền sọ khá hiếm (Hình 25), một nửa có tổn thương nội sọ đi kèm (46). Tại xoang hang, mô thâm nhiễm bao bọc động mạch cảnh trong, gây nhìn đôi và tê bì dây thần kinh V. Tại lỗ tĩnh mạch cảnh, bệnh nhân biểu hiện khó nói và liệt dây thanh (Hình 25B). Tổn thương đám rối màng mạch đặc trưng bởi giảm tín hiệu rất mạnh trên T2W (Hình 19B) (25). Tại các xoang tĩnh mạch màng cứng, mô thâm nhiễm làm giãn rộng lòng xoang thẳng, xoang ngang hoặc xoang dọc trên (Hình 19A) (41).</p>
+  </div>
+</div>
+
+<div class="my-8 rounded-2xl border border-slate-200 bg-white p-4 sm:p-6 shadow-sm">
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 items-center">
+    <div class="lg:col-span-1">
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig24_meningioma_like_dural_mass_mri.png" alt="Figure 24: Meningioma-like dural mass MRI" class="w-full max-h-[460px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 24 / Fig 24: Khối màng não dạng u màng não (Meningioma-like dural mass)</p>
+    </div>
+    <div class="lg:col-span-2">
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig25_skull_base_cavernous_sinus_vemurafenib_mri.jpg" alt="Figure 25: Skull base cavernous sinus vemurafenib MRI" class="w-full max-h-[460px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 25 / Fig 25: Tổn thương nền sọ, xoang hang &amp; đáp ứng ngoạn mục với Vemurafenib</p>
+    </div>
+  </div>
+  <div class="mt-4 pt-4 border-t border-slate-200 grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
+    <div class="lang-en text-slate-700 leading-relaxed">
+      <p><strong>Figure 24. Meningioma-like mass in a 44-year-old woman.</strong> Coronal postcontrast T1 MR image shows an intensely enhancing dural-based mass in the high right parietal region (arrow) mimicking a convexity meningioma. T2-hypointensity and history of bone lesions favored ECD.</p>
+      <p class="mt-2"><strong>Figure 25. Skull base involvement in ECD &amp; response to Vemurafenib.</strong> 62-year-old woman. (A) Axial postcontrast T1 MR image shows enhancing soft tissue expanding the left cavernous sinus and encasing the internal carotid artery (white arrow). (B) Coronal postcontrast T1 shows soft tissue in the left jugular foramen (white arrow) causing dysarthria. (C, D) Pretreatment PET/CT shows intense FDG avidity in left cavernous sinus (arrowhead) and clivus (arrow). (E) Post-vemurafenib PET/CT shows complete metabolic response (normalization of FDG avidity).</p>
+    </div>
+    <div class="lang-vi text-slate-900 leading-relaxed md:border-l md:border-slate-300 md:pl-4">
+      <p><strong>Hình 24. Khối màng cứng dạng u màng não ở bệnh nhân nữ 44 tuổi.</strong> Hình ảnh coronal T1 sau tiêm bộc lộ khối đáy bám màng cứng ngấm thuốc mạnh ở vùng đỉnh phải (mũi tên), hình ảnh cực kỳ giống u màng não (meningioma). Tín hiệu giảm trên T2W và tổn thương xương dài đi kèm giúp khẳng định ECD.</p>
+      <p class="mt-2"><strong>Hình 25. Tổn thương nền sọ trong ECD &amp; đáp ứng với Vemurafenib.</strong> Bệnh nhân nữ 62 tuổi. (A) MRI cắt ngang T1 sau tiêm cho thấy mô mềm ngấm thuốc làm giãn rộng xoang hang trái và bọc quanh động mạch cảnh trong (mũi tên trắng). (B) MRI coronal T1 sau tiêm thấy mô thâm nhiễm ở lỗ tĩnh mạch cảnh trái (mũi tên trắng) gây nói khó. (C, D) FDG PET/CT trước điều trị cho thấy tăng chuyển hóa rất mạnh ở xoang hang trái (đầu mũi tên) và dốc nền xương chẩm (mũi tên). (E) PET/CT sau điều trị đích bằng thuốc ức chế BRAF Vemurafenib cho thấy đáp ứng chuyển hóa hoàn toàn (hoạt tính FDG trở về bình thường).</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- ========================================== -->
+<!-- PHẦN 7: TỔN THƯƠNG HỐC MẮT, DA VÀ XOANG CẠNH MŨI -->
+<!-- ========================================== -->
+<div class="section-divider my-10 border-t-2 border-dashed border-rose-200"></div>
+
+<div class="bilingual-section-header bg-gradient-to-r from-amber-950 via-slate-900 to-orange-950 text-white p-5 rounded-2xl shadow-lg mb-8">
+  <div class="flex items-center gap-3">
+    <span class="flex items-center justify-center w-10 h-10 rounded-xl bg-amber-500/30 text-amber-300 font-black text-xl border border-amber-400/40">06</span>
+    <div>
+      <h2 class="text-xl md:text-2xl font-extrabold text-white tracking-wide">
+        Tổn Thương Hốc Mắt, Tổn Thương Da (Xanthelasma-like) &amp; Xoang Cạnh Mũi
+      </h2>
+      <p class="text-xs md:text-sm text-amber-200 font-medium">
+        Orbital, Cutaneous (Xanthelasma-like Lesions) &amp; Paranasal Sinus Involvement
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Orbital Manifestations (25%–30% of Patients)</h3>
+    <p>Orbital ECD affects 25%–30% of patients and characteristically presents with bilateral, painless, slowly progressive exophthalmos (proptosis) (6). The typical imaging appearance is that of an infiltrative soft-tissue mass located within the <strong>intraconal space</strong>, sheathing the optic nerves bilaterally and causing extrinsic displacement of the globes (Figs 21A, 27A) (47, 48).</p>
+    <p class="mt-3">At MRI, the retro-orbital mass is isointense to extraocular muscle on T1-weighted images, hypointense on T2-weighted images (due to dense fibrous tissue and lipid-laden histiocytes), and demonstrates moderate to avid postcontrast enhancement (47). While the extraocular muscles may be encircled, their intrinsic bellies are usually not primarily expanded (unlike Graves ophthalmopathy). Isolated involvement of the lacrimal glands is exceedingly rare (Fig 26) and should raise strong suspicion for IgG4-related ophthalmic disease or sarcoidosis (48).</p>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Biểu Hiện Tại Hốc Mắt (25%–30% Bệnh Nhân)</h3>
+    <p>Tổn thương hốc mắt trong ECD gặp ở 25%–30% bệnh nhân và biểu hiện kinh điển là lồi mắt (exophthalmos/proptosis) tiến triển chậm, không đau ở cả hai bên (6). Hình ảnh đặc trưng trên phim chụp là khối mô mềm thâm nhiễm nằm trong <strong>khoang trong chóp cơ (intraconal space)</strong>, bao bọc quanh các dây thần kinh thị giác hai bên và đẩy lồi nhãn cầu ra trước (Hình 21A, 27A) (47, 48).</p>
+    <p class="mt-3">Trên MRI, khối sau nhãn cầu đồng tín hiệu với cơ vận nhãn trên T1W, giảm tín hiệu rõ trên T2W (do lắng đọng mô sợi xơ dày đặc và mô bào ứ lipid), ngấm thuốc đối quang từ từ trung bình đến mạnh (47). Mặc dù các cơ vận nhãn có thể bị bọc quanh, thân cơ thường không bị phì đại tiên phát (khác biệt với bệnh mắt do tuyến giáp Graves). Tổn thương tuyến lệ đơn độc là cực kỳ hiếm thấy trong ECD (Hình 26); khi gặp dấu hiệu này cần nghĩ nhiều đến bệnh mắt liên quan IgG4 hoặc bệnh sarcoidosis (48).</p>
+  </div>
+</div>
+
+<div class="my-8 rounded-2xl border border-slate-200 bg-white p-4 sm:p-6 shadow-sm">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+    <div>
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig26_lacrimal_gland_and_cheek_soft_tissue_mri.jpg" alt="Figure 26: Lacrimal gland and cheek soft tissue MRI" class="w-full max-h-[460px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 26 / Fig 26: Tổn thương tuyến lệ &amp; mô mềm vùng má</p>
+    </div>
+    <div>
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig27_maxillary_sinus_and_intraconal_orbit_mri_ct.jpg" alt="Figure 27: Maxillary sinus and intraconal orbit MRI and CT" class="w-full max-h-[460px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 27 / Fig 27: Xơ đặc thành xoang hàm trên &amp; mô mềm trong chóp cơ hốc mắt</p>
+    </div>
+  </div>
+  <div class="mt-4 pt-4 border-t border-slate-200 grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
+    <div class="lang-en text-slate-700 leading-relaxed">
+      <p><strong>Figure 26. Lacrimal gland and soft-tissue involvement in ECD.</strong> Coronal postcontrast T1 MR image shows bilateral lacrimal gland enlargement and enhancement (white arrows) without intraconal disease. An additional soft-tissue lesion affects the left cheek (black arrow). Both sites showed avid FDG uptake. Isolated lacrimal involvement is exceedingly rare in ECD.</p>
+      <p class="mt-2"><strong>Figure 27. ECD of the maxillary sinus and orbit.</strong> (A) Coronal T1 MR image shows soft tissue in the intraconal compartment encasing both optic nerves (arrows) and maxillary sinus mucosal thickening (*). (B) Coronal CT (bone window) shows osteosclerosis of bilateral maxillary sinus walls (arrows) and sinus opacification (*).</p>
+    </div>
+    <div class="lang-vi text-slate-900 leading-relaxed md:border-l md:border-slate-300 md:pl-4">
+      <p><strong>Hình 26. Tổn thương tuyến lệ và mô mềm trong bệnh ECD.</strong> Hình ảnh MRI coronal T1 sau tiêm cho thấy phì đại và ngấm thuốc của cả hai tuyến lệ (các mũi tên trắng) mà không có tổn thương trong chóp cơ. Đồng thời có thêm một tổn thương mô mềm ở má trái (mũi tên đen). Cả hai vị trí đều tăng hấp thu FDG. Tổn thương tuyến lệ đơn độc là cực kỳ hiếm thấy trong ECD.</p>
+      <p class="mt-2"><strong>Hình 27. Bệnh ECD tại xoang hàm trên và hốc mắt.</strong> (A) MRI coronal T1W cho thấy mô mềm khoang trong chóp cơ bao bọc dây thần kinh thị giác hai bên (các mũi tên) và dày niêm mạc xoang hàm (*). (B) CT coronal (cửa sổ xương) cho thấy xơ đặc xương các thành xoang hàm trên hai bên (các mũi tên) kèm mờ hoàn toàn lòng xoang (*).</p>
+    </div>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Cutaneous Involvement &amp; Paranasal Sinuses</h3>
+    <p>Cutaneous lesions occur in 20%–30% of patients with ECD (6). The most characteristic finding is <strong>xanthelasma-like lesions (XLLs)</strong>, presenting as yellowish periorbital and eyelid plaques (Fig 28) (49). Other dermatologic manifestations include papules, nodules, or plaques on the trunk, back, and extremities. Importantly, Histiocyte Society consensus guidelines recommend mandatory biopsy of suspicious cutaneous lesions: skin biopsies offer an exceptionally high diagnostic yield with minimal invasiveness, readily enabling tissue confirmation and <em>BRAF V600E</em> mutation testing (6).</p>
+    <p class="mt-3"><strong>Paranasal Sinuses:</strong> Involved in up to 41% of patients, with the maxillary sinuses most commonly affected (50). On CT bone windows, it manifests as marked osteosclerosis of the sinus walls with mucosal thickening (Fig 27B) and prominent FDG avidity (50).</p>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Tổn Thương Da &amp; Xoang Cạnh Mũi</h3>
+    <p>Tổn thương da xuất hiện ở 20%–30% bệnh nhân ECD (6). Biểu hiện đặc trưng nhất là các <strong>ban vàng dạng xanthelasma (xanthelasma-like lesions - XLLs)</strong>, hiển thị dưới dạng các mảng thâm nhiễm màu vàng quanh mắt và mi mắt (Hình 28) (49). Các tổn thương da khác gồm sẩn, cục hoặc mảng thâm nhiễm ở thân mình, lưng và các chi. Hướng dẫn đồng thuận của Hiệp hội Mô bào quốc tế (Histiocyte Society) khuyến cáo bắt buộc sinh thiết mọi tổn thương da nghi ngờ: sinh thiết da mang lại giá trị chẩn đoán xác chẩn mô bệnh học rất cao với can thiệp tối thiểu, cung cấp mẫu bệnh phẩm lý tưởng để xét nghiệm đột biến <em>BRAF V600E</em> (6).</p>
+    <p class="mt-3"><strong>Xoang Cạnh Mũi:</strong> Tổn thương gặp ở tới 41% bệnh nhân, trong đó xoang hàm trên là vị trí phổ biến nhất (50). Trên cửa sổ xương CT, bệnh biểu hiện bằng tình trạng xơ đặc xương dày rõ rệt của các thành xoang kèm dày niêm mạc (Hình 27B) và tăng bắt giữ chất chuyển hóa FDG mạnh mẽ (50).</p>
+  </div>
+</div>
+
+<div class="my-8 rounded-2xl border border-slate-200 bg-white p-4 sm:p-6 shadow-sm">
+  <div class="flex justify-center">
+    <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig28_xanthelasma_like_lesions_eyelid_ct.jpg" alt="Figure 28: Xanthelasma-like lesions eyelid CT" class="w-full max-h-[380px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+  </div>
+  <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 28 / Fig 28: Tổn thương dạng xanthelasma mi mắt trên CT cắt ngang</p>
+  <div class="mt-4 pt-4 border-t border-slate-200 grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
+    <div class="lang-en text-slate-700 leading-relaxed">
+      <p><strong>Figure 28. Xanthelasma-like lesions in a 62-year-old woman.</strong> Axial postcontrast CT image at the level of the orbits shows bilateral soft-tissue thickening of the eyelids (arrows). Clinical examination confirmed yellowish periocular plaques characteristic of cutaneous ECD.</p>
+    </div>
+    <div class="lang-vi text-slate-900 leading-relaxed md:border-l md:border-slate-300 md:pl-4">
+      <p><strong>Hình 28. Tổn thương dạng ban vàng xanthelasma ở bệnh nhân nữ 62 tuổi.</strong> Hình ảnh CT cắt ngang có tiêm cản quang qua hốc mắt cho thấy dày mô mềm hai bên mi mắt (các mũi tên). Khám lâm sàng xác nhận các mảng màu vàng quanh mắt đặc trưng của bệnh ECD ở da.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ========================================== -->
+<!-- PHẦN 8: CÁC VỊ TRÍ TỔN THƯƠNG HIẾM GẶP VÀ TÂN SINH PHỐI HỢP -->
+<!-- ========================================== -->
+<div class="section-divider my-10 border-t-2 border-dashed border-rose-200"></div>
+
+<div class="bilingual-section-header bg-gradient-to-r from-teal-950 via-slate-900 to-emerald-950 text-white p-5 rounded-2xl shadow-lg mb-8">
+  <div class="flex items-center gap-3">
+    <span class="flex items-center justify-center w-10 h-10 rounded-xl bg-teal-500/30 text-teal-300 font-black text-xl border border-teal-400/40">07</span>
+    <div>
+      <h2 class="text-xl md:text-2xl font-extrabold text-white tracking-wide">
+        Các Vị Trí Tổn Thương Hiếm Gặp &amp; Nguy Cơ Mắc Tân Sinh Phối Hợp
+      </h2>
+      <p class="text-xs md:text-sm text-teal-200 font-medium">
+        Miscellaneous Organs (Biliary, Testes, Breast) &amp; Concomitant Hematologic Neoplasms
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Miscellaneous Organ Involvement</h3>
+    <p>ECD can infrequently infiltrate other viscera:</p>
+    <ul class="list-disc pl-5 space-y-1.5 my-2">
+      <li><strong>Testes:</strong> Manifests as bilateral ill-defined hypoechoic nodules with low Doppler vascularity (43). Testicular volume &lt;15 cm³ strongly correlates with primary hypogonadism and low testosterone levels (43). Testicular lesions are especially prevalent in ECD-RDD mixed histiocytosis (19).</li>
+      <li><strong>Biliary System (Secondary Sclerosing Cholangitis):</strong> Periportal histiocytic infiltration produces multifocal intrahepatic biliary strictures and segmental ductal dilation mimicking primary sclerosing cholangitis or IgG4 cholangiopathy (Fig 29) (51).</li>
+      <li><strong>Pancreas &amp; Breast:</strong> Pancreatic ECD manifests as diffuse glandular enlargement or infiltrative peripancreatic soft tissue (52). Breast involvement presents as a spiculated mass or asymmetric density with avid FDG uptake, closely mimicking breast carcinoma (Fig 30).</li>
+    </ul>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Các Vị Trí Tổn Thương Nội Tạng Hiếm Gặp Khác</h3>
+    <p>ECD có thể thâm nhiễm vào nhiều cơ quan nội tạng khác:</p>
+    <ul class="list-disc pl-5 space-y-2 my-2">
+      <li><strong>Tinh Hoàn:</strong> Biểu hiện trên siêu âm là các nốt giảm âm giới hạn không rõ ở cả hai bên tinh hoàn, nghèo mạch máu trên Doppler (43). Thể tích tinh hoàn &lt;15 cm³ có mối liên quan chặt chẽ với suy tuyến sinh dục và giảm nồng độ testosterone máu (43). Tổn thương tinh hoàn đặc biệt hay gặp trong hội chứng chồng lấp ECD-RDD (19).</li>
+      <li><strong>Hệ Đường Mật (Viêm Xơ Đường Mật Thứ Phát):</strong> Thâm nhiễm mô bào quanh khoảng cửa dẫn tới hẹp đường mật trong gan nhiều nơi xen kẽ giãn nở từng đoạn, dễ nhầm với viêm xơ đường mật nguyên phát (PSC) hoặc bệnh đường mật do IgG4 (Hình 29) (51).</li>
+      <li><strong>Tụy &amp; Tuyến Vú:</strong> Tại tụy, ECD gây phì đại lan tỏa tuyến tụy hoặc thâm nhiễm mỡ quanh tụy (52). Tại tuyến vú, tổn thương biểu hiện dưới dạng khối có bờ tua gai hoặc đám bất đối xứng tăng bắt FDG mạnh, rất dễ nhầm lẫn với ung thư vú (Hình 30).</li>
+    </ul>
+  </div>
+</div>
+
+<div class="my-8 rounded-2xl border border-slate-200 bg-white p-4 sm:p-6 shadow-sm">
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 items-center">
+    <div class="lg:col-span-2">
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig29_secondary_sclerosing_cholangitis_lymphoma_mrcp_ct.jpg" alt="Figure 29: Secondary sclerosing cholangitis and lymphoma" class="w-full max-h-[460px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 29 / Fig 29: Viêm xơ đường mật thứ phát &amp; U lympho phối hợp (MRCP &amp; CT)</p>
+    </div>
+    <div class="lg:col-span-1">
+      <img src="/posts/chan-doan-hinh-anh-benh-erdheim-chester-radiographics-2024/fig30_breast_ecd_axial_fdg_pet_ct.jpg" alt="Figure 30: Breast ECD axial FDG PET/CT" class="w-full max-h-[460px] object-contain rounded-xl bg-slate-50 border border-slate-100" />
+      <p class="text-xs text-center text-slate-500 mt-2 font-medium">Hình 30 / Fig 30: Tổn thương tuyến vú trên FDG PET/CT</p>
+    </div>
+  </div>
+  <div class="mt-4 pt-4 border-t border-slate-200 grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
+    <div class="lang-en text-slate-700 leading-relaxed">
+      <p><strong>Figure 29. Secondary sclerosing cholangitis with nonclonal lymphoma in a 65-year-old man.</strong> (A) Pink-white papular skin lesion biopsy indicated ECD. (B) Axial T1 MR image shows subtle periportal soft tissue (arrows). (C) Coronal MRCP MIP demonstrates multifocal intrahepatic biliary strictures (arrows). (D) Chest CT shows a left perihilar mass (black arrow) causing bronchial narrowing (white arrow). (E) Bronchoscopy shows bronchial narrowing. Biopsy proved follicular lymphoma. A clonal relationship between lymphoma and ECD was absent.</p>
+      <p class="mt-2"><strong>Figure 30. Breast ECD.</strong> Axial FDG PET/CT shows intense tracer uptake in a mass-like lesion in the right breast (arrow). Biopsy confirmed ECD.</p>
+    </div>
+    <div class="lang-vi text-slate-900 leading-relaxed md:border-l md:border-slate-300 md:pl-4">
+      <p><strong>Hình 29. Viêm xơ đường mật thứ phát kèm U lympho không đồng dòng ở bệnh nhân nam 65 tuổi.</strong> (A) Sẩn da màu hồng trắng sinh thiết xác chẩn ECD. (B) MRI T1 cắt ngang thấy mô mềm kín đáo quanh khoảng cửa (các mũi tên). (C) MRCP tái tạo MIP cho thấy các vị trí hẹp đường mật trong gan đa ổ (các mũi tên). (D) CT ngực thấy khối rốn phổi trái (mũi tên đen) gây hẹp phế quản (mũi tên trắng). (E) Nội soi phế quản xác nhận hẹp lòng phế quản; sinh thiết bộc lộ u lympho thể nang (follicular lymphoma). Chưa ghi nhận mối quan hệ đồng dòng giữa u lympho và ECD.</p>
+      <p class="mt-2"><strong>Hình 30. Bệnh ECD tại tuyến vú.</strong> FDG PET/CT cắt ngang bộc lộ tổn thương dạng khối tăng chuyển hóa FDG rất mạnh ở vú phải (mũi tên). Sinh thiết khẳng định thâm nhiễm mô bào ECD.</p>
+    </div>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Concomitant Hematologic Neoplasms</h3>
+    <p>Approximately 10% of patients with ECD harbor an associated myeloid neoplasm (12), most commonly <strong>chronic myelomonocytic leukemia (CMML)</strong> (12). Patients diagnosed with a concomitant myeloid neoplasm are significantly older at diagnosis. Furthermore, myeloid neoplasms occur with a higher frequency in ECD-LCH mixed histiocytosis than in isolated ECD (12). Clonal hematopoiesis and shared molecular precursors underline this association.</p>
+    <p class="mt-3">Concomitant lymphoid neoplasms (such as follicular lymphoma or small lymphocytic lymphoma) have also been reported occasionally (Fig 29D, 29E) (54, 55). However, unlike myeloid malignancies, a direct clonal relationship (shared somatic driver mutations) between lymphoid neoplasms and ECD has not been established.</p>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Nguy Cơ Mắc Tân Sinh Huyết Học Đi Kèm</h3>
+    <p>Khoảng 10% bệnh nhân mắc ECD có kèm theo các tân sinh dòng tủy (myeloid neoplasms) (12), phổ biến nhất là <strong>bệnh bạch cầu đơn nhân hạt mạn tính (chronic myelomonocytic leukemia - CMML)</strong> (12). Những bệnh nhân có tân sinh dòng tủy đi kèm thường có độ tuổi tại thời điểm chẩn đoán lớn hơn rõ rệt. Thêm vào đó, tân sinh dòng tủy xuất hiện với tần suất cao hơn trong thể chồng lấp ECD-LCH so với ECD đơn thuần (12). Hiện tượng tạo máu dòng vô tính (clonal hematopoiesis) và tế bào gốc tiền thân chung là cơ chế nền tảng của mối liên quan này.</p>
+    <p class="mt-3">Các tân sinh dòng lympho (như u lympho thể nang hoặc u lympho tế bào nhỏ) cũng được ghi nhận rải rác (Hình 29D, 29E) (54, 55). Tuy nhiên, khác với bệnh lý dòng tủy, mối liên hệ đồng dòng trực tiếp (chia sẻ chung các đột biến sinh ung) giữa u lympho và ECD đến nay vẫn chưa được chứng minh.</p>
+  </div>
+</div>
+
+<!-- ========================================== -->
+<!-- PHẦN 9: ĐIỀU TRỊ ĐÍCH, THEO DÕI ĐÁP ỨNG VÀ TIÊN LƯỢNG -->
+<!-- ========================================== -->
+<div class="section-divider my-10 border-t-2 border-dashed border-rose-200"></div>
+
+<div class="bilingual-section-header bg-gradient-to-r from-blue-950 via-slate-900 to-indigo-950 text-white p-5 rounded-2xl shadow-lg mb-8">
+  <div class="flex items-center gap-3">
+    <span class="flex items-center justify-center w-10 h-10 rounded-xl bg-blue-500/30 text-blue-300 font-black text-xl border border-blue-400/40">08</span>
+    <div>
+      <h2 class="text-xl md:text-2xl font-extrabold text-white tracking-wide">
+        Điều Trị Đích (BRAF / MEK Inhibitors), Đánh Giá Đáp Ứng PERCIST &amp; Tiên Lượng
+      </h2>
+      <p class="text-xs md:text-sm text-blue-200 font-medium">
+        Targeted Therapy, PERCIST Response Criteria &amp; Prognostic Evolution
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Modern Targeted Therapies: BRAF &amp; MEK Inhibitors</h3>
+    <p>With the exception of patients with asymptomatic, isolated nonvital organ involvement (e.g., indolent bone lesions), virtually all patients with ECD require upfront systemic therapy at diagnosis (6). The discovery of <em>BRAF</em> and MAPK mutations revolutionized management from nonspecific immunotherapy to precision oncology:</p>
+    <ul class="list-disc pl-5 space-y-1.5 my-2">
+      <li><strong>Vemurafenib (BRAF Inhibitor):</strong> Approved by the U.S. FDA in 2017 for <em>BRAF V600E</em>-mutated ECD based on dramatic response rates in the VE-BASKET trial (56).</li>
+      <li><strong>Cobimetinib (MEK Inhibitor):</strong> Approved by the FDA in 2022 for all patients with ECD regardless of <em>BRAF</em> status (targets downstream MEK1/2) (45).</li>
+      <li><strong>Conventional Agents:</strong> Interferon-alpha (IFN-α) and pegylated IFN-α remain second-line options when targeted agents are unavailable, though responses are slower and less complete (6).</li>
+      <li><strong>High Relapse Risk on Discontinuation:</strong> Discontinuation of targeted therapy frequently leads to rapid disease relapse; therefore, long-term maintenance therapy is often required (6). Endocrinopathies (such as central DI) rarely resolve even with complete metabolic cure. Surgical debulking and radiation therapy have no curative role in systemic ECD (6).</li>
+    </ul>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Liệu Pháp Nhắm Trúng Đích Hiện Đại: Thuốc Ức Chế BRAF &amp; MEK</h3>
+    <p>Ngoại trừ nhóm bệnh nhân tổn thương cơ quan không tối quan trọng hoàn toàn không có triệu chứng (ví dụ chỉ có tổn thương xương thầm lặng), hầu như toàn bộ bệnh nhân mắc ECD đều cần bắt đầu điều trị toàn thân ngay khi chẩn đoán (6). Phát hiện đột biến gen <em>BRAF</em> và con đường MAPK đã cách mạng hóa toàn bộ phác đồ điều trị, chuyển từ miễn dịch không đặc hiệu sang ung thư học chính xác:</p>
+    <ul class="list-disc pl-5 space-y-2 my-2">
+      <li><strong>Vemurafenib (Thuốc ức chế BRAF):</strong> Được FDA Hoa Kỳ phê duyệt năm 2017 cho bệnh nhân ECD mang đột biến <em>BRAF V600E</em> dựa trên tỷ lệ đáp ứng ngoạn mục trong thử nghiệm lâm sàng VE-BASKET (56).</li>
+      <li><strong>Cobimetinib (Thuốc ức chế MEK):</strong> Được FDA phê duyệt năm 2022 cho mọi bệnh nhân ECD bất kể tình trạng đột biến <em>BRAF</em> (ức chế tầng hạ lưu MEK1/2) (45).</li>
+      <li><strong>Các Thuốc Quy Ước:</strong> Interferon-alpha (IFN-α) và pegylated IFN-α là lựa chọn hàng hai khi không tiếp cận được thuốc đích, tuy nhiên đáp ứng chậm và không trọn vẹn (6).</li>
+      <li><strong>Nguy Cơ Tái Phát Rất Cao Khi Ngừng Thuốc:</strong> Ngừng thuốc đích thường dẫn đến bùng phát bệnh trở lại nhanh chóng; do đó, bệnh nhân thường cần điều trị duy trì lâu dài (6). Các rối loạn nội tiết (như đái tháo nhạt) hiếm khi hồi phục ngay cả khi đã thuyên giảm chuyển hóa hoàn toàn. Phẫu thuật cắt bỏ và xạ trị không có vai trò triệt căn trong ECD hệ thống (6).</li>
+    </ul>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Response Assessment: Functional PERCIST vs Anatomic Discordance</h3>
+    <p>Whole-body FDG PET/CT performed every 2–6 months after initiating therapy is the gold standard for monitoring metabolic response (6). According to modified PET Response Criteria in Solid Tumors (PERCIST):</p>
+    <ul class="list-disc pl-5 space-y-1.5 my-2">
+      <li><strong>Complete Metabolic Response (CMR):</strong> Normalization of FDG avidity of all lesions to equal or below the liver background level (Fig 25E) (56).</li>
+      <li><strong>Partial Metabolic Response (PMR):</strong> A &ge;50% decrease in the sum of standardized uptake values (SUVs) (56).</li>
+      <li><strong>Progressive Metabolic Disease (PMD):</strong> A &ge;50% increase in SUV sum or appearance of new FDG-avid lesions.</li>
+    </ul>
+    <p class="mt-3"><strong>Anatomic vs Metabolic Discordance:</strong> Radiologists must recognize that anatomic response (CT or MRI) lags significantly behind metabolic response. Because ECD heals via extensive fibrosis, soft-tissue masses (such as "hairy kidneys" or "coated aorta") frequently persist morphologically despite complete metabolic cessation (6). Therefore, anatomic, metabolic, and clinical parameters must be interpreted collaboratively.</p>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Đánh Giá Đáp Ứng: Tiêu Chuẩn PERCIST Chuyển Hóa &amp; Sự Bất Tương Xứng Hình Thái</h3>
+    <p>Chụp FDG PET/CT toàn thân thực hiện mỗi 2–6 tháng sau khi khởi động điều trị là tiêu chuẩn vàng để theo dõi đáp ứng chuyển hóa (6). Theo tiêu chuẩn PERCIST cải biên:</p>
+    <ul class="list-disc pl-5 space-y-2 my-2">
+      <li><strong>Đáp Ứng Chuyển Hóa Hoàn Toàn (CMR):</strong> Hoạt tính bắt FDG của mọi tổn thương giảm về ngang bằng hoặc thấp hơn hoạt tính nền của nhu mô gan (Hình 25E) (56).</li>
+      <li><strong>Đáp Ứng Chuyển Hóa Một Phần (PMR):</strong> Giảm &ge;50% tổng chỉ số hấp thu chuẩn hóa (SUV) của các tổn thương (56).</li>
+      <li><strong>Bệnh Chuyển Hóa Tiến Triển (PMD):</strong> Tăng &ge;50% tổng SUV hoặc xuất hiện tổn thương tăng bắt FDG mới.</li>
+    </ul>
+    <p class="mt-3"><strong>Sự Bất Tương Xứng Giữa Hình Thái &amp; Chuyển Hóa:</strong> Bác sĩ chẩn đoán hình ảnh cần lưu ý rằng đáp ứng hình thái (trên CT hoặc MRI) thường chậm hơn rất nhiều so với đáp ứng chuyển hóa. Do cơ chế lành bệnh của ECD là xơ hóa dày đặc, các khối mô mềm (như "thận lông" hay "động mạch chủ bọc") thường tiếp tục tồn tại về mặt hình thái dù hoạt tính chuyển hóa đã hết hoàn toàn (6). Vì vậy, đánh giá phải luôn phối hợp chặt chẽ giữa hình ảnh giải phẫu, chuyển hóa và cải thiện lâm sàng.</p>
+  </div>
+</div>
+
+<div class="bilingual-row grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-start py-4 border-b border-slate-100">
+  <div class="lang-en text-slate-700 text-[15px] leading-relaxed font-normal">
+    <h3 class="text-base font-bold text-slate-900 mb-2">Prognostic Evolution &amp; Radiologist's Takeaways</h3>
+    <p>Historically, ECD carried a grim prognosis, with a 5-year overall survival (OS) of only ~43% in the pre-interferon era (59). However, with the advent of interferon and particularly targeted BRAF/MEK inhibitors, the 5-year OS has dramatically escalated to <strong>83%</strong> in modern cohorts (60).</p>
+    <p class="mt-3">Negative prognostic predictors include neurologic/CNS disease, cardiovascular infiltration, and advanced renal insufficiency (57, 58). Central diabetes insipidus, while debilitating, is not independently associated with mortality (60).</p>
+    <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 mt-4">
+      <h4 class="font-bold text-slate-900 mb-2">Summary of Key Radiologic Takeaways:</h4>
+      <ul class="list-disc pl-5 space-y-1 text-sm text-slate-700">
+        <li><strong>Skeletal:</strong> Bilateral symmetric metadiaphyseal sclerosis of the lower extremities ("hot knees" on bone scan/PET) is pathognomonic (~95%).</li>
+        <li><strong>Abdomen:</strong> "Hairy kidneys" (50%–60%) with perirenal rind, sparing posterior aorta vs RPF.</li>
+        <li><strong>Cardiovascular:</strong> "Coated aorta" (50%–60%) with periadventitial sparing, and right atrial pseudotumor (40%).</li>
+        <li><strong>CNS &amp; Orbit:</strong> Hypothalamic-pituitary axis lesions (DI), brainstem masses, and intraconal retro-orbital infiltration.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="lang-vi text-slate-900 text-[15px] leading-relaxed font-normal md:border-l md:border-slate-200 md:pl-6">
+    <h3 class="text-base font-bold text-blue-900 mb-2">Tiên Lượng Bệnh &amp; Thông Điệp Then Chốt Cho Bác Sĩ CĐHA</h3>
+    <p>Trong quá khứ, ECD có tiên lượng rất ảm đạm với tỷ lệ sống sót toàn bộ (OS) 5 năm chỉ khoảng 43% vào những năm 1996 (59). Tuy nhiên, nhờ sự ra đời của interferon và đặc biệt là các thuốc điều trị đích ức chế BRAF/MEK, tỷ lệ sống sót sau 5 năm hiện nay đã tăng vọt lên tới <strong>83%</strong> (60).</p>
+    <p class="mt-3">Các yếu tố tiên lượng xấu độc lập bao gồm tổn thương hệ thần kinh trung ương, bệnh lý tim mạch nặng nề và suy thận tiến triển (57, 58). Ngược lại, đái tháo nhạt trung ương dù ảnh hưởng chất lượng sống nhưng không làm tăng tử vong độc lập (60).</p>
+    <div class="bg-blue-50/60 p-4 rounded-xl border border-blue-200 mt-4">
+      <h4 class="font-bold text-blue-950 mb-2">Tổng Kết Thông Điệp Cốt Lõi Cho Bác Sĩ Chẩn Đoán Hình Ảnh:</h4>
+      <ul class="list-disc pl-5 space-y-1 text-sm text-blue-900">
+        <li><strong>Xương:</strong> Xơ đặc xương thân - hành xương đối xứng hai bên chi dưới (dấu hiệu "gối nóng" trên xạ hình/PET) là dấu hiệu pathognomonic (~95%).</li>
+        <li><strong>Bụng:</strong> Dấu hiệu "thận lông" (50%–60%) với dải mô xơ quanh thận và bọc quanh ĐMC cả mặt sau.</li>
+        <li><strong>Tim mạch:</strong> Dấu hiệu "động mạch chủ bọc" (50%–60%) bảo tồn thành mạch và khối giả u nhĩ phải (40%).</li>
+        <li><strong>TKTW &amp; Hốc mắt:</strong> Mất điểm sáng thùy sau tuyến yên (gây đái tháo nhạt), khối u thân não và khối trong chóp cơ hốc mắt.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ========================================== -->
+<!-- PHẦN 10: TÀI LIỆU THAM KHẢO (REFERENCES 1-60) -->
+<!-- ========================================== -->
+<div class="section-divider my-10 border-t-2 border-dashed border-rose-200"></div>
+
+<div class="bilingual-section-header bg-gradient-to-r from-slate-900 via-gray-900 to-slate-950 text-white p-5 rounded-2xl shadow-lg mb-8">
+  <div class="flex items-center gap-3">
+    <span class="flex items-center justify-center w-10 h-10 rounded-xl bg-slate-700 text-slate-200 font-black text-xl border border-slate-600">09</span>
+    <div>
+      <h2 class="text-xl md:text-2xl font-extrabold text-white tracking-wide">
+        Tài Liệu Tham Khảo (References)
+      </h2>
+      <p class="text-xs md:text-sm text-slate-300 font-medium">
+        RadioGraphics 2024; 44(9):e240011 • 60 Original Citations
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="references-block bg-white p-6 rounded-2xl border border-slate-200 shadow-sm text-xs text-slate-600 leading-relaxed space-y-2">
+  <ol class="list-decimal pl-5 space-y-1.5 marker:text-slate-400 marker:font-semibold">
+    <li>Chester W. Über Lipoidgranulomatose. Virchows Arch Pathol Anat Physiol Klin Med 1930;279(2):561–602.</li>
+    <li>Erdheim J. Über Lipoidgranulomatose. Frankf Z Pathol 1931;42:27–34.</li>
+    <li>Diamond EL, Dagna L, Walk ED, et al. Consensus guidelines for the diagnosis and clinical management of Erdheim-Chester disease. Blood 2014;124(4):483–492.</li>
+    <li>Haroche J, Arnaud L, Amoura Z. Erdheim-Chester disease. Curr Opin Rheumatol 2012;24(1):53–59.</li>
+    <li>Campochiaro C, Tomelleri A, Cavalli G, Berti A, Dagna L. Erdheim-Chester disease. Eur J Intern Med 2015;26(4):223–229.</li>
+    <li>Goyal G, Heaney ML, Collin M, et al. Erdheim-Chester disease: consensus recommendations for evaluation, diagnosis, and treatment in the molecular era. Blood 2020;135(22):1929–1945.</li>
+    <li>Emile JF, Abla O, Fraitag S, et al. Revised classification of histiocytoses and neoplasms of the macrophage-dendritic cell lineages. Blood 2016;127(22):2672–2681.</li>
+    <li>Haroche J, Charlotte F, Arnaud L, et al. High prevalence of BRAF V600E mutations in Erdheim-Chester disease but not in other non-Langerhans cell histiocytoses. Blood 2012;120(13):2700–2703.</li>
+    <li>Cives M, Simone V, Rizzo FM, et al. Erdheim-Chester disease: a systematic review. Crit Rev Oncol Hematol 2015;95(1):1–11.</li>
+    <li>Haroche J, Cohen-Aubart F, Rollins BJ, et al. Histiocytoses: emerging neoplasia behind treated "auto-immune" syndromes. Lancet Oncol 2017;18(2):e113–e125.</li>
+    <li>Chakraborty R, Hampton OA, Shen X, et al. Mutational landscape of Erdheim-Chester disease and related histiocytic neoplasms. Blood 2014;124(17):2755–2757.</li>
+    <li>Papoiu AD, Vanguri RS, Diamond EL, et al. Concomitant myeloid neoplasms in patients with histiocytosis: a multicenter study. Blood 2021;138(11):980–989.</li>
+    <li>Dion E, Graef C, Haroche J, et al. Imaging of Thoracoabdominal Involvement in Erdheim-Chester Disease. AJR Am J Roentgenol 2004;183(5):1253–1260.</li>
+    <li>Goyal G, Shah MV, Hook CC, et al. Adult histiocytic disorders: a single-institution retrospective review of 127 patients. Am J Hematol 2018;93(4):E86–E89.</li>
+    <li>Estrada-Veras JI, O'Brien KJ, Boyd LC, et al. The clinical spectrum of Erdheim-Chester disease: an observational cohort study. Blood Adv 2017;1(6):357–366.</li>
+    <li>Goyal G, Ravindran A, Young JR, et al. Clinicopathological features, treatment approaches, and outcomes in Erdheim-Chester disease: a multi-institutional study. Am J Hematol 2020;95(12):1509–1516.</li>
+    <li>Hervier B, Haroche J, Arnaud L, et al. Association of both Langerhans cell histiocytosis and Erdheim-Chester disease linked to BRAF V600E mutation. Blood 2014;124(7):1119–1126.</li>
+    <li>Diamond EL, Durham BH, Ulaner GA, et al. Efficacy of MEK inhibition in patients with histiocytic neoplasms. Nature 2019;567(7749):521–524.</li>
+    <li>Durham BH, Lopez Rodrigo E, Picarsic J, et al. Activating mutations in CSF1R and other receptor tyrosine kinases in histiocytic neoplasms. Blood 2019;134(24):2189–2195.</li>
+    <li>Moulis G, Sommet A, Sailler L, et al. Erdheim-Chester disease: a nationwide survey in France. Orphanet J Rare Dis 2014;9:134.</li>
+    <li>Lachenal F, Cotton F, Desmurs-Clavel H, et al. Neurological manifestations and neuroradiological presentation of Erdheim-Chester disease: report of 6 cases and systematic review of the literature. J Neurol 2006;253(10):1260–1267.</li>
+    <li>Mazor RD, Manevich-Mazor M, Shoenfeld Y. Erdheim-Chester Disease: a comprehensive review of the literature. Orphanet J Rare Dis 2013;8:137.</li>
+    <li>Dion E, Graef C, Miquel A, et al. Bone involvement in Erdheim-Chester disease. AJR Am J Roentgenol 2006;186(5):1204–1215.</li>
+    <li>Azevedo T, Brandao S, Duarte H, et al. Erdheim-Chester Disease: A Multimodality Approach. Radiographics 2020;40(5):1370–1386.</li>
+    <li>Wittenberg KH, Swensen SJ, Myers JL. Pulmonary involvement with Erdheim-Chester disease: radiographic and CT findings. AJR Am J Roentgenol 2000;174(5):1327–1331.</li>
+    <li>Arnaud L, Pierre I, Beigelman-Aubry C, et al. Pulmonary involvement in Erdheim-Chester disease: a single-center study of thirty-four patients and a review of the literature. Arthritis Rheum 2010;62(11):3504–3512.</li>
+    <li>Marinelli JP, Peters PA, Vaglio A, et al. Skull Base Manifestations of Erdheim-Chester Disease: A Case Series and Systematic Review. Neurosurgery 2019;85(4):E693–E701.</li>
+    <li>Sedrak P, Ketonen L, Hou P, et al. Erdheim-Chester disease of the central nervous system: new manifestations of a rare disease. AJNR Am J Neuroradiol 2011;32(11):2126–2131.</li>
+    <li>Benson JC, Vaubel R, Ebne BA, et al. Erdheim-Chester Disease. AJNR Am J Neuroradiol 2023;44(5):505–510.</li>
+    <li>Murphey MD, Foreman KL, Klassen-Fischer MK, et al. From the radiologic pathology archives: imaging of osteonecrosis: with autopsied and radiologic-pathologic correlation. Radiographics 2014;34(4):1003–1028.</li>
+    <li>Murphey MD, Flemming DJ, Boyea SR, et al. Enchondroma versus chondrosarcoma in the appendicular skeleton: differentiating features. Radiographics 1998;18(5):1213–1237.</li>
+    <li>Brun AL, Touraine-Moulin F, Frances C, et al. Erdheim-Chester disease: abdominal and pelvic CT findings in 37 patients. Eur Radiol 2008;18(11):2579–2586.</li>
+    <li>Surabhi VR, Menias C, Prasad SR, et al. Neoplastic and nonneoplastic proliferative disorders of the perirenal space: cross-sectional imaging findings. Radiographics 2008;28(4):1005–1017.</li>
+    <li>Sheth S, Ali S, Fishman E. Imaging of renal lymphoma: patterns of disease with pathologic correlation. Radiographics 2006;26(4):1151–1168.</li>
+    <li>Haroche J, Amoura Z, Dion E, et al. Cardiovascular involvement, an overlooked feature of Erdheim-Chester disease: report of 6 prospective cases and a review of the literature. Medicine (Baltimore) 2004;83(6):371–392.</li>
+    <li>Das JP, Xie L, Riedl CC, et al. Cardiothoracic manifestations of Erdheim-Chester disease. Br J Radiol 2019;92(1104):20190473.</li>
+    <li>Bois JP, Anand V, Anavekar NS. Detection of Inflammatory Aortopathies Using Multimodality Imaging. Circ Cardiovasc Imaging 2019;12(7):e008471.</li>
+    <li>Sella E, Lee E, Quint L, Agarwal P. Erdheim-Chester Disease with Pulmonary and Osseous Involvement. Radiol Cardiothorac Imaging 2021;3(4):e210139.</li>
+    <li>Wittenberg KH, Swensen SJ, Myers JL. Pulmonary involvement with Erdheim-Chester disease: radiographic and CT findings. AJR Am J Roentgenol 2000;174(5):1327–1331.</li>
+    <li>Webb WR, Muller NL, Naidich DP. High-resolution CT of the lung. 5th ed. Philadelphia, PA: Lippincott Williams and Wilkins, 2014.</li>
+    <li>Drier A, Haroche J, Savatovsky J, et al. Cerebral, facial, and orbital involvement in Erdheim-Chester disease: CT and MR imaging findings. Radiology 2010;255(2):586–594.</li>
+    <li>Sedrak P, Ketonen L, Hou P, et al. Erdheim-Chester disease of the central nervous system: new manifestations of a rare disease. AJNR Am J Neuroradiol 2011;32(11):2126–2131.</li>
+    <li>Courtillot C, Laugier Robiolle S, Cohen Aubart F, et al. Endocrine Manifestations in a Monocentric Cohort of 64 Patients With Erdheim-Chester Disease. J Clin Endocrinol Metab 2016;101(1):305–313.</li>
+    <li>Shekhar S, Irizarry-Caro JA, Sinaii N, et al. Pituitary Imaging Abnormalities and Related Endocrine Disorders in Erdheim-Chester Disease. Cancers (Basel) 2021;13(16):4126.</li>
+    <li>Benson JC, Vaubel R, Ebne BA, et al. Erdheim-Chester Disease. AJNR Am J Neuroradiol 2023;44(5):505–510.</li>
+    <li>Marinelli JP, Peters PA, Vaglio A, et al. Skull Base Manifestations of Erdheim-Chester Disease: A Case Series and Systematic Review. Neurosurgery 2019;85(4):E693–E701.</li>
+    <li>De Abreu MR, Chung CB, Biswal S, et al. Erdheim-Chester disease: MR imaging, anatomic, and histopathologic correlation of orbital involvement. AJNR Am J Neuroradiol 2004;25(4):627–630.</li>
+    <li>Haroche J, Gueniche Y, Galanaud D, et al. Erdheim-Chester disease: look it in the eye. An orbital magnetic resonance imaging study. Haematologica 2022;107(11):2667–2674.</li>
+    <li>Chasset F, Barete S, Charlotte F, et al. Cutaneous manifestations of Erdheim-Chester disease (ECD): Clinical, pathological, and molecular features in a monocentric series of 40 patients. J Am Acad Dermatol 2016;74(3):513–520.</li>
+    <li>Young JR, Johnson GB, Murphy RC, Go RS, Broski SM. 18F-FDG PET/CT in Erdheim-Chester Disease: Imaging Findings and Potential BRAF Mutation Biomarker. J Nucl Med 2018;59(5):774–779.</li>
+    <li>Hong HG, Chung YE, Park J, Kim YE. Erdheim-Chester Disease Involving the Biliary System and Mimicking Immunoglobulin G4-Related Disease: A Case Report. J Korean Soc Radiol 2023;84(3):757–762.</li>
+    <li>Rafiee MJ, Taylor J, Hickeson M, et al. Pancreatic involvement in Erdheim-Chester disease: Rare presentation of a rare disease. Radiol Case Rep 2023;18(5):1809–1820.</li>
+    <li>Singh A, Gautam D, Gautam P, et al. Localized Erdheim-Chester disease involving the thyroid gland—a case report. Egypt J Otolaryngol 2021;37(1):23.</li>
+    <li>Sakr HI, Buckley K, Baiocchi R, et al. Erdheim Chester disease in a patient with Burkitt lymphoma: a case report and review of literature. Diagn Pathol 2018;13(1):94.</li>
+    <li>Maietta A, Razmpoosh M. Erdheim-Chester Disease and Small Lymphocytic Lymphoma Collision Tumour Presenting as a Perirenal Mass. Case Rep Pathol 2020;2020:3081824.</li>
+    <li>Diamond EL, Subbiah V, Lockhart AC, et al. Vemurafenib for BRAF V600-Mutant Erdheim-Chester Disease and Langerhans Cell Histiocytosis: Analysis of Data From the Histology-Independent, Phase 2, Open-label VE-BASKET Study. JAMA Oncol 2018;4(3):384–388.</li>
+    <li>Arnaud L, Hervier B, Néel A, et al. CNS involvement and treatment with interferon-alpha are independent prognostic factors in Erdheim-Chester disease: a multicenter survival analysis of 53 patients. Blood 2011;117(10):2778–2782.</li>
+    <li>Toya T, Ogura M, Toyama K, et al. Prognostic factors of Erdheim-Chester disease: a nationwide survey in Japan. Haematologica 2018;103(11):1815–1824.</li>
+    <li>Veyssier-Belot C, Cacoub P, Caparros-Lefebvre D, et al. Erdheim-Chester disease. Clinical and radiologic characteristics of 59 cases. Medicine (Baltimore) 1996;75(3):157–169.</li>
+    <li>Cohen-Aubart F, Emile JF, Carrat F, et al. Phenotypes and survival in Erdheim-Chester disease: Results from a 165-patient cohort. Am J Hematol 2018;93(5):E114–E117.</li>
+  </ol>
+</div>
+
+</div>
+`,
+    views: 485,
+    readTime: "28 phút",
+    source: "RadioGraphics 2024; 44(9):e240011 (RSNA)",
+    tags: ["Erdheim-Chester", "ECD", "Hot knees", "Hairy kidneys", "Coated aorta", "BRAF V600E", "RadioGraphics", "PET-CT", "Mô bào"]
+  },
+  {
     id: "post-birads-2025-masses-shape-margin-density",
     title: "Cẩm nang ACR BI-RADS® 2025: Khối u tuyến vú (Masses) – Hình thái, Đường bờ và Đậm độ",
     slug: "birads-2025-khoi-u-tuyen-vu-hinh-thai-duong-bo-dam-do",
